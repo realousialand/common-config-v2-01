@@ -38,7 +38,8 @@ TARGET_SUBJECTS = [
 HISTORY_FILE = "data/history.json"
 DOWNLOAD_DIR = "downloads"
 MAX_ATTACHMENT_SIZE = 19 * 1024 * 1024
-socket.setdefaulttimeout(60)
+# 🟢 调整超时时间，防止无限卡死
+socket.setdefaulttimeout(30) 
 
 client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
@@ -48,7 +49,7 @@ cr = Crossref()
 def get_oa_link_from_doi(doi):
     try:
         email_addr = "bot@example.com"
-        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email={email_addr}", timeout=10)
+        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email={email_addr}", timeout=15)
         data = r.json()
         if data.get('is_oa') and data.get('best_oa_location'):
             return data['best_oa_location']['url_for_pdf']
@@ -58,13 +59,11 @@ def get_oa_link_from_doi(doi):
 def detect_and_extract_all(text):
     results = []
     seen_ids = set() 
-    # 优化后的 ArXiv 匹配
     for match in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.IGNORECASE):
         aid = match.group(1)
         if aid not in seen_ids:
             results.append({"type": "arxiv", "id": aid, "url": f"https://arxiv.org/pdf/{aid}.pdf"})
             seen_ids.add(aid)
-    # DOI 匹配
     for match in re.finditer(r"doi:\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.IGNORECASE):
         doi = match.group(1)
         if doi not in seen_ids:
@@ -74,16 +73,15 @@ def detect_and_extract_all(text):
     return results
 
 def fetch_content(source_data, save_dir=None):
-    # 🟢 修改点：针对 ArXiv 增加 5 秒安全延迟，防止 429 报错
     if source_data.get("type") == "arxiv":
-        print(f"    ⏳ [防封禁] 等待 ArXiv 响应 (5s)...")
+        print(f"    ⏳ [ArXiv] 请求频率保护，等待 5s...")
         time.sleep(5)
 
     if source_data.get("url") and source_data["url"].endswith(".pdf"):
-        print(f"    📥 [下载中] {source_data['url']}")
+        print(f"    📥 [下载] 正在抓取 PDF: {source_data['url']}")
         try:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-            r = requests.get(source_data["url"], headers=headers, timeout=60)
+            r = requests.get(source_data["url"], headers=headers, timeout=45)
             if r.status_code == 200:
                 file_id = source_data.get('id') or hashlib.md5(source_data['url'].encode()).hexdigest()
                 safe_name = re.sub(r'[\\/*?:"<>|]', '_', file_id)
@@ -92,7 +90,7 @@ def fetch_content(source_data, save_dir=None):
                 content = pymupdf4llm.to_markdown(filename)
                 return content, "PDF Full Text", filename
         except Exception as e:
-            print(f"    ⚠️ PDF 下载失败: {e}")
+            print(f"    ⚠️ 下载中断: {e}")
 
     if source_data["type"] == "doi":
         try:
@@ -105,18 +103,10 @@ def fetch_content(source_data, save_dir=None):
     return None, "Unknown", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""
-    请作为学术助手，深度分析以下文献。
-    【来源】：{content_type} | 【链接】：{source_url}
-    ### 🎨 视觉增强：在解释核心机制或数据时，插入 1-2 个 
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
 
 [Image of X]
- 标签。
-    ### 📝 任务：Markdown 输出基本信息、背景、理论假设、数据方法(IV/DID等)、实证结果、结论贡献及局限。
-    ---
-    {content[:50000]}
-    ---
-    """
+ 标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -126,17 +116,6 @@ def analyze_with_llm(content, content_type, source_url=""):
         return completion.choices[0].message.content.strip()
     except Exception as e:
         return f"LLM 分析出错: {e}"
-
-def simple_translate(text):
-    if not text or len(text) < 5: return text
-    try:
-        completion = client.chat.completions.create(
-            model=LLM_MODEL_NAME,
-            messages=[{"role": "system", "content": "Translate title to Chinese."}, {"role": "user", "content": text}],
-            temperature=0.3
-        )
-        return completion.choices[0].message.content.strip()
-    except: return text
 
 # --- 📧 3. 辅助功能 ---
 
@@ -185,63 +164,81 @@ def send_email_with_attachment(subject, body, attachment_zip=None):
 # --- 🚀 4. 主逻辑 ---
 
 def main():
+    print("🎬 程序启动中...")
     if os.path.exists(DOWNLOAD_DIR): shutil.rmtree(DOWNLOAD_DIR)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     processed_ids = load_history()
     
+    print(f"📧 正在尝试连接 IMAP 服务器: {IMAP_SERVER}...")
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+    
+    print(f"🔑 正在登录账户: {EMAIL_USER}...")
     mail.login(EMAIL_USER, EMAIL_PASS)
+    
+    print("📂 已成功登录，正在打开收件箱...")
     mail.select("inbox")
+    
     date_str = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
+    print(f"🔍 正在检索 {date_str} 之后的邮件...")
     _, data = mail.search(None, f'(SINCE "{date_str}")')
     
     pending_sources = []
-    for e_id in data[0].split():
+    email_list = data[0].split()
+    print(f"📨 检索到共 {len(email_list)} 封近期邮件，开始解析关键词...")
+
+    for e_id in email_list:
         _, m_data = mail.fetch(e_id, "(RFC822)")
         msg = email.message_from_bytes(m_data[0][1])
         subj, enc = decode_header(msg["Subject"])[0]
         subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
+        
         if any(k.lower() in subj.lower() for k in TARGET_SUBJECTS):
+            print(f"🎯 命中关键词邮件: {subj[:30]}...")
             sources = detect_and_extract_all(extract_body(msg))
             for s in sources:
                 if get_unique_id(s) not in processed_ids: pending_sources.append(s)
 
-    # 🟢 修改点：限制单次处理25篇，防止 GitHub Actions 超时
-    MAX_PAPERS = 25
+    MAX_PAPERS = 15
     to_process = pending_sources[:MAX_PAPERS]
     if not to_process:
-        print("☕ 没有新文献需要处理。")
+        print("☕ 暂无待处理的新文献，任务结束。")
         return
 
-    print(f"🚀 开始处理 {len(to_process)} 篇新文献...")
+    print(f"📑 队列已就绪: 今日将分析 {len(to_process)} 篇新文献。")
     report_body, all_files, total_new, failed = "", [], 0, []
 
     for src in to_process:
-        uid = get_unique_id(src)
+        print(f"📝 正在处理第 {total_new + len(failed) + 1} 篇: {src.get('id', 'Document')}")
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
         if path: all_files.append(path)
         if content:
+            print("🤖 正在调用 LLM 进行学术分析...")
             ans = analyze_with_llm(content, ctype, src.get('url'))
             if "LLM 分析出错" not in ans:
                 report_body += f"## 📑 {src.get('id', 'Paper')}\n\n{ans}\n\n---\n\n"
-                processed_ids.append(uid)
+                processed_ids.append(get_unique_id(src))
                 total_new += 1
                 continue
         failed.append(src)
 
+    print(f"📊 分析阶段结束。成功: {total_new}, 失败: {len(failed)}")
     final_report = f"# 📅 文献日报 {datetime.date.today()}\n\n" + report_body
+    
     if total_new > 0 or failed:
-        subj = f"🤖 AI 学术日报 (新:{total_new} 失败:{len(failed)})"
-        zip_file = None
-        if all_files:
-            zip_file = "papers.zip"
+        print("📨 正在打包并发送邮件...")
+        zip_file = "papers.zip" if all_files else None
+        if zip_file:
             with zipfile.ZipFile(zip_file, 'w') as zf:
                 for f in all_files: zf.write(f, os.path.basename(f))
         
-        send_email_with_attachment(subj, final_report, zip_file)
+        if send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report, zip_file):
+            print("📧 邮件发送成功！")
+        else:
+            print("❌ 邮件发送失败。")
+        
         if zip_file and os.path.exists(zip_file): os.remove(zip_file)
         save_history(processed_ids)
-        print("🎉 任务圆满完成！")
+        print("💾 历史记录已保存。")
 
 if __name__ == "__main__":
     main()
