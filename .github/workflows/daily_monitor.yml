@@ -2,7 +2,8 @@ name: Daily Email Scanner
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # 02:00 UTC = 10:00 AM Beijing Time
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -19,6 +20,8 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          # 🟢 开启缓存，极大加快后续运行速度
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -29,7 +32,6 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           PYTHONUNBUFFERED: "1"
-          # 🟢 在这里配置模型名字，以后想换模型直接改这里
           LLM_MODEL_NAME: ${{ secrets.LLM_MODEL_NAME }}
         run: python src/email_bot.py
 
