@@ -29,6 +29,7 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          PYTHONUNBUFFERED: "1" # 👈 关键修改：强制实时输出日志，不再卡顿
         run: python src/email_bot.py
 
       - name: Commit and Push History
