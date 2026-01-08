@@ -206,8 +206,8 @@ def main():
             for s in sources:
                 if get_unique_id(s) not in processed_ids: pending_sources.append(s)
 
-    # 🟢 修改点：限制单次处理 15 篇，防止 GitHub Actions 超时
-    MAX_PAPERS = 15
+    # 🟢 修改点：限制单次处理25篇，防止 GitHub Actions 超时
+    MAX_PAPERS = 25
     to_process = pending_sources[:MAX_PAPERS]
     if not to_process:
         print("☕ 没有新文献需要处理。")
