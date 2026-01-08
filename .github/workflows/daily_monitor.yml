@@ -1,0 +1,40 @@
+name: Daily Email Scanner
+
+on:
+  schedule:
+    # 每天 UTC 时间 0点 (北京时间早上8点)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动点击按钮测试
+
+permissions:
+  contents: write  # 必须开启，用于保存历史记录
+
+jobs:
+  scan_and_report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Email Bot
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python src/email_bot.py
+
+      - name: Commit and Push History
+        run: |
+          git config --global user.name 'Paper-Bot-Action'
+          git config --global user.email 'action@github.com'
+          git add data/history.json || echo "No history file to add"
+          git commit -m "🤖 Update processed paper history [skip ci]" || echo "No changes to commit"
+          git push
