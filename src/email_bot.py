@@ -138,6 +138,7 @@ def analyze_with_llm(content, content_type, source_url=""):
     """
     LLM 分析函数 - 包含视觉增强指令
     """
+    # 在 email_bot.py 中找到 analyze_with_llm 函数，替换 prompt 定义：
     prompt = f"""
     请作为我的学术助手（侧重社会科学与定量研究），基于以下提供的文献内容执行深度分析。
     【文献内容来源】：{content_type}
@@ -148,7 +149,7 @@ def analyze_with_llm(content, content_type, source_url=""):
     - **格式**：`
 
 [Image of X]
-`
+`  <-- 保持在一行，不要换行
     - **要求**：X 必须是具体、准确的搜索关键词（英文为佳）。
     - **示例**：
       - 提到 Transformer 架构时：`
@@ -169,10 +170,7 @@ def analyze_with_llm(content, content_type, source_url=""):
     5. **关键实证结果**：(若文中包含 Markdown 表格，请重点解读显著性系数)
     6. **主要结论与贡献**。
     7. **局限性与未来方向**。
-    8. **
-
-[Image of X]
- 插入点**：请在正文中自然穿插上述标签。
+    8. ** 插入点**：请在正文中自然穿插上述标签。
 
     ---
     {content[:55000]} 
