@@ -117,17 +117,27 @@ def analyze_with_llm(content, content_type, source_url=""):
     【文献内容来源】：{content_type}
     【已知链接】：{source_url}
 
-    请按以下步骤执行（请输出 Markdown 格式）：
+    ### 🎨 视觉增强指令 (重要)：
+    在分析过程中，如果遇到**复杂的模型架构、算法流程、生物机制、关键数据图表**或**抽象概念**，为了帮助读者理解，请在相关段落后插入图片搜索标签。
+    - **格式**：`
+` 
+    - **要求**：X 必须是具体、准确的搜索关键词（英文为佳）。
+    - **示例**：
+      - 讲到模型结构时插入：``
+      - 讲到实验结果时插入：``
+    - **原则**：只在有教育/解释意义时插入，不要为了美观而插入。
+
+    ### 📝 任务步骤（请输出 Markdown 格式）：
     1. **确认并复述文献基本信息**：从文中提取并补全：标题、作者、期刊/会议、年份、关键词。
     2. **研究领域与影响力推断**。
     3. **研究现状与缺口**。
-    4. **关键技术与创新**。
+    4. **关键技术与创新**：(在此处若涉及架构，请务必插入  标签)
     5. **核心结论**。
-    6. **术语解释**：解释2-3个专业术语。
+    6. **术语解释**：解释2-3个专业术语 (配合图片标签辅助解释)。
     7. **优势与贡献**。
     8. **局限性与未来方向**。
     9. **相关文献推荐**：推荐3-5篇。
-    10. **学术搜索模拟**：引用网络。
+    10. **学术搜索模拟**：给出3个通过 Google Scholar 或 ArXiv 进一步研究的建议关键词组合，格式为：`- 关键词: [解释]`。
     11. **DOI与链接**：提供DOI或替代链接。
     12. **量化分析提取**（如适用）：Data/Dataset、变量、模型、统计方法、结果。
 
@@ -136,12 +146,18 @@ def analyze_with_llm(content, content_type, source_url=""):
     ---
     """
     try:
+        # 🟢 这里的 MODEL_NAME 读取自环境变量，建议使用 R1 或 V3
         completion = client.chat.completions.create(
-            # 🟢 这里会直接使用上面配置好的 MODEL_NAME
             model=MODEL_NAME,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3
         )
-        return completion.choices[0].message.content
+        analysis = completion.choices[0].message.content
+        
+        # 🟢【清洗逻辑】去除 LLM 习惯性添加的 Markdown 代码块标记
+        analysis = analysis.replace("```markdown", "").replace("```", "").strip()
+        
+        return analysis
+        
     except Exception as e:
         return f"LLM 分析出错: {e}"
