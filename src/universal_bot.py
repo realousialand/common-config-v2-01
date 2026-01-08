@@ -23,7 +23,7 @@ def get_oa_link_from_doi(doi):
     """利用 Unpaywall API 查找 DOI 是否有免费 PDF"""
     try:
         email = "bot@example.com"
-        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email={email}", timeout=5)
+        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email={email}", timeout=15)
         data = r.json()
         if data.get('is_oa') and data.get('best_oa_location'):
             return data['best_oa_location']['url_for_pdf']
