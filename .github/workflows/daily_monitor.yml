@@ -2,12 +2,11 @@ name: Daily Email Scanner
 
 on:
   schedule:
-    # 每天 UTC 时间 0点 (北京时间早上8点)
     - cron: '0 0 * * *'
-  workflow_dispatch: # 允许手动点击按钮测试
+  workflow_dispatch:
 
 permissions:
-  contents: write  # 必须开启，用于保存历史记录
+  contents: write
 
 jobs:
   scan_and_report:
@@ -29,7 +28,9 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          PYTHONUNBUFFERED: "1" # 👈 关键修改：强制实时输出日志，不再卡顿
+          PYTHONUNBUFFERED: "1"
+          # 🟢 在这里配置模型名字，以后想换模型直接改这里
+          LLM_MODEL_NAME: "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B" 
         run: python src/email_bot.py
 
       - name: Commit and Push History
