@@ -7,6 +7,7 @@ import datetime
 import os
 import json
 import hashlib
+import time # 引入time用于延时
 from universal_bot import detect_and_extract, fetch_content, analyze_with_llm
 
 # 配置
@@ -16,7 +17,7 @@ IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 HISTORY_FILE = "data/history.json"
 
-# 你关注的邮件关键词
+# 只保留白名单，不再使用黑名单过滤标题
 TARGET_SUBJECTS = ["文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE", "new research", "Stork"]
 
 def load_history():
@@ -48,7 +49,6 @@ def connect_imap():
 def get_emails_from_today():
     mail = connect_imap()
     mail.select("inbox")
-    # 搜索过去 24 小时的邮件
     date_str = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
     status, messages = mail.search(None, f'(SINCE "{date_str}")')
     
@@ -67,9 +67,12 @@ def get_emails_from_today():
                     if isinstance(subject, bytes):
                         subject = subject.decode(encoding if encoding else "utf-8")
                     
+                    # 只要标题命中关键词，就放入待处理队列
+                    # 具体的垃圾过滤交给后面的提取函数 detect_and_extract 去做
                     if any(keyword.lower() in subject.lower() for keyword in TARGET_SUBJECTS):
-                        print(f"  ✅ 命中: {subject}")
+                        print(f"  ✅ 命中邮件: {subject}")
                         target_emails.append(msg)
+
         except Exception as e:
             print(f"  ⚠️ 读取邮件出错: {e}")
             continue
@@ -83,7 +86,6 @@ def extract_body(msg):
             if ctype == "text/plain" and "attachment" not in str(part.get("Content-Disposition")):
                 return part.get_payload(decode=True).decode()
             elif ctype == "text/html": 
-                # 简单兜底，优先用 text/plain
                 html = part.get_payload(decode=True).decode()
                 return html
     else:
@@ -117,9 +119,15 @@ def main():
         if isinstance(subject, bytes): subject = subject.decode()
         
         body = extract_body(msg)
+        
+        # --- 核心逻辑变化 ---
+        # 我们把邮件正文扔给提取器。
+        # 如果正文里全是“讲座通知”、“教程”，没有 DOI/PDF/ArXiv，
+        # detect_and_extract 会直接返回 None，从而自动跳过。
         source_data = detect_and_extract(body)
         
         if not source_data:
+            print(f"  🗑️ 未发现有效论文链接，跳过: {subject}")
             continue
             
         unique_id = get_unique_id(source_data)
@@ -127,7 +135,12 @@ def main():
             print(f"⏭️ 已存在历史记录: {unique_id}")
             continue
 
-        print(f"🚀 分析中: {subject}")
+        print(f"🚀 有效论文，分析中: {subject}")
+        
+        # 增加延时，保护 IP
+        if source_data.get("url") and "arxiv" in source_data["url"]:
+             time.sleep(3)
+
         content, ctype = fetch_content(source_data)
         
         if content:
