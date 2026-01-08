@@ -47,7 +47,7 @@ def get_unique_id(source_data):
     if source_data.get("id"):
         return source_data["id"]
     elif source_data.get("url"):
-        return hashlib.md5(source_data["url"].encode()).hexdigest()å
+        return hashlib.md5(source_data["url"].encode()).hexdigest()
     return None
 
 def simple_translate(text):
