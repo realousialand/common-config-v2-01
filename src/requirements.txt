@@ -1,0 +1,5 @@
+requests
+pymupdf4llm
+openai
+habanero
+beautifulsoup4
