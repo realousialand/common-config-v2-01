@@ -7,11 +7,12 @@ from habanero import Crossref
 from bs4 import BeautifulSoup
 import time
 
-# 配置
+# --- 核心配置区 ---
 API_KEY = os.environ.get("LLM_API_KEY")
-# 如果你用 OpenAI，请把下一行改成: BASE_URL = "https://api.openai.com/v1" 
-# 并把 model 改成 "gpt-4o-mini"
-BASE_URL = "https://api.deepseek.com" 
+BASE_URL = "https://api.siliconflow.cn/v1"
+
+# 这里填入你指定的硅基流动模型ID
+MODEL_NAME = "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
 
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 cr = Crossref()
@@ -139,7 +140,7 @@ def analyze_with_llm(content, content_type):
     
     try:
         completion = client.chat.completions.create(
-            model="deepseek-chat", # 如果用 OpenAI 改为 "gpt-4o-mini"
+            model=MODEL_NAME, # <--- 这里已经修改为你指定的模型变量
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3
         )
