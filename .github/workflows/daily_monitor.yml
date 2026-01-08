@@ -30,7 +30,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           PYTHONUNBUFFERED: "1"
           # 🟢 在这里配置模型名字，以后想换模型直接改这里
-          LLM_MODEL_NAME: "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B" 
+          LLM_MODEL_NAME: ${{ secrets.LLM_MODEL_NAME }}
         run: python src/email_bot.py
 
       - name: Commit and Push History
