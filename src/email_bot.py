@@ -27,7 +27,7 @@ HISTORY_FILE = "data/history.json"
 DOWNLOAD_DIR = "downloads"
 MAX_ATTACHMENT_SIZE = 19 * 1024 * 1024 
 
-TARGET_SUBJECTS = ["文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE", "new research", "Stork"]
+TARGET_SUBJECTS = ["文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE", "new research", "Stork", "ScienceDirect"]
 
 def load_history():
     if os.path.exists(HISTORY_FILE):
@@ -47,7 +47,7 @@ def get_unique_id(source_data):
     if source_data.get("id"):
         return source_data["id"]
     elif source_data.get("url"):
-        return hashlib.md5(source_data["url"].encode()).hexdigest()
+        return hashlib.md5(source_data["url"].encode()).hexdigest()å
     return None
 
 def simple_translate(text):
