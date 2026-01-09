@@ -18,6 +18,7 @@ from email.header import decode_header
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
+import markdown  # 必须确保 requirements.txt 里有这个库
 
 # --- 🛠️ 1. 核心配置区 ---
 LLM_API_KEY = os.environ.get("LLM_API_KEY")
@@ -43,6 +44,23 @@ socket.setdefaulttimeout(30)
 
 client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
+
+# --- 🎨 邮件样式美化 (CSS) ---
+EMAIL_CSS = """
+<style>
+    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; font-size: 24px; }
+    h2 { color: #e67e22; margin-top: 30px; font-size: 20px; border-left: 5px solid #e67e22; padding-left: 10px; background-color: #fdf2e9; }
+    h3 { color: #34495e; font-size: 18px; margin-top: 25px; }
+    p { margin-bottom: 15px; text-align: justify; }
+    strong { color: #c0392b; font-weight: 700; } /* 重点标红 */
+    blockquote { border-left: 4px solid #bdc3c7; margin: 0; padding-left: 15px; color: #7f8c8d; background-color: #f9f9f9; padding: 10px; }
+    li { margin-bottom: 8px; }
+    hr { border: 0; height: 1px; background: #eee; margin: 30px 0; }
+    code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: Monaco, monospace; font-size: 0.9em; color: #e74c3c; }
+    .image-placeholder { background-color: #e8f6f3; border: 1px dashed #1abc9c; color: #16a085; padding: 15px; text-align: center; border-radius: 5px; margin: 20px 0; font-style: italic; }
+</style>
+"""
 
 # --- 🧠 2. 核心模块 ---
 
@@ -103,9 +121,7 @@ def fetch_content(source_data, save_dir=None):
     return None, "Unknown", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
-
-[Image of X]
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入
  标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
@@ -145,21 +161,58 @@ def extract_body(msg):
         except: pass
     return body_text
 
-def send_email_with_attachment(subject, body, attachment_zip=None):
+# 🟢 核心修改：支持 Markdown 转 HTML 的邮件发送函数
+def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
+    # 1. 将 Markdown 转换为 HTML
+    try:
+        html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
+    except Exception as e:
+        print(f"Markdown 转换失败: {e}")
+        html_content = body_markdown # 降级处理
+
+    # 2. 针对  做特殊渲染
+    # 修正了你原代码中的正则语法错误
+    html_content = re.sub(r'\', r'<div class="image-placeholder">🖼️ 图示建议：\1</div>', html_content)
+
+    # 3. 组合最终的 HTML 邮件正文
+    final_html = f"""
+    <html>
+    <head>{EMAIL_CSS}</head>
+    <body>
+        {html_content}
+        <hr>
+        <p style="font-size: 12px; color: #999; text-align: center;">
+            🤖 Generate by AI Research Assistant | 📅 {datetime.date.today()}
+        </p>
+    </body>
+    </html>
+    """
+
     msg = MIMEMultipart()
-    msg["Subject"], msg["From"], msg["To"] = subject, EMAIL_USER, EMAIL_USER
-    msg.attach(MIMEText(body, "markdown", "utf-8"))
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_USER
+    msg["To"] = EMAIL_USER
+    
+    # 4. 指定内容类型为 'html'
+    msg.attach(MIMEText(final_html, "html", "utf-8"))
+
     if attachment_zip and os.path.exists(attachment_zip):
-        with open(attachment_zip, "rb") as f:
-            part = MIMEApplication(f.read(), Name=os.path.basename(attachment_zip))
-            part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment_zip)}"'
-            msg.attach(part)
+        try:
+            with open(attachment_zip, "rb") as f:
+                part = MIMEApplication(f.read(), Name=os.path.basename(attachment_zip))
+                part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment_zip)}"'
+                msg.attach(part)
+        except Exception as e:
+            print(f"附件挂载失败: {e}")
+
     try:
         with smtplib.SMTP_SSL(SMTP_SERVER, 465) as server:
             server.login(EMAIL_USER, EMAIL_PASS)
             server.sendmail(EMAIL_USER, EMAIL_USER, msg.as_string())
         return True
-    except: return False
+    except Exception as e:
+        print(f"发送失败: {e}")
+        return False
 
 # --- 🚀 4. 主逻辑 ---
 
@@ -187,16 +240,20 @@ def main():
     print(f"📨 检索到共 {len(email_list)} 封近期邮件，开始解析关键词...")
 
     for e_id in email_list:
-        _, m_data = mail.fetch(e_id, "(RFC822)")
-        msg = email.message_from_bytes(m_data[0][1])
-        subj, enc = decode_header(msg["Subject"])[0]
-        subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
-        
-        if any(k.lower() in subj.lower() for k in TARGET_SUBJECTS):
-            print(f"🎯 命中关键词邮件: {subj[:30]}...")
-            sources = detect_and_extract_all(extract_body(msg))
-            for s in sources:
-                if get_unique_id(s) not in processed_ids: pending_sources.append(s)
+        try:
+            _, m_data = mail.fetch(e_id, "(RFC822)")
+            msg = email.message_from_bytes(m_data[0][1])
+            subj, enc = decode_header(msg["Subject"])[0]
+            subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
+            
+            if any(k.lower() in subj.lower() for k in TARGET_SUBJECTS):
+                print(f"🎯 命中关键词邮件: {subj[:30]}...")
+                sources = detect_and_extract_all(extract_body(msg))
+                for s in sources:
+                    if get_unique_id(s) not in processed_ids: pending_sources.append(s)
+        except Exception as e:
+            print(f"解析邮件 {e_id} 时出错: {e}")
+            continue
 
     MAX_PAPERS = 15
     to_process = pending_sources[:MAX_PAPERS]
