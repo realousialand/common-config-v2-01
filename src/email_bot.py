@@ -162,16 +162,18 @@ def extract_body(msg):
     return body_text
 
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    # 🟢 修复后的正则逻辑
+    # 🟢 1. 将 Markdown 转换为 HTML
     try:
         html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
     except Exception as e:
         print(f"Markdown 转换失败: {e}")
         html_content = body_markdown 
 
-    # 🟢 修正：正确的正则表达式，匹配 
+    # 🟢 2. 针对  做特殊渲染
+    # 修复了这里的正则错误
     html_content = re.sub(r'\', r'<div class="image-placeholder">🖼️ 图示建议：\1</div>', html_content)
 
+    # 🟢 3. 组合最终的 HTML 邮件正文
     final_html = f"""
     <html>
     <head>{EMAIL_CSS}</head>
@@ -190,8 +192,10 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     msg["From"] = EMAIL_USER
     msg["To"] = EMAIL_USER
     
+    # 🟢 4. 这里改为 'html'
     msg.attach(MIMEText(final_html, "html", "utf-8"))
 
+    # ... 后面的附件处理逻辑保持不变 ...
     if attachment_zip and os.path.exists(attachment_zip):
         try:
             with open(attachment_zip, "rb") as f:
@@ -200,7 +204,8 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
                 msg.attach(part)
         except Exception as e:
             print(f"附件挂载失败: {e}")
-
+    
+    # ... 发送逻辑保持不变 ...
     try:
         with smtplib.SMTP_SSL(SMTP_SERVER, 465) as server:
             server.login(EMAIL_USER, EMAIL_PASS)
