@@ -219,15 +219,28 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
 
 def main():
     print("🎬 程序启动中...")
-    if os.path.exists(DOWNLOAD_DIR): shutil.rmtree(DOWNLOAD_DIR)
+    if os.path.exists(DOWNLOAD_DIR):
+        shutil.rmtree(DOWNLOAD_DIR)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+    
     processed_ids = load_history()
-    
     print(f"📧 正在尝试连接 IMAP 服务器: {IMAP_SERVER}...")
-    mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     
-    print(f"🔑 正在登录账户: {EMAIL_USER}...")
-    mail.login(EMAIL_USER, EMAIL_PASS)
+    # 🟢 添加重试机制
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+            print(f"🔑 正在登录账户: {EMAIL_USER}...")
+            mail.login(EMAIL_USER, EMAIL_PASS)
+            break
+        except Exception as e:
+            if attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 5
+                print(f"⚠️  连接失败，{wait_time}秒后重试...")
+                time.sleep(wait_time)
+            else:
+                raise e
     
     print("📂 已成功登录，正在打开收件箱...")
     mail.select("inbox")
@@ -239,36 +252,115 @@ def main():
     pending_sources = []
     email_list = data[0].split()
     print(f"📨 检索到共 {len(email_list)} 封近期邮件，开始解析关键词...")
-
-    for e_id in email_list:
+    
+    # 🟢 关键：速率控制参数
+    processed_count = 0
+    failed_count = 0
+    MAX_FAILURES = 5  # 连续失败5次就停止
+    DELAY_BETWEEN_EMAILS = 1.5  # 每封邮件之间等待1.5秒
+    DELAY_AFTER_BATCH = 5  # 每10封邮件后等待5秒
+    BATCH_SIZE = 10
+    OVERQUOTA_COOLDOWN = 30  # 触发限制后等待30秒
+    
+    for idx, e_id in enumerate(email_list, 1):
         try:
-            _, m_data = mail.fetch(e_id, "(RFC822)")
-            msg = email.message_from_bytes(m_data[0][1])
-            subj, enc = decode_header(msg["Subject"])[0]
+            # 🟢 每封邮件之间都要延迟
+            if processed_count > 0:
+                print(f"⏸️  等待 {DELAY_BETWEEN_EMAILS} 秒... ({processed_count}/{len(email_list)})")
+                time.sleep(DELAY_BETWEEN_EMAILS)
+            
+            # 🟢 每处理一批就长时间休息
+            if processed_count > 0 and processed_count % BATCH_SIZE == 0:
+                print(f"🛑 已处理 {processed_count} 封，休息 {DELAY_AFTER_BATCH} 秒避免触发限制...")
+                time.sleep(DELAY_AFTER_BATCH)
+            
+            # 🟢 先获取邮件头部（节省配额）
+            _, header_data = mail.fetch(e_id, "(BODY.PEEK[HEADER])")
+            msg_header = email.message_from_bytes(header_data[0][1])
+            
+            subj, enc = decode_header(msg_header["Subject"])[0]
             subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
             
-            if any(k.lower() in subj.lower() for k in TARGET_SUBJECTS):
-                print(f"🎯 命中关键词邮件: {subj[:30]}...")
-                sources = detect_and_extract_all(extract_body(msg))
-                for s in sources:
-                    if get_unique_id(s) not in processed_ids: pending_sources.append(s)
+            # 🟢 不匹配的邮件直接跳过，不获取完整内容
+            if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS):
+                processed_count += 1
+                continue
+            
+            print(f"🎯 命中关键词邮件: {subj[:30]}...")
+            
+            # 🟢 只有匹配的邮件才获取完整内容
+            time.sleep(1)  # 额外延迟
+            _, m_data = mail.fetch(e_id, "(RFC822)")
+            msg = email.message_from_bytes(m_data[0][1])
+            
+            sources = detect_and_extract_all(extract_body(msg))
+            for s in sources:
+                if get_unique_id(s) not in processed_ids:
+                    pending_sources.append(s)
+            
+            processed_count += 1
+            failed_count = 0  # 重置失败计数
+            
         except Exception as e:
-            print(f"解析邮件 {e_id} 时出错: {e}")
+            error_msg = str(e)
+            print(f"⚠️  解析邮件 {e_id} 时出错: {error_msg}")
+            
+            # 🟢 专门处理 OVERQUOTA 错误
+            if "OVERQUOTA" in error_msg or "exceeded" in error_msg.lower():
+                failed_count += 1
+                print(f"❌ 触发 Gmail 配额限制！({failed_count}/{MAX_FAILURES})")
+                
+                if failed_count >= MAX_FAILURES:
+                    print(f"🛑 连续失败 {MAX_FAILURES} 次，停止本次运行")
+                    print(f"✅ 已成功处理 {processed_count} 封邮件")
+                    break
+                
+                print(f"⏰ 等待 {OVERQUOTA_COOLDOWN} 秒后继续...")
+                time.sleep(OVERQUOTA_COOLDOWN)
+                
+                # 🟢 尝试重新连接
+                try:
+                    mail.close()
+                    mail.logout()
+                    time.sleep(5)
+                    mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+                    mail.login(EMAIL_USER, EMAIL_PASS)
+                    mail.select("inbox")
+                    print("✅ 重新连接成功")
+                except:
+                    print("❌ 重新连接失败，停止运行")
+                    break
+            else:
+                failed_count += 1
+                if failed_count >= MAX_FAILURES:
+                    print(f"🛑 其他错误导致连续失败 {MAX_FAILURES} 次，停止运行")
+                    break
+            
             continue
-
+    
+    # 🟢 关闭连接
+    try:
+        mail.close()
+        mail.logout()
+    except:
+        pass
+    
+    # ... 后续处理 pending_sources 的逻辑保持不变 ...
+    
     MAX_PAPERS = 15
     to_process = pending_sources[:MAX_PAPERS]
     if not to_process:
         print("☕ 暂无待处理的新文献，任务结束。")
         return
-
+    
     print(f"📑 队列已就绪: 今日将分析 {len(to_process)} 篇新文献。")
     report_body, all_files, total_new, failed = "", [], 0, []
-
+    
     for src in to_process:
         print(f"📝 正在处理第 {total_new + len(failed) + 1} 篇: {src.get('id', 'Document')}")
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
-        if path: all_files.append(path)
+        if path:
+            all_files.append(path)
         if content:
             print("🤖 正在调用 LLM 进行学术分析...")
             ans = analyze_with_llm(content, ctype, src.get('url'))
@@ -278,25 +370,28 @@ def main():
                 total_new += 1
                 continue
         failed.append(src)
-
-    print(f"📊 分析阶段结束。成功: {total_new}, 失败: {len(failed)}")
-    final_report = f"# 📅 文献日报 {datetime.date.today()}\n\n" + report_body
     
+    print(f"📊 分析阶段结束。成功: {total_new}, 失败: {len(failed)}")
+    
+    final_report = f"# 📅 文献日报 {datetime.date.today()}\n\n" + report_body
     if total_new > 0 or failed:
         print("📨 正在打包并发送邮件...")
         zip_file = "papers.zip" if all_files else None
         if zip_file:
             with zipfile.ZipFile(zip_file, 'w') as zf:
-                for f in all_files: zf.write(f, os.path.basename(f))
+                for f in all_files:
+                    zf.write(f, os.path.basename(f))
         
         if send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report, zip_file):
             print("📧 邮件发送成功！")
         else:
             print("❌ 邮件发送失败。")
         
-        if zip_file and os.path.exists(zip_file): os.remove(zip_file)
-        save_history(processed_ids)
-        print("💾 历史记录已保存。")
+        if zip_file and os.path.exists(zip_file):
+            os.remove(zip_file)
+    
+    save_history(processed_ids)
+    print("💾 历史记录已保存。")
 
 if __name__ == "__main__":
     main()
