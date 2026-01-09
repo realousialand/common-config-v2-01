@@ -172,14 +172,13 @@ def detect_and_extract_all(text, all_links=None):
             results.append({"type": "doi", "id": doi, "url": oa_url})
             seen_ids.add(doi)
     
-    # 🟢 3. 增强版链接匹配：识别 viewcontent.cgi 等隐蔽 PDF 链接
+    # 🟢 3. 增强版链接匹配
     ACADEMIC_DOMAINS = [
         'emerald.com', 'researchgate.net', 'wiley.com', 'sciencedirect.com', 
         'springer.com', 'tandfonline.com', 'sagepub.com', 'jstor.org', 'oup.com', 
-        'cambridge.org', 'egrove.olemiss.edu'  # 你提供的那个例子
+        'cambridge.org', 'egrove.olemiss.edu'
     ]
     
-    # 需要跳过的“有毒”链接（反爬虫极严，直接放弃治疗，走标题反查）
     BLOCKED_DOMAINS = ['muse.jhu.edu', 'sciencedirect.com/science/article/pii']
     
     if all_links:
@@ -188,30 +187,21 @@ def detect_and_extract_all(text, all_links=None):
                 link = unquote(link)
                 link_lower = link.lower()
 
-                # 排除垃圾链接
                 if any(x in link_lower for x in ['unsubscribe', 'privacy', 'manage', 'twitter', 'facebook']):
                     continue
                 
-                # 跳过必须验证码的链接
                 if any(blk in link_lower for blk in BLOCKED_DOMAINS):
                     continue
 
-                # 🟢 核心修改：判定什么是“像论文的链接”
-                # 1. 明确的 .pdf 结尾
                 is_pdf = link_lower.endswith('.pdf') or '/pdf/' in link_lower
-                # 2. 特殊结构：viewcontent.cgi (大学知识库常见)
                 is_repo_pdf = 'viewcontent.cgi' in link_lower
-                # 3. 包含 content/pdf (Wiley 等常见)
                 is_content_pdf = 'content/pdf' in link_lower
-                # 4. 白名单域名
                 is_academic_web = any(d in link_lower for d in ACADEMIC_DOMAINS)
-                # 5. .edu 结尾的链接，通常是靠谱的
                 is_edu = '.edu' in urlparse(link).netloc
                 
                 if is_pdf or is_repo_pdf or is_content_pdf or is_academic_web or is_edu:
                     link_hash = hashlib.md5(link.encode()).hexdigest()[:10]
                     if link_hash not in seen_ids:
-                        # 尝试解开 Google Scholar 的重定向
                         if "scholar_url?url=" in link:
                             match = re.search(r'url=([^&]+)', link)
                             if match: link = unquote(match.group(1))
@@ -228,7 +218,6 @@ def detect_and_extract_all(text, all_links=None):
     return results
 
 def polite_wait(url):
-    """礼貌访问：防封禁"""
     try:
         if not url: return
         domain = urlparse(url).netloc
@@ -257,7 +246,6 @@ def fetch_content(source_data, save_dir=None):
     }
 
     try:
-        # 使用 HEAD 请求预检太容易被拒，直接 GET 但只读 Header
         r = requests.get(url, headers=headers, timeout=30, allow_redirects=True, stream=True)
         
         if r.status_code == 429:
@@ -268,11 +256,10 @@ def fetch_content(source_data, save_dir=None):
         final_url = r.url
         content_type = r.headers.get('Content-Type', '').lower()
         
-        # 🟢 宽松的 PDF 判定
         is_pdf_response = (
             'application/pdf' in content_type or 
             final_url.endswith('.pdf') or 
-            'viewcontent.cgi' in final_url # 针对 olemiss 等知识库
+            'viewcontent.cgi' in final_url
         )
 
         if is_pdf_response:
@@ -292,7 +279,6 @@ def fetch_content(source_data, save_dir=None):
             except: 
                 return None, "PDF Error", None
 
-        # 如果是网页，尝试提取文本
         elif 'text/html' in content_type:
             print("    🌐 检测到网页，尝试提取正文...")
             html_content = ""
@@ -312,7 +298,6 @@ def fetch_content(source_data, save_dir=None):
         print(f"    ⚠️ 下载失败: {e}")
         if source_data.get("type") == "doi": return fetch_abstract_only(source_data)
 
-    # 最后的保底
     if source_data.get("type") == "doi": return fetch_abstract_only(source_data)
     return None, "Unknown", None
 
@@ -327,7 +312,10 @@ def fetch_abstract_only(source_data):
     except: return None, "Error", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入  标签。输出 Markdown。\n---\n{content[:50000]}"""
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
+
+[Image of X]
+ 标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -354,14 +342,29 @@ def save_history(history_list):
 def get_unique_id(source_data):
     return source_data.get("id") or hashlib.md5(source_data.get("url", "").encode()).hexdigest()
 
+# 🟢 彻底重写的发送函数，防止正则报错
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    try: html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
-    except: html_content = body_markdown
+    try:
+        html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
+    except:
+        html_content = body_markdown
     
-    # 使用双引号避免 SyntaxError
-    pattern = r"\]+)\]"
-    replacement = r'<div class="image-placeholder">🖼️ 图示建议：\1</div>'
-    html_content = re.sub(pattern, replacement, html_content)
+    # 🟢 使用最简单的正则替换，避免 "unbalanced parenthesis"
+    try:
+        # 回调函数，安全提取括号内的内容
+        def replacer(match):
+            # match.group(1) 捕获的是 
+
+[Image of X]
+ 中的 X
+            return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
+        
+        # 匹配模式：
+        html_content = re.sub(r'\]+)\]', replacer, html_content)
+    except Exception as e:
+        print(f"⚠️ 正则替换美化失败（不影响发送）: {e}")
+        # 如果美化失败，直接发原始 html，不抛出异常
+        pass
     
     final_html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{EMAIL_CSS}</head><body>{html_content}<hr><p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant | {datetime.date.today()}</p></body></html>"
     msg = MIMEMultipart()
@@ -427,8 +430,7 @@ def main():
             
             sources = detect_and_extract_all(body_text, all_urls)
             
-            # 🟢 强制保底：只要是目标邮件且没找到链接，就启用 LLM 标题反查
-            # 去掉了对 [PDF] 关键词的检查，对所有目标邮件生效
+            # 🟢 强制保底
             if not sources:
                 print("    💡 无直接链接，尝试 LLM 标题提取...")
                 titles = extract_titles_from_text(body_text)
