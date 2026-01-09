@@ -121,8 +121,11 @@ def fetch_content(source_data, save_dir=None):
     return None, "Unknown", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    # 🟢 修复：确保提示词中包含 的完整指令
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入  标签。输出 Markdown。\n---\n{content[:50000]}"""
+    # 🟢 修复：Prompt 里的双引号和单引号都处理好了
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
+
+[Image of X]
+ 标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -162,20 +165,20 @@ def extract_body(msg):
     return body_text
 
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    # 🟢 1. 将 Markdown 转换为 HTML
+    # 1. 将 Markdown 转换为 HTML
     try:
         html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
     except Exception as e:
         print(f"Markdown 转换失败: {e}")
         html_content = body_markdown 
 
-    # 🟢 2. 针对  做特殊渲染
-    # 我这里使用了拆分变量的写法，百分百避免 SyntaxError
-    pattern = r'\'
+    # 🟢 2. 终极修复：使用双引号 r"..." 避免单引号冲突
+    # 这样就算 pattern 内部有方括号，也不会和 python 的单引号冲突
+    pattern = r"\"
     replacement = r'<div class="image-placeholder">🖼️ 图示建议：\1</div>'
     html_content = re.sub(pattern, replacement, html_content)
 
-    # 🟢 3. 组合最终的 HTML 邮件正文
+    # 3. 组合最终的 HTML 邮件正文
     final_html = f"""
     <html>
     <head>{EMAIL_CSS}</head>
@@ -194,7 +197,7 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     msg["From"] = EMAIL_USER
     msg["To"] = EMAIL_USER
     
-    # 🟢 4. 指定为 html 格式
+    # 4. 指定为 html 格式
     msg.attach(MIMEText(final_html, "html", "utf-8"))
 
     # ... 后面的附件处理逻辑保持不变 ...
