@@ -121,8 +121,8 @@ def fetch_content(source_data, save_dir=None):
     return None, "Unknown", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入
- 标签。输出 Markdown。\n---\n{content[:50000]}"""
+    # 🟢 修复：补全了 的文本，之前的被截断了
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入  标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -162,18 +162,17 @@ def extract_body(msg):
     return body_text
 
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    # 🟢 1. 将 Markdown 转换为 HTML
+    # 1. 将 Markdown 转换为 HTML
     try:
         html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
     except Exception as e:
         print(f"Markdown 转换失败: {e}")
         html_content = body_markdown 
 
-    # 🟢 2. 针对  做特殊渲染
-    # 修复了这里的正则错误
+    # 🟢 2. 修复：这里是正确的正则表达式
     html_content = re.sub(r'\', r'<div class="image-placeholder">🖼️ 图示建议：\1</div>', html_content)
 
-    # 🟢 3. 组合最终的 HTML 邮件正文
+    # 3. 组合最终的 HTML 邮件正文
     final_html = f"""
     <html>
     <head>{EMAIL_CSS}</head>
