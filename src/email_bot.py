@@ -268,6 +268,13 @@ def fetch_content(source_data, save_dir=None):
                 for chunk in r.iter_content(chunk_size=8192):
                     f.write(chunk)
             
+            # 🟢 [新增过滤] 检查文件大小，过滤“假 PDF”
+            file_size = os.path.getsize(filename)
+            if file_size < 2000: # 小于 2KB 的通常是错误页面
+                print(f"    ⚠️ 文件过小 ({file_size} bytes)，疑似无效网页/反爬拦截，跳过。")
+                os.remove(filename)
+                return None, "Fake PDF", None
+
             try:
                 content = pymupdf4llm.to_markdown(filename)
                 print(f"    ✅ PDF 解析成功，长度: {len(content)}")
@@ -286,6 +293,11 @@ def fetch_content(source_data, save_dir=None):
             text_content = re.sub(r'<style.*?>.*?</style>', '', text_content, flags=re.DOTALL)
             text_content = re.sub(r'<[^<]+?>', '\n', text_content)
             text_content = re.sub(r'\n+', '\n', text_content).strip()
+            
+            # 网页内容太短也过滤
+            if len(text_content) < 500:
+                print(f"    ⚠️ 网页内容过短 ({len(text_content)} chars)，跳过。")
+                return None, "Content Too Short", None
             
             print(f"    ✅ 网页文本提取成功，长度: {len(text_content)}")
             return text_content, "Web Page Text", None
@@ -308,7 +320,9 @@ def fetch_abstract_only(source_data):
     except: return None, "Error", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
+
+[Image of X]
  标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
@@ -342,7 +356,7 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     except:
         html_content = body_markdown
     
-    # 🟢 修复正则问题：使用安全的替换逻辑
+    # 🟢 修复了你贴的代码里坏掉的正则
     try:
         def replacer(match):
             return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
