@@ -161,20 +161,17 @@ def extract_body(msg):
         except: pass
     return body_text
 
-# 🟢 核心修改：支持 Markdown 转 HTML 的邮件发送函数
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    # 1. 将 Markdown 转换为 HTML
+    # 🟢 修复后的正则逻辑
     try:
         html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
     except Exception as e:
         print(f"Markdown 转换失败: {e}")
-        html_content = body_markdown # 降级处理
+        html_content = body_markdown 
 
-    # 2. 针对  做特殊渲染
-    # 修正了你原代码中的正则语法错误
+    # 🟢 修正：正确的正则表达式，匹配 
     html_content = re.sub(r'\', r'<div class="image-placeholder">🖼️ 图示建议：\1</div>', html_content)
 
-    # 3. 组合最终的 HTML 邮件正文
     final_html = f"""
     <html>
     <head>{EMAIL_CSS}</head>
@@ -193,7 +190,6 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     msg["From"] = EMAIL_USER
     msg["To"] = EMAIL_USER
     
-    # 4. 指定内容类型为 'html'
     msg.attach(MIMEText(final_html, "html", "utf-8"))
 
     if attachment_zip and os.path.exists(attachment_zip):
