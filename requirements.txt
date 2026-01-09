@@ -4,3 +4,4 @@ pymupdf4llm
 PyGithub
 habanero
 beautifulsoup4
+markdown
