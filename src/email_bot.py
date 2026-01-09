@@ -33,7 +33,7 @@ SMTP_SERVER = "smtp.gmail.com"
 TARGET_SUBJECTS = [
     "文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE", 
     "new research", "Stork", "ScienceDirect", "Chinese politics", 
-    "Imperial history", "Causal inference"
+    "Imperial history", "Causal inference", "new results"
 ]
 
 HISTORY_FILE = "data/history.json"
