@@ -71,24 +71,37 @@ def clean_google_url(url):
     except: pass
     return url
 
-# --- 启动自检 ---
 def startup_check():
+    """启动自检：验证关键依赖和配置"""
     logger.info("🔧 执行启动自检...")
+    
     try:
-        # 1. 验证正则 (使用拼接字符串防止截断)
-        tag_part = "
-
-[Image of Graph]
-"
-        test_str = "Test " + tag_part
-        re.sub(r'\]+)\]', 'IMG', test_str)
+        # 1. 验证环境变量
+        if not LLM_API_KEY:
+            raise ValueError("环境变量 LLM_API_KEY 未设置")
+        if not EMAIL_USER or not EMAIL_PASS:
+            raise ValueError("邮箱凭证 EMAIL_USER/EMAIL_PASS 未设置")
         
-        # 2. 验证 URL 清洗
+        # 2. 验证目录权限
+        os.makedirs(DATA_DIR, exist_ok=True)
+        os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+        
+        # 3. 测试 URL 清洗功能
         test_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
-        if "arxiv.org" not in clean_google_url(test_url):
-            raise ValueError("URL清洗失败")
-            
+        cleaned = clean_google_url(test_url)
+        if "arxiv.org" not in cleaned:
+            raise ValueError(f"URL 清洗失败: {test_url} -> {cleaned}")
+        
+        # 4. 测试 LLM API 连通性（可选，建议注释掉以加快启动）
+        # logger.info("    测试 LLM API 连接...")
+        # client.chat.completions.create(
+        #     model=LLM_MODEL_NAME,
+        #     messages=[{"role": "user", "content": "test"}],
+        #     max_tokens=5
+        # )
+        
         logger.info("✅ 自检通过")
+        
     except Exception as e:
         logger.critical(f"❌ 自检失败: {e}")
         exit(1)
