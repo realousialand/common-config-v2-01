@@ -88,7 +88,7 @@ EMAIL_CSS = """
 # --- 🧠 2. 核心模块 ---
 
 def translate_title(text):
-    if not text or len(text) < 5: return ""
+    if not text or len(text) < 5 or "Unknown" in text: return ""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -100,7 +100,8 @@ def translate_title(text):
 
 def get_metadata_safe(source_data):
     title = source_data.get('title', '')
-    if title: return title
+    if title and "Unknown" not in title: return title
+    
     s_id = source_data.get('id', '')
     s_type = source_data.get('type', '')
     if s_type == 'doi':
@@ -108,8 +109,7 @@ def get_metadata_safe(source_data):
             w = cr.works(ids=s_id)
             title = w['message'].get('title', [''])[0]
         except: pass
-    elif s_type == 'arxiv':
-        title = f"ArXiv Paper {s_id}"
+    
     return title or "Unknown Title"
 
 def get_oa_link_from_doi(doi):
@@ -258,7 +258,6 @@ def polite_wait(url):
         DOMAIN_LAST_ACCESSED[domain] = time.time()
     except: pass
 
-# 🟢 辅助函数：统一生成文件名
 def get_safe_filename(source_data, save_dir):
     url = source_data.get('url', '')
     file_id = source_data.get('id') or hashlib.md5(url.encode()).hexdigest()[:10]
@@ -289,7 +288,6 @@ def fetch_content(source_data, save_dir=None):
 
         if is_pdf_response:
             print("    📥 确认 PDF，下载中...")
-            # 🟢 使用统一的文件名
             filename = get_safe_filename(source_data, save_dir)
             with open(filename, "wb") as f:
                 for chunk in r.iter_content(chunk_size=8192): f.write(chunk)
@@ -339,18 +337,22 @@ def fetch_abstract_only(source_data):
         return abstract, "Abstract Only", None
     except: return None, "Error", None
 
+# 🟢 核心修改：要求 LLM 提取真实标题并返回
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""你是一名专业的社会科学/计算机科学研究助理。请用【中文】对以下文献内容进行深度分析。
+    prompt = f"""你是一名专业的社会科学/计算机科学研究助理。请分析以下文献内容。
+
+    ❗重要：请务必先提取论文的【真实完整英文标题】，放在第一行，格式为 "TITLE: <Title Content>"。
     
     任务要求：
-    1. 总结研究背景、核心问题、方法论和主要结论。
-    2. 提取关键机制或理论创新点。
-    3. 如果正文中有提到具体的图表或模型架构，请在解释该部分时插入 
+    1. 第一行必须输出真实标题。
+    2. 深度分析研究背景、核心问题、方法论、结论。
+    3. 提取关键机制或理论创新点。
+    4. 如果正文中有提到具体的图表或模型架构，请在解释该部分时插入 
 
 [Image of X]
  标签（X为图表内容的简短英文描述）。
-    4. 保持学术性，逻辑清晰。
-    5. 输出格式为 Markdown。
+    5. 全文使用【中文】回答（除第一行标题外）。
+    6. 输出 Markdown 格式。
 
     文献来源：{content_type}
     文章内容：
@@ -362,9 +364,22 @@ def analyze_with_llm(content, content_type, source_url=""):
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3
         )
-        return completion.choices[0].message.content.strip()
+        full_response = completion.choices[0].message.content.strip()
+        
+        # 🟢 解析标题和正文
+        real_title = "Unknown Title"
+        body_content = full_response
+        
+        match = re.match(r"^TITLE:\s*(.*)", full_response, re.IGNORECASE)
+        if match:
+            real_title = match.group(1).strip()
+            # 移除第一行标题，只保留正文
+            body_content = full_response.split('\n', 1)[1].strip()
+            
+        return real_title, body_content
+        
     except Exception as e:
-        return f"LLM 分析出错: {e}"
+        return None, f"LLM 分析出错: {e}"
 
 def generate_failed_report(failed_list):
     if not failed_list: return ""
@@ -491,7 +506,7 @@ def run_task():
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # 🟢 加载分析记录，用于查重
+    # 🟢 加载分析记录
     history2 = load_json(HISTORY_2_FILE)
     analyzed_ids = {item['id'] for item in history2}
     
@@ -554,10 +569,6 @@ def run_task():
                 s['id'] = u_id
                 if 'title' not in s: s['title'] = get_metadata_safe(s)
                 
-                # 🟢 队列查重逻辑：
-                # 1. 之前没分析过 (processed_ids)
-                # 2. 不在当前队列里 (queue_ids)
-                # 3. 不在 history2 里 (analyzed_ids) -- 双重保险
                 if u_id not in processed_ids and u_id not in queue_ids and u_id not in analyzed_ids:
                     s['timestamp_added'] = str(datetime.datetime.now())
                     queue_pending.append(s)
@@ -597,17 +608,10 @@ def run_task():
     for src in to_process:
         print(f"📝 处理: {src.get('id')}")
         
-        # 🟢 消费时再次查重：如果已经分析过，直接跳过
         if src['id'] in analyzed_ids:
             print(f"    ⏩ [跳过] 已分析过 (History 2)")
-            processed_now.append(src['id']) # 标记为已处理，以便从队列移出
-            continue
+            processed_now.append(src['id']); continue
 
-        if not src.get('trans_title') and src.get('title'):
-             src['trans_title'] = translate_title(src['title'])
-             print(f"    🇨🇳 标题翻译: {src['trans_title'][:20]}...")
-
-        # 获取内容 (fetch_content 内部已无本地复用逻辑，每次都下载)
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
         processed_now.append(src['id'])
         
@@ -626,8 +630,16 @@ def run_task():
 
         if content:
             print("🤖 AI 分析中...")
-            ans = analyze_with_llm(content, ctype, src.get('url'))
-            if "LLM 分析出错" not in ans:
+            # 🟢 核心修改：接收标题和正文
+            real_title, ans = analyze_with_llm(content, ctype, src.get('url'))
+            
+            if ans and "LLM 分析出错" not in ans:
+                # 🟢 如果 LLM 提取到了真实标题，覆盖旧标题
+                if real_title and "Unknown" not in real_title:
+                    src['title'] = real_title
+                    # 重新翻译真实标题
+                    src['trans_title'] = translate_title(real_title)
+                
                 paper_html = f"""
                 <div class="paper-card">
                     <div class="paper-title">{src.get('title', src['id'])}</div>
@@ -699,7 +711,6 @@ def run_task():
             if os.path.exists(zip_name): os.remove(zip_name)
             time.sleep(10)
     
-    # 🟢 只有邮件全部发送成功，才从队列中永久移除
     if all_emails_sent:
         print(f"💾 [邮件发送成功] 更新队列：移除已处理 {len(to_process)} 篇，剩余 {len(remaining_queue)} 篇。")
         save_json(remaining_queue, QUEUE_FILE)
