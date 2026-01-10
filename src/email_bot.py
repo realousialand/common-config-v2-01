@@ -22,6 +22,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from urllib.parse import unquote, urlparse, parse_qs
 import markdown
+from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 # --- 配置 ---
@@ -61,24 +62,11 @@ def clean_google_url(url):
     except: pass
     return url
 
-# 🟢 新增：内容合法性检测器
 def is_valid_academic_text(text):
-    if not text or len(text) < 500: 
-        return False
-    
-    # 垃圾网页特征词库
-    junk_triggers = [
-        "access denied", "security check", "human verification",
-        "cloudflare", "403 forbidden", "404 not found",
-        "robot", "captcha", "please enable cookies",
-        "access to this page has been denied",
-        "click here to download", "redirecting"
-    ]
-    
-    # 检查前1000个字符（通常错误信息在开头）
+    if not text or len(text) < 500: return False
+    junk_triggers = ["access denied", "security check", "human verification", "cloudflare", "403 forbidden", "404 not found", "robot", "captcha", "please enable cookies"]
     head = text[:1000].lower()
-    if any(t in head for t in junk_triggers):
-        return False
+    if any(t in head for t in junk_triggers): return False
     return True
 
 def startup_check():
@@ -89,11 +77,6 @@ def startup_check():
         if "Image" not in test_str: raise ValueError("String Error")
         url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
         if "arxiv.org" not in clean_google_url(url): raise ValueError("URL Clean Error")
-        
-        # 测试验证器
-        if is_valid_academic_text("Access Denied. Cloudflare ID: 123"):
-            raise ValueError("Validator Failed")
-            
         logger.info("✅ 自检通过")
     except Exception as e:
         logger.critical(f"❌ 自检失败: {e}")
@@ -264,39 +247,86 @@ def get_path(pid):
     safe = re.sub(r'[\\/*?:"<>|]', '_', pid)
     return os.path.join(DOWNLOAD_DIR, f"{safe}.pdf")
 
+# 🟢 核心功能：嗅探 Stork/Publisher 的 PDF 链接
+def sniff_real_pdf_link(initial_url, html_content):
+    try:
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # 🟢 1. 精确命中 Stork 专用的 ID (你刚提供的线索)
+        stork_btn = soup.find('a', id='full_text_available_anchor', href=True)
+        if stork_btn:
+            logger.info("    🎯 [Stork] 命中 full_text_available_anchor")
+            return stork_btn['href']
+
+        # 2. 查找标准学术元数据
+        meta_pdf = soup.find('meta', {'name': 'citation_pdf_url'})
+        if meta_pdf and meta_pdf.get('content'):
+            return meta_pdf['content']
+            
+        # 3. 模糊查找 PDF 链接
+        for a in soup.find_all('a', href=True):
+            href = a['href'].lower()
+            text = a.get_text().lower()
+            # 检查链接本身或里面的图片 alt
+            img = a.find('img')
+            alt_text = img.get('alt', '').lower() if img else ""
+            
+            if '.pdf' in href:
+                if 'download' in text or 'full text' in text or 'pdf' in text or 'full text' in alt_text:
+                    if href.startswith('/'):
+                        parsed = urlparse(initial_url)
+                        return f"{parsed.scheme}://{parsed.netloc}{a['href']}"
+                    return a['href']
+                
+    except Exception as e:
+        logger.warning(f"    ⚠️ 嗅探失败: {e}")
+    return None
+
 def fetch_content(item):
     url = clean_google_url(item.get('url'))
     if not url:
         if item.get("type") == "doi": return fetch_abstract(item)
         return None, "No URL", None
+    
     logger.info(f"    🔍 [下载] {url[:40]}...")
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30, stream=True)
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}, timeout=30, stream=True, allow_redirects=True)
+        
         if r.status_code == 429: return None, "Rate Limit", None
+        
+        final_url = r.url
         ct = r.headers.get('Content-Type', '').lower()
-        if 'application/pdf' not in ct and not url.lower().endswith('.pdf'):
+        
+        # 情况 A: 直接是 PDF
+        if 'application/pdf' in ct or final_url.lower().endswith('.pdf'):
+            fp = get_path(item['id'])
+            with open(fp, "wb") as f:
+                for chunk in r.iter_content(8192): f.write(chunk)
+            if os.path.getsize(fp) < 2000:
+                os.remove(fp)
+                return None, "Too Small", None
+            return pymupdf4llm.to_markdown(fp), "PDF", fp
+            
+        # 情况 B: 是网页，尝试嗅探
+        else:
+            logger.info("    🕵️ 这是一个网页，尝试嗅探 PDF 链接...")
+            html_text = r.text
+            real_pdf_url = sniff_real_pdf_link(final_url, html_text)
+            
+            if real_pdf_url:
+                logger.info(f"    🚀 嗅探成功，二次下载: {real_pdf_url[:40]}...")
+                r2 = requests.get(real_pdf_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30, stream=True)
+                if 'application/pdf' in r2.headers.get('Content-Type', '').lower():
+                    fp = get_path(item['id'])
+                    with open(fp, "wb") as f:
+                        for chunk in r2.iter_content(8192): f.write(chunk)
+                    if os.path.getsize(fp) > 2000:
+                        return pymupdf4llm.to_markdown(fp), "PDF", fp
+            
+            logger.info("    ⚠️ 无法下载 PDF，转为摘要分析")
             if item.get("type") == "doi": return fetch_abstract(item)
             return None, "Not PDF", None
-        fp = get_path(item['id'])
-        with open(fp, "wb") as f:
-            for chunk in r.iter_content(8192): f.write(chunk)
-        if os.path.getsize(fp) < 2000:
-            os.remove(fp)
-            if item.get("type") == "doi": return fetch_abstract(item)
-            return None, "Too Small", None
-        try:
-            txt = pymupdf4llm.to_markdown(fp)
-            # 🟢 熔断机制：如果下载的内容是垃圾页面，直接判定下载失败
-            if not is_valid_academic_text(txt):
-                logger.warning(f"    ⚠️ 拦截无效内容/错误页面 (Len: {len(txt)})")
-                os.remove(fp)
-                if item.get("type") == "doi": return fetch_abstract(item)
-                return None, "Invalid Content", None
-                
-            return txt, "PDF", fp
-        except:
-            if item.get("type") == "doi": return fetch_abstract(item)
-            return None, "Parse Error", None
+
     except Exception as e:
         if item.get("type") == "doi": return fetch_abstract(item)
         return None, str(e), None
@@ -364,7 +394,6 @@ def analyze(txt, ctype):
     )
     raw = res.choices[0].message.content.strip()
     
-    # 🟢 检查 LLM 是否拒答
     if "INVALID_CONTENT" in raw:
         raise ValueError("LLM判断内容无效")
 
