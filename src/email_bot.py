@@ -68,6 +68,30 @@ client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
 DOMAIN_LAST_ACCESSED = {}
 
+# --- 🚀 启动自检 (Fail Fast) ---
+def startup_check():
+    """在正式运行前，验证关键逻辑是否会报错"""
+    logger.info("🔧 执行启动自检...")
+    try:
+        # 1. 验证正则替换逻辑
+        test_html = "Test 
+
+[Image of Test Graph]
+"
+        # 这是一个绝对安全的正则，不再使用复杂的嵌套
+        re.sub(r'\]+)\]', 'IMAGE_PLACEHOLDER', test_html)
+        
+        # 2. 验证 URL 清洗逻辑
+        test_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1234.pdf"
+        clean = clean_google_url(test_url)
+        if "arxiv.org" not in clean:
+            raise ValueError("URL 清洗逻辑异常")
+            
+        logger.info("✅ 自检通过：正则与工具函数正常")
+    except Exception as e:
+        logger.critical(f"❌ 自检失败！程序已终止。错误详情: {e}")
+        exit(1)
+
 # --- 📚 数据库管理类 ---
 class PaperDB:
     def __init__(self, filepath):
@@ -396,6 +420,9 @@ def analyze_with_llm(content, ctype):
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
     
+    # 🟢 移除了容易出错的图片正则替换，因为我们不再要求 LLM 生成图片标签
+    # html = re.sub(...) 
+    
     full_html = f"""
     <html>
     <body style="font-family:sans-serif;max-width:800px;margin:auto;padding:20px;">
@@ -439,6 +466,9 @@ def send_email(subject, body, attach_files=[]):
 # --- 🚀 主流程 ---
 
 def run():
+    # 🟢 运行自检
+    startup_check()
+    
     logger.info(f"🎬 启动: {datetime.datetime.now()}")
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
