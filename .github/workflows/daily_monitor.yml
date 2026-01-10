@@ -11,22 +11,23 @@ permissions:
 
 jobs:
   scan_and_report:
-    runs-on: ubuntu-latest
+    # 🔴 关键修改：强制使用 Ubuntu 22.04，以兼容 WARP 插件
+    runs-on: ubuntu-22.04
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 第一步：安装并启动 Cloudflare WARP (黑魔法)
-      # 这会改变运行环境的出口 IP，试图绕过 403/五秒盾
+      # 🟢 1. 启动 Cloudflare WARP (伪装 IP)
       - name: Set up Cloudflare WARP
         uses: fscarmen/warp-on-actions@v1.3
         with:
-          stack: dual  # 启用双栈 (IPv4 + IPv6)
+          stack: dual
 
-      - name: Check New IP (Optional)
+      # 🟢 2. 检查 IP 变化 (这一步是为了确认伪装成功，看日志用)
+      - name: Check New IP
         run: |
-          echo "查看当前伪装后的 IP："
+          echo "Current IP Info:"
           curl -s https://ip.gs
 
       - name: Set up Python
