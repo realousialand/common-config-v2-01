@@ -15,6 +15,7 @@ import email
 import smtplib
 import datetime
 import random
+import schedule
 from email.header import decode_header
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -40,9 +41,16 @@ TARGET_SUBJECTS = [
     "recommendations available", "Table of Contents"
 ]
 
-HISTORY_FILE = "data/history.json"
+# 🟢 新的历史记录文件系统
+HISTORY_FILES = {
+    "scanned": "data/history0_scanned.json",      # 所有扫描到的文献
+    "downloaded": "data/history3_downloaded.json", # 下载成功的文献
+    "analyzed": "data/history2_analyzed.json"      # 分析成功的文献
+}
+
 DOWNLOAD_DIR = "downloads"
 MAX_ATTACHMENT_SIZE = 19 * 1024 * 1024
+FETCH_EMAIL_HOURS = 48  # 🟢 抓取 48 小时内的邮件
 socket.setdefaulttimeout(30)
 
 client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
@@ -64,6 +72,76 @@ EMAIL_CSS = """
 """
 
 # --- 🧠 2. 核心模块 ---
+
+# 🟢 新增：多级历史记录管理
+class HistoryManager:
+    def __init__(self):
+        self.histories = {key: self.load_history(path) for key, path in HISTORY_FILES.items()}
+    
+    def load_history(self, filepath):
+        """加载单个历史记录文件"""
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except:
+                return []
+        return []
+    
+    def save_all(self):
+        """保存所有历史记录"""
+        os.makedirs("data", exist_ok=True)
+        for key, path in HISTORY_FILES.items():
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(self.histories[key], f, indent=2, ensure_ascii=False)
+    
+    def add_scanned(self, source_id, title, title_cn=""):
+        """添加到扫描记录"""
+        record = {"id": source_id, "title": title, "title_cn": title_cn, "time": str(datetime.datetime.now())}
+        if not any(r["id"] == source_id for r in self.histories["scanned"]):
+            self.histories["scanned"].append(record)
+    
+    def add_downloaded(self, source_id, title, title_cn=""):
+        """添加到下载记录"""
+        record = {"id": source_id, "title": title, "title_cn": title_cn, "time": str(datetime.datetime.now())}
+        if not any(r["id"] == source_id for r in self.histories["downloaded"]):
+            self.histories["downloaded"].append(record)
+    
+    def add_analyzed(self, source_id, title, title_cn=""):
+        """添加到分析记录"""
+        record = {"id": source_id, "title": title, "title_cn": title_cn, "time": str(datetime.datetime.now())}
+        if not any(r["id"] == source_id for r in self.histories["analyzed"]):
+            self.histories["analyzed"].append(record)
+    
+    def is_scanned(self, source_id):
+        """检查是否已扫描过"""
+        return any(r["id"] == source_id for r in self.histories["scanned"])
+
+# 🟢 新增：翻译标题
+def translate_title(title):
+    """使用 LLM 翻译英文标题为中文"""
+    if not title or len(title) < 5:
+        return title
+    
+    # 简单判断是否已经是中文
+    chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', title))
+    if chinese_chars > len(title) * 0.3:
+        return title
+    
+    prompt = f"""请将以下学术论文标题翻译成中文，只输出翻译结果，不要任何解释：
+
+{title}"""
+    
+    try:
+        completion = client.chat.completions.create(
+            model=LLM_MODEL_NAME,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=200
+        )
+        return completion.choices[0].message.content.strip()
+    except:
+        return title
 
 def get_oa_link_from_doi(doi):
     try:
@@ -106,10 +184,10 @@ def search_doi_by_title(title):
         results = cr.works(query=title, limit=1)
         if results['message']['items']:
             item = results['message']['items'][0]
-            return item.get('DOI')
+            return item.get('DOI'), item.get('title', [title])[0]
     except Exception as e:
         print(f"    ❌ DOI 搜索失败: {e}")
-    return None
+    return None, title
 
 def extract_body(msg):
     body_text = ""
@@ -159,7 +237,7 @@ def detect_and_extract_all(text, all_links=None):
     for match in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.IGNORECASE):
         aid = match.group(1)
         if aid not in seen_ids:
-            results.append({"type": "arxiv", "id": aid, "url": f"https://arxiv.org/pdf/{aid}.pdf"})
+            results.append({"type": "arxiv", "id": aid, "url": f"https://arxiv.org/pdf/{aid}.pdf", "title": f"ArXiv-{aid}"})
             seen_ids.add(aid)
     
     # 2. 检测 DOI
@@ -167,7 +245,13 @@ def detect_and_extract_all(text, all_links=None):
         doi = match.group(1)
         if doi not in seen_ids:
             oa_url = get_oa_link_from_doi(doi)
-            results.append({"type": "doi", "id": doi, "url": oa_url})
+            # 尝试获取标题
+            try:
+                w = cr.works(ids=doi)
+                title = w['message'].get('title', [f"DOI-{doi}"])[0]
+            except:
+                title = f"DOI-{doi}"
+            results.append({"type": "doi", "id": doi, "url": oa_url, "title": title})
             seen_ids.add(doi)
     
     # 3. 增强版链接匹配
@@ -208,7 +292,8 @@ def detect_and_extract_all(text, all_links=None):
                         results.append({
                             "type": source_type,
                             "id": f"link_{link_hash}",
-                            "url": link
+                            "url": link,
+                            "title": f"Link-{link_hash}"
                         })
                         seen_ids.add(link_hash)
             except: continue
@@ -270,9 +355,8 @@ def fetch_content(source_data, save_dir=None):
                 for chunk in r.iter_content(chunk_size=8192):
                     f.write(chunk)
             
-            # 🟢 [新增过滤] 检查文件大小，过滤“假 PDF”
             file_size = os.path.getsize(filename)
-            if file_size < 2000: # 小于 2KB 的通常是错误页面
+            if file_size < 2000:
                 print(f"    ⚠️ 文件过小 ({file_size} bytes)，疑似无效网页/反爬拦截，跳过。")
                 os.remove(filename)
                 return None, "Fake PDF", None
@@ -321,10 +405,7 @@ def fetch_abstract_only(source_data):
     except: return None, "Error", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
-
-[Image of X]
- 标签。输出 Markdown。\n---\n{content[:50000]}"""
+    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 [Image of X] 标签。输出 Markdown。\n---\n{content[:50000]}"""
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -335,7 +416,6 @@ def analyze_with_llm(content, content_type, source_url=""):
     except Exception as e:
         return f"LLM 分析出错: {e}"
 
-# 🟢 新增功能：生成失败文献列表
 def generate_failed_report(failed_list):
     if not failed_list:
         return ""
@@ -347,22 +427,16 @@ def generate_failed_report(failed_list):
         url = src.get('url', 'No URL')
         s_id = src.get('id', 'Unknown ID')
         sType = src.get('type', 'Unknown')
+        title = src.get('title', 'Unknown Title')
         
-        # 尝试获取一点元数据
-        title = "Unknown Title"
         abstract = ""
-        
-        # 如果是 DOI，尝试最后一次获取标题
         if sType == 'doi':
             try:
                 w = cr.works(ids=s_id)
-                title = w['message'].get('title', [title])[0]
                 abstract = w['message'].get('abstract', '')
                 if abstract:
                     abstract = re.sub('<[^<]+?>', '', abstract)[:200] + "..."
             except: pass
-        else:
-            title = s_id  # 对于链接，暂时用 ID 代替标题
             
         report += f"<div class='failed-item'><h3>❌ {title}</h3>"
         report += f"<ul><li><strong>URL:</strong> <a href='{url}'>{url}</a></li>"
@@ -376,17 +450,6 @@ def generate_failed_report(failed_list):
 
 # --- 📧 3. 辅助功能 ---
 
-def load_history():
-    if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r", encoding="utf-8") as f: return json.load(f)
-        except: return []
-    return []
-
-def save_history(history_list):
-    os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f: json.dump(history_list, f, indent=2, ensure_ascii=False)
-
 def get_unique_id(source_data):
     return source_data.get("id") or hashlib.md5(source_data.get("url", "").encode()).hexdigest()
 
@@ -399,7 +462,7 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     try:
         def replacer(match):
             return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
-        html_content = re.sub(r'\]+)\]', replacer, html_content)
+        html_content = re.sub(r'\[Image of ([^\]]+)\]', replacer, html_content)
     except: pass
     
     final_html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{EMAIL_CSS}</head><body>{html_content}<hr><p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant | {datetime.date.today()}</p></body></html>"
@@ -429,19 +492,26 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
 # --- 🚀 4. 主逻辑 ---
 
 def main():
-    print("🎬 程序启动中...")
-    if os.path.exists(DOWNLOAD_DIR): shutil.rmtree(DOWNLOAD_DIR)
+    print(f"\n{'='*60}")
+    print(f"🎬 程序启动时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{'='*60}\n")
+    
+    if os.path.exists(DOWNLOAD_DIR): 
+        shutil.rmtree(DOWNLOAD_DIR)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     
-    processed_ids = load_history()
+    # 🟢 初始化历史记录管理器
+    history_mgr = HistoryManager()
+    
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL_USER, EMAIL_PASS)
     mail.select("inbox")
     
-    date_str = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%d-%b-%Y")
+    # 🟢 修改为 48 小时
+    date_str = (datetime.date.today() - datetime.timedelta(hours=FETCH_EMAIL_HOURS)).strftime("%d-%b-%Y")
     _, data = mail.search(None, f'(SINCE "{date_str}")')
     email_list = data[0].split()
-    print(f"📨 检索到 {len(email_list)} 封邮件")
+    print(f"📨 检索到 {len(email_list)} 封邮件（过去 {FETCH_EMAIL_HOURS} 小时内）")
     
     pending_sources = []
     processed_count = 0
@@ -469,16 +539,22 @@ def main():
                 print("    💡 无直接链接，尝试 LLM 标题提取...")
                 titles = extract_titles_from_text(body_text)
                 for t in titles:
-                    found_doi = search_doi_by_title(t)
+                    found_doi, real_title = search_doi_by_title(t)
                     if found_doi:
                         print(f"    ✅ 反查 DOI: {found_doi}")
                         oa_url = get_oa_link_from_doi(found_doi)
-                        sources.append({"type": "doi", "id": found_doi, "url": oa_url})
+                        sources.append({"type": "doi", "id": found_doi, "url": oa_url, "title": real_title})
                         time.sleep(1)
 
             for s in sources:
-                if get_unique_id(s) not in processed_ids:
+                uid = get_unique_id(s)
+                if not history_mgr.is_scanned(uid):
+                    # 🟢 翻译标题并记录到 history0
+                    title_cn = translate_title(s.get('title', ''))
+                    history_mgr.add_scanned(uid, s.get('title', ''), title_cn)
                     pending_sources.append(s)
+                    print(f"    ✅ 新文献: {s.get('title', '')[:40]}...")
+                    print(f"       翻译: {title_cn[:40]}...")
             
             processed_count += 1
             if processed_count % 10 == 0:
@@ -494,44 +570,46 @@ def main():
     
     if not to_process:
         print("☕ 无新文献。")
+        history_mgr.save_all()
         return
 
-    print(f"📑 准备分析 {len(to_process)} 篇文献...")
+    print(f"\n📑 准备分析 {len(to_process)} 篇文献...")
     report_body, all_files, total_new, failed = "", [], 0, []
     
     for src in to_process:
-        print(f"📝 处理: {src.get('id', 'Doc')}")
+        print(f"\n📝 处理: {src.get('title', src.get('id', 'Doc'))[:40]}...")
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
         
-        if path: all_files.append(path)
+        uid = get_unique_id(src)
+        title = src.get('title', '')
+        
+        if path:
+            all_files.append(path)
+            # 🟢 记录到 history3（下载成功）
+            title_cn = translate_title(title) if title else ""
+            history_mgr.add_downloaded(uid, title, title_cn)
+            print(f"    ✅ 已记录到下载历史（history3）")
         
         if content:
             print("🤖 AI 分析中...")
             ans = analyze_with_llm(content, ctype, src.get('url'))
             if "LLM 分析出错" not in ans:
-                report_body += f"## 📑 {src.get('id', 'Paper')}\n\n{ans}\n\n---\n\n"
-                processed_ids.append(get_unique_id(src))
+                report_body += f"## 📑 {title}\n\n{ans}\n\n---\n\n"
+                
+                # 🟢 记录到 history2（分析成功）
+                title_cn = translate_title(title) if title else ""
+                history_mgr.add_analyzed(uid, title, title_cn)
+                print(f"    ✅ 已记录到分析历史（history2）")
+                
                 total_new += 1
                 continue
+        
         # 记录失败的
         failed.append(src)
     
-    # 🟢 生成失败报告并追加到邮件末尾
+    # 生成失败报告并追加到邮件末尾
     failed_report = generate_failed_report(failed)
     final_report = f"# 📅 文献日报 {datetime.date.today()}\n\n" + report_body + failed_report
     
-    if total_new > 0 or failed:
-        print("📨 发送邮件...")
-        zip_file = "papers.zip" if all_files else None
-        if zip_file:
-            with zipfile.ZipFile(zip_file, 'w') as zf:
-                for f in all_files: zf.write(f, os.path.basename(f))
-        
-        send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report, zip_file)
-        if zip_file and os.path.exists(zip_file): os.remove(zip_file)
-    
-    save_history(processed_ids)
-    print("💾 历史记录已保存。")
-
-if __name__ == "__main__":
-    main()
+    # 分批打包发送逻辑
+    if total_new > 0 or faile
