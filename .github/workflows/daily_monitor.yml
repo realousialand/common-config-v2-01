@@ -48,21 +48,33 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y cloudflare-warp
             
-            # 注册并连接（关键步骤）
+            # 启动 WARP 服务
+            echo "🔧 Starting WARP service..."
+            sudo systemctl start warp-svc
+            sleep 2
+            
+            # 注册并连接（修复：使用新版命令）
             echo "📡 Registering WARP..."
-            warp-cli register
+            warp-cli registration new --accept-tos
             
             echo "🔗 Connecting to WARP..."
             warp-cli connect
             
             # 等待连接稳定
-            sleep 5
+            echo "⏳ Waiting for connection to stabilize..."
+            sleep 8
             
             # 验证连接状态
-            if warp-cli status | grep -q "Connected"; then
+            STATUS=$(warp-cli status)
+            echo "WARP Status: $STATUS"
+            
+            if echo "$STATUS" | grep -q "Connected"; then
               echo "✅ WARP connected successfully"
+              exit 0
             else
               echo "❌ WARP connection failed"
+              echo "Debug info:"
+              warp-cli settings
               exit 1
             fi
 
@@ -199,7 +211,8 @@ jobs:
         if: always()
         run: |
           echo "🧹 Disconnecting WARP..."
-          warp-cli disconnect || echo "WARP already disconnected"
+          warp-cli disconnect 2>/dev/null || echo "WARP already disconnected"
+          warp-cli registration delete --accept-tos 2>/dev/null || echo "Registration cleanup skipped"
         continue-on-error: true
 
       # 📈 任务摘要
