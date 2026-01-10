@@ -50,6 +50,15 @@ client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
 DOMAIN_LAST_ACCESSED = {}
 
+# 全局 Session，用于保持 Cookies
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Referer": "https://scholar.google.com/"
+})
+
 # --- 辅助 ---
 def clean_google_url(url):
     try:
@@ -247,38 +256,41 @@ def get_path(pid):
     safe = re.sub(r'[\\/*?:"<>|]', '_', pid)
     return os.path.join(DOWNLOAD_DIR, f"{safe}.pdf")
 
-# 🟢 V23.2 智能嗅探增强版
+# 🟢 V23.4 针对性嗅探器
 def sniff_real_pdf_link(initial_url, html_content):
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
         
-        # 1. Stork 专用 ID
-        stork_btn = soup.find('a', id='full_text_available_anchor', href=True)
-        if stork_btn: return stork_btn['href']
+        # 1. 优先：Stork/Google Scholar 专用的复杂按钮 (你提供的HTML案例)
+        # 查找包含 class="pdf" 且内部有 span 文字包含 "PDF" 的链接
+        for a in soup.find_all('a', href=True):
+            # 检查 class
+            classes = a.get('class', [])
+            if not classes: continue
+            
+            # 检查内部文字 (包括 span)
+            text_content = a.get_text(" ", strip=True).lower()
+            
+            # 命中逻辑：class里有pdf/download 且 路径里有pdf 且 文字里有pdf
+            if (('pdf' in classes or 'article-pdflink' in [c.lower() for c in classes]) and 
+                '.pdf' in a['href'].lower()):
+                logger.info("    🎯 [嗅探] 命中期刊 PDF 按钮")
+                href = a['href']
+                if href.startswith('/'):
+                    parsed = urlparse(initial_url)
+                    return f"{parsed.scheme}://{parsed.netloc}{href}"
+                return href
 
-        # 2. 元数据
+        # 2. 次优：标准元数据
         meta_pdf = soup.find('meta', {'name': 'citation_pdf_url'})
         if meta_pdf and meta_pdf.get('content'): return meta_pdf['content']
-            
-        # 3. 广谱特征搜索 (Class/ID/Href/Text)
+        
+        # 3. 保底：查找任何带 pdf 的链接
         for a in soup.find_all('a', href=True):
             href = a['href'].lower()
-            
-            # 获取标签内的所有文字（包括隐藏的、span里的）
             text = a.get_text(" ", strip=True).lower()
             
-            # 获取 class 属性字符串
-            classes = " ".join(a.get('class', [])).lower()
-            
-            # 判定条件：
-            # A. 链接本身含有 .pdf 或 /article-pdf/ (期刊常用路径)
-            is_pdf_link = '.pdf' in href or '/article-pdf/' in href
-            
-            # B. 上下文暗示这是下载按钮 (文字或样式包含 pdf/download)
-            is_download_btn = 'pdf' in text or 'download' in text or 'full text' in text or 'pdf' in classes or 'download' in classes
-            
-            if is_pdf_link and is_download_btn:
-                # 修复相对路径
+            if '.pdf' in href and ('download' in text or 'full text' in text or 'pdf' in text):
                 if href.startswith('/'):
                     parsed = urlparse(initial_url)
                     return f"{parsed.scheme}://{parsed.netloc}{a['href']}"
@@ -296,7 +308,8 @@ def fetch_content(item):
     
     logger.info(f"    🔍 [下载] {url[:40]}...")
     try:
-        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}, timeout=30, stream=True, allow_redirects=True)
+        # 使用全局 session 以保持 cookies
+        r = session.get(url, timeout=30, stream=True, allow_redirects=True)
         
         if r.status_code == 429: return None, "Rate Limit", None
         
@@ -319,7 +332,7 @@ def fetch_content(item):
             
             if real_pdf_url:
                 logger.info(f"    🚀 嗅探成功，二次下载: {real_pdf_url[:40]}...")
-                r2 = requests.get(real_pdf_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30, stream=True)
+                r2 = session.get(real_pdf_url, timeout=30, stream=True)
                 if 'application/pdf' in r2.headers.get('Content-Type', '').lower():
                     fp = get_path(item['id'])
                     with open(fp, "wb") as f:
