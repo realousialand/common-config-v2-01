@@ -33,11 +33,12 @@ EMAIL_PASS = os.environ.get("EMAIL_PASS")
 IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 
-# 🟢 开关：是否开启4小时循环模式
-# 如果在 GitHub Actions 运行，建议设为 False (使用 .yml 定时)
-# 如果在本地电脑长驻运行，设为 True
+# 🟢 运行模式设置
 SCHEDULER_MODE = False 
 LOOP_INTERVAL_HOURS = 4
+
+# 🟢 批处理大小：每次只分析 20 篇
+BATCH_SIZE = 20
 
 # 监控关键词
 TARGET_SUBJECTS = [
@@ -47,14 +48,20 @@ TARGET_SUBJECTS = [
     "recommendations available", "Table of Contents"
 ]
 
-# 🟢 数据记录文件路径
+# 🟢 数据文件路径
 DATA_DIR = "data"
-HISTORY_0_FILE = os.path.join(DATA_DIR, "history0_scanned.json")   # 所有扫描到的
-HISTORY_3_FILE = os.path.join(DATA_DIR, "history3_downloaded.json") # 下载成功的
-HISTORY_2_FILE = os.path.join(DATA_DIR, "history2_analyzed.json")   # 分析成功的
+# 记录所有扫描到的（存档）
+HISTORY_0_FILE = os.path.join(DATA_DIR, "history0_scanned.json")
+# 记录待分析队列（缓冲池）
+QUEUE_FILE = os.path.join(DATA_DIR, "queue_pending.json")
+# 记录下载成功的（结果）
+HISTORY_3_FILE = os.path.join(DATA_DIR, "history3_downloaded.json")
+# 记录分析成功的（结果）
+HISTORY_2_FILE = os.path.join(DATA_DIR, "history2_analyzed.json")
+# 记录已处理 ID（去重索引）
+HISTORY_PROCESSED_ID_FILE = os.path.join(DATA_DIR, "history_processed_ids.json")
 
 DOWNLOAD_DIR = "downloads"
-MAX_ATTACHMENT_SIZE = 19 * 1024 * 1024
 MAX_EMAIL_ZIP_SIZE = 18 * 1024 * 1024 
 
 socket.setdefaulttimeout(30)
@@ -74,6 +81,7 @@ EMAIL_CSS = """
     .image-placeholder { background-color: #e8f6f3; border: 1px dashed #1abc9c; color: #16a085; padding: 15px; text-align: center; border-radius: 5px; margin: 20px 0; font-style: italic; }
     .failed-section { background-color: #fff0f0; padding: 15px; border-radius: 5px; border: 1px solid #ffcccc; margin-top: 30px; }
     .failed-item { margin-bottom: 15px; border-bottom: 1px dashed #eee; padding-bottom: 10px; }
+    .queue-info { background-color: #e3f2fd; color: #0d47a1; padding: 10px; border: 1px solid #bbdefb; border-radius: 5px; margin-bottom: 20px; font-weight: bold; }
     .warning-box { background-color: #fff3cd; color: #856404; padding: 10px; border: 1px solid #ffeeba; border-radius: 5px; margin-top: 20px; font-weight: bold; }
 </style>
 """
@@ -81,7 +89,6 @@ EMAIL_CSS = """
 # --- 🧠 2. 核心模块 ---
 
 def translate_title(text):
-    """简单翻译标题（用于记录）"""
     if not text or len(text) < 5: return ""
     try:
         completion = client.chat.completions.create(
@@ -93,13 +100,10 @@ def translate_title(text):
     except: return ""
 
 def get_metadata_safe(source_data):
-    """尝试获取标题，但不强求翻译（为了速度）"""
     title = source_data.get('title', '')
     if title: return title
-
     s_id = source_data.get('id', '')
     s_type = source_data.get('type', '')
-    
     if s_type == 'doi':
         try:
             w = cr.works(ids=s_id)
@@ -107,7 +111,6 @@ def get_metadata_safe(source_data):
         except: pass
     elif s_type == 'arxiv':
         title = f"ArXiv Paper {s_id}"
-    
     return title or "Unknown Title"
 
 def get_oa_link_from_doi(doi):
@@ -151,16 +154,13 @@ def search_doi_by_title(title):
         results = cr.works(query=title, limit=1)
         if results['message']['items']:
             item = results['message']['items'][0]
-            # 返回 DOI 和 官方标题
             return item.get('DOI'), item.get('title', [title])[0]
-    except Exception as e:
-        print(f"    ❌ DOI 搜索失败: {e}")
+    except Exception as e: pass
     return None, None
 
 def extract_body(msg):
     body_text = ""
     extracted_urls = set()
-    
     def find_urls_in_text(text):
         urls = re.findall(r'(https?://[^\s"\'<>]+)', text)
         return [u.rstrip('.,;)]}') for u in urls]
@@ -402,6 +402,7 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     msg["To"] = EMAIL_USER
     msg.attach(MIMEText(final_html, "html", "utf-8"))
     
+    # 智能附件处理
     if attachment_zip and os.path.exists(attachment_zip):
         if os.path.getsize(attachment_zip) > MAX_EMAIL_ZIP_SIZE:
             print("⚠️ 附件过大 (切片后依然过大)，跳过附件发送。")
@@ -435,10 +436,15 @@ def run_task():
     print(f"🎬 任务启动: {datetime.datetime.now()}")
     if os.path.exists(DOWNLOAD_DIR): shutil.rmtree(DOWNLOAD_DIR)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
-    os.makedirs(DATA_DIR, exist_ok=True) 
+    os.makedirs(DATA_DIR, exist_ok=True)
     
-    history0 = load_json(HISTORY_0_FILE)
-    processed_ids = {item['id'] for item in history0}
+    # 🟢 加载/初始化历史记录
+    # history_processed_ids.json 用于记录所有处理过的 ID（防止重复扫描+处理）
+    # 如果不存在，从 history0 生成一份
+    processed_ids = set(load_json(HISTORY_PROCESSED_ID_FILE))
+    if not processed_ids:
+        h0 = load_json(HISTORY_0_FILE)
+        processed_ids = {item['id'] for item in h0}
     
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL_USER, EMAIL_PASS)
@@ -451,8 +457,12 @@ def run_task():
     email_list = data[0].split()
     print(f"📨 检索到 {len(email_list)} 封候选邮件")
     
-    pending_sources = []
+    # 🟢 加载待办队列
+    queue_pending = load_json(QUEUE_FILE)
+    queue_ids = {item['id'] for item in queue_pending}
+    print(f"📂 当前队列待办数: {len(queue_pending)}")
     
+    # === 阶段 1: 扫描新邮件并入队 ===
     for idx, e_id in enumerate(email_list):
         try:
             time.sleep(1) # 基础防封
@@ -461,15 +471,16 @@ def run_task():
             subj, enc = decode_header(msg_header["Subject"])[0]
             subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
             
+            date_tuple = email.utils.parsedate_tz(msg_header["Date"])
+            email_date_str = datetime.datetime.fromtimestamp(email.utils.mktime_tz(date_tuple)).strftime("%Y-%m-%d") if date_tuple else "Unknown"
+
             if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
             
-            print(f"🎯 命中: {subj[:30]}...")
+            print(f"🎯 命中: 【{email_date_str}】{subj[:30]}...")
             _, m_data = mail.fetch(e_id, "(RFC822)")
             msg = email.message_from_bytes(m_data[0][1])
             
             body_text, all_urls = extract_body(msg)
-            print(f"    📎 链接数: {len(all_urls)}")
-            
             sources = detect_and_extract_all(body_text, all_urls)
             
             if not sources:
@@ -482,61 +493,69 @@ def run_task():
                         oa_url = get_oa_link_from_doi(doi)
                         sources.append({"type": "doi", "id": doi, "url": oa_url, "title": full_title})
                         time.sleep(1)
+                    else:
+                        print(f"    ❌ 未找到 DOI: {t[:40]}...")
 
-            # 🟢 记录到 History 0
-            new_scanned = []
+            # 入队逻辑
+            new_in_queue = 0
             for s in sources:
                 u_id = get_unique_id(s)
                 s['id'] = u_id
                 if 'title' not in s: s['title'] = get_metadata_safe(s)
                 
-                if u_id not in processed_ids:
-                    pending_sources.append(s)
-                    new_scanned.append({
-                        "id": u_id,
-                        "type": s.get('type'),
-                        "url": s.get('url'),
-                        "title": s.get('title'),
-                        "trans_title": "",
-                        "timestamp": str(datetime.datetime.now())
-                    })
-                    processed_ids.add(u_id)
+                # 如果没处理过，且不在当前队列中 -> 加入队列
+                if u_id not in processed_ids and u_id not in queue_ids:
+                    s['timestamp_added'] = str(datetime.datetime.now())
+                    queue_pending.append(s)
+                    queue_ids.add(u_id)
+                    new_in_queue += 1
+                    
+                    # 同时记录到 history0
+                    append_to_history([{
+                        "id": u_id, "type": s.get('type'), "url": s.get('url'), 
+                        "title": s.get('title'), "timestamp": str(datetime.datetime.now())
+                    }], HISTORY_0_FILE)
             
-            if new_scanned:
-                append_to_history(new_scanned, HISTORY_0_FILE)
+            if new_in_queue > 0:
+                print(f"    ➕ 新增 {new_in_queue} 篇到待办队列")
 
         except Exception as e:
-            print(f"⚠️ 错误: {e}")
+            print(f"⚠️ 扫描错误: {e}")
             continue
-
-    MAX_PAPERS = 15
-    to_process = pending_sources[:MAX_PAPERS]
+            
+    # 保存更新后的队列
+    save_json(queue_pending, QUEUE_FILE)
     
-    if not to_process:
-        print("☕ 无新文献处理。")
+    # === 阶段 2: 消费队列 (处理前 BATCH_SIZE 个) ===
+    if not queue_pending:
+        print("☕ 队列为空，无任务处理。")
         try: mail.logout() 
         except: pass
         return
 
-    print(f"📑 准备分析 {len(to_process)} 篇文献...")
-    report_body, all_files, total_new, failed = "", [], 0, []
+    to_process = queue_pending[:BATCH_SIZE]
+    remaining_queue = queue_pending[BATCH_SIZE:]
     
+    print(f"🚀 开始处理本批次: {len(to_process)} 篇 (剩余: {len(remaining_queue)})")
+    
+    report_body, all_files, total_new, failed = "", [], 0, []
     history3_records = []
     history2_records = []
+    processed_now = [] # 本次成功处理或判定失败的ID
 
     for src in to_process:
         print(f"📝 处理: {src.get('id')}")
-        
-        # 翻译标题
         if not src.get('trans_title') and src.get('title'):
              src['trans_title'] = translate_title(src['title'])
              print(f"    🇨🇳 标题翻译: {src['trans_title'][:20]}...")
 
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
         
+        # 无论成功失败，都视为“已处理”，避免死循环卡在队列里
+        processed_now.append(src['id'])
+        
         if path: 
             all_files.append(path)
-            # 🟢 3. 记录下载成功 (History 3)
             history3_records.append({
                 "id": src['id'], "title": src.get('title'), 
                 "trans_title": src.get('trans_title'), "timestamp": str(datetime.datetime.now())
@@ -548,8 +567,6 @@ def run_task():
             if "LLM 分析出错" not in ans:
                 report_body += f"## 📑 {src.get('title', src['id'])}\n**{src.get('trans_title', '')}**\n\n{ans}\n\n---\n\n"
                 total_new += 1
-                
-                # 🟢 4. 记录分析成功 (History 2)
                 history2_records.append({
                     "id": src['id'], "title": src.get('title'),
                     "trans_title": src.get('trans_title'), "analysis_summary": ans[:100]+"...",
@@ -558,11 +575,21 @@ def run_task():
                 continue
         failed.append(src)
     
+    # 更新数据文件
     append_to_history(history3_records, HISTORY_3_FILE)
     append_to_history(history2_records, HISTORY_2_FILE)
+    
+    # 更新已处理ID列表
+    processed_ids.update(processed_now)
+    save_json(list(processed_ids), HISTORY_PROCESSED_ID_FILE)
+    
+    # 更新队列 (移除已处理的)
+    save_json(remaining_queue, QUEUE_FILE)
 
+    # === 阶段 3: 发送报告 ===
+    queue_status = f"<div class='queue-info'>📊 队列状态：本批处理 {len(to_process)} 篇，剩余待办 {len(remaining_queue)} 篇。</div>"
     failed_report = generate_failed_report(failed)
-    final_report = f"# 📅 文献日报 {datetime.date.today()}\n\n" + report_body + failed_report
+    final_report = f"# 📅 文献日报 {datetime.date.today()}\n{queue_status}\n" + report_body + failed_report
     
     file_batches = []
     current_batch = []
