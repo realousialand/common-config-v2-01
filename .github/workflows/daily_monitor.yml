@@ -17,19 +17,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 终极修复：动态添加 Debian 源来安装 openresolv
-      # 不再写死版本号，让 apt 自己找最新版
+      # 🟢 终极方案：使用 Launchpad 永久静态链接安装 openresolv
+      # 这个链接指向的是 Ubuntu 22.04 的官方存档文件，绝对不会变
       - name: Install dependencies for WARP
         run: |
-          # 1. 临时添加 Debian 的 unstable 源 (这里通常有最新的包)
-          echo "deb http://ftp.debian.org/debian unstable main" | sudo tee /etc/apt/sources.list.d/debian-unstable.list
+          # 1. 下载永久存档包
+          wget http://launchpadlibrarian.net/513689404/openresolv_3.12.0-1_all.deb
           
-          # 2. 导入 Debian 的公钥，防止签名报错
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138 0E98404D386FA1D9
+          # 2. 强行安装
+          sudo dpkg -i openresolv_3.12.0-1_all.deb
           
-          # 3. 更新并安装
-          sudo apt-get update
-          sudo apt-get install -y openresolv
+          # 3. 修复依赖（防止有其他缺漏）
+          sudo apt-get install -f -y
 
       # 🟢 启动 Cloudflare WARP
       - name: Set up Cloudflare WARP
@@ -37,6 +36,7 @@ jobs:
         with:
           stack: dual
 
+      # 验证 IP (如果变成 Cloudflare IP 说明伪装成功)
       - name: Check New IP
         run: |
           echo "Current IP Info:"
