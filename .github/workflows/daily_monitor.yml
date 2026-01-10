@@ -51,32 +51,34 @@ jobs:
             # 启动 WARP 服务
             echo "🔧 Starting WARP service..."
             sudo systemctl start warp-svc
-            sleep 2
+            sleep 3
             
-            # 注册并连接（修复：使用新版命令）
+            # 注册（不需要 --accept-tos）
             echo "📡 Registering WARP..."
-            warp-cli registration new --accept-tos
+            warp-cli registration new
             
+            # 连接时接受条款（--accept-tos 放这里）
             echo "🔗 Connecting to WARP..."
-            warp-cli connect
+            warp-cli connect --accept-tos
             
             # 等待连接稳定
             echo "⏳ Waiting for connection to stabilize..."
-            sleep 8
+            for i in {1..10}; do
+              sleep 2
+              STATUS=$(warp-cli status 2>&1)
+              echo "[$i/10] Status check: $STATUS"
+              if echo "$STATUS" | grep -qi "connected"; then
+                echo "✅ WARP connected successfully!"
+                warp-cli settings
+                exit 0
+              fi
+            done
             
-            # 验证连接状态
-            STATUS=$(warp-cli status)
-            echo "WARP Status: $STATUS"
-            
-            if echo "$STATUS" | grep -q "Connected"; then
-              echo "✅ WARP connected successfully"
-              exit 0
-            else
-              echo "❌ WARP connection failed"
-              echo "Debug info:"
-              warp-cli settings
-              exit 1
-            fi
+            # 如果 20 秒后还未连接，判定失败
+            echo "❌ WARP connection timeout"
+            echo "Final status:"
+            warp-cli status
+            exit 1
 
       # 🌐 验证 IP 已更换
       - name: Verify IP Change
