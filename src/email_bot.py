@@ -64,12 +64,9 @@ def clean_google_url(url):
 def startup_check():
     logger.info("🔧 启动自检...")
     try:
-        # 使用 ASCII 拼接防止代码被网页截断
         tag = chr(91) + "Image of Graph" + chr(93)
         test_str = "Test " + tag
-        # 只要能正常运行不报错即可，不再做复杂正则替换
         if "Image" not in test_str: raise ValueError("String Error")
-        
         url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
         if "arxiv.org" not in clean_google_url(url): raise ValueError("URL Clean Error")
         logger.info("✅ 自检通过")
@@ -88,7 +85,7 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
-                    if isinstance(content, list): # 自动修复列表格式
+                    if isinstance(content, list): 
                         logger.warning("⚠️ 修复旧版数据库格式 List->Dict")
                         new_data = {}
                         for item in content:
@@ -285,30 +282,52 @@ def fetch_abstract(item):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
 def analyze(txt, ctype):
-    # 🟢 植入用户指定的13点要求
-    sys_prompt = "You are a comprehensive academic research assistant."
+    # 🟢 1. 摘要模式：仅翻译
+    if ctype == "ABSTRACT_ONLY":
+        # 尝试从 txt 中提取标题和摘要正文 (格式通常是 TITLE: ... \n\n ABSTRACT: ...)
+        title_part = "Unknown"
+        abstract_part = txt
+        m = re.search(r"TITLE:\s*(.*?)\n\nABSTRACT:\s*(.*)", txt, re.DOTALL)
+        if m:
+            title_part = m.group(1).strip()
+            abstract_part = m.group(2).strip()
+            
+        sys_prompt = "你是一个专业的学术翻译助手。"
+        user_prompt = f"请将以下学术摘要翻译成通顺的中文（仅输出翻译内容，不要任何前缀）：\n\n{abstract_part}"
+        
+        try:
+            res = client.chat.completions.create(
+                model=LLM_MODEL_NAME, messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}], temperature=0.3
+            )
+            trans = res.choices[0].message.content.strip()
+            # 返回结构：(英文标题, 翻译后的中文摘要)
+            return title_part, f"**【摘要翻译】**\n{trans}"
+        except:
+            return title_part, f"摘要翻译失败。原文：\n{abstract_part[:500]}..."
+
+    # 🟢 2. 全文模式：13点深度分析（中文强制）
+    sys_prompt = "你是一名学术研究助手。请务必用【中文】回答。"
     user_prompt = f"""
-    Please act as my academic assistant.
-    # CRITICAL FORMAT RULE: 
-    First line MUST be: TITLE: <English Title>
+    # 格式铁律
+    第一行必须严格输出英文原标题，格式：TITLE: <English Title>
+    
+    # 任务：基于文献内容，用【中文】按以下板块深入分析：
+    1. **基本信息**：标题、作者、期刊/会议（全称）、年份、关键词。
+    2. **研究领域**：推断领域及影响力。
+    3. **背景与缺口**：现状是什么？解决了什么具体缺口？
+    4. **方法论**：关键技术、实验设计、理论框架、创新点。
+    5. **结果与结论**：核心实证结果。
+    6. **术语解释**：解释2-3个专业术语（面向非专业读者）。
+    7. **贡献分析**：主要优势与贡献。
+    8. **局限与未来**：样本量、假设限制等。
+    9. **相关文献**：推荐3-5篇基础或后续研究。
+    10. **搜索建议**：数据库搜索关键词。
+    11. **链接信息**：提供DOI链接或官方链接。
+    12. **量化细节**：（若为量化研究）列出数据/数据集、变量、模型、统计方法、数据来源、处理方法、结果。
 
-    # Execution Steps:
-    1. Confirm info: title, authors, journal, year, keywords.
-    2. Infer field and impact.
-    3. Explain gap and problem.
-    4. Detail methodology, techniques, and innovation.
-    5. List empirical results and conclusions.
-    6. Explain 2-3 key terms.
-    7. Analyze contributions.
-    8. Discuss limitations and future directions.
-    9. Recommend 3-5 related papers.
-    10. Suggest database search queries.
-    11. Provide DOI link if available.
-    12. If no DOI, provide alternative link.
-    13. IF QUANTITATIVE: List Data/Dataset, Variables, Models, Stats methods, Sources, Results.
-
-    Type: {ctype}
-    Content: {txt[:45000]}
+    类型: {ctype}
+    内容: 
+    {txt[:45000]}
     """
     res = client.chat.completions.create(
         model=LLM_MODEL_NAME,
@@ -445,8 +464,14 @@ def run():
             rt, ans = analyze(txt, ctype)
             disp = rt if ("Unknown" not in rt and rt) else item.get('title', 'Unknown')
             tt = translate_title(disp)
+            # 只有当不是摘要模式时，才在UI上标记（如果是摘要，内容本身已经说明是翻译了）
+            badge = "<span style='background:#eee;padding:2px 5px;font-size:12px'>摘要翻译</span>" if ctype == "ABSTRACT_ONLY" else ""
+            
             card = f"""<div style="border:1px solid #ccc;padding:15px;margin-bottom:20px;">
-            <h3>{disp}</h3><p style="color:#666">{tt}</p><div>{ans}</div></div>"""
+            <h3>{disp} {badge}</h3>
+            <p style="color:#666;font-weight:bold">{tt}</p>
+            <div>{ans}</div>
+            </div>"""
             reports.append(card)
             db.update_status(pid, "ANALYZED", {"real_title": disp})
         except Exception as e:
