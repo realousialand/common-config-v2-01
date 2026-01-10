@@ -5,3 +5,4 @@ PyGithub
 habanero
 beautifulsoup4
 markdown
+tenacity
