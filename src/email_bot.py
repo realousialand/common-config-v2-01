@@ -34,7 +34,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# --- 🛠️ 配置区 ---
+# --- 🛠️ 全局配置区 ---
 LLM_API_KEY = os.environ.get("LLM_API_KEY")
 LLM_BASE_URL = "https://api.siliconflow.cn/v1"
 LLM_MODEL_NAME = os.environ.get("LLM_MODEL_NAME", "deepseek-ai/DeepSeek-R1-distill-llama-70b")
@@ -43,6 +43,10 @@ EMAIL_USER = os.environ.get("EMAIL_USER")
 EMAIL_PASS = os.environ.get("EMAIL_PASS")
 IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
+
+# 🟢 调度配置 (移到全局)
+SCHEDULER_MODE = False
+LOOP_INTERVAL_HOURS = 4
 
 BATCH_SIZE = 20
 MAX_RETRIES = 3
@@ -136,16 +140,20 @@ class PaperDB:
 @retry(
     stop=stop_after_attempt(3), 
     wait=wait_exponential(multiplier=1, min=2, max=10),
-    reraise=False # 失败后不抛出异常，而是让函数返回空，避免程序崩溃
+    reraise=False
 )
 def translate_title(text):
     if not text or len(text) < 5 or "Unknown" in text: return ""
-    completion = client.chat.completions.create(
-        model=LLM_MODEL_NAME,
-        messages=[{"role": "user", "content": f"请将以下学术论文标题翻译成中文（仅输出翻译后的文本）：{text}"}],
-        temperature=0.1
-    )
-    return completion.choices[0].message.content.strip()
+    try:
+        completion = client.chat.completions.create(
+            model=LLM_MODEL_NAME,
+            messages=[{"role": "user", "content": f"请将以下学术论文标题翻译成中文（仅输出翻译后的文本）：{text}"}],
+            temperature=0.1
+        )
+        return completion.choices[0].message.content.strip()
+    except Exception as e:
+        logger.warning(f"标题翻译失败: {e}")
+        return ""
 
 def get_metadata_safe(source_data):
     title = source_data.get('title', '')
@@ -163,7 +171,9 @@ def extract_titles_from_text(text):
         )
         content = completion.choices[0].message.content.strip().replace("```json", "").replace("```", "").strip()
         return json.loads(content)
-    except: return []
+    except Exception as e:
+        logger.warning(f"标题提取失败: {e}")
+        return []
 
 @retry(
     stop=stop_after_attempt(3), 
@@ -172,20 +182,25 @@ def extract_titles_from_text(text):
 )
 def search_doi_by_title(title):
     logger.info(f"    🔍 [Crossref] 搜索 DOI: {title[:30]}...")
-    # Crossref 容易超时，需要重试
-    res = cr.works(query=title, limit=1)
-    if res['message']['items']:
-        item = res['message']['items'][0]
-        return item.get('DOI'), item.get('title', [title])[0]
+    try:
+        res = cr.works(query=title, limit=1)
+        if res['message']['items']:
+            item = res['message']['items'][0]
+            return item.get('DOI'), item.get('title', [title])[0]
+    except Exception:
+        raise # 抛出异常以触发 retry
     return None, None
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
 def get_oa_link(doi):
-    r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email=bot@example.com", timeout=10)
-    if r.status_code == 200:
-        data = r.json()
-        if data.get('is_oa') and data.get('best_oa_location'):
-            return data['best_oa_location']['url_for_pdf']
+    try:
+        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email=bot@example.com", timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            if data.get('is_oa') and data.get('best_oa_location'):
+                return data['best_oa_location']['url_for_pdf']
+    except Exception:
+        raise
     return None
 
 def clean_google_url(url):
@@ -241,7 +256,7 @@ def detect_sources(text, urls):
         doi = m.group(1)
         if doi not in seen:
             try:
-                link = get_oa_link(doi) # 这里有 retry 保护
+                link = get_oa_link(doi)
             except: link = None
             sources.append({"type": "doi", "id": doi, "url": link}) 
             seen.add(doi)
@@ -329,15 +344,16 @@ def fetch_content(item, save_dir):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
 def fetch_abstract_only(source_data):
-    # Crossref API 也经常超时
-    w = cr.works(ids=source_data["id"])
-    title = w['message'].get('title', [''])[0]
-    abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
-    return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
+    try:
+        w = cr.works(ids=source_data["id"])
+        title = w['message'].get('title', [''])[0]
+        abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
+        return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
+    except Exception as e:
+        raise
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=5, max=30))
 def analyze_with_llm(content, ctype):
-    # LLM API 最容易挂，设置较长的重试等待
     if ctype == "ABSTRACT_ONLY":
         prompt = f"""你是一名学术研究助理。以下是一篇文献的【标题和摘要】（未获取到全文）。
         
@@ -356,28 +372,29 @@ def analyze_with_llm(content, ctype):
         任务：
         1. 提取真实标题。
         2. 深度分析背景、问题、方法、结论、创新点。
-        3. 遇到图表时插入 
-
-[Image of X]
-。
+        3. 如果有助于理解（如展示流程、架构、数据对比），请插入
+ 标签，X为具体的英文描述。不要为了装饰而插入。
         4. 输出 Markdown。
 
         来源：{ctype}
         内容：{content[:50000]}
         """
     
-    res = client.chat.completions.create(
-        model=LLM_MODEL_NAME, messages=[{"role": "user", "content": prompt}], temperature=0.3
-    )
-    txt = res.choices[0].message.content.strip()
-    
-    real_title = "Unknown"
-    body = txt
-    match = re.match(r"^TITLE:\s*(.*)", txt, re.IGNORECASE)
-    if match:
-        real_title = match.group(1).strip()
-        body = txt.split('\n', 1)[1].strip()
-    return real_title, body
+    try:
+        res = client.chat.completions.create(
+            model=LLM_MODEL_NAME, messages=[{"role": "user", "content": prompt}], temperature=0.3
+        )
+        txt = res.choices[0].message.content.strip()
+        
+        real_title = "Unknown"
+        body = txt
+        match = re.match(r"^TITLE:\s*(.*)", txt, re.IGNORECASE)
+        if match:
+            real_title = match.group(1).strip()
+            body = txt.split('\n', 1)[1].strip()
+        return real_title, body
+    except Exception:
+        raise
 
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
@@ -586,9 +603,6 @@ def run():
     logger.info("✅ 完成")
 
 if __name__ == "__main__":
-    SCHEDULER_MODE = False
-    LOOP_INTERVAL_HOURS = 4
-    
     if SCHEDULER_MODE:
         while True:
             try: run()
