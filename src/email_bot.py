@@ -14,7 +14,7 @@ import imaplib
 import email
 import smtplib
 import datetime
-import logging  # 🟢 引入日志模块
+import logging
 from datetime import timedelta
 from email.header import decode_header
 from email.mime.text import MIMEText
@@ -23,8 +23,10 @@ from email.mime.application import MIMEApplication
 from urllib.parse import unquote, urlparse, parse_qs
 import markdown
 
-# --- 🛠️ 日志配置 (Log Configuration) ---
-# 设置日志格式：时间 - 级别 - 消息
+# 🟢 引入 tenacity 重试库
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type, before_sleep_log
+
+# --- 🛠️ 日志配置 ---
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -74,7 +76,7 @@ class PaperDB:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     return json.load(f)
             except Exception as e:
-                logger.error(f"加载数据库失败: {e}", exc_info=True)
+                logger.error(f"加载数据库失败: {e}")
         return {}
 
     def save(self):
@@ -83,7 +85,7 @@ class PaperDB:
             with open(self.filepath, 'w', encoding='utf-8') as f:
                 json.dump(self.data, f, indent=2, ensure_ascii=False)
         except Exception as e:
-            logger.critical(f"保存数据库失败: {e}", exc_info=True)
+            logger.critical(f"保存数据库失败: {e}")
 
     def add_new(self, pid, metadata):
         if pid not in self.data:
@@ -129,20 +131,21 @@ class PaperDB:
             self.data[pid]["retry_count"] = self.data[pid].get("retry_count", 0) + 1
             self.save()
 
-# --- 🧠 核心功能 ---
+# --- 🧠 核心功能 (带重试机制) ---
 
+@retry(
+    stop=stop_after_attempt(3), 
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    reraise=False # 失败后不抛出异常，而是让函数返回空，避免程序崩溃
+)
 def translate_title(text):
     if not text or len(text) < 5 or "Unknown" in text: return ""
-    try:
-        completion = client.chat.completions.create(
-            model=LLM_MODEL_NAME,
-            messages=[{"role": "user", "content": f"请将以下学术论文标题翻译成中文（仅输出翻译后的文本）：{text}"}],
-            temperature=0.1
-        )
-        return completion.choices[0].message.content.strip()
-    except Exception as e:
-        logger.warning(f"标题翻译失败: {e}")
-        return ""
+    completion = client.chat.completions.create(
+        model=LLM_MODEL_NAME,
+        messages=[{"role": "user", "content": f"请将以下学术论文标题翻译成中文（仅输出翻译后的文本）：{text}"}],
+        temperature=0.1
+    )
+    return completion.choices[0].message.content.strip()
 
 def get_metadata_safe(source_data):
     title = source_data.get('title', '')
@@ -152,7 +155,7 @@ def get_metadata_safe(source_data):
     return title or "Unknown Title"
 
 def extract_titles_from_text(text):
-    logger.info("🧠 [智能提取] 正在分析邮件正文提取标题...")
+    logger.info("    🧠 [智能提取] 正在分析邮件正文提取标题...")
     prompt = f"Extract academic paper titles from the text below. Return ONLY a JSON list of strings. Text: {text[:3000]}"
     try:
         completion = client.chat.completions.create(
@@ -160,29 +163,29 @@ def extract_titles_from_text(text):
         )
         content = completion.choices[0].message.content.strip().replace("```json", "").replace("```", "").strip()
         return json.loads(content)
-    except Exception as e:
-        logger.warning(f"LLM 标题提取失败: {e}")
-        return []
+    except: return []
 
+@retry(
+    stop=stop_after_attempt(3), 
+    wait=wait_exponential(multiplier=1, min=4, max=20),
+    before_sleep=before_sleep_log(logger, logging.WARNING)
+)
 def search_doi_by_title(title):
-    logger.info(f"🔍 [Crossref] 搜索 DOI: {title[:30]}...")
-    try:
-        res = cr.works(query=title, limit=1)
-        if res['message']['items']:
-            item = res['message']['items'][0]
-            return item.get('DOI'), item.get('title', [title])[0]
-    except Exception as e:
-        logger.warning(f"DOI 反查失败: {e}")
+    logger.info(f"    🔍 [Crossref] 搜索 DOI: {title[:30]}...")
+    # Crossref 容易超时，需要重试
+    res = cr.works(query=title, limit=1)
+    if res['message']['items']:
+        item = res['message']['items'][0]
+        return item.get('DOI'), item.get('title', [title])[0]
     return None, None
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
 def get_oa_link(doi):
-    try:
-        r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email=bot@example.com", timeout=10)
+    r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email=bot@example.com", timeout=10)
+    if r.status_code == 200:
         data = r.json()
         if data.get('is_oa') and data.get('best_oa_location'):
             return data['best_oa_location']['url_for_pdf']
-    except Exception as e:
-        logger.debug(f"Unpaywall 查询失败: {e}")
     return None
 
 def clean_google_url(url):
@@ -237,7 +240,9 @@ def detect_sources(text, urls):
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.IGNORECASE):
         doi = m.group(1)
         if doi not in seen:
-            link = get_oa_link(doi)
+            try:
+                link = get_oa_link(doi) # 这里有 retry 保护
+            except: link = None
             sources.append({"type": "doi", "id": doi, "url": link}) 
             seen.add(doi)
 
@@ -277,12 +282,12 @@ def fetch_content(item, save_dir):
     
     if not url:
         if item.get("type") == "doi":
-            logger.info(f"ℹ️ 无 PDF 链接，尝试抓取摘要...")
+            logger.info(f"    ℹ️ 无 PDF 链接，尝试抓取摘要...")
             return fetch_abstract_only(item)
         return None, "No URL", None
     
     polite_wait(url)
-    logger.info(f"🔍 [下载] {url[:50]}...")
+    logger.info(f"    🔍 [下载] {url[:50]}...")
     
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"}
@@ -292,7 +297,7 @@ def fetch_content(item, save_dir):
         
         ctype = r.headers.get('Content-Type', '').lower()
         if 'application/pdf' not in ctype and not url.lower().endswith('.pdf'):
-             logger.warning(f"⚠️ 链接响应非 PDF ({ctype})，尝试 DOI 摘要补救...")
+             logger.warning(f"    ⚠️ 链接响应非 PDF ({ctype})，尝试 DOI 摘要补救...")
              if item.get("type") == "doi": return fetch_abstract_only(item)
              return None, "Not PDF", None
 
@@ -301,7 +306,7 @@ def fetch_content(item, save_dir):
             for chunk in r.iter_content(8192): f.write(chunk)
         
         if os.path.getsize(fname) < 2000:
-            logger.warning("⚠️ PDF 文件过小，尝试 DOI 摘要补救...")
+            logger.warning("    ⚠️ PDF 文件过小，尝试 DOI 摘要补救...")
             os.remove(fname)
             if item.get("type") == "doi": return fetch_abstract_only(item)
             return None, "File Too Small", None
@@ -318,21 +323,21 @@ def fetch_content(item, save_dir):
             return None, "Parse Error", None
             
     except Exception as e:
-        logger.error(f"⚠️ 下载异常: {e}，尝试摘要补救...", exc_info=False) # 不打印堆栈，保持日志整洁
+        logger.error(f"    ⚠️ 下载异常: {e}，尝试摘要补救...", exc_info=False)
         if item.get("type") == "doi": return fetch_abstract_only(item)
         return None, str(e), None
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
 def fetch_abstract_only(source_data):
-    try:
-        w = cr.works(ids=source_data["id"])
-        title = w['message'].get('title', [''])[0]
-        abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
-        return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
-    except Exception as e:
-        logger.warning(f"摘要抓取失败: {e}")
-        return None, "Error", None
+    # Crossref API 也经常超时
+    w = cr.works(ids=source_data["id"])
+    title = w['message'].get('title', [''])[0]
+    abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
+    return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=5, max=30))
 def analyze_with_llm(content, ctype):
+    # LLM API 最容易挂，设置较长的重试等待
     if ctype == "ABSTRACT_ONLY":
         prompt = f"""你是一名学术研究助理。以下是一篇文献的【标题和摘要】（未获取到全文）。
         
@@ -360,22 +365,19 @@ def analyze_with_llm(content, ctype):
         来源：{ctype}
         内容：{content[:50000]}
         """
-    try:
-        res = client.chat.completions.create(
-            model=LLM_MODEL_NAME, messages=[{"role": "user", "content": prompt}], temperature=0.3
-        )
-        txt = res.choices[0].message.content.strip()
-        
-        real_title = "Unknown"
-        body = txt
-        match = re.match(r"^TITLE:\s*(.*)", txt, re.IGNORECASE)
-        if match:
-            real_title = match.group(1).strip()
-            body = txt.split('\n', 1)[1].strip()
-        return real_title, body
-    except Exception as e: 
-        logger.error(f"LLM 调用失败: {e}")
-        return None, f"Error: {e}"
+    
+    res = client.chat.completions.create(
+        model=LLM_MODEL_NAME, messages=[{"role": "user", "content": prompt}], temperature=0.3
+    )
+    txt = res.choices[0].message.content.strip()
+    
+    real_title = "Unknown"
+    body = txt
+    match = re.match(r"^TITLE:\s*(.*)", txt, re.IGNORECASE)
+    if match:
+        real_title = match.group(1).strip()
+        body = txt.split('\n', 1)[1].strip()
+    return real_title, body
 
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
@@ -455,8 +457,10 @@ def run():
                     if not sources:
                         titles = extract_titles_from_text(body)
                         for t in titles:
-                            doi, full = search_doi_by_title(t)
-                            if doi: sources.append({"type": "doi", "id": doi, "url": get_oa_link(doi), "title": full})
+                            try:
+                                doi, full = search_doi_by_title(t)
+                                if doi: sources.append({"type": "doi", "id": doi, "url": get_oa_link(doi), "title": full})
+                            except: pass
 
                     for s in sources:
                         pid = s.get('id') or hashlib.md5(s.get('url','').encode()).hexdigest()[:10]
@@ -514,11 +518,14 @@ def run():
         elif item["status"] == "ABSTRACT_ONLY":
             content = item.get("abstract_content", "")
             if not content:
-                content, _, _ = fetch_abstract_only(item)
+                try:
+                    content, _, _ = fetch_abstract_only(item)
+                except:
+                    db.increment_retry(pid)
+                    continue
         
-        real_title, analysis = analyze_with_llm(content, ctype)
-        
-        if analysis and "Error" not in analysis:
+        try:
+            real_title, analysis = analyze_with_llm(content, ctype)
             trans_title = translate_title(real_title)
             
             badge = ""
@@ -538,7 +545,8 @@ def run():
                 "real_title": real_title,
                 "trans_title": trans_title
             })
-        else:
+        except Exception as e:
+            logger.error(f"分析异常: {e}")
             db.increment_retry(pid)
             db.update_status(pid, "ANALYSIS_FAILED")
 
@@ -578,6 +586,9 @@ def run():
     logger.info("✅ 完成")
 
 if __name__ == "__main__":
+    SCHEDULER_MODE = False
+    LOOP_INTERVAL_HOURS = 4
+    
     if SCHEDULER_MODE:
         while True:
             try: run()
