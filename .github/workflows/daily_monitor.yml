@@ -11,32 +11,27 @@ permissions:
 
 jobs:
   scan_and_report:
-    runs-on: ubuntu-latest
+    # 🔴 核心关键：必须是 ubuntu-22.04
+    # 如果这行不生效，后面的 WARP 插件必死无疑
+    runs-on: ubuntu-22.04
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 终极方案：暴力强制安装 openresolv
-      # 既然有冲突，我们就用 --force-all 强行覆盖，反正是临时虚拟机
-      - name: Install dependencies for WARP
-        run: |
-          # 1. 下载 Debian 12 的包 (刚才验证过这个链接是好的)
-          wget http://ftp.debian.org/debian/pool/main/o/openresolv/openresolv_3.12.0-3_all.deb
-          
-          # 2. 暴力安装 (忽略 systemd-resolved 冲突)
-          sudo dpkg -i --force-all openresolv_3.12.0-3_all.deb
-          
-          # 3. 防止 apt 报错 (修复依赖关系，虽然可能并不完美，但足以骗过后续步骤)
-          sudo apt-get install -f -y || true
+      # 🟡 调试步骤：打印当前系统版本
+      # 运行后请看这一步的日志，如果显示 Noble (24.04)，说明修改未生效！
+      - name: Check OS Version
+        run: lsb_release -a
 
       # 🟢 启动 Cloudflare WARP
+      # 在 Ubuntu 22.04 上，这个插件不需要任何额外补丁就能直接跑通
       - name: Set up Cloudflare WARP
         uses: fscarmen/warp-on-actions@v1.3
         with:
           stack: dual
 
-      # 验证 IP
+      # 验证 IP (如果显示 Cloudflare IP，说明伪装成功)
       - name: Check New IP
         run: |
           echo "Current IP Info:"
