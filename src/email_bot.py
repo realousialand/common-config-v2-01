@@ -203,4 +203,525 @@ def detect_and_extract_all(text, all_links=None):
             seen_ids.add(aid)
     
     for match in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.IGNORECASE):
-        doi = match.group(1
+        doi = match.group(1)
+        if doi not in seen_ids:
+            oa_url = get_oa_link_from_doi(doi)
+            results.append({"type": "doi", "id": doi, "url": oa_url})
+            seen_ids.add(doi)
+    
+    ACADEMIC_DOMAINS = [
+        'emerald.com', 'researchgate.net', 'wiley.com', 'sciencedirect.com', 
+        'springer.com', 'tandfonline.com', 'sagepub.com', 'jstor.org', 'oup.com', 
+        'cambridge.org', 'egrove.olemiss.edu'
+    ]
+    BLOCKED_DOMAINS = [
+        'muse.jhu.edu', 
+        'sciencedirect.com/science/article/pii',
+        'scholar.google.com/scholar_share',
+        'google.com/url',
+        'scholar.google.com/scholar_url'
+    ]
+    
+    if all_links:
+        for link in all_links:
+            try:
+                link = unquote(link)
+                link_lower = link.lower()
+                if any(x in link_lower for x in ['unsubscribe', 'privacy', 'manage', 'twitter', 'facebook', 'linkedin']): continue
+                if any(blk in link_lower for blk in BLOCKED_DOMAINS): continue
+
+                is_pdf = link_lower.endswith('.pdf') or '/pdf/' in link_lower
+                is_repo_pdf = 'viewcontent.cgi' in link_lower
+                is_content_pdf = 'content/pdf' in link_lower
+                is_academic_web = any(d in link_lower for d in ACADEMIC_DOMAINS)
+                is_edu = '.edu' in urlparse(link).netloc
+                
+                if is_pdf or is_repo_pdf or is_content_pdf or is_academic_web or is_edu:
+                    link_hash = hashlib.md5(link.encode()).hexdigest()[:10]
+                    if link_hash not in seen_ids:
+                        if "scholar_url?url=" in link:
+                            match = re.search(r'url=([^&]+)', link)
+                            if match: link = unquote(match.group(1))
+                        source_type = "direct_pdf" if (is_pdf or is_repo_pdf) else "academic_web"
+                        results.append({"type": source_type, "id": f"link_{link_hash}", "url": link})
+                        seen_ids.add(link_hash)
+            except: continue
+    return results
+
+def polite_wait(url):
+    try:
+        if not url: return
+        domain = urlparse(url).netloc
+        last_time = DOMAIN_LAST_ACCESSED.get(domain, 0)
+        cooldown = 5 + random.uniform(1, 3)
+        if time.time() - last_time < cooldown: time.sleep(cooldown)
+        DOMAIN_LAST_ACCESSED[domain] = time.time()
+    except: pass
+
+# 🟢 辅助函数：统一生成文件名
+def get_safe_filename(source_data, save_dir):
+    url = source_data.get('url', '')
+    file_id = source_data.get('id') or hashlib.md5(url.encode()).hexdigest()[:10]
+    safe_name = re.sub(r'[\\/*?:"<>|]', '_', file_id)
+    return os.path.join(save_dir, f"{safe_name}.pdf")
+
+def fetch_content(source_data, save_dir=None):
+    if source_data.get("type") == "arxiv": time.sleep(3)
+    url = source_data.get("url")
+    if not url: 
+        if source_data.get("type") == "doi": return fetch_abstract_only(source_data)
+        return None, "No URL", None
+
+    polite_wait(url)
+    print(f"    🔍 [下载] 尝试访问: {url[:50]}...")
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}
+
+    try:
+        r = requests.get(url, headers=headers, timeout=30, allow_redirects=True, stream=True)
+        if r.status_code == 429:
+            print("    🛑 [429] 请求过多，冷却 60秒...")
+            time.sleep(60)
+            return None, "Rate Limited", None
+            
+        final_url = r.url
+        content_type = r.headers.get('Content-Type', '').lower()
+        is_pdf_response = ('application/pdf' in content_type or final_url.endswith('.pdf') or 'viewcontent.cgi' in final_url)
+
+        if is_pdf_response:
+            print("    📥 确认 PDF，下载中...")
+            # 🟢 使用统一的文件名
+            filename = get_safe_filename(source_data, save_dir)
+            with open(filename, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192): f.write(chunk)
+            
+            if os.path.getsize(filename) < 2000:
+                print(f"    ⚠️ 文件过小，跳过。")
+                os.remove(filename)
+                return None, "Fake PDF", None
+
+            try:
+                content = pymupdf4llm.to_markdown(filename)
+                if len(content) < 500:
+                    print(f"    ⚠️ 解析内容过短，跳过。")
+                    os.remove(filename)
+                    return None, "Content Too Short", None
+                print(f"    ✅ PDF 解析成功，长度: {len(content)}")
+                return content, "PDF Full Text", filename
+            except: return None, "PDF Error", None
+
+        elif 'text/html' in content_type:
+            print("    🌐 检测到网页，提取正文...")
+            html_content = ""
+            for chunk in r.iter_content(chunk_size=8192):
+                html_content += chunk.decode(errors='ignore')
+                if len(html_content) > 200000: break 
+            text_content = re.sub(r'<[^<]+?>', '\n', html_content)
+            text_content = re.sub(r'\n+', '\n', text_content).strip()
+            if len(text_content) < 500:
+                print(f"    ⚠️ 网页内容过短，跳过。")
+                return None, "Content Too Short", None
+            print(f"    ✅ 网页文本提取成功")
+            return text_content, "Web Page Text", None
+
+    except Exception as e:
+        print(f"    ⚠️ 下载失败: {e}")
+        if source_data.get("type") == "doi": return fetch_abstract_only(source_data)
+
+    if source_data.get("type") == "doi": return fetch_abstract_only(source_data)
+    return None, "Unknown", None
+
+def fetch_abstract_only(source_data):
+    try:
+        print(f"    📚 [保底] 获取 Crossref 摘要...")
+        work = cr.works(ids=source_data["id"])
+        title = work['message'].get('title', [''])[0]
+        abstract = re.sub(r'<[^>]+>', '', work['message'].get('abstract', '无摘要'))
+        return abstract, "Abstract Only", None
+    except: return None, "Error", None
+
+def analyze_with_llm(content, content_type, source_url=""):
+    prompt = f"""你是一名专业的社会科学/计算机科学研究助理。请用【中文】对以下文献内容进行深度分析。
+    
+    任务要求：
+    1. 总结研究背景、核心问题、方法论和主要结论。
+    2. 提取关键机制或理论创新点。
+    3. 如果正文中有提到具体的图表或模型架构，请在解释该部分时插入 
+
+[Image of X]
+ 标签（X为图表内容的简短英文描述）。
+    4. 保持学术性，逻辑清晰。
+    5. 输出格式为 Markdown。
+
+    文献来源：{content_type}
+    文章内容：
+    {content[:50000]}
+    """
+    try:
+        completion = client.chat.completions.create(
+            model=LLM_MODEL_NAME,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3
+        )
+        return completion.choices[0].message.content.strip()
+    except Exception as e:
+        return f"LLM 分析出错: {e}"
+
+def generate_failed_report(failed_list):
+    if not failed_list: return ""
+    report = "\n\n<div class='failed-section'><h2>⚠️ 未获取全文的文献 (Skipped List)</h2>"
+    report += "<p>以下文献因仅有摘要、触发反爬虫验证或文件无效，未进行深度分析。请点击链接查看原文：</p>"
+    for src in failed_list:
+        url = src.get('url', 'No URL')
+        s_id = src.get('id', 'Unknown ID')
+        sType = src.get('type', 'Unknown')
+        title = src.get('title', s_id)
+        
+        abstract_text = src.get('abstract_content', '')
+        if not abstract_text and sType == 'doi':
+             try:
+                w = cr.works(ids=s_id)
+                abstract_text = re.sub(r'<[^<]+?>', '', w['message'].get('abstract', ''))
+             except: pass
+        
+        report += f"<div class='failed-item'><h3>❌ {title}</h3>"
+        report += f"<div class='failed-meta'>URL: <a href='{url}'>{url}</a> | Type: {sType}</div>"
+        if abstract_text:
+            report += f"<div class='failed-abstract'><strong>Abstract:</strong> {abstract_text[:400]}...</div>"
+        report += "</div>"
+    report += "</div>"
+    return report
+
+# --- 📧 3. 辅助与数据管理 ---
+
+def load_json(filepath):
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f: return json.load(f)
+        except: return []
+    return []
+
+def save_json(data, filepath):
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f: json.dump(data, f, indent=2, ensure_ascii=False)
+
+def append_to_history(new_items, filepath):
+    history = load_json(filepath)
+    existing_ids = {item['id'] for item in history}
+    added_count = 0
+    for item in new_items:
+        if item['id'] not in existing_ids:
+            history.append(item)
+            existing_ids.add(item['id'])
+            added_count += 1
+    if added_count > 0:
+        save_json(history, filepath)
+    return added_count
+
+def get_unique_id(source_data):
+    return source_data.get("id") or hashlib.md5(source_data.get("url", "").encode()).hexdigest()
+
+def send_email_with_attachment(subject, body_content, attachment_zip=None):
+    try:
+        html_content = markdown.markdown(body_content, extensions=['extra', 'tables', 'fenced_code'])
+    except: 
+        html_content = body_content
+    
+    try:
+        def replacer(match): return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
+        html_content = re.sub(r'\]+)\]', replacer, html_content)
+    except: pass
+    
+    final_html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {EMAIL_CSS}
+    </head>
+    <body>
+        <div class="header-box">
+            <h1>{subject}</h1>
+            <div class="queue-info">{datetime.date.today()} 生成</div>
+        </div>
+        {html_content}
+        <hr>
+        <p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant</p>
+    </body>
+    </html>
+    """
+    
+    msg = MIMEMultipart()
+    msg["Subject"] = subject
+    msg["From"] = EMAIL_USER
+    msg["To"] = EMAIL_USER
+    msg.attach(MIMEText(final_html, "html", "utf-8"))
+    
+    if attachment_zip and os.path.exists(attachment_zip):
+        if os.path.getsize(attachment_zip) > MAX_EMAIL_ZIP_SIZE:
+            attach_note = f"<div class='warning-box'>⚠️ 附件过大 ({os.path.getsize(attachment_zip)/1024/1024:.1f}MB)，已自动移除。</div>"
+            final_html = final_html.replace("<body>", f"<body>{attach_note}")
+            msg = MIMEMultipart()
+            msg["Subject"] = subject
+            msg["From"] = EMAIL_USER
+            msg["To"] = EMAIL_USER
+            msg.attach(MIMEText(final_html, "html", "utf-8"))
+        else:
+            try:
+                with open(attachment_zip, "rb") as f:
+                    part = MIMEApplication(f.read(), Name=os.path.basename(attachment_zip))
+                    part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment_zip)}"'
+                    msg.attach(part)
+            except: pass
+    
+    try:
+        with smtplib.SMTP_SSL(SMTP_SERVER, 465) as server:
+            server.login(EMAIL_USER, EMAIL_PASS)
+            server.sendmail(EMAIL_USER, EMAIL_USER, msg.as_string())
+        return True
+    except Exception as e:
+        print(f"发送失败: {e}")
+        return False
+
+# --- 🚀 4. 主任务流程 ---
+
+def run_task():
+    print(f"🎬 任务启动: {datetime.datetime.now()}")
+    if os.path.exists(DOWNLOAD_DIR): shutil.rmtree(DOWNLOAD_DIR)
+    os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
+    
+    # 🟢 加载分析记录，用于查重
+    history2 = load_json(HISTORY_2_FILE)
+    analyzed_ids = {item['id'] for item in history2}
+    
+    processed_ids = set(load_json(HISTORY_PROCESSED_ID_FILE))
+    if not processed_ids:
+        h0 = load_json(HISTORY_0_FILE)
+        processed_ids = {item['id'] for item in h0}
+    
+    mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+    mail.login(EMAIL_USER, EMAIL_PASS)
+    mail.select("inbox")
+    
+    date_criteria = (datetime.date.today() - timedelta(days=2)).strftime("%d-%b-%Y")
+    print(f"🔍 搜索 {date_criteria} 之后的邮件...")
+    _, data = mail.search(None, f'(SINCE "{date_criteria}")')
+    email_list = data[0].split()
+    print(f"📨 检索到 {len(email_list)} 封候选邮件")
+    
+    queue_pending = load_json(QUEUE_FILE)
+    queue_ids = {item['id'] for item in queue_pending}
+    print(f"📂 当前队列待办数: {len(queue_pending)}")
+    
+    # === 阶段 1: 扫描入队 ===
+    for idx, e_id in enumerate(email_list):
+        try:
+            time.sleep(1)
+            _, header_data = mail.fetch(e_id, "(BODY.PEEK[HEADER])")
+            msg_header = email.message_from_bytes(header_data[0][1])
+            subj, enc = decode_header(msg_header["Subject"])[0]
+            subj = subj.decode(enc or 'utf-8') if isinstance(subj, bytes) else subj
+            
+            date_tuple = email.utils.parsedate_tz(msg_header["Date"])
+            email_date_str = datetime.datetime.fromtimestamp(email.utils.mktime_tz(date_tuple)).strftime("%Y-%m-%d") if date_tuple else "Unknown"
+
+            if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
+            
+            print(f"🎯 命中: 【{email_date_str}】{subj[:30]}...")
+            _, m_data = mail.fetch(e_id, "(RFC822)")
+            msg = email.message_from_bytes(m_data[0][1])
+            
+            body_text, all_urls = extract_body(msg)
+            sources = detect_and_extract_all(body_text, all_urls)
+            
+            if not sources:
+                print("    💡 启用 LLM 标题反查...")
+                titles = extract_titles_from_text(body_text)
+                for t in titles:
+                    doi, full_title = search_doi_by_title(t)
+                    if doi:
+                        print(f"    ✅ 反查 DOI: {doi}")
+                        oa_url = get_oa_link_from_doi(doi)
+                        sources.append({"type": "doi", "id": doi, "url": oa_url, "title": full_title})
+                        time.sleep(1)
+                    else:
+                        pass 
+
+            new_in_queue = 0
+            for s in sources:
+                u_id = get_unique_id(s)
+                s['id'] = u_id
+                if 'title' not in s: s['title'] = get_metadata_safe(s)
+                
+                # 🟢 队列查重逻辑：
+                # 1. 之前没分析过 (processed_ids)
+                # 2. 不在当前队列里 (queue_ids)
+                # 3. 不在 history2 里 (analyzed_ids) -- 双重保险
+                if u_id not in processed_ids and u_id not in queue_ids and u_id not in analyzed_ids:
+                    s['timestamp_added'] = str(datetime.datetime.now())
+                    queue_pending.append(s)
+                    queue_ids.add(u_id)
+                    new_in_queue += 1
+                    append_to_history([{
+                        "id": u_id, "type": s.get('type'), "url": s.get('url'), 
+                        "title": s.get('title'), "timestamp": str(datetime.datetime.now())
+                    }], HISTORY_0_FILE)
+            
+            if new_in_queue > 0:
+                print(f"    ➕ 新增 {new_in_queue} 篇到待办队列")
+
+        except Exception as e:
+            print(f"⚠️ 扫描错误: {e}")
+            continue
+            
+    save_json(queue_pending, QUEUE_FILE)
+    
+    if not queue_pending:
+        print("☕ 队列为空，无任务处理。")
+        try: mail.logout() 
+        except: pass
+        return
+
+    to_process = queue_pending[:BATCH_SIZE]
+    remaining_queue = queue_pending[BATCH_SIZE:]
+    
+    print(f"🚀 开始处理本批次: {len(to_process)} 篇 (剩余: {len(remaining_queue)})")
+    
+    report_body = ""
+    all_files, total_new, failed = [], 0, []
+    history3_records = []
+    history2_records = []
+    processed_now = []
+
+    for src in to_process:
+        print(f"📝 处理: {src.get('id')}")
+        
+        # 🟢 消费时再次查重：如果已经分析过，直接跳过
+        if src['id'] in analyzed_ids:
+            print(f"    ⏩ [跳过] 已分析过 (History 2)")
+            processed_now.append(src['id']) # 标记为已处理，以便从队列移出
+            continue
+
+        if not src.get('trans_title') and src.get('title'):
+             src['trans_title'] = translate_title(src['title'])
+             print(f"    🇨🇳 标题翻译: {src['trans_title'][:20]}...")
+
+        # 获取内容 (fetch_content 内部已无本地复用逻辑，每次都下载)
+        content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
+        processed_now.append(src['id'])
+        
+        if path: 
+            all_files.append(path)
+            history3_records.append({
+                "id": src['id'], "title": src.get('title'), 
+                "trans_title": src.get('trans_title'), "timestamp": str(datetime.datetime.now())
+            })
+        
+        if ctype == "Abstract Only":
+            print("    ⚠️ 仅获取到摘要，跳过深度分析。")
+            src['abstract_content'] = content
+            failed.append(src)
+            continue
+
+        if content:
+            print("🤖 AI 分析中...")
+            ans = analyze_with_llm(content, ctype, src.get('url'))
+            if "LLM 分析出错" not in ans:
+                paper_html = f"""
+                <div class="paper-card">
+                    <div class="paper-title">{src.get('title', src['id'])}</div>
+                    <div class="paper-trans-title">{src.get('trans_title', '（暂无中文标题）')}</div>
+                    <div class="paper-content">{ans}</div>
+                </div>
+                """
+                report_body += paper_html
+                total_new += 1
+                history2_records.append({
+                    "id": src['id'], "title": src.get('title'),
+                    "trans_title": src.get('trans_title'), "analysis_summary": ans[:100]+"...",
+                    "timestamp": str(datetime.datetime.now())
+                })
+                continue
+        failed.append(src)
+    
+    append_to_history(history3_records, HISTORY_3_FILE)
+    append_to_history(history2_records, HISTORY_2_FILE)
+    
+    processed_ids.update(processed_now)
+    save_json(list(processed_ids), HISTORY_PROCESSED_ID_FILE)
+    
+    queue_status = f"<div class='queue-info'>📊 队列状态：本批处理 {len(to_process)} 篇，剩余待办 {len(remaining_queue)} 篇。</div>"
+    failed_report = generate_failed_report(failed)
+    
+    final_report_html = f"{queue_status}\n{report_body}\n{failed_report}"
+    
+    file_batches = []
+    current_batch = []
+    current_size = 0
+    for f in all_files:
+        try:
+            f_size = os.path.getsize(f)
+            if current_size + f_size > MAX_EMAIL_ZIP_SIZE:
+                if current_batch: file_batches.append(current_batch)
+                current_batch = [f]
+                current_size = f_size
+            else:
+                current_batch.append(f)
+                current_size += f_size
+        except: pass
+    if current_batch: file_batches.append(current_batch)
+    
+    all_emails_sent = True 
+
+    if not file_batches:
+        if total_new > 0 or failed:
+            print("📨 发送纯文本报告...")
+            if not send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report_html, None):
+                all_emails_sent = False
+    else:
+        print(f"📨 附件过大，分 {len(file_batches)} 封发送...")
+        for i, batch in enumerate(file_batches):
+            zip_name = f"papers_part_{i+1}.zip"
+            with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zf:
+                for f in batch: zf.write(f, os.path.basename(f))
+            
+            if i == 0:
+                subject = f"🤖 AI 学术日报 (新:{total_new}) - Part 1"
+                body = final_report_html
+            else:
+                subject = f"🤖 AI 学术日报 (附件 Part {i+1}) - {datetime.date.today()}"
+                body = f"<div class='paper-card'><h3>📎 附件补发 (Part {i+1})</h3><p>这是后续的 PDF 附件包，请查收。</p></div>"
+            
+            if not send_email_with_attachment(subject, body, zip_name):
+                all_emails_sent = False
+            
+            if os.path.exists(zip_name): os.remove(zip_name)
+            time.sleep(10)
+    
+    # 🟢 只有邮件全部发送成功，才从队列中永久移除
+    if all_emails_sent:
+        print(f"💾 [邮件发送成功] 更新队列：移除已处理 {len(to_process)} 篇，剩余 {len(remaining_queue)} 篇。")
+        save_json(remaining_queue, QUEUE_FILE)
+    else:
+        print(f"⚠️ [邮件发送失败] 保留队列，等待下次重试。")
+
+    try: mail.logout()
+    except: pass
+    print("✅ 本次任务完成")
+
+def main():
+    if SCHEDULER_MODE:
+        print(f"🔄 已启动循环模式，每 {LOOP_INTERVAL_HOURS} 小时运行一次...")
+        while True:
+            try:
+                run_task()
+            except Exception as e:
+                print(f"❌ 任务崩溃: {e}")
+            print(f"💤 休眠 {LOOP_INTERVAL_HOURS} 小时...")
+            time.sleep(LOOP_INTERVAL_HOURS * 3600)
+    else:
+        run_task()
+
+if __name__ == "__main__":
+    main()
