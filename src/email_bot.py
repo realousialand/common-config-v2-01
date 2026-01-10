@@ -71,20 +71,21 @@ def clean_google_url(url):
     except: pass
     return url
 
-# --- 启动自检 ---
+# --- 启动自检 (安全拼接版) ---
 def startup_check():
-    logger.info("🔧 正在执行启动自检...")
+    logger.info("🔧 执行启动自检...")
     try:
-        # 1. 验证正则
-        test_str = "Test 
-
-[Image of Graph]
-"
-        re.sub(r'\]+)\]', 'IMG', test_str)
+        # 🟢 修复：使用 ASCII 码拼接，避免字符串被系统截断
+        # 构造 "[Image of Graph]"
+        safe_tag = chr(91) + "Image of Graph" + chr(93)
+        test_str = "Test " + safe_tag
         
-        # 2. 验证 URL 清洗
-        test_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
-        if "arxiv.org" not in clean_google_url(test_url):
+        # 测试正则
+        re.sub(r'\[Image of ([^\]]+)\]', 'IMG', test_str)
+        
+        # 测试 URL 清洗
+        t_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
+        if "arxiv.org" not in clean_google_url(t_url):
             raise ValueError("URL清洗失败")
             
         logger.info("✅ 自检通过")
@@ -103,8 +104,9 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
+                    # 自动修复 List -> Dict
                     if isinstance(content, list):
-                        logger.warning("⚠️ 检测到旧版数据库格式(List)，正在迁移为字典...")
+                        logger.warning("⚠️ 迁移数据库格式 List->Dict")
                         new_data = {}
                         for item in content:
                             if isinstance(item, dict) and 'id' in item:
@@ -238,14 +240,10 @@ def extract_body_urls(msg):
 def detect_sources(text, urls):
     srcs = []
     seen = set()
-    
-    # ArXiv
     for m in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.I):
         if m.group(1) not in seen:
             srcs.append({"type": "arxiv", "id": m.group(1), "url": f"https://arxiv.org/pdf/{m.group(1)}.pdf"})
             seen.add(m.group(1))
-            
-    # DOI
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.I):
         doi = m.group(1)
         if doi not in seen:
@@ -253,15 +251,12 @@ def detect_sources(text, urls):
             except: link = None
             srcs.append({"type": "doi", "id": doi, "url": link})
             seen.add(doi)
-            
-    # Links
     for link in urls:
         try:
             clink = clean_google_url(link)
             if not clink: continue
             lower = clink.lower()
             if any(x in lower for x in ['unsubscribe', 'twitter', 'facebook']): continue
-            
             if lower.endswith('.pdf') or 'viewcontent.cgi' in lower:
                 lid = hashlib.md5(clink.encode()).hexdigest()[:10]
                 if lid not in seen:
@@ -271,35 +266,28 @@ def detect_sources(text, urls):
     return srcs
 
 def get_path(pid):
-    # 🟢 修复：将正则表达式移出 f-string，兼容 Python 3.9
-    safe_name = re.sub(r'[\\/*?:"<>|]', '_', pid)
-    return os.path.join(DOWNLOAD_DIR, f"{safe_name}.pdf")
+    return os.path.join(DOWNLOAD_DIR, f"{re.sub(r'[\\/*?]', '_', pid)}.pdf")
 
 def fetch_content(item):
     url = clean_google_url(item.get('url'))
     if not url:
         if item.get("type") == "doi": return fetch_abstract(item)
         return None, "No URL", None
-        
     logger.info(f"    🔍 [下载] {url[:50]}...")
     try:
         r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30, stream=True)
         if r.status_code == 429: return None, "Rate Limit", None
-        
         ct = r.headers.get('Content-Type', '').lower()
         if 'application/pdf' not in ct and not url.lower().endswith('.pdf'):
             if item.get("type") == "doi": return fetch_abstract(item)
             return None, "Not PDF", None
-            
         fp = get_path(item['id'])
         with open(fp, "wb") as f:
             for chunk in r.iter_content(8192): f.write(chunk)
-            
         if os.path.getsize(fp) < 2000:
             os.remove(fp)
             if item.get("type") == "doi": return fetch_abstract(item)
             return None, "Too Small", None
-            
         try:
             txt = pymupdf4llm.to_markdown(fp)
             if len(txt) < 500:
@@ -314,238 +302,4 @@ def fetch_content(item):
         if item.get("type") == "doi": return fetch_abstract(item)
         return None, str(e), None
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
-def fetch_abstract(item):
-    w = cr.works(ids=item["id"])
-    t = w['message'].get('title', [''])[0]
-    a = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
-    return f"TITLE: {t}\n\nABSTRACT: {a}", "ABSTRACT_ONLY", None
-
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
-def analyze(txt, ctype):
-    # 🟢 升级版 Prompt (完整版)
-    sys_prompt = "You are a comprehensive academic research assistant."
-    user_prompt = f"""
-    # Role
-    Please act as my academic assistant based on the provided document content.
-
-    # ⚠️ CRITICAL FORMAT RULE
-    The VERY FIRST line of your response MUST be the English title in this format:
-    TITLE: <English Title Here>
-
-    # Task Steps (Execute carefully)
-    1. **Basic Info**: Confirm title, authors, journal/conference (expand abbreviations), year, keywords.
-    2. **Domain & Impact**: Infer research field and potential impact.
-    3. **Gap Analysis**: Explain current status and specific gap/problem addressed.
-    4. **Methodology**: Detail key techniques, experiment design, theoretical framework, and innovations.
-    5. **Results**: List key empirical results and conclusions.
-    6. **Terminology**: Explain 2-3 technical terms for non-experts.
-    7. **Contributions**: Analyze main strengths and field contributions.
-    8. **Limitations & Future**: Discuss limitations (sample size, assumptions) and future directions.
-    9. **Related Work**: Recommend 3-5 related foundational or follow-up studies.
-    10. **Search Info**: Suggest precise search queries for databases.
-    11. **DOI/Link**: Provide DOI or official link if found in text.
-    12. **Quantitative Analysis**: IF quantitative, list Data/Dataset, Variables, Models, Stat methods, Sources, Results.
-
-    Input Type: {ctype}
-    Document Content: 
-    {txt[:50000]}
-    """
-    
-    res = client.chat.completions.create(
-        model=LLM_MODEL_NAME,
-        messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
-        temperature=0.3
-    )
-    raw = res.choices[0].message.content.strip()
-    clean_raw = raw.replace("```markdown", "").replace("```", "").strip()
-    
-    title = "Unknown"
-    body = clean_raw
-    m = re.search(r"TITLE:\s*(.*)", clean_raw, re.I)
-    if m:
-        title = m.group(1).strip()
-        body = clean_raw.replace(m.group(0), "").strip()
-    return title, body
-
-def send_mail(subj, md_body, files=[]):
-    html = markdown.markdown(md_body, extensions=['extra'])
-    full_html = f"""
-    <html><body style="font-family:sans-serif;padding:20px">
-    <div style="background:#2c3e50;color:white;padding:15px;border-radius:5px">
-        <h2>{subj}</h2><p>{datetime.date.today()}</p>
-    </div>
-    {html}
-    <hr><p style="color:#888;font-size:12px">AI Research Assistant</p>
-    </body></html>
-    """
-    
-    msg = MIMEMultipart()
-    msg["Subject"] = subj
-    msg["From"] = EMAIL_USER
-    msg["To"] = EMAIL_USER
-    msg.attach(MIMEText(full_html, "html", "utf-8"))
-    
-    for f in files:
-        if os.path.exists(f):
-            try:
-                with open(f, "rb") as fp:
-                    part = MIMEApplication(fp.read(), Name=os.path.basename(f))
-                    part['Content-Disposition'] = f'attachment; filename="{os.path.basename(f)}"'
-                    msg.attach(part)
-            except: pass
-            
-    try:
-        with smtplib.SMTP_SSL(SMTP_SERVER, 465) as s:
-            s.login(EMAIL_USER, EMAIL_PASS)
-            s.sendmail(EMAIL_USER, EMAIL_USER, msg.as_string())
-        logger.info("✅ 邮件已发送")
-        return True
-    except Exception as e:
-        logger.error(f"邮件失败: {e}")
-        return False
-
-# --- 主程序 ---
-def run():
-    startup_check()
-    logger.info(f"🎬 任务开始")
-    os.makedirs(DOWNLOAD_DIR, exist_ok=True)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    
-    db = PaperDB(DB_FILE)
-    logger.info(f"📚 数据库: {type(db.data)}, {len(db.data)} 条")
-
-    # 1. 扫描
-    try:
-        m = imaplib.IMAP4_SSL(IMAP_SERVER)
-        m.login(EMAIL_USER, EMAIL_PASS)
-        m.select("inbox")
-        _, data = m.search(None, f'(SINCE "{(datetime.date.today()-timedelta(days=2)).strftime("%d-%b-%Y")}")')
-        
-        if data[0]:
-            for eid in data[0].split():
-                try:
-                    _, h = m.fetch(eid, "(BODY.PEEK[HEADER])")
-                    subj = decode_header(email.message_from_bytes(h[0][1])["Subject"])[0][0]
-                    if isinstance(subj, bytes): subj = subj.decode()
-                    
-                    if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
-                    logger.info(f"🎯 邮件: {subj[:20]}...")
-                    
-                    _, b = m.fetch(eid, "(RFC822)")
-                    msg = email.message_from_bytes(b[0][1])
-                    txt, urls = extract_body_urls(msg)
-                    srcs = detect_sources(txt, urls)
-                    
-                    if not srcs:
-                        ts = extract_titles(txt)
-                        for t in ts:
-                            try:
-                                doi, full = search_doi(t)
-                                if doi: srcs.append({"type": "doi", "id": doi, "url": get_oa_link(doi)})
-                            except: pass
-                            
-                    for s in srcs:
-                        pid = s.get('id') or hashlib.md5(s.get('url','').encode()).hexdigest()[:10]
-                        s['id'] = pid
-                        if 'title' not in s: s['title'] = get_meta_safe(s)
-                        if db.add_new(pid, s): logger.info(f"    ➕ 新增: {pid}")
-                except Exception as e: logger.error(f"解析错误: {e}")
-    except Exception as e: logger.error(f"IMAP 错误: {e}")
-
-    # 2. 下载
-    pend_dl = db.get_pending_downloads(BATCH_SIZE)
-    logger.info(f"📥 待下载: {len(pend_dl)}")
-    for item in pend_dl:
-        logger.info(f"下载: {item['id']}")
-        res, type_, path = fetch_content(item)
-        if type_ in ["PDF", "ABSTRACT_ONLY"]:
-            db.update_status(item['id'], "DOWNLOADED" if type_=="PDF" else "ABSTRACT_ONLY", 
-                           {"local_path": path, "content_type": type_, "abstract_content": res if type_=="ABSTRACT_ONLY" else ""})
-        else:
-            logger.warning(f"    失败: {type_}")
-            db.inc_retry(item['id'])
-            db.update_status(item['id'], "DOWNLOAD_FAILED", {"error": type_})
-
-    # 3. 分析
-    pend_an = db.get_pending_analysis(BATCH_SIZE)
-    logger.info(f"🤖 待分析: {len(pend_an)}")
-    reports, atts = [], []
-    
-    for item in pend_an:
-        pid = item['id']
-        logger.info(f"分析: {pid}")
-        
-        txt, ctype = "", item.get("content_type", "Unknown")
-        if item["status"] == "DOWNLOADED":
-            fp = get_path(pid)
-            if not os.path.exists(fp):
-                logger.info("    补下载...")
-                _, ctype, fp = fetch_content(item)
-                if not fp: 
-                    db.update_status(pid, "DOWNLOAD_FAILED")
-                    continue
-            try: txt = pymupdf4llm.to_markdown(fp)
-            except: db.update_status(pid, "ANALYSIS_FAILED"); continue
-            atts.append(fp)
-        elif item["status"] == "ABSTRACT_ONLY":
-            txt = item.get("abstract_content", "")
-            if not txt:
-                try: txt, _, _ = fetch_abstract(item)
-                except: db.inc_retry(pid); continue
-        
-        try:
-            rt, ans = analyze(txt, ctype)
-            # 标题保底
-            disp_title = rt if ("Unknown" not in rt and rt) else item.get('title', 'Unknown')
-            tt = translate_title(disp_title) or "翻译失败"
-            badge = " (仅摘要)" if ctype == "ABSTRACT_ONLY" else ""
-            
-            card = f"""
-            <div style="border:1px solid #ddd;padding:15px;margin-bottom:20px;border-radius:8px">
-                <h3 style="color:#2c3e50;border-bottom:2px solid #3498db;padding-bottom:10px">{disp_title}{badge}</h3>
-                <div style="background:#f8f9fa;padding:10px;margin:10px 0;border-left:4px solid #3498db"><strong>{tt}</strong></div>
-                <div>{ans}</div>
-            </div>
-            """
-            reports.append(card)
-            db.update_status(pid, "ANALYZED", {"real_title": disp_title, "trans_title": tt})
-        except Exception as e:
-            logger.error(f"分析失败: {e}")
-            db.inc_retry(pid)
-            db.update_status(pid, "ANALYSIS_FAILED")
-
-    # 4. 发送
-    if reports:
-        body = "\n".join(reports)
-        zips = []
-        cz, csz = [], 0
-        for f in atts:
-            s = os.path.getsize(f)
-            if csz + s > MAX_EMAIL_ZIP_SIZE:
-                zips.append(cz); cz, csz = [f], s
-            else: cz.append(f); csz += s
-        if cz: zips.append(cz)
-        
-        if not zips: send_mail(f"🤖 AI 日报 ({len(reports)})", body)
-        else:
-            for i, zf in enumerate(zips):
-                zn = f"papers_{i+1}.zip"
-                with zipfile.ZipFile(zn, 'w', zipfile.ZIP_DEFLATED) as z:
-                    for f in zf: z.write(f, os.path.basename(f))
-                subj = f"🤖 AI 日报 (Part {i+1})"
-                b = body if i==0 else "附件补发"
-                send_mail(subj, b, [zn])
-                if os.path.exists(zn): os.remove(zn)
-                time.sleep(5)
-    
-    logger.info("✅ 完成")
-
-if __name__ == "__main__":
-    if SCHEDULER_MODE:
-        while True:
-            try: run()
-            except: logger.exception("Crash")
-            time.sleep(LOOP_INTERVAL_HOURS * 3600)
-    else:
-        run()
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(
