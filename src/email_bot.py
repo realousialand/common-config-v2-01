@@ -73,13 +73,14 @@ def clean_google_url(url):
 
 # --- 启动自检 ---
 def startup_check():
-    logger.info("🔧 正在执行启动自检...")
+    logger.info("🔧 执行启动自检...")
     try:
-        # 1. 验证正则
-        test_str = "Test 
+        # 1. 验证正则 (使用拼接字符串防止截断)
+        tag_part = "
 
 [Image of Graph]
 "
+        test_str = "Test " + tag_part
         re.sub(r'\]+)\]', 'IMG', test_str)
         
         # 2. 验证 URL 清洗
@@ -103,13 +104,16 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
+                    
+                    # 🟢 自动修复 List -> Dict
                     if isinstance(content, list):
-                        logger.warning("⚠️ 检测到旧版数据库格式(List)，正在迁移为字典...")
+                        logger.warning("⚠️ 迁移旧版数据库格式...")
                         new_data = {}
                         for item in content:
                             if isinstance(item, dict) and 'id' in item:
                                 new_data[item['id']] = item
                         return new_data
+                    
                     if isinstance(content, dict): return content
             except Exception as e:
                 logger.error(f"加载数据库失败: {e}")
@@ -239,11 +243,13 @@ def detect_sources(text, urls):
     srcs = []
     seen = set()
     
+    # ArXiv
     for m in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.I):
         if m.group(1) not in seen:
             srcs.append({"type": "arxiv", "id": m.group(1), "url": f"https://arxiv.org/pdf/{m.group(1)}.pdf"})
             seen.add(m.group(1))
             
+    # DOI
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.I):
         doi = m.group(1)
         if doi not in seen:
@@ -252,6 +258,7 @@ def detect_sources(text, urls):
             srcs.append({"type": "doi", "id": doi, "url": link})
             seen.add(doi)
             
+    # Links
     for link in urls:
         try:
             clink = clean_google_url(link)
@@ -318,48 +325,30 @@ def fetch_abstract(item):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
 def analyze(txt, ctype):
-    # 🟢 升级版 Prompt：植入用户指定的 13 点学术助手要求
-    sys_prompt = "You are a comprehensive academic research assistant."
+    sys_prompt = "You are a research assistant. Analyze the paper in Chinese."
     user_prompt = f"""
-    # Role
-    Please act as my academic assistant based on the provided document content.
-
-    # ⚠️ CRITICAL FORMAT RULE
-    The VERY FIRST line of your response MUST be the English title in this format:
-    TITLE: <English Title Here>
-
-    # Task Steps (Execute carefully)
-    1. **Basic Info**: Confirm title, authors, journal/conference (expand abbreviations), year, keywords.
-    2. **Domain & Impact**: Infer research field and potential impact.
-    3. **Gap Analysis**: Explain current status and specific gap/problem addressed.
-    4. **Methodology**: Detail key techniques, experiment design, theoretical framework, and innovations.
-    5. **Results**: List key empirical results and conclusions.
-    6. **Terminology**: Explain 2-3 technical terms for non-experts.
-    7. **Contributions**: Analyze main strengths and field contributions.
-    8. **Limitations & Future**: Discuss limitations (sample size, assumptions) and future directions.
-    9. **Related Work**: Recommend 3-5 related foundational or follow-up studies.
-    10. **Search Info**: Suggest precise search queries for databases.
-    11. **DOI/Link**: Provide DOI or official link if found in text.
-    12. **Quantitative Analysis**: IF quantitative, list Data/Dataset, Variables, Models, Stat methods, Sources, Results.
-
-    Input Type: {ctype}
-    Document Content: 
-    {txt[:50000]}
-    """
+    Strictly follow this format (no markdown code blocks):
+    TITLE: <English Title>
     
+    [Chinese Analysis Body]
+    
+    Task:
+    1. Extract the English Title on the first line.
+    2. Analyze background, methods, and conclusions in Chinese.
+    
+    Type: {ctype}
+    Content: {txt[:40000]}
+    """
     res = client.chat.completions.create(
         model=LLM_MODEL_NAME,
         messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
         temperature=0.3
     )
     raw = res.choices[0].message.content.strip()
-    
-    # 清洗 Markdown 符号，确保解析正常
     clean_raw = raw.replace("```markdown", "").replace("```", "").strip()
     
     title = "Unknown"
     body = clean_raw
-    # 宽松正则提取标题
     m = re.search(r"TITLE:\s*(.*)", clean_raw, re.I)
     if m:
         title = m.group(1).strip()
@@ -374,7 +363,7 @@ def send_mail(subj, md_body, files=[]):
         <h2>{subj}</h2><p>{datetime.date.today()}</p>
     </div>
     {html}
-    <hr><p style="color:#888;font-size:12px">AI Research Assistant</p>
+    <hr><p style="color:#888;font-size:12px">AI Assistant</p>
     </body></html>
     """
     
