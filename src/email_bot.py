@@ -41,8 +41,10 @@ LOOP_INTERVAL_HOURS = 4
 BATCH_SIZE = 20
 MAX_RETRIES = 3
 TARGET_SUBJECTS = ["文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE", "new research", "Stork", "ScienceDirect", "Chinese politics", "Imperial history", "Causal inference", "new results", "The Accounting Review", "recommendations available", "Table of Contents"]
+
 DATA_DIR = "data"
 DB_FILE = os.path.join(DATA_DIR, "papers_database.json")
+EMAIL_RECORD_FILE = os.path.join(DATA_DIR, "processed_emails.json") # 🟢 新增：邮件记录文件
 DOWNLOAD_DIR = "downloads"
 MAX_EMAIL_ZIP_SIZE = 18 * 1024 * 1024 
 socket.setdefaulttimeout(30)
@@ -50,7 +52,7 @@ client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
 DOMAIN_LAST_ACCESSED = {}
 
-# 全局 Session，用于保持 Cookies
+# 全局 Session
 session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -91,7 +93,34 @@ def startup_check():
         logger.critical(f"❌ 自检失败: {e}")
         exit(1)
 
-# --- 数据库 ---
+# --- 邮件记录管理 (🟢 新增类) ---
+class EmailHistory:
+    def __init__(self, filepath):
+        self.filepath = filepath
+        self.data = self._load()
+
+    def _load(self):
+        if os.path.exists(self.filepath):
+            try:
+                with open(self.filepath, 'r', encoding='utf-8') as f:
+                    return set(json.load(f)) # 用集合(Set)存储，查询极快
+            except: pass
+        return set()
+
+    def add(self, msg_id):
+        self.data.add(msg_id)
+        self._save()
+
+    def exists(self, msg_id):
+        return msg_id in self.data
+
+    def _save(self):
+        try:
+            with open(self.filepath, 'w', encoding='utf-8') as f:
+                json.dump(list(self.data), f) # 存为列表
+        except: pass
+
+# --- 论文数据库 ---
 class PaperDB:
     def __init__(self, filepath):
         self.filepath = filepath
@@ -103,7 +132,6 @@ class PaperDB:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
                     if isinstance(content, list): 
-                        logger.warning("⚠️ 修复旧版数据库格式 List->Dict")
                         new_data = {}
                         for item in content:
                             if isinstance(item, dict) and 'id' in item: new_data[item['id']] = item
@@ -256,41 +284,34 @@ def get_path(pid):
     safe = re.sub(r'[\\/*?:"<>|]', '_', pid)
     return os.path.join(DOWNLOAD_DIR, f"{safe}.pdf")
 
-# 🟢 V23.4 针对性嗅探器
 def sniff_real_pdf_link(initial_url, html_content):
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
         
-        # 1. 优先：Stork/Google Scholar 专用的复杂按钮 (你提供的HTML案例)
-        # 查找包含 class="pdf" 且内部有 span 文字包含 "PDF" 的链接
-        for a in soup.find_all('a', href=True):
-            # 检查 class
-            classes = a.get('class', [])
-            if not classes: continue
-            
-            # 检查内部文字 (包括 span)
-            text_content = a.get_text(" ", strip=True).lower()
-            
-            # 命中逻辑：class里有pdf/download 且 路径里有pdf 且 文字里有pdf
-            if (('pdf' in classes or 'article-pdflink' in [c.lower() for c in classes]) and 
-                '.pdf' in a['href'].lower()):
-                logger.info("    🎯 [嗅探] 命中期刊 PDF 按钮")
-                href = a['href']
-                if href.startswith('/'):
-                    parsed = urlparse(initial_url)
-                    return f"{parsed.scheme}://{parsed.netloc}{href}"
-                return href
+        # 1. 优先：Stork/Google Scholar 专用的复杂按钮
+        stork_btn = soup.find('a', id='full_text_available_anchor', href=True)
+        if stork_btn: return stork_btn['href']
 
         # 2. 次优：标准元数据
         meta_pdf = soup.find('meta', {'name': 'citation_pdf_url'})
         if meta_pdf and meta_pdf.get('content'): return meta_pdf['content']
         
-        # 3. 保底：查找任何带 pdf 的链接
+        # 3. 广谱特征搜索
         for a in soup.find_all('a', href=True):
             href = a['href'].lower()
             text = a.get_text(" ", strip=True).lower()
+            classes = " ".join(a.get('class', [])).lower()
+            attrs = " ".join([f"{k}={v}" for k,v in a.attrs.items()]).lower()
             
-            if '.pdf' in href and ('download' in text or 'full text' in text or 'pdf' in text):
+            # 判定 A: 链接本身就是 PDF
+            is_pdf_path = '.pdf' in href or '/article-pdf/' in href or 'content/pdf' in href
+            
+            # 判定 B: 上下文是下载按钮
+            is_download_context = any(x in text for x in ['pdf', 'download', 'full text']) or \
+                                  any(x in classes for x in ['pdf', 'download', 'article-pdflink']) or \
+                                  'download' in attrs
+            
+            if is_pdf_path and is_download_context:
                 if href.startswith('/'):
                     parsed = urlparse(initial_url)
                     return f"{parsed.scheme}://{parsed.netloc}{a['href']}"
@@ -308,7 +329,6 @@ def fetch_content(item):
     
     logger.info(f"    🔍 [下载] {url[:40]}...")
     try:
-        # 使用全局 session 以保持 cookies
         r = session.get(url, timeout=30, stream=True, allow_redirects=True)
         
         if r.status_code == 429: return None, "Rate Limit", None
@@ -483,7 +503,10 @@ def run():
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
     
+    # 🟢 加载邮件记录数据库
+    email_db = EmailHistory(EMAIL_RECORD_FILE)
     db = PaperDB(DB_FILE)
+    
     logger.info(f"📚 数据库: {type(db.data)}, {len(db.data)} 条")
 
     # 1. 扫描
@@ -495,15 +518,35 @@ def run():
         if data[0]:
             for eid in data[0].split():
                 try:
-                    _, h = m.fetch(eid, "(BODY.PEEK[HEADER])")
-                    subj = decode_header(email.message_from_bytes(h[0][1])["Subject"])[0][0]
+                    # 🟢 获取 Message-ID 进行去重
+                    _, h_data = m.fetch(eid, '(BODY.PEEK[HEADER.FIELDS (MESSAGE-ID SUBJECT)])')
+                    raw_header = h_data[0][1].decode()
+                    
+                    # 提取 Message-ID
+                    msg_id_match = re.search(r'Message-ID:\s*(<.*?>)', raw_header, re.I)
+                    msg_id = msg_id_match.group(1) if msg_id_match else f"no_id_{eid}"
+                    
+                    # 提取 Subject
+                    subj_match = re.search(r'Subject:\s*(.*)', raw_header, re.I)
+                    raw_subj = subj_match.group(1) if subj_match else "Unknown"
+                    subj = decode_header(raw_subj)[0][0]
                     if isinstance(subj, bytes): subj = subj.decode()
+
+                    # 🟢 检查是否已处理过
+                    if email_db.exists(msg_id):
+                        logger.info(f"⏩ 跳过已处理邮件: {subj[:20]}...")
+                        continue
+
                     if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
-                    logger.info(f"🎯 邮件: {subj[:20]}...")
+                    
+                    logger.info(f"🎯 处理邮件: {subj[:20]}...")
+                    
+                    # 下载正文
                     _, b = m.fetch(eid, "(RFC822)")
                     msg = email.message_from_bytes(b[0][1])
                     txt, urls = extract_body_urls(msg)
                     srcs = detect_sources(txt, urls)
+                    
                     if not srcs:
                         ts = extract_titles(txt)
                         for t in ts:
@@ -511,12 +554,19 @@ def run():
                                 doi, full = search_doi(t)
                                 if doi: srcs.append({"type": "doi", "id": doi, "url": get_oa_link(doi)})
                             except: pass
+                            
                     for s in srcs:
                         pid = s.get('id') or hashlib.md5(s.get('url','').encode()).hexdigest()[:10]
                         s['id'] = pid
                         if 'title' not in s: s['title'] = get_meta_safe(s)
                         if db.add_new(pid, s): logger.info(f"    ➕ 新增: {pid}")
-                except: pass
+                    
+                    # 🟢 标记为已处理
+                    email_db.add(msg_id)
+                    
+                except Exception as e:
+                    logger.error(f"解析邮件失败: {e}")
+                    
     except Exception as e: logger.error(f"IMAP: {e}")
 
     # 2. 下载
