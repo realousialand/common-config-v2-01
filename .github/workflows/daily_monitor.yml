@@ -11,20 +11,27 @@ permissions:
 
 jobs:
   scan_and_report:
-    # 🔴 关键修改：强制使用 Ubuntu 22.04，以兼容 WARP 插件
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest  # 既然切不回去，就保持 latest (24.04)
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 1. 启动 Cloudflare WARP (伪装 IP)
+      # 🟢 关键修复：手动强行安装被 Ubuntu 24.04 移除的 openresolv
+      - name: Install dependencies for WARP
+        run: |
+          sudo apt-get update
+          # 从 Ubuntu 22.04 的仓库手动下载 openresolv
+          wget http://archive.ubuntu.com/ubuntu/pool/universe/o/openresolv/openresolv_3.12.0-1_all.deb
+          # 强行安装
+          sudo dpkg -i openresolv_3.12.0-1_all.deb
+
+      # 🟢 启动 Cloudflare WARP (现在应该能跑通了)
       - name: Set up Cloudflare WARP
         uses: fscarmen/warp-on-actions@v1.3
         with:
           stack: dual
 
-      # 🟢 2. 检查 IP 变化 (这一步是为了确认伪装成功，看日志用)
       - name: Check New IP
         run: |
           echo "Current IP Info:"
