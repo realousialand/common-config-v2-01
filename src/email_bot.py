@@ -14,6 +14,7 @@ import imaplib
 import email
 import smtplib
 import datetime
+import logging  # 🟢 引入日志模块
 from datetime import timedelta
 from email.header import decode_header
 from email.mime.text import MIMEText
@@ -21,6 +22,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from urllib.parse import unquote, urlparse, parse_qs
 import markdown
+
+# --- 🛠️ 日志配置 (Log Configuration) ---
+# 设置日志格式：时间 - 级别 - 消息
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
 
 # --- 🛠️ 配置区 ---
 LLM_API_KEY = os.environ.get("LLM_API_KEY")
@@ -63,13 +73,17 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     return json.load(f)
-            except: pass
+            except Exception as e:
+                logger.error(f"加载数据库失败: {e}", exc_info=True)
         return {}
 
     def save(self):
-        os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
-        with open(self.filepath, 'w', encoding='utf-8') as f:
-            json.dump(self.data, f, indent=2, ensure_ascii=False)
+        try:
+            os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
+            with open(self.filepath, 'w', encoding='utf-8') as f:
+                json.dump(self.data, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            logger.critical(f"保存数据库失败: {e}", exc_info=True)
 
     def add_new(self, pid, metadata):
         if pid not in self.data:
@@ -126,7 +140,9 @@ def translate_title(text):
             temperature=0.1
         )
         return completion.choices[0].message.content.strip()
-    except: return ""
+    except Exception as e:
+        logger.warning(f"标题翻译失败: {e}")
+        return ""
 
 def get_metadata_safe(source_data):
     title = source_data.get('title', '')
@@ -136,7 +152,7 @@ def get_metadata_safe(source_data):
     return title or "Unknown Title"
 
 def extract_titles_from_text(text):
-    print("    🧠 [智能提取] 正在分析邮件正文提取标题...")
+    logger.info("🧠 [智能提取] 正在分析邮件正文提取标题...")
     prompt = f"Extract academic paper titles from the text below. Return ONLY a JSON list of strings. Text: {text[:3000]}"
     try:
         completion = client.chat.completions.create(
@@ -144,16 +160,19 @@ def extract_titles_from_text(text):
         )
         content = completion.choices[0].message.content.strip().replace("```json", "").replace("```", "").strip()
         return json.loads(content)
-    except: return []
+    except Exception as e:
+        logger.warning(f"LLM 标题提取失败: {e}")
+        return []
 
 def search_doi_by_title(title):
-    print(f"    🔍 [Crossref] 搜索 DOI: {title[:30]}...")
+    logger.info(f"🔍 [Crossref] 搜索 DOI: {title[:30]}...")
     try:
         res = cr.works(query=title, limit=1)
         if res['message']['items']:
             item = res['message']['items'][0]
             return item.get('DOI'), item.get('title', [title])[0]
-    except: pass
+    except Exception as e:
+        logger.warning(f"DOI 反查失败: {e}")
     return None, None
 
 def get_oa_link(doi):
@@ -162,14 +181,13 @@ def get_oa_link(doi):
         data = r.json()
         if data.get('is_oa') and data.get('best_oa_location'):
             return data['best_oa_location']['url_for_pdf']
-    except: pass
+    except Exception as e:
+        logger.debug(f"Unpaywall 查询失败: {e}")
     return None
 
 def clean_google_url(url):
-    """🟢 核心优化：专门清洗脏链接的函数"""
     try:
         url = unquote(url)
-        # 匹配 google.com/url?q=... 或 scholar_url?url=...
         if "google" in url and ("url=" in url or "q=" in url):
             parsed = urlparse(url)
             qs = parse_qs(parsed.query)
@@ -223,19 +241,16 @@ def detect_sources(text, urls):
             sources.append({"type": "doi", "id": doi, "url": link}) 
             seen.add(doi)
 
-    # Direct Links
     block = ['muse.jhu.edu', 'sciencedirect.com/science/article/pii']
     
     for link in urls:
         try:
-            # 🟢 关键步骤：在处理前先清洗链接！
             clean_link = clean_google_url(link)
             l_lower = clean_link.lower()
             
             if any(x in l_lower for x in block): continue
             
             if l_lower.endswith('.pdf') or 'viewcontent.cgi' in l_lower:
-                # 使用清洗后的链接计算哈希，确保唯一性
                 lid = hashlib.md5(clean_link.encode()).hexdigest()[:10]
                 if lid not in seen:
                     sources.append({"type": "pdf_link", "id": f"link_{lid}", "url": clean_link})
@@ -258,17 +273,16 @@ def get_safe_filename(pid, save_dir):
 
 def fetch_content(item, save_dir):
     url = item.get('url')
-    # 再次清洗以防万一
     if url: url = clean_google_url(url)
     
     if not url:
         if item.get("type") == "doi":
-            print(f"    ℹ️ 无 PDF 链接，尝试抓取摘要...")
+            logger.info(f"ℹ️ 无 PDF 链接，尝试抓取摘要...")
             return fetch_abstract_only(item)
         return None, "No URL", None
     
     polite_wait(url)
-    print(f"    🔍 [下载] {url[:50]}...")
+    logger.info(f"🔍 [下载] {url[:50]}...")
     
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"}
@@ -278,7 +292,7 @@ def fetch_content(item, save_dir):
         
         ctype = r.headers.get('Content-Type', '').lower()
         if 'application/pdf' not in ctype and not url.lower().endswith('.pdf'):
-             print("    ⚠️ 链接响应非 PDF，尝试 DOI 摘要补救...")
+             logger.warning(f"⚠️ 链接响应非 PDF ({ctype})，尝试 DOI 摘要补救...")
              if item.get("type") == "doi": return fetch_abstract_only(item)
              return None, "Not PDF", None
 
@@ -287,7 +301,7 @@ def fetch_content(item, save_dir):
             for chunk in r.iter_content(8192): f.write(chunk)
         
         if os.path.getsize(fname) < 2000:
-            print("    ⚠️ PDF 文件过小，尝试 DOI 摘要补救...")
+            logger.warning("⚠️ PDF 文件过小，尝试 DOI 摘要补救...")
             os.remove(fname)
             if item.get("type") == "doi": return fetch_abstract_only(item)
             return None, "File Too Small", None
@@ -304,7 +318,7 @@ def fetch_content(item, save_dir):
             return None, "Parse Error", None
             
     except Exception as e:
-        print(f"    ⚠️ 下载异常: {e}，尝试摘要补救...")
+        logger.error(f"⚠️ 下载异常: {e}，尝试摘要补救...", exc_info=False) # 不打印堆栈，保持日志整洁
         if item.get("type") == "doi": return fetch_abstract_only(item)
         return None, str(e), None
 
@@ -314,7 +328,9 @@ def fetch_abstract_only(source_data):
         title = w['message'].get('title', [''])[0]
         abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
         return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
-    except: return None, "Error", None
+    except Exception as e:
+        logger.warning(f"摘要抓取失败: {e}")
+        return None, "Error", None
 
 def analyze_with_llm(content, ctype):
     if ctype == "ABSTRACT_ONLY":
@@ -357,7 +373,9 @@ def analyze_with_llm(content, ctype):
             real_title = match.group(1).strip()
             body = txt.split('\n', 1)[1].strip()
         return real_title, body
-    except Exception as e: return None, f"Error: {e}"
+    except Exception as e: 
+        logger.error(f"LLM 调用失败: {e}")
+        return None, f"Error: {e}"
 
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
@@ -398,61 +416,64 @@ def send_email(subject, body, attach_files=[]):
             s.sendmail(EMAIL_USER, EMAIL_USER, msg.as_string())
         return True
     except Exception as e:
-        print(f"邮件失败: {e}")
+        logger.critical(f"邮件发送失败: {e}", exc_info=True)
         return False
 
 # --- 🚀 主流程 ---
 
 def run():
-    print(f"🎬 启动: {datetime.datetime.now()}")
+    logger.info(f"🎬 启动: {datetime.datetime.now()}")
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
     
     db = PaperDB(DB_FILE)
-    print(f"📚 数据库加载完毕，共 {len(db.data)} 条记录")
+    logger.info(f"📚 数据库加载完毕，共 {len(db.data)} 条记录")
 
     # --- 1. 扫描邮件 ---
-    mail = imaplib.IMAP4_SSL(IMAP_SERVER)
-    mail.login(EMAIL_USER, EMAIL_PASS)
-    mail.select("inbox")
-    
-    since = (datetime.date.today() - timedelta(days=2)).strftime("%d-%b-%Y")
-    _, data = mail.search(None, f'(SINCE "{since}")')
-    
-    if data[0]:
-        for eid in data[0].split():
-            try:
-                _, h = mail.fetch(eid, "(BODY.PEEK[HEADER])")
-                subj = decode_header(email.message_from_bytes(h[0][1])["Subject"])[0][0]
-                if isinstance(subj, bytes): subj = subj.decode()
-                
-                if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
-                print(f"🎯 命中: {subj[:20]}...")
-                
-                _, m = mail.fetch(eid, "(RFC822)")
-                body, urls = extract_body(email.message_from_bytes(m[0][1]))
-                sources = detect_sources(body, urls)
-                
-                if not sources:
-                    titles = extract_titles_from_text(body)
-                    for t in titles:
-                        doi, full = search_doi_by_title(t)
-                        if doi: sources.append({"type": "doi", "id": doi, "url": get_oa_link(doi), "title": full})
+    try:
+        mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+        mail.login(EMAIL_USER, EMAIL_PASS)
+        mail.select("inbox")
+        
+        since = (datetime.date.today() - timedelta(days=2)).strftime("%d-%b-%Y")
+        _, data = mail.search(None, f'(SINCE "{since}")')
+        
+        if data[0]:
+            for eid in data[0].split():
+                try:
+                    _, h = mail.fetch(eid, "(BODY.PEEK[HEADER])")
+                    subj = decode_header(email.message_from_bytes(h[0][1])["Subject"])[0][0]
+                    if isinstance(subj, bytes): subj = subj.decode()
+                    
+                    if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
+                    logger.info(f"🎯 命中: {subj[:20]}...")
+                    
+                    _, m = mail.fetch(eid, "(RFC822)")
+                    body, urls = extract_body(email.message_from_bytes(m[0][1]))
+                    sources = detect_sources(body, urls)
+                    
+                    if not sources:
+                        titles = extract_titles_from_text(body)
+                        for t in titles:
+                            doi, full = search_doi_by_title(t)
+                            if doi: sources.append({"type": "doi", "id": doi, "url": get_oa_link(doi), "title": full})
 
-                for s in sources:
-                    pid = s.get('id') or hashlib.md5(s.get('url','').encode()).hexdigest()[:10]
-                    s['id'] = pid
-                    if 'title' not in s: s['title'] = get_metadata_safe(s)
-                    if db.add_new(pid, s): print(f"    ➕ 入库: {pid}")
-            except Exception as e: print(f"扫描错误: {e}")
+                    for s in sources:
+                        pid = s.get('id') or hashlib.md5(s.get('url','').encode()).hexdigest()[:10]
+                        s['id'] = pid
+                        if 'title' not in s: s['title'] = get_metadata_safe(s)
+                        if db.add_new(pid, s): logger.info(f"    ➕ 入库: {pid}")
+                except Exception as e: logger.error(f"扫描单封邮件错误: {e}")
+    except Exception as e:
+        logger.critical(f"IMAP 连接或扫描严重错误: {e}", exc_info=True)
 
     # --- 2. 处理下载 ---
     to_download = db.get_pending_downloads(BATCH_SIZE)
-    print(f"📥 待下载队列: {len(to_download)} 篇")
+    logger.info(f"📥 待下载队列: {len(to_download)} 篇")
     
     for item in to_download:
         pid = item['id']
-        print(f"Processing Download: {pid}")
+        logger.info(f"Processing Download: {pid}")
         content, ctype, path = fetch_content(item, DOWNLOAD_DIR)
         
         if ctype == "PDF Full Text":
@@ -460,20 +481,20 @@ def run():
         elif ctype == "ABSTRACT_ONLY":
             db.update_status(pid, "ABSTRACT_ONLY", {"abstract_content": content, "content_type": ctype})
         else:
-            print(f"    ❌ 下载失败: {ctype}")
+            logger.warning(f"    ❌ 下载失败: {ctype}")
             db.increment_retry(pid)
             db.update_status(pid, "DOWNLOAD_FAILED", {"error": ctype})
 
     # --- 3. 处理分析 ---
     to_analyze = db.get_pending_analysis(BATCH_SIZE) 
-    print(f"🤖 待分析队列: {len(to_analyze)} 篇")
+    logger.info(f"🤖 待分析队列: {len(to_analyze)} 篇")
     
     new_reports = []
     attachments = []
     
     for item in to_analyze:
         pid = item['id']
-        print(f"Processing Analysis: {pid}")
+        logger.info(f"Processing Analysis: {pid}")
         
         content = ""
         ctype = item.get("content_type", "Unknown")
@@ -481,7 +502,7 @@ def run():
         if item["status"] == "DOWNLOADED":
             local_path = get_safe_filename(pid, DOWNLOAD_DIR)
             if not os.path.exists(local_path):
-                print("    ⚠️ 本地文件缺失，重新下载...")
+                logger.info("    ⚠️ 本地文件缺失，重新下载...")
                 content, ctype, local_path = fetch_content(item, DOWNLOAD_DIR)
                 if not local_path:
                     db.update_status(pid, "DOWNLOAD_FAILED")
@@ -552,9 +573,15 @@ def run():
                 if os.path.exists(zname): os.remove(zname)
                 time.sleep(5)
     else:
-        print("☕ 本次无新分析结果")
+        logger.info("☕ 本次无新分析结果")
 
-    print("✅ 完成")
+    logger.info("✅ 完成")
 
 if __name__ == "__main__":
-    run()
+    if SCHEDULER_MODE:
+        while True:
+            try: run()
+            except Exception as e: logger.critical(f"❌ 任务崩溃: {e}", exc_info=True)
+            time.sleep(LOOP_INTERVAL_HOURS * 3600)
+    else:
+        run()
