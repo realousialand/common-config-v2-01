@@ -5,7 +5,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:42:01.268699"
   },
   "link_da62d6387b": {
@@ -27,7 +27,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:42:01.269285"
   },
   "link_827319b745": {
@@ -36,7 +36,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:42:01.269669"
   },
   "link_1c326cae8d": {
@@ -45,7 +45,7 @@
     "url": "https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:42:01.269945"
   },
   "10.1016/j.childyouth.2024.108097": {
@@ -132,7 +132,7 @@
     "url": "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:44:16.756766"
   },
   "link_d7cc73c9e6": {
@@ -141,7 +141,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:44:16.757201"
   },
   "link_bd30bfa335": {
@@ -150,7 +150,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:44:16.757632"
   },
   "link_cf08a84d2d": {
@@ -159,7 +159,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-10 15:44:16.757982"
   },
   "10.2308/tar-2021-0546": {
@@ -206,18 +206,24 @@
     "id": "link_2381bce9c8",
     "url": "https://www.researchgate.net/profile/Vicente-Bicudo-De-Castro/publication/398459626_Has_scientific_progress_in_accounting_slowed_down/links/693a228fa1fd01798906d036/Has-scientific-progress-in-accounting-slowed-down.pdf",
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
-    "retry": 2,
-    "ts": "2026-01-10 15:45:33.072304"
+    "status": "ANALYSIS_FAILED",
+    "retry": 3,
+    "ts": "2026-01-10 15:45:33.072304",
+    "local_path": "downloads/link_2381bce9c8.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   },
   "link_f60e4f4ea7": {
     "type": "pdf_link",
     "id": "link_f60e4f4ea7",
     "url": "https://www.researchgate.net/profile/Abdulvahap-Akinci/publication/399489348_Transparency_in_Local_Governments_A_Bibliometric_Analysis/links/695d097a7e61d05b53177af1/Transparency-in-Local-Governments-A-Bibliometric-Analysis.pdf",
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
-    "retry": 2,
-    "ts": "2026-01-10 15:45:33.072784"
+    "status": "ANALYSIS_FAILED",
+    "retry": 3,
+    "ts": "2026-01-10 15:45:33.072784",
+    "local_path": "downloads/link_f60e4f4ea7.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   },
   "2601.04580": {
     "type": "arxiv",
@@ -354,90 +360,130 @@
     "id": "2601.04534",
     "url": "https://arxiv.org/pdf/2601.04534.pdf",
     "title": "ArXiv 2601.04534",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.722021"
+    "ts": "2026-01-10 15:45:48.722021",
+    "local_path": "downloads/2601.04534.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** BanglaLorica: Design and Evaluation of a Robust Watermarking Algorithm for Large Language Models in Bangla Text Generation"
   },
   "2601.04201": {
     "type": "arxiv",
     "id": "2601.04201",
     "url": "https://arxiv.org/pdf/2601.04201.pdf",
     "title": "ArXiv 2601.04201",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.722622"
+    "ts": "2026-01-10 15:45:48.722622",
+    "local_path": "downloads/2601.04201.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Collective Narrative Grounding: Community-Coordinated Data Contributions to Improve Local AI Systems"
   },
   "2601.04207": {
     "type": "arxiv",
     "id": "2601.04207",
     "url": "https://arxiv.org/pdf/2601.04207.pdf",
     "title": "ArXiv 2601.04207",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.723396"
+    "ts": "2026-01-10 15:45:48.723396",
+    "local_path": "downloads/2601.04207.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Ideology as a Problem: Lightweight Logit Steering for Annotator-Specific Alignment in Social Media Analysis**"
   },
   "2601.04693": {
     "type": "arxiv",
     "id": "2601.04693",
     "url": "https://arxiv.org/pdf/2601.04693.pdf",
     "title": "ArXiv 2601.04693",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.724123"
+    "ts": "2026-01-10 15:45:48.724123",
+    "local_path": "downloads/2601.04693.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Thunder-KoNUBench: A Corpus-Aligned Benchmark for Korean Negation Understanding"
   },
   "2601.04209": {
     "type": "arxiv",
     "id": "2601.04209",
     "url": "https://arxiv.org/pdf/2601.04209.pdf",
     "title": "ArXiv 2601.04209",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.724723"
+    "ts": "2026-01-10 15:45:48.724723",
+    "local_path": "downloads/2601.04209.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Leveraging Language Models and RAG for Efficient Knowledge Discovery in Clinical Environments"
   },
   "2601.04958": {
     "type": "arxiv",
     "id": "2601.04958",
     "url": "https://arxiv.org/pdf/2601.04958.pdf",
     "title": "ArXiv 2601.04958",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.725269"
+    "ts": "2026-01-10 15:45:48.725269",
+    "local_path": "downloads/2601.04958.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The unsuitability of existing regulations to reach sustainable AI"
   },
   "2601.04857": {
     "type": "arxiv",
     "id": "2601.04857",
     "url": "https://arxiv.org/pdf/2601.04857.pdf",
     "title": "ArXiv 2601.04857",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.725790"
+    "ts": "2026-01-10 15:45:48.725790",
+    "local_path": "downloads/2601.04857.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News"
   },
   "2601.04424": {
     "type": "arxiv",
     "id": "2601.04424",
     "url": "https://arxiv.org/pdf/2601.04424.pdf",
     "title": "ArXiv 2601.04424",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.726978"
+    "ts": "2026-01-10 15:45:48.726978",
+    "local_path": "downloads/2601.04424.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** G AVEL: Agent Meets Checklist for Evaluating LLMs on Long-Context Legal Summarization"
   },
   "2601.04768": {
     "type": "arxiv",
     "id": "2601.04768",
     "url": "https://arxiv.org/pdf/2601.04768.pdf",
     "title": "ArXiv 2601.04768",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.727641"
+    "ts": "2026-01-10 15:45:48.727641",
+    "local_path": "downloads/2601.04768.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "L ANG SAE E DITING : Improving Multilingual Information Retrieval via Post-hoc Language Identity Removal**"
   },
   "2601.05213": {
     "type": "arxiv",
     "id": "2601.05213",
     "url": "https://arxiv.org/pdf/2601.05213.pdf",
     "title": "ArXiv 2601.05213",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.728204"
+    "ts": "2026-01-10 15:45:48.728204",
+    "local_path": "downloads/2601.05213.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Estimating Consensus Ideal Points Using Multi-Source Data"
   },
   "2601.04499": {
     "type": "arxiv",
