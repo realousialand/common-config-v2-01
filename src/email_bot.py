@@ -33,11 +33,9 @@ EMAIL_PASS = os.environ.get("EMAIL_PASS")
 IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 
-# 🟢 运行模式设置
+# 🟢 运行模式
 SCHEDULER_MODE = False 
 LOOP_INTERVAL_HOURS = 4
-
-# 🟢 批处理大小：每次只分析 20 篇
 BATCH_SIZE = 20
 
 # 监控关键词
@@ -50,15 +48,10 @@ TARGET_SUBJECTS = [
 
 # 🟢 数据文件路径
 DATA_DIR = "data"
-# 记录所有扫描到的（存档）
 HISTORY_0_FILE = os.path.join(DATA_DIR, "history0_scanned.json")
-# 记录待分析队列（缓冲池）
 QUEUE_FILE = os.path.join(DATA_DIR, "queue_pending.json")
-# 记录下载成功的（结果）
 HISTORY_3_FILE = os.path.join(DATA_DIR, "history3_downloaded.json")
-# 记录分析成功的（结果）
 HISTORY_2_FILE = os.path.join(DATA_DIR, "history2_analyzed.json")
-# 记录已处理 ID（去重索引）
 HISTORY_PROCESSED_ID_FILE = os.path.join(DATA_DIR, "history_processed_ids.json")
 
 DOWNLOAD_DIR = "downloads"
@@ -80,9 +73,11 @@ EMAIL_CSS = """
     h3 { color: #34495e; font-size: 18px; margin-top: 25px; }
     .image-placeholder { background-color: #e8f6f3; border: 1px dashed #1abc9c; color: #16a085; padding: 15px; text-align: center; border-radius: 5px; margin: 20px 0; font-style: italic; }
     .failed-section { background-color: #fff0f0; padding: 15px; border-radius: 5px; border: 1px solid #ffcccc; margin-top: 30px; }
-    .failed-item { margin-bottom: 15px; border-bottom: 1px dashed #eee; padding-bottom: 10px; }
+    .failed-item { margin-bottom: 20px; border-bottom: 1px dashed #eee; padding-bottom: 10px; }
+    .failed-abstract { font-size: 0.9em; color: #666; background: #fafafa; padding: 10px; border-left: 3px solid #ddd; margin-top: 5px; }
     .queue-info { background-color: #e3f2fd; color: #0d47a1; padding: 10px; border: 1px solid #bbdefb; border-radius: 5px; margin-bottom: 20px; font-weight: bold; }
     .warning-box { background-color: #fff3cd; color: #856404; padding: 10px; border: 1px solid #ffeeba; border-radius: 5px; margin-top: 20px; font-weight: bold; }
+    hr { border: 0; height: 1px; background: #eee; margin: 30px 0; }
 </style>
 """
 
@@ -215,14 +210,21 @@ def detect_and_extract_all(text, all_links=None):
         'springer.com', 'tandfonline.com', 'sagepub.com', 'jstor.org', 'oup.com', 
         'cambridge.org', 'egrove.olemiss.edu'
     ]
-    BLOCKED_DOMAINS = ['muse.jhu.edu', 'sciencedirect.com/science/article/pii']
+    # 🟢 增加 scholar_share 等干扰链接过滤
+    BLOCKED_DOMAINS = [
+        'muse.jhu.edu', 
+        'sciencedirect.com/science/article/pii',
+        'scholar.google.com/scholar_share',
+        'google.com/url',
+        'scholar.google.com/scholar_url'
+    ]
     
     if all_links:
         for link in all_links:
             try:
                 link = unquote(link)
                 link_lower = link.lower()
-                if any(x in link_lower for x in ['unsubscribe', 'privacy', 'manage', 'twitter', 'facebook']): continue
+                if any(x in link_lower for x in ['unsubscribe', 'privacy', 'manage', 'twitter', 'facebook', 'linkedin']): continue
                 if any(blk in link_lower for blk in BLOCKED_DOMAINS): continue
 
                 is_pdf = link_lower.endswith('.pdf') or '/pdf/' in link_lower
@@ -325,8 +327,9 @@ def fetch_abstract_only(source_data):
         work = cr.works(ids=source_data["id"])
         title = work['message'].get('title', [''])[0]
         abstract = re.sub(r'<[^>]+>', '', work['message'].get('abstract', '无摘要'))
-        content = f"# {title}\n\n## Abstract\n{abstract}"
-        return content, "Abstract Only", None
+        # 🟢 关键修改：如果是摘要，只返回摘要文本，类型标记为 "Abstract Only"
+        # 这样 main 函数就知道不要送给 LLM 去分析了
+        return abstract, "Abstract Only", None
     except: return None, "Error", None
 
 def analyze_with_llm(content, content_type, source_url=""):
@@ -347,13 +350,25 @@ def analyze_with_llm(content, content_type, source_url=""):
 def generate_failed_report(failed_list):
     if not failed_list: return ""
     report = "\n\n<div class='failed-section'><h2>⚠️ 未能获取全文的文献 (Skipped/Failed)</h2>"
-    report += "<p>以下文献因反爬虫验证、文件过小或下载失败未能自动分析，请手动查看：</p>"
+    report += "<p>以下文献因只有摘要、反爬虫拦截或文件过小，未进行深度分析，请手动查看：</p>"
     for src in failed_list:
         url = src.get('url', 'No URL')
         s_id = src.get('id', 'Unknown ID')
         sType = src.get('type', 'Unknown')
-        title = src.get('title', s_id) 
-        report += f"<div class='failed-item'><h3>❌ {title}</h3><ul><li><strong>URL:</strong> <a href='{url}'>{url}</a></li><li><strong>Type:</strong> {sType}</li></ul></div>"
+        title = src.get('title', s_id)
+        
+        # 🟢 在失败列表里显示摘要（如果有）
+        abstract_text = src.get('abstract_content', '')
+        if not abstract_text and sType == 'doi':
+             try:
+                w = cr.works(ids=s_id)
+                abstract_text = re.sub(r'<[^<]+?>', '', w['message'].get('abstract', ''))
+             except: pass
+        
+        report += f"<div class='failed-item'><h3>❌ {title}</h3><ul><li><strong>URL:</strong> <a href='{url}'>{url}</a></li><li><strong>Type:</strong> {sType}</li></ul>"
+        if abstract_text:
+            report += f"<div class='failed-abstract'><strong>Abstract:</strong> {abstract_text[:300]}...</div>"
+        report += "</div>"
     report += "</div>"
     return report
 
@@ -371,7 +386,6 @@ def save_json(data, filepath):
     with open(filepath, "w", encoding="utf-8") as f: json.dump(data, f, indent=2, ensure_ascii=False)
 
 def append_to_history(new_items, filepath):
-    """追加新记录到历史文件（去重）"""
     history = load_json(filepath)
     existing_ids = {item['id'] for item in history}
     added_count = 0
@@ -388,24 +402,28 @@ def get_unique_id(source_data):
     return source_data.get("id") or hashlib.md5(source_data.get("url", "").encode()).hexdigest()
 
 def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    try: html_content = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
-    except: html_content = body_markdown
+    # 🟢 格式修复：将 Markdown 转换为 HTML 后，逐篇包裹，确保样式统一
+    try:
+        html_body = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
+    except: 
+        html_body = body_markdown
+    
+    # 图片占位符替换
     try:
         def replacer(match): return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
-        html_content = re.sub(r'\]+)\]', replacer, html_content)
+        html_body = re.sub(r'\]+)\]', replacer, html_body)
     except: pass
     
-    final_html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{EMAIL_CSS}</head><body>{html_content}<hr><p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant | {datetime.date.today()}</p></body></html>"
+    final_html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{EMAIL_CSS}</head><body>{html_body}<hr><p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant | {datetime.date.today()}</p></body></html>"
     msg = MIMEMultipart()
     msg["Subject"] = subject
     msg["From"] = EMAIL_USER
     msg["To"] = EMAIL_USER
     msg.attach(MIMEText(final_html, "html", "utf-8"))
     
-    # 智能附件处理
     if attachment_zip and os.path.exists(attachment_zip):
         if os.path.getsize(attachment_zip) > MAX_EMAIL_ZIP_SIZE:
-            print("⚠️ 附件过大 (切片后依然过大)，跳过附件发送。")
+            print("⚠️ 附件过大，跳过。")
             attach_note = f"<div class='warning-box'>⚠️ 附件过大 ({os.path.getsize(attachment_zip)/1024/1024:.1f}MB)，已自动移除。</div>"
             final_html = final_html.replace("<body>", f"<body>{attach_note}")
             msg = MIMEMultipart()
@@ -438,9 +456,6 @@ def run_task():
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # 🟢 加载/初始化历史记录
-    # history_processed_ids.json 用于记录所有处理过的 ID（防止重复扫描+处理）
-    # 如果不存在，从 history0 生成一份
     processed_ids = set(load_json(HISTORY_PROCESSED_ID_FILE))
     if not processed_ids:
         h0 = load_json(HISTORY_0_FILE)
@@ -450,22 +465,19 @@ def run_task():
     mail.login(EMAIL_USER, EMAIL_PASS)
     mail.select("inbox")
     
-    # 🟢 2. 48小时窗口
     date_criteria = (datetime.date.today() - timedelta(days=2)).strftime("%d-%b-%Y")
     print(f"🔍 搜索 {date_criteria} 之后的邮件...")
     _, data = mail.search(None, f'(SINCE "{date_criteria}")')
     email_list = data[0].split()
     print(f"📨 检索到 {len(email_list)} 封候选邮件")
     
-    # 🟢 加载待办队列
     queue_pending = load_json(QUEUE_FILE)
     queue_ids = {item['id'] for item in queue_pending}
     print(f"📂 当前队列待办数: {len(queue_pending)}")
     
-    # === 阶段 1: 扫描新邮件并入队 ===
     for idx, e_id in enumerate(email_list):
         try:
-            time.sleep(1) # 基础防封
+            time.sleep(1)
             _, header_data = mail.fetch(e_id, "(BODY.PEEK[HEADER])")
             msg_header = email.message_from_bytes(header_data[0][1])
             subj, enc = decode_header(msg_header["Subject"])[0]
@@ -496,21 +508,17 @@ def run_task():
                     else:
                         print(f"    ❌ 未找到 DOI: {t[:40]}...")
 
-            # 入队逻辑
             new_in_queue = 0
             for s in sources:
                 u_id = get_unique_id(s)
                 s['id'] = u_id
                 if 'title' not in s: s['title'] = get_metadata_safe(s)
                 
-                # 如果没处理过，且不在当前队列中 -> 加入队列
                 if u_id not in processed_ids and u_id not in queue_ids:
                     s['timestamp_added'] = str(datetime.datetime.now())
                     queue_pending.append(s)
                     queue_ids.add(u_id)
                     new_in_queue += 1
-                    
-                    # 同时记录到 history0
                     append_to_history([{
                         "id": u_id, "type": s.get('type'), "url": s.get('url'), 
                         "title": s.get('title'), "timestamp": str(datetime.datetime.now())
@@ -523,10 +531,8 @@ def run_task():
             print(f"⚠️ 扫描错误: {e}")
             continue
             
-    # 保存更新后的队列
     save_json(queue_pending, QUEUE_FILE)
     
-    # === 阶段 2: 消费队列 (处理前 BATCH_SIZE 个) ===
     if not queue_pending:
         print("☕ 队列为空，无任务处理。")
         try: mail.logout() 
@@ -538,10 +544,11 @@ def run_task():
     
     print(f"🚀 开始处理本批次: {len(to_process)} 篇 (剩余: {len(remaining_queue)})")
     
-    report_body, all_files, total_new, failed = "", [], 0, []
+    report_body = ""
+    all_files, total_new, failed = [], 0, []
     history3_records = []
     history2_records = []
-    processed_now = [] # 本次成功处理或判定失败的ID
+    processed_now = []
 
     for src in to_process:
         print(f"📝 处理: {src.get('id')}")
@@ -549,9 +556,9 @@ def run_task():
              src['trans_title'] = translate_title(src['title'])
              print(f"    🇨🇳 标题翻译: {src['trans_title'][:20]}...")
 
+        # 🟢 核心修改：这里获取内容类型
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
         
-        # 无论成功失败，都视为“已处理”，避免死循环卡在队列里
         processed_now.append(src['id'])
         
         if path: 
@@ -561,6 +568,13 @@ def run_task():
                 "trans_title": src.get('trans_title'), "timestamp": str(datetime.datetime.now())
             })
         
+        # 🟢 核心修改：如果是 Abstract Only，直接判负，不给 LLM
+        if ctype == "Abstract Only":
+            print("    ⚠️ 仅获取到摘要，跳过深度分析。")
+            src['abstract_content'] = content # 保存摘要用于报告
+            failed.append(src)
+            continue
+
         if content:
             print("🤖 AI 分析中...")
             ans = analyze_with_llm(content, ctype, src.get('url'))
@@ -575,18 +589,13 @@ def run_task():
                 continue
         failed.append(src)
     
-    # 更新数据文件
     append_to_history(history3_records, HISTORY_3_FILE)
     append_to_history(history2_records, HISTORY_2_FILE)
     
-    # 更新已处理ID列表
     processed_ids.update(processed_now)
     save_json(list(processed_ids), HISTORY_PROCESSED_ID_FILE)
-    
-    # 更新队列 (移除已处理的)
     save_json(remaining_queue, QUEUE_FILE)
 
-    # === 阶段 3: 发送报告 ===
     queue_status = f"<div class='queue-info'>📊 队列状态：本批处理 {len(to_process)} 篇，剩余待办 {len(remaining_queue)} 篇。</div>"
     failed_report = generate_failed_report(failed)
     final_report = f"# 📅 文献日报 {datetime.date.today()}\n{queue_status}\n" + report_body + failed_report
@@ -641,7 +650,6 @@ def main():
                 run_task()
             except Exception as e:
                 print(f"❌ 任务崩溃: {e}")
-            
             print(f"💤 休眠 {LOOP_INTERVAL_HOURS} 小时...")
             time.sleep(LOOP_INTERVAL_HOURS * 3600)
     else:
