@@ -5,10 +5,10 @@
     "url": "https://scholar.google.com/scholar_url?url=https://egrove.olemiss.edu/cgi/viewcontent.cgi%3Farticle%3D6570%26context%3Djofa&amp;hl=en&amp;sa=X&amp;d=12812438240982641595&amp;ei=JKteafPdIe-GieoPo9DluQE&amp;scisig=ALhkC2QSbHEdjSh-FDeS9MsLf5sr&amp;oi=scholaralrt&amp;hist=Vkd5UGMAAAAJ:11419668514937519636:ALhkC2Q66MfBjkGMVFg3oa_JqvGH&amp;html=&amp;pos=0&amp;folt=kw-top",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:07.397307",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.892711",
+    "updated_at": "2026-01-10 11:48:52.912573",
     "error": "Not PDF"
   },
   "10.1016/j.childyouth.2024.108097": {
@@ -17,10 +17,10 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:09.027454",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.894966",
+    "updated_at": "2026-01-10 11:48:52.915019",
     "error": "No URL"
   },
   "10.1016/j.socscimed.2025.118759": {
@@ -29,10 +29,10 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:09.027487",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.897302",
+    "updated_at": "2026-01-10 11:48:52.917463",
     "error": "No URL"
   },
   "10.1186/s12992-025-01172-x": {
@@ -41,10 +41,10 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:09.027497",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.899668",
+    "updated_at": "2026-01-10 11:48:52.919678",
     "error": "No URL"
   },
   "10.3724/sp.j.1016.2011.01423": {
@@ -53,10 +53,10 @@
     "url": null,
     "title": "The Development of Topic Models in Natural Language Processing",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:58.192231",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.902147",
+    "updated_at": "2026-01-10 11:48:52.921842",
     "error": "No URL"
   },
   "10.32614/cran.package.copsens": {
@@ -65,10 +65,10 @@
     "url": null,
     "title": "CopSens: Copula-Based Sensitivity Analysis for Observational Causal Inference",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:58.192268",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.904483",
+    "updated_at": "2026-01-10 11:48:52.924096",
     "error": "No URL"
   },
   "10.1109/icprs66293.2025.11302848": {
@@ -77,10 +77,10 @@
     "url": null,
     "title": "X-Flow: Explanation-Augmented prompting for LLM-Based Intrusion Detection",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:58.192280",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.906853",
+    "updated_at": "2026-01-10 11:48:52.926293",
     "error": "No URL"
   },
   "10.1007/s00180-012-0375-4": {
@@ -89,10 +89,10 @@
     "url": null,
     "title": "Reducing bias of the maximum likelihood estimator of shape parameter for the gamma Distribution",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:58.192288",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.909062",
+    "updated_at": "2026-01-10 11:48:52.928543",
     "error": "No URL"
   },
   "10.22541/au.174949155.52667340/v1": {
@@ -101,10 +101,10 @@
     "url": null,
     "title": "Enhanced Feedback Analysis Using Named Entity Recognition, Quintuple Extraction, Comparative Opinion Analysis and Coreference Resolution",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:28:58.192295",
     "history": [],
-    "updated_at": "2026-01-10 11:33:53.911424",
+    "updated_at": "2026-01-10 11:48:52.930741",
     "error": "No URL"
   },
   "link_a0d3dc68ad": {
@@ -113,10 +113,10 @@
     "url": "https://scholar.google.com/scholar_url?url=https://scholarship.claremont.edu/cgi/viewcontent.cgi%3Farticle%3D1396%26context%3Dpomona_theses&amp;hl=en&amp;sa=X&amp;d=4859345220651238402&amp;ei=pexfada8LO6TieoPutPYsQg&amp;scisig=AHkA5jTKpzW3HL8GsIpzGcVmfK-H&amp;oi=scholaralrt&amp;hist=Vkd5UGMAAAAJ:14407367899842651289:AHkA5jSNkzYQSMxcPnDGQbMwNRB6&amp;html=&amp;pos=0&amp;folt=kw-top",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:29:50.188486",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.401269",
+    "updated_at": "2026-01-10 11:48:58.341969",
     "error": "Not PDF"
   },
   "10.2308/tar-2021-0546": {
@@ -125,10 +125,10 @@
     "url": null,
     "title": "Underreporting in Revenue-Sharing Contracts: Evidence from the Chinese Film Industry",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:11.795644",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.403850",
+    "updated_at": "2026-01-10 11:48:58.344722",
     "error": "No URL"
   },
   "10.1016/j.gloplacha.2025.104842": {
@@ -137,10 +137,10 @@
     "url": null,
     "title": "The unstable East Asian Summer Monsoon - ENSO relationship over the past 700 years",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:37.870474",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.406297",
+    "updated_at": "2026-01-10 11:48:58.346941",
     "error": "No URL"
   },
   "10.1016/j.conbuildmat.2025.139872": {
@@ -149,10 +149,10 @@
     "url": null,
     "title": "Behavior of the interfacial transition zone in AAFS-based green recycled aggregate concrete at elevated temperatures",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:37.870506",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.409138",
+    "updated_at": "2026-01-10 11:48:58.349533",
     "error": "No URL"
   },
   "10.1016/j.ijer.2022.101976": {
@@ -161,10 +161,10 @@
     "url": null,
     "title": "A Historical Investigation and Classification Analysis of Seven Controversies on the Reform and Abolition of the 1300-year Chinese Imperial Examination System",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:37.870512",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.411480",
+    "updated_at": "2026-01-10 11:48:58.352025",
     "error": "No URL"
   },
   "10.1016/b978-0-443-22320-4.00036-0": {
@@ -173,10 +173,10 @@
     "url": null,
     "title": "Industry 4.0: Innovation for climate change mitigation and sustainability",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:37.870517",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.413933",
+    "updated_at": "2026-01-10 11:48:58.354326",
     "error": "No URL"
   },
   "10.1016/j.foar.2024.11.004": {
@@ -185,10 +185,10 @@
     "url": null,
     "title": "Research on ancient town style construction strategies based on coupled quantitative analysis of AI visual recognition and scenic beauty evaluation",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:30:37.870522",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.416326",
+    "updated_at": "2026-01-10 11:48:58.356682",
     "error": "No URL"
   },
   "10.1016/j.jbusres.2022.08.008": {
@@ -197,10 +197,10 @@
     "url": null,
     "title": "The role of product design in shaping masstige brand passion: A masstige theory perspective",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:31:05.964893",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.418634",
+    "updated_at": "2026-01-10 11:48:58.359002",
     "error": "No URL"
   },
   "10.1016/j.jbusres.2025.115673": {
@@ -209,10 +209,10 @@
     "url": null,
     "title": "Socially (un)acceptable errors of AI: Consumer perceptions of different AI-induced errors",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:31:05.964923",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.421126",
+    "updated_at": "2026-01-10 11:48:58.361264",
     "error": "No URL"
   },
   "10.1016/j.ress.2022.108514": {
@@ -221,10 +221,10 @@
     "url": null,
     "title": "Playing it safe: A literature review and research agenda on motivational technologies in transportation safety",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:31:05.964930",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.423444",
+    "updated_at": "2026-01-10 11:48:58.363747",
     "error": "No URL"
   },
   "10.1016/j.gloplacha.2025.104834": {
@@ -233,10 +233,10 @@
     "url": null,
     "title": "Hydroclimate change during the transition of mid-to late Holocene and its potential impacts on late Neolithic settlements in middle Yangtze Basin, Central-South China",
     "status": "DOWNLOAD_FAILED",
-    "retry_count": 1,
+    "retry_count": 2,
     "created_at": "2026-01-10 11:31:05.964934",
     "history": [],
-    "updated_at": "2026-01-10 11:33:59.425805",
+    "updated_at": "2026-01-10 11:48:58.366258",
     "error": "No URL"
   },
   "10.1016/j.indmarman.2023.08.016": {
@@ -917,6 +917,16 @@
     "status": "NEW",
     "retry_count": 0,
     "created_at": "2026-01-10 11:33:50.549781",
+    "history": []
+  },
+  "10.2307/j.ctv2cmrbgg.11": {
+    "type": "doi",
+    "id": "10.2307/j.ctv2cmrbgg.11",
+    "url": null,
+    "title": "Glosario",
+    "status": "NEW",
+    "retry_count": 0,
+    "created_at": "2026-01-10 11:47:20.055832",
     "history": []
   }
 }
