@@ -2,8 +2,14 @@ name: Daily Email Scanner
 
 on:
   schedule:
-    # 02:00 UTC = 10:00 AM Beijing Time
-    - cron: '0 2 * * *'
+    # 北京时间 (UTC+8) -> UTC 时间
+    # 07:00 BJT = 23:00 UTC (前一天)
+    # 11:00 BJT = 03:00 UTC
+    # 18:00 BJT = 10:00 UTC
+    # 24:00 BJT = 16:00 UTC
+    - cron: '0 3,10,16,23 * * *'
+  
+  # 允许手动点击按钮触发
   workflow_dispatch:
 
 permissions:
@@ -12,40 +18,51 @@ permissions:
 jobs:
   scan_and_report:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-          # 🟢 开启缓存，极大加快后续运行速度
-          cache: 'pip'
+          cache: 'pip' # 🟢 开启缓存加速
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 🟢 运行前先检查语法，防止低级错误浪费时间
+      - name: Syntax Check
+        run: python -m py_compile src/email_bot.py
 
       - name: Run Email Bot
         env:
+          # 务必在仓库 Settings -> Secrets 中配置这些变量
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          PYTHONUNBUFFERED: "1"
           LLM_MODEL_NAME: ${{ secrets.LLM_MODEL_NAME }}
+          # 强制 Python 实时输出日志，不要缓存
+          PYTHONUNBUFFERED: "1"
         run: python src/email_bot.py
 
-      #储存历史记录logs
+      # 🟢 自动保存数据库变动 (核心功能)
       - name: Commit and Push Data
         run: |
+          # 配置 Git 身份
           git config --global user.name 'Paper-Bot-Action'
           git config --global user.email 'action@github.com'
           
-          # 🟢 关键修改：添加 data 目录下所有的 json 文件
-          # 这样 queue_pending.json 和 history*.json 都会被保存
+          # 拉取最新代码防止冲突
+          git pull origin main || echo "No remote changes"
+          
+          # 添加数据文件
           git add data/*.json || echo "No data files found"
           
-          # 检查是否有变动，有变动才提交，防止报错
+          # 检查是否有变动
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "📝 Update bot history & queue [skip ci]"
             git push
