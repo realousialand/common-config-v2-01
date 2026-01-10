@@ -35,10 +35,21 @@ jobs:
           LLM_MODEL_NAME: ${{ secrets.LLM_MODEL_NAME }}
         run: python src/email_bot.py
 
-      - name: Commit and Push History
+      #储存历史记录logs
+      - name: Commit and Push Data
         run: |
           git config --global user.name 'Paper-Bot-Action'
           git config --global user.email 'action@github.com'
-          git add data/history.json || echo "No history file to add"
-          git commit -m "🤖 Update processed paper history [skip ci]" || echo "No changes to commit"
-          git push
+          
+          # 🟢 关键修改：添加 data 目录下所有的 json 文件
+          # 这样 queue_pending.json 和 history*.json 都会被保存
+          git add data/*.json || echo "No data files found"
+          
+          # 检查是否有变动，有变动才提交，防止报错
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "📝 Update bot history & queue [skip ci]"
+            git push
+            echo "✅ Data pushed to repository."
+          else
+            echo "☕ No changes to commit."
+          fi
