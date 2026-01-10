@@ -44,7 +44,7 @@ TARGET_SUBJECTS = ["文献鸟", "Google Scholar Alert", "ArXiv", "Project MUSE",
 
 DATA_DIR = "data"
 DB_FILE = os.path.join(DATA_DIR, "papers_database.json")
-EMAIL_RECORD_FILE = os.path.join(DATA_DIR, "processed_emails.json") # 🟢 新增：邮件记录文件
+EMAIL_RECORD_FILE = os.path.join(DATA_DIR, "processed_emails.json")
 DOWNLOAD_DIR = "downloads"
 MAX_EMAIL_ZIP_SIZE = 18 * 1024 * 1024 
 socket.setdefaulttimeout(30)
@@ -93,7 +93,7 @@ def startup_check():
         logger.critical(f"❌ 自检失败: {e}")
         exit(1)
 
-# --- 邮件记录管理 (🟢 新增类) ---
+# --- 邮件记录管理 ---
 class EmailHistory:
     def __init__(self, filepath):
         self.filepath = filepath
@@ -103,7 +103,7 @@ class EmailHistory:
         if os.path.exists(self.filepath):
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
-                    return set(json.load(f)) # 用集合(Set)存储，查询极快
+                    return set(json.load(f))
             except: pass
         return set()
 
@@ -117,7 +117,7 @@ class EmailHistory:
     def _save(self):
         try:
             with open(self.filepath, 'w', encoding='utf-8') as f:
-                json.dump(list(self.data), f) # 存为列表
+                json.dump(list(self.data), f)
         except: pass
 
 # --- 论文数据库 ---
@@ -288,25 +288,19 @@ def sniff_real_pdf_link(initial_url, html_content):
     try:
         soup = BeautifulSoup(html_content, 'html.parser')
         
-        # 1. 优先：Stork/Google Scholar 专用的复杂按钮
         stork_btn = soup.find('a', id='full_text_available_anchor', href=True)
         if stork_btn: return stork_btn['href']
 
-        # 2. 次优：标准元数据
         meta_pdf = soup.find('meta', {'name': 'citation_pdf_url'})
         if meta_pdf and meta_pdf.get('content'): return meta_pdf['content']
         
-        # 3. 广谱特征搜索
         for a in soup.find_all('a', href=True):
             href = a['href'].lower()
             text = a.get_text(" ", strip=True).lower()
             classes = " ".join(a.get('class', [])).lower()
             attrs = " ".join([f"{k}={v}" for k,v in a.attrs.items()]).lower()
             
-            # 判定 A: 链接本身就是 PDF
             is_pdf_path = '.pdf' in href or '/article-pdf/' in href or 'content/pdf' in href
-            
-            # 判定 B: 上下文是下载按钮
             is_download_context = any(x in text for x in ['pdf', 'download', 'full text']) or \
                                   any(x in classes for x in ['pdf', 'download', 'article-pdflink']) or \
                                   'download' in attrs
@@ -330,7 +324,6 @@ def fetch_content(item):
     logger.info(f"    🔍 [下载] {url[:40]}...")
     try:
         r = session.get(url, timeout=30, stream=True, allow_redirects=True)
-        
         if r.status_code == 429: return None, "Rate Limit", None
         
         final_url = r.url
@@ -503,11 +496,12 @@ def run():
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # 🟢 加载邮件记录数据库
     email_db = EmailHistory(EMAIL_RECORD_FILE)
     db = PaperDB(DB_FILE)
-    
     logger.info(f"📚 数据库: {type(db.data)}, {len(db.data)} 条")
+
+    # 🟢 失败链接收集器
+    failed_items = [] # 格式: {'title': str, 'url': str, 'reason': str}
 
     # 1. 扫描
     try:
@@ -518,30 +512,22 @@ def run():
         if data[0]:
             for eid in data[0].split():
                 try:
-                    # 🟢 获取 Message-ID 进行去重
                     _, h_data = m.fetch(eid, '(BODY.PEEK[HEADER.FIELDS (MESSAGE-ID SUBJECT)])')
                     raw_header = h_data[0][1].decode()
                     
-                    # 提取 Message-ID
                     msg_id_match = re.search(r'Message-ID:\s*(<.*?>)', raw_header, re.I)
                     msg_id = msg_id_match.group(1) if msg_id_match else f"no_id_{eid}"
                     
-                    # 提取 Subject
                     subj_match = re.search(r'Subject:\s*(.*)', raw_header, re.I)
                     raw_subj = subj_match.group(1) if subj_match else "Unknown"
                     subj = decode_header(raw_subj)[0][0]
                     if isinstance(subj, bytes): subj = subj.decode()
 
-                    # 🟢 检查是否已处理过
-                    if email_db.exists(msg_id):
-                        logger.info(f"⏩ 跳过已处理邮件: {subj[:20]}...")
-                        continue
-
+                    if email_db.exists(msg_id): continue
                     if not any(k.lower() in subj.lower() for k in TARGET_SUBJECTS): continue
                     
                     logger.info(f"🎯 处理邮件: {subj[:20]}...")
                     
-                    # 下载正文
                     _, b = m.fetch(eid, "(RFC822)")
                     msg = email.message_from_bytes(b[0][1])
                     txt, urls = extract_body_urls(msg)
@@ -561,12 +547,8 @@ def run():
                         if 'title' not in s: s['title'] = get_meta_safe(s)
                         if db.add_new(pid, s): logger.info(f"    ➕ 新增: {pid}")
                     
-                    # 🟢 标记为已处理
                     email_db.add(msg_id)
-                    
-                except Exception as e:
-                    logger.error(f"解析邮件失败: {e}")
-                    
+                except: pass
     except Exception as e: logger.error(f"IMAP: {e}")
 
     # 2. 下载
@@ -580,6 +562,12 @@ def run():
         else:
             db.inc_retry(item['id'])
             db.update_status(item['id'], "DOWNLOAD_FAILED")
+            # 🟢 记录下载失败
+            failed_items.append({
+                'title': item.get('title', 'Unknown Title'),
+                'url': item.get('url', '#'),
+                'reason': '完全失败 (Download Failed)'
+            })
 
     # 3. 分析
     pend_an = db.get_pending_analysis(BATCH_SIZE)
@@ -590,6 +578,15 @@ def run():
     for item in pend_an:
         pid = item['id']
         txt, ctype = "", item.get("content_type", "Unknown")
+        
+        # 🟢 如果是仅摘要，也算作“未成功下载PDF”，记录下来
+        if item["status"] == "ABSTRACT_ONLY":
+            failed_items.append({
+                'title': item.get('title', 'Unknown Title'),
+                'url': item.get('url', '#'),
+                'reason': '仅摘要 (PDF Failed)'
+            })
+
         if item["status"] == "DOWNLOADED":
             fp = get_path(pid)
             if not os.path.exists(fp):
@@ -613,9 +610,15 @@ def run():
             tt = translate_title(disp)
             badge = " (仅摘要)" if ctype == "ABSTRACT_ONLY" else ""
             
+            # 🟢 也在卡片内提供原始链接
+            origin_link = item.get('url', '#')
+            link_html = f"🔗 [原始链接]({origin_link})"
+            
             card = f"""
 ### {disp} {badge}
 > **{tt}**
+
+{link_html}
 
 {ans}
             """
@@ -634,8 +637,16 @@ def run():
             db.update_status(pid, "ANALYSIS_FAILED")
 
     # 4. 发送
-    if reports:
-        if len(reports) == 1 and first_sent: pass
+    if reports or failed_items:
+        # 🟢 构建失败列表 HTML
+        failed_section = ""
+        if failed_items:
+            failed_section = "### ⚠️ 需要手动关注的链接 (下载失败/仅摘要)\n"
+            for f in failed_items:
+                failed_section += f"- [{f['title']}]({f['url']}) - *{f['reason']}*\n"
+            failed_section += "\n---\n\n"
+
+        if len(reports) == 1 and first_sent and not failed_items: pass
         else:
             zips = []
             cz, csz = [], 0
@@ -645,7 +656,8 @@ def run():
                 else: cz.append(f); csz += s
             if cz: zips.append(cz)
             
-            full_md = "\n\n---\n\n".join(reports)
+            # 🟢 将失败列表拼接到正文最前面
+            full_md = failed_section + "\n\n---\n\n".join(reports)
             
             if not zips: send_mail(f"🤖 AI 日报 ({len(reports)})", full_md)
             else:
