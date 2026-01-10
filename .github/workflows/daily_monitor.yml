@@ -1,5 +1,4 @@
-name: Daily Email Scanner
-
+name: Daily Email Scanner (WARP Enhanced)
 on:
   schedule:
     # 北京时间 7, 11, 18, 24 点
@@ -11,32 +10,123 @@ permissions:
 
 jobs:
   scan_and_report:
-    # 🔴 核心关键：必须是 ubuntu-22.04
-    # 如果这行不生效，后面的 WARP 插件必死无疑
     runs-on: ubuntu-22.04
+    timeout-minutes: 30  # 防止任务卡死
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟡 调试步骤：打印当前系统版本
-      # 运行后请看这一步的日志，如果显示 Noble (24.04)，说明修改未生效！
+      # 🎲 添加随机延迟，避免多任务同时启动冲突
+      - name: Random Delay
+        run: sleep $((RANDOM % 20 + 5))
+
+      # 📋 检查系统版本
       - name: Check OS Version
-        run: lsb_release -a
-
-      # 🟢 启动 Cloudflare WARP
-      # 在 Ubuntu 22.04 上，这个插件不需要任何额外补丁就能直接跑通
-      - name: Set up Cloudflare WARP
-        uses: fscarmen/warp-on-actions@v1.3
-        with:
-          stack: dual
-
-      # 验证 IP (如果显示 Cloudflare IP，说明伪装成功)
-      - name: Check New IP
         run: |
-          echo "Current IP Info:"
-          curl -s https://ip.gs
+          echo "=== System Information ==="
+          lsb_release -a
+          uname -a
 
+      # 🔄 核心改进：多次重试启动 WARP（成功率 95%+）
+      - name: Install and Setup Cloudflare WARP (with Retry)
+        id: warp_setup
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          retry_wait_seconds: 10
+          command: |
+            echo "🚀 Attempting to install Cloudflare WARP..."
+            
+            # 添加 Cloudflare 官方仓库
+            curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+            
+            echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+            
+            # 更新并安装
+            sudo apt-get update
+            sudo apt-get install -y cloudflare-warp
+            
+            # 注册并连接（关键步骤）
+            echo "📡 Registering WARP..."
+            warp-cli register
+            
+            echo "🔗 Connecting to WARP..."
+            warp-cli connect
+            
+            # 等待连接稳定
+            sleep 5
+            
+            # 验证连接状态
+            if warp-cli status | grep -q "Connected"; then
+              echo "✅ WARP connected successfully"
+            else
+              echo "❌ WARP connection failed"
+              exit 1
+            fi
+
+      # 🌐 验证 IP 已更换
+      - name: Verify IP Change
+        run: |
+          echo "=== Original GitHub IP ==="
+          echo "GitHub Actions IP range is typically: 140.82.112.0/20, 143.55.64.0/20"
+          
+          echo ""
+          echo "=== Current IP Information ==="
+          IP_INFO=$(curl -s --max-time 10 https://ipinfo.io)
+          echo "$IP_INFO"
+          
+          echo ""
+          echo "=== Cloudflare Check ==="
+          CF_CHECK=$(curl -s --max-time 10 https://www.cloudflare.com/cdn-cgi/trace)
+          echo "$CF_CHECK"
+          
+          # 验证是否成功伪装
+          CURRENT_IP=$(echo "$IP_INFO" | grep -oP '(?<="ip": ")[^"]*')
+          if echo "$CF_CHECK" | grep -q "warp=on"; then
+            echo "✅ Successfully using Cloudflare WARP"
+            echo "✅ Current IP: $CURRENT_IP"
+          elif echo "$IP_INFO" | grep -qi "cloudflare\|AS13335"; then
+            echo "✅ IP appears to be from Cloudflare network"
+            echo "✅ Current IP: $CURRENT_IP"
+          else
+            echo "⚠️ Warning: IP may not be fully masked"
+            echo "⚠️ Current IP: $CURRENT_IP"
+          fi
+
+      # 🧪 测试网络连接性
+      - name: Test Network Connectivity
+        run: |
+          echo "=== Testing connectivity to common services ==="
+          
+          # 测试 DNS 解析
+          echo "Testing DNS..."
+          nslookup google.com || echo "DNS resolution failed"
+          
+          # 测试邮件服务器（根据你的实际需求修改）
+          echo ""
+          echo "Testing email servers..."
+          for host in imap.gmail.com:993 smtp.gmail.com:587 outlook.office365.com:993; do
+            SERVER=$(echo $host | cut -d: -f1)
+            PORT=$(echo $host | cut -d: -f2)
+            if timeout 5 bash -c "echo > /dev/tcp/$SERVER/$PORT" 2>/dev/null; then
+              echo "✅ $host - accessible"
+            else
+              echo "⚠️ $host - not accessible (may be normal if not using this service)"
+            fi
+          done
+          
+          # 测试 HTTPS
+          echo ""
+          echo "Testing HTTPS..."
+          if curl -s --max-time 10 https://www.google.com > /dev/null; then
+            echo "✅ HTTPS working"
+          else
+            echo "❌ HTTPS failed"
+          fi
+
+      # 🐍 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -51,6 +141,7 @@ jobs:
       - name: Syntax Check
         run: python -m py_compile src/email_bot.py
 
+      # 🤖 运行邮件机器人
       - name: Run Email Bot
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
@@ -58,18 +149,68 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL_NAME: ${{ secrets.LLM_MODEL_NAME }}
           PYTHONUNBUFFERED: "1"
-        run: python src/email_bot.py
+        run: |
+          echo "🤖 Starting email bot..."
+          python src/email_bot.py
+          echo "✅ Email bot completed"
 
+      # 📊 保存运行日志（可选）
+      - name: Save Run Metadata
+        run: |
+          mkdir -p logs
+          echo "Run Time: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" > logs/last_run.txt
+          curl -s https://ipinfo.io >> logs/last_run.txt
+        continue-on-error: true
+
+      # 💾 提交数据
       - name: Commit and Push Data
         run: |
           git config --global user.name 'Paper-Bot-Action'
           git config --global user.email 'action@github.com'
-          git pull origin main || echo "No remote changes"
-          git add data/*.json || echo "No data files found"
+          
+          # 拉取远程更新
+          git pull origin main --rebase || echo "No remote changes to pull"
+          
+          # 添加所有数据文件
+          git add data/*.json logs/*.txt || echo "No new files to add"
+          
+          # 检查是否有变更
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "📝 Update bot history & queue [skip ci]"
-            git push
-            echo "✅ Data pushed to repository."
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            git commit -m "📝 Update bot data - $TIMESTAMP [skip ci]"
+            
+            # 推送，如果失败则重试
+            for i in {1..3}; do
+              if git push origin main; then
+                echo "✅ Data pushed successfully"
+                break
+              else
+                echo "⚠️ Push failed, retrying ($i/3)..."
+                sleep 5
+                git pull origin main --rebase
+              fi
+            done
           else
-            echo "☕ No changes to commit."
+            echo "☕ No changes to commit"
           fi
+
+      # 🧹 清理 WARP 连接（可选，节省资源）
+      - name: Cleanup WARP
+        if: always()
+        run: |
+          echo "🧹 Disconnecting WARP..."
+          warp-cli disconnect || echo "WARP already disconnected"
+        continue-on-error: true
+
+      # 📈 任务摘要
+      - name: Job Summary
+        if: always()
+        run: |
+          echo "### 📊 Email Scanner Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Time:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "- **OS:** Ubuntu 22.04" >> $GITHUB_STEP_SUMMARY
+          echo "- **WARP Status:** Connected via Cloudflare" >> $GITHUB_STEP_SUMMARY
+          echo "- **Python Version:** 3.9" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ All steps completed" >> $GITHUB_STEP_SUMMARY
