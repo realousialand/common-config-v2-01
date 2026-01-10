@@ -67,16 +67,20 @@ DOMAIN_LAST_ACCESSED = {}
 # --- 🎨 邮件样式 ---
 EMAIL_CSS = """
 <style>
-    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; font-size: 24px; }
-    h2 { color: #e67e22; margin-top: 30px; font-size: 20px; border-left: 5px solid #e67e22; padding-left: 10px; background-color: #fdf2e9; }
-    h3 { color: #34495e; font-size: 18px; margin-top: 25px; }
-    .image-placeholder { background-color: #e8f6f3; border: 1px dashed #1abc9c; color: #16a085; padding: 15px; text-align: center; border-radius: 5px; margin: 20px 0; font-style: italic; }
-    .failed-section { background-color: #fff0f0; padding: 15px; border-radius: 5px; border: 1px solid #ffcccc; margin-top: 30px; }
-    .failed-item { margin-bottom: 20px; border-bottom: 1px dashed #eee; padding-bottom: 10px; }
-    .failed-abstract { font-size: 0.9em; color: #666; background: #fafafa; padding: 10px; border-left: 3px solid #ddd; margin-top: 5px; }
-    .queue-info { background-color: #e3f2fd; color: #0d47a1; padding: 10px; border: 1px solid #bbdefb; border-radius: 5px; margin-bottom: 20px; font-weight: bold; }
+    body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+    .header-box { background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .header-box h1 { margin: 0; font-size: 24px; color: white; }
+    .queue-info { background-color: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px; font-size: 0.9em; margin-top: 10px; display: inline-block; }
+    .paper-card { background: white; padding: 25px; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border: 1px solid #eee; }
+    .paper-title { font-size: 20px; color: #2c3e50; font-weight: 700; margin-bottom: 5px; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+    .paper-trans-title { font-size: 16px; color: #555; font-weight: 600; margin-bottom: 20px; background-color: #f0f7ff; padding: 8px; border-left: 4px solid #3498db; border-radius: 0 4px 4px 0; }
+    h2 { font-size: 18px; color: #e67e22; margin-top: 25px; border-left: 4px solid #e67e22; padding-left: 10px; }
+    .image-placeholder { background-color: #e8f6f3; border: 1px dashed #16a085; color: #16a085; padding: 10px; text-align: center; border-radius: 6px; margin: 15px 0; font-size: 0.9em; }
+    .failed-section { background-color: #fff5f5; padding: 20px; border-radius: 8px; border: 1px solid #ffcccc; margin-top: 40px; }
+    .failed-item { background: white; padding: 15px; margin-bottom: 10px; border-radius: 6px; border-left: 3px solid #ccc; font-size: 0.9em; }
+    .failed-abstract { font-style: italic; color: #666; margin-top: 5px; background: #f9f9f9; padding: 5px; }
     .warning-box { background-color: #fff3cd; color: #856404; padding: 10px; border: 1px solid #ffeeba; border-radius: 5px; margin-top: 20px; font-weight: bold; }
+    a { color: #3498db; text-decoration: none; }
     hr { border: 0; height: 1px; background: #eee; margin: 30px 0; }
 </style>
 """
@@ -88,7 +92,7 @@ def translate_title(text):
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
-            messages=[{"role": "user", "content": f"Translate this academic title to Chinese (only output the translated text): {text}"}],
+            messages=[{"role": "user", "content": f"请将以下学术论文标题翻译成中文（仅输出翻译后的文本）：{text}"}],
             temperature=0.1
         )
         return completion.choices[0].message.content.strip()
@@ -210,7 +214,6 @@ def detect_and_extract_all(text, all_links=None):
         'springer.com', 'tandfonline.com', 'sagepub.com', 'jstor.org', 'oup.com', 
         'cambridge.org', 'egrove.olemiss.edu'
     ]
-    # 🟢 增加 scholar_share 等干扰链接过滤
     BLOCKED_DOMAINS = [
         'muse.jhu.edu', 
         'sciencedirect.com/science/article/pii',
@@ -327,16 +330,27 @@ def fetch_abstract_only(source_data):
         work = cr.works(ids=source_data["id"])
         title = work['message'].get('title', [''])[0]
         abstract = re.sub(r'<[^>]+>', '', work['message'].get('abstract', '无摘要'))
-        # 🟢 关键修改：如果是摘要，只返回摘要文本，类型标记为 "Abstract Only"
-        # 这样 main 函数就知道不要送给 LLM 去分析了
         return abstract, "Abstract Only", None
     except: return None, "Error", None
 
 def analyze_with_llm(content, content_type, source_url=""):
-    prompt = f"""请深度分析以下文献。来源：{content_type}。在解释机制时插入 
+    # 🟢 提示词全中文，且要求中文输出
+    prompt = f"""你是一名专业的社会科学/计算机科学研究助理。请用【中文】对以下文献内容进行深度分析。
+    
+    任务要求：
+    1. 总结研究背景、核心问题、方法论和主要结论。
+    2. 提取关键机制或理论创新点。
+    3. 如果正文中有提到具体的图表或模型架构，请在解释该部分时插入 
 
 [Image of X]
- 标签。输出 Markdown。\n---\n{content[:50000]}"""
+ 标签（X为图表内容的简短英文描述）。
+    4. 保持学术性，逻辑清晰。
+    5. 输出格式为 Markdown。
+
+    文献来源：{content_type}
+    文章内容：
+    {content[:50000]}
+    """
     try:
         completion = client.chat.completions.create(
             model=LLM_MODEL_NAME,
@@ -349,15 +363,14 @@ def analyze_with_llm(content, content_type, source_url=""):
 
 def generate_failed_report(failed_list):
     if not failed_list: return ""
-    report = "\n\n<div class='failed-section'><h2>⚠️ 未能获取全文的文献 (Skipped/Failed)</h2>"
-    report += "<p>以下文献因只有摘要、反爬虫拦截或文件过小，未进行深度分析，请手动查看：</p>"
+    report = "\n\n<div class='failed-section'><h2>⚠️ 未获取全文的文献 (Skipped List)</h2>"
+    report += "<p>以下文献因仅有摘要、触发反爬虫验证或文件无效，未进行深度分析。请点击链接查看原文：</p>"
     for src in failed_list:
         url = src.get('url', 'No URL')
         s_id = src.get('id', 'Unknown ID')
         sType = src.get('type', 'Unknown')
         title = src.get('title', s_id)
         
-        # 🟢 在失败列表里显示摘要（如果有）
         abstract_text = src.get('abstract_content', '')
         if not abstract_text and sType == 'doi':
              try:
@@ -365,9 +378,10 @@ def generate_failed_report(failed_list):
                 abstract_text = re.sub(r'<[^<]+?>', '', w['message'].get('abstract', ''))
              except: pass
         
-        report += f"<div class='failed-item'><h3>❌ {title}</h3><ul><li><strong>URL:</strong> <a href='{url}'>{url}</a></li><li><strong>Type:</strong> {sType}</li></ul>"
+        report += f"<div class='failed-item'><h3>❌ {title}</h3>"
+        report += f"<div class='failed-meta'>URL: <a href='{url}'>{url}</a> | Type: {sType}</div>"
         if abstract_text:
-            report += f"<div class='failed-abstract'><strong>Abstract:</strong> {abstract_text[:300]}...</div>"
+            report += f"<div class='failed-abstract'><strong>Abstract:</strong> {abstract_text[:400]}...</div>"
         report += "</div>"
     report += "</div>"
     return report
@@ -401,20 +415,37 @@ def append_to_history(new_items, filepath):
 def get_unique_id(source_data):
     return source_data.get("id") or hashlib.md5(source_data.get("url", "").encode()).hexdigest()
 
-def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
-    # 🟢 格式修复：将 Markdown 转换为 HTML 后，逐篇包裹，确保样式统一
+def send_email_with_attachment(subject, body_content, attachment_zip=None):
     try:
-        html_body = markdown.markdown(body_markdown, extensions=['extra', 'tables', 'fenced_code'])
+        html_content = markdown.markdown(body_content, extensions=['extra', 'tables', 'fenced_code'])
     except: 
-        html_body = body_markdown
+        html_content = body_content
     
-    # 图片占位符替换
     try:
         def replacer(match): return f'<div class="image-placeholder">🖼️ 图示建议：{match.group(1)}</div>'
-        html_body = re.sub(r'\]+)\]', replacer, html_body)
+        html_content = re.sub(r'\]+)\]', replacer, html_content)
     except: pass
     
-    final_html = f"<!DOCTYPE html><html><head><meta charset='UTF-8'>{EMAIL_CSS}</head><body>{html_body}<hr><p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant | {datetime.date.today()}</p></body></html>"
+    final_html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {EMAIL_CSS}
+    </head>
+    <body>
+        <div class="header-box">
+            <h1>{subject}</h1>
+            <div class="queue-info">{datetime.date.today()} 生成</div>
+        </div>
+        {html_content}
+        <hr>
+        <p style='text-align:center;color:#888;font-size:12px;'>Generated by AI Research Assistant</p>
+    </body>
+    </html>
+    """
+    
     msg = MIMEMultipart()
     msg["Subject"] = subject
     msg["From"] = EMAIL_USER
@@ -423,7 +454,6 @@ def send_email_with_attachment(subject, body_markdown, attachment_zip=None):
     
     if attachment_zip and os.path.exists(attachment_zip):
         if os.path.getsize(attachment_zip) > MAX_EMAIL_ZIP_SIZE:
-            print("⚠️ 附件过大，跳过。")
             attach_note = f"<div class='warning-box'>⚠️ 附件过大 ({os.path.getsize(attachment_zip)/1024/1024:.1f}MB)，已自动移除。</div>"
             final_html = final_html.replace("<body>", f"<body>{attach_note}")
             msg = MIMEMultipart()
@@ -556,9 +586,8 @@ def run_task():
              src['trans_title'] = translate_title(src['title'])
              print(f"    🇨🇳 标题翻译: {src['trans_title'][:20]}...")
 
-        # 🟢 核心修改：这里获取内容类型
+        # 获取内容
         content, ctype, path = fetch_content(src, save_dir=DOWNLOAD_DIR)
-        
         processed_now.append(src['id'])
         
         if path: 
@@ -568,10 +597,10 @@ def run_task():
                 "trans_title": src.get('trans_title'), "timestamp": str(datetime.datetime.now())
             })
         
-        # 🟢 核心修改：如果是 Abstract Only，直接判负，不给 LLM
+        # Abstract Only 判负
         if ctype == "Abstract Only":
             print("    ⚠️ 仅获取到摘要，跳过深度分析。")
-            src['abstract_content'] = content # 保存摘要用于报告
+            src['abstract_content'] = content
             failed.append(src)
             continue
 
@@ -579,7 +608,15 @@ def run_task():
             print("🤖 AI 分析中...")
             ans = analyze_with_llm(content, ctype, src.get('url'))
             if "LLM 分析出错" not in ans:
-                report_body += f"## 📑 {src.get('title', src['id'])}\n**{src.get('trans_title', '')}**\n\n{ans}\n\n---\n\n"
+                # 🟢 格式化：每篇论文用卡片包裹
+                paper_html = f"""
+                <div class="paper-card">
+                    <div class="paper-title">{src.get('title', src['id'])}</div>
+                    <div class="paper-trans-title">{src.get('trans_title', '（暂无中文标题）')}</div>
+                    <div class="paper-content">{ans}</div>
+                </div>
+                """
+                report_body += paper_html
                 total_new += 1
                 history2_records.append({
                     "id": src['id'], "title": src.get('title'),
@@ -594,11 +631,11 @@ def run_task():
     
     processed_ids.update(processed_now)
     save_json(list(processed_ids), HISTORY_PROCESSED_ID_FILE)
-    save_json(remaining_queue, QUEUE_FILE)
-
+    
     queue_status = f"<div class='queue-info'>📊 队列状态：本批处理 {len(to_process)} 篇，剩余待办 {len(remaining_queue)} 篇。</div>"
     failed_report = generate_failed_report(failed)
-    final_report = f"# 📅 文献日报 {datetime.date.today()}\n{queue_status}\n" + report_body + failed_report
+    
+    final_report_html = f"{queue_status}\n{report_body}\n{failed_report}"
     
     file_batches = []
     current_batch = []
@@ -616,10 +653,14 @@ def run_task():
         except: pass
     if current_batch: file_batches.append(current_batch)
     
+    # 🟢 邮件发送状态标记
+    all_emails_sent = True 
+
     if not file_batches:
         if total_new > 0 or failed:
             print("📨 发送纯文本报告...")
-            send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report, None)
+            if not send_email_with_attachment(f"🤖 AI 学术日报 (新:{total_new})", final_report_html, None):
+                all_emails_sent = False
     else:
         print(f"📨 附件过大，分 {len(file_batches)} 封发送...")
         for i, batch in enumerate(file_batches):
@@ -629,15 +670,24 @@ def run_task():
             
             if i == 0:
                 subject = f"🤖 AI 学术日报 (新:{total_new}) - Part 1"
-                body = final_report
+                body = final_report_html
             else:
                 subject = f"🤖 AI 学术日报 (附件 Part {i+1}) - {datetime.date.today()}"
-                body = f"# 📎 附件补发 (Part {i+1})\n\n这是后续的 PDF 附件包。"
+                body = f"<div class='paper-card'><h3>📎 附件补发 (Part {i+1})</h3><p>这是后续的 PDF 附件包，请查收。</p></div>"
             
-            send_email_with_attachment(subject, body, zip_name)
+            if not send_email_with_attachment(subject, body, zip_name):
+                all_emails_sent = False
+            
             if os.path.exists(zip_name): os.remove(zip_name)
             time.sleep(10)
     
+    # 🟢 关键：只有所有邮件发送成功，才更新队列文件
+    if all_emails_sent:
+        print(f"💾 [邮件发送成功] 更新队列：移除已处理 {len(to_process)} 篇，剩余 {len(remaining_queue)} 篇。")
+        save_json(remaining_queue, QUEUE_FILE)
+    else:
+        print(f"⚠️ [邮件发送失败] 保留队列，等待下次重试。")
+
     try: mail.logout()
     except: pass
     print("✅ 本次任务完成")
