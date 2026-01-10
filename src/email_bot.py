@@ -97,7 +97,6 @@ class PaperDB:
         for pid, item in self.data.items():
             if item["status"] == "NEW":
                 candidates.append(item)
-            # 失败重试逻辑：允许重试 MAX_RETRIES 次
             elif item["status"] == "DOWNLOAD_FAILED" and item.get("retry_count", 0) < MAX_RETRIES:
                 candidates.append(item)
         return candidates[:limit]
@@ -166,6 +165,19 @@ def get_oa_link(doi):
     except: pass
     return None
 
+def clean_google_url(url):
+    """🟢 核心优化：专门清洗脏链接的函数"""
+    try:
+        url = unquote(url)
+        # 匹配 google.com/url?q=... 或 scholar_url?url=...
+        if "google" in url and ("url=" in url or "q=" in url):
+            parsed = urlparse(url)
+            qs = parse_qs(parsed.query)
+            if 'url' in qs: return unquote(qs['url'][0])
+            if 'q' in qs: return unquote(qs['q'][0])
+    except: pass
+    return url
+
 def extract_body(msg):
     text = ""
     urls = set()
@@ -192,27 +204,18 @@ def extract_body(msg):
         except: pass
     return text, list(urls)
 
-def clean_google_url(url):
-    """🟢 修复：自动解包 Google Scholar 跳转链接"""
-    if "scholar_url" in url and "url=" in url:
-        try:
-            parsed = urlparse(url)
-            qs = parse_qs(parsed.query)
-            if 'url' in qs:
-                return unquote(qs['url'][0])
-        except: pass
-    return url
-
 def detect_sources(text, urls):
     sources = []
     seen = set()
     
+    # ArXiv
     for m in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.IGNORECASE):
         aid = m.group(1)
         if aid not in seen:
             sources.append({"type": "arxiv", "id": aid, "url": f"https://arxiv.org/pdf/{aid}.pdf"})
             seen.add(aid)
     
+    # DOI
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.IGNORECASE):
         doi = m.group(1)
         if doi not in seen:
@@ -220,23 +223,22 @@ def detect_sources(text, urls):
             sources.append({"type": "doi", "id": doi, "url": link}) 
             seen.add(doi)
 
+    # Direct Links
     block = ['muse.jhu.edu', 'sciencedirect.com/science/article/pii']
     
     for link in urls:
         try:
-            l_raw = unquote(link)
-            l = l_raw.lower()
+            # 🟢 关键步骤：在处理前先清洗链接！
+            clean_link = clean_google_url(link)
+            l_lower = clean_link.lower()
             
-            # 自动清洗 URL
-            real_url = clean_google_url(l_raw)
-            l_clean = real_url.lower()
-
-            if any(x in l_clean for x in block): continue
+            if any(x in l_lower for x in block): continue
             
-            if l_clean.endswith('.pdf') or 'viewcontent.cgi' in l_clean:
-                lid = hashlib.md5(l_clean.encode()).hexdigest()[:10]
+            if l_lower.endswith('.pdf') or 'viewcontent.cgi' in l_lower:
+                # 使用清洗后的链接计算哈希，确保唯一性
+                lid = hashlib.md5(clean_link.encode()).hexdigest()[:10]
                 if lid not in seen:
-                    sources.append({"type": "pdf_link", "id": f"link_{lid}", "url": real_url})
+                    sources.append({"type": "pdf_link", "id": f"link_{lid}", "url": clean_link})
                     seen.add(lid)
         except: continue
     return sources
@@ -255,12 +257,10 @@ def get_safe_filename(pid, save_dir):
     return os.path.join(save_dir, f"{safe_name}.pdf")
 
 def fetch_content(item, save_dir):
-    # 🟢 步骤 1：处理 URL
     url = item.get('url')
-    if url: 
-        url = clean_google_url(url) # 运行时修复脏链接
+    # 再次清洗以防万一
+    if url: url = clean_google_url(url)
     
-    # 🟢 步骤 2：如果没有 URL，且是 DOI，直接转摘要
     if not url:
         if item.get("type") == "doi":
             print(f"    ℹ️ 无 PDF 链接，尝试抓取摘要...")
@@ -276,7 +276,6 @@ def fetch_content(item, save_dir):
         
         if r.status_code == 429: return None, "Rate Limit", None
         
-        # 🟢 步骤 3：如果下载的不是 PDF，且是 DOI，转摘要
         ctype = r.headers.get('Content-Type', '').lower()
         if 'application/pdf' not in ctype and not url.lower().endswith('.pdf'):
              print("    ⚠️ 链接响应非 PDF，尝试 DOI 摘要补救...")
@@ -287,7 +286,6 @@ def fetch_content(item, save_dir):
         with open(fname, "wb") as f:
             for chunk in r.iter_content(8192): f.write(chunk)
         
-        # 🟢 步骤 4：文件过小，且是 DOI，转摘要
         if os.path.getsize(fname) < 2000:
             print("    ⚠️ PDF 文件过小，尝试 DOI 摘要补救...")
             os.remove(fname)
@@ -312,16 +310,13 @@ def fetch_content(item, save_dir):
 
 def fetch_abstract_only(source_data):
     try:
-        # print(f"    📚 [保底] 获取 Crossref 摘要...")
         w = cr.works(ids=source_data["id"])
         title = w['message'].get('title', [''])[0]
         abstract = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
-        # 🟢 返回特殊状态
         return f"TITLE: {title}\n\nABSTRACT: {abstract}", "ABSTRACT_ONLY", None
     except: return None, "Error", None
 
 def analyze_with_llm(content, ctype):
-    # 🟢 针对只有摘要的情况，调整 Prompt
     if ctype == "ABSTRACT_ONLY":
         prompt = f"""你是一名学术研究助理。以下是一篇文献的【标题和摘要】（未获取到全文）。
         
