@@ -284,7 +284,6 @@ def fetch_abstract(item):
 def analyze(txt, ctype):
     # 🟢 1. 摘要模式：仅翻译
     if ctype == "ABSTRACT_ONLY":
-        # 尝试从 txt 中提取标题和摘要正文 (格式通常是 TITLE: ... \n\n ABSTRACT: ...)
         title_part = "Unknown"
         abstract_part = txt
         m = re.search(r"TITLE:\s*(.*?)\n\nABSTRACT:\s*(.*)", txt, re.DOTALL)
@@ -300,7 +299,6 @@ def analyze(txt, ctype):
                 model=LLM_MODEL_NAME, messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}], temperature=0.3
             )
             trans = res.choices[0].message.content.strip()
-            # 返回结构：(英文标题, 翻译后的中文摘要)
             return title_part, f"**【摘要翻译】**\n{trans}"
         except:
             return title_part, f"摘要翻译失败。原文：\n{abstract_part[:500]}..."
@@ -375,7 +373,7 @@ def send_mail(subj, md_body, files=[]):
         with smtplib.SMTP_SSL(SMTP_SERVER, 465) as s:
             s.login(EMAIL_USER, EMAIL_PASS)
             s.sendmail(EMAIL_USER, EMAIL_USER, msg.as_string())
-        logger.info("✅ 邮件已发送")
+        logger.info(f"✅ 邮件已发送: {subj}")
         return True
     except Exception as e:
         logger.error(f"邮件失败: {e}")
@@ -440,6 +438,9 @@ def run():
     pend_an = db.get_pending_analysis(BATCH_SIZE)
     logger.info(f"🤖 待分析: {len(pend_an)}")
     reports, atts = [], []
+    
+    first_sent = False # 🟢 首单发送标记
+
     for item in pend_an:
         pid = item['id']
         txt, ctype = "", item.get("content_type", "Unknown")
@@ -464,40 +465,53 @@ def run():
             rt, ans = analyze(txt, ctype)
             disp = rt if ("Unknown" not in rt and rt) else item.get('title', 'Unknown')
             tt = translate_title(disp)
-            # 只有当不是摘要模式时，才在UI上标记（如果是摘要，内容本身已经说明是翻译了）
-            badge = "<span style='background:#eee;padding:2px 5px;font-size:12px'>摘要翻译</span>" if ctype == "ABSTRACT_ONLY" else ""
+            badge = " (仅摘要)" if ctype == "ABSTRACT_ONLY" else ""
             
             card = f"""<div style="border:1px solid #ccc;padding:15px;margin-bottom:20px;">
-            <h3>{disp} {badge}</h3>
+            <h3>{disp}{badge}</h3>
             <p style="color:#666;font-weight:bold">{tt}</p>
             <div>{ans}</div>
             </div>"""
+            
             reports.append(card)
             db.update_status(pid, "ANALYZED", {"real_title": disp})
+
+            # 🟢 ⚡【首单即送】逻辑
+            if not first_sent:
+                logger.info("🚀 触发首单即送...")
+                # 仅发送当前这一个附件（如果有）
+                current_att = [fp] if (item["status"] == "DOWNLOADED" and os.path.exists(fp)) else []
+                send_mail(f"⚡ [预览] {disp}", card, current_att)
+                first_sent = True
+
         except Exception as e:
             logger.error(f"分析失败: {e}")
             db.inc_retry(pid)
             db.update_status(pid, "ANALYSIS_FAILED")
 
-    # 4. 发送
+    # 4. 汇总发送
     if reports:
-        zips = []
-        cz, csz = [], 0
-        for f in atts:
-            s = os.path.getsize(f)
-            if csz+s > MAX_EMAIL_ZIP_SIZE: zips.append(cz); cz, csz = [f], s
-            else: cz.append(f); csz += s
-        if cz: zips.append(cz)
-        
-        if not zips: send_mail(f"🤖 AI 日报 ({len(reports)})", "\n".join(reports))
+        # 如果只有一份报告且已经通过“首单”发过了，就不再发汇总，避免重复
+        if len(reports) == 1 and first_sent:
+            logger.info("☕ 仅有一份报告且已预览，跳过汇总发送")
         else:
-            for i, zf in enumerate(zips):
-                zn = f"p_{i+1}.zip"
-                with zipfile.ZipFile(zn, 'w', zipfile.ZIP_DEFLATED) as z:
-                    for f in zf: z.write(f, os.path.basename(f))
-                send_mail(f"🤖 AI 日报 ({i+1})", "\n".join(reports) if i==0 else "附件", [zn])
-                if os.path.exists(zn): os.remove(zn)
-                time.sleep(5)
+            zips = []
+            cz, csz = [], 0
+            for f in atts:
+                s = os.path.getsize(f)
+                if csz+s > MAX_EMAIL_ZIP_SIZE: zips.append(cz); cz, csz = [f], s
+                else: cz.append(f); csz += s
+            if cz: zips.append(cz)
+            
+            if not zips: send_mail(f"🤖 AI 日报 ({len(reports)})", "\n".join(reports))
+            else:
+                for i, zf in enumerate(zips):
+                    zn = f"p_{i+1}.zip"
+                    with zipfile.ZipFile(zn, 'w', zipfile.ZIP_DEFLATED) as z:
+                        for f in zf: z.write(f, os.path.basename(f))
+                    send_mail(f"🤖 AI 日报 ({i+1})", "\n".join(reports) if i==0 else "附件", [zn])
+                    if os.path.exists(zn): os.remove(zn)
+                    time.sleep(5)
     logger.info("✅ 完成")
 
 if __name__ == "__main__":
