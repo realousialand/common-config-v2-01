@@ -17,16 +17,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 修复 404：改用 Debian 稳定源下载 openresolv
+      # 🟢 终极修复：动态添加 Debian 源来安装 openresolv
+      # 不再写死版本号，让 apt 自己找最新版
       - name: Install dependencies for WARP
         run: |
+          # 1. 临时添加 Debian 的 unstable 源 (这里通常有最新的包)
+          echo "deb http://ftp.debian.org/debian unstable main" | sudo tee /etc/apt/sources.list.d/debian-unstable.list
+          
+          # 2. 导入 Debian 的公钥，防止签名报错
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138 0E98404D386FA1D9
+          
+          # 3. 更新并安装
           sudo apt-get update
-          # 使用 Debian 官方源，这个版本号 (3.13.2) 非常稳定
-          wget http://ftp.debian.org/debian/pool/main/o/openresolv/openresolv_3.13.2-1_all.deb
-          # 强行安装
-          sudo dpkg -i openresolv_3.13.2-1_all.deb
-          # 修复可能存在的依赖关系
-          sudo apt-get install -f -y
+          sudo apt-get install -y openresolv
 
       # 🟢 启动 Cloudflare WARP
       - name: Set up Cloudflare WARP
@@ -34,7 +37,6 @@ jobs:
         with:
           stack: dual
 
-      # 验证 IP 是否改变 (显示为 Cloudflare IP 即成功)
       - name: Check New IP
         run: |
           echo "Current IP Info:"
