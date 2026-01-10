@@ -371,11 +371,7 @@ def analyze_with_llm(content, ctype):
         任务：
         1. 提取真实标题。
         2. 深度分析背景、问题、方法、结论、创新点。
-        3. 遇到图表时插入 
-
-[Image of X]
-。
-        4. 输出 Markdown。
+        3. 输出 Markdown。
 
         来源：{ctype}
         内容：{content[:50000]}
@@ -399,13 +395,6 @@ def analyze_with_llm(content, ctype):
 
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
-    
-    # 🟢 终极修复：绝对正确的正则表达式
-    html = re.sub(
-        r'\]+)\]', 
-        r'<div style="background:#eef;padding:10px;margin:10px 0;border:1px dashed #ccc;text-align:center;color:#666">🖼️ 图示建议：\1</div>', 
-        html
-    )
     
     full_html = f"""
     <html>
@@ -447,23 +436,9 @@ def send_email(subject, body, attach_files=[]):
         logger.critical(f"邮件发送失败: {e}", exc_info=True)
         return False
 
-# 🟢 启动自检：防止正则错误导致任务在最后一步崩溃
-def self_check():
-    try:
-        test_str = "Test 
-
-[Image of Graph]
-"
-        re.sub(r'\]+)\]', 'X', test_str)
-        logger.info("✅ 启动自检通过")
-    except Exception as e:
-        logger.critical(f"❌ 自检失败，请检查代码: {e}")
-        exit(1)
-
 # --- 🚀 主流程 ---
 
 def run():
-    self_check() # 执行自检
     logger.info(f"🎬 启动: {datetime.datetime.now()}")
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
