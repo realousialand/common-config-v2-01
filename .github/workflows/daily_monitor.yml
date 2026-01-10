@@ -2,12 +2,7 @@ name: Daily Email Scanner
 
 on:
   schedule:
-    # 北京时间 (UTC+8) -> UTC 时间
-    # 07:00 BJT = 23:00 UTC (前一天)
-    # 11:00 BJT = 03:00 UTC
-    # 18:00 BJT = 10:00 UTC
-    # 24:00 BJT = 16:00 UTC
-    - cron: '0 3,10,16,23 * * *'
+    - cron: '0 3,7,10,13,16,23 * * *'
   
   # 允许手动点击按钮触发
   workflow_dispatch:
