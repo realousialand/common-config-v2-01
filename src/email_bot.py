@@ -71,37 +71,23 @@ def clean_google_url(url):
     except: pass
     return url
 
+# --- 启动自检 ---
 def startup_check():
-    """启动自检：验证关键依赖和配置"""
-    logger.info("🔧 执行启动自检...")
-    
+    logger.info("🔧 正在执行启动自检...")
     try:
-        # 1. 验证环境变量
-        if not LLM_API_KEY:
-            raise ValueError("环境变量 LLM_API_KEY 未设置")
-        if not EMAIL_USER or not EMAIL_PASS:
-            raise ValueError("邮箱凭证 EMAIL_USER/EMAIL_PASS 未设置")
+        # 1. 验证正则
+        test_str = "Test 
+
+[Image of Graph]
+"
+        re.sub(r'\]+)\]', 'IMG', test_str)
         
-        # 2. 验证目录权限
-        os.makedirs(DATA_DIR, exist_ok=True)
-        os.makedirs(DOWNLOAD_DIR, exist_ok=True)
-        
-        # 3. 测试 URL 清洗功能
+        # 2. 验证 URL 清洗
         test_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
-        cleaned = clean_google_url(test_url)
-        if "arxiv.org" not in cleaned:
-            raise ValueError(f"URL 清洗失败: {test_url} -> {cleaned}")
-        
-        # 4. 测试 LLM API 连通性（可选，建议注释掉以加快启动）
-        # logger.info("    测试 LLM API 连接...")
-        # client.chat.completions.create(
-        #     model=LLM_MODEL_NAME,
-        #     messages=[{"role": "user", "content": "test"}],
-        #     max_tokens=5
-        # )
-        
+        if "arxiv.org" not in clean_google_url(test_url):
+            raise ValueError("URL清洗失败")
+            
         logger.info("✅ 自检通过")
-        
     except Exception as e:
         logger.critical(f"❌ 自检失败: {e}")
         exit(1)
@@ -117,16 +103,13 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
-                    
-                    # 🟢 自动修复 List -> Dict
                     if isinstance(content, list):
-                        logger.warning("⚠️ 迁移旧版数据库格式...")
+                        logger.warning("⚠️ 检测到旧版数据库格式(List)，正在迁移为字典...")
                         new_data = {}
                         for item in content:
                             if isinstance(item, dict) and 'id' in item:
                                 new_data[item['id']] = item
                         return new_data
-                    
                     if isinstance(content, dict): return content
             except Exception as e:
                 logger.error(f"加载数据库失败: {e}")
@@ -288,7 +271,9 @@ def detect_sources(text, urls):
     return srcs
 
 def get_path(pid):
-    return os.path.join(DOWNLOAD_DIR, f"{re.sub(r'[\\/*?]', '_', pid)}.pdf")
+    # 🟢 修复：将正则表达式移出 f-string，兼容 Python 3.9
+    safe_name = re.sub(r'[\\/*?:"<>|]', '_', pid)
+    return os.path.join(DOWNLOAD_DIR, f"{safe_name}.pdf")
 
 def fetch_content(item):
     url = clean_google_url(item.get('url'))
@@ -338,20 +323,35 @@ def fetch_abstract(item):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
 def analyze(txt, ctype):
-    sys_prompt = "You are a research assistant. Analyze the paper in Chinese."
+    # 🟢 升级版 Prompt (完整版)
+    sys_prompt = "You are a comprehensive academic research assistant."
     user_prompt = f"""
-    Strictly follow this format (no markdown code blocks):
-    TITLE: <English Title>
-    
-    [Chinese Analysis Body]
-    
-    Task:
-    1. Extract the English Title on the first line.
-    2. Analyze background, methods, and conclusions in Chinese.
-    
-    Type: {ctype}
-    Content: {txt[:40000]}
+    # Role
+    Please act as my academic assistant based on the provided document content.
+
+    # ⚠️ CRITICAL FORMAT RULE
+    The VERY FIRST line of your response MUST be the English title in this format:
+    TITLE: <English Title Here>
+
+    # Task Steps (Execute carefully)
+    1. **Basic Info**: Confirm title, authors, journal/conference (expand abbreviations), year, keywords.
+    2. **Domain & Impact**: Infer research field and potential impact.
+    3. **Gap Analysis**: Explain current status and specific gap/problem addressed.
+    4. **Methodology**: Detail key techniques, experiment design, theoretical framework, and innovations.
+    5. **Results**: List key empirical results and conclusions.
+    6. **Terminology**: Explain 2-3 technical terms for non-experts.
+    7. **Contributions**: Analyze main strengths and field contributions.
+    8. **Limitations & Future**: Discuss limitations (sample size, assumptions) and future directions.
+    9. **Related Work**: Recommend 3-5 related foundational or follow-up studies.
+    10. **Search Info**: Suggest precise search queries for databases.
+    11. **DOI/Link**: Provide DOI or official link if found in text.
+    12. **Quantitative Analysis**: IF quantitative, list Data/Dataset, Variables, Models, Stat methods, Sources, Results.
+
+    Input Type: {ctype}
+    Document Content: 
+    {txt[:50000]}
     """
+    
     res = client.chat.completions.create(
         model=LLM_MODEL_NAME,
         messages=[{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
@@ -376,7 +376,7 @@ def send_mail(subj, md_body, files=[]):
         <h2>{subj}</h2><p>{datetime.date.today()}</p>
     </div>
     {html}
-    <hr><p style="color:#888;font-size:12px">AI Assistant</p>
+    <hr><p style="color:#888;font-size:12px">AI Research Assistant</p>
     </body></html>
     """
     
