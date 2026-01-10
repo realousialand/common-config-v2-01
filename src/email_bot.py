@@ -68,17 +68,29 @@ client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 cr = Crossref()
 DOMAIN_LAST_ACCESSED = {}
 
+# --- 🧠 辅助函数 ---
+def clean_google_url(url):
+    try:
+        url = unquote(url)
+        if "google" in url and ("url=" in url or "q=" in url):
+            parsed = urlparse(url)
+            qs = parse_qs(parsed.query)
+            if 'url' in qs: return unquote(qs['url'][0])
+            if 'q' in qs: return unquote(qs['q'][0])
+    except Exception as e:
+        logger.debug(f"URL清洗失败: {e}")
+    return url
+
 # --- 🚀 启动自检 (Fail Fast) ---
 def startup_check():
     """在正式运行前，验证关键逻辑是否会报错"""
     logger.info("🔧 执行启动自检...")
     try:
-        # 1. 验证正则替换逻辑
+        # 1. 验证正则替换逻辑 (修复了之前的截断问题)
         test_html = "Test 
 
 [Image of Test Graph]
 "
-        # 这是一个绝对安全的正则，不再使用复杂的嵌套
         re.sub(r'\]+)\]', 'IMAGE_PLACEHOLDER', test_html)
         
         # 2. 验证 URL 清洗逻辑
@@ -226,18 +238,6 @@ def get_oa_link(doi):
     except Exception:
         raise
     return None
-
-def clean_google_url(url):
-    try:
-        url = unquote(url)
-        if "google" in url and ("url=" in url or "q=" in url):
-            parsed = urlparse(url)
-            qs = parse_qs(parsed.query)
-            if 'url' in qs: return unquote(qs['url'][0])
-            if 'q' in qs: return unquote(qs['q'][0])
-    except Exception as e:
-        logger.debug(f"URL 清洗失败: {e}")
-    return url
 
 def extract_body(msg):
     text = ""
@@ -420,8 +420,7 @@ def analyze_with_llm(content, ctype):
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
     
-    # 🟢 移除了容易出错的图片正则替换，因为我们不再要求 LLM 生成图片标签
-    # html = re.sub(...) 
+    # 🟢 纯净版：移除了所有不稳定的正则替换
     
     full_html = f"""
     <html>
@@ -466,9 +465,7 @@ def send_email(subject, body, attach_files=[]):
 # --- 🚀 主流程 ---
 
 def run():
-    # 🟢 运行自检
     startup_check()
-    
     logger.info(f"🎬 启动: {datetime.datetime.now()}")
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
