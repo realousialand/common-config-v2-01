@@ -44,7 +44,7 @@ EMAIL_PASS = os.environ.get("EMAIL_PASS")
 IMAP_SERVER = "imap.gmail.com"
 SMTP_SERVER = "smtp.gmail.com"
 
-# 🟢 修复：全局定义调度变量，防止 NameError
+# 🟢 调度配置
 SCHEDULER_MODE = False
 LOOP_INTERVAL_HOURS = 4
 
@@ -245,14 +245,12 @@ def detect_sources(text, urls):
     sources = []
     seen = set()
     
-    # ArXiv
     for m in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.IGNORECASE):
         aid = m.group(1)
         if aid not in seen:
             sources.append({"type": "arxiv", "id": aid, "url": f"https://arxiv.org/pdf/{aid}.pdf"})
             seen.add(aid)
     
-    # DOI
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.IGNORECASE):
         doi = m.group(1)
         if doi not in seen:
@@ -402,7 +400,7 @@ def analyze_with_llm(content, ctype):
 def send_email(subject, body, attach_files=[]):
     html = markdown.markdown(body, extensions=['extra'])
     
-    # 🟢 修复：正确的正则
+    # 🟢 终极修复：绝对正确的正则表达式
     html = re.sub(
         r'\]+)\]', 
         r'<div style="background:#eef;padding:10px;margin:10px 0;border:1px dashed #ccc;text-align:center;color:#666">🖼️ 图示建议：\1</div>', 
@@ -449,9 +447,23 @@ def send_email(subject, body, attach_files=[]):
         logger.critical(f"邮件发送失败: {e}", exc_info=True)
         return False
 
+# 🟢 启动自检：防止正则错误导致任务在最后一步崩溃
+def self_check():
+    try:
+        test_str = "Test 
+
+[Image of Graph]
+"
+        re.sub(r'\]+)\]', 'X', test_str)
+        logger.info("✅ 启动自检通过")
+    except Exception as e:
+        logger.critical(f"❌ 自检失败，请检查代码: {e}")
+        exit(1)
+
 # --- 🚀 主流程 ---
 
 def run():
+    self_check() # 执行自检
     logger.info(f"🎬 启动: {datetime.datetime.now()}")
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
