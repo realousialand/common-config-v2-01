@@ -5,7 +5,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:42:01.268699"
   },
   "link_da62d6387b": {
@@ -27,7 +27,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:42:01.269285"
   },
   "link_827319b745": {
@@ -36,7 +36,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:42:01.269669"
   },
   "link_1c326cae8d": {
@@ -45,7 +45,7 @@
     "url": "https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:42:01.269945"
   },
   "10.1016/j.childyouth.2024.108097": {
@@ -132,7 +132,7 @@
     "url": "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:44:16.756766"
   },
   "link_d7cc73c9e6": {
@@ -141,7 +141,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:44:16.757201"
   },
   "link_bd30bfa335": {
@@ -150,7 +150,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:44:16.757632"
   },
   "link_cf08a84d2d": {
@@ -159,7 +159,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:44:16.757982"
   },
   "10.2308/tar-2021-0546": {
@@ -207,7 +207,7 @@
     "url": "https://www.researchgate.net/profile/Vicente-Bicudo-De-Castro/publication/398459626_Has_scientific_progress_in_accounting_slowed_down/links/693a228fa1fd01798906d036/Has-scientific-progress-in-accounting-slowed-down.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:45:33.072304"
   },
   "link_f60e4f4ea7": {
@@ -216,7 +216,7 @@
     "url": "https://www.researchgate.net/profile/Abdulvahap-Akinci/publication/399489348_Transparency_in_Local_Governments_A_Bibliometric_Analysis/links/695d097a7e61d05b53177af1/Transparency-in-Local-Governments-A-Bibliometric-Analysis.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-10 15:45:33.072784"
   },
   "2601.04580": {
@@ -224,90 +224,130 @@
     "id": "2601.04580",
     "url": "https://arxiv.org/pdf/2601.04580.pdf",
     "title": "ArXiv 2601.04580",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.716491"
+    "ts": "2026-01-10 15:45:48.716491",
+    "local_path": "downloads/2601.04580.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bimodal Bias against Chinese Scientists in the American Academy: Penalties for Men, Bonuses for Women"
   },
   "2601.04197": {
     "type": "arxiv",
     "id": "2601.04197",
     "url": "https://arxiv.org/pdf/2601.04197.pdf",
     "title": "ArXiv 2601.04197",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.716980"
+    "ts": "2026-01-10 15:45:48.716980",
+    "local_path": "downloads/2601.04197.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Automatic Construction of Chinese Verb Collostruction Database**"
   },
   "2601.04350": {
     "type": "arxiv",
     "id": "2601.04350",
     "url": "https://arxiv.org/pdf/2601.04350.pdf",
     "title": "ArXiv 2601.04350",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.717729"
+    "ts": "2026-01-10 15:45:48.717729",
+    "local_path": "downloads/2601.04350.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RIGOURATE: Quantifying Scientific Exaggeration with Evidence-Aligned Claim Evaluation**"
   },
   "2601.05004": {
     "type": "arxiv",
     "id": "2601.05004",
     "url": "https://arxiv.org/pdf/2601.05004.pdf",
     "title": "ArXiv 2601.05004",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.718564"
+    "ts": "2026-01-10 15:45:48.718564",
+    "local_path": "downloads/2601.05004.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Can Large Language Models Resolve Semantic Discrepancy in Self-Destructive Subcultures? Evidence from Jirai Kei"
   },
   "2601.04226": {
     "type": "arxiv",
     "id": "2601.04226",
     "url": "https://arxiv.org/pdf/2601.04226.pdf",
     "title": "ArXiv 2601.04226",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.719005"
+    "ts": "2026-01-10 15:45:48.719005",
+    "local_path": "downloads/2601.04226.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Automated Reproducibility Has a Problem Statement Problem**"
   },
   "2601.04632": {
     "type": "arxiv",
     "id": "2601.04632",
     "url": "https://arxiv.org/pdf/2601.04632.pdf",
     "title": "ArXiv 2601.04632",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.719440"
+    "ts": "2026-01-10 15:45:48.719440",
+    "local_path": "downloads/2601.04632.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From National Curricula to Cultural Awareness: Constructing Open-Ended Culture-Specific Question Answering Dataset"
   },
   "2601.04925": {
     "type": "arxiv",
     "id": "2601.04925",
     "url": "https://arxiv.org/pdf/2601.04925.pdf",
     "title": "ArXiv 2601.04925",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.719864"
+    "ts": "2026-01-10 15:45:48.719864",
+    "local_path": "downloads/2601.04925.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human Linguistic Differences**"
   },
   "2601.04218": {
     "type": "arxiv",
     "id": "2601.04218",
     "url": "https://arxiv.org/pdf/2601.04218.pdf",
     "title": "ArXiv 2601.04218",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.720369"
+    "ts": "2026-01-10 15:45:48.720369",
+    "local_path": "downloads/2601.04218.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The artificial intelligence value chain: A critical appraisal"
   },
   "2601.04660": {
     "type": "arxiv",
     "id": "2601.04660",
     "url": "https://arxiv.org/pdf/2601.04660.pdf",
     "title": "ArXiv 2601.04660",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.721021"
+    "ts": "2026-01-10 15:45:48.721021",
+    "local_path": "downloads/2601.04660.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Global Inequalities in Clinical Trials Participation"
   },
   "2601.04597": {
     "type": "arxiv",
     "id": "2601.04597",
     "url": "https://arxiv.org/pdf/2601.04597.pdf",
     "title": "ArXiv 2601.04597",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.721545"
+    "ts": "2026-01-10 15:45:48.721545",
+    "local_path": "downloads/2601.04597.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.04597"
   },
   "2601.04534": {
     "type": "arxiv",
@@ -686,5 +726,95 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-10 15:45:52.966414"
+  },
+  "10.1007/s00180-012-0375-4": {
+    "type": "doi",
+    "id": "10.1007/s00180-012-0375-4",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:29:20.453025"
+  },
+  "10.22541/au.174949155.52667340/v1": {
+    "type": "doi",
+    "id": "10.22541/au.174949155.52667340/v1",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:29:20.454271"
+  },
+  "10.1093/hepl/9780198737421.001.0001": {
+    "type": "doi",
+    "id": "10.1093/hepl/9780198737421.001.0001",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.238421"
+  },
+  "10.4159/9780674970342-001": {
+    "type": "doi",
+    "id": "10.4159/9780674970342-001",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.239757"
+  },
+  "10.1155/2017/8094152": {
+    "type": "doi",
+    "id": "10.1155/2017/8094152",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.240745"
+  },
+  "10.1007/978-1-4614-6723-6_1": {
+    "type": "doi",
+    "id": "10.1007/978-1-4614-6723-6_1",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.241742"
+  },
+  "10.23943/princeton/9780691150734.003.0006": {
+    "type": "doi",
+    "id": "10.23943/princeton/9780691150734.003.0006",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.242782"
+  },
+  "10.1007/978-1-137-40600-2_2": {
+    "type": "doi",
+    "id": "10.1007/978-1-137-40600-2_2",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.243907"
+  },
+  "10.1093/hepl/9780192846051.003.0026": {
+    "type": "doi",
+    "id": "10.1093/hepl/9780192846051.003.0026",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.244873"
+  },
+  "10.4324/9781315446486-15": {
+    "type": "doi",
+    "id": "10.4324/9781315446486-15",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 16:31:57.245962"
   }
 }
