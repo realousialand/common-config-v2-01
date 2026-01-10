@@ -1,0 +1,690 @@
+{
+  "link_07787a0b8e": {
+    "type": "pdf_link",
+    "id": "link_07787a0b8e",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:42:01.268699"
+  },
+  "link_da62d6387b": {
+    "type": "pdf_link",
+    "id": "link_da62d6387b",
+    "url": "https://iris.uniroma1.it/retrieve/ee3c41c5-ff65-485b-a7ee-12b273ed9459/Tesi_dottorato_Cerbino_oscurata.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:42:01.268971",
+    "local_path": "downloads/link_da62d6387b.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** RESEARCH DOCTORATE IN PRIVATE AUTONOMY, BUSINESS, LABOR AND THE PROTECTION OF RIGHTS IN THE EUROPEAN AND INTERNATIONAL PERSPECTIVE QUANTIFYING SECURITIES MARKET LOSSES CAUSED BY INFORMATION FAILURES"
+  },
+  "link_b6d1579e9d": {
+    "type": "pdf_link",
+    "id": "link_b6d1579e9d",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:42:01.269285"
+  },
+  "link_827319b745": {
+    "type": "pdf_link",
+    "id": "link_827319b745",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570&context=jofa&amp;rt=The+JOURNAL+of+ACCOUNTANCY&amp;scisig=ALhkC2QhnW9dpjsc9S84RrPB6fiZ",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:42:01.269669"
+  },
+  "link_1c326cae8d": {
+    "type": "pdf_link",
+    "id": "link_1c326cae8d",
+    "url": "https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=6570",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:42:01.269945"
+  },
+  "10.1016/j.childyouth.2024.108097": {
+    "type": "doi",
+    "id": "10.1016/j.childyouth.2024.108097",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:42:02.297204",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Envisioning the future of youth justice: A focus group study with youth, family, frontline staff, and subject experts\n\nABSTRACT: 无摘要",
+    "real_title": "Envisioning the future of youth justice: A focus group study with youth, family, frontline staff, and subject experts"
+  },
+  "10.1016/j.socscimed.2025.118759": {
+    "type": "doi",
+    "id": "10.1016/j.socscimed.2025.118759",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:42:02.297544",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Competitive interdependence: A critical political economy of regulation during the COVID-19 pandemic\n\nABSTRACT: 无摘要",
+    "real_title": "Competitive interdependence: A critical political economy of regulation during the COVID-19 pandemic"
+  },
+  "10.1186/s12992-025-01172-x": {
+    "type": "doi",
+    "id": "10.1186/s12992-025-01172-x",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:42:02.298114",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: How has the global food governance system evolved, and what challenges does it currently pose for food systems transformation? A narrative review and synthesis of the literature\n\nABSTRACT: 无摘要",
+    "real_title": "How has the global food governance system evolved, and what challenges does it currently pose for food systems transformation? A narrative review and synthesis of the literature"
+  },
+  "10.3724/sp.j.1016.2011.01423": {
+    "type": "doi",
+    "id": "10.3724/sp.j.1016.2011.01423",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:44:16.366230",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Development of Topic Models in Natural Language Processing\n\nABSTRACT: 无摘要",
+    "real_title": "The Development of Topic Models in Natural Language Processing"
+  },
+  "10.32614/cran.package.copsens": {
+    "type": "doi",
+    "id": "10.32614/cran.package.copsens",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:44:16.366675",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: CopSens: Copula-Based Sensitivity Analysis for Observational Causal Inference\n\nABSTRACT: 无摘要",
+    "real_title": "CopSens: Copula-Based Sensitivity Analysis for Observational Causal Inference"
+  },
+  "10.1109/icprs66293.2025.11302848": {
+    "type": "doi",
+    "id": "10.1109/icprs66293.2025.11302848",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:44:16.367187",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: X-Flow: Explanation-Augmented prompting for LLM-Based Intrusion Detection\n\nABSTRACT: 无摘要",
+    "real_title": "X-Flow: Explanation-Augmented prompting for LLM-Based Intrusion Detection"
+  },
+  "link_9efd4573a0": {
+    "type": "pdf_link",
+    "id": "link_9efd4573a0",
+    "url": "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:44:16.756766"
+  },
+  "link_d7cc73c9e6": {
+    "type": "pdf_link",
+    "id": "link_d7cc73c9e6",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:44:16.757201"
+  },
+  "link_bd30bfa335": {
+    "type": "pdf_link",
+    "id": "link_bd30bfa335",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:44:16.757632"
+  },
+  "link_cf08a84d2d": {
+    "type": "pdf_link",
+    "id": "link_cf08a84d2d",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1396&context=pomona_theses&amp;rt=News+Media+Sentiment+Toward+Chinese+AI:+a+Comparative+Analysis+with+Belt+and+Road+Initiative+Involvement+and+Public+Opinion+on+China&amp;scisig=AHkA5jRfNIqvMsDRZxgtoiYxwjvH",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:44:16.757982"
+  },
+  "10.2308/tar-2021-0546": {
+    "type": "doi",
+    "id": "10.2308/tar-2021-0546",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:44:46.396591",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Underreporting in Revenue-Sharing Contracts: Evidence from the Chinese Film Industry\n\nABSTRACT: ABSTRACT\n                  Revenue-sharing contracts allow firms that are distant from their target markets to leverage sellers' local expertise. Although these contracts align incentives in operational decisions, they also introduce the potential for sellers to underreport revenues. We analyze film-level box office data from 7,309 Chinese cinemas and find that cinemas report significantly lower revenues for foreign films than for comparable domestic films, consistent with foreign producers being less able to monitor reported revenues due to geographic distance. The underreporting of foreign films is lower in cities with widespread mobile payments, in multi-unit cinemas, and when foreign films have more predictable revenues, suggesting institutional factors that increase detection likelihood can mitigate underreporting. Further tests indicate the lower reported box office revenues of foreign films is not due to government intervention. Our findings provide novel evidence of product-level misreporting under revenue-sharing contracts and offer insights on mitigating these risks in international markets.\n                  Data availability: Data are available via the sources specified in the paper. The authors greatly appreciate the data supplied by EntGroup (http://english.entgroup.com.cn/enbase.html) but are not able to share the data based on the agreement with Entgroup.\n                  JEL Classifications: F00; L82; M40.",
+    "real_title": "Underreporting in Revenue-Sharing Contracts: Evidence from the Chinese Film Industry"
+  },
+  "10.2307/j.ctv2cmrbgg.11": {
+    "type": "doi",
+    "id": "10.2307/j.ctv2cmrbgg.11",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:00.013808",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Glosario\n\nABSTRACT: 无摘要",
+    "real_title": "Glosario"
+  },
+  "link_829cda4a17": {
+    "type": "pdf_link",
+    "id": "link_829cda4a17",
+    "url": "https://centaur.reading.ac.uk/127768/1/Cardillo_thesis.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:32.814298",
+    "local_path": "downloads/link_829cda4a17.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Relationship Between the United States and the Italian Right-Wing During the Nixon Administration (1969-1974)**"
+  },
+  "link_2381bce9c8": {
+    "type": "pdf_link",
+    "id": "link_2381bce9c8",
+    "url": "https://www.researchgate.net/profile/Vicente-Bicudo-De-Castro/publication/398459626_Has_scientific_progress_in_accounting_slowed_down/links/693a228fa1fd01798906d036/Has-scientific-progress-in-accounting-slowed-down.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:45:33.072304"
+  },
+  "link_f60e4f4ea7": {
+    "type": "pdf_link",
+    "id": "link_f60e4f4ea7",
+    "url": "https://www.researchgate.net/profile/Abdulvahap-Akinci/publication/399489348_Transparency_in_Local_Governments_A_Bibliometric_Analysis/links/695d097a7e61d05b53177af1/Transparency-in-Local-Governments-A-Bibliometric-Analysis.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-01-10 15:45:33.072784"
+  },
+  "2601.04580": {
+    "type": "arxiv",
+    "id": "2601.04580",
+    "url": "https://arxiv.org/pdf/2601.04580.pdf",
+    "title": "ArXiv 2601.04580",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.716491"
+  },
+  "2601.04197": {
+    "type": "arxiv",
+    "id": "2601.04197",
+    "url": "https://arxiv.org/pdf/2601.04197.pdf",
+    "title": "ArXiv 2601.04197",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.716980"
+  },
+  "2601.04350": {
+    "type": "arxiv",
+    "id": "2601.04350",
+    "url": "https://arxiv.org/pdf/2601.04350.pdf",
+    "title": "ArXiv 2601.04350",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.717729"
+  },
+  "2601.05004": {
+    "type": "arxiv",
+    "id": "2601.05004",
+    "url": "https://arxiv.org/pdf/2601.05004.pdf",
+    "title": "ArXiv 2601.05004",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.718564"
+  },
+  "2601.04226": {
+    "type": "arxiv",
+    "id": "2601.04226",
+    "url": "https://arxiv.org/pdf/2601.04226.pdf",
+    "title": "ArXiv 2601.04226",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.719005"
+  },
+  "2601.04632": {
+    "type": "arxiv",
+    "id": "2601.04632",
+    "url": "https://arxiv.org/pdf/2601.04632.pdf",
+    "title": "ArXiv 2601.04632",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.719440"
+  },
+  "2601.04925": {
+    "type": "arxiv",
+    "id": "2601.04925",
+    "url": "https://arxiv.org/pdf/2601.04925.pdf",
+    "title": "ArXiv 2601.04925",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.719864"
+  },
+  "2601.04218": {
+    "type": "arxiv",
+    "id": "2601.04218",
+    "url": "https://arxiv.org/pdf/2601.04218.pdf",
+    "title": "ArXiv 2601.04218",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.720369"
+  },
+  "2601.04660": {
+    "type": "arxiv",
+    "id": "2601.04660",
+    "url": "https://arxiv.org/pdf/2601.04660.pdf",
+    "title": "ArXiv 2601.04660",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.721021"
+  },
+  "2601.04597": {
+    "type": "arxiv",
+    "id": "2601.04597",
+    "url": "https://arxiv.org/pdf/2601.04597.pdf",
+    "title": "ArXiv 2601.04597",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.721545"
+  },
+  "2601.04534": {
+    "type": "arxiv",
+    "id": "2601.04534",
+    "url": "https://arxiv.org/pdf/2601.04534.pdf",
+    "title": "ArXiv 2601.04534",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.722021"
+  },
+  "2601.04201": {
+    "type": "arxiv",
+    "id": "2601.04201",
+    "url": "https://arxiv.org/pdf/2601.04201.pdf",
+    "title": "ArXiv 2601.04201",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.722622"
+  },
+  "2601.04207": {
+    "type": "arxiv",
+    "id": "2601.04207",
+    "url": "https://arxiv.org/pdf/2601.04207.pdf",
+    "title": "ArXiv 2601.04207",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.723396"
+  },
+  "2601.04693": {
+    "type": "arxiv",
+    "id": "2601.04693",
+    "url": "https://arxiv.org/pdf/2601.04693.pdf",
+    "title": "ArXiv 2601.04693",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.724123"
+  },
+  "2601.04209": {
+    "type": "arxiv",
+    "id": "2601.04209",
+    "url": "https://arxiv.org/pdf/2601.04209.pdf",
+    "title": "ArXiv 2601.04209",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.724723"
+  },
+  "2601.04958": {
+    "type": "arxiv",
+    "id": "2601.04958",
+    "url": "https://arxiv.org/pdf/2601.04958.pdf",
+    "title": "ArXiv 2601.04958",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.725269"
+  },
+  "2601.04857": {
+    "type": "arxiv",
+    "id": "2601.04857",
+    "url": "https://arxiv.org/pdf/2601.04857.pdf",
+    "title": "ArXiv 2601.04857",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.725790"
+  },
+  "2601.04424": {
+    "type": "arxiv",
+    "id": "2601.04424",
+    "url": "https://arxiv.org/pdf/2601.04424.pdf",
+    "title": "ArXiv 2601.04424",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.726978"
+  },
+  "2601.04768": {
+    "type": "arxiv",
+    "id": "2601.04768",
+    "url": "https://arxiv.org/pdf/2601.04768.pdf",
+    "title": "ArXiv 2601.04768",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.727641"
+  },
+  "2601.05213": {
+    "type": "arxiv",
+    "id": "2601.05213",
+    "url": "https://arxiv.org/pdf/2601.05213.pdf",
+    "title": "ArXiv 2601.05213",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.728204"
+  },
+  "2601.04499": {
+    "type": "arxiv",
+    "id": "2601.04499",
+    "url": "https://arxiv.org/pdf/2601.04499.pdf",
+    "title": "ArXiv 2601.04499",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.728781"
+  },
+  "2601.04625": {
+    "type": "arxiv",
+    "id": "2601.04625",
+    "url": "https://arxiv.org/pdf/2601.04625.pdf",
+    "title": "ArXiv 2601.04625",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.729377"
+  },
+  "2601.04758": {
+    "type": "arxiv",
+    "id": "2601.04758",
+    "url": "https://arxiv.org/pdf/2601.04758.pdf",
+    "title": "ArXiv 2601.04758",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.729997"
+  },
+  "2601.05232": {
+    "type": "arxiv",
+    "id": "2601.05232",
+    "url": "https://arxiv.org/pdf/2601.05232.pdf",
+    "title": "ArXiv 2601.05232",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.730628"
+  },
+  "2601.04246": {
+    "type": "arxiv",
+    "id": "2601.04246",
+    "url": "https://arxiv.org/pdf/2601.04246.pdf",
+    "title": "ArXiv 2601.04246",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.731281"
+  },
+  "2601.05128": {
+    "type": "arxiv",
+    "id": "2601.05128",
+    "url": "https://arxiv.org/pdf/2601.05128.pdf",
+    "title": "ArXiv 2601.05128",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.731915"
+  },
+  "2601.05104": {
+    "type": "arxiv",
+    "id": "2601.05104",
+    "url": "https://arxiv.org/pdf/2601.05104.pdf",
+    "title": "ArXiv 2601.05104",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.732532"
+  },
+  "2601.04205": {
+    "type": "arxiv",
+    "id": "2601.04205",
+    "url": "https://arxiv.org/pdf/2601.04205.pdf",
+    "title": "ArXiv 2601.04205",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.733272"
+  },
+  "2601.04932": {
+    "type": "arxiv",
+    "id": "2601.04932",
+    "url": "https://arxiv.org/pdf/2601.04932.pdf",
+    "title": "ArXiv 2601.04932",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.733829"
+  },
+  "2601.04213": {
+    "type": "arxiv",
+    "id": "2601.04213",
+    "url": "https://arxiv.org/pdf/2601.04213.pdf",
+    "title": "ArXiv 2601.04213",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.734450"
+  },
+  "2601.04216": {
+    "type": "arxiv",
+    "id": "2601.04216",
+    "url": "https://arxiv.org/pdf/2601.04216.pdf",
+    "title": "ArXiv 2601.04216",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.735072"
+  },
+  "2601.04853": {
+    "type": "arxiv",
+    "id": "2601.04853",
+    "url": "https://arxiv.org/pdf/2601.04853.pdf",
+    "title": "ArXiv 2601.04853",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.735951"
+  },
+  "2601.04435": {
+    "type": "arxiv",
+    "id": "2601.04435",
+    "url": "https://arxiv.org/pdf/2601.04435.pdf",
+    "title": "ArXiv 2601.04435",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.736630"
+  },
+  "2601.04373": {
+    "type": "arxiv",
+    "id": "2601.04373",
+    "url": "https://arxiv.org/pdf/2601.04373.pdf",
+    "title": "ArXiv 2601.04373",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.737264"
+  },
+  "2601.05019": {
+    "type": "arxiv",
+    "id": "2601.05019",
+    "url": "https://arxiv.org/pdf/2601.05019.pdf",
+    "title": "ArXiv 2601.05019",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.737961"
+  },
+  "2601.04913": {
+    "type": "arxiv",
+    "id": "2601.04913",
+    "url": "https://arxiv.org/pdf/2601.04913.pdf",
+    "title": "ArXiv 2601.04913",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.738797"
+  },
+  "2601.04906": {
+    "type": "arxiv",
+    "id": "2601.04906",
+    "url": "https://arxiv.org/pdf/2601.04906.pdf",
+    "title": "ArXiv 2601.04906",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.739507"
+  },
+  "2601.04720": {
+    "type": "arxiv",
+    "id": "2601.04720",
+    "url": "https://arxiv.org/pdf/2601.04720.pdf",
+    "title": "ArXiv 2601.04720",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.740180"
+  },
+  "2601.04377": {
+    "type": "arxiv",
+    "id": "2601.04377",
+    "url": "https://arxiv.org/pdf/2601.04377.pdf",
+    "title": "ArXiv 2601.04377",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.740836"
+  },
+  "2601.04223": {
+    "type": "arxiv",
+    "id": "2601.04223",
+    "url": "https://arxiv.org/pdf/2601.04223.pdf",
+    "title": "ArXiv 2601.04223",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.741641"
+  },
+  "2601.04740": {
+    "type": "arxiv",
+    "id": "2601.04740",
+    "url": "https://arxiv.org/pdf/2601.04740.pdf",
+    "title": "ArXiv 2601.04740",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.742358"
+  },
+  "2601.04820": {
+    "type": "arxiv",
+    "id": "2601.04820",
+    "url": "https://arxiv.org/pdf/2601.04820.pdf",
+    "title": "ArXiv 2601.04820",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.743124"
+  },
+  "2601.04700": {
+    "type": "arxiv",
+    "id": "2601.04700",
+    "url": "https://arxiv.org/pdf/2601.04700.pdf",
+    "title": "ArXiv 2601.04700",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.743809"
+  },
+  "2601.04195": {
+    "type": "arxiv",
+    "id": "2601.04195",
+    "url": "https://arxiv.org/pdf/2601.04195.pdf",
+    "title": "ArXiv 2601.04195",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.745067"
+  },
+  "2601.05206": {
+    "type": "arxiv",
+    "id": "2601.05206",
+    "url": "https://arxiv.org/pdf/2601.05206.pdf",
+    "title": "ArXiv 2601.05206",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.745989"
+  },
+  "2601.04278": {
+    "type": "arxiv",
+    "id": "2601.04278",
+    "url": "https://arxiv.org/pdf/2601.04278.pdf",
+    "title": "ArXiv 2601.04278",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.746786"
+  },
+  "2601.05091": {
+    "type": "arxiv",
+    "id": "2601.05091",
+    "url": "https://arxiv.org/pdf/2601.05091.pdf",
+    "title": "ArXiv 2601.05091",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.747562"
+  },
+  "2601.04211": {
+    "type": "arxiv",
+    "id": "2601.04211",
+    "url": "https://arxiv.org/pdf/2601.04211.pdf",
+    "title": "ArXiv 2601.04211",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.748334"
+  },
+  "2601.04833": {
+    "type": "arxiv",
+    "id": "2601.04833",
+    "url": "https://arxiv.org/pdf/2601.04833.pdf",
+    "title": "ArXiv 2601.04833",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.749090"
+  },
+  "2601.04217": {
+    "type": "arxiv",
+    "id": "2601.04217",
+    "url": "https://arxiv.org/pdf/2601.04217.pdf",
+    "title": "ArXiv 2601.04217",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:48.749950"
+  },
+  "link_7781f58d8a": {
+    "type": "pdf_link",
+    "id": "link_7781f58d8a",
+    "url": "https://link.springer.com/content/pdf/10.1007/979-8-8688-2232-2.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:52.717317"
+  },
+  "link_41483b84fe": {
+    "type": "pdf_link",
+    "id": "link_41483b84fe",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-08996-0.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-10 15:45:52.966414"
+  }
+}
