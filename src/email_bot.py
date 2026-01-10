@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 # --- 全局变量 ---
 LLM_API_KEY = os.environ.get("LLM_API_KEY")
-LLM_BASE_URL = "[https://api.siliconflow.cn/v1](https://api.siliconflow.cn/v1)"
+LLM_BASE_URL = "https://api.siliconflow.cn/v1"
 LLM_MODEL_NAME = os.environ.get("LLM_MODEL_NAME", "deepseek-ai/DeepSeek-R1-distill-llama-70b")
 EMAIL_USER = os.environ.get("EMAIL_USER")
 EMAIL_PASS = os.environ.get("EMAIL_PASS")
@@ -73,17 +73,18 @@ def clean_google_url(url):
 
 # --- 启动自检 ---
 def startup_check():
-    logger.info("🔧 正在执行启动自检...")
+    logger.info("🔧 执行启动自检...")
     try:
-        # 验证正则 (确保字符串完整)
-        test_str = "Test 
+        # 1. 验证正则 (使用拼接字符串防止截断)
+        tag_part = "
 
 [Image of Graph]
 "
+        test_str = "Test " + tag_part
         re.sub(r'\]+)\]', 'IMG', test_str)
         
-        # 验证 URL 清洗
-        test_url = "[https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf](https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf)"
+        # 2. 验证 URL 清洗
+        test_url = "https://www.google.com/url?q=https://arxiv.org/pdf/1.pdf"
         if "arxiv.org" not in clean_google_url(test_url):
             raise ValueError("URL清洗失败")
             
@@ -103,13 +104,16 @@ class PaperDB:
             try:
                 with open(self.filepath, 'r', encoding='utf-8') as f:
                     content = json.load(f)
+                    
+                    # 🟢 自动修复 List -> Dict
                     if isinstance(content, list):
-                        logger.warning("⚠️ 迁移数据库格式 List -> Dict")
+                        logger.warning("⚠️ 迁移旧版数据库格式...")
                         new_data = {}
                         for item in content:
                             if isinstance(item, dict) and 'id' in item:
                                 new_data[item['id']] = item
                         return new_data
+                    
                     if isinstance(content, dict): return content
             except Exception as e:
                 logger.error(f"加载数据库失败: {e}")
@@ -202,7 +206,7 @@ def search_doi(title):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=4, max=10))
 def get_oa_link(doi):
-    r = requests.get(f"[https://api.unpaywall.org/v2/](https://api.unpaywall.org/v2/){doi}?email=bot@example.com", timeout=10)
+    r = requests.get(f"https://api.unpaywall.org/v2/{doi}?email=bot@example.com", timeout=10)
     if r.status_code == 200:
         d = r.json()
         if d.get('is_oa') and d.get('best_oa_location'): return d['best_oa_location']['url_for_pdf']
@@ -239,11 +243,13 @@ def detect_sources(text, urls):
     srcs = []
     seen = set()
     
+    # ArXiv
     for m in re.finditer(r"(?:arXiv:|arxiv\.org/abs/|arxiv\.org/pdf/)\s*(\d{4}\.\d{4,5})", text, re.I):
         if m.group(1) not in seen:
-            srcs.append({"type": "arxiv", "id": m.group(1), "url": f"[https://arxiv.org/pdf/](https://arxiv.org/pdf/){m.group(1)}.pdf"})
+            srcs.append({"type": "arxiv", "id": m.group(1), "url": f"https://arxiv.org/pdf/{m.group(1)}.pdf"})
             seen.add(m.group(1))
             
+    # DOI
     for m in re.finditer(r"(?:doi:|doi\.org/)\s*(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", text, re.I):
         doi = m.group(1)
         if doi not in seen:
@@ -252,6 +258,7 @@ def detect_sources(text, urls):
             srcs.append({"type": "doi", "id": doi, "url": link})
             seen.add(doi)
             
+    # Links
     for link in urls:
         try:
             clink = clean_google_url(link)
@@ -318,7 +325,6 @@ def fetch_abstract(item):
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
 def analyze(txt, ctype):
-    # 🟢 强化 Prompt: 明确禁止 Markdown 代码块，强制格式
     sys_prompt = "You are a research assistant. Analyze the paper in Chinese."
     user_prompt = f"""
     Strictly follow this format (no markdown code blocks):
@@ -328,7 +334,7 @@ def analyze(txt, ctype):
     
     Task:
     1. Extract the English Title on the first line.
-    2. Deeply analyze background, methods, and conclusions in Chinese.
+    2. Analyze background, methods, and conclusions in Chinese.
     
     Type: {ctype}
     Content: {txt[:40000]}
@@ -339,20 +345,14 @@ def analyze(txt, ctype):
         temperature=0.3
     )
     raw = res.choices[0].message.content.strip()
-    
-    # 🟢 暴力清洗：移除所有 Markdown 代码块符号
     clean_raw = raw.replace("```markdown", "").replace("```", "").strip()
     
     title = "Unknown"
     body = clean_raw
-    
-    # 🟢 宽松正则：只要有 TITLE: 就抓取，不强制在开头
     m = re.search(r"TITLE:\s*(.*)", clean_raw, re.I)
     if m:
         title = m.group(1).strip()
-        # 移除标题行，保留剩余部分作为正文
         body = clean_raw.replace(m.group(0), "").strip()
-        
     return title, body
 
 def send_mail(subj, md_body, files=[]):
@@ -400,7 +400,7 @@ def run():
     os.makedirs(DATA_DIR, exist_ok=True)
     
     db = PaperDB(DB_FILE)
-    logger.info(f"📚 数据库: {len(db.data)} 条")
+    logger.info(f"📚 数据库: {type(db.data)}, {len(db.data)} 条")
 
     # 1. 扫描
     try:
@@ -483,24 +483,20 @@ def run():
         
         try:
             rt, ans = analyze(txt, ctype)
-            
-            # 🟢 标题保底策略：如果LLM提取失败，尝试使用数据库里的标题
-            display_title = rt
-            if "Unknown" in rt or not rt:
-                display_title = item.get('title', 'Unknown Title')
-                
-            tt = translate_title(display_title) or "翻译失败"
+            # 标题保底
+            disp_title = rt if ("Unknown" not in rt and rt) else item.get('title', 'Unknown')
+            tt = translate_title(disp_title) or "翻译失败"
             badge = " (仅摘要)" if ctype == "ABSTRACT_ONLY" else ""
             
             card = f"""
             <div style="border:1px solid #ddd;padding:15px;margin-bottom:20px;border-radius:8px">
-                <h3 style="color:#2c3e50;border-bottom:2px solid #3498db;padding-bottom:10px">{display_title}{badge}</h3>
+                <h3 style="color:#2c3e50;border-bottom:2px solid #3498db;padding-bottom:10px">{disp_title}{badge}</h3>
                 <div style="background:#f8f9fa;padding:10px;margin:10px 0;border-left:4px solid #3498db"><strong>{tt}</strong></div>
                 <div>{ans}</div>
             </div>
             """
             reports.append(card)
-            db.update_status(pid, "ANALYZED", {"real_title": display_title, "trans_title": tt})
+            db.update_status(pid, "ANALYZED", {"real_title": disp_title, "trans_title": tt})
         except Exception as e:
             logger.error(f"分析失败: {e}")
             db.inc_retry(pid)
@@ -509,7 +505,6 @@ def run():
     # 4. 发送
     if reports:
         body = "\n".join(reports)
-        # 分卷发送
         zips = []
         cz, csz = [], 0
         for f in atts:
