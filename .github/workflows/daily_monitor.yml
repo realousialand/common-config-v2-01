@@ -17,17 +17,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 终极方案：使用 Launchpad 永久静态链接安装 openresolv
-      # 这个链接指向的是 Ubuntu 22.04 的官方存档文件，绝对不会变
+      # 🟢 终极方案：使用 Debian Stable 源 (Bookworm)
+      # Debian Stable 的包链接有效期长达数年，极度稳定
       - name: Install dependencies for WARP
         run: |
-          # 1. 下载永久存档包
-          wget http://launchpadlibrarian.net/513689404/openresolv_3.12.0-1_all.deb
+          # 下载 Debian 12 (Bookworm) 的 openresolv 包
+          wget http://ftp.debian.org/debian/pool/main/o/openresolv/openresolv_3.12.0-3_all.deb
           
-          # 2. 强行安装
-          sudo dpkg -i openresolv_3.12.0-1_all.deb
+          # 强行安装
+          sudo dpkg -i openresolv_3.12.0-3_all.deb
           
-          # 3. 修复依赖（防止有其他缺漏）
+          # 修复依赖
           sudo apt-get install -f -y
 
       # 🟢 启动 Cloudflare WARP
