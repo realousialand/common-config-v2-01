@@ -11,27 +11,30 @@ permissions:
 
 jobs:
   scan_and_report:
-    runs-on: ubuntu-latest  # 既然切不回去，就保持 latest (24.04)
+    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 🟢 关键修复：手动强行安装被 Ubuntu 24.04 移除的 openresolv
+      # 🟢 修复 404：改用 Debian 稳定源下载 openresolv
       - name: Install dependencies for WARP
         run: |
           sudo apt-get update
-          # 从 Ubuntu 22.04 的仓库手动下载 openresolv
-          wget http://archive.ubuntu.com/ubuntu/pool/universe/o/openresolv/openresolv_3.12.0-1_all.deb
+          # 使用 Debian 官方源，这个版本号 (3.13.2) 非常稳定
+          wget http://ftp.debian.org/debian/pool/main/o/openresolv/openresolv_3.13.2-1_all.deb
           # 强行安装
-          sudo dpkg -i openresolv_3.12.0-1_all.deb
+          sudo dpkg -i openresolv_3.13.2-1_all.deb
+          # 修复可能存在的依赖关系
+          sudo apt-get install -f -y
 
-      # 🟢 启动 Cloudflare WARP (现在应该能跑通了)
+      # 🟢 启动 Cloudflare WARP
       - name: Set up Cloudflare WARP
         uses: fscarmen/warp-on-actions@v1.3
         with:
           stack: dual
 
+      # 验证 IP 是否改变 (显示为 Cloudflare IP 即成功)
       - name: Check New IP
         run: |
           echo "Current IP Info:"
