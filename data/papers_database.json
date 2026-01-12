@@ -1010,44 +1010,60 @@
     "id": "10.1093/hepl/9780192846051.003.0026",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.244873"
+    "ts": "2026-01-10 16:31:57.244873",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Introduction to comparative politics\n\nABSTRACT: This text provides a comprehensive introduction to comparative politics. Comparative politics is an empirical science that deals primarily with domestic politics. It is one of the three main subfields of political science, alongside international relations, and political theory. Comparative politics has three goals: to describe differences and similarities between political systems and their features; to explain these differences; and to predict which factors may cause specific outcomes. This edition compares the most important features of national political systems and contains chapters on integration, globalization, and promotion of democracy in non-Western parts of the world. This introductory chapter explains what comparative politics is, and discusses its substance as well as method.",
+    "real_title": "Introduction to comparative politics"
   },
   "10.4324/9781315446486-15": {
     "type": "doi",
     "id": "10.4324/9781315446486-15",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.245962"
+    "ts": "2026-01-10 16:31:57.245962",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Feminist International Political Sociology – International Political Sociology Feminism\n\nABSTRACT: 无摘要",
+    "real_title": "Feminist International Political Sociology – International Political Sociology Feminism"
   },
   "10.1001/jamanetworkopen.2025.53241": {
     "type": "doi",
     "id": "10.1001/jamanetworkopen.2025.53241",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-12 11:54:39.853942"
+    "ts": "2026-01-12 11:54:39.853942",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Sponsorship and Career Advancement for Asian Medical Faculty\n\nABSTRACT: \n                    Importance\n                    Asian faculty members remain underrepresented in leadership positions within academic medicine, despite comprising a substantial proportion of the workforce. The structural and cultural factors associated with the slower advancement remain underexplored in empirical literature and institutional policy.\n                  \n                  \n                    Objectives\n                    To examine the barriers to career advancement among Asian faculty members, assess perceptions and understanding of sponsorship, and identify institutional strategies to promote broader access to sponsorship opportunities and leadership development.\n                  \n                  \n                    Design, Setting, and Participants\n                    This qualitative study employed 5 focus groups conducted between January 18 and July 17, 2024, supplemented by real-time polling before and after an educational intervention. Thematic analysis of transcripts was used to identify common barriers and recommendations, with poll data providing a descriptive context. In a single, large private nonprofit and research intensive academic medical center in the northeastern United States, self-identified Asian or Asian American midlevel faculty members at the associate professor level participated. Participants were recruited via institutional office outreach, and responses from all recruited participants were included in the study. Data were analyzed from July 25 to September 24, 2024.\n                  \n                  \n                    Exposure\n                    An educational session distinguishing sponsorship from mentorship, followed by a facilitated group discussion and anonymous survey participation using the Poll Everywhere platform.\n                  \n                  \n                    Main Outcomes and Measures\n                    Primary outcomes included changes in participants’ self-reported understanding of sponsorship and identification of perceived personal, institutional, and departmental barriers to career advancement. Thematic categories were derived from focus group transcripts and corroborated with quantitative poll responses.\n                  \n                  \n                    Results\n                    Of the 32 participants who completed the survey, 18 (56.3%) initially believed that they had a sponsor; after the intervention, this percentage decreased to 37.5% (12 of 32) once sponsorship was more clearly defined. The participation rate was 93.7% (30 of 32) among those who joined the focus groups. Reported barriers included cultural norms discouraging self-promotion, limited access to decision-makers, intersectional identity challenges, and perceptions of institutional opacity and favoritism. Faculty emphasized the value of transparent nomination processes, intentional sponsor training, and relationship-centered sponsorship models.\n                  \n                  \n                    Conclusions and Relevance\n                    In this qualitative study of midlevel Asian faculty members, participants faced persistent, multifactorial barriers to leadership in academic medicine, amplified by cultural values and institutional norms. Institutions must formalize sponsorship programs, ensure transparent advancement pathways, and foster culturally informed leadership development. Doing so may meaningfully advance deserving Asian faculty members and diversify academic medicine’s leadership pipeline.\n                  ",
+    "real_title": "Sponsorship and Career Advancement for Asian Medical Faculty"
   },
   "10.36956/rwae.v7i1.2502": {
     "type": "doi",
     "id": "10.36956/rwae.v7i1.2502",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-12 11:55:03.530172"
+    "ts": "2026-01-12 11:55:03.530172",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Sustainability and Agriculture 5.0 in Practice: Reformulating Agricultural Accounting Standards through the Ecological Fair Value Model\n\nABSTRACT: Agricultural accounting faces unprecedented challenges in light of ecological crises and the digital transformation of Agriculture 5.0. This study critically analyzes the limitations of  NCRF 17 (Portuguese Accounting Standard for Agriculture) and IAS 41 (International Accounting Standard for Agriculture), particularly their inability to integrate environmental externalities and hybrid activities into financial reporting. NCRF 17 and IAS 41 define fair value rules for biological assets but do not account for ecological externalities or hybrid assets, a gap this study addresses. Based on theoretical frameworks such as natural capital theory, critical environmental accounting, and integrated reporting, this research advocates for reforming traditional accounting models. It proposes alternatives that incorporate ecological performance indicators, such as carbon capture, biodiversity conservation, and soil regeneration, into the valuation of biological assets. Through a normative-documentary approach, it demonstrates how emerging technologies (e.g., IoT, drones, AI) can generate traceable and auditable environmental data, promoting a more transparent and sustainability-oriented financial reporting model. This article presents practical models and examines the institutional conditions required to integrate ecological value into agricultural accounting, thereby contributing to the redefinition of accounting's environmental and social roles.",
+    "real_title": "Sustainability and Agriculture 5.0 in Practice: Reformulating Agricultural Accounting Standards through the Ecological Fair Value Model"
   },
   "link_ec44d9b7dc": {
     "type": "pdf_link",
     "id": "link_ec44d9b7dc",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-12 11:55:03.929680"
   },
   "link_79d94e0984": {
@@ -1055,8 +1071,8 @@
     "id": "link_79d94e0984",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-12 11:55:03.930938"
   },
   "link_a969289e18": {
@@ -1064,8 +1080,8 @@
     "id": "link_a969289e18",
     "url": "https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-12 11:55:03.932213"
   },
   "link_cf7d58d4e0": {
@@ -1073,8 +1089,47 @@
     "id": "link_cf7d58d4e0",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-12 11:55:03.933501"
+  },
+  "10.21428/99608f92": {
+    "type": "doi",
+    "id": "10.21428/99608f92",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-12 23:23:42.266416",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Harvard Data Science Review\n\nABSTRACT: 无摘要",
+    "real_title": "Harvard Data Science Review"
+  },
+  "10.1162/99608f92.1af82b35": {
+    "type": "doi",
+    "id": "10.1162/99608f92.1af82b35",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-12 23:23:42.268242",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: On the Formal Privacy Guarantees of Synthetic Data (Generated Without Formal Privacy Guarantees)\n\nABSTRACT: 无摘要",
+    "real_title": "On the Formal Privacy Guarantees of Synthetic Data (Generated Without Formal Privacy Guarantees)"
+  },
+  "link_662d1d59f1": {
+    "type": "pdf_link",
+    "id": "link_662d1d59f1",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD155164DAB5EE32C769D1726D16A6B9/S1833367225100722a.pdf/pay-satisfaction-bibliometric-research-and-its-implications.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-12 23:23:42.793195",
+    "local_path": "downloads/link_662d1d59f1.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Pay satisfaction bibliometric research and its implications"
   }
 }
