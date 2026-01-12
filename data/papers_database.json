@@ -750,180 +750,260 @@
     "id": "2601.04740",
     "url": "https://arxiv.org/pdf/2601.04740.pdf",
     "title": "ArXiv 2601.04740",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.742358"
+    "ts": "2026-01-10 15:45:48.742358",
+    "local_path": "downloads/2601.04740.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** RiskAtlas: Exposing Domain-Specific Risks in LLMs through Knowledge-Graph-Guided Harmful Prompt Generation"
   },
   "2601.04820": {
     "type": "arxiv",
     "id": "2601.04820",
     "url": "https://arxiv.org/pdf/2601.04820.pdf",
     "title": "ArXiv 2601.04820",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.743124"
+    "ts": "2026-01-10 15:45:48.743124",
+    "local_path": "downloads/2601.04820.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "LGTD: Local–Global Trend Decomposition for Season-Length–Free Time Series Analysis**"
   },
   "2601.04700": {
     "type": "arxiv",
     "id": "2601.04700",
     "url": "https://arxiv.org/pdf/2601.04700.pdf",
     "title": "ArXiv 2601.04700",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.743809"
+    "ts": "2026-01-10 15:45:48.743809",
+    "local_path": "downloads/2601.04700.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PRISM: A Unified Framework for Post-Training LLMs Without Verifiable Rewards"
   },
   "2601.04195": {
     "type": "arxiv",
     "id": "2601.04195",
     "url": "https://arxiv.org/pdf/2601.04195.pdf",
     "title": "ArXiv 2601.04195",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.745067"
+    "ts": "2026-01-10 15:45:48.745067",
+    "local_path": "downloads/2601.04195.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** EVALUATING AI SYSTEMS IN MEDICAL PATIENT FACING INTERACTIONS"
   },
   "2601.05206": {
     "type": "arxiv",
     "id": "2601.05206",
     "url": "https://arxiv.org/pdf/2601.05206.pdf",
     "title": "ArXiv 2601.05206",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.745989"
+    "ts": "2026-01-10 15:45:48.745989",
+    "local_path": "downloads/2601.05206.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Confidence and Organizations"
   },
   "2601.04278": {
     "type": "arxiv",
     "id": "2601.04278",
     "url": "https://arxiv.org/pdf/2601.04278.pdf",
     "title": "ArXiv 2601.04278",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.746786"
+    "ts": "2026-01-10 15:45:48.746786",
+    "local_path": "downloads/2601.04278.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning"
   },
   "2601.05091": {
     "type": "arxiv",
     "id": "2601.05091",
     "url": "https://arxiv.org/pdf/2601.05091.pdf",
     "title": "ArXiv 2601.05091",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.747562"
+    "ts": "2026-01-10 15:45:48.747562",
+    "local_path": "downloads/2601.05091.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Code-Mix Sentiment Analysis on Hinglish Tweets"
   },
   "2601.04211": {
     "type": "arxiv",
     "id": "2601.04211",
     "url": "https://arxiv.org/pdf/2601.04211.pdf",
     "title": "ArXiv 2601.04211",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.748334"
+    "ts": "2026-01-10 15:45:48.748334",
+    "local_path": "downloads/2601.04211.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Qwerty AI: Explainable Automated Age Rating and Content Safety Assessment for Russian-Language Screenplays"
   },
   "2601.04833": {
     "type": "arxiv",
     "id": "2601.04833",
     "url": "https://arxiv.org/pdf/2601.04833.pdf",
     "title": "ArXiv 2601.04833",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.749090"
+    "ts": "2026-01-10 15:45:48.749090",
+    "local_path": "downloads/2601.04833.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When AI Settles Down: Late-Stage Stability as a Signature of AI-Generated Text Detection**"
   },
   "2601.04217": {
     "type": "arxiv",
     "id": "2601.04217",
     "url": "https://arxiv.org/pdf/2601.04217.pdf",
     "title": "ArXiv 2601.04217",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.749950"
+    "ts": "2026-01-10 15:45:48.749950",
+    "local_path": "downloads/2601.04217.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.04217"
   },
   "link_7781f58d8a": {
     "type": "pdf_link",
     "id": "link_7781f58d8a",
     "url": "https://link.springer.com/content/pdf/10.1007/979-8-8688-2232-2.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:52.717317"
+    "ts": "2026-01-10 15:45:52.717317",
+    "local_path": "downloads/link_7781f58d8a.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Human Capital Supply Chain in the Age of AI"
   },
   "link_41483b84fe": {
     "type": "pdf_link",
     "id": "link_41483b84fe",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-08996-0.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:52.966414"
+    "ts": "2026-01-10 15:45:52.966414",
+    "local_path": "downloads/link_41483b84fe.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Business Guides on the Go"
   },
   "10.1007/s00180-012-0375-4": {
     "type": "doi",
     "id": "10.1007/s00180-012-0375-4",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:29:20.453025"
+    "ts": "2026-01-10 16:29:20.453025",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Reducing bias of the maximum likelihood estimator of shape parameter for the gamma Distribution\n\nABSTRACT: 无摘要",
+    "real_title": "Reducing bias of the maximum likelihood estimator of shape parameter for the gamma Distribution"
   },
   "10.22541/au.174949155.52667340/v1": {
     "type": "doi",
     "id": "10.22541/au.174949155.52667340/v1",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:29:20.454271"
+    "ts": "2026-01-10 16:29:20.454271",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Enhanced Feedback Analysis Using Named Entity Recognition, Quintuple Extraction, Comparative Opinion Analysis and Coreference Resolution\n\nABSTRACT: 无摘要",
+    "real_title": "Enhanced Feedback Analysis Using Named Entity Recognition, Quintuple Extraction, Comparative Opinion Analysis and Coreference Resolution"
   },
   "10.1093/hepl/9780198737421.001.0001": {
     "type": "doi",
     "id": "10.1093/hepl/9780198737421.001.0001",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.238421"
+    "ts": "2026-01-10 16:31:57.238421",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Comparative Politics\n\nABSTRACT: Comparative Politics provides an introduction to the field. It includes three chapters dedicated to familiarizing readers with the comparative approach. It then guides readers through a thematically-organized, comprehensive analysis of the core methods, theories, and concepts in comparative politics. Empirical data is drawn on to demonstrate key similarities and differences of political systems in practice. Increased focus is given to the Global South and its path towards democratization. At the end of each chapter there are questions designed to encourage critical thinking. The six sections of the work deal with: theories and methods; the historical context; structures and institutions; actors and processes; public policies; and beyond the nation-state.",
+    "real_title": "Comparative Politics"
   },
   "10.4159/9780674970342-001": {
     "type": "doi",
     "id": "10.4159/9780674970342-001",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.239757"
+    "ts": "2026-01-10 16:31:57.239757",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: 1. Political Political Theory\n\nABSTRACT: 无摘要",
+    "real_title": "1. Political Political Theory"
   },
   "10.1155/2017/8094152": {
     "type": "doi",
     "id": "10.1155/2017/8094152",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.240745"
+    "ts": "2026-01-10 16:31:57.240745",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Collagen Sponge Functionalized with Chimeric Anti-BMP-2 Monoclonal Antibody Mediates Repair of Critical-Size Mandibular Continuity Defects in a Nonhuman Primate Model\n\nABSTRACT: \n                    Antibody-mediated osseous regeneration (AMOR) has been introduced by our research group as a tissue engineering approach to capture of endogenous growth factors through the application of specific monoclonal antibodies (mAbs) immobilized on a scaffold. Specifically, anti-Bone Morphogenetic Protein- (BMP-) 2 mAbs have been demonstrated to be efficacious in mediating bone repair in a number of bone defects. The present study sought to investigate the application of AMOR for repair of mandibular continuity defect in nonhuman primates. Critical-sized mandibular continuity defects were created in\n                    Macaca fascicularis\n                    locally implanted with absorbable collagen sponges (ACS) functionalized with chimeric anti-BMP-2 mAb or isotype control mAb. 2D and 3D analysis of cone beam computed tomography (CBCT) imaging demonstrated increased bone density and volume observed within mandibular continuity defects implanted with collagen scaffolds functionalized with anti-BMP-2 mAb, compared with isotype-matched control mAb. Both CBCT imaging and histologic examination demonstrated de novo bone formation that was in direct apposition to the margins of the resected bone. It is hypothesized that bone injury may be necessary for AMOR. This is evidenced by de novo bone formation adjacent to resected bone margins, which may be the source of endogenous BMPs captured by anti-BMP-2 mAb, in turn mediating bone repair.\n                  ",
+    "real_title": "Collagen Sponge Functionalized with Chimeric Anti-BMP-2 Monoclonal Antibody Mediates Repair of Critical-Size Mandibular Continuity Defects in a Nonhuman Primate Model"
   },
   "10.1007/978-1-4614-6723-6_1": {
     "type": "doi",
     "id": "10.1007/978-1-4614-6723-6_1",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.241742"
+    "ts": "2026-01-10 16:31:57.241742",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Environmental Policy is Social Policy – Social Policy is Environmental Policy\n\nABSTRACT: 无摘要",
+    "real_title": "Environmental Policy is Social Policy – Social Policy is Environmental Policy"
   },
   "10.23943/princeton/9780691150734.003.0006": {
     "type": "doi",
     "id": "10.23943/princeton/9780691150734.003.0006",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.242782"
+    "ts": "2026-01-10 16:31:57.242782",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: What Political Science Can Learn from the New Political History\n\nABSTRACT: This chapter considers the contributions that the new political history can make to the field of political science. It first examines how political historians have revitalized their field in recent years before discussing three particular aspects of the literature that are essential for beginning an interdisciplinary dialogue between political history and political science: research on the motivations behind the rise of American conservatism, the discovery of the nineteenth-century state, and arguments about the particularities of public policy. The chapter also explores some key issues that need to addressed so that historians can connect with political scientists, such as the history of political economy or the history of liberalism.",
+    "real_title": "What Political Science Can Learn from the New Political History"
   },
   "10.1007/978-1-137-40600-2_2": {
     "type": "doi",
     "id": "10.1007/978-1-137-40600-2_2",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 16:31:57.243907"
+    "ts": "2026-01-10 16:31:57.243907",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Comparative Political Economy: Lineages from Classical Political Economy, Linkages to International Political Economy\n\nABSTRACT: 无摘要",
+    "real_title": "Comparative Political Economy: Lineages from Classical Political Economy, Linkages to International Political Economy"
   },
   "10.1093/hepl/9780192846051.003.0026": {
     "type": "doi",
