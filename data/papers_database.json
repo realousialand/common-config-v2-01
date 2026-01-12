@@ -490,180 +490,260 @@
     "id": "2601.04499",
     "url": "https://arxiv.org/pdf/2601.04499.pdf",
     "title": "ArXiv 2601.04499",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.728781"
+    "ts": "2026-01-10 15:45:48.728781",
+    "local_path": "downloads/2601.04499.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Generalized Adaptive Joint Learning Framework for High-Dimensional Time-Varying Models"
   },
   "2601.04625": {
     "type": "arxiv",
     "id": "2601.04625",
     "url": "https://arxiv.org/pdf/2601.04625.pdf",
     "title": "ArXiv 2601.04625",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.729377"
+    "ts": "2026-01-10 15:45:48.729377",
+    "local_path": "downloads/2601.04625.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** BAYESIAN NONPARAMETRIC MODELING OF DYNAMIC POLLUTION CLUSTERS THROUGH AN AUTOREGRESSIVE LOGISTIC-BETA STIRLING-GAMMA PROCESS"
   },
   "2601.04758": {
     "type": "arxiv",
     "id": "2601.04758",
     "url": "https://arxiv.org/pdf/2601.04758.pdf",
     "title": "ArXiv 2601.04758",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.729997"
+    "ts": "2026-01-10 15:45:48.729997",
+    "local_path": "downloads/2601.04758.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PILOT-Bench: A Benchmark for Legal Reasoning in the Patent Domain with IRAC-Aligned Classification Tasks"
   },
   "2601.05232": {
     "type": "arxiv",
     "id": "2601.05232",
     "url": "https://arxiv.org/pdf/2601.05232.pdf",
     "title": "ArXiv 2601.05232",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.730628"
+    "ts": "2026-01-10 15:45:48.730628",
+    "local_path": "downloads/2601.05232.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Measuring and Fostering Peace through Machine Learning and Artificial Intelligence**"
   },
   "2601.04246": {
     "type": "arxiv",
     "id": "2601.04246",
     "url": "https://arxiv.org/pdf/2601.04246.pdf",
     "title": "ArXiv 2601.04246",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.731281"
+    "ts": "2026-01-10 15:45:48.731281",
+    "local_path": "downloads/2601.04246.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Technology Adoption and Network Externalities in Financial Systems: A Spatial-Network Approach"
   },
   "2601.05128": {
     "type": "arxiv",
     "id": "2601.05128",
     "url": "https://arxiv.org/pdf/2601.05128.pdf",
     "title": "ArXiv 2601.05128",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.731915"
+    "ts": "2026-01-10 15:45:48.731915",
+    "local_path": "downloads/2601.05128.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** revealing the truth: calculating true values in causal inference simulation studies via gaussian quadrature"
   },
   "2601.05104": {
     "type": "arxiv",
     "id": "2601.05104",
     "url": "https://arxiv.org/pdf/2601.05104.pdf",
     "title": "ArXiv 2601.05104",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.732532"
+    "ts": "2026-01-10 15:45:48.732532",
+    "local_path": "downloads/2601.05104.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05104"
   },
   "2601.04205": {
     "type": "arxiv",
     "id": "2601.04205",
     "url": "https://arxiv.org/pdf/2601.04205.pdf",
     "title": "ArXiv 2601.04205",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.733272"
+    "ts": "2026-01-10 15:45:48.733272",
+    "local_path": "downloads/2601.04205.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** STDD: Spatio-Temporal Dynamics-Driven Token Refinement in Diffusion Language Models"
   },
   "2601.04932": {
     "type": "arxiv",
     "id": "2601.04932",
     "url": "https://arxiv.org/pdf/2601.04932.pdf",
     "title": "ArXiv 2601.04932",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.733829"
+    "ts": "2026-01-10 15:45:48.733829",
+    "local_path": "downloads/2601.04932.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** GenProve: Learning to Generate Text with Fine-Grained Provenance"
   },
   "2601.04213": {
     "type": "arxiv",
     "id": "2601.04213",
     "url": "https://arxiv.org/pdf/2601.04213.pdf",
     "title": "ArXiv 2601.04213",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.734450"
+    "ts": "2026-01-10 15:45:48.734450",
+    "local_path": "downloads/2601.04213.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A NIMATED LLM: Explaining LLMs with Interactive Visualizations"
   },
   "2601.04216": {
     "type": "arxiv",
     "id": "2601.04216",
     "url": "https://arxiv.org/pdf/2601.04216.pdf",
     "title": "ArXiv 2601.04216",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.735072"
+    "ts": "2026-01-10 15:45:48.735072",
+    "local_path": "downloads/2601.04216.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Computable Gap Assessment of Artificial Intelligence Governance in Children's Centres:Evidence-Mechanism-Governance-Indicator Modelling of UNICEF's Guidance on AI and Children 3.0 Based on the Graph-GAP Framework**"
   },
   "2601.04853": {
     "type": "arxiv",
     "id": "2601.04853",
     "url": "https://arxiv.org/pdf/2601.04853.pdf",
     "title": "ArXiv 2601.04853",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.735951"
+    "ts": "2026-01-10 15:45:48.735951",
+    "local_path": "downloads/2601.04853.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection"
   },
   "2601.04435": {
     "type": "arxiv",
     "id": "2601.04435",
     "url": "https://arxiv.org/pdf/2601.04435.pdf",
     "title": "ArXiv 2601.04435",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.736630"
+    "ts": "2026-01-10 15:45:48.736630",
+    "local_path": "downloads/2601.04435.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Accommodation and Epistemic Vigilance: A Pragmatic Account of Why LLMs Fail to Challenge Harmful Beliefs**"
   },
   "2601.04373": {
     "type": "arxiv",
     "id": "2601.04373",
     "url": "https://arxiv.org/pdf/2601.04373.pdf",
     "title": "ArXiv 2601.04373",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.737264"
+    "ts": "2026-01-10 15:45:48.737264",
+    "local_path": "downloads/2601.04373.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Dialect Matters: Cross-Lingual ASR Transfer for Low-Resource Indic Language Varieties"
   },
   "2601.05019": {
     "type": "arxiv",
     "id": "2601.05019",
     "url": "https://arxiv.org/pdf/2601.05019.pdf",
     "title": "ArXiv 2601.05019",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.737961"
+    "ts": "2026-01-10 15:45:48.737961",
+    "local_path": "downloads/2601.05019.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Hán D¯an Xué Bù (Mimicry) or Q¯ıng Ch¯u Yú Lán (Mastery)? A Cognitive Perspective on Reasoning Distillation in Large Language Models"
   },
   "2601.04913": {
     "type": "arxiv",
     "id": "2601.04913",
     "url": "https://arxiv.org/pdf/2601.04913.pdf",
     "title": "ArXiv 2601.04913",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.738797"
+    "ts": "2026-01-10 15:45:48.738797",
+    "local_path": "downloads/2601.04913.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bayesian Additive Regression Tree Copula Processes for Scalable Distributional Prediction"
   },
   "2601.04906": {
     "type": "arxiv",
     "id": "2601.04906",
     "url": "https://arxiv.org/pdf/2601.04906.pdf",
     "title": "ArXiv 2601.04906",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.739507"
+    "ts": "2026-01-10 15:45:48.739507",
+    "local_path": "downloads/2601.04906.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Inference for concave distribution functions under measurement error"
   },
   "2601.04720": {
     "type": "arxiv",
     "id": "2601.04720",
     "url": "https://arxiv.org/pdf/2601.04720.pdf",
     "title": "ArXiv 2601.04720",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.740180"
+    "ts": "2026-01-10 15:45:48.740180",
+    "local_path": "downloads/2601.04720.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking"
   },
   "2601.04377": {
     "type": "arxiv",
     "id": "2601.04377",
     "url": "https://arxiv.org/pdf/2601.04377.pdf",
     "title": "ArXiv 2601.04377",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.740836"
+    "ts": "2026-01-10 15:45:48.740836",
+    "local_path": "downloads/2601.04377.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Disco-RAG: Discourse-Aware Retrieval-Augmented Generation"
   },
   "2601.04223": {
     "type": "arxiv",
     "id": "2601.04223",
     "url": "https://arxiv.org/pdf/2601.04223.pdf",
     "title": "ArXiv 2601.04223",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-10 15:45:48.741641"
+    "ts": "2026-01-10 15:45:48.741641",
+    "local_path": "downloads/2601.04223.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond Interaction Effects: Two Logics for Studying Population Inequalities"
   },
   "2601.04740": {
     "type": "arxiv",
@@ -862,5 +942,59 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-10 16:31:57.245962"
+  },
+  "10.1001/jamanetworkopen.2025.53241": {
+    "type": "doi",
+    "id": "10.1001/jamanetworkopen.2025.53241",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:54:39.853942"
+  },
+  "10.36956/rwae.v7i1.2502": {
+    "type": "doi",
+    "id": "10.36956/rwae.v7i1.2502",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:55:03.530172"
+  },
+  "link_ec44d9b7dc": {
+    "type": "pdf_link",
+    "id": "link_ec44d9b7dc",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:55:03.929680"
+  },
+  "link_79d94e0984": {
+    "type": "pdf_link",
+    "id": "link_79d94e0984",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:55:03.930938"
+  },
+  "link_a969289e18": {
+    "type": "pdf_link",
+    "id": "link_a969289e18",
+    "url": "https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:55:03.932213"
+  },
+  "link_cf7d58d4e0": {
+    "type": "pdf_link",
+    "id": "link_cf7d58d4e0",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-12 11:55:03.933501"
   }
 }
