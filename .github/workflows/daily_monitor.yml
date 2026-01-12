@@ -1,4 +1,5 @@
 name: Daily Email Scanner (WARP Enhanced)
+
 on:
   schedule:
     # 北京时间 7, 11, 18, 24 点
@@ -11,7 +12,8 @@ permissions:
 jobs:
   scan_and_report:
     runs-on: ubuntu-22.04
-    timeout-minutes: 30  # 防止任务卡死
+    # 🟢 修改这里：延长到 120 分钟 (2小时)，足够处理大批量论文
+    timeout-minutes: 120
     
     steps:
       - name: Checkout code
@@ -104,7 +106,7 @@ jobs:
           echo "Testing DNS..."
           nslookup google.com || echo "DNS resolution failed"
           
-          # 测试邮件服务器（根据你的实际需求修改）
+          # 测试邮件服务器
           echo ""
           echo "Testing email servers..."
           for host in imap.gmail.com:993 smtp.gmail.com:587 outlook.office365.com:993; do
@@ -154,7 +156,7 @@ jobs:
           python src/email_bot.py
           echo "✅ Email bot completed"
 
-      # 📊 保存运行日志（可选）
+      # 📊 保存运行日志
       - name: Save Run Metadata
         run: |
           mkdir -p logs
@@ -194,17 +196,15 @@ jobs:
             echo "☕ No changes to commit"
           fi
 
-      # 🧹 清理 WARP 连接（可选，节省资源）
+      # 🧹 清理 WARP 连接
       - name: Cleanup WARP
         if: always()
         run: |
           echo "🧹 Cleaning up WARP..."
-          # 尝试断开连接（如果命令存在）
           if command -v warp-cli &> /dev/null; then
             warp-cli disconnect 2>/dev/null || echo "WARP already disconnected"
             warp-cli registration delete 2>/dev/null || echo "Registration cleanup skipped"
           fi
-          # 停止服务
           sudo systemctl stop warp-svc 2>/dev/null || echo "WARP service stopped"
         continue-on-error: true
 
