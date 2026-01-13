@@ -1063,7 +1063,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-12 11:55:03.929680"
   },
   "link_79d94e0984": {
@@ -1072,7 +1072,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-12 11:55:03.930938"
   },
   "link_a969289e18": {
@@ -1081,7 +1081,7 @@
     "url": "https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-12 11:55:03.932213"
   },
   "link_cf7d58d4e0": {
@@ -1090,7 +1090,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-12 11:55:03.933501"
   },
   "10.21428/99608f92": {
@@ -1345,144 +1345,208 @@
     "id": "2601.05859",
     "url": "https://arxiv.org/pdf/2601.05859.pdf",
     "title": "ArXiv 2601.05859",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.127832"
+    "ts": "2026-01-13 04:05:59.127832",
+    "local_path": "downloads/2601.05859.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Neural Methods for Multiple Systems Estimation Models"
   },
   "2601.05776": {
     "type": "arxiv",
     "id": "2601.05776",
     "url": "https://arxiv.org/pdf/2601.05776.pdf",
     "title": "ArXiv 2601.05776",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.129791"
+    "ts": "2026-01-13 04:05:59.129791",
+    "local_path": "downloads/2601.05776.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** One Script Instead of Hundreds? On Pretraining Romanized Encoder Language Models"
   },
   "2601.05864": {
     "type": "arxiv",
     "id": "2601.05864",
     "url": "https://arxiv.org/pdf/2601.05864.pdf",
     "title": "ArXiv 2601.05864",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.131356"
+    "ts": "2026-01-13 04:05:59.131356",
+    "local_path": "downloads/2601.05864.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "What do the metrics mean? A critical analysis of the use of Automated Evaluation Metrics in Interpreting**"
   },
   "2601.05904": {
     "type": "arxiv",
     "id": "2601.05904",
     "url": "https://arxiv.org/pdf/2601.05904.pdf",
     "title": "ArXiv 2601.05904",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.133076"
+    "ts": "2026-01-13 04:05:59.133076",
+    "local_path": "downloads/2601.05904.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Can AI Mediation Improve Democratic Deliberation?"
   },
   "2601.05821": {
     "type": "arxiv",
     "id": "2601.05821",
     "url": "https://arxiv.org/pdf/2601.05821.pdf",
     "title": "ArXiv 2601.05821",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.134744"
+    "ts": "2026-01-13 04:05:59.134744",
+    "local_path": "downloads/2601.05821.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05821"
   },
   "2601.05374": {
     "type": "arxiv",
     "id": "2601.05374",
     "url": "https://arxiv.org/pdf/2601.05374.pdf",
     "title": "ArXiv 2601.05374",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.136475"
+    "ts": "2026-01-13 04:05:59.136475",
+    "local_path": "downloads/2601.05374.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Unstructured Data to Demand Counterfactuals: Theory and Practice"
   },
   "2601.05711": {
     "type": "arxiv",
     "id": "2601.05711",
     "url": "https://arxiv.org/pdf/2601.05711.pdf",
     "title": "ArXiv 2601.05711",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.138143"
+    "ts": "2026-01-13 04:05:59.138143",
+    "local_path": "downloads/2601.05711.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Conditional Cauchy–Schwarz Divergence for Time-Series Analysis: Kernelized Estimation and Applications in Clustering and Fraud Detection"
   },
   "2601.05847": {
     "type": "arxiv",
     "id": "2601.05847",
     "url": "https://arxiv.org/pdf/2601.05847.pdf",
     "title": "ArXiv 2601.05847",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.141330"
+    "ts": "2026-01-13 04:05:59.141330",
+    "local_path": "downloads/2601.05847.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Semantic NLP Pipelines for Interoperable Patient Digital Twins from Unstructured EHRs"
   },
   "2601.05826": {
     "type": "arxiv",
     "id": "2601.05826",
     "url": "https://arxiv.org/pdf/2601.05826.pdf",
     "title": "ArXiv 2601.05826",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.143080"
+    "ts": "2026-01-13 04:05:59.143080",
+    "local_path": "downloads/2601.05826.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Cross-National Evidence of Disproportionate Media Visibility for the Radical Right in the 2024 European Elections"
   },
   "2601.05415": {
     "type": "arxiv",
     "id": "2601.05415",
     "url": "https://arxiv.org/pdf/2601.05415.pdf",
     "title": "ArXiv 2601.05415",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.145039"
+    "ts": "2026-01-13 04:05:59.145039",
+    "local_path": "downloads/2601.05415.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Multi-Group Quadratic Discriminant Analysis via Projection"
   },
   "2601.05478": {
     "type": "arxiv",
     "id": "2601.05478",
     "url": "https://arxiv.org/pdf/2601.05478.pdf",
     "title": "ArXiv 2601.05478",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.147157"
+    "ts": "2026-01-13 04:05:59.147157",
+    "local_path": "downloads/2601.05478.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Facade of Truth: Uncovering and Mitigating LLM Susceptibility to Deceptive Evidence"
   },
   "2601.05574": {
     "type": "arxiv",
     "id": "2601.05574",
     "url": "https://arxiv.org/pdf/2601.05574.pdf",
     "title": "ArXiv 2601.05574",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.148949"
+    "ts": "2026-01-13 04:05:59.148949",
+    "local_path": "downloads/2601.05574.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Research Integrity and Academic Authority in the Age of Artificial Intelligence: From Discovery to Curation?"
   },
   "2601.05713": {
     "type": "arxiv",
     "id": "2601.05713",
     "url": "https://arxiv.org/pdf/2601.05713.pdf",
     "title": "ArXiv 2601.05713",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.150614"
+    "ts": "2026-01-13 04:05:59.150614",
+    "local_path": "downloads/2601.05713.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Visualising Information Flow in Word Embeddings with Diffusion Tensor Imaging"
   },
   "2601.05866": {
     "type": "arxiv",
     "id": "2601.05866",
     "url": "https://arxiv.org/pdf/2601.05866.pdf",
     "title": "ArXiv 2601.05866",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.152294"
+    "ts": "2026-01-13 04:05:59.152294",
+    "local_path": "downloads/2601.05866.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG"
   },
   "2601.05879": {
     "type": "arxiv",
     "id": "2601.05879",
     "url": "https://arxiv.org/pdf/2601.05879.pdf",
     "title": "ArXiv 2601.05879",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.154032"
+    "ts": "2026-01-13 04:05:59.154032",
+    "local_path": "downloads/2601.05879.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Gender Bias in LLMs: Preliminary Evidence from Shared Parenting Scenario in Czech Family Law**"
   },
   "2601.05835": {
     "type": "arxiv",
     "id": "2601.05835",
     "url": "https://arxiv.org/pdf/2601.05835.pdf",
     "title": "ArXiv 2601.05835",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.155886"
+    "ts": "2026-01-13 04:05:59.155886",
+    "local_path": "downloads/2601.05835.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Left, Right, or Center? Evaluating LLM Framing in News Classification and Generation"
   },
   "2601.05459": {
     "type": "arxiv",
