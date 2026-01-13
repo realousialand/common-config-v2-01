@@ -1063,7 +1063,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-12 11:55:03.929680"
   },
   "link_79d94e0984": {
@@ -1072,7 +1072,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-12 11:55:03.930938"
   },
   "link_a969289e18": {
@@ -1081,7 +1081,7 @@
     "url": "https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-12 11:55:03.932213"
   },
   "link_cf7d58d4e0": {
@@ -1090,7 +1090,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.gardner-webb.edu/cgi/viewcontent.cgi?article=1280&context=education-dissertations&amp;rt=The+Recruitment,+Retention,+and+Motivation+of+Black+Male+Teachers+in+K-12+Schools:+A+Perception+Study&amp;scisig=AHkA5jTzuxCzDR6QxPTc7y_mvM4W",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-12 11:55:03.933501"
   },
   "10.21428/99608f92": {
@@ -1131,5 +1131,555 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** Pay satisfaction bibliometric research and its implications"
+  },
+  "10.1001/jama.2025.23091": {
+    "type": "doi",
+    "id": "10.1001/jama.2025.23091",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:58.552774",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The US Food and Drug Administration’s Regulation of Mifepristone\n\nABSTRACT: \n                    Importance\n                    Mifepristone, used with misoprostol, is the most common abortion regimen in the US. It is also a focal point of reproductive health policy and politics, with controversy over its legal status and regulation by the US Food and Drug Administration (FDA).\n                  \n                  \n                    Objective\n                    To characterize the FDA’s decision-making with respect to the regulation of mifepristone, with a particular interest in the agency’s rationale for establishing, maintaining, or modifying key components of its regulatory approach over time.\n                  \n                  \n                    Evidence Review\n                    Qualitative analysis of 5239 pages of FDA documents obtained through a Freedom of Information Act request, including sponsors’ Risk Evaluation and Mitigation Strategy (REMS) assessment reports, FDA review of these reports, internal memos, and regulatory correspondence (2011-2023), supplemented by a review of publicly available information. Review focused on FDA justifications for implementing, maintaining, or modifying postapproval safety measures and the supporting evidence cited.\n                  \n                  \n                    Findings\n                    Five key moments in the FDA’s regulation of mifepristone that have led to the current state of oversight were identified: (1) conversion to the REMS framework in June 2011; (2) reevaluation of REMS necessity in October 2013; (3) a sponsor-requested label change in May 2015; (4) the response to the COVID-19 pandemic in 2020 and 2021; and (5) a comprehensive reassessment of the REMS in November 2021. Key themes across this period were consistent findings on safety, lack of ideological bias in staff scientists’ recommendations, and the limited impact of political interference—to date—on the agency’s oversight. Even as litigation, the COVID-19 public health emergency, and evolving practice standards changed the context of mifepristone regulation, the agency generally followed the policy approach favored by scientists at the agency.\n                  \n                  \n                    Conclusions and Relevance\n                    FDA oversight of mifepristone, developed during key moments from 2011 to 2023, has been shaped by scientific evidence and a cautious regulatory approach led by scientists at the agency.\n                  ",
+    "real_title": "The US Food and Drug Administration’s Regulation of Mifepristone"
+  },
+  "10.1001/jamapediatrics.2025.5627": {
+    "type": "doi",
+    "id": "10.1001/jamapediatrics.2025.5627",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:58.554364",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Politics and Policies Against US Children\n\nABSTRACT: This Viewpoint discusses how the policy changes in the One Big Beautiful Bill Act will harm US children.",
+    "real_title": "The Politics and Policies Against US Children"
+  },
+  "10.1016/j.socscimed.2026.118960": {
+    "type": "doi",
+    "id": "10.1016/j.socscimed.2026.118960",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:58.555997",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: How do counties’ industrial structures shape geographic disparities in cardiovascular disease mortality?\n\nABSTRACT: 无摘要",
+    "real_title": "How do counties’ industrial structures shape geographic disparities in cardiovascular disease mortality?"
+  },
+  "10.1177/08861099251340703": {
+    "type": "doi",
+    "id": "10.1177/08861099251340703",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:58.557539",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Who Cares for Communities? Conceptualizing Non-Profit Work as Social Reproduction Through the Case of Food Banks\n\nABSTRACT: This article conceptualizes non-profit labour as a form of social reproduction, a feminist political economy category that refers to the labour involved in the making of life and tending to it. In the contemporary context of neoliberal austerity in Canada, non-profit organizations have increasingly stepped in to fill widening gaps in essential social provisioning. The predominantly female non-profit workforce within these organizations, parallel to feminized household labour, faces systemic undervaluation and invisibilization, reflected in low wages, chronic underfunding, and austerity policies that work to destabilize the sector as a whole. Via the case study of food banks, we seek to make visible these vital, life-sustaining and community reproducing labours, drawing attention to their political agency and social power. While we write from within critiques of food banks as a symptom of neoliberal retrenchment, we resist conflating the labour and relationships within these organizations with the critiques of the political economic conditions in which they operate. Instead, we argue that the labours of social reproduction that occur within food banks hold political potential that is at odds with the (ostensibly) depoliticized approach to charity that is favoured in neoliberal modes of social provisioning. Providing food for communities, like other social reproduction activities, is not merely a response to gaps in formal government or market provisioning, but is agentic life-making labour driven by dictates beyond capital accumulation.",
+    "real_title": "Who Cares for Communities? Conceptualizing Non-Profit Work as Social Reproduction Through the Case of Food Banks"
+  },
+  "2601.05520": {
+    "type": "arxiv",
+    "id": "2601.05520",
+    "url": "https://arxiv.org/pdf/2601.05520.pdf",
+    "title": "ArXiv 2601.05520",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.107350",
+    "local_path": "downloads/2601.05520.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05520"
+  },
+  "2601.05403": {
+    "type": "arxiv",
+    "id": "2601.05403",
+    "url": "https://arxiv.org/pdf/2601.05403.pdf",
+    "title": "ArXiv 2601.05403",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.109530",
+    "local_path": "downloads/2601.05403.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection"
+  },
+  "2601.05411": {
+    "type": "arxiv",
+    "id": "2601.05411",
+    "url": "https://arxiv.org/pdf/2601.05411.pdf",
+    "title": "ArXiv 2601.05411",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.111216",
+    "local_path": "downloads/2601.05411.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Glitter: Visualizing Lexical Surprisal for Readability in Administrative Texts"
+  },
+  "2601.05582": {
+    "type": "arxiv",
+    "id": "2601.05582",
+    "url": "https://arxiv.org/pdf/2601.05582.pdf",
+    "title": "ArXiv 2601.05582",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.112918",
+    "local_path": "downloads/2601.05582.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Can large language models interpret unstructured chat data on dynamic group decision-making processes? Evidence on joint destination choice**"
+  },
+  "2601.05493": {
+    "type": "arxiv",
+    "id": "2601.05493",
+    "url": "https://arxiv.org/pdf/2601.05493.pdf",
+    "title": "ArXiv 2601.05493",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.114630",
+    "local_path": "downloads/2601.05493.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05493"
+  },
+  "2601.05358": {
+    "type": "arxiv",
+    "id": "2601.05358",
+    "url": "https://arxiv.org/pdf/2601.05358.pdf",
+    "title": "ArXiv 2601.05358",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.116249",
+    "local_path": "downloads/2601.05358.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Table of Media Bias Elements: A sentence-level taxonomy of media bias types and propaganda techniques"
+  },
+  "2601.05400": {
+    "type": "arxiv",
+    "id": "2601.05400",
+    "url": "https://arxiv.org/pdf/2601.05400.pdf",
+    "title": "ArXiv 2601.05400",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.117928",
+    "local_path": "downloads/2601.05400.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Representing asymmetric relationships by h-plots. Discovering the archetypal patterns of cross-journal citation relationships"
+  },
+  "2601.05875": {
+    "type": "arxiv",
+    "id": "2601.05875",
+    "url": "https://arxiv.org/pdf/2601.05875.pdf",
+    "title": "ArXiv 2601.05875",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.119542",
+    "local_path": "downloads/2601.05875.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Estimating optimal interpretable individualized treatment regimes from a classification perspective using adaptive LASSO**"
+  },
+  "2601.05392": {
+    "type": "arxiv",
+    "id": "2601.05392",
+    "url": "https://arxiv.org/pdf/2601.05392.pdf",
+    "title": "ArXiv 2601.05392",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.121101",
+    "local_path": "downloads/2601.05392.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Archetypal cases for questionnaires with nominal multiple choice questions"
+  },
+  "2601.05624": {
+    "type": "arxiv",
+    "id": "2601.05624",
+    "url": "https://arxiv.org/pdf/2601.05624.pdf",
+    "title": "ArXiv 2601.05624",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.122720",
+    "local_path": "downloads/2601.05624.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Text Detoxification in isiXhosa and Yoruba: A Cross-Lingual Machine Learning Approach for Low-Resource African Languages"
+  },
+  "2601.05641": {
+    "type": "arxiv",
+    "id": "2601.05641",
+    "url": "https://arxiv.org/pdf/2601.05641.pdf",
+    "title": "ArXiv 2601.05641",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.124374",
+    "local_path": "downloads/2601.05641.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Multilingual Amnesia: On the Transferability of Unlearning in Multilingual LLMs"
+  },
+  "2601.05964": {
+    "type": "arxiv",
+    "id": "2601.05964",
+    "url": "https://arxiv.org/pdf/2601.05964.pdf",
+    "title": "ArXiv 2601.05964",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.126073",
+    "local_path": "downloads/2601.05964.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Negative binomial models for development triangles of counts"
+  },
+  "2601.05859": {
+    "type": "arxiv",
+    "id": "2601.05859",
+    "url": "https://arxiv.org/pdf/2601.05859.pdf",
+    "title": "ArXiv 2601.05859",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.127832"
+  },
+  "2601.05776": {
+    "type": "arxiv",
+    "id": "2601.05776",
+    "url": "https://arxiv.org/pdf/2601.05776.pdf",
+    "title": "ArXiv 2601.05776",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.129791"
+  },
+  "2601.05864": {
+    "type": "arxiv",
+    "id": "2601.05864",
+    "url": "https://arxiv.org/pdf/2601.05864.pdf",
+    "title": "ArXiv 2601.05864",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.131356"
+  },
+  "2601.05904": {
+    "type": "arxiv",
+    "id": "2601.05904",
+    "url": "https://arxiv.org/pdf/2601.05904.pdf",
+    "title": "ArXiv 2601.05904",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.133076"
+  },
+  "2601.05821": {
+    "type": "arxiv",
+    "id": "2601.05821",
+    "url": "https://arxiv.org/pdf/2601.05821.pdf",
+    "title": "ArXiv 2601.05821",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.134744"
+  },
+  "2601.05374": {
+    "type": "arxiv",
+    "id": "2601.05374",
+    "url": "https://arxiv.org/pdf/2601.05374.pdf",
+    "title": "ArXiv 2601.05374",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.136475"
+  },
+  "2601.05711": {
+    "type": "arxiv",
+    "id": "2601.05711",
+    "url": "https://arxiv.org/pdf/2601.05711.pdf",
+    "title": "ArXiv 2601.05711",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.138143"
+  },
+  "2601.05847": {
+    "type": "arxiv",
+    "id": "2601.05847",
+    "url": "https://arxiv.org/pdf/2601.05847.pdf",
+    "title": "ArXiv 2601.05847",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.141330"
+  },
+  "2601.05826": {
+    "type": "arxiv",
+    "id": "2601.05826",
+    "url": "https://arxiv.org/pdf/2601.05826.pdf",
+    "title": "ArXiv 2601.05826",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.143080"
+  },
+  "2601.05415": {
+    "type": "arxiv",
+    "id": "2601.05415",
+    "url": "https://arxiv.org/pdf/2601.05415.pdf",
+    "title": "ArXiv 2601.05415",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.145039"
+  },
+  "2601.05478": {
+    "type": "arxiv",
+    "id": "2601.05478",
+    "url": "https://arxiv.org/pdf/2601.05478.pdf",
+    "title": "ArXiv 2601.05478",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.147157"
+  },
+  "2601.05574": {
+    "type": "arxiv",
+    "id": "2601.05574",
+    "url": "https://arxiv.org/pdf/2601.05574.pdf",
+    "title": "ArXiv 2601.05574",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.148949"
+  },
+  "2601.05713": {
+    "type": "arxiv",
+    "id": "2601.05713",
+    "url": "https://arxiv.org/pdf/2601.05713.pdf",
+    "title": "ArXiv 2601.05713",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.150614"
+  },
+  "2601.05866": {
+    "type": "arxiv",
+    "id": "2601.05866",
+    "url": "https://arxiv.org/pdf/2601.05866.pdf",
+    "title": "ArXiv 2601.05866",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.152294"
+  },
+  "2601.05879": {
+    "type": "arxiv",
+    "id": "2601.05879",
+    "url": "https://arxiv.org/pdf/2601.05879.pdf",
+    "title": "ArXiv 2601.05879",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.154032"
+  },
+  "2601.05835": {
+    "type": "arxiv",
+    "id": "2601.05835",
+    "url": "https://arxiv.org/pdf/2601.05835.pdf",
+    "title": "ArXiv 2601.05835",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.155886"
+  },
+  "2601.05459": {
+    "type": "arxiv",
+    "id": "2601.05459",
+    "url": "https://arxiv.org/pdf/2601.05459.pdf",
+    "title": "ArXiv 2601.05459",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.157741"
+  },
+  "2601.05702": {
+    "type": "arxiv",
+    "id": "2601.05702",
+    "url": "https://arxiv.org/pdf/2601.05702.pdf",
+    "title": "ArXiv 2601.05702",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.159560"
+  },
+  "2601.05609": {
+    "type": "arxiv",
+    "id": "2601.05609",
+    "url": "https://arxiv.org/pdf/2601.05609.pdf",
+    "title": "ArXiv 2601.05609",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.161390"
+  },
+  "2601.05751": {
+    "type": "arxiv",
+    "id": "2601.05751",
+    "url": "https://arxiv.org/pdf/2601.05751.pdf",
+    "title": "ArXiv 2601.05751",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.163206"
+  },
+  "2601.05345": {
+    "type": "arxiv",
+    "id": "2601.05345",
+    "url": "https://arxiv.org/pdf/2601.05345.pdf",
+    "title": "ArXiv 2601.05345",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.165055"
+  },
+  "2601.05437": {
+    "type": "arxiv",
+    "id": "2601.05437",
+    "url": "https://arxiv.org/pdf/2601.05437.pdf",
+    "title": "ArXiv 2601.05437",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.166822"
+  },
+  "2601.06001": {
+    "type": "arxiv",
+    "id": "2601.06001",
+    "url": "https://arxiv.org/pdf/2601.06001.pdf",
+    "title": "ArXiv 2601.06001",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.168788"
+  },
+  "2601.05699": {
+    "type": "arxiv",
+    "id": "2601.05699",
+    "url": "https://arxiv.org/pdf/2601.05699.pdf",
+    "title": "ArXiv 2601.05699",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.170535"
+  },
+  "2601.05579": {
+    "type": "arxiv",
+    "id": "2601.05579",
+    "url": "https://arxiv.org/pdf/2601.05579.pdf",
+    "title": "ArXiv 2601.05579",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.172435"
+  },
+  "2601.05728": {
+    "type": "arxiv",
+    "id": "2601.05728",
+    "url": "https://arxiv.org/pdf/2601.05728.pdf",
+    "title": "ArXiv 2601.05728",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.174259"
+  },
+  "2601.05271": {
+    "type": "arxiv",
+    "id": "2601.05271",
+    "url": "https://arxiv.org/pdf/2601.05271.pdf",
+    "title": "ArXiv 2601.05271",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.176166"
+  },
+  "2601.05874": {
+    "type": "arxiv",
+    "id": "2601.05874",
+    "url": "https://arxiv.org/pdf/2601.05874.pdf",
+    "title": "ArXiv 2601.05874",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.178239"
+  },
+  "2601.05366": {
+    "type": "arxiv",
+    "id": "2601.05366",
+    "url": "https://arxiv.org/pdf/2601.05366.pdf",
+    "title": "ArXiv 2601.05366",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.180095"
+  },
+  "2601.05545": {
+    "type": "arxiv",
+    "id": "2601.05545",
+    "url": "https://arxiv.org/pdf/2601.05545.pdf",
+    "title": "ArXiv 2601.05545",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.181904"
+  },
+  "2601.05993": {
+    "type": "arxiv",
+    "id": "2601.05993",
+    "url": "https://arxiv.org/pdf/2601.05993.pdf",
+    "title": "ArXiv 2601.05993",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.183870"
+  },
+  "2601.05307": {
+    "type": "arxiv",
+    "id": "2601.05307",
+    "url": "https://arxiv.org/pdf/2601.05307.pdf",
+    "title": "ArXiv 2601.05307",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.185771"
+  },
+  "2601.05961": {
+    "type": "arxiv",
+    "id": "2601.05961",
+    "url": "https://arxiv.org/pdf/2601.05961.pdf",
+    "title": "ArXiv 2601.05961",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.187701"
+  },
+  "2601.05914": {
+    "type": "arxiv",
+    "id": "2601.05914",
+    "url": "https://arxiv.org/pdf/2601.05914.pdf",
+    "title": "ArXiv 2601.05914",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.189548"
+  },
+  "2601.05813": {
+    "type": "arxiv",
+    "id": "2601.05813",
+    "url": "https://arxiv.org/pdf/2601.05813.pdf",
+    "title": "ArXiv 2601.05813",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.191541"
+  },
+  "2601.05548": {
+    "type": "arxiv",
+    "id": "2601.05548",
+    "url": "https://arxiv.org/pdf/2601.05548.pdf",
+    "title": "ArXiv 2601.05548",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.193477"
+  },
+  "2601.06002": {
+    "type": "arxiv",
+    "id": "2601.06002",
+    "url": "https://arxiv.org/pdf/2601.06002.pdf",
+    "title": "ArXiv 2601.06002",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.195427"
+  },
+  "2601.05987": {
+    "type": "arxiv",
+    "id": "2601.05987",
+    "url": "https://arxiv.org/pdf/2601.05987.pdf",
+    "title": "ArXiv 2601.05987",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-13 04:05:59.197345"
   }
 }
