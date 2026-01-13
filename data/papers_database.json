@@ -1553,180 +1553,260 @@
     "id": "2601.05459",
     "url": "https://arxiv.org/pdf/2601.05459.pdf",
     "title": "ArXiv 2601.05459",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.157741"
+    "ts": "2026-01-13 04:05:59.157741",
+    "local_path": "downloads/2601.05459.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Do LLMs Need Inherent Reasoning Before Reinforcement Learning? A Study in Korean Self-Correction"
   },
   "2601.05702": {
     "type": "arxiv",
     "id": "2601.05702",
     "url": "https://arxiv.org/pdf/2601.05702.pdf",
     "title": "ArXiv 2601.05702",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.159560"
+    "ts": "2026-01-13 04:05:59.159560",
+    "local_path": "downloads/2601.05702.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Dynamic Mortality Forecasting via Mixed-Frequency State-Space Models"
   },
   "2601.05609": {
     "type": "arxiv",
     "id": "2601.05609",
     "url": "https://arxiv.org/pdf/2601.05609.pdf",
     "title": "ArXiv 2601.05609",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.161390"
+    "ts": "2026-01-13 04:05:59.161390",
+    "local_path": "downloads/2601.05609.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Data Augmented Pipeline for Legal Information Extraction and Reasoning"
   },
   "2601.05751": {
     "type": "arxiv",
     "id": "2601.05751",
     "url": "https://arxiv.org/pdf/2601.05751.pdf",
     "title": "ArXiv 2601.05751",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.163206"
+    "ts": "2026-01-13 04:05:59.163206",
+    "local_path": "downloads/2601.05751.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Analysing Differences in Persuasive Language in LLM-Generated Text: Uncovering Stereotypical Gender Patterns"
   },
   "2601.05345": {
     "type": "arxiv",
     "id": "2601.05345",
     "url": "https://arxiv.org/pdf/2601.05345.pdf",
     "title": "ArXiv 2601.05345",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.165055"
+    "ts": "2026-01-13 04:05:59.165055",
+    "local_path": "downloads/2601.05345.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Model-based clustering using a new mixture of circular regressions"
   },
   "2601.05437": {
     "type": "arxiv",
     "id": "2601.05437",
     "url": "https://arxiv.org/pdf/2601.05437.pdf",
     "title": "ArXiv 2601.05437",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.166822"
+    "ts": "2026-01-13 04:05:59.166822",
+    "local_path": "downloads/2601.05437.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tracing Moral Foundations in Large Language Models**"
   },
   "2601.06001": {
     "type": "arxiv",
     "id": "2601.06001",
     "url": "https://arxiv.org/pdf/2601.06001.pdf",
     "title": "ArXiv 2601.06001",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.168788"
+    "ts": "2026-01-13 04:05:59.168788",
+    "local_path": "downloads/2601.06001.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Importance of Parameters in Ranking Functions"
   },
   "2601.05699": {
     "type": "arxiv",
     "id": "2601.05699",
     "url": "https://arxiv.org/pdf/2601.05699.pdf",
     "title": "ArXiv 2601.05699",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.170535"
+    "ts": "2026-01-13 04:05:59.170535",
+    "local_path": "downloads/2601.05699.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Afri-MCQA: Multimodal Cultural Question Answering for African Languages"
   },
   "2601.05579": {
     "type": "arxiv",
     "id": "2601.05579",
     "url": "https://arxiv.org/pdf/2601.05579.pdf",
     "title": "ArXiv 2601.05579",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.172435"
+    "ts": "2026-01-13 04:05:59.172435",
+    "local_path": "downloads/2601.05579.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** RISE: Rule-Driven SQL Dialect Translation via Query Reduction"
   },
   "2601.05728": {
     "type": "arxiv",
     "id": "2601.05728",
     "url": "https://arxiv.org/pdf/2601.05728.pdf",
     "title": "ArXiv 2601.05728",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.174259"
+    "ts": "2026-01-13 04:05:59.174259",
+    "local_path": "downloads/2601.05728.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Learning and Testing Exposure Mappings of Interference using Graph Convolutional Autoencoder"
   },
   "2601.05271": {
     "type": "arxiv",
     "id": "2601.05271",
     "url": "https://arxiv.org/pdf/2601.05271.pdf",
     "title": "ArXiv 2601.05271",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.176166"
+    "ts": "2026-01-13 04:05:59.176166",
+    "local_path": "downloads/2601.05271.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Enhancing Foundation Models in Transaction Understanding with LLM-based Sentence Embeddings"
   },
   "2601.05874": {
     "type": "arxiv",
     "id": "2601.05874",
     "url": "https://arxiv.org/pdf/2601.05874.pdf",
     "title": "ArXiv 2601.05874",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.178239"
+    "ts": "2026-01-13 04:05:59.178239",
+    "local_path": "downloads/2601.05874.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05874"
   },
   "2601.05366": {
     "type": "arxiv",
     "id": "2601.05366",
     "url": "https://arxiv.org/pdf/2601.05366.pdf",
     "title": "ArXiv 2601.05366",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.180095"
+    "ts": "2026-01-13 04:05:59.180095",
+    "local_path": "downloads/2601.05366.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models**"
   },
   "2601.05545": {
     "type": "arxiv",
     "id": "2601.05545",
     "url": "https://arxiv.org/pdf/2601.05545.pdf",
     "title": "ArXiv 2601.05545",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.181904"
+    "ts": "2026-01-13 04:05:59.181904",
+    "local_path": "downloads/2601.05545.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Can Large Language Models Differentiate Harmful from Argumentative Essays? Steps Toward Ethical Essay Scoring"
   },
   "2601.05993": {
     "type": "arxiv",
     "id": "2601.05993",
     "url": "https://arxiv.org/pdf/2601.05993.pdf",
     "title": "ArXiv 2601.05993",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.183870"
+    "ts": "2026-01-13 04:05:59.183870",
+    "local_path": "downloads/2601.05993.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Detecting Planted Structure in Circular Data"
   },
   "2601.05307": {
     "type": "arxiv",
     "id": "2601.05307",
     "url": "https://arxiv.org/pdf/2601.05307.pdf",
     "title": "ArXiv 2601.05307",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.185771"
+    "ts": "2026-01-13 04:05:59.185771",
+    "local_path": "downloads/2601.05307.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The LLM Mirage: Economic Interests and the Subversion of Weaponization Controls"
   },
   "2601.05961": {
     "type": "arxiv",
     "id": "2601.05961",
     "url": "https://arxiv.org/pdf/2601.05961.pdf",
     "title": "ArXiv 2601.05961",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.187701"
+    "ts": "2026-01-13 04:05:59.187701",
+    "local_path": "downloads/2601.05961.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.05961"
   },
   "2601.05914": {
     "type": "arxiv",
     "id": "2601.05914",
     "url": "https://arxiv.org/pdf/2601.05914.pdf",
     "title": "ArXiv 2601.05914",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.189548"
+    "ts": "2026-01-13 04:05:59.189548",
+    "local_path": "downloads/2601.05914.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bayesian Persuasion with Selective Disclosure"
   },
   "2601.05813": {
     "type": "arxiv",
     "id": "2601.05813",
     "url": "https://arxiv.org/pdf/2601.05813.pdf",
     "title": "ArXiv 2601.05813",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.191541"
+    "ts": "2026-01-13 04:05:59.191541",
+    "local_path": "downloads/2601.05813.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Multi-Regional Cloud Honeynet Dataset (MURHCAD)"
   },
   "2601.05548": {
     "type": "arxiv",
     "id": "2601.05548",
     "url": "https://arxiv.org/pdf/2601.05548.pdf",
     "title": "ArXiv 2601.05548",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.193477"
+    "ts": "2026-01-13 04:05:59.193477",
+    "local_path": "downloads/2601.05548.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generation-Based and Emotion-Reflected Memory Update: Creating the KEEM Dataset for Better Long-Term Conversation**"
   },
   "2601.06002": {
     "type": "arxiv",
