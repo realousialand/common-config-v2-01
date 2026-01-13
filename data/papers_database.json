@@ -1813,17 +1813,25 @@
     "id": "2601.06002",
     "url": "https://arxiv.org/pdf/2601.06002.pdf",
     "title": "ArXiv 2601.06002",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.195427"
+    "ts": "2026-01-13 04:05:59.195427",
+    "local_path": "downloads/2601.06002.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning**"
   },
   "2601.05987": {
     "type": "arxiv",
     "id": "2601.05987",
     "url": "https://arxiv.org/pdf/2601.05987.pdf",
     "title": "ArXiv 2601.05987",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-13 04:05:59.197345"
+    "ts": "2026-01-13 04:05:59.197345",
+    "local_path": "downloads/2601.05987.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Causal Effect of First-Time Academic Failure on University Dropout: Evidence from a Regression Discontinuity Design"
   }
 }
