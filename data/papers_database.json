@@ -2099,180 +2099,260 @@
     "id": "2601.06359",
     "url": "https://arxiv.org/pdf/2601.06359.pdf",
     "title": "ArXiv 2601.06359",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.584500"
+    "ts": "2026-01-14 04:13:18.584500",
+    "local_path": "downloads/2601.06359.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "LONG-TERM CAUSAL INFERENCE WITH MANY NOISY PROXIES"
   },
   "2601.06907": {
     "type": "arxiv",
     "id": "2601.06907",
     "url": "https://arxiv.org/pdf/2601.06907.pdf",
     "title": "ArXiv 2601.06907",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.586911"
+    "ts": "2026-01-14 04:13:18.586911",
+    "local_path": "downloads/2601.06907.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Fine-grained Verbal Attack Detection via a Hierarchical Divide-and-Conquer Framework"
   },
   "2601.06307": {
     "type": "arxiv",
     "id": "2601.06307",
     "url": "https://arxiv.org/pdf/2601.06307.pdf",
     "title": "ArXiv 2601.06307",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.589682"
+    "ts": "2026-01-14 04:13:18.589682",
+    "local_path": "downloads/2601.06307.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality"
   },
   "2601.06072": {
     "type": "arxiv",
     "id": "2601.06072",
     "url": "https://arxiv.org/pdf/2601.06072.pdf",
     "title": "ArXiv 2601.06072",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.592018"
+    "ts": "2026-01-14 04:13:18.592018",
+    "local_path": "downloads/2601.06072.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.06072"
   },
   "2601.07059": {
     "type": "arxiv",
     "id": "2601.07059",
     "url": "https://arxiv.org/pdf/2601.07059.pdf",
     "title": "ArXiv 2601.07059",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.594320"
+    "ts": "2026-01-14 04:13:18.594320",
+    "local_path": "downloads/2601.07059.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Empirical Bayes Estimation in Heterogeneous Coefficient Panel Models"
   },
   "2601.06437": {
     "type": "arxiv",
     "id": "2601.06437",
     "url": "https://arxiv.org/pdf/2601.06437.pdf",
     "title": "ArXiv 2601.06437",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.596665"
+    "ts": "2026-01-14 04:13:18.596665",
+    "local_path": "downloads/2601.06437.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Time Travel Engine: A Shared Latent Chronological Manifold Enables Historical Navigation in Large Language Models**"
   },
   "2601.06056": {
     "type": "arxiv",
     "id": "2601.06056",
     "url": "https://arxiv.org/pdf/2601.06056.pdf",
     "title": "ArXiv 2601.06056",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.599051"
+    "ts": "2026-01-14 04:13:18.599051",
+    "local_path": "downloads/2601.06056.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Using street view images and visual LLMs to predict heritage values for governance support: Risks, ethics, and policy implications"
   },
   "2601.06300": {
     "type": "arxiv",
     "id": "2601.06300",
     "url": "https://arxiv.org/pdf/2601.06300.pdf",
     "title": "ArXiv 2601.06300",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.603217"
+    "ts": "2026-01-14 04:13:18.603217",
+    "local_path": "downloads/2601.06300.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** AMEND++: Benchmarking Eligibility Criteria Amendments in Clinical Trials"
   },
   "2601.06703": {
     "type": "arxiv",
     "id": "2601.06703",
     "url": "https://arxiv.org/pdf/2601.06703.pdf",
     "title": "ArXiv 2601.06703",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.605611"
+    "ts": "2026-01-14 04:13:18.605611",
+    "local_path": "downloads/2601.06703.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.06703"
   },
   "2601.07532": {
     "type": "arxiv",
     "id": "2601.07532",
     "url": "https://arxiv.org/pdf/2601.07532.pdf",
     "title": "ArXiv 2601.07532",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.608024"
+    "ts": "2026-01-14 04:13:18.608024",
+    "local_path": "downloads/2601.07532.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Population-Adjusted Indirect Treatment Comparison with the outstandR Package in R"
   },
   "2601.06390": {
     "type": "arxiv",
     "id": "2601.06390",
     "url": "https://arxiv.org/pdf/2601.06390.pdf",
     "title": "ArXiv 2601.06390",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.610416"
+    "ts": "2026-01-14 04:13:18.610416",
+    "local_path": "downloads/2601.06390.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Empirical Likelihood Test for Common Invariant Subspace of Multilayer Networks based on Monte Carlo Approximation"
   },
   "2601.07565": {
     "type": "arxiv",
     "id": "2601.07565",
     "url": "https://arxiv.org/pdf/2601.07565.pdf",
     "title": "ArXiv 2601.07565",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.612830"
+    "ts": "2026-01-14 04:13:18.612830",
+    "local_path": "downloads/2601.07565.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Unified Framework for Emotion Recognition and Sentiment Analysis via Expert-Guided Multimodal Fusion with Large Language Models"
   },
   "2601.06375": {
     "type": "arxiv",
     "id": "2601.06375",
     "url": "https://arxiv.org/pdf/2601.06375.pdf",
     "title": "ArXiv 2601.06375",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.615359"
+    "ts": "2026-01-14 04:13:18.615359",
+    "local_path": "downloads/2601.06375.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Efficient Data Reduction Via PCA-Guided Quantile Based Sampling**"
   },
   "2601.06707": {
     "type": "arxiv",
     "id": "2601.06707",
     "url": "https://arxiv.org/pdf/2601.06707.pdf",
     "title": "ArXiv 2601.06707",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.617808"
+    "ts": "2026-01-14 04:13:18.617808",
+    "local_path": "downloads/2601.06707.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating Accounting Reasoning Capabilities of Large Language Models**"
   },
   "2601.06372": {
     "type": "arxiv",
     "id": "2601.06372",
     "url": "https://arxiv.org/pdf/2601.06372.pdf",
     "title": "ArXiv 2601.06372",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.620186"
+    "ts": "2026-01-14 04:13:18.620186",
+    "local_path": "downloads/2601.06372.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Talking to Extraordinary Objects: Folktales Offer Analogies for Interacting with Technology"
   },
   "2601.07158": {
     "type": "arxiv",
     "id": "2601.07158",
     "url": "https://arxiv.org/pdf/2601.07158.pdf",
     "title": "ArXiv 2601.07158",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.622626"
+    "ts": "2026-01-14 04:13:18.622626",
+    "local_path": "downloads/2601.07158.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Bayesian Intransitive Bradley-Terry Model via Combinatorial Hodge Theory"
   },
   "2601.07271": {
     "type": "arxiv",
     "id": "2601.07271",
     "url": "https://arxiv.org/pdf/2601.07271.pdf",
     "title": "ArXiv 2601.07271",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.625077"
+    "ts": "2026-01-14 04:13:18.625077",
+    "local_path": "downloads/2601.07271.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.07271"
   },
   "2601.07752": {
     "type": "arxiv",
     "id": "2601.07752",
     "url": "https://arxiv.org/pdf/2601.07752.pdf",
     "title": "ArXiv 2601.07752",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.627511"
+    "ts": "2026-01-14 04:13:18.627511",
+    "local_path": "downloads/2601.07752.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Riesz Representer Fitting under Bregman Divergence: A Unified Framework for Debiased Machine Learning"
   },
   "2601.06041": {
     "type": "arxiv",
     "id": "2601.06041",
     "url": "https://arxiv.org/pdf/2601.06041.pdf",
     "title": "ArXiv 2601.06041",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.629945"
+    "ts": "2026-01-14 04:13:18.629945",
+    "local_path": "downloads/2601.06041.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Lexical and Statistical Analysis of Bangla Newspaper and Literature: A Corpus-Driven Study on Diversity, Readability, and NLP Adaptation"
   },
   "2601.07609": {
     "type": "arxiv",
     "id": "2601.07609",
     "url": "https://arxiv.org/pdf/2601.07609.pdf",
     "title": "ArXiv 2601.07609",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.632417"
+    "ts": "2026-01-14 04:13:18.632417",
+    "local_path": "downloads/2601.07609.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Omitted covariates bias and finite mixtures of regression models for longitudinal responses"
   },
   "2601.07796": {
     "type": "arxiv",
@@ -2363,5 +2443,14 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-14 04:13:18.657716"
+  },
+  "link_514e7fdaf6": {
+    "type": "pdf_link",
+    "id": "link_514e7fdaf6",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-95-5483-6.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-14 10:33:51.770619"
   }
 }
