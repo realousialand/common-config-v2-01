@@ -2359,98 +2359,142 @@
     "id": "2601.07796",
     "url": "https://arxiv.org/pdf/2601.07796.pdf",
     "title": "ArXiv 2601.07796",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.634875"
+    "ts": "2026-01-14 04:13:18.634875",
+    "local_path": "downloads/2601.07796.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Learning Through Dialogue: Unpacking the Dynamics of Human–LLM Conversations on Political Issues"
   },
   "2601.07780": {
     "type": "arxiv",
     "id": "2601.07780",
     "url": "https://arxiv.org/pdf/2601.07780.pdf",
     "title": "ArXiv 2601.07780",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.637429"
+    "ts": "2026-01-14 04:13:18.637429",
+    "local_path": "downloads/2601.07780.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.07780"
   },
   "2601.07668": {
     "type": "arxiv",
     "id": "2601.07668",
     "url": "https://arxiv.org/pdf/2601.07668.pdf",
     "title": "ArXiv 2601.07668",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.639903"
+    "ts": "2026-01-14 04:13:18.639903",
+    "local_path": "downloads/2601.07668.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Role of Confounders and Linearity in Ecological Inference: A Reassessment"
   },
   "2601.06687": {
     "type": "arxiv",
     "id": "2601.06687",
     "url": "https://arxiv.org/pdf/2601.06687.pdf",
     "title": "ArXiv 2601.06687",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.642414"
+    "ts": "2026-01-14 04:13:18.642414",
+    "local_path": "downloads/2601.06687.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Case for Strategic Data Stewardship"
   },
   "2601.07282": {
     "type": "arxiv",
     "id": "2601.07282",
     "url": "https://arxiv.org/pdf/2601.07282.pdf",
     "title": "ArXiv 2601.07282",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.644922"
+    "ts": "2026-01-14 04:13:18.644922",
+    "local_path": "downloads/2601.07282.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Minimum Wasserstein distance estimator under covariate shift: closed-form, super-efficiency and irregularity"
   },
   "2601.06026": {
     "type": "arxiv",
     "id": "2601.06026",
     "url": "https://arxiv.org/pdf/2601.06026.pdf",
     "title": "ArXiv 2601.06026",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.647431"
+    "ts": "2026-01-14 04:13:18.647431",
+    "local_path": "downloads/2601.06026.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.06026"
   },
   "2601.06069": {
     "type": "arxiv",
     "id": "2601.06069",
     "url": "https://arxiv.org/pdf/2601.06069.pdf",
     "title": "ArXiv 2601.06069",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.650008"
+    "ts": "2026-01-14 04:13:18.650008",
+    "local_path": "downloads/2601.06069.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** LA NORME TECHNIQUE COMME CATALYSEUR DE TRANSFERT DE CONNAISSANCES : LA FRANCOPHONIE A L’ŒUVRE DANS LE DOMAINE DE L’EDUCATION"
   },
   "2601.06132": {
     "type": "arxiv",
     "id": "2601.06132",
     "url": "https://arxiv.org/pdf/2601.06132.pdf",
     "title": "ArXiv 2601.06132",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.652590"
+    "ts": "2026-01-14 04:13:18.652590",
+    "local_path": "downloads/2601.06132.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "An evaluation of LLMs for political bias in Western media: Israel-Hamas and Ukraine-Russia wars"
   },
   "2601.07065": {
     "type": "arxiv",
     "id": "2601.07065",
     "url": "https://arxiv.org/pdf/2601.07065.pdf",
     "title": "ArXiv 2601.07065",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.655136"
+    "ts": "2026-01-14 04:13:18.655136",
+    "local_path": "downloads/2601.07065.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** FORMULA COMPILER.JL AND MARGINS.JL: EFFICIENT MARGINAL EFFECTS IN JULIA"
   },
   "2601.06636": {
     "type": "arxiv",
     "id": "2601.06636",
     "url": "https://arxiv.org/pdf/2601.06636.pdf",
     "title": "ArXiv 2601.06636",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 04:13:18.657716"
+    "ts": "2026-01-14 04:13:18.657716",
+    "local_path": "downloads/2601.06636.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MedEinst: Benchmarking the Einstellung Effect in Medical LLMs through Counterfactual Differential Diagnosis**"
   },
   "link_514e7fdaf6": {
     "type": "pdf_link",
     "id": "link_514e7fdaf6",
     "url": "https://link.springer.com/content/pdf/10.1007/978-981-95-5483-6.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-14 10:33:51.770619"
+    "ts": "2026-01-14 10:33:51.770619",
+    "local_path": "downloads/link_514e7fdaf6.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Supply Side Security"
   }
 }
