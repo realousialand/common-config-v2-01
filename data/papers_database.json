@@ -2762,180 +2762,260 @@
     "id": "2601.08536",
     "url": "https://arxiv.org/pdf/2601.08536.pdf",
     "title": "ArXiv 2601.08536",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.904777"
+    "ts": "2026-01-15 04:08:03.904777",
+    "local_path": "downloads/2601.08536.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08536"
   },
   "2601.07961": {
     "type": "arxiv",
     "id": "2601.07961",
     "url": "https://arxiv.org/pdf/2601.07961.pdf",
     "title": "ArXiv 2601.07961",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.907715"
+    "ts": "2026-01-15 04:08:03.907715",
+    "local_path": "downloads/2601.07961.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Language markers of emotion flexibility predict depression and anxiety treatment outcomes"
   },
   "2601.08689": {
     "type": "arxiv",
     "id": "2601.08689",
     "url": "https://arxiv.org/pdf/2601.08689.pdf",
     "title": "ArXiv 2601.08689",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.911885"
+    "ts": "2026-01-15 04:08:03.911885",
+    "local_path": "downloads/2601.08689.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** QuantEval: A Benchmark for Financial Quantitative Tasks in Large Language Models"
   },
   "2601.08169": {
     "type": "arxiv",
     "id": "2601.08169",
     "url": "https://arxiv.org/pdf/2601.08169.pdf",
     "title": "ArXiv 2601.08169",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.914843"
+    "ts": "2026-01-15 04:08:03.914843",
+    "local_path": "downloads/2601.08169.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** R ELATIONAL K NOWLEDGE D ISTILLATION U SING F INE TUNED F UNCTION V ECTORS"
   },
   "2601.07973": {
     "type": "arxiv",
     "id": "2601.07973",
     "url": "https://arxiv.org/pdf/2601.07973.pdf",
     "title": "ArXiv 2601.07973",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.917770"
+    "ts": "2026-01-15 04:08:03.917770",
+    "local_path": "downloads/2601.07973.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Cultural Compass: A Framework for Organizing Societal Norms to Detect Violations in Human-AI Conversations**"
   },
   "2601.08500": {
     "type": "arxiv",
     "id": "2601.08500",
     "url": "https://arxiv.org/pdf/2601.08500.pdf",
     "title": "ArXiv 2601.08500",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.920685"
+    "ts": "2026-01-15 04:08:03.920685",
+    "local_path": "downloads/2601.08500.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** It’s All About the Confidence: An Unsupervised Approach for Multilingual Historical Entity Linking using Large Language Models"
   },
   "2601.08209": {
     "type": "arxiv",
     "id": "2601.08209",
     "url": "https://arxiv.org/pdf/2601.08209.pdf",
     "title": "ArXiv 2601.08209",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.923699"
+    "ts": "2026-01-15 04:08:03.923699",
+    "local_path": "downloads/2601.08209.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generation-Augmented Generation: A Plug-and-Play Framework for Private Knowledge Injection in Large Language Models**"
   },
   "2601.08281": {
     "type": "arxiv",
     "id": "2601.08281",
     "url": "https://arxiv.org/pdf/2601.08281.pdf",
     "title": "ArXiv 2601.08281",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.926774"
+    "ts": "2026-01-15 04:08:03.926774",
+    "local_path": "downloads/2601.08281.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Estimating Treatment Effects in Panel Data Without Parallel Trends"
   },
   "2601.08352": {
     "type": "arxiv",
     "id": "2601.08352",
     "url": "https://arxiv.org/pdf/2601.08352.pdf",
     "title": "ArXiv 2601.08352",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.929751"
+    "ts": "2026-01-15 04:08:03.929751",
+    "local_path": "downloads/2601.08352.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Impact of Tobacco Advertising Restrictions in Switzerland: A Quasi-Experimental Study on the Effect of Billboard Bans on Smoking**"
   },
   "2601.08643": {
     "type": "arxiv",
     "id": "2601.08643",
     "url": "https://arxiv.org/pdf/2601.08643.pdf",
     "title": "ArXiv 2601.08643",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.932709"
+    "ts": "2026-01-15 04:08:03.932709",
+    "local_path": "downloads/2601.08643.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Automatic debiased machine learning and sensitivity analysis for sample selection models**"
   },
   "2601.08295": {
     "type": "arxiv",
     "id": "2601.08295",
     "url": "https://arxiv.org/pdf/2601.08295.pdf",
     "title": "ArXiv 2601.08295",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.935709"
+    "ts": "2026-01-15 04:08:03.935709",
+    "local_path": "downloads/2601.08295.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Self-Certification of High-Risk AI Systems: The Example of AI-based Facial Emotion Recognition"
   },
   "2601.08626": {
     "type": "arxiv",
     "id": "2601.08626",
     "url": "https://arxiv.org/pdf/2601.08626.pdf",
     "title": "ArXiv 2601.08626",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.938723"
+    "ts": "2026-01-15 04:08:03.938723",
+    "local_path": "downloads/2601.08626.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "How Order-Sensitive Are LLMs? OrderProbe for Deterministic Structural Reconstruction**"
   },
   "2601.08707": {
     "type": "arxiv",
     "id": "2601.08707",
     "url": "https://arxiv.org/pdf/2601.08707.pdf",
     "title": "ArXiv 2601.08707",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.941666"
+    "ts": "2026-01-15 04:08:03.941666",
+    "local_path": "downloads/2601.08707.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Semiparametric Efficient Data Integration Using the Dual-Framework Sampling Approach"
   },
   "2601.07984": {
     "type": "arxiv",
     "id": "2601.07984",
     "url": "https://arxiv.org/pdf/2601.07984.pdf",
     "title": "ArXiv 2601.07984",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.944714"
+    "ts": "2026-01-15 04:08:03.944714",
+    "local_path": "downloads/2601.07984.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.07984"
   },
   "2601.08629": {
     "type": "arxiv",
     "id": "2601.08629",
     "url": "https://arxiv.org/pdf/2601.08629.pdf",
     "title": "ArXiv 2601.08629",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.947734"
+    "ts": "2026-01-15 04:08:03.947734",
+    "local_path": "downloads/2601.08629.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Get away with less: Need of source side data curation to build parallel corpus for low resource Machine Translation"
   },
   "2601.07979": {
     "type": "arxiv",
     "id": "2601.07979",
     "url": "https://arxiv.org/pdf/2601.07979.pdf",
     "title": "ArXiv 2601.07979",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.950707"
+    "ts": "2026-01-15 04:08:03.950707",
+    "local_path": "downloads/2601.07979.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Spatial Covariance Constraints for Gaussian Mixture Models"
   },
   "2601.07988": {
     "type": "arxiv",
     "id": "2601.07988",
     "url": "https://arxiv.org/pdf/2601.07988.pdf",
     "title": "ArXiv 2601.07988",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.953817"
+    "ts": "2026-01-15 04:08:03.953817",
+    "local_path": "downloads/2601.07988.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Word Sequences to Behavioral Sequences: Adapting Modeling and Evaluation Paradigms for Longitudinal NLP**"
   },
   "2601.08692": {
     "type": "arxiv",
     "id": "2601.08692",
     "url": "https://arxiv.org/pdf/2601.08692.pdf",
     "title": "ArXiv 2601.08692",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.956905"
+    "ts": "2026-01-15 04:08:03.956905",
+    "local_path": "downloads/2601.08692.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Nationality and Region Prediction from Names: A Comparative Study of Neural Models and Large Language Models"
   },
   "2601.08510": {
     "type": "arxiv",
     "id": "2601.08510",
     "url": "https://arxiv.org/pdf/2601.08510.pdf",
     "title": "ArXiv 2601.08510",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.960186"
+    "ts": "2026-01-15 04:08:03.960186",
+    "local_path": "downloads/2601.08510.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** STAGE: A Benchmark for Knowledge Graph Construction, Question Answering, and In-Script Role-Playing over Movie Screenplays"
   },
   "2601.08750": {
     "type": "arxiv",
     "id": "2601.08750",
     "url": "https://arxiv.org/pdf/2601.08750.pdf",
     "title": "ArXiv 2601.08750",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.963228"
+    "ts": "2026-01-15 04:08:03.963228",
+    "local_path": "downloads/2601.08750.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08750"
   },
   "2601.07995": {
     "type": "arxiv",
