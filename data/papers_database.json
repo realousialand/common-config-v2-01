@@ -3022,116 +3022,194 @@
     "id": "2601.07995",
     "url": "https://arxiv.org/pdf/2601.07995.pdf",
     "title": "ArXiv 2601.07995",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.966233"
+    "ts": "2026-01-15 04:08:03.966233",
+    "local_path": "downloads/2601.07995.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Is Sentiment Banana-Shaped? Exploring the Geometry and Portability of Sentiment Concept Vectors"
   },
   "2601.08141": {
     "type": "arxiv",
     "id": "2601.08141",
     "url": "https://arxiv.org/pdf/2601.08141.pdf",
     "title": "ArXiv 2601.08141",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.969243"
+    "ts": "2026-01-15 04:08:03.969243",
+    "local_path": "downloads/2601.08141.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Qalb: Largest State-of-the-Art Urdu Large Language Model for 230M Speakers with Systematic Continued Pre-training"
   },
   "2601.08574": {
     "type": "arxiv",
     "id": "2601.08574",
     "url": "https://arxiv.org/pdf/2601.08574.pdf",
     "title": "ArXiv 2601.08574",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.972242"
+    "ts": "2026-01-15 04:08:03.972242",
+    "local_path": "downloads/2601.08574.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08574"
   },
   "2601.08598": {
     "type": "arxiv",
     "id": "2601.08598",
     "url": "https://arxiv.org/pdf/2601.08598.pdf",
     "title": "ArXiv 2601.08598",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.975411"
+    "ts": "2026-01-15 04:08:03.975411",
+    "local_path": "downloads/2601.08598.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Systemic Risk Surveillance"
   },
   "2601.08427": {
     "type": "arxiv",
     "id": "2601.08427",
     "url": "https://arxiv.org/pdf/2601.08427.pdf",
     "title": "ArXiv 2601.08427",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.978541"
+    "ts": "2026-01-15 04:08:03.978541",
+    "local_path": "downloads/2601.08427.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08427"
   },
   "2601.08003": {
     "type": "arxiv",
     "id": "2601.08003",
     "url": "https://arxiv.org/pdf/2601.08003.pdf",
     "title": "ArXiv 2601.08003",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.981693"
+    "ts": "2026-01-15 04:08:03.981693",
+    "local_path": "downloads/2601.08003.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback"
   },
   "2601.08067": {
     "type": "arxiv",
     "id": "2601.08067",
     "url": "https://arxiv.org/pdf/2601.08067.pdf",
     "title": "ArXiv 2601.08067",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.984769"
+    "ts": "2026-01-15 04:08:03.984769",
+    "local_path": "downloads/2601.08067.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bayesian nonparametric models for zero-inflated count-compositional data using ensembles of regression trees"
   },
   "2601.08739": {
     "type": "arxiv",
     "id": "2601.08739",
     "url": "https://arxiv.org/pdf/2601.08739.pdf",
     "title": "ArXiv 2601.08739",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.987848"
+    "ts": "2026-01-15 04:08:03.987848",
+    "local_path": "downloads/2601.08739.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PrivGemo: Privacy-Preserving Dual-Tower Graph Retrieval for Empowering LLM Reasoning with Memory Augmentation"
   },
   "2601.08108": {
     "type": "arxiv",
     "id": "2601.08108",
     "url": "https://arxiv.org/pdf/2601.08108.pdf",
     "title": "ArXiv 2601.08108",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.991105"
+    "ts": "2026-01-15 04:08:03.991105",
+    "local_path": "downloads/2601.08108.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Debiasing Large Language Models via Adaptive Causal Prompting with Sketch-of-Thought"
   },
   "2601.08064": {
     "type": "arxiv",
     "id": "2601.08064",
     "url": "https://arxiv.org/pdf/2601.08064.pdf",
     "title": "ArXiv 2601.08064",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:03.994198"
+    "ts": "2026-01-15 04:08:03.994198",
+    "local_path": "downloads/2601.08064.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Calibration Is Not Enough: Evaluating Confidence Estimation Under Language Variations"
   },
   "10.1002/ab.70058": {
     "type": "doi",
     "id": "10.1002/ab.70058",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:05.250964"
+    "ts": "2026-01-15 04:08:05.250964",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: “Some Animals Are More Equal Than Others”: The Role of Animal Category in Judgments of Sadistic Harm\n\nABSTRACT: ABSTRACT\n                  \n                    Animal harm often results in lenient legal responses, with prosecutions primarily targeting offenses against companion animals, while cases involving farm animals remain significantly underreported. This study examined pet‐favoritism bias in moral judgments, highlighting how animal category can shape perceptions of cruelty. Participants (\n                    N\n                     = 569) evaluated sadistic harm toward either pet or farm animals by rating proposed prison sentences and moral condemnation. They also reported pet ownership, dietary habits, political orientation, religiosity, and beliefs about human superiority. The results confirmed pet‐favoritism, with harm to pets prompting greater moral condemnation and harsher punishment. Moderation analyses showed this bias was more pronounced among meat‐eaters, non–pet owners, and those who believed in human superiority. We discuss the mechanisms underlying more lenient judgments of animal harm.\n                  ",
+    "real_title": "“Some Animals Are More Equal Than Others”: The Role of Animal Category in Judgments of Sadistic Harm"
   },
   "link_759b10f631": {
     "type": "pdf_link",
     "id": "link_759b10f631",
     "url": "https://link.springer.com/content/pdf/10.1007/978-981-96-8391-8.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:06.121576"
+    "ts": "2026-01-15 04:08:06.121576",
+    "local_path": "downloads/link_759b10f631.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Technological Progress and Productivity Analysis in Agriculture: Review and Prospect"
   },
   "10.1016/j.bar.2026.101839": {
     "type": "doi",
     "id": "10.1016/j.bar.2026.101839",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-15 04:08:21.570293"
+    "ts": "2026-01-15 04:08:21.570293",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Impact of Corporate Culture Similarity between Audit Firms and Their Clients on Financial Reporting Quality\n\nABSTRACT: 无摘要",
+    "real_title": "The Impact of Corporate Culture Similarity between Audit Firms and Their Clients on Financial Reporting Quality"
+  },
+  "2506.11763": {
+    "type": "arxiv",
+    "id": "2506.11763",
+    "url": "https://arxiv.org/pdf/2506.11763.pdf",
+    "title": "ArXiv 2506.11763",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-15 16:43:41.623012",
+    "local_path": "downloads/2506.11763.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2506.11763"
+  },
+  "link_82b33f11e6": {
+    "type": "pdf_link",
+    "id": "link_82b33f11e6",
+    "url": "https://arxiv.org/pdf/2601.08536.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-15 16:43:41.626516",
+    "local_path": "downloads/link_82b33f11e6.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
   }
 }
