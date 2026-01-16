@@ -3737,116 +3737,164 @@
     "id": "2601.09365",
     "url": "https://arxiv.org/pdf/2601.09365.pdf",
     "title": "ArXiv 2601.09365",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.717085"
+    "ts": "2026-01-16 04:05:53.717085",
+    "local_path": "downloads/2601.09365.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Frame of Reference: Addressing the Challenges of Common Ground Representation in Situational Dialogs"
   },
   "2601.09069": {
     "type": "arxiv",
     "id": "2601.09069",
     "url": "https://arxiv.org/pdf/2601.09069.pdf",
     "title": "ArXiv 2601.09069",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.720886"
+    "ts": "2026-01-16 04:05:53.720886",
+    "local_path": "downloads/2601.09069.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Symbolic to Natural-Language Relations: Rethinking Knowledge Graph Construction in the Era of Large Language Models**"
   },
   "2601.08835": {
     "type": "arxiv",
     "id": "2601.08835",
     "url": "https://arxiv.org/pdf/2601.08835.pdf",
     "title": "ArXiv 2601.08835",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.724710"
+    "ts": "2026-01-16 04:05:53.724710",
+    "local_path": "downloads/2601.08835.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols"
   },
   "2601.09059": {
     "type": "arxiv",
     "id": "2601.09059",
     "url": "https://arxiv.org/pdf/2601.09059.pdf",
     "title": "ArXiv 2601.09059",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.728495"
+    "ts": "2026-01-16 04:05:53.728495",
+    "local_path": "downloads/2601.09059.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.09059"
   },
   "2601.08951": {
     "type": "arxiv",
     "id": "2601.08951",
     "url": "https://arxiv.org/pdf/2601.08951.pdf",
     "title": "ArXiv 2601.08951",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.732191"
+    "ts": "2026-01-16 04:05:53.732191",
+    "local_path": "downloads/2601.08951.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** P LURI H ARMS : B ENCHMARKING THE F ULL S PECTRUM OF H UMAN J UDGMENTS ON AI H ARM"
   },
   "2601.09038": {
     "type": "arxiv",
     "id": "2601.09038",
     "url": "https://arxiv.org/pdf/2601.09038.pdf",
     "title": "ArXiv 2601.09038",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.735904"
+    "ts": "2026-01-16 04:05:53.735904",
+    "local_path": "downloads/2601.09038.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.09038"
   },
   "2601.09618": {
     "type": "arxiv",
     "id": "2601.09618",
     "url": "https://arxiv.org/pdf/2601.09618.pdf",
     "title": "ArXiv 2601.09618",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.739719"
+    "ts": "2026-01-16 04:05:53.739719",
+    "local_path": "downloads/2601.09618.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Journal Impact Factor and Federal Reserve Monetary Policy: An Econometric Analysis Based on 1975-2026"
   },
   "2601.09011": {
     "type": "arxiv",
     "id": "2601.09011",
     "url": "https://arxiv.org/pdf/2601.09011.pdf",
     "title": "ArXiv 2601.09011",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.743404"
+    "ts": "2026-01-16 04:05:53.743404",
+    "local_path": "downloads/2601.09011.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Fisher’s fundamental theorem and regression in causal analysis"
   },
   "2601.09688": {
     "type": "arxiv",
     "id": "2601.09688",
     "url": "https://arxiv.org/pdf/2601.09688.pdf",
     "title": "ArXiv 2601.09688",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.747194"
+    "ts": "2026-01-16 04:05:53.747194",
+    "local_path": "downloads/2601.09688.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.09688"
   },
   "2601.09600": {
     "type": "arxiv",
     "id": "2601.09600",
     "url": "https://arxiv.org/pdf/2601.09600.pdf",
     "title": "ArXiv 2601.09600",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.750947"
+    "ts": "2026-01-16 04:05:53.750947",
+    "local_path": "downloads/2601.09600.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Information Access of the Oppressed: A Problem-Posing Framework for Envisioning Emancipatory Information Access Platforms"
   },
   "10.47895/amp.vi0.11818": {
     "type": "doi",
     "id": "10.47895/amp.vi0.11818",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:54.743360"
+    "ts": "2026-01-16 04:05:54.743360",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Factors Influencing the Implementation of a Disability Package for Children with Developmental Disabilities: A Policy Analysis\n\nABSTRACT: 无摘要",
+    "real_title": "Factors Influencing the Implementation of a Disability Package for Children with Developmental Disabilities: A Policy Analysis"
   },
   "10.1038/d41586-026-00058-1": {
     "type": "doi",
     "id": "10.1038/d41586-026-00058-1",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:54.747326"
+    "ts": "2026-01-16 04:05:54.747326",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: US science in 2026: five themes that will dominate Trump’s second year\n\nABSTRACT: 无摘要",
+    "real_title": "US science in 2026: five themes that will dominate Trump’s second year"
   },
   "link_007ed060c3": {
     "type": "pdf_link",
     "id": "link_007ed060c3",
     "url": "https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-16 10:33:03.428312"
   },
   "link_318bcfc4eb": {
@@ -3854,8 +3902,8 @@
     "id": "link_318bcfc4eb",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-16 10:33:03.432288"
   },
   "link_c6be85f378": {
@@ -3863,8 +3911,8 @@
     "id": "link_c6be85f378",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-16 10:33:03.436292"
   },
   "link_306637166d": {
@@ -3872,8 +3920,8 @@
     "id": "link_306637166d",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-16 10:33:03.440472"
   }
 }
