@@ -3477,180 +3477,260 @@
     "id": "2601.09161",
     "url": "https://arxiv.org/pdf/2601.09161.pdf",
     "title": "ArXiv 2601.09161",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.644485"
+    "ts": "2026-01-16 04:05:53.644485",
+    "local_path": "downloads/2601.09161.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "<English Title>"
   },
   "2601.09216": {
     "type": "arxiv",
     "id": "2601.09216",
     "url": "https://arxiv.org/pdf/2601.09216.pdf",
     "title": "ArXiv 2601.09216",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.647985"
+    "ts": "2026-01-16 04:05:53.647985",
+    "local_path": "downloads/2601.09216.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Honesty-Aware Multi-Agent Framework for High-Fidelity Synthetic Data Generation in Digital Psychiatric Intake Doctor-Patient Interactions"
   },
   "2601.09041": {
     "type": "arxiv",
     "id": "2601.09041",
     "url": "https://arxiv.org/pdf/2601.09041.pdf",
     "title": "ArXiv 2601.09041",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.651519"
+    "ts": "2026-01-16 04:05:53.651519",
+    "local_path": "downloads/2601.09041.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Can LLMs Interpret Figurative Language as Humans Do?: Surface-Level vs. Representational Similarity"
   },
   "2601.08996": {
     "type": "arxiv",
     "id": "2601.08996",
     "url": "https://arxiv.org/pdf/2601.08996.pdf",
     "title": "ArXiv 2601.08996",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.655149"
+    "ts": "2026-01-16 04:05:53.655149",
+    "local_path": "downloads/2601.08996.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Semiparametric estimation of GLMs with interval-censored covariates via an augmented Turnbull estimator"
   },
   "2601.08878": {
     "type": "arxiv",
     "id": "2601.08878",
     "url": "https://arxiv.org/pdf/2601.08878.pdf",
     "title": "ArXiv 2601.08878",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.658786"
+    "ts": "2026-01-16 04:05:53.658786",
+    "local_path": "downloads/2601.08878.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08878"
   },
   "2601.08841": {
     "type": "arxiv",
     "id": "2601.08841",
     "url": "https://arxiv.org/pdf/2601.08841.pdf",
     "title": "ArXiv 2601.08841",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.662490"
+    "ts": "2026-01-16 04:05:53.662490",
+    "local_path": "downloads/2601.08841.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents"
   },
   "2601.09561": {
     "type": "arxiv",
     "id": "2601.09561",
     "url": "https://arxiv.org/pdf/2601.09561.pdf",
     "title": "ArXiv 2601.09561",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.666112"
+    "ts": "2026-01-16 04:05:53.666112",
+    "local_path": "downloads/2601.09561.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Institutions, Education, and Religious Change: Evidence from Colombia"
   },
   "2601.09371": {
     "type": "arxiv",
     "id": "2601.09371",
     "url": "https://arxiv.org/pdf/2601.09371.pdf",
     "title": "ArXiv 2601.09371",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.669751"
+    "ts": "2026-01-16 04:05:53.669751",
+    "local_path": "downloads/2601.09371.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "White noise testing for functional time series via functional quantile autocorrelation"
   },
   "2601.09126": {
     "type": "arxiv",
     "id": "2601.09126",
     "url": "https://arxiv.org/pdf/2601.09126.pdf",
     "title": "ArXiv 2601.09126",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.673423"
+    "ts": "2026-01-16 04:05:53.673423",
+    "local_path": "downloads/2601.09126.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Scalar-on-distribution regression via generalized odds with applications to accelerometry-assessed disability in multiple sclerosis"
   },
   "2601.09280": {
     "type": "arxiv",
     "id": "2601.09280",
     "url": "https://arxiv.org/pdf/2601.09280.pdf",
     "title": "ArXiv 2601.09280",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.677119"
+    "ts": "2026-01-16 04:05:53.677119",
+    "local_path": "downloads/2601.09280.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ReGraM: Region-First Knowledge Graph Reasoning for Medical Question Answering"
   },
   "2601.09445": {
     "type": "arxiv",
     "id": "2601.09445",
     "url": "https://arxiv.org/pdf/2601.09445.pdf",
     "title": "ArXiv 2601.09445",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.680738"
+    "ts": "2026-01-16 04:05:53.680738",
+    "local_path": "downloads/2601.09445.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Where Knowledge Collides: A Mechanistic Study of Intra-Memory Knowledge Conflict in Language Models"
   },
   "2601.08864": {
     "type": "arxiv",
     "id": "2601.08864",
     "url": "https://arxiv.org/pdf/2601.08864.pdf",
     "title": "ArXiv 2601.08864",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.684314"
+    "ts": "2026-01-16 04:05:53.684314",
+    "local_path": "downloads/2601.08864.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Informed Consent for AI Consciousness Research: A Talmudic Framework for Graduated Protections**"
   },
   "2601.08851": {
     "type": "arxiv",
     "id": "2601.08851",
     "url": "https://arxiv.org/pdf/2601.08851.pdf",
     "title": "ArXiv 2601.08851",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.687943"
+    "ts": "2026-01-16 04:05:53.687943",
+    "local_path": "downloads/2601.08851.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "More context is not better. The Vector Dilution Paradox in Enterprise RAG"
   },
   "2601.09576": {
     "type": "arxiv",
     "id": "2601.09576",
     "url": "https://arxiv.org/pdf/2601.09576.pdf",
     "title": "ArXiv 2601.09576",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.691577"
+    "ts": "2026-01-16 04:05:53.691577",
+    "local_path": "downloads/2601.09576.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Smoothing spline density estimation from doubly truncated data"
   },
   "2601.09050": {
     "type": "arxiv",
     "id": "2601.09050",
     "url": "https://arxiv.org/pdf/2601.09050.pdf",
     "title": "ArXiv 2601.09050",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.695240"
+    "ts": "2026-01-16 04:05:53.695240",
+    "local_path": "downloads/2601.09050.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** SITA: Learning Speaker-Invariant and Tone-Aware Speech Representations for Low-Resource Tonal Languages"
   },
   "2601.08847": {
     "type": "arxiv",
     "id": "2601.08847",
     "url": "https://arxiv.org/pdf/2601.08847.pdf",
     "title": "ArXiv 2601.08847",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.698833"
+    "ts": "2026-01-16 04:05:53.698833",
+    "local_path": "downloads/2601.08847.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe**"
   },
   "2601.08874": {
     "type": "arxiv",
     "id": "2601.08874",
     "url": "https://arxiv.org/pdf/2601.08874.pdf",
     "title": "ArXiv 2601.08874",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.702501"
+    "ts": "2026-01-16 04:05:53.702501",
+    "local_path": "downloads/2601.08874.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.08874"
   },
   "2601.09351": {
     "type": "arxiv",
     "id": "2601.09351",
     "url": "https://arxiv.org/pdf/2601.09351.pdf",
     "title": "ArXiv 2601.09351",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.706114"
+    "ts": "2026-01-16 04:05:53.706114",
+    "local_path": "downloads/2601.09351.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Navigating Ethical AI Challenges in the Industrial Sector: Balancing Innovation and Responsibility**"
   },
   "2601.08877": {
     "type": "arxiv",
     "id": "2601.08877",
     "url": "https://arxiv.org/pdf/2601.08877.pdf",
     "title": "ArXiv 2601.08877",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.709730"
+    "ts": "2026-01-16 04:05:53.709730",
+    "local_path": "downloads/2601.08877.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Silenced by Design: Censorship, Governance, and the Politics of Access in Generative AI Refusal Behavior"
   },
   "2601.08837": {
     "type": "arxiv",
     "id": "2601.08837",
     "url": "https://arxiv.org/pdf/2601.08837.pdf",
     "title": "ArXiv 2601.08837",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-16 04:05:53.713449"
+    "ts": "2026-01-16 04:05:53.713449",
+    "local_path": "downloads/2601.08837.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda"
   },
   "2601.09365": {
     "type": "arxiv",
@@ -3759,5 +3839,41 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-16 04:05:54.747326"
+  },
+  "link_007ed060c3": {
+    "type": "pdf_link",
+    "id": "link_007ed060c3",
+    "url": "https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-16 10:33:03.428312"
+  },
+  "link_318bcfc4eb": {
+    "type": "pdf_link",
+    "id": "link_318bcfc4eb",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-16 10:33:03.432288"
+  },
+  "link_c6be85f378": {
+    "type": "pdf_link",
+    "id": "link_c6be85f378",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-16 10:33:03.436292"
+  },
+  "link_306637166d": {
+    "type": "pdf_link",
+    "id": "link_306637166d",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-16 10:33:03.440472"
   }
 }
