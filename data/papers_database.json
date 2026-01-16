@@ -3894,7 +3894,7 @@
     "url": "https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-16 10:33:03.428312"
   },
   "link_318bcfc4eb": {
@@ -3903,7 +3903,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-16 10:33:03.432288"
   },
   "link_c6be85f378": {
@@ -3912,7 +3912,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-16 10:33:03.436292"
   },
   "link_306637166d": {
@@ -3921,7 +3921,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=5622&context=mulr&amp;rt=Legal+Deserts+or+Mirages?+Lawyers,+Legal+Services,+and+Respect+for+Law+in+Rural+Wisconsin+and+Rural+America&amp;scisig=AHkA5jQVj_J8MpN9K2PWMtVF3EeL",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-16 10:33:03.440472"
   }
 }
