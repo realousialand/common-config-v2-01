@@ -12,8 +12,8 @@ permissions:
 jobs:
   scan_and_report:
     runs-on: ubuntu-22.04
-    # 🟢 修改这里：延长到 120 分钟 (2小时)，足够处理大批量论文
-    timeout-minutes: 120
+    # 🟢 修改这里：延长到 300 分钟，足够处理大批量论文
+    timeout-minutes: 300
     
     steps:
       - name: Checkout code
