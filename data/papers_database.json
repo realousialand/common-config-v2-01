@@ -4137,180 +4137,260 @@
     "id": "2601.10049",
     "url": "https://arxiv.org/pdf/2601.10049.pdf",
     "title": "ArXiv 2601.10049",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.113145"
+    "ts": "2026-01-18 04:10:25.113145",
+    "local_path": "downloads/2601.10049.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Weighted least squares estimation by multivariate-dependent weights for linear regression models"
   },
   "2601.09711": {
     "type": "arxiv",
     "id": "2601.09711",
     "url": "https://arxiv.org/pdf/2601.09711.pdf",
     "title": "ArXiv 2601.09711",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.117125"
+    "ts": "2026-01-18 04:10:25.117125",
+    "local_path": "downloads/2601.09711.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Behavioral Targeting: Legal Developments in Europe and the Netherlands"
   },
   "2601.10082": {
     "type": "arxiv",
     "id": "2601.10082",
     "url": "https://arxiv.org/pdf/2601.10082.pdf",
     "title": "ArXiv 2601.10082",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.121045"
+    "ts": "2026-01-18 04:10:25.121045",
+    "local_path": "downloads/2601.10082.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10082"
   },
   "2601.09857": {
     "type": "arxiv",
     "id": "2601.09857",
     "url": "https://arxiv.org/pdf/2601.09857.pdf",
     "title": "ArXiv 2601.09857",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.125032"
+    "ts": "2026-01-18 04:10:25.125032",
+    "local_path": "downloads/2601.09857.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.09857"
   },
   "2601.10580": {
     "type": "arxiv",
     "id": "2601.10580",
     "url": "https://arxiv.org/pdf/2601.10580.pdf",
     "title": "ArXiv 2601.10580",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.128991"
+    "ts": "2026-01-18 04:10:25.128991",
+    "local_path": "downloads/2601.10580.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10580"
   },
   "2601.09724": {
     "type": "arxiv",
     "id": "2601.09724",
     "url": "https://arxiv.org/pdf/2601.09724.pdf",
     "title": "ArXiv 2601.09724",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.132992"
+    "ts": "2026-01-18 04:10:25.132992",
+    "local_path": "downloads/2601.09724.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Syntactic Framing Fragility: An Audit of Robustness in LLM Ethical Decisions"
   },
   "2601.09833": {
     "type": "arxiv",
     "id": "2601.09833",
     "url": "https://arxiv.org/pdf/2601.09833.pdf",
     "title": "ArXiv 2601.09833",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.136953"
+    "ts": "2026-01-18 04:10:25.136953",
+    "local_path": "downloads/2601.09833.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations"
   },
   "2601.10645": {
     "type": "arxiv",
     "id": "2601.10645",
     "url": "https://arxiv.org/pdf/2601.10645.pdf",
     "title": "ArXiv 2601.10645",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.140961"
+    "ts": "2026-01-18 04:10:25.140961",
+    "local_path": "downloads/2601.10645.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Influential Training Data Retrieval for Explaining Verbalized Confidence of LLMs**"
   },
   "2601.10224": {
     "type": "arxiv",
     "id": "2601.10224",
     "url": "https://arxiv.org/pdf/2601.10224.pdf",
     "title": "ArXiv 2601.10224",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.144983"
+    "ts": "2026-01-18 04:10:25.144983",
+    "local_path": "downloads/2601.10224.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The hidden structure of innovation networks"
   },
   "2601.10205": {
     "type": "arxiv",
     "id": "2601.10205",
     "url": "https://arxiv.org/pdf/2601.10205.pdf",
     "title": "ArXiv 2601.10205",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.148974"
+    "ts": "2026-01-18 04:10:25.148974",
+    "local_path": "downloads/2601.10205.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** One Instruction Does Not Fit All: How Well Do Embeddings Align Personas and Instructions in Low-Resource Indian Languages?"
   },
   "2601.09732": {
     "type": "arxiv",
     "id": "2601.09732",
     "url": "https://arxiv.org/pdf/2601.09732.pdf",
     "title": "ArXiv 2601.09732",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.153039"
+    "ts": "2026-01-18 04:10:25.153039",
+    "local_path": "downloads/2601.09732.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Benchmarking Cross-Lingual Semantic Alignment in Multilingual Embeddings"
   },
   "2601.09941": {
     "type": "arxiv",
     "id": "2601.09941",
     "url": "https://arxiv.org/pdf/2601.09941.pdf",
     "title": "ArXiv 2601.09941",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.157081"
+    "ts": "2026-01-18 04:10:25.157081",
+    "local_path": "downloads/2601.09941.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tree Estimation and Saddlepoint-Based Diagnostics for the Nested Dirichlet Distribution: Application to Compositional Behavioral Data**"
   },
   "2601.10501": {
     "type": "arxiv",
     "id": "2601.10501",
     "url": "https://arxiv.org/pdf/2601.10501.pdf",
     "title": "ArXiv 2601.10501",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.161082"
+    "ts": "2026-01-18 04:10:25.161082",
+    "local_path": "downloads/2601.10501.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Semiparametric inference for inequality measures under nonignorable nonresponse using callback data"
   },
   "2601.10700": {
     "type": "arxiv",
     "id": "2601.10700",
     "url": "https://arxiv.org/pdf/2601.10700.pdf",
     "title": "ArXiv 2601.10700",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.165063"
+    "ts": "2026-01-18 04:10:25.165063",
+    "local_path": "downloads/2601.10700.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** LIBERTy: A Causal Framework for Benchmarking Concept-Based Explanations of LLMs with Structural Counterfactuals"
   },
   "2601.09712": {
     "type": "arxiv",
     "id": "2601.09712",
     "url": "https://arxiv.org/pdf/2601.09712.pdf",
     "title": "ArXiv 2601.09712",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.169778"
+    "ts": "2026-01-18 04:10:25.169778",
+    "local_path": "downloads/2601.09712.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Behavioral Targeting, a European Legal Perspective"
   },
   "2601.09874": {
     "type": "arxiv",
     "id": "2601.09874",
     "url": "https://arxiv.org/pdf/2601.09874.pdf",
     "title": "ArXiv 2601.09874",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.173876"
+    "ts": "2026-01-18 04:10:25.173876",
+    "local_path": "downloads/2601.09874.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Model selection by cross-validation in an expectile linear regression"
   },
   "2601.09722": {
     "type": "arxiv",
     "id": "2601.09722",
     "url": "https://arxiv.org/pdf/2601.09722.pdf",
     "title": "ArXiv 2601.09722",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.177882"
+    "ts": "2026-01-18 04:10:25.177882",
+    "local_path": "downloads/2601.09722.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ADMEDTAGGER: AN ANNOTATION FRAMEWORK FOR DISTILLATION OF EXPERT KNOWLEDGE FOR THE POLISH MEDICAL LANGUAGE"
   },
   "2601.09984": {
     "type": "arxiv",
     "id": "2601.09984",
     "url": "https://arxiv.org/pdf/2601.09984.pdf",
     "title": "ArXiv 2601.09984",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.181907"
+    "ts": "2026-01-18 04:10:25.181907",
+    "local_path": "downloads/2601.09984.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Estimating the effect of lymphovascular invasion on 2-year survival probability under endogeneity: a recursive copula-based approach"
   },
   "2601.09730": {
     "type": "arxiv",
     "id": "2601.09730",
     "url": "https://arxiv.org/pdf/2601.09730.pdf",
     "title": "ArXiv 2601.09730",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.185939"
+    "ts": "2026-01-18 04:10:25.185939",
+    "local_path": "downloads/2601.09730.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Clinical Document Metadata Extraction: A Scoping Review"
   },
   "2601.09853": {
     "type": "arxiv",
     "id": "2601.09853",
     "url": "https://arxiv.org/pdf/2601.09853.pdf",
     "title": "ArXiv 2601.09853",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.190025"
+    "ts": "2026-01-18 04:10:25.190025",
+    "local_path": "downloads/2601.09853.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MedRedFlag: Investigating how LLMs Redirect Misconceptions in Real-World Health Communication**"
   },
   "2601.10590": {
     "type": "arxiv",
