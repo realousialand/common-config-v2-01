@@ -4397,143 +4397,246 @@
     "id": "2601.10590",
     "url": "https://arxiv.org/pdf/2601.10590.pdf",
     "title": "ArXiv 2601.10590",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.194093"
+    "ts": "2026-01-18 04:10:25.194093",
+    "local_path": "downloads/2601.10590.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From aggressive to conservative early stopping in Bayesian group sequential designs"
   },
   "2601.10464": {
     "type": "arxiv",
     "id": "2601.10464",
     "url": "https://arxiv.org/pdf/2601.10464.pdf",
     "title": "ArXiv 2601.10464",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.198133"
+    "ts": "2026-01-18 04:10:25.198133",
+    "local_path": "downloads/2601.10464.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MitoFREQ: A Novel Approach for Mitogenome Frequency Estimation from Top-level Haplogroups and Single Nucleotide Variants"
   },
   "2601.10533": {
     "type": "arxiv",
     "id": "2601.10533",
     "url": "https://arxiv.org/pdf/2601.10533.pdf",
     "title": "ArXiv 2601.10533",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.202257"
+    "ts": "2026-01-18 04:10:25.202257",
+    "local_path": "downloads/2601.10533.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Propagation Framework for Network Regression"
   },
   "2601.09729": {
     "type": "arxiv",
     "id": "2601.09729",
     "url": "https://arxiv.org/pdf/2601.09729.pdf",
     "title": "ArXiv 2601.09729",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.206436"
+    "ts": "2026-01-18 04:10:25.206436",
+    "local_path": "downloads/2601.09729.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.09729"
   },
   "2601.10445": {
     "type": "arxiv",
     "id": "2601.10445",
     "url": "https://arxiv.org/pdf/2601.10445.pdf",
     "title": "ArXiv 2601.10445",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.210509"
+    "ts": "2026-01-18 04:10:25.210509",
+    "local_path": "downloads/2601.10445.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Modeling mental health trajectories during the COVID-19 pandemic using UK-wide data in the presence of sociodemographic variables"
   },
   "2601.10048": {
     "type": "arxiv",
     "id": "2601.10048",
     "url": "https://arxiv.org/pdf/2601.10048.pdf",
     "title": "ArXiv 2601.10048",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.214590"
+    "ts": "2026-01-18 04:10:25.214590",
+    "local_path": "downloads/2601.10048.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Multi-Sender Disclosure with Costs"
   },
   "2601.10198": {
     "type": "arxiv",
     "id": "2601.10198",
     "url": "https://arxiv.org/pdf/2601.10198.pdf",
     "title": "ArXiv 2601.10198",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.218678"
+    "ts": "2026-01-18 04:10:25.218678",
+    "local_path": "downloads/2601.10198.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "HUMAN LLM: Enhancing Large Language Model Anthropomorphism Through Psychologically Grounded Cognitive Pattern Simulation"
   },
   "2601.09968": {
     "type": "arxiv",
     "id": "2601.09968",
     "url": "https://arxiv.org/pdf/2601.09968.pdf",
     "title": "ArXiv 2601.09968",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.222757"
+    "ts": "2026-01-18 04:10:25.222757",
+    "local_path": "downloads/2601.09968.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Derivations for the Cumulative Standardized Binomial EWMA (CSB-EWMA) Control Chart"
   },
   "2601.10122": {
     "type": "arxiv",
     "id": "2601.10122",
     "url": "https://arxiv.org/pdf/2601.10122.pdf",
     "title": "ArXiv 2601.10122",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.226840"
+    "ts": "2026-01-18 04:10:25.226840",
+    "local_path": "downloads/2601.10122.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10122"
   },
   "2601.10160": {
     "type": "arxiv",
     "id": "2601.10160",
     "url": "https://arxiv.org/pdf/2601.10160.pdf",
     "title": "ArXiv 2601.10160",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.230968"
+    "ts": "2026-01-18 04:10:25.230968",
+    "local_path": "downloads/2601.10160.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10160"
   },
   "2601.09727": {
     "type": "arxiv",
     "id": "2601.09727",
     "url": "https://arxiv.org/pdf/2601.09727.pdf",
     "title": "ArXiv 2601.09727",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.235126"
+    "ts": "2026-01-18 04:10:25.235126",
+    "local_path": "downloads/2601.09727.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** SciNets: Graph-Constrained Multi-Hop Reasoning for Scientific Literature Synthesis"
   },
   "2601.10006": {
     "type": "arxiv",
     "id": "2601.10006",
     "url": "https://arxiv.org/pdf/2601.10006.pdf",
     "title": "ArXiv 2601.10006",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.239232"
+    "ts": "2026-01-18 04:10:25.239232",
+    "local_path": "downloads/2601.10006.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Knowable Future: Mapping the Decay of Past–Future Mutual Information Across Forecast Horizons"
   },
   "2601.10252": {
     "type": "arxiv",
     "id": "2601.10252",
     "url": "https://arxiv.org/pdf/2601.10252.pdf",
     "title": "ArXiv 2601.10252",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.243379"
+    "ts": "2026-01-18 04:10:25.243379",
+    "local_path": "downloads/2601.10252.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10252"
   },
   "2601.09757": {
     "type": "arxiv",
     "id": "2601.09757",
     "url": "https://arxiv.org/pdf/2601.09757.pdf",
     "title": "ArXiv 2601.09757",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:25.248010"
+    "ts": "2026-01-18 04:10:25.248010",
+    "local_path": "downloads/2601.09757.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Democracy & Distrust in an Era of Artificial Intelligence**"
   },
   "10.21511/ppm.22(1).2024.44": {
     "type": "doi",
     "id": "10.21511/ppm.22(1).2024.44",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:58.150422"
+    "ts": "2026-01-18 04:10:58.150422",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Factors affecting organizational citizenship behavior of budget hotel employees in Indonesia: Examining the mediating role of work engagement and affective commitment\n\nABSTRACT: Organizational citizenship behavior pertains to the voluntary actions undertaken by individuals inside an organization to enhance its overall efficacy, especially in the absence of express acknowledgment from the formal incentive system. This study aims to investigate the role of work engagement and affective commitment in mediating the effect of perceived organizational support on organizational citizenship behavior. This quantitative design uses survey methodologies by sending questionnaires to frontline staff in budget hotels in Medan, Indonesia. The sample includes 225 frontline employees with at least a year of experience working in budget hotels in Medan, Indonesia. Data were collected through a Likert scale questionnaire and analyzed using SEM-PLS processed with SmartPLS 4.0 software. The findings suggest a significant relationship between perceived organizational support, work engagement, affective commitment, and organizational citizenship behavior (p &amp;amp;lt; 0.05). In addition, the influence of perceived organizational support on work engagement and affective commitment is noteworthy (p &amp;amp;lt; 0.05). Organizational citizenship behavior is affected by perceived organizational support through work engagement (p &amp;amp;lt; 0.05) and affective commitment (p &amp;amp;lt; 0.05). The results have significant ramifications for organizations. Organizations should establish frameworks that foster employee engagement and dedication. In addition, organizations should actively promote and incentivize employees to dedicate their time, exertion, and innovative thoughts for the betterment of their colleagues and the organization.",
+    "real_title": "Factors affecting organizational citizenship behavior of budget hotel employees in Indonesia: Examining the mediating role of work engagement and affective commitment"
   },
   "10.1016/j.drugpo.2026.105153": {
     "type": "doi",
     "id": "10.1016/j.drugpo.2026.105153",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-18 04:10:59.679094"
+    "ts": "2026-01-18 04:10:59.679094",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Nurse prescribing of opioid agonist treatment in Ireland: Evidence, governance, and the politics of drug policy decision-making\n\nABSTRACT: 无摘要",
+    "real_title": "Nurse prescribing of opioid agonist treatment in Ireland: Evidence, governance, and the politics of drug policy decision-making"
+  },
+  "10.1007/s11166-025-09473-7": {
+    "type": "doi",
+    "id": "10.1007/s11166-025-09473-7",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-18 16:33:30.146487",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Randomization preference and the reversal of order axiom\n\nABSTRACT: 无摘要",
+    "real_title": "Randomization preference and the reversal of order axiom"
+  },
+  "link_dd41b923ae": {
+    "type": "pdf_link",
+    "id": "link_dd41b923ae",
+    "url": "https://www.academia.edu/download/126075108/admin_11_02_03_septiana_1_.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-18 16:33:30.574994",
+    "local_path": "downloads/link_dd41b923ae.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Communication and Consultation Models for Following Up Audit Reports of Indonesian Public Auditing**"
+  },
+  "link_fe495596ca": {
+    "type": "pdf_link",
+    "id": "link_fe495596ca",
+    "url": "https://www.academia.edu/download/125990165/824.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-18 16:33:30.579997",
+    "local_path": "downloads/link_fe495596ca.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Association of Temperature and Humidity with COVID-19 Transmission in Punjab, Pakistan"
   }
 }
