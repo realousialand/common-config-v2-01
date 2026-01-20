@@ -4904,180 +4904,260 @@
     "id": "2601.11190",
     "url": "https://arxiv.org/pdf/2601.11190.pdf",
     "title": "ArXiv 2601.11190",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.034475"
+    "ts": "2026-01-20 04:10:48.034475",
+    "local_path": "downloads/2601.11190.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "DOREMI: Optimizing Long Tail Predictions in Document-Level Relation Extraction [⋆]"
   },
   "2601.11347": {
     "type": "arxiv",
     "id": "2601.11347",
     "url": "https://arxiv.org/pdf/2601.11347.pdf",
     "title": "ArXiv 2601.11347",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.039484"
+    "ts": "2026-01-20 04:10:48.039484",
+    "local_path": "downloads/2601.11347.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Optimal e-values for testing the mean of a bounded random variable against a composite alternative"
   },
   "2601.11314": {
     "type": "arxiv",
     "id": "2601.11314",
     "url": "https://arxiv.org/pdf/2601.11314.pdf",
     "title": "ArXiv 2601.11314",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.044727"
+    "ts": "2026-01-20 04:10:48.044727",
+    "local_path": "downloads/2601.11314.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Membership Inference on LLMs in the Wild"
   },
   "2601.11488": {
     "type": "arxiv",
     "id": "2601.11488",
     "url": "https://arxiv.org/pdf/2601.11488.pdf",
     "title": "ArXiv 2601.11488",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.049725"
+    "ts": "2026-01-20 04:10:48.049725",
+    "local_path": "downloads/2601.11488.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** CTEST-METRIC: A UNIFIED FRAMEWORK TO ASSESS CLINICAL VALIDITY OF METRICS FOR CT REPORT GENERATION"
   },
   "2601.11233": {
     "type": "arxiv",
     "id": "2601.11233",
     "url": "https://arxiv.org/pdf/2601.11233.pdf",
     "title": "ArXiv 2601.11233",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.054916"
+    "ts": "2026-01-20 04:10:48.054916",
+    "local_path": "downloads/2601.11233.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Estimation of time series by Maximum Mean Discrepancy"
   },
   "2601.10804": {
     "type": "arxiv",
     "id": "2601.10804",
     "url": "https://arxiv.org/pdf/2601.10804.pdf",
     "title": "ArXiv 2601.10804",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.060600"
+    "ts": "2026-01-20 04:10:48.060600",
+    "local_path": "downloads/2601.10804.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "BYOL: Bring Your Own Language Into LLMs"
   },
   "2601.11461": {
     "type": "arxiv",
     "id": "2601.11461",
     "url": "https://arxiv.org/pdf/2601.11461.pdf",
     "title": "ArXiv 2601.11461",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.065652"
+    "ts": "2026-01-20 04:10:48.065652",
+    "local_path": "downloads/2601.11461.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Smooth SCAD: A Raised Cosine SCAD Type Thresholding Rule for Wavelet Denoising"
   },
   "2601.11170": {
     "type": "arxiv",
     "id": "2601.11170",
     "url": "https://arxiv.org/pdf/2601.11170.pdf",
     "title": "ArXiv 2601.11170",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.070598"
+    "ts": "2026-01-20 04:10:48.070598",
+    "local_path": "downloads/2601.11170.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Growing Gains and Pains of Iterative Web Corpora Crawling: Insights from South Slavic CLASSLA-web 2.0 Corpora"
   },
   "2601.10896": {
     "type": "arxiv",
     "id": "2601.10896",
     "url": "https://arxiv.org/pdf/2601.10896.pdf",
     "title": "ArXiv 2601.10896",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.077355"
+    "ts": "2026-01-20 04:10:48.077355",
+    "local_path": "downloads/2601.10896.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** DialDefer: A Framework for Detecting and Mitigating LLM Dialogic Deference"
   },
   "2601.11093": {
     "type": "arxiv",
     "id": "2601.11093",
     "url": "https://arxiv.org/pdf/2601.11093.pdf",
     "title": "ArXiv 2601.11093",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.082209"
+    "ts": "2026-01-20 04:10:48.082209",
+    "local_path": "downloads/2601.11093.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** INTEGRITY SHIELD: A System for Ethical AI Use & Authorship Transparency in Assessments"
   },
   "2601.11344": {
     "type": "arxiv",
     "id": "2601.11344",
     "url": "https://arxiv.org/pdf/2601.11344.pdf",
     "title": "ArXiv 2601.11344",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.087079"
+    "ts": "2026-01-20 04:10:48.087079",
+    "local_path": "downloads/2601.11344.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** How Much Would a Clinician Edit This Draft? Evaluating LLM Alignment for Patient Message Response Drafting"
   },
   "2601.11033": {
     "type": "arxiv",
     "id": "2601.11033",
     "url": "https://arxiv.org/pdf/2601.11033.pdf",
     "title": "ArXiv 2601.11033",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.092154"
+    "ts": "2026-01-20 04:10:48.092154",
+    "local_path": "downloads/2601.11033.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Noise-resilient penalty operators based on statistical differentiation schemes"
   },
   "2601.10919": {
     "type": "arxiv",
     "id": "2601.10919",
     "url": "https://arxiv.org/pdf/2601.10919.pdf",
     "title": "ArXiv 2601.10919",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.097147"
+    "ts": "2026-01-20 04:10:48.097147",
+    "local_path": "downloads/2601.10919.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Note on Harmonic Underspecification in Log-Normal Trigonometric Regression"
   },
   "2601.11255": {
     "type": "arxiv",
     "id": "2601.11255",
     "url": "https://arxiv.org/pdf/2601.11255.pdf",
     "title": "ArXiv 2601.11255",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.102079"
+    "ts": "2026-01-20 04:10:48.102079",
+    "local_path": "downloads/2601.11255.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Reasoning in Trees: Improving Retrieval-Augmented Generation for Multi-Hop Question Answering"
   },
   "2601.11332": {
     "type": "arxiv",
     "id": "2601.11332",
     "url": "https://arxiv.org/pdf/2601.11332.pdf",
     "title": "ArXiv 2601.11332",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.107093"
+    "ts": "2026-01-20 04:10:48.107093",
+    "local_path": "downloads/2601.11332.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Idea First, Code Later: Disentangling Problem Solving from Code Generation in Evaluating LLMs for Competitive Programming**"
   },
   "2601.11214": {
     "type": "arxiv",
     "id": "2601.11214",
     "url": "https://arxiv.org/pdf/2601.11214.pdf",
     "title": "ArXiv 2601.11214",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.112089"
+    "ts": "2026-01-20 04:10:48.112089",
+    "local_path": "downloads/2601.11214.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Progressive Block Scaling for MDM Through Trajectory Aware RL"
   },
   "2601.11465": {
     "type": "arxiv",
     "id": "2601.11465",
     "url": "https://arxiv.org/pdf/2601.11465.pdf",
     "title": "ArXiv 2601.11465",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.117062"
+    "ts": "2026-01-20 04:10:48.117062",
+    "local_path": "downloads/2601.11465.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Optimal transport based theory for latent structured models"
   },
   "2601.11379": {
     "type": "arxiv",
     "id": "2601.11379",
     "url": "https://arxiv.org/pdf/2601.11379.pdf",
     "title": "ArXiv 2601.11379",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.122206"
+    "ts": "2026-01-20 04:10:48.122206",
+    "local_path": "downloads/2601.11379.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating LLM Behavior in Hiring: Implicit Weights, Fairness Across Groups, and Alignment with Human Preferences**"
   },
   "2601.10970": {
     "type": "arxiv",
     "id": "2601.10970",
     "url": "https://arxiv.org/pdf/2601.10970.pdf",
     "title": "ArXiv 2601.10970",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.127282"
+    "ts": "2026-01-20 04:10:48.127282",
+    "local_path": "downloads/2601.10970.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10970"
   },
   "2601.11441": {
     "type": "arxiv",
     "id": "2601.11441",
     "url": "https://arxiv.org/pdf/2601.11441.pdf",
     "title": "ArXiv 2601.11441",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.132347"
+    "ts": "2026-01-20 04:10:48.132347",
+    "local_path": "downloads/2601.11441.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "HIERARCHICAL ORTHOGONAL RESIDUAL SPREAD FOR PRECISE MASSIVE EDITING IN LARGE LANGUAGE MODELS**"
   },
   "2601.10925": {
     "type": "arxiv",
