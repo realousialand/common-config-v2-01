@@ -5164,125 +5164,177 @@
     "id": "2601.10925",
     "url": "https://arxiv.org/pdf/2601.10925.pdf",
     "title": "ArXiv 2601.10925",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.137455"
+    "ts": "2026-01-20 04:10:48.137455",
+    "local_path": "downloads/2601.10925.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Massively Multilingual Joint Segmentation and Glossing**"
   },
   "2601.11002": {
     "type": "arxiv",
     "id": "2601.11002",
     "url": "https://arxiv.org/pdf/2601.11002.pdf",
     "title": "ArXiv 2601.11002",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.142726"
+    "ts": "2026-01-20 04:10:48.142726",
+    "local_path": "downloads/2601.11002.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Redefining Machine Simultaneous Interpretation: From Incremental Translation to Human-Like Strategies"
   },
   "2601.11000": {
     "type": "arxiv",
     "id": "2601.11000",
     "url": "https://arxiv.org/pdf/2601.11000.pdf",
     "title": "ArXiv 2601.11000",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.147786"
+    "ts": "2026-01-20 04:10:48.147786",
+    "local_path": "downloads/2601.11000.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs"
   },
   "2601.10852": {
     "type": "arxiv",
     "id": "2601.10852",
     "url": "https://arxiv.org/pdf/2601.10852.pdf",
     "title": "ArXiv 2601.10852",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.152888"
+    "ts": "2026-01-20 04:10:48.152888",
+    "local_path": "downloads/2601.10852.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Gamifying Cyber Governance: A Virtual Escape Room to Transform Cybersecurity Policy Education"
   },
   "2601.10862": {
     "type": "arxiv",
     "id": "2601.10862",
     "url": "https://arxiv.org/pdf/2601.10862.pdf",
     "title": "ArXiv 2601.10862",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.157979"
+    "ts": "2026-01-20 04:10:48.157979",
+    "local_path": "downloads/2601.10862.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Beyond Unidimensionality: General Factors and Residual Heterogeneity in Performance Evaluation"
   },
   "2601.11202": {
     "type": "arxiv",
     "id": "2601.11202",
     "url": "https://arxiv.org/pdf/2601.11202.pdf",
     "title": "ArXiv 2601.11202",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.163098"
+    "ts": "2026-01-20 04:10:48.163098",
+    "local_path": "downloads/2601.11202.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11202"
   },
   "2601.11047": {
     "type": "arxiv",
     "id": "2601.11047",
     "url": "https://arxiv.org/pdf/2601.11047.pdf",
     "title": "ArXiv 2601.11047",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.168229"
+    "ts": "2026-01-20 04:10:48.168229",
+    "local_path": "downloads/2601.11047.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CoG: Controllable Graph Reasoning via Relational Blueprints and Failure-Aware Refinement over Knowledge Graphs**"
   },
   "2601.10775": {
     "type": "arxiv",
     "id": "2601.10775",
     "url": "https://arxiv.org/pdf/2601.10775.pdf",
     "title": "ArXiv 2601.10775",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.173460"
+    "ts": "2026-01-20 04:10:48.173460",
+    "local_path": "downloads/2601.10775.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.10775"
   },
   "2601.11196": {
     "type": "arxiv",
     "id": "2601.11196",
     "url": "https://arxiv.org/pdf/2601.11196.pdf",
     "title": "ArXiv 2601.11196",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.178628"
+    "ts": "2026-01-20 04:10:48.178628",
+    "local_path": "downloads/2601.11196.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Artificial Intelligence and the US Economy: An Accounting Perspective on Investment and Production"
   },
   "2601.11422": {
     "type": "arxiv",
     "id": "2601.11422",
     "url": "https://arxiv.org/pdf/2601.11422.pdf",
     "title": "ArXiv 2601.11422",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:48.183803"
+    "ts": "2026-01-20 04:10:48.183803",
+    "local_path": "downloads/2601.11422.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "STEIN’S METHOD FOR THE MATRIX NORMAL DISTRIBUTION"
   },
   "10.1016/j.socscimed.2025.118916": {
     "type": "doi",
     "id": "10.1016/j.socscimed.2025.118916",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:49.479723"
+    "ts": "2026-01-20 04:10:49.479723",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: When health meets politics: Selective gatekeeping of health experts in Chinese media during COVID-19\n\nABSTRACT: 无摘要",
+    "real_title": "When health meets politics: Selective gatekeeping of health experts in Chinese media during COVID-19"
   },
   "10.1016/j.socscimed.2025.118888": {
     "type": "doi",
     "id": "10.1016/j.socscimed.2025.118888",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:49.485287"
+    "ts": "2026-01-20 04:10:49.485287",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Why is the pharmaceutical industry investing in targeted therapies? The emergence of “premium pharma”\n\nABSTRACT: 无摘要",
+    "real_title": "Why is the pharmaceutical industry investing in targeted therapies? The emergence of “premium pharma”"
   },
   "10.1177/08862605251408136": {
     "type": "doi",
     "id": "10.1177/08862605251408136",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:10:49.490570"
+    "ts": "2026-01-20 04:10:49.490570",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Who’s Watching, Who’s Waiting? Predictors of Bystander Intervention in Adolescent Bullying\n\nABSTRACT: Bullying poses ongoing challenges to student safety and well-being in schools, yet many instruments, such as the Centers for Disease Control and Prevention’s Youth Risk Behavior Survey, do not address bystander behavior. This study examined how 3,717 middle and high school students in 14 schools in the western United States respond when witnessing bullying and what factors influence their responses. Findings suggest that friendship with the target significantly increased both defending behaviors and the likelihood that bullying stopped or decreased. Gender influenced responses, with female students more likely to report and male students more likely to fight back. Racial alignment between bystander and target predicted higher reporting rates and intervention success, raising concerns about in-group favoritism. Physical bullying prompted more intervention than verbal and relational bullying, though verbal bullying was more prevalent. Findings underscore the need for culturally responsive, relationship-focused interventions to strengthen bystander engagement across contexts.",
+    "real_title": "Who’s Watching, Who’s Waiting? Predictors of Bystander Intervention in Adolescent Bullying"
   },
   "link_21276ad068": {
     "type": "pdf_link",
     "id": "link_21276ad068",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://trace.tennessee.edu/cgi/viewcontent.cgi?article=13848&context=utk_graddiss&amp;rt=TRACE:+Tennessee+Research+and+Creativ+e+Exchange&amp;scisig=AHkA5jRBSGxLw5WcZmGKFv4kY7JT",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-20 04:10:50.150087"
   },
   "link_09762f7fd5": {
@@ -5290,8 +5342,8 @@
     "id": "link_09762f7fd5",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://trace.tennessee.edu/cgi/viewcontent.cgi?article=13848&context=utk_graddiss&amp;rt=TRACE:+Tennessee+Research+and+Creativ+e+Exchange&amp;scisig=AHkA5jRBSGxLw5WcZmGKFv4kY7JT",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-20 04:10:50.155532"
   },
   "link_95318a35a9": {
@@ -5299,8 +5351,8 @@
     "id": "link_95318a35a9",
     "url": "https://trace.tennessee.edu/cgi/viewcontent.cgi?article=13848",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-20 04:10:50.160845"
   },
   "link_99ed5f81a9": {
@@ -5308,8 +5360,8 @@
     "id": "link_99ed5f81a9",
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://trace.tennessee.edu/cgi/viewcontent.cgi?article=13848&context=utk_graddiss&amp;rt=TRACE:+Tennessee+Research+and+Creativ+e+Exchange&amp;scisig=AHkA5jRBSGxLw5WcZmGKFv4kY7JT",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-20 04:10:50.166202"
   },
   "10.32424/1.sar.2025.10.2.18586": {
@@ -5317,8 +5369,12 @@
     "id": "10.32424/1.sar.2025.10.2.18586",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-20 04:11:05.385050"
+    "ts": "2026-01-20 04:11:05.385050",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Influence of Corporate Governance, Leverage, and Institutional Ownership on Tax Avoidance with Board Gender Diversity as Moderating Variable\n\nABSTRACT: 无摘要",
+    "real_title": "The Influence of Corporate Governance, Leverage, and Institutional Ownership on Tax Avoidance with Board Gender Diversity as Moderating Variable"
   }
 }
