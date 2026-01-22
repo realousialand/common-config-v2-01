@@ -5902,116 +5902,168 @@
     "id": "2601.11776",
     "url": "https://arxiv.org/pdf/2601.11776.pdf",
     "title": "ArXiv 2601.11776",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.318559"
+    "ts": "2026-01-22 04:13:37.318559",
+    "local_path": "downloads/2601.11776.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Cleansing the Artificial Mind: A Self-Reflective Detoxification Framework for Large Language Models"
   },
   "2601.11886": {
     "type": "arxiv",
     "id": "2601.11886",
     "url": "https://arxiv.org/pdf/2601.11886.pdf",
     "title": "ArXiv 2601.11886",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.324784"
+    "ts": "2026-01-22 04:13:37.324784",
+    "local_path": "downloads/2601.11886.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11886"
   },
   "2601.12910": {
     "type": "arxiv",
     "id": "2601.12910",
     "url": "https://arxiv.org/pdf/2601.12910.pdf",
     "title": "ArXiv 2601.12910",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.330926"
+    "ts": "2026-01-22 04:13:37.330926",
+    "local_path": "downloads/2601.12910.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** SCI CO QA: Quality Assurance for Scientific Paper–Code Alignment"
   },
   "2601.11576": {
     "type": "arxiv",
     "id": "2601.11576",
     "url": "https://arxiv.org/pdf/2601.11576.pdf",
     "title": "ArXiv 2601.11576",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.337085"
+    "ts": "2026-01-22 04:13:37.337085",
+    "local_path": "downloads/2601.11576.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** What Can Student-AI Dialogues Tell Us About Students’ Self-Regulated Learning? An exploratory framework"
   },
   "2601.11758": {
     "type": "arxiv",
     "id": "2601.11758",
     "url": "https://arxiv.org/pdf/2601.11758.pdf",
     "title": "ArXiv 2601.11758",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.343542"
+    "ts": "2026-01-22 04:13:37.343542",
+    "local_path": "downloads/2601.11758.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11758"
   },
   "2601.12376": {
     "type": "arxiv",
     "id": "2601.12376",
     "url": "https://arxiv.org/pdf/2601.12376.pdf",
     "title": "ArXiv 2601.12376",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.349727"
+    "ts": "2026-01-22 04:13:37.349727",
+    "local_path": "downloads/2601.12376.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.12376"
   },
   "2601.13998": {
     "type": "arxiv",
     "id": "2601.13998",
     "url": "https://arxiv.org/pdf/2601.13998.pdf",
     "title": "ArXiv 2601.13998",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.356258"
+    "ts": "2026-01-22 04:13:37.356258",
+    "local_path": "downloads/2601.13998.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Modeling Zero-Inflated Longitudinal Circular Data Using Bayesian Methods: Application to Ophthalmology"
   },
   "2601.14160": {
     "type": "arxiv",
     "id": "2601.14160",
     "url": "https://arxiv.org/pdf/2601.14160.pdf",
     "title": "ArXiv 2601.14160",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.362550"
+    "ts": "2026-01-22 04:13:37.362550",
+    "local_path": "downloads/2601.14160.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Domain-Adaptation through Synthetic Data: Fine-Tuning Large Language Models for German Law"
   },
   "2601.12646": {
     "type": "arxiv",
     "id": "2601.12646",
     "url": "https://arxiv.org/pdf/2601.12646.pdf",
     "title": "ArXiv 2601.12646",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.368710"
+    "ts": "2026-01-22 04:13:37.368710",
+    "local_path": "downloads/2601.12646.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.12646"
   },
   "2601.12419": {
     "type": "arxiv",
     "id": "2601.12419",
     "url": "https://arxiv.org/pdf/2601.12419.pdf",
     "title": "ArXiv 2601.12419",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.375146"
+    "ts": "2026-01-22 04:13:37.375146",
+    "local_path": "downloads/2601.12419.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Legal experts disagree with rationale extraction techniques for explaining ECtHR case outcome classification"
   },
   "2601.11528": {
     "type": "arxiv",
     "id": "2601.11528",
     "url": "https://arxiv.org/pdf/2601.11528.pdf",
     "title": "ArXiv 2601.11528",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.381312"
+    "ts": "2026-01-22 04:13:37.381312",
+    "local_path": "downloads/2601.11528.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11528"
   },
   "link_1d8bad8d7c": {
     "type": "pdf_link",
     "id": "link_1d8bad8d7c",
     "url": "https://www.aimspress.com/aimspress-data/nar/2026/1/PDF/NAR-08-01-001.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 10:36:49.001377"
+    "ts": "2026-01-22 10:36:49.001377",
+    "local_path": "downloads/link_1d8bad8d7c.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The involvement of the Spanish industrial sector in environmental sustainability and its impact on productivity"
   },
   "10.1177/09722629251408934": {
     "type": "doi",
     "id": "10.1177/09722629251408934",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 10:37:03.957225"
+    "ts": "2026-01-22 10:37:03.957225",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Mapping Time Preference in the Field of Behavioural Finance: A Systematic Review and Bibliometric Analysis of Trends and Future Directions\n\nABSTRACT: \n                    This systematic investigation, accompanied by bibliometric analysis, aims to present both quantitative and qualitative insights into the rapidly developing field of behavioural finance, which has lacked comprehensive summaries in existing literature. The study analyses production and visualizes trends in 681 Scopus-indexed peer-reviewed journal articles from 2000 to 2024 on time preference. We employ citation networks, co-occurrence analysis, content analysis and co-citation analysis, as well as examination of publication trends, to uncover influential works, construct the theoretical framework of our field of study and identify research gaps, utilizing the VOSviewer tool. For mapping to conceptual, thematic and intellectual frameworks present in 203 published articles in A*, A and B categories in the ABDC 2022 ranking list of top journals, contextualized systematic review and bibliometric techniques are employed. In 2021, Stanford University led in productivity with 32 publications, while Durham University ranked high with 623 citations. The United States dominated with 77 publications and 4,309 citations in time preference research in finance. Frederick and Shane emerged as the most impactful authors, with 3,520 citations, while Charles Sprenger led in publications. The\n                    Journal of Economic Literature\n                    and the\n                    American Economic Review\n                    were top journals. Notable works include Frederick et al. (2002,\n                    Journal of Economic Literature\n                    ,\n                    40\n                    (2), 351–401), which has 3,468 citations. Overall, this analysis identifies key institutions, authors, journals and articles that shape the landscape of time preference research in finance, highlighting significant contributions and influential figures. The document offers a synopsis of the present state of the investigation in the time preference literature in finance and recommendations for future areas of study.\n                  ",
+    "real_title": "Mapping Time Preference in the Field of Behavioural Finance: A Systematic Review and Bibliometric Analysis of Trends and Future Directions"
   }
 }
