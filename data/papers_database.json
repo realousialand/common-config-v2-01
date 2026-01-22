@@ -5642,180 +5642,260 @@
     "id": "2601.13834",
     "url": "https://arxiv.org/pdf/2601.13834.pdf",
     "title": "ArXiv 2601.13834",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.194970"
+    "ts": "2026-01-22 04:13:37.194970",
+    "local_path": "downloads/2601.13834.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Liabilities for the social cost of carbon"
   },
   "2601.11872": {
     "type": "arxiv",
     "id": "2601.11872",
     "url": "https://arxiv.org/pdf/2601.11872.pdf",
     "title": "ArXiv 2601.11872",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.201236"
+    "ts": "2026-01-22 04:13:37.201236",
+    "local_path": "downloads/2601.11872.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11872"
   },
   "2601.12696": {
     "type": "arxiv",
     "id": "2601.12696",
     "url": "https://arxiv.org/pdf/2601.12696.pdf",
     "title": "ArXiv 2601.12696",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.207556"
+    "ts": "2026-01-22 04:13:37.207556",
+    "local_path": "downloads/2601.12696.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages**"
   },
   "2601.14105": {
     "type": "arxiv",
     "id": "2601.14105",
     "url": "https://arxiv.org/pdf/2601.14105.pdf",
     "title": "ArXiv 2601.14105",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.213878"
+    "ts": "2026-01-22 04:13:37.213878",
+    "local_path": "downloads/2601.14105.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Truth with a Twist: The Rhetoric of Persuasion in Professional vs. Community-Authored Fact-Checks"
   },
   "2601.12099": {
     "type": "arxiv",
     "id": "2601.12099",
     "url": "https://arxiv.org/pdf/2601.12099.pdf",
     "title": "ArXiv 2601.12099",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.220017"
+    "ts": "2026-01-22 04:13:37.220017",
+    "local_path": "downloads/2601.12099.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Large Language Models Struggle With Ethnographic Text Annotation"
   },
   "2601.13024": {
     "type": "arxiv",
     "id": "2601.13024",
     "url": "https://arxiv.org/pdf/2601.13024.pdf",
     "title": "ArXiv 2601.13024",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.226325"
+    "ts": "2026-01-22 04:13:37.226325",
+    "local_path": "downloads/2601.13024.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tears or Cheers? Benchmarking LLMs via Culturally Elicited Distinct Affective Responses"
   },
   "2601.12710": {
     "type": "arxiv",
     "id": "2601.12710",
     "url": "https://arxiv.org/pdf/2601.12710.pdf",
     "title": "ArXiv 2601.12710",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.232505"
+    "ts": "2026-01-22 04:13:37.232505",
+    "local_path": "downloads/2601.12710.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Global Food Trade Network as a Complex Adaptive System: A Review of Structure, Evolution, and Resilience"
   },
   "2601.11778": {
     "type": "arxiv",
     "id": "2601.11778",
     "url": "https://arxiv.org/pdf/2601.11778.pdf",
     "title": "ArXiv 2601.11778",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.238672"
+    "ts": "2026-01-22 04:13:37.238672",
+    "local_path": "downloads/2601.11778.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Translation as a Scalable Proxy for Multilingual Evaluation**"
   },
   "2601.13627": {
     "type": "arxiv",
     "id": "2601.13627",
     "url": "https://arxiv.org/pdf/2601.13627.pdf",
     "title": "ArXiv 2601.13627",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.244910"
+    "ts": "2026-01-22 04:13:37.244910",
+    "local_path": "downloads/2601.13627.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Are Large Language Models able to Predict Highly Cited Papers? Evidence from Statistical Publications"
   },
   "2601.11819": {
     "type": "arxiv",
     "id": "2601.11819",
     "url": "https://arxiv.org/pdf/2601.11819.pdf",
     "title": "ArXiv 2601.11819",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.250975"
+    "ts": "2026-01-22 04:13:37.250975",
+    "local_path": "downloads/2601.11819.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11819"
   },
   "2601.14124": {
     "type": "arxiv",
     "id": "2601.14124",
     "url": "https://arxiv.org/pdf/2601.14124.pdf",
     "title": "ArXiv 2601.14124",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.257023"
+    "ts": "2026-01-22 04:13:37.257023",
+    "local_path": "downloads/2601.14124.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Style Transfer as Bias Mitigation: Diffusion Models for Synthetic Mental Health Text for Arabic"
   },
   "2601.11845": {
     "type": "arxiv",
     "id": "2601.11845",
     "url": "https://arxiv.org/pdf/2601.11845.pdf",
     "title": "ArXiv 2601.11845",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.263118"
+    "ts": "2026-01-22 04:13:37.263118",
+    "local_path": "downloads/2601.11845.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Reevaluating Causal Estimation Methods with Data from a Product Release"
   },
   "2601.11562": {
     "type": "arxiv",
     "id": "2601.11562",
     "url": "https://arxiv.org/pdf/2601.11562.pdf",
     "title": "ArXiv 2601.11562",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.269093"
+    "ts": "2026-01-22 04:13:37.269093",
+    "local_path": "downloads/2601.11562.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Dynamics of Socio-Institutional Asynchrony in Generative AI: Analyzing the Relative Importance of Intervention Timing vs. Enforcement Efficiency via the Socio-Institutional Asynchrony Model (SIAM)"
   },
   "2601.11613": {
     "type": "arxiv",
     "id": "2601.11613",
     "url": "https://arxiv.org/pdf/2601.11613.pdf",
     "title": "ArXiv 2601.11613",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.275126"
+    "ts": "2026-01-22 04:13:37.275126",
+    "local_path": "downloads/2601.11613.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11613"
   },
   "2601.11565": {
     "type": "arxiv",
     "id": "2601.11565",
     "url": "https://arxiv.org/pdf/2601.11565.pdf",
     "title": "ArXiv 2601.11565",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.281337"
+    "ts": "2026-01-22 04:13:37.281337",
+    "local_path": "downloads/2601.11565.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.11565"
   },
   "2601.11762": {
     "type": "arxiv",
     "id": "2601.11762",
     "url": "https://arxiv.org/pdf/2601.11762.pdf",
     "title": "ArXiv 2601.11762",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.287462"
+    "ts": "2026-01-22 04:13:37.287462",
+    "local_path": "downloads/2601.11762.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Industry-Aligned Granular Topic Modeling**"
   },
   "2601.13759": {
     "type": "arxiv",
     "id": "2601.13759",
     "url": "https://arxiv.org/pdf/2601.13759.pdf",
     "title": "ArXiv 2601.13759",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.293583"
+    "ts": "2026-01-22 04:13:37.293583",
+    "local_path": "downloads/2601.13759.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ChauBoxplot and AdaptiveBoxplot: two R packages for boxplot-based outlier detection"
   },
   "2601.13936": {
     "type": "arxiv",
     "id": "2601.13936",
     "url": "https://arxiv.org/pdf/2601.13936.pdf",
     "title": "ArXiv 2601.13936",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.299721"
+    "ts": "2026-01-22 04:13:37.299721",
+    "local_path": "downloads/2601.13936.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.13936"
   },
   "2601.12068": {
     "type": "arxiv",
     "id": "2601.12068",
     "url": "https://arxiv.org/pdf/2601.12068.pdf",
     "title": "ArXiv 2601.12068",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.306124"
+    "ts": "2026-01-22 04:13:37.306124",
+    "local_path": "downloads/2601.12068.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bridging the Gap in Bangla Healthcare: Machine Learning Based Disease Prediction Using a Symptoms-Disease Dataset"
   },
   "2601.13150": {
     "type": "arxiv",
     "id": "2601.13150",
     "url": "https://arxiv.org/pdf/2601.13150.pdf",
     "title": "ArXiv 2601.13150",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-22 04:13:37.312275"
+    "ts": "2026-01-22 04:13:37.312275",
+    "local_path": "downloads/2601.13150.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.13150"
   },
   "2601.11776": {
     "type": "arxiv",
@@ -5915,5 +5995,23 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-22 04:13:37.381312"
+  },
+  "link_1d8bad8d7c": {
+    "type": "pdf_link",
+    "id": "link_1d8bad8d7c",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/1/PDF/NAR-08-01-001.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-22 10:36:49.001377"
+  },
+  "10.1177/09722629251408934": {
+    "type": "doi",
+    "id": "10.1177/09722629251408934",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-22 10:37:03.957225"
   }
 }
