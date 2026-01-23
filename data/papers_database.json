@@ -6331,180 +6331,260 @@
     "id": "2601.14512",
     "url": "https://arxiv.org/pdf/2601.14512.pdf",
     "title": "ArXiv 2601.14512",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.258601"
+    "ts": "2026-01-23 04:08:22.258601",
+    "local_path": "downloads/2601.14512.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Aiming for AI Interoperability: Challenges and Opportunities"
   },
   "2601.14698": {
     "type": "arxiv",
     "id": "2601.14698",
     "url": "https://arxiv.org/pdf/2601.14698.pdf",
     "title": "ArXiv 2601.14698",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.264852"
+    "ts": "2026-01-23 04:08:22.264852",
+    "local_path": "downloads/2601.14698.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** CLAIM DB: A Fact Verification Benchmark over Large Structured Data"
   },
   "2601.14478": {
     "type": "arxiv",
     "id": "2601.14478",
     "url": "https://arxiv.org/pdf/2601.14478.pdf",
     "title": "ArXiv 2601.14478",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.271173"
+    "ts": "2026-01-23 04:08:22.271173",
+    "local_path": "downloads/2601.14478.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Large Language Models for Large-Scale, Rigorous Qualitative Analysis in Applied Health Services Research"
   },
   "2601.14269": {
     "type": "arxiv",
     "id": "2601.14269",
     "url": "https://arxiv.org/pdf/2601.14269.pdf",
     "title": "ArXiv 2601.14269",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.277559"
+    "ts": "2026-01-23 04:08:22.277559",
+    "local_path": "downloads/2601.14269.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Slow Drift of Support: Boundary Failures in Multi-Turn Mental Health LLM Dialogues**"
   },
   "2601.15161": {
     "type": "arxiv",
     "id": "2601.15161",
     "url": "https://arxiv.org/pdf/2601.15161.pdf",
     "title": "ArXiv 2601.15161",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.283811"
+    "ts": "2026-01-23 04:08:22.283811",
+    "local_path": "downloads/2601.15161.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Automated Rubrics for Reliable Evaluation of Medical Dialogue Systems"
   },
   "2601.14616": {
     "type": "arxiv",
     "id": "2601.14616",
     "url": "https://arxiv.org/pdf/2601.14616.pdf",
     "title": "ArXiv 2601.14616",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.290073"
+    "ts": "2026-01-23 04:08:22.290073",
+    "local_path": "downloads/2601.14616.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Implementing Substance Over Form: A Novel Metric for Taxing E-commerce to Address Deterritorialization"
   },
   "2601.14958": {
     "type": "arxiv",
     "id": "2601.14958",
     "url": "https://arxiv.org/pdf/2601.14958.pdf",
     "title": "ArXiv 2601.14958",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.296441"
+    "ts": "2026-01-23 04:08:22.296441",
+    "local_path": "downloads/2601.14958.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Comprehensive Benchmark of Language Models on Unicode and Romanized Sinhala"
   },
   "2601.14454": {
     "type": "arxiv",
     "id": "2601.14454",
     "url": "https://arxiv.org/pdf/2601.14454.pdf",
     "title": "ArXiv 2601.14454",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.302727"
+    "ts": "2026-01-23 04:08:22.302727",
+    "local_path": "downloads/2601.14454.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "How Wasteful is Signaling?"
   },
   "2601.14498": {
     "type": "arxiv",
     "id": "2601.14498",
     "url": "https://arxiv.org/pdf/2601.14498.pdf",
     "title": "ArXiv 2601.14498",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.309534"
+    "ts": "2026-01-23 04:08:22.309534",
+    "local_path": "downloads/2601.14498.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The RobinCar Family: R Tools for Robust Covariate Adjustment in Randomized Clinical Trials"
   },
   "2601.14506": {
     "type": "arxiv",
     "id": "2601.14506",
     "url": "https://arxiv.org/pdf/2601.14506.pdf",
     "title": "ArXiv 2601.14506",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.315858"
+    "ts": "2026-01-23 04:08:22.315858",
+    "local_path": "downloads/2601.14506.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems"
   },
   "2601.14815": {
     "type": "arxiv",
     "id": "2601.14815",
     "url": "https://arxiv.org/pdf/2601.14815.pdf",
     "title": "ArXiv 2601.14815",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.322195"
+    "ts": "2026-01-23 04:08:22.322195",
+    "local_path": "downloads/2601.14815.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Zero-inflated binary Tree Pólya splitting regression for multivariate count data"
   },
   "2601.15220": {
     "type": "arxiv",
     "id": "2601.15220",
     "url": "https://arxiv.org/pdf/2601.15220.pdf",
     "title": "ArXiv 2601.15220",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.328613"
+    "ts": "2026-01-23 04:08:22.328613",
+    "local_path": "downloads/2601.15220.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15220"
   },
   "2601.15091": {
     "type": "arxiv",
     "id": "2601.15091",
     "url": "https://arxiv.org/pdf/2601.15091.pdf",
     "title": "ArXiv 2601.15091",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.334948"
+    "ts": "2026-01-23 04:08:22.334948",
+    "local_path": "downloads/2601.15091.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Circadian Modulation of Semantic Exploration in Social Media Language"
   },
   "2601.14752": {
     "type": "arxiv",
     "id": "2601.14752",
     "url": "https://arxiv.org/pdf/2601.14752.pdf",
     "title": "ArXiv 2601.14752",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.344553"
+    "ts": "2026-01-23 04:08:22.344553",
+    "local_path": "downloads/2601.14752.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Global-local shrinkage priors for modeling random effects in multivariate spatial small area estimation"
   },
   "2601.14991": {
     "type": "arxiv",
     "id": "2601.14991",
     "url": "https://arxiv.org/pdf/2601.14991.pdf",
     "title": "ArXiv 2601.14991",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.351065"
+    "ts": "2026-01-23 04:08:22.351065",
+    "local_path": "downloads/2601.14991.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Consistency of Honest Decision Trees and Random Forests"
   },
   "2601.15129": {
     "type": "arxiv",
     "id": "2601.15129",
     "url": "https://arxiv.org/pdf/2601.15129.pdf",
     "title": "ArXiv 2601.15129",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.357586"
+    "ts": "2026-01-23 04:08:22.357586",
+    "local_path": "downloads/2601.15129.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RSNA Large Language Model Benchmark Dataset for Chest Radiographs of Cardiothoracic Disease: Radiologist Evaluation and Validation Enhanced by AI Labels (REVEAL-CXR)"
   },
   "2601.15236": {
     "type": "arxiv",
     "id": "2601.15236",
     "url": "https://arxiv.org/pdf/2601.15236.pdf",
     "title": "ArXiv 2601.15236",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.364024"
+    "ts": "2026-01-23 04:08:22.364024",
+    "local_path": "downloads/2601.15236.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Metadata Conditioned Large Language Models for Localization**"
   },
   "2601.14553": {
     "type": "arxiv",
     "id": "2601.14553",
     "url": "https://arxiv.org/pdf/2601.14553.pdf",
     "title": "ArXiv 2601.14553",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.370469"
+    "ts": "2026-01-23 04:08:22.370469",
+    "local_path": "downloads/2601.14553.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.14553"
   },
   "2601.14401": {
     "type": "arxiv",
     "id": "2601.14401",
     "url": "https://arxiv.org/pdf/2601.14401.pdf",
     "title": "ArXiv 2601.14401",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.376833"
+    "ts": "2026-01-23 04:08:22.376833",
+    "local_path": "downloads/2601.14401.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.14401"
   },
   "2601.14431": {
     "type": "arxiv",
     "id": "2601.14431",
     "url": "https://arxiv.org/pdf/2601.14431.pdf",
     "title": "ArXiv 2601.14431",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.383314"
+    "ts": "2026-01-23 04:08:22.383314",
+    "local_path": "downloads/2601.14431.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Doubly Robust Estimators of the Restricted Mean Time in Favor Estimands in Individual and Cluster Randomized Trials"
   },
   "2601.14464": {
     "type": "arxiv",
@@ -6604,5 +6684,14 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-23 04:08:24.092388"
+  },
+  "link_909edc0b35": {
+    "type": "pdf_link",
+    "id": "link_909edc0b35",
+    "url": "https://www.researchgate.net/profile/Nafis-Kartiko/publication/399872666_SIYASAH_DUSTURIYAH_LAW_REVIEW_Reassessing_the_Matching_Principle's_Relevance_in_Recognizing_Staff_Bonus_Expenses_in_Corporate_Tax_Disputes/links/696d84095cc49c35ce7fd810/SIYASAH-DUSTURIYAH-LAW-REVIEW-Reassessing-the-Matching-Principles-Relevance-in-Recognizing-Staff-Bonus-Expenses-in-Corporate-Tax-Disputes.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-23 10:33:46.572659"
   }
 }
