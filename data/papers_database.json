@@ -6591,107 +6591,154 @@
     "id": "2601.14464",
     "url": "https://arxiv.org/pdf/2601.14464.pdf",
     "title": "ArXiv 2601.14464",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.389780"
+    "ts": "2026-01-23 04:08:22.389780",
+    "local_path": "downloads/2601.14464.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** On the falsification of instrumental variable models for heterogeneous treatment effects"
   },
   "2601.15037": {
     "type": "arxiv",
     "id": "2601.15037",
     "url": "https://arxiv.org/pdf/2601.15037.pdf",
     "title": "ArXiv 2601.15037",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.396222"
+    "ts": "2026-01-23 04:08:22.396222",
+    "local_path": "downloads/2601.15037.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Knowledge Restoration-driven Prompt Optimization: Unlocking LLM Potential for Open-Domain Relational Triplet Extraction"
   },
   "2601.14727": {
     "type": "arxiv",
     "id": "2601.14727",
     "url": "https://arxiv.org/pdf/2601.14727.pdf",
     "title": "ArXiv 2601.14727",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.402606"
+    "ts": "2026-01-23 04:08:22.402606",
+    "local_path": "downloads/2601.14727.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Recent advances in the Bradley–Terry Model: theory, algorithms, and applications"
   },
   "2601.14270": {
     "type": "arxiv",
     "id": "2601.14270",
     "url": "https://arxiv.org/pdf/2601.14270.pdf",
     "title": "ArXiv 2601.14270",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.409012"
+    "ts": "2026-01-23 04:08:22.409012",
+    "local_path": "downloads/2601.14270.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models**"
   },
   "2601.14947": {
     "type": "arxiv",
     "id": "2601.14947",
     "url": "https://arxiv.org/pdf/2601.14947.pdf",
     "title": "ArXiv 2601.14947",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.415531"
+    "ts": "2026-01-23 04:08:22.415531",
+    "local_path": "downloads/2601.14947.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Central subspace data depth"
   },
   "2601.14737": {
     "type": "arxiv",
     "id": "2601.14737",
     "url": "https://arxiv.org/pdf/2601.14737.pdf",
     "title": "ArXiv 2601.14737",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.421936"
+    "ts": "2026-01-23 04:08:22.421936",
+    "local_path": "downloads/2601.14737.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Trajectory-Driven Multi-Product Influence Maximization in Billboard Advertising"
   },
   "2601.14265": {
     "type": "arxiv",
     "id": "2601.14265",
     "url": "https://arxiv.org/pdf/2601.14265.pdf",
     "title": "ArXiv 2601.14265",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.429657"
+    "ts": "2026-01-23 04:08:22.429657",
+    "local_path": "downloads/2601.14265.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Textbook to Talkbot: A Case Study of a Greek-Language RAG-Based Chatbot in Higher Education"
   },
   "2601.14518": {
     "type": "arxiv",
     "id": "2601.14518",
     "url": "https://arxiv.org/pdf/2601.14518.pdf",
     "title": "ArXiv 2601.14518",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.436015"
+    "ts": "2026-01-23 04:08:22.436015",
+    "local_path": "downloads/2601.14518.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Business Logic-Driven Text-to-SQL Data Synthesis for Business Intelligence**"
   },
   "2601.14586": {
     "type": "arxiv",
     "id": "2601.14586",
     "url": "https://arxiv.org/pdf/2601.14586.pdf",
     "title": "ArXiv 2601.14586",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.442802"
+    "ts": "2026-01-23 04:08:22.442802",
+    "local_path": "downloads/2601.14586.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Cluster size distributions of discrete random fields**"
   },
   "2601.15277": {
     "type": "arxiv",
     "id": "2601.15277",
     "url": "https://arxiv.org/pdf/2601.15277.pdf",
     "title": "ArXiv 2601.15277",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:22.449176"
+    "ts": "2026-01-23 04:08:22.449176",
+    "local_path": "downloads/2601.15277.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Robust Fake News Detection using Large Language Models under Adversarial Sentiment Attacks"
   },
   "10.1038/d41586-026-00163-1": {
     "type": "doi",
     "id": "10.1038/d41586-026-00163-1",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-23 04:08:24.092388"
+    "ts": "2026-01-23 04:08:24.092388",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: US Congress set to reject Trump’s sweeping science budget cuts\n\nABSTRACT: 无摘要",
+    "real_title": "US Congress set to reject Trump’s sweeping science budget cuts"
   },
   "link_909edc0b35": {
     "type": "pdf_link",
     "id": "link_909edc0b35",
     "url": "https://www.researchgate.net/profile/Nafis-Kartiko/publication/399872666_SIYASAH_DUSTURIYAH_LAW_REVIEW_Reassessing_the_Matching_Principle's_Relevance_in_Recognizing_Staff_Bonus_Expenses_in_Corporate_Tax_Disputes/links/696d84095cc49c35ce7fd810/SIYASAH-DUSTURIYAH-LAW-REVIEW-Reassessing-the-Matching-Principles-Relevance-in-Recognizing-Staff-Bonus-Expenses-in-Corporate-Tax-Disputes.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
-    "ts": "2026-01-23 10:33:46.572659"
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-01-23 10:33:46.572659",
+    "local_path": "downloads/link_909edc0b35.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
