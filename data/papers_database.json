@@ -7254,119 +7254,194 @@
     "id": "2601.15807",
     "url": "https://arxiv.org/pdf/2601.15807.pdf",
     "title": "ArXiv 2601.15807",
-    "status": "DOWNLOADED",
+    "status": "ANALYZED",
     "retry": 0,
     "ts": "2026-01-24 04:02:15.089779",
     "local_path": "downloads/2601.15807.pdf",
     "content_type": "PDF",
-    "abstract_content": ""
+    "abstract_content": "",
+    "real_title": "ALGEBRAIC STATISTICS IN OSCAR"
   },
   "2601.15494": {
     "type": "arxiv",
     "id": "2601.15494",
     "url": "https://arxiv.org/pdf/2601.15494.pdf",
     "title": "ArXiv 2601.15494",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.096918"
+    "ts": "2026-01-24 04:02:15.096918",
+    "local_path": "downloads/2601.15494.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Vibe Coding Kills Open Source***"
   },
   "2601.15828": {
     "type": "arxiv",
     "id": "2601.15828",
     "url": "https://arxiv.org/pdf/2601.15828.pdf",
     "title": "ArXiv 2601.15828",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.103861"
+    "ts": "2026-01-24 04:02:15.103861",
+    "local_path": "downloads/2601.15828.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Can professional translators identify machine-generated text?**"
   },
   "2601.15593": {
     "type": "arxiv",
     "id": "2601.15593",
     "url": "https://arxiv.org/pdf/2601.15593.pdf",
     "title": "ArXiv 2601.15593",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.110847"
+    "ts": "2026-01-24 04:02:15.110847",
+    "local_path": "downloads/2601.15593.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Parallelism and Generation Order in Masked Diffusion Language Models: Limits Today, Potential Tomorrow"
   },
   "2601.15298": {
     "type": "arxiv",
     "id": "2601.15298",
     "url": "https://arxiv.org/pdf/2601.15298.pdf",
     "title": "ArXiv 2601.15298",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.117772"
+    "ts": "2026-01-24 04:02:15.117772",
+    "local_path": "downloads/2601.15298.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "EMBEDDING RETROFITTING: DATA ENGINEERING FOR BETTER RAG**"
   },
   "2601.15511": {
     "type": "arxiv",
     "id": "2601.15511",
     "url": "https://arxiv.org/pdf/2601.15511.pdf",
     "title": "ArXiv 2601.15511",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.124819"
+    "ts": "2026-01-24 04:02:15.124819",
+    "local_path": "downloads/2601.15511.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15511"
   },
   "2601.15892": {
     "type": "arxiv",
     "id": "2601.15892",
     "url": "https://arxiv.org/pdf/2601.15892.pdf",
     "title": "ArXiv 2601.15892",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.131763"
+    "ts": "2026-01-24 04:02:15.131763",
+    "local_path": "downloads/2601.15892.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model**"
   },
   "2601.16127": {
     "type": "arxiv",
     "id": "2601.16127",
     "url": "https://arxiv.org/pdf/2601.16127.pdf",
     "title": "ArXiv 2601.16127",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.138747"
+    "ts": "2026-01-24 04:02:15.138747",
+    "local_path": "downloads/2601.16127.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.16127"
   },
   "2601.15508": {
     "type": "arxiv",
     "id": "2601.15508",
     "url": "https://arxiv.org/pdf/2601.15508.pdf",
     "title": "ArXiv 2601.15508",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.145858"
+    "ts": "2026-01-24 04:02:15.145858",
+    "local_path": "downloads/2601.15508.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Computational Representations of Character Significance in Novels"
   },
   "2601.16138": {
     "type": "arxiv",
     "id": "2601.16138",
     "url": "https://arxiv.org/pdf/2601.16138.pdf",
     "title": "ArXiv 2601.16138",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.152886"
+    "ts": "2026-01-24 04:02:15.152886",
+    "local_path": "downloads/2601.16138.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A UTOMATIC C LASSIFICATION OF A RABIC L ITERATURE INTO H ISTORICAL E RAS"
   },
   "2601.15300": {
     "type": "arxiv",
     "id": "2601.15300",
     "url": "https://arxiv.org/pdf/2601.15300.pdf",
     "title": "ArXiv 2601.15300",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.159861"
+    "ts": "2026-01-24 04:02:15.159861",
+    "local_path": "downloads/2601.15300.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Intelligence Degradation in Long-Context LLMs: Critical Threshold Determination via Natural Length Distribution Analysis"
   },
   "10.1017/jme.2025.10209": {
     "type": "doi",
     "id": "10.1017/jme.2025.10209",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:16.119761"
+    "ts": "2026-01-24 04:02:16.119761",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Regulating Medical Devices: The Values and Politics of the US FDA Review Process\n\nABSTRACT: Abstract\n                  Since the mid-20th century, medical devices have proliferated in clinical care, operating rooms, and in everyday life via home health and wearable technologies. Medical devices include a broad range of technologies such as imaging devices, genomic assays, surgical implants, assistive devices, and health monitors. Unlike pharmaceuticals, food, and cosmetics, the United States Food and Drug Administration (FDA) did not prioritize medical device regulation in the early 1900s; devices only became a site of concern post-World War II as more complex and invasive technologies were developed and used in health care. Drawing on analysis of FDA regulations, government documents, historical media coverage, and FDA oral histories, this article traces the evolution of medical device regulation, historicizing persistent debates that position technological innovation and regulation in tension with one another. We demonstrate how limited legal authority prior to 1976 positioned FDA as lagging behind the proliferation of medical devices, which continues to haunt device regulation today. We then analyze the values embedded in device risk classifications and regulatory pathways, considering the consequences for the public’s safety and trust.",
+    "real_title": "Regulating Medical Devices: The Values and Politics of the US FDA Review Process"
   },
   "10.1038/d41586-026-00183-x": {
     "type": "doi",
     "id": "10.1038/d41586-026-00183-x",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:16.127511"
+    "ts": "2026-01-24 04:02:16.127511",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Exclusive: key NIH review panels due to lose all members by the end of 2026\n\nABSTRACT: 无摘要",
+    "real_title": "Exclusive: key NIH review panels due to lose all members by the end of 2026"
+  },
+  "link_163fef4c57": {
+    "type": "pdf_link",
+    "id": "link_163fef4c57",
+    "url": "https://arxiv.org/pdf/2601.15605.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-24 16:33:33.315861",
+    "local_path": "downloads/link_163fef4c57.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "10.1177/21582440251415066": {
+    "type": "doi",
+    "id": "10.1177/21582440251415066",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-24 16:34:44.763416",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Fifty Years of Accounting Education Research: Global Trends and Insights From Bibliometric and Thematic Analysis\n\nABSTRACT: Accounting education continues to navigate a delicate balance between maintaining foundational technical skills and embracing digital transformation. This study argues that accounting education has evolved beyond its traditional technical focus into a multidimensional domain shaped by digital transformation, AI, sustainability, and ethical awareness. This study combines a systematic literature review, conducted under the guidelines of the PRISMA 2020 protocol, with bibliometric analysis to examine 2,362 peer-reviewed studies published between 1970 and 2024 in the Web of Science database. The findings reveal four main areas of concentration: pedagogical innovation, sustainability and ethics, technological advancement and curriculum reform. Highly cited studies, the themes that stand out are the alignment between qualifications and the labor market, students’ motivations, expectations and academic readiness, the impact of COVID-19 and crisis management in education, creative teaching practices, ethics and human values education. The analysis also shows that the United States, the UK and Australia dominate both publication output and collaboration networks, shaping global discourse but potentially constraining the diversity of pedagogical perspectives. Emerging research frontiers highlight the transformative role of artificial intelligence, data analytics and automation in reshaping accounting curricula, alongside growing attention to sustainability reporting, ESG frameworks and corporate social responsibility. These developments signal a shift toward interdisciplinary, competency-based education that balances technical proficiency with critical thinking, ethical reasoning and adaptability. Overall, the future of accounting education will depend on the integration of interdisciplinary approaches, industry-linked learning models and the embedding of ethical and digital competencies advancing toward a more inclusive and sustainable global framework.",
+    "real_title": "Fifty Years of Accounting Education Research: Global Trends and Insights From Bibliometric and Thematic Analysis"
   }
 }
