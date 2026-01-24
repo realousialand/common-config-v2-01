@@ -6994,192 +6994,272 @@
     "id": "2601.15605",
     "url": "https://arxiv.org/pdf/2601.15605.pdf",
     "title": "ArXiv 2601.15605",
-    "status": "DOWNLOADED",
+    "status": "ANALYZED",
     "retry": 0,
     "ts": "2026-01-24 04:02:14.951393",
     "local_path": "downloads/2601.15605.pdf",
     "content_type": "PDF",
-    "abstract_content": ""
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15605"
   },
   "2601.15514": {
     "type": "arxiv",
     "id": "2601.15514",
     "url": "https://arxiv.org/pdf/2601.15514.pdf",
     "title": "ArXiv 2601.15514",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.958272"
+    "ts": "2026-01-24 04:02:14.958272",
+    "local_path": "downloads/2601.15514.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Assessing the Informative Value of Macroeconomic Indicators for Public Health Forecasting"
   },
   "2601.15395": {
     "type": "arxiv",
     "id": "2601.15395",
     "url": "https://arxiv.org/pdf/2601.15395.pdf",
     "title": "ArXiv 2601.15395",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.965079"
+    "ts": "2026-01-24 04:02:14.965079",
+    "local_path": "downloads/2601.15395.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond Fixed Psychological Personas: State Beats Trait, but Language Models are State-Blind"
   },
   "2601.15745": {
     "type": "arxiv",
     "id": "2601.15745",
     "url": "https://arxiv.org/pdf/2601.15745.pdf",
     "title": "ArXiv 2601.15745",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.971986"
+    "ts": "2026-01-24 04:02:14.971986",
+    "local_path": "downloads/2601.15745.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15745"
   },
   "2601.15429": {
     "type": "arxiv",
     "id": "2601.15429",
     "url": "https://arxiv.org/pdf/2601.15429.pdf",
     "title": "ArXiv 2601.15429",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.978739"
+    "ts": "2026-01-24 04:02:14.978739",
+    "local_path": "downloads/2601.15429.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Domain-Specific Knowledge Graphs in RAG-Enhanced Healthcare LLMs"
   },
   "2601.15793": {
     "type": "arxiv",
     "id": "2601.15793",
     "url": "https://arxiv.org/pdf/2601.15793.pdf",
     "title": "ArXiv 2601.15793",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.985612"
+    "ts": "2026-01-24 04:02:14.985612",
+    "local_path": "downloads/2601.15793.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** HumanLLM: Towards Personalized Understanding and Simulation of Human Nature"
   },
   "2601.15299": {
     "type": "arxiv",
     "id": "2601.15299",
     "url": "https://arxiv.org/pdf/2601.15299.pdf",
     "title": "ArXiv 2601.15299",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.992426"
+    "ts": "2026-01-24 04:02:14.992426",
+    "local_path": "downloads/2601.15299.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** MALTopic: Multi-Agent LLM Topic Modeling Framework"
   },
   "2601.15488": {
     "type": "arxiv",
     "id": "2601.15488",
     "url": "https://arxiv.org/pdf/2601.15488.pdf",
     "title": "ArXiv 2601.15488",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:14.999255"
+    "ts": "2026-01-24 04:02:14.999255",
+    "local_path": "downloads/2601.15488.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Multi-Persona Thinking for Bias Mitigation in Large Language Models**"
   },
   "2601.15467": {
     "type": "arxiv",
     "id": "2601.15467",
     "url": "https://arxiv.org/pdf/2601.15467.pdf",
     "title": "ArXiv 2601.15467",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.006167"
+    "ts": "2026-01-24 04:02:15.006167",
+    "local_path": "downloads/2601.15467.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "TREATMENT EFFECT: A CRITIQUE**"
   },
   "2601.16018": {
     "type": "arxiv",
     "id": "2601.16018",
     "url": "https://arxiv.org/pdf/2601.16018.pdf",
     "title": "ArXiv 2601.16018",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.013056"
+    "ts": "2026-01-24 04:02:15.013056",
+    "local_path": "downloads/2601.16018.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Mecellem Models: Turkish Models Trained from Scratch and Continually Pre-trained for the Legal Domain"
   },
   "2601.15809": {
     "type": "arxiv",
     "id": "2601.15809",
     "url": "https://arxiv.org/pdf/2601.15809.pdf",
     "title": "ArXiv 2601.15809",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.019922"
+    "ts": "2026-01-24 04:02:15.019922",
+    "local_path": "downloads/2601.15809.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "STEER EVAL: Inference-time Interventions Strengthen Multilingual Generalization in Neural Summarization Metrics**"
   },
   "2601.15558": {
     "type": "arxiv",
     "id": "2601.15558",
     "url": "https://arxiv.org/pdf/2601.15558.pdf",
     "title": "ArXiv 2601.15558",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.026926"
+    "ts": "2026-01-24 04:02:15.026926",
+    "local_path": "downloads/2601.15558.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Generation to Collaboration: Using LLMs to Edit for Empathy in Healthcare"
   },
   "2601.15296": {
     "type": "arxiv",
     "id": "2601.15296",
     "url": "https://arxiv.org/pdf/2601.15296.pdf",
     "title": "ArXiv 2601.15296",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.033848"
+    "ts": "2026-01-24 04:02:15.033848",
+    "local_path": "downloads/2601.15296.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Entropy-Tree: Tree-Based Decoding With Entropy-Guided Exploration"
   },
   "2601.15846": {
     "type": "arxiv",
     "id": "2601.15846",
     "url": "https://arxiv.org/pdf/2601.15846.pdf",
     "title": "ArXiv 2601.15846",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.040842"
+    "ts": "2026-01-24 04:02:15.040842",
+    "local_path": "downloads/2601.15846.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15846"
   },
   "2601.15675": {
     "type": "arxiv",
     "id": "2601.15675",
     "url": "https://arxiv.org/pdf/2601.15675.pdf",
     "title": "ArXiv 2601.15675",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.047822"
+    "ts": "2026-01-24 04:02:15.047822",
+    "local_path": "downloads/2601.15675.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CLIMATE VULNERABILITY AND COMMUNITY HEALTH: IDENTIFYING GREENSBORO NEIGHBORHOODS AT INTERSECTIONAL RISK"
   },
   "2601.15394": {
     "type": "arxiv",
     "id": "2601.15394",
     "url": "https://arxiv.org/pdf/2601.15394.pdf",
     "title": "ArXiv 2601.15394",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.054714"
+    "ts": "2026-01-24 04:02:15.054714",
+    "local_path": "downloads/2601.15394.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Training Data Memorization in Knowledge Distillation for Large Language Models"
   },
   "2601.16097": {
     "type": "arxiv",
     "id": "2601.16097",
     "url": "https://arxiv.org/pdf/2601.16097.pdf",
     "title": "ArXiv 2601.16097",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.061596"
+    "ts": "2026-01-24 04:02:15.061596",
+    "local_path": "downloads/2601.16097.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.16097"
   },
   "2601.15896": {
     "type": "arxiv",
     "id": "2601.15896",
     "url": "https://arxiv.org/pdf/2601.15896.pdf",
     "title": "ArXiv 2601.15896",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.068639"
+    "ts": "2026-01-24 04:02:15.068639",
+    "local_path": "downloads/2601.15896.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.15896"
   },
   "2601.15708": {
     "type": "arxiv",
     "id": "2601.15708",
     "url": "https://arxiv.org/pdf/2601.15708.pdf",
     "title": "ArXiv 2601.15708",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.075787"
+    "ts": "2026-01-24 04:02:15.075787",
+    "local_path": "downloads/2601.15708.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Persona Switch: Mixing Distinct Perspectives in Decoding Time"
   },
   "2601.15715": {
     "type": "arxiv",
     "id": "2601.15715",
     "url": "https://arxiv.org/pdf/2601.15715.pdf",
     "title": "ArXiv 2601.15715",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.082721"
+    "ts": "2026-01-24 04:02:15.082721",
+    "local_path": "downloads/2601.15715.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Dancing in Chains: Strategic Persuasion in Academic Rebuttal via Theory of Mind"
   },
   "2601.15807": {
     "type": "arxiv",
     "id": "2601.15807",
     "url": "https://arxiv.org/pdf/2601.15807.pdf",
     "title": "ArXiv 2601.15807",
-    "status": "NEW",
+    "status": "DOWNLOADED",
     "retry": 0,
-    "ts": "2026-01-24 04:02:15.089779"
+    "ts": "2026-01-24 04:02:15.089779",
+    "local_path": "downloads/2601.15807.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   },
   "2601.15494": {
     "type": "arxiv",
