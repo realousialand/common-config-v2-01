@@ -7463,7 +7463,7 @@
     "url": "https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.755274"
   },
   "link_fb5d79cac1": {
@@ -7472,7 +7472,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.763459"
   },
   "link_448f05e71a": {
@@ -7481,7 +7481,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.771144"
   },
   "link_683a4cf776": {
@@ -7490,7 +7490,7 @@
     "url": "https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.779013"
   },
   "link_98bb096577": {
@@ -7499,7 +7499,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.786719"
   },
   "link_dcec9f2044": {
@@ -7508,7 +7508,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.794217"
   },
   "link_db15c90c00": {
@@ -7517,7 +7517,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.801809"
   },
   "link_f3d0ffcb0b": {
@@ -7526,7 +7526,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 04:10:51.809361"
   },
   "2601.16309": {
@@ -7677,108 +7677,156 @@
     "id": "2601.16669",
     "url": "https://arxiv.org/pdf/2601.16669.pdf",
     "title": "ArXiv 2601.16669",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.750711"
+    "ts": "2026-01-28 04:11:23.750711",
+    "local_path": "downloads/2601.16669.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "PL AW B ENCH : A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice"
   },
   "2601.16478": {
     "type": "arxiv",
     "id": "2601.16478",
     "url": "https://arxiv.org/pdf/2601.16478.pdf",
     "title": "ArXiv 2601.16478",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.758344"
+    "ts": "2026-01-28 04:11:23.758344",
+    "local_path": "downloads/2601.16478.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "DeepEra: A Deep Evidence Reranking Agent for Scientific Retrieval-Augmented Generated Question Answering"
   },
   "2601.16340": {
     "type": "arxiv",
     "id": "2601.16340",
     "url": "https://arxiv.org/pdf/2601.16340.pdf",
     "title": "ArXiv 2601.16340",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.765898"
+    "ts": "2026-01-28 04:11:23.765898",
+    "local_path": "downloads/2601.16340.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Matrix-Response Generalized Linear Mixed Model with Applications to Longitudinal Brain Images"
   },
   "2601.16318": {
     "type": "arxiv",
     "id": "2601.16318",
     "url": "https://arxiv.org/pdf/2601.16318.pdf",
     "title": "ArXiv 2601.16318",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.773821"
+    "ts": "2026-01-28 04:11:23.773821",
+    "local_path": "downloads/2601.16318.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Orthogonal factorial designs for trials of therapist-delivered interventions: Randomising intervention therapist combinations to patients."
   },
   "2601.16926": {
     "type": "arxiv",
     "id": "2601.16926",
     "url": "https://arxiv.org/pdf/2601.16926.pdf",
     "title": "ArXiv 2601.16926",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.781497"
+    "ts": "2026-01-28 04:11:23.781497",
+    "local_path": "downloads/2601.16926.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Nishpaksh: TEC Standard-Compliant Framework for Fairness Auditing and Certification of AI Models"
   },
   "2601.16865": {
     "type": "arxiv",
     "id": "2601.16865",
     "url": "https://arxiv.org/pdf/2601.16865.pdf",
     "title": "ArXiv 2601.16865",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.789224"
+    "ts": "2026-01-28 04:11:23.789224",
+    "local_path": "downloads/2601.16865.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Distributional Instruments: Identification and Estimation with Quantile Least Squares"
   },
   "2601.16398": {
     "type": "arxiv",
     "id": "2601.16398",
     "url": "https://arxiv.org/pdf/2601.16398.pdf",
     "title": "ArXiv 2601.16398",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.796964"
+    "ts": "2026-01-28 04:11:23.796964",
+    "local_path": "downloads/2601.16398.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "White-Box Sensitivity Auditing with Steering Vectors"
   },
   "2601.16930": {
     "type": "arxiv",
     "id": "2601.16930",
     "url": "https://arxiv.org/pdf/2601.16930.pdf",
     "title": "ArXiv 2601.16930",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.804667"
+    "ts": "2026-01-28 04:11:23.804667",
+    "local_path": "downloads/2601.16930.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** In Quest of an Extensible Multi-Level Harm Taxonomy for Adversarial AI: Heart of Security, Ethical Risk Scoring and Resilience Analytics"
   },
   "2601.16218": {
     "type": "arxiv",
     "id": "2601.16218",
     "url": "https://arxiv.org/pdf/2601.16218.pdf",
     "title": "ArXiv 2601.16218",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.812531"
+    "ts": "2026-01-28 04:11:23.812531",
+    "local_path": "downloads/2601.16218.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** M3Kang: Evaluating Multilingual Multi-Modal Mathematical Reasoning in Vision-Language Models"
   },
   "2601.16623": {
     "type": "arxiv",
     "id": "2601.16623",
     "url": "https://arxiv.org/pdf/2601.16623.pdf",
     "title": "ArXiv 2601.16623",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.820247"
+    "ts": "2026-01-28 04:11:23.820247",
+    "local_path": "downloads/2601.16623.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.16623"
   },
   "2601.16407": {
     "type": "arxiv",
     "id": "2601.16407",
     "url": "https://arxiv.org/pdf/2601.16407.pdf",
     "title": "ArXiv 2601.16407",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.828114"
+    "ts": "2026-01-28 04:11:23.828114",
+    "local_path": "downloads/2601.16407.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Jacobian Scopes: token-level causal attributions in LLMs"
   },
   "2601.16821": {
     "type": "arxiv",
     "id": "2601.16821",
     "url": "https://arxiv.org/pdf/2601.16821.pdf",
     "title": "ArXiv 2601.16821",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.835882"
+    "ts": "2026-01-28 04:11:23.835882",
+    "local_path": "downloads/2601.16821.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Directional-Shift Dirichlet ARMA Models for Compositional Time Series with Structural Break Intervention"
   },
   "2601.16651": {
     "type": "arxiv",
