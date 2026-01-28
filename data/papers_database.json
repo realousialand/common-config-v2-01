@@ -7463,7 +7463,7 @@
     "url": "https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.755274"
   },
   "link_fb5d79cac1": {
@@ -7472,7 +7472,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.763459"
   },
   "link_448f05e71a": {
@@ -7481,7 +7481,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.771144"
   },
   "link_683a4cf776": {
@@ -7490,7 +7490,7 @@
     "url": "https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.779013"
   },
   "link_98bb096577": {
@@ -7499,7 +7499,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.786719"
   },
   "link_dcec9f2044": {
@@ -7508,7 +7508,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.794217"
   },
   "link_db15c90c00": {
@@ -7517,7 +7517,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.nyls.edu/cgi/viewcontent.cgi?article=2087&context=fac_other_pubs&amp;rt=Rebuttal+Comments+of+Prof.+Barry+Appleton&amp;scisig=AHkA5jTtcPGB6Q4zoT74lfivo9GU",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.801809"
   },
   "link_f3d0ffcb0b": {
@@ -7526,7 +7526,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=7058&context=nclr&amp;rt=The+Past+and+Future+of+Taxing\"+Incomes\"&amp;scisig=AHkA5jSe2tizRdaDvUn3nxDrjNbn",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-01-28 04:10:51.809361"
   },
   "2601.16309": {
@@ -7833,108 +7833,156 @@
     "id": "2601.16651",
     "url": "https://arxiv.org/pdf/2601.16651.pdf",
     "title": "ArXiv 2601.16651",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.843618"
+    "ts": "2026-01-28 04:11:23.843618",
+    "local_path": "downloads/2601.16651.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Select or Project? Evaluating Lower-dimensional Vectors for LLM Training Data Explanations"
   },
   "2601.16561": {
     "type": "arxiv",
     "id": "2601.16561",
     "url": "https://arxiv.org/pdf/2601.16561.pdf",
     "title": "ArXiv 2601.16561",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.851453"
+    "ts": "2026-01-28 04:11:23.851453",
+    "local_path": "downloads/2601.16561.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Markov Stick Breaking Processes"
   },
   "2601.16739": {
     "type": "arxiv",
     "id": "2601.16739",
     "url": "https://arxiv.org/pdf/2601.16739.pdf",
     "title": "ArXiv 2601.16739",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.859124"
+    "ts": "2026-01-28 04:11:23.859124",
+    "local_path": "downloads/2601.16739.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Comments on “Challenges of cellwise outliers” by Jakob Raymaekers and Peter J. Rousseeuw"
   },
   "2601.16595": {
     "type": "arxiv",
     "id": "2601.16595",
     "url": "https://arxiv.org/pdf/2601.16595.pdf",
     "title": "ArXiv 2601.16595",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.867057"
+    "ts": "2026-01-28 04:11:23.867057",
+    "local_path": "downloads/2601.16595.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.16595"
   },
   "2601.16829": {
     "type": "arxiv",
     "id": "2601.16829",
     "url": "https://arxiv.org/pdf/2601.16829.pdf",
     "title": "ArXiv 2601.16829",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.876065"
+    "ts": "2026-01-28 04:11:23.876065",
+    "local_path": "downloads/2601.16829.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Directional Asymmetry in Edge-Based Spatial Models via a Skew-Normal Prior"
   },
   "2601.16684": {
     "type": "arxiv",
     "id": "2601.16684",
     "url": "https://arxiv.org/pdf/2601.16684.pdf",
     "title": "ArXiv 2601.16684",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.884016"
+    "ts": "2026-01-28 04:11:23.884016",
+    "local_path": "downloads/2601.16684.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Asymptotic testing of covariance separability for matrix elliptical data"
   },
   "2601.16282": {
     "type": "arxiv",
     "id": "2601.16282",
     "url": "https://arxiv.org/pdf/2601.16282.pdf",
     "title": "ArXiv 2601.16282",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.891814"
+    "ts": "2026-01-28 04:11:23.891814",
+    "local_path": "downloads/2601.16282.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Generating Literature-Driven Scientific Theories at Scale"
   },
   "2601.16585": {
     "type": "arxiv",
     "id": "2601.16585",
     "url": "https://arxiv.org/pdf/2601.16585.pdf",
     "title": "ArXiv 2601.16585",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.899707"
+    "ts": "2026-01-28 04:11:23.899707",
+    "local_path": "downloads/2601.16585.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Variational approximate penalized credible regions for Bayesian grouped regression"
   },
   "2601.16769": {
     "type": "arxiv",
     "id": "2601.16769",
     "url": "https://arxiv.org/pdf/2601.16769.pdf",
     "title": "ArXiv 2601.16769",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.907540"
+    "ts": "2026-01-28 04:11:23.907540",
+    "local_path": "downloads/2601.16769.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Noisy News Sentiment Scores to Interpretable Temporal Dynamics: A Bayesian State-Space Model**"
   },
   "2601.16803": {
     "type": "arxiv",
     "id": "2601.16803",
     "url": "https://arxiv.org/pdf/2601.16803.pdf",
     "title": "ArXiv 2601.16803",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.915661"
+    "ts": "2026-01-28 04:11:23.915661",
+    "local_path": "downloads/2601.16803.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** SoS: Analysis of Surface-over-Semantics in Multilingual Text-To-Image Generation"
   },
   "2601.16781": {
     "type": "arxiv",
     "id": "2601.16781",
     "url": "https://arxiv.org/pdf/2601.16781.pdf",
     "title": "ArXiv 2601.16781",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.923622"
+    "ts": "2026-01-28 04:11:23.923622",
+    "local_path": "downloads/2601.16781.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Persuasion Tokens for Editing Factual Knowledge in LLMs"
   },
   "2601.16766": {
     "type": "arxiv",
     "id": "2601.16766",
     "url": "https://arxiv.org/pdf/2601.16766.pdf",
     "title": "ArXiv 2601.16766",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.931629"
+    "ts": "2026-01-28 04:11:23.931629",
+    "local_path": "downloads/2601.16766.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Do LLM hallucination detectors suffer from low-resource effect?"
   },
   "2601.16724": {
     "type": "arxiv",
