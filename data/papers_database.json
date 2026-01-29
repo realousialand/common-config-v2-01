@@ -8769,107 +8769,151 @@
     "id": "2601.17203",
     "url": "https://arxiv.org/pdf/2601.17203.pdf",
     "title": "ArXiv 2601.17203",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.268939"
+    "ts": "2026-01-28 04:11:26.268939",
+    "local_path": "downloads/2601.17203.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Relating Word Embedding Gender Biases to Gender Gaps: A Cross-Cultural Analysis"
   },
   "2601.17877": {
     "type": "arxiv",
     "id": "2601.17877",
     "url": "https://arxiv.org/pdf/2601.17877.pdf",
     "title": "ArXiv 2601.17877",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.277526"
+    "ts": "2026-01-28 04:11:26.277526",
+    "local_path": "downloads/2601.17877.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "COMPARATIVE ALGORITHMIC GOVERNANCE OF PUBLIC HEALTH INSTRUMENTS ACROSS INDIA, EU, US AND LMIC S"
   },
   "2601.17001": {
     "type": "arxiv",
     "id": "2601.17001",
     "url": "https://arxiv.org/pdf/2601.17001.pdf",
     "title": "ArXiv 2601.17001",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.285982"
+    "ts": "2026-01-28 04:11:26.285982",
+    "local_path": "downloads/2601.17001.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "FOREWORD: LEX REFORMATICA: FIVE PRINCIPLES OF POLICY REFORM FOR THE TECHNOLOGICAL AGE**"
   },
   "2601.18796": {
     "type": "arxiv",
     "id": "2601.18796",
     "url": "https://arxiv.org/pdf/2601.18796.pdf",
     "title": "ArXiv 2601.18796",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.294625"
+    "ts": "2026-01-28 04:11:26.294625",
+    "local_path": "downloads/2601.18796.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ctELM: Decoding and Manipulating Embeddings of Clinical Trials with Embedding Language Models"
   },
   "2601.17230": {
     "type": "arxiv",
     "id": "2601.17230",
     "url": "https://arxiv.org/pdf/2601.17230.pdf",
     "title": "ArXiv 2601.17230",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.303168"
+    "ts": "2026-01-28 04:11:26.303168",
+    "local_path": "downloads/2601.17230.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** CaseFacts: A Benchmark for Legal Fact-Checking and Precedent Retrieval"
   },
   "2601.18234": {
     "type": "arxiv",
     "id": "2601.18234",
     "url": "https://arxiv.org/pdf/2601.18234.pdf",
     "title": "ArXiv 2601.18234",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.311893"
+    "ts": "2026-01-28 04:11:26.311893",
+    "local_path": "downloads/2601.18234.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** GENERATIVE AI IN SAUDI ARABIA: A NATIONAL SURVEY OF ADOPTION, RISKS, AND PUBLIC PERCEPTIONS"
   },
   "10.1007/978-3-319-47527-1_16": {
     "type": "doi",
     "id": "10.1007/978-3-319-47527-1_16",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:56.792813"
+    "ts": "2026-01-28 04:11:56.792813",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Creative Selves, Creative Cultures, Creative Futures\n\nABSTRACT: 无摘要",
+    "real_title": "Creative Selves, Creative Cultures, Creative Futures"
   },
   "10.1017/cbo9780511559495.002": {
     "type": "doi",
     "id": "10.1017/cbo9780511559495.002",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:56.801894"
+    "ts": "2026-01-28 04:11:56.801894",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: ECONOMIC LAWS AND ECONOMIC HISTORY\n\nABSTRACT: 无摘要",
+    "real_title": "ECONOMIC LAWS AND ECONOMIC HISTORY"
   },
   "10.5860/choice.28-6337": {
     "type": "doi",
     "id": "10.5860/choice.28-6337",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:56.810310"
+    "ts": "2026-01-28 04:11:56.810310",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Economic laws and economic history\n\nABSTRACT: 无摘要",
+    "real_title": "Economic laws and economic history"
   },
   "10.1002/csr.70423": {
     "type": "doi",
     "id": "10.1002/csr.70423",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 23:34:10.591332"
+    "ts": "2026-01-28 23:34:10.591332",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Link Between Financial Auditors and Corporate Social Responsibility: A Review of Empirical Studies and Implications for Future Research\n\nABSTRACT: ABSTRACT\n                  Based on stakeholder agency theory, this structured literature review included 89 empirical quantitative studies published between 2013 and the present on the complex relationship between financial auditors and corporate social responsibility (CSR) outcomes. We created a research framework based on DeFond and Zhang's (2014) taxonomy and the bi‐directional differentiation between the incentives and competencies of financial auditors. CSR outcomes were further divided into CSR performance, reporting, and assurance. We found that audit fees and big four audit firm involvement increased the level of CSR outcomes in many studies, and that CSR performance was negatively related to audit fees. The link between financial auditors and CSR assurance (quality, scope, and provider) represents the primary research gap. Future researchers should measure the effect of the sustainability expertise of financial auditors on CSR outcomes and the concrete conditions under which a joint provision of financial audit and CSR assurance leads to increased CSR.",
+    "real_title": "The Link Between Financial Auditors and Corporate Social Responsibility: A Review of Empirical Studies and Implications for Future Research"
   },
   "link_243e6888bb": {
     "type": "pdf_link",
     "id": "link_243e6888bb",
     "url": "https://discovery.ucl.ac.uk/id/eprint/10220353/1/BHP-AERI-Full.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 23:34:11.121995"
+    "ts": "2026-01-28 23:34:11.121995",
+    "local_path": "downloads/link_243e6888bb.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Did Recent Inflation Reflect a Nonlinear Phillips Curve?"
   },
   "link_e222567a3b": {
     "type": "pdf_link",
     "id": "link_e222567a3b",
     "url": "https://is.muni.cz/th/lgrqa/Remper_HPMV_DP_final_Archive.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-01-28 23:34:11.130957"
   },
   "link_5a308c8241": {
@@ -8877,72 +8921,104 @@
     "id": "link_5a308c8241",
     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F2401CB2226C336C82B50BBB49863624/S0002930025101309a.pdf/colonialism_and_decolonization_on_a_world_scalethree_perspectives.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 23:34:11.139634"
+    "ts": "2026-01-28 23:34:11.139634",
+    "local_path": "downloads/link_5a308c8241.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "COLONIALISM AND DECOLONIZATION ON A WORLD SCALE — THREE PERSPECTIVES"
   },
   "2601.19167": {
     "type": "arxiv",
     "id": "2601.19167",
     "url": "https://arxiv.org/pdf/2601.19167.pdf",
     "title": "ArXiv 2601.19167",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.440602"
+    "ts": "2026-01-29 04:44:44.440602",
+    "local_path": "downloads/2601.19167.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Modeling Ordinal Survey Data with Unfolding Models"
   },
   "2601.19868": {
     "type": "arxiv",
     "id": "2601.19868",
     "url": "https://arxiv.org/pdf/2601.19868.pdf",
     "title": "ArXiv 2601.19868",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.449636"
+    "ts": "2026-01-29 04:44:44.449636",
+    "local_path": "downloads/2601.19868.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Estimating ordered variance of two scale mixture of normal distributions"
   },
   "2601.19447": {
     "type": "arxiv",
     "id": "2601.19447",
     "url": "https://arxiv.org/pdf/2601.19447.pdf",
     "title": "ArXiv 2601.19447",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.458402"
+    "ts": "2026-01-29 04:44:44.458402",
+    "local_path": "downloads/2601.19447.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** KG-CRAFT: Knowledge Graph-based Contrastive Reasoning with LLMs for Enhancing Automated Fact-checking"
   },
   "2601.19490": {
     "type": "arxiv",
     "id": "2601.19490",
     "url": "https://arxiv.org/pdf/2601.19490.pdf",
     "title": "ArXiv 2601.19490",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.467103"
+    "ts": "2026-01-29 04:44:44.467103",
+    "local_path": "downloads/2601.19490.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ClaimPT: A Portuguese Dataset of Annotated Claims in News Articles"
   },
   "2601.19350": {
     "type": "arxiv",
     "id": "2601.19350",
     "url": "https://arxiv.org/pdf/2601.19350.pdf",
     "title": "ArXiv 2601.19350",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.475851"
+    "ts": "2026-01-29 04:44:44.475851",
+    "local_path": "downloads/2601.19350.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Cross-Examination Framework: A Task-Agnostic Diagnostic for Information Fidelity in Text-to-Text Generation"
   },
   "2601.18801": {
     "type": "arxiv",
     "id": "2601.18801",
     "url": "https://arxiv.org/pdf/2601.18801.pdf",
     "title": "ArXiv 2601.18801",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.484614"
+    "ts": "2026-01-29 04:44:44.484614",
+    "local_path": "downloads/2601.18801.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Design-Robust Event-Study Estimation under Staggered Adoption: Diagnostics, Sensitivity, and Orthogonalisation"
   },
   "2601.19666": {
     "type": "arxiv",
     "id": "2601.19666",
     "url": "https://arxiv.org/pdf/2601.19666.pdf",
     "title": "ArXiv 2601.19666",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.493333"
+    "ts": "2026-01-29 04:44:44.493333",
+    "local_path": "downloads/2601.19666.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Direct Doubly Robust Estimation of Conditional Quantile Comparators"
   },
   "2601.19836": {
     "type": "arxiv",
