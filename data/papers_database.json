@@ -8249,180 +8249,260 @@
     "id": "2601.17753",
     "url": "https://arxiv.org/pdf/2601.17753.pdf",
     "title": "ArXiv 2601.17753",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.934520"
+    "ts": "2026-01-28 04:11:25.934520",
+    "local_path": "downloads/2601.17753.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Hylog: A Hybrid Approach to Logging Text Production in Non-alphabetic Scripts**"
   },
   "2601.18129": {
     "type": "arxiv",
     "id": "2601.18129",
     "url": "https://arxiv.org/pdf/2601.18129.pdf",
     "title": "ArXiv 2601.18129",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.942656"
+    "ts": "2026-01-28 04:11:25.942656",
+    "local_path": "downloads/2601.18129.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models**"
   },
   "2601.17695": {
     "type": "arxiv",
     "id": "2601.17695",
     "url": "https://arxiv.org/pdf/2601.17695.pdf",
     "title": "ArXiv 2601.17695",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.950665"
+    "ts": "2026-01-28 04:11:25.950665",
+    "local_path": "downloads/2601.17695.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bidirectional causal inference for binary outcomes in the presence of unmeasured confounding"
   },
   "2601.17431": {
     "type": "arxiv",
     "id": "2601.17431",
     "url": "https://arxiv.org/pdf/2601.17431.pdf",
     "title": "ArXiv 2601.17431",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.959014"
+    "ts": "2026-01-28 04:11:25.959014",
+    "local_path": "downloads/2601.17431.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The 17% Gap: Quantifying Epistemic Decay in AI-Assisted Survey Papers**"
   },
   "2601.17658": {
     "type": "arxiv",
     "id": "2601.17658",
     "url": "https://arxiv.org/pdf/2601.17658.pdf",
     "title": "ArXiv 2601.17658",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.967043"
+    "ts": "2026-01-28 04:11:25.967043",
+    "local_path": "downloads/2601.17658.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.17658"
   },
   "2601.17377": {
     "type": "arxiv",
     "id": "2601.17377",
     "url": "https://arxiv.org/pdf/2601.17377.pdf",
     "title": "ArXiv 2601.17377",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.975217"
+    "ts": "2026-01-28 04:11:25.975217",
+    "local_path": "downloads/2601.17377.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** WarrantScore: Modeling Warrants between Claims and Evidence for Substantiation Evaluation in Peer Reviews"
   },
   "2601.17971": {
     "type": "arxiv",
     "id": "2601.17971",
     "url": "https://arxiv.org/pdf/2601.17971.pdf",
     "title": "ArXiv 2601.17971",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.983274"
+    "ts": "2026-01-28 04:11:25.983274",
+    "local_path": "downloads/2601.17971.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "LLMs as Cultural Archives: Cultural Commonsense Knowledge Graph Extraction"
   },
   "2601.17096": {
     "type": "arxiv",
     "id": "2601.17096",
     "url": "https://arxiv.org/pdf/2601.17096.pdf",
     "title": "ArXiv 2601.17096",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.991424"
+    "ts": "2026-01-28 04:11:25.991424",
+    "local_path": "downloads/2601.17096.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond Instrumental and Substitutive Paradigms: Introducing Machine Culture as an Emergent Phenomenon in Large Language Models"
   },
   "2601.17998": {
     "type": "arxiv",
     "id": "2601.17998",
     "url": "https://arxiv.org/pdf/2601.17998.pdf",
     "title": "ArXiv 2601.17998",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.999421"
+    "ts": "2026-01-28 04:11:25.999421",
+    "local_path": "downloads/2601.17998.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Most Important Laboratory for Social Scientific and Computing Research in History"
   },
   "2601.17025": {
     "type": "arxiv",
     "id": "2601.17025",
     "url": "https://arxiv.org/pdf/2601.17025.pdf",
     "title": "ArXiv 2601.17025",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.007487"
+    "ts": "2026-01-28 04:11:26.007487",
+    "local_path": "downloads/2601.17025.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** (Mis-)Informed Consent: Predatory Apps and the Exploitation of Populations with Limited Literacy"
   },
   "2601.17153": {
     "type": "arxiv",
     "id": "2601.17153",
     "url": "https://arxiv.org/pdf/2601.17153.pdf",
     "title": "ArXiv 2601.17153",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.015689"
+    "ts": "2026-01-28 04:11:26.015689",
+    "local_path": "downloads/2601.17153.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating Aggregated Relational Data Models with Simple Diagnostics**"
   },
   "2601.18622": {
     "type": "arxiv",
     "id": "2601.18622",
     "url": "https://arxiv.org/pdf/2601.18622.pdf",
     "title": "ArXiv 2601.18622",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.023773"
+    "ts": "2026-01-28 04:11:26.023773",
+    "local_path": "downloads/2601.18622.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Brazilian Social Media Anti-vaccine Information Disorder Dataset - Telegram (2020-2025)"
   },
   "2601.18512": {
     "type": "arxiv",
     "id": "2601.18512",
     "url": "https://arxiv.org/pdf/2601.18512.pdf",
     "title": "ArXiv 2601.18512",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.031857"
+    "ts": "2026-01-28 04:11:26.031857",
+    "local_path": "downloads/2601.18512.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Using Large Language Models to Construct Virtual Top Managers: A Method for Organizational Research"
   },
   "2601.17712": {
     "type": "arxiv",
     "id": "2601.17712",
     "url": "https://arxiv.org/pdf/2601.17712.pdf",
     "title": "ArXiv 2601.17712",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.039984"
+    "ts": "2026-01-28 04:11:26.039984",
+    "local_path": "downloads/2601.17712.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Proximal Surrogate Index: Long-Term Treatment Effects under Unobserved Confounding"
   },
   "2601.17141": {
     "type": "arxiv",
     "id": "2601.17141",
     "url": "https://arxiv.org/pdf/2601.17141.pdf",
     "title": "ArXiv 2601.17141",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.048172"
+    "ts": "2026-01-28 04:11:26.048172",
+    "local_path": "downloads/2601.17141.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Varying coefficient model for longitudinal data with informative observation times"
   },
   "2601.18374": {
     "type": "arxiv",
     "id": "2601.18374",
     "url": "https://arxiv.org/pdf/2601.18374.pdf",
     "title": "ArXiv 2601.18374",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.056537"
+    "ts": "2026-01-28 04:11:26.056537",
+    "local_path": "downloads/2601.18374.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CitiLink: Enhancing Municipal Transparency and Citizen Engagement through Searchable Meeting Minutes"
   },
   "2601.17277": {
     "type": "arxiv",
     "id": "2601.17277",
     "url": "https://arxiv.org/pdf/2601.17277.pdf",
     "title": "ArXiv 2601.17277",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.064811"
+    "ts": "2026-01-28 04:11:26.064811",
+    "local_path": "downloads/2601.17277.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "P ING P ONG : A Natural Benchmark for Multi-Turn Code-Switching Dialogues**"
   },
   "2601.18380": {
     "type": "arxiv",
     "id": "2601.18380",
     "url": "https://arxiv.org/pdf/2601.18380.pdf",
     "title": "ArXiv 2601.18380",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.073194"
+    "ts": "2026-01-28 04:11:26.073194",
+    "local_path": "downloads/2601.18380.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Corpus-Based Approaches to Igbo Diacritic Restoration"
   },
   "2601.16997": {
     "type": "arxiv",
     "id": "2601.16997",
     "url": "https://arxiv.org/pdf/2601.16997.pdf",
     "title": "ArXiv 2601.16997",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.081528"
+    "ts": "2026-01-28 04:11:26.081528",
+    "local_path": "downloads/2601.16997.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From annual to quarterly data: challenges and strategies in the estimation of Italian General Government Compensation of employees"
   },
   "2601.18013": {
     "type": "arxiv",
     "id": "2601.18013",
     "url": "https://arxiv.org/pdf/2601.18013.pdf",
     "title": "ArXiv 2601.18013",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.089810"
+    "ts": "2026-01-28 04:11:26.089810",
+    "local_path": "downloads/2601.18013.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Examining the Efficacy of Coarsen Exact Matching as an Alternative to Propensity Score Matching"
   },
   "2601.17540": {
     "type": "arxiv",
@@ -8720,5 +8800,473 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-28 23:34:11.139634"
+  },
+  "2601.19167": {
+    "type": "arxiv",
+    "id": "2601.19167",
+    "url": "https://arxiv.org/pdf/2601.19167.pdf",
+    "title": "ArXiv 2601.19167",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.440602"
+  },
+  "2601.19868": {
+    "type": "arxiv",
+    "id": "2601.19868",
+    "url": "https://arxiv.org/pdf/2601.19868.pdf",
+    "title": "ArXiv 2601.19868",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.449636"
+  },
+  "2601.19447": {
+    "type": "arxiv",
+    "id": "2601.19447",
+    "url": "https://arxiv.org/pdf/2601.19447.pdf",
+    "title": "ArXiv 2601.19447",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.458402"
+  },
+  "2601.19490": {
+    "type": "arxiv",
+    "id": "2601.19490",
+    "url": "https://arxiv.org/pdf/2601.19490.pdf",
+    "title": "ArXiv 2601.19490",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.467103"
+  },
+  "2601.19350": {
+    "type": "arxiv",
+    "id": "2601.19350",
+    "url": "https://arxiv.org/pdf/2601.19350.pdf",
+    "title": "ArXiv 2601.19350",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.475851"
+  },
+  "2601.18801": {
+    "type": "arxiv",
+    "id": "2601.18801",
+    "url": "https://arxiv.org/pdf/2601.18801.pdf",
+    "title": "ArXiv 2601.18801",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.484614"
+  },
+  "2601.19666": {
+    "type": "arxiv",
+    "id": "2601.19666",
+    "url": "https://arxiv.org/pdf/2601.19666.pdf",
+    "title": "ArXiv 2601.19666",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.493333"
+  },
+  "2601.19836": {
+    "type": "arxiv",
+    "id": "2601.19836",
+    "url": "https://arxiv.org/pdf/2601.19836.pdf",
+    "title": "ArXiv 2601.19836",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.506046"
+  },
+  "2601.19191": {
+    "type": "arxiv",
+    "id": "2601.19191",
+    "url": "https://arxiv.org/pdf/2601.19191.pdf",
+    "title": "ArXiv 2601.19191",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.516306"
+  },
+  "2601.18889": {
+    "type": "arxiv",
+    "id": "2601.18889",
+    "url": "https://arxiv.org/pdf/2601.18889.pdf",
+    "title": "ArXiv 2601.18889",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.525428"
+  },
+  "2601.19277": {
+    "type": "arxiv",
+    "id": "2601.19277",
+    "url": "https://arxiv.org/pdf/2601.19277.pdf",
+    "title": "ArXiv 2601.19277",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.534264"
+  },
+  "2601.19096": {
+    "type": "arxiv",
+    "id": "2601.19096",
+    "url": "https://arxiv.org/pdf/2601.19096.pdf",
+    "title": "ArXiv 2601.19096",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.543043"
+  },
+  "2601.19888": {
+    "type": "arxiv",
+    "id": "2601.19888",
+    "url": "https://arxiv.org/pdf/2601.19888.pdf",
+    "title": "ArXiv 2601.19888",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.552069"
+  },
+  "2601.18901": {
+    "type": "arxiv",
+    "id": "2601.18901",
+    "url": "https://arxiv.org/pdf/2601.18901.pdf",
+    "title": "ArXiv 2601.18901",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.560734"
+  },
+  "2601.18998": {
+    "type": "arxiv",
+    "id": "2601.18998",
+    "url": "https://arxiv.org/pdf/2601.18998.pdf",
+    "title": "ArXiv 2601.18998",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.569489"
+  },
+  "2601.19688": {
+    "type": "arxiv",
+    "id": "2601.19688",
+    "url": "https://arxiv.org/pdf/2601.19688.pdf",
+    "title": "ArXiv 2601.19688",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.578424"
+  },
+  "2601.19671": {
+    "type": "arxiv",
+    "id": "2601.19671",
+    "url": "https://arxiv.org/pdf/2601.19671.pdf",
+    "title": "ArXiv 2601.19671",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.587432"
+  },
+  "2601.19124": {
+    "type": "arxiv",
+    "id": "2601.19124",
+    "url": "https://arxiv.org/pdf/2601.19124.pdf",
+    "title": "ArXiv 2601.19124",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.596259"
+  },
+  "2601.19871": {
+    "type": "arxiv",
+    "id": "2601.19871",
+    "url": "https://arxiv.org/pdf/2601.19871.pdf",
+    "title": "ArXiv 2601.19871",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.605342"
+  },
+  "2601.19649": {
+    "type": "arxiv",
+    "id": "2601.19649",
+    "url": "https://arxiv.org/pdf/2601.19649.pdf",
+    "title": "ArXiv 2601.19649",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.614383"
+  },
+  "2601.19049": {
+    "type": "arxiv",
+    "id": "2601.19049",
+    "url": "https://arxiv.org/pdf/2601.19049.pdf",
+    "title": "ArXiv 2601.19049",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.623466"
+  },
+  "2601.19062": {
+    "type": "arxiv",
+    "id": "2601.19062",
+    "url": "https://arxiv.org/pdf/2601.19062.pdf",
+    "title": "ArXiv 2601.19062",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.632452"
+  },
+  "2601.19553": {
+    "type": "arxiv",
+    "id": "2601.19553",
+    "url": "https://arxiv.org/pdf/2601.19553.pdf",
+    "title": "ArXiv 2601.19553",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.641334"
+  },
+  "2601.19342": {
+    "type": "arxiv",
+    "id": "2601.19342",
+    "url": "https://arxiv.org/pdf/2601.19342.pdf",
+    "title": "ArXiv 2601.19342",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.650288"
+  },
+  "2601.19802": {
+    "type": "arxiv",
+    "id": "2601.19802",
+    "url": "https://arxiv.org/pdf/2601.19802.pdf",
+    "title": "ArXiv 2601.19802",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.659443"
+  },
+  "2601.19004": {
+    "type": "arxiv",
+    "id": "2601.19004",
+    "url": "https://arxiv.org/pdf/2601.19004.pdf",
+    "title": "ArXiv 2601.19004",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.668500"
+  },
+  "2601.19729": {
+    "type": "arxiv",
+    "id": "2601.19729",
+    "url": "https://arxiv.org/pdf/2601.19729.pdf",
+    "title": "ArXiv 2601.19729",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.677407"
+  },
+  "2601.19827": {
+    "type": "arxiv",
+    "id": "2601.19827",
+    "url": "https://arxiv.org/pdf/2601.19827.pdf",
+    "title": "ArXiv 2601.19827",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.686615"
+  },
+  "2601.19044": {
+    "type": "arxiv",
+    "id": "2601.19044",
+    "url": "https://arxiv.org/pdf/2601.19044.pdf",
+    "title": "ArXiv 2601.19044",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.695972"
+  },
+  "2601.19657": {
+    "type": "arxiv",
+    "id": "2601.19657",
+    "url": "https://arxiv.org/pdf/2601.19657.pdf",
+    "title": "ArXiv 2601.19657",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.711052"
+  },
+  "2601.19899": {
+    "type": "arxiv",
+    "id": "2601.19899",
+    "url": "https://arxiv.org/pdf/2601.19899.pdf",
+    "title": "ArXiv 2601.19899",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.720286"
+  },
+  "2601.19715": {
+    "type": "arxiv",
+    "id": "2601.19715",
+    "url": "https://arxiv.org/pdf/2601.19715.pdf",
+    "title": "ArXiv 2601.19715",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.729960"
+  },
+  "2601.19774": {
+    "type": "arxiv",
+    "id": "2601.19774",
+    "url": "https://arxiv.org/pdf/2601.19774.pdf",
+    "title": "ArXiv 2601.19774",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.739071"
+  },
+  "2601.18902": {
+    "type": "arxiv",
+    "id": "2601.18902",
+    "url": "https://arxiv.org/pdf/2601.18902.pdf",
+    "title": "ArXiv 2601.18902",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.748025"
+  },
+  "2601.19637": {
+    "type": "arxiv",
+    "id": "2601.19637",
+    "url": "https://arxiv.org/pdf/2601.19637.pdf",
+    "title": "ArXiv 2601.19637",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.756916"
+  },
+  "2601.19667": {
+    "type": "arxiv",
+    "id": "2601.19667",
+    "url": "https://arxiv.org/pdf/2601.19667.pdf",
+    "title": "ArXiv 2601.19667",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.765839"
+  },
+  "2601.19613": {
+    "type": "arxiv",
+    "id": "2601.19613",
+    "url": "https://arxiv.org/pdf/2601.19613.pdf",
+    "title": "ArXiv 2601.19613",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.774971"
+  },
+  "2601.19773": {
+    "type": "arxiv",
+    "id": "2601.19773",
+    "url": "https://arxiv.org/pdf/2601.19773.pdf",
+    "title": "ArXiv 2601.19773",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.784011"
+  },
+  "2601.19578": {
+    "type": "arxiv",
+    "id": "2601.19578",
+    "url": "https://arxiv.org/pdf/2601.19578.pdf",
+    "title": "ArXiv 2601.19578",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.793653"
+  },
+  "2601.19331": {
+    "type": "arxiv",
+    "id": "2601.19331",
+    "url": "https://arxiv.org/pdf/2601.19331.pdf",
+    "title": "ArXiv 2601.19331",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.802724"
+  },
+  "2601.19360": {
+    "type": "arxiv",
+    "id": "2601.19360",
+    "url": "https://arxiv.org/pdf/2601.19360.pdf",
+    "title": "ArXiv 2601.19360",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.812078"
+  },
+  "2601.19451": {
+    "type": "arxiv",
+    "id": "2601.19451",
+    "url": "https://arxiv.org/pdf/2601.19451.pdf",
+    "title": "ArXiv 2601.19451",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.821115"
+  },
+  "2601.18802": {
+    "type": "arxiv",
+    "id": "2601.18802",
+    "url": "https://arxiv.org/pdf/2601.18802.pdf",
+    "title": "ArXiv 2601.18802",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.830052"
+  },
+  "2601.19202": {
+    "type": "arxiv",
+    "id": "2601.19202",
+    "url": "https://arxiv.org/pdf/2601.19202.pdf",
+    "title": "ArXiv 2601.19202",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.839260"
+  },
+  "2601.19886": {
+    "type": "arxiv",
+    "id": "2601.19886",
+    "url": "https://arxiv.org/pdf/2601.19886.pdf",
+    "title": "ArXiv 2601.19886",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.848403"
+  },
+  "2601.19225": {
+    "type": "arxiv",
+    "id": "2601.19225",
+    "url": "https://arxiv.org/pdf/2601.19225.pdf",
+    "title": "ArXiv 2601.19225",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.857578"
+  },
+  "2601.19410": {
+    "type": "arxiv",
+    "id": "2601.19410",
+    "url": "https://arxiv.org/pdf/2601.19410.pdf",
+    "title": "ArXiv 2601.19410",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.866624"
+  },
+  "2601.19389": {
+    "type": "arxiv",
+    "id": "2601.19389",
+    "url": "https://arxiv.org/pdf/2601.19389.pdf",
+    "title": "ArXiv 2601.19389",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.875875"
+  },
+  "2601.18899": {
+    "type": "arxiv",
+    "id": "2601.18899",
+    "url": "https://arxiv.org/pdf/2601.18899.pdf",
+    "title": "ArXiv 2601.18899",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.885137"
+  },
+  "2601.19273": {
+    "type": "arxiv",
+    "id": "2601.19273",
+    "url": "https://arxiv.org/pdf/2601.19273.pdf",
+    "title": "ArXiv 2601.19273",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:44.894135"
+  },
+  "10.12927/hcpap.2025.27756": {
+    "type": "doi",
+    "id": "10.12927/hcpap.2025.27756",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:47.797800"
+  },
+  "10.12688/openreseurope.21755.2": {
+    "type": "doi",
+    "id": "10.12688/openreseurope.21755.2",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-29 04:44:47.807522"
   }
 }
