@@ -8509,180 +8509,260 @@
     "id": "2601.17540",
     "url": "https://arxiv.org/pdf/2601.17540.pdf",
     "title": "ArXiv 2601.17540",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.098297"
+    "ts": "2026-01-28 04:11:26.098297",
+    "local_path": "downloads/2601.17540.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Ethical Risk Assessment of the Data Harnessing Process of LLM supported on Consensus of Well-known Multi-Ethical Frameworks"
   },
   "2601.18127": {
     "type": "arxiv",
     "id": "2601.18127",
     "url": "https://arxiv.org/pdf/2601.18127.pdf",
     "title": "ArXiv 2601.18127",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.106968"
+    "ts": "2026-01-28 04:11:26.106968",
+    "local_path": "downloads/2601.18127.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Limits of AI Data Transparency Policy: Three Disclosure Fallacies"
   },
   "2601.17265": {
     "type": "arxiv",
     "id": "2601.17265",
     "url": "https://arxiv.org/pdf/2601.17265.pdf",
     "title": "ArXiv 2601.17265",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.115247"
+    "ts": "2026-01-28 04:11:26.115247",
+    "local_path": "downloads/2601.17265.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Covariate-assisted Grade of Membership Models via Shared Latent Geometry"
   },
   "2601.18552": {
     "type": "arxiv",
     "id": "2601.18552",
     "url": "https://arxiv.org/pdf/2601.18552.pdf",
     "title": "ArXiv 2601.18552",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.124628"
+    "ts": "2026-01-28 04:11:26.124628",
+    "local_path": "downloads/2601.18552.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "UNKNOWN UNKNOWN: WHY HIDDEN INTENTIONS IN LLMs EVADE DETECTION**"
   },
   "2601.17605": {
     "type": "arxiv",
     "id": "2601.17605",
     "url": "https://arxiv.org/pdf/2601.17605.pdf",
     "title": "ArXiv 2601.17605",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.132907"
+    "ts": "2026-01-28 04:11:26.132907",
+    "local_path": "downloads/2601.17605.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Event history analysis with time-dependent covariates via landmarking supermodels and boosted trees"
   },
   "2601.17618": {
     "type": "arxiv",
     "id": "2601.17618",
     "url": "https://arxiv.org/pdf/2601.17618.pdf",
     "title": "ArXiv 2601.17618",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.141415"
+    "ts": "2026-01-28 04:11:26.141415",
+    "local_path": "downloads/2601.17618.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Two-Stage Estimation of Latent Variable Regression Models: A General, Root-N Consistent Solution"
   },
   "2601.17191": {
     "type": "arxiv",
     "id": "2601.17191",
     "url": "https://arxiv.org/pdf/2601.17191.pdf",
     "title": "ArXiv 2601.17191",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.149652"
+    "ts": "2026-01-28 04:11:26.149652",
+    "local_path": "downloads/2601.17191.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Global Majority in International AI Governance"
   },
   "2601.17302": {
     "type": "arxiv",
     "id": "2601.17302",
     "url": "https://arxiv.org/pdf/2601.17302.pdf",
     "title": "ArXiv 2601.17302",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.158175"
+    "ts": "2026-01-28 04:11:26.158175",
+    "local_path": "downloads/2601.17302.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tighter confidence intervals for quantiles of heterogeneous data"
   },
   "2601.17016": {
     "type": "arxiv",
     "id": "2601.17016",
     "url": "https://arxiv.org/pdf/2601.17016.pdf",
     "title": "ArXiv 2601.17016",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.166525"
+    "ts": "2026-01-28 04:11:26.166525",
+    "local_path": "downloads/2601.17016.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Measuring Political Stance and Consistency in Large Language Models**"
   },
   "2601.17565": {
     "type": "arxiv",
     "id": "2601.17565",
     "url": "https://arxiv.org/pdf/2601.17565.pdf",
     "title": "ArXiv 2601.17565",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.174771"
+    "ts": "2026-01-28 04:11:26.174771",
+    "local_path": "downloads/2601.17565.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Directional footrule-coefficients"
   },
   "2601.17064": {
     "type": "arxiv",
     "id": "2601.17064",
     "url": "https://arxiv.org/pdf/2601.17064.pdf",
     "title": "ArXiv 2601.17064",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.183061"
+    "ts": "2026-01-28 04:11:26.183061",
+    "local_path": "downloads/2601.17064.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Between Search and Platform: ChatGPT Under the DSA"
   },
   "2601.17892": {
     "type": "arxiv",
     "id": "2601.17892",
     "url": "https://arxiv.org/pdf/2601.17892.pdf",
     "title": "ArXiv 2601.17892",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.191556"
+    "ts": "2026-01-28 04:11:26.191556",
+    "local_path": "downloads/2601.17892.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.17892"
   },
   "2601.18654": {
     "type": "arxiv",
     "id": "2601.18654",
     "url": "https://arxiv.org/pdf/2601.18654.pdf",
     "title": "ArXiv 2601.18654",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.200038"
+    "ts": "2026-01-28 04:11:26.200038",
+    "local_path": "downloads/2601.18654.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When Is Self-Disclosure Optimal? Incentives and Governance of AI-Generated Content**"
   },
   "2601.18791": {
     "type": "arxiv",
     "id": "2601.18791",
     "url": "https://arxiv.org/pdf/2601.18791.pdf",
     "title": "ArXiv 2601.18791",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.208805"
+    "ts": "2026-01-28 04:11:26.208805",
+    "local_path": "downloads/2601.18791.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Subword-Based Comparative Linguistics Across 242 Languages Using Wikipedia Glottosets"
   },
   "2601.18770": {
     "type": "arxiv",
     "id": "2601.18770",
     "url": "https://arxiv.org/pdf/2601.18770.pdf",
     "title": "ArXiv 2601.18770",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.217143"
+    "ts": "2026-01-28 04:11:26.217143",
+    "local_path": "downloads/2601.18770.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Equality between two general ridge estimators and applications in several linear models**"
   },
   "2601.17993": {
     "type": "arxiv",
     "id": "2601.17993",
     "url": "https://arxiv.org/pdf/2601.17993.pdf",
     "title": "ArXiv 2601.17993",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.225571"
+    "ts": "2026-01-28 04:11:26.225571",
+    "local_path": "downloads/2601.17993.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.17993"
   },
   "2601.17706": {
     "type": "arxiv",
     "id": "2601.17706",
     "url": "https://arxiv.org/pdf/2601.17706.pdf",
     "title": "ArXiv 2601.17706",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.234757"
+    "ts": "2026-01-28 04:11:26.234757",
+    "local_path": "downloads/2601.17706.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Computational Approach to Visual Metonymy"
   },
   "2601.18052": {
     "type": "arxiv",
     "id": "2601.18052",
     "url": "https://arxiv.org/pdf/2601.18052.pdf",
     "title": "ArXiv 2601.18052",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.243411"
+    "ts": "2026-01-28 04:11:26.243411",
+    "local_path": "downloads/2601.18052.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.18052"
   },
   "2601.18572": {
     "type": "arxiv",
     "id": "2601.18572",
     "url": "https://arxiv.org/pdf/2601.18572.pdf",
     "title": "ArXiv 2601.18572",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.251760"
+    "ts": "2026-01-28 04:11:26.251760",
+    "local_path": "downloads/2601.18572.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** One Persona, Many Cues, Different Results: How Sociodemographic Cues Impact LLM Personalization"
   },
   "2601.18116": {
     "type": "arxiv",
     "id": "2601.18116",
     "url": "https://arxiv.org/pdf/2601.18116.pdf",
     "title": "ArXiv 2601.18116",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:26.260311"
+    "ts": "2026-01-28 04:11:26.260311",
+    "local_path": "downloads/2601.18116.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.18116"
   },
   "2601.17203": {
     "type": "arxiv",
