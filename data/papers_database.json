@@ -7989,180 +7989,260 @@
     "id": "2601.16724",
     "url": "https://arxiv.org/pdf/2601.16724.pdf",
     "title": "ArXiv 2601.16724",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.939468"
+    "ts": "2026-01-28 04:11:23.939468",
+    "local_path": "downloads/2601.16724.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.16724"
   },
   "2601.16314": {
     "type": "arxiv",
     "id": "2601.16314",
     "url": "https://arxiv.org/pdf/2601.16314.pdf",
     "title": "ArXiv 2601.16314",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.947367"
+    "ts": "2026-01-28 04:11:23.947367",
+    "local_path": "downloads/2601.16314.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Machine-Assisted Grading of Nationwide School-Leaving Essay Exams with LLMs and Statistical NLP"
   },
   "2601.16644": {
     "type": "arxiv",
     "id": "2601.16644",
     "url": "https://arxiv.org/pdf/2601.16644.pdf",
     "title": "ArXiv 2601.16644",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.955454"
+    "ts": "2026-01-28 04:11:23.955454",
+    "local_path": "downloads/2601.16644.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Sycophancy Hides Linearly in the Attention Heads"
   },
   "2601.16278": {
     "type": "arxiv",
     "id": "2601.16278",
     "url": "https://arxiv.org/pdf/2601.16278.pdf",
     "title": "ArXiv 2601.16278",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.963349"
+    "ts": "2026-01-28 04:11:23.963349",
+    "local_path": "downloads/2601.16278.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Better as Generators Than Classifiers: Leveraging LLMs and Synthetic Data for Low-Resource Multilingual Classification"
   },
   "2601.16629": {
     "type": "arxiv",
     "id": "2601.16629",
     "url": "https://arxiv.org/pdf/2601.16629.pdf",
     "title": "ArXiv 2601.16629",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.971216"
+    "ts": "2026-01-28 04:11:23.971216",
+    "local_path": "downloads/2601.16629.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Typologically Informed Parameter Aggregation**"
   },
   "2601.16837": {
     "type": "arxiv",
     "id": "2601.16837",
     "url": "https://arxiv.org/pdf/2601.16837.pdf",
     "title": "ArXiv 2601.16837",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.979247"
+    "ts": "2026-01-28 04:11:23.979247",
+    "local_path": "downloads/2601.16837.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Spillovers and Co-movements in Multivariate Volatility: A Vector Multiplicative Error Model"
   },
   "2601.16823": {
     "type": "arxiv",
     "id": "2601.16823",
     "url": "https://arxiv.org/pdf/2601.16823.pdf",
     "title": "ArXiv 2601.16823",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.987074"
+    "ts": "2026-01-28 04:11:23.987074",
+    "local_path": "downloads/2601.16823.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "TRAPPED IN THE PAST? DISENTANGLING FLUID AND CRYSTALLIZED INTELLIGENCE OF LARGE LANGUAGE MODELS USING CHESS"
   },
   "2601.16385": {
     "type": "arxiv",
     "id": "2601.16385",
     "url": "https://arxiv.org/pdf/2601.16385.pdf",
     "title": "ArXiv 2601.16385",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:23.994957"
+    "ts": "2026-01-28 04:11:23.994957",
+    "local_path": "downloads/2601.16385.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Spherical Spatial Autoregressive Model for Spherically Embedded Spatial Data"
   },
   "2601.16220": {
     "type": "arxiv",
     "id": "2601.16220",
     "url": "https://arxiv.org/pdf/2601.16220.pdf",
     "title": "ArXiv 2601.16220",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.002921"
+    "ts": "2026-01-28 04:11:24.002921",
+    "local_path": "downloads/2601.16220.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Towards Latent Diffusion Suitable For Text"
   },
   "2601.16462": {
     "type": "arxiv",
     "id": "2601.16462",
     "url": "https://arxiv.org/pdf/2601.16462.pdf",
     "title": "ArXiv 2601.16462",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.010794"
+    "ts": "2026-01-28 04:11:24.010794",
+    "local_path": "downloads/2601.16462.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Graph-Anchored Knowledge Indexing for Retrieval-Augmented Generation**"
   },
   "2601.16355": {
     "type": "arxiv",
     "id": "2601.16355",
     "url": "https://arxiv.org/pdf/2601.16355.pdf",
     "title": "ArXiv 2601.16355",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.018706"
+    "ts": "2026-01-28 04:11:24.018706",
+    "local_path": "downloads/2601.16355.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Identity, Cooperation and Framing Effects within Groups of Real and Simulated Humans**"
   },
   "2601.16397": {
     "type": "arxiv",
     "id": "2601.16397",
     "url": "https://arxiv.org/pdf/2601.16397.pdf",
     "title": "ArXiv 2601.16397",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.026794"
+    "ts": "2026-01-28 04:11:24.026794",
+    "local_path": "downloads/2601.16397.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** CITATION WHILE YOU GENERATE: TRAINING-FREE EVIDENCE ATTRIBUTION FOR MULTI-MODAL CLINICAL SUMMARIZATION"
   },
   "2601.16312": {
     "type": "arxiv",
     "id": "2601.16312",
     "url": "https://arxiv.org/pdf/2601.16312.pdf",
     "title": "ArXiv 2601.16312",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.034775"
+    "ts": "2026-01-28 04:11:24.034775",
+    "local_path": "downloads/2601.16312.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Teaching and Evaluating LLMs to Reason About Polymer Design Related Tasks"
   },
   "2601.16890": {
     "type": "arxiv",
     "id": "2601.16890",
     "url": "https://arxiv.org/pdf/2601.16890.pdf",
     "title": "ArXiv 2601.16890",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.042906"
+    "ts": "2026-01-28 04:11:24.042906",
+    "local_path": "downloads/2601.16890.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems"
   },
   "2601.16508": {
     "type": "arxiv",
     "id": "2601.16508",
     "url": "https://arxiv.org/pdf/2601.16508.pdf",
     "title": "ArXiv 2601.16508",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.050867"
+    "ts": "2026-01-28 04:11:24.050867",
+    "local_path": "downloads/2601.16508.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Is Length Really A Liability? An Evaluation of Multi-turn LLM Conversations using BoolQ"
   },
   "10.1080/13648470.2025.2604010": {
     "type": "doi",
     "id": "10.1080/13648470.2025.2604010",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:24.608760"
+    "ts": "2026-01-28 04:11:24.608760",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A call for a critical medical anthropology of the COVID-19 pandemic\n\nABSTRACT: 无摘要",
+    "real_title": "A call for a critical medical anthropology of the COVID-19 pandemic"
   },
   "2601.17232": {
     "type": "arxiv",
     "id": "2601.17232",
     "url": "https://arxiv.org/pdf/2601.17232.pdf",
     "title": "ArXiv 2601.17232",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.901719"
+    "ts": "2026-01-28 04:11:25.901719",
+    "local_path": "downloads/2601.17232.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Frame-Guided Synthetic Claim Generation for Automatic Fact-Checking Using High-Volume Tabular Data**"
   },
   "2601.17631": {
     "type": "arxiv",
     "id": "2601.17631",
     "url": "https://arxiv.org/pdf/2601.17631.pdf",
     "title": "ArXiv 2601.17631",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.910277"
+    "ts": "2026-01-28 04:11:25.910277",
+    "local_path": "downloads/2601.17631.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Representative Litigation Settlement Agreements in Artificial Intelligence Copyright Infringement Disputes: A Comparative Reflection Based on the U.S. Bartz Case"
   },
   "2601.17397": {
     "type": "arxiv",
     "id": "2601.17397",
     "url": "https://arxiv.org/pdf/2601.17397.pdf",
     "title": "ArXiv 2601.17397",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.918386"
+    "ts": "2026-01-28 04:11:25.918386",
+    "local_path": "downloads/2601.17397.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CLM-Bench: Benchmarking and Analyzing Cross-lingual Misalignment of LLMs in Knowledge Editing"
   },
   "2601.18724": {
     "type": "arxiv",
     "id": "2601.18724",
     "url": "https://arxiv.org/pdf/2601.18724.pdf",
     "title": "ArXiv 2601.18724",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-28 04:11:25.926422"
+    "ts": "2026-01-28 04:11:25.926422",
+    "local_path": "downloads/2601.18724.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences"
   },
   "2601.17753": {
     "type": "arxiv",
@@ -8604,5 +8684,41 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-28 04:11:56.810310"
+  },
+  "10.1002/csr.70423": {
+    "type": "doi",
+    "id": "10.1002/csr.70423",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-28 23:34:10.591332"
+  },
+  "link_243e6888bb": {
+    "type": "pdf_link",
+    "id": "link_243e6888bb",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10220353/1/BHP-AERI-Full.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-28 23:34:11.121995"
+  },
+  "link_e222567a3b": {
+    "type": "pdf_link",
+    "id": "link_e222567a3b",
+    "url": "https://is.muni.cz/th/lgrqa/Remper_HPMV_DP_final_Archive.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-28 23:34:11.130957"
+  },
+  "link_5a308c8241": {
+    "type": "pdf_link",
+    "id": "link_5a308c8241",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F2401CB2226C336C82B50BBB49863624/S0002930025101309a.pdf/colonialism_and_decolonization_on_a_world_scalethree_perspectives.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-28 23:34:11.139634"
   }
 }
