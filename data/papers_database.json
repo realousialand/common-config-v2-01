@@ -9519,180 +9519,260 @@
     "id": "2601.19225",
     "url": "https://arxiv.org/pdf/2601.19225.pdf",
     "title": "ArXiv 2601.19225",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.857578"
+    "ts": "2026-01-29 04:44:44.857578",
+    "local_path": "downloads/2601.19225.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RPO-RAG: Aligning Small LLMs with Relation-aware Preference Optimization for Knowledge Graph Question Answering"
   },
   "2601.19410": {
     "type": "arxiv",
     "id": "2601.19410",
     "url": "https://arxiv.org/pdf/2601.19410.pdf",
     "title": "ArXiv 2601.19410",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.866624"
+    "ts": "2026-01-29 04:44:44.866624",
+    "local_path": "downloads/2601.19410.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Do LLMs Truly Benefit from Longer Context in Automatic Post-Editing?"
   },
   "2601.19389": {
     "type": "arxiv",
     "id": "2601.19389",
     "url": "https://arxiv.org/pdf/2601.19389.pdf",
     "title": "ArXiv 2601.19389",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.875875"
+    "ts": "2026-01-29 04:44:44.875875",
+    "local_path": "downloads/2601.19389.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Sufficient Conditions for Some Stochastic Orders of Discrete Random Variables with Applications in Reliability"
   },
   "2601.18899": {
     "type": "arxiv",
     "id": "2601.18899",
     "url": "https://arxiv.org/pdf/2601.18899.pdf",
     "title": "ArXiv 2601.18899",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.885137"
+    "ts": "2026-01-29 04:44:44.885137",
+    "local_path": "downloads/2601.18899.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Language Family Matters: Evaluating LLM-Based ASR Across Linguistic Boundaries"
   },
   "2601.19273": {
     "type": "arxiv",
     "id": "2601.19273",
     "url": "https://arxiv.org/pdf/2601.19273.pdf",
     "title": "ArXiv 2601.19273",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.894135"
+    "ts": "2026-01-29 04:44:44.894135",
+    "local_path": "downloads/2601.19273.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Riddle Quest - The Enigma of Words"
   },
   "10.12927/hcpap.2025.27756": {
     "type": "doi",
     "id": "10.12927/hcpap.2025.27756",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:47.797800"
+    "ts": "2026-01-29 04:44:47.797800",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Rethinking the Federal Role in Health: Revisiting the 2015 Naylor Report on Healthcare Innovation\n\nABSTRACT: 无摘要",
+    "real_title": "Rethinking the Federal Role in Health: Revisiting the 2015 Naylor Report on Healthcare Innovation"
   },
   "10.12688/openreseurope.21755.2": {
     "type": "doi",
     "id": "10.12688/openreseurope.21755.2",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:47.807522"
+    "ts": "2026-01-29 04:44:47.807522",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Rethinking science-policy-practice interaction for transformative sustainability research and innovation in Europe\n\nABSTRACT: Impactful knowledge generation and utilisation, aiming at addressing environmental and sustainability challenges, requires meaningful interaction between scientists, stakeholders, policymakers and society. This study identifies key success factors and challenges at the science-policy-practice interaction, drawing on document analysis, interviews, and workshops involving experts, policymakers, and funders of environmental and sustainability research and innovation across 14 European countries. Experiences from current practices highlight the highly variable contexts for interaction and communication throughout Europe, a diverse range of tools and approaches, and differing levels of available resources. Siloed structures and the need to engage various societal sectors and levels of governance remain significant challenges. The development and employment of expertise in communication, interaction and knowledge co-creation, capable to orchestrate this variability, is essential. Greater recognition of the diverse dimensions of inclusive participation is proposed to ensure that environmental and sustainability research and innovation, aimed at societal transformation, leaves no one behind.",
+    "real_title": "Rethinking science-policy-practice interaction for transformative sustainability research and innovation in Europe"
   },
   "2601.19932": {
     "type": "arxiv",
     "id": "2601.19932",
     "url": "https://arxiv.org/pdf/2601.19932.pdf",
     "title": "ArXiv 2601.19932",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.554693"
+    "ts": "2026-01-30 04:46:19.554693",
+    "local_path": "downloads/2601.19932.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "\"Newspaper Eat\" Means \"Not Tasty\": A Taxonomy and Benchmark for Coded Languages in Real-World Chinese Online Reviews**"
   },
   "2601.20610": {
     "type": "arxiv",
     "id": "2601.20610",
     "url": "https://arxiv.org/pdf/2601.20610.pdf",
     "title": "ArXiv 2601.20610",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.564337"
+    "ts": "2026-01-30 04:46:19.564337",
+    "local_path": "downloads/2601.20610.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Causal Inference in Biomedical Imaging via Functional Linear Structural Equation Models"
   },
   "2601.20792": {
     "type": "arxiv",
     "id": "2601.20792",
     "url": "https://arxiv.org/pdf/2601.20792.pdf",
     "title": "ArXiv 2601.20792",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.573919"
+    "ts": "2026-01-30 04:46:19.573919",
+    "local_path": "downloads/2601.20792.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "JURISDICTION AS STRUCTURAL BARRIER: HOW PRIVACY POLICY ORGANIZATION MAY REDUCE VISIBILITY OF SUBSTANTIVE DISCLOSURES"
   },
   "2601.20405": {
     "type": "arxiv",
     "id": "2601.20405",
     "url": "https://arxiv.org/pdf/2601.20405.pdf",
     "title": "ArXiv 2601.20405",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.583180"
+    "ts": "2026-01-30 04:46:19.583180",
+    "local_path": "downloads/2601.20405.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Potential Outcomes Perspective on Pearl’s Causal Hierarchy"
   },
   "2601.19913": {
     "type": "arxiv",
     "id": "2601.19913",
     "url": "https://arxiv.org/pdf/2601.19913.pdf",
     "title": "ArXiv 2601.19913",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.592532"
+    "ts": "2026-01-30 04:46:19.592532",
+    "local_path": "downloads/2601.19913.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From Intuition to Expertise: Rubric-Based Cognitive Calibration for Human Detection of LLM-Generated Korean Text**"
   },
   "2601.20141": {
     "type": "arxiv",
     "id": "2601.20141",
     "url": "https://arxiv.org/pdf/2601.20141.pdf",
     "title": "ArXiv 2601.20141",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.601790"
+    "ts": "2026-01-30 04:46:19.601790",
+    "local_path": "downloads/2601.20141.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Large language models accurately predict public perceptions of support for climate action worldwide"
   },
   "2601.19925": {
     "type": "arxiv",
     "id": "2601.19925",
     "url": "https://arxiv.org/pdf/2601.19925.pdf",
     "title": "ArXiv 2601.19925",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.611168"
+    "ts": "2026-01-30 04:46:19.611168",
+    "local_path": "downloads/2601.19925.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating Large Language Models for Abstract Evaluation Tasks: An Empirical Study"
   },
   "2601.20424": {
     "type": "arxiv",
     "id": "2601.20424",
     "url": "https://arxiv.org/pdf/2601.20424.pdf",
     "title": "ArXiv 2601.20424",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.620417"
+    "ts": "2026-01-30 04:46:19.620417",
+    "local_path": "downloads/2601.20424.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Hopes and Fears – Emotion Distribution in the Topic Landscape of Finnish Parliamentary Speech 2000-2020"
   },
   "2601.20451": {
     "type": "arxiv",
     "id": "2601.20451",
     "url": "https://arxiv.org/pdf/2601.20451.pdf",
     "title": "ArXiv 2601.20451",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.629901"
+    "ts": "2026-01-30 04:46:19.629901",
+    "local_path": "downloads/2601.20451.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** MuVaC: A Variational Causal Framework for Multimodal Sarcasm Understanding in Dialogues"
   },
   "2601.19930": {
     "type": "arxiv",
     "id": "2601.19930",
     "url": "https://arxiv.org/pdf/2601.19930.pdf",
     "title": "ArXiv 2601.19930",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.639285"
+    "ts": "2026-01-30 04:46:19.639285",
+    "local_path": "downloads/2601.19930.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** SDU’s DAISY: A Benchmark for Danish Culture"
   },
   "2601.20275": {
     "type": "arxiv",
     "id": "2601.20275",
     "url": "https://arxiv.org/pdf/2601.20275.pdf",
     "title": "ArXiv 2601.20275",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.648927"
+    "ts": "2026-01-30 04:46:19.648927",
+    "local_path": "downloads/2601.20275.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RusLICA: A Russian-Language Platform for Automated Linguistic Inquiry and Category Analysis"
   },
   "2601.20105": {
     "type": "arxiv",
     "id": "2601.20105",
     "url": "https://arxiv.org/pdf/2601.20105.pdf",
     "title": "ArXiv 2601.20105",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.658192"
+    "ts": "2026-01-30 04:46:19.658192",
+    "local_path": "downloads/2601.20105.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** FFE-HALLU: Hallucinations in Fixed Figurative Expressions Benchmark of Idioms and Proverbs in the Persian Language"
   },
   "2601.20102": {
     "type": "arxiv",
     "id": "2601.20102",
     "url": "https://arxiv.org/pdf/2601.20102.pdf",
     "title": "ArXiv 2601.20102",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.667500"
+    "ts": "2026-01-30 04:46:19.667500",
+    "local_path": "downloads/2601.20102.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Counterfactual Cultural Cues Reduce Medical QA Accuracy in LLMs: Identifier vs Context Effects"
   },
   "2601.20727": {
     "type": "arxiv",
