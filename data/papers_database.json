@@ -8913,7 +8913,7 @@
     "url": "https://is.muni.cz/th/lgrqa/Remper_HPMV_DP_final_Archive.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-28 23:34:11.130957"
   },
   "link_5a308c8241": {
@@ -9025,171 +9025,247 @@
     "id": "2601.19836",
     "url": "https://arxiv.org/pdf/2601.19836.pdf",
     "title": "ArXiv 2601.19836",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.506046"
+    "ts": "2026-01-29 04:44:44.506046",
+    "local_path": "downloads/2601.19836.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Personalized Treatment Hierarchies in Bayesian Network Meta-Analysis"
   },
   "2601.19191": {
     "type": "arxiv",
     "id": "2601.19191",
     "url": "https://arxiv.org/pdf/2601.19191.pdf",
     "title": "ArXiv 2601.19191",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.516306"
+    "ts": "2026-01-29 04:44:44.516306",
+    "local_path": "downloads/2601.19191.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Transparency-First Medical Language Models: Datasheets, Model Cards, and End-to-End Data Provenance for Clinical NLP"
   },
   "2601.18889": {
     "type": "arxiv",
     "id": "2601.18889",
     "url": "https://arxiv.org/pdf/2601.18889.pdf",
     "title": "ArXiv 2601.18889",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.525428"
+    "ts": "2026-01-29 04:44:44.525428",
+    "local_path": "downloads/2601.18889.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A penalized heteroskedastic ordered probit model for DIF (measurement invariance) testing of single-item assessments in cross-cultural research"
   },
   "2601.19277": {
     "type": "arxiv",
     "id": "2601.19277",
     "url": "https://arxiv.org/pdf/2601.19277.pdf",
     "title": "ArXiv 2601.19277",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.534264"
+    "ts": "2026-01-29 04:44:44.534264",
+    "local_path": "downloads/2601.19277.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.19277"
   },
   "2601.19096": {
     "type": "arxiv",
     "id": "2601.19096",
     "url": "https://arxiv.org/pdf/2601.19096.pdf",
     "title": "ArXiv 2601.19096",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.543043"
+    "ts": "2026-01-29 04:44:44.543043",
+    "local_path": "downloads/2601.19096.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PsyProbe: Proactive and Interpretable Dialogue through User State Modeling for Exploratory Counseling"
   },
   "2601.19888": {
     "type": "arxiv",
     "id": "2601.19888",
     "url": "https://arxiv.org/pdf/2601.19888.pdf",
     "title": "ArXiv 2601.19888",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.552069"
+    "ts": "2026-01-29 04:44:44.552069",
+    "local_path": "downloads/2601.19888.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** M-SGWR: Multiscale Similarity and Geographically Weighted Regression"
   },
   "2601.18901": {
     "type": "arxiv",
     "id": "2601.18901",
     "url": "https://arxiv.org/pdf/2601.18901.pdf",
     "title": "ArXiv 2601.18901",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.560734"
+    "ts": "2026-01-29 04:44:44.560734",
+    "local_path": "downloads/2601.18901.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Self-Aware Knowledge Probing: Evaluating Language Models’ Relational Knowledge through Confidence Calibration"
   },
   "2601.18998": {
     "type": "arxiv",
     "id": "2601.18998",
     "url": "https://arxiv.org/pdf/2601.18998.pdf",
     "title": "ArXiv 2601.18998",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.569489"
+    "ts": "2026-01-29 04:44:44.569489",
+    "local_path": "downloads/2601.18998.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Malicious Repurposing of Open Science Artefacts by Using Large Language Models**"
   },
   "2601.19688": {
     "type": "arxiv",
     "id": "2601.19688",
     "url": "https://arxiv.org/pdf/2601.19688.pdf",
     "title": "ArXiv 2601.19688",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.578424"
+    "ts": "2026-01-29 04:44:44.578424",
+    "local_path": "downloads/2601.19688.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Adaptive L-tests for high dimensional independence"
   },
   "2601.19671": {
     "type": "arxiv",
     "id": "2601.19671",
     "url": "https://arxiv.org/pdf/2601.19671.pdf",
     "title": "ArXiv 2601.19671",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.587432"
+    "ts": "2026-01-29 04:44:44.587432",
+    "local_path": "downloads/2601.19671.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Topology-Aware Subset Repair via Entropy-Guided Density and Graph Decomposition**"
   },
   "2601.19124": {
     "type": "arxiv",
     "id": "2601.19124",
     "url": "https://arxiv.org/pdf/2601.19124.pdf",
     "title": "ArXiv 2601.19124",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.596259"
+    "ts": "2026-01-29 04:44:44.596259",
+    "local_path": "downloads/2601.19124.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Leveraging Sentence-oriented Augmentation and Transformer-Based Architecture for Vietnamese-Bahnaric Translation**"
   },
   "2601.19871": {
     "type": "arxiv",
     "id": "2601.19871",
     "url": "https://arxiv.org/pdf/2601.19871.pdf",
     "title": "ArXiv 2601.19871",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.605342"
+    "ts": "2026-01-29 04:44:44.605342",
+    "local_path": "downloads/2601.19871.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Reflective Translation for Low-Resource Machine Translation via Structured Self-Reflection"
   },
   "2601.19649": {
     "type": "arxiv",
     "id": "2601.19649",
     "url": "https://arxiv.org/pdf/2601.19649.pdf",
     "title": "ArXiv 2601.19649",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.614383"
+    "ts": "2026-01-29 04:44:44.614383",
+    "local_path": "downloads/2601.19649.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Semi-supervised learning in unmatched linear regression using an empirical likelihood approach"
   },
   "2601.19049": {
     "type": "arxiv",
     "id": "2601.19049",
     "url": "https://arxiv.org/pdf/2601.19049.pdf",
     "title": "ArXiv 2601.19049",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.623466"
+    "ts": "2026-01-29 04:44:44.623466",
+    "local_path": "downloads/2601.19049.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A class of skew-multivariate distributions for spatial data"
   },
   "2601.19062": {
     "type": "arxiv",
     "id": "2601.19062",
     "url": "https://arxiv.org/pdf/2601.19062.pdf",
     "title": "ArXiv 2601.19062",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.632452"
+    "ts": "2026-01-29 04:44:44.632452",
+    "local_path": "downloads/2601.19062.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Who’s in Charge? Disempowerment Patterns in Real-World LLM Usage"
   },
   "2601.19553": {
     "type": "arxiv",
     "id": "2601.19553",
     "url": "https://arxiv.org/pdf/2601.19553.pdf",
     "title": "ArXiv 2601.19553",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.641334"
+    "ts": "2026-01-29 04:44:44.641334",
+    "local_path": "downloads/2601.19553.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Fast, Closed-Form Bandwidth Selector for the Beta Kernel Density Estimator"
   },
   "2601.19342": {
     "type": "arxiv",
     "id": "2601.19342",
     "url": "https://arxiv.org/pdf/2601.19342.pdf",
     "title": "ArXiv 2601.19342",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.650288"
+    "ts": "2026-01-29 04:44:44.650288",
+    "local_path": "downloads/2601.19342.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Modeling Behavioral Signals in Job Scams: A Human-Centered Security Study"
   },
   "2601.19802": {
     "type": "arxiv",
     "id": "2601.19802",
     "url": "https://arxiv.org/pdf/2601.19802.pdf",
     "title": "ArXiv 2601.19802",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.659443"
+    "ts": "2026-01-29 04:44:44.659443",
+    "local_path": "downloads/2601.19802.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ZERO-SHOT STANCE DETECTION IN THE WILD: DYNAMIC TARGET GENERATION AND MULTI-TARGET ADAPTATION"
   },
   "2601.19004": {
     "type": "arxiv",
     "id": "2601.19004",
     "url": "https://arxiv.org/pdf/2601.19004.pdf",
     "title": "ArXiv 2601.19004",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-29 04:44:44.668500"
+    "ts": "2026-01-29 04:44:44.668500",
+    "local_path": "downloads/2601.19004.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.19004"
   },
   "2601.19729": {
     "type": "arxiv",
