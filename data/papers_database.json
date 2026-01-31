@@ -10559,180 +10559,260 @@
     "id": "2601.22116",
     "url": "https://arxiv.org/pdf/2601.22116.pdf",
     "title": "ArXiv 2601.22116",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.623453"
+    "ts": "2026-01-31 04:39:57.623453",
+    "local_path": "downloads/2601.22116.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Interval Spacing"
   },
   "2601.20976": {
     "type": "arxiv",
     "id": "2601.20976",
     "url": "https://arxiv.org/pdf/2601.20976.pdf",
     "title": "ArXiv 2601.20976",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.633796"
+    "ts": "2026-01-31 04:39:57.633796",
+    "local_path": "downloads/2601.20976.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Effects of Higher Education on Midlife Depression: Quasi-Experimental Evidence from South Korea"
   },
   "2601.21153": {
     "type": "arxiv",
     "id": "2601.21153",
     "url": "https://arxiv.org/pdf/2601.21153.pdf",
     "title": "ArXiv 2601.21153",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.646188"
+    "ts": "2026-01-31 04:39:57.646188",
+    "local_path": "downloads/2601.21153.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A new strategy for finite-sample valid prediction of future insurance claims in the regression setting"
   },
   "2601.21696": {
     "type": "arxiv",
     "id": "2601.21696",
     "url": "https://arxiv.org/pdf/2601.21696.pdf",
     "title": "ArXiv 2601.21696",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.657131"
+    "ts": "2026-01-31 04:39:57.657131",
+    "local_path": "downloads/2601.21696.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21696"
   },
   "2601.21132": {
     "type": "arxiv",
     "id": "2601.21132",
     "url": "https://arxiv.org/pdf/2601.21132.pdf",
     "title": "ArXiv 2601.21132",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.667878"
+    "ts": "2026-01-31 04:39:57.667878",
+    "local_path": "downloads/2601.21132.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Large Language Models Naively Recover Ethnicity from Individual Records**"
   },
   "2601.20874": {
     "type": "arxiv",
     "id": "2601.20874",
     "url": "https://arxiv.org/pdf/2601.20874.pdf",
     "title": "ArXiv 2601.20874",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.678453"
+    "ts": "2026-01-31 04:39:57.678453",
+    "local_path": "downloads/2601.20874.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Analyzing the Temporal Factors for Anxiety and Depression Symptoms with the Rashomon Perspective"
   },
   "2601.21551": {
     "type": "arxiv",
     "id": "2601.21551",
     "url": "https://arxiv.org/pdf/2601.21551.pdf",
     "title": "ArXiv 2601.21551",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.688792"
+    "ts": "2026-01-31 04:39:57.688792",
+    "local_path": "downloads/2601.21551.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Note2Chat: Improving LLMs for Multi-Turn Clinical History Taking Using Medical Notes"
   },
   "2601.21963": {
     "type": "arxiv",
     "id": "2601.21963",
     "url": "https://arxiv.org/pdf/2601.21963.pdf",
     "title": "ArXiv 2601.21963",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.699425"
+    "ts": "2026-01-31 04:39:57.699425",
+    "local_path": "downloads/2601.21963.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21963"
   },
   "2601.21895": {
     "type": "arxiv",
     "id": "2601.21895",
     "url": "https://arxiv.org/pdf/2601.21895.pdf",
     "title": "ArXiv 2601.21895",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.710015"
+    "ts": "2026-01-31 04:39:57.710015",
+    "local_path": "downloads/2601.21895.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Learn to Distance: Distance Learning for Detecting LLM-Generated Text"
   },
   "2601.22103": {
     "type": "arxiv",
     "id": "2601.22103",
     "url": "https://arxiv.org/pdf/2601.22103.pdf",
     "title": "ArXiv 2601.22103",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.720841"
+    "ts": "2026-01-31 04:39:57.720841",
+    "local_path": "downloads/2601.22103.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Spacing Estimator"
   },
   "2601.21512": {
     "type": "arxiv",
     "id": "2601.21512",
     "url": "https://arxiv.org/pdf/2601.21512.pdf",
     "title": "ArXiv 2601.21512",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.731546"
+    "ts": "2026-01-31 04:39:57.731546",
+    "local_path": "downloads/2601.21512.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MURAD: A Large-Scale Multi-Domain Unified Reverse Arabic Dictionary Dataset"
   },
   "2601.21767": {
     "type": "arxiv",
     "id": "2601.21767",
     "url": "https://arxiv.org/pdf/2601.21767.pdf",
     "title": "ArXiv 2601.21767",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.741941"
+    "ts": "2026-01-31 04:39:57.741941",
+    "local_path": "downloads/2601.21767.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** EVALUATING CHATGPT ON MEDICAL INFORMATION EXTRACTION TASKS: PERFORMANCE, EXPLAINABILITY AND BEYOND"
   },
   "2601.21218": {
     "type": "arxiv",
     "id": "2601.21218",
     "url": "https://arxiv.org/pdf/2601.21218.pdf",
     "title": "ArXiv 2601.21218",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.752996"
+    "ts": "2026-01-31 04:39:57.752996",
+    "local_path": "downloads/2601.21218.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Parametric Knowledge is Not All You Need: Toward Honest Large Language Models via Retrieval of Pretraining Data**"
   },
   "2601.21534": {
     "type": "arxiv",
     "id": "2601.21534",
     "url": "https://arxiv.org/pdf/2601.21534.pdf",
     "title": "ArXiv 2601.21534",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.763790"
+    "ts": "2026-01-31 04:39:57.763790",
+    "local_path": "downloads/2601.21534.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Electoral Polls and Economic Uncertainty: an Analysis of the Last Two U.S. Presidential Elections**"
   },
   "2601.21191": {
     "type": "arxiv",
     "id": "2601.21191",
     "url": "https://arxiv.org/pdf/2601.21191.pdf",
     "title": "ArXiv 2601.21191",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.774474"
+    "ts": "2026-01-31 04:39:57.774474",
+    "local_path": "downloads/2601.21191.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Linear Input to Hierarchical Structure: Function Words as Statistical Cues for Language Learning"
   },
   "2601.21969": {
     "type": "arxiv",
     "id": "2601.21969",
     "url": "https://arxiv.org/pdf/2601.21969.pdf",
     "title": "ArXiv 2601.21969",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.785290"
+    "ts": "2026-01-31 04:39:57.785290",
+    "local_path": "downloads/2601.21969.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding"
   },
   "2601.21996": {
     "type": "arxiv",
     "id": "2601.21996",
     "url": "https://arxiv.org/pdf/2601.21996.pdf",
     "title": "ArXiv 2601.21996",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.795903"
+    "ts": "2026-01-31 04:39:57.795903",
+    "local_path": "downloads/2601.21996.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units"
   },
   "2601.21931": {
     "type": "arxiv",
     "id": "2601.21931",
     "url": "https://arxiv.org/pdf/2601.21931.pdf",
     "title": "ArXiv 2601.21931",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.806634"
+    "ts": "2026-01-31 04:39:57.806634",
+    "local_path": "downloads/2601.21931.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "EXTREMAL CONDITIONAL INDEPENDENCE FOR HUSLER–REISS DISTRIBUTIONS VIA MODULARITY FUNCTIONS"
   },
   "2601.21476": {
     "type": "arxiv",
     "id": "2601.21476",
     "url": "https://arxiv.org/pdf/2601.21476.pdf",
     "title": "ArXiv 2601.21476",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.817307"
+    "ts": "2026-01-31 04:39:57.817307",
+    "local_path": "downloads/2601.21476.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21476"
   },
   "2601.21803": {
     "type": "arxiv",
     "id": "2601.21803",
     "url": "https://arxiv.org/pdf/2601.21803.pdf",
     "title": "ArXiv 2601.21803",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.828005"
+    "ts": "2026-01-31 04:39:57.828005",
+    "local_path": "downloads/2601.21803.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "RAG-E: Quantifying Retriever-Generator Alignment and Failure Modes**"
   },
   "2601.21768": {
     "type": "arxiv",
@@ -10823,5 +10903,32 @@
     "status": "NEW",
     "retry": 0,
     "ts": "2026-01-31 04:39:58.814595"
+  },
+  "10.1108/medar-10-2025-3345": {
+    "type": "doi",
+    "id": "10.1108/medar-10-2025-3345",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 16:39:05.937497"
+  },
+  "link_355bdd4faf": {
+    "type": "pdf_link",
+    "id": "link_355bdd4faf",
+    "url": "https://www.researchgate.net/profile/Ibrahim-Ekyamba-2/publication/400070021_De-dollarization_and_the_rise_of_alternative_currency_alliances_in_BRICS_Prospects_and_challenges/links/6976aa8d58b9985baa8ac2b9/De-dollarization-and-the-rise-of-alternative-currency-alliances-in-BRICS-Prospects-and-challenges.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 16:39:06.632269"
+  },
+  "link_4087ee09d8": {
+    "type": "pdf_link",
+    "id": "link_4087ee09d8",
+    "url": "https://www.theigc.org/sites/default/files/2026-01/Beyond-the-comfort-zone.pdf",
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 16:39:06.643789"
   }
 }
