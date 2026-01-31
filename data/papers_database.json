@@ -9779,180 +9779,260 @@
     "id": "2601.20727",
     "url": "https://arxiv.org/pdf/2601.20727.pdf",
     "title": "ArXiv 2601.20727",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.676861"
+    "ts": "2026-01-30 04:46:19.676861",
+    "local_path": "downloads/2601.20727.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.20727"
   },
   "2601.19916": {
     "type": "arxiv",
     "id": "2601.19916",
     "url": "https://arxiv.org/pdf/2601.19916.pdf",
     "title": "ArXiv 2601.19916",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.686185"
+    "ts": "2026-01-30 04:46:19.686185",
+    "local_path": "downloads/2601.19916.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "PaperAudit-Bench: Benchmarking Error Detection in Research Papers for Critical Automated Peer Review**"
   },
   "2601.20197": {
     "type": "arxiv",
     "id": "2601.20197",
     "url": "https://arxiv.org/pdf/2601.20197.pdf",
     "title": "ArXiv 2601.20197",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.695472"
+    "ts": "2026-01-30 04:46:19.695472",
+    "local_path": "downloads/2601.20197.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Bias-Reduced Estimation of Finite Mixtures: An Application to Latent Group Structures in Panel Data"
   },
   "2601.20032": {
     "type": "arxiv",
     "id": "2601.20032",
     "url": "https://arxiv.org/pdf/2601.20032.pdf",
     "title": "ArXiv 2601.20032",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.704787"
+    "ts": "2026-01-30 04:46:19.704787",
+    "local_path": "downloads/2601.20032.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "TAIGR: Towards Modeling Influencer Content on Social Media via Structured, Pragmatic Inference**"
   },
   "2601.20617": {
     "type": "arxiv",
     "id": "2601.20617",
     "url": "https://arxiv.org/pdf/2601.20617.pdf",
     "title": "ArXiv 2601.20617",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.714348"
+    "ts": "2026-01-30 04:46:19.714348",
+    "local_path": "downloads/2601.20617.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Agent Benchmarks Fail Public Sector Requirements"
   },
   "2601.20238": {
     "type": "arxiv",
     "id": "2601.20238",
     "url": "https://arxiv.org/pdf/2601.20238.pdf",
     "title": "ArXiv 2601.20238",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.723657"
+    "ts": "2026-01-30 04:46:19.723657",
+    "local_path": "downloads/2601.20238.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse"
   },
   "2601.20006": {
     "type": "arxiv",
     "id": "2601.20006",
     "url": "https://arxiv.org/pdf/2601.20006.pdf",
     "title": "ArXiv 2601.20006",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.733173"
+    "ts": "2026-01-30 04:46:19.733173",
+    "local_path": "downloads/2601.20006.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** On the Effectiveness of LLM-Specific Fine-Tuning for Detecting AI-Generated Text"
   },
   "2601.20285": {
     "type": "arxiv",
     "id": "2601.20285",
     "url": "https://arxiv.org/pdf/2601.20285.pdf",
     "title": "ArXiv 2601.20285",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.742489"
+    "ts": "2026-01-30 04:46:19.742489",
+    "local_path": "downloads/2601.20285.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bank Runs With and Without Bank Failure"
   },
   "2601.20018": {
     "type": "arxiv",
     "id": "2601.20018",
     "url": "https://arxiv.org/pdf/2601.20018.pdf",
     "title": "ArXiv 2601.20018",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.751877"
+    "ts": "2026-01-30 04:46:19.751877",
+    "local_path": "downloads/2601.20018.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Decoupling and randomization for double-indexed permutation statistics"
   },
   "2601.20747": {
     "type": "arxiv",
     "id": "2601.20747",
     "url": "https://arxiv.org/pdf/2601.20747.pdf",
     "title": "ArXiv 2601.20747",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.761322"
+    "ts": "2026-01-30 04:46:19.761322",
+    "local_path": "downloads/2601.20747.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Like a Therapist, But Not: Reddit Narratives of AI in Mental Health Contexts"
   },
   "2601.19931": {
     "type": "arxiv",
     "id": "2601.19931",
     "url": "https://arxiv.org/pdf/2601.19931.pdf",
     "title": "ArXiv 2601.19931",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.770721"
+    "ts": "2026-01-30 04:46:19.770721",
+    "local_path": "downloads/2601.19931.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CascadeMind at SemEval-2026 Task 4: A Hybrid Neuro-Symbolic Cascade for Narrative Similarity**"
   },
   "2601.20099": {
     "type": "arxiv",
     "id": "2601.20099",
     "url": "https://arxiv.org/pdf/2601.20099.pdf",
     "title": "ArXiv 2601.20099",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.780055"
+    "ts": "2026-01-30 04:46:19.780055",
+    "local_path": "downloads/2601.20099.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Dynamics of Human-AI Collective Knowledge on the Web: A Scalable Model and Insights for Sustainable Growth"
   },
   "2601.20731": {
     "type": "arxiv",
     "id": "2601.20731",
     "url": "https://arxiv.org/pdf/2601.20731.pdf",
     "title": "ArXiv 2601.20731",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.789368"
+    "ts": "2026-01-30 04:46:19.789368",
+    "local_path": "downloads/2601.20731.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "QueerGen: How LLMs Reflect Societal Norms on Gender and Sexuality in Sentence Completion Tasks**"
   },
   "2601.20592": {
     "type": "arxiv",
     "id": "2601.20592",
     "url": "https://arxiv.org/pdf/2601.20592.pdf",
     "title": "ArXiv 2601.20592",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.798884"
+    "ts": "2026-01-30 04:46:19.798884",
+    "local_path": "downloads/2601.20592.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Computational Approach to Language Contact – A Case Study of Persian"
   },
   "2601.20241": {
     "type": "arxiv",
     "id": "2601.20241",
     "url": "https://arxiv.org/pdf/2601.20241.pdf",
     "title": "ArXiv 2601.20241",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.808373"
+    "ts": "2026-01-30 04:46:19.808373",
+    "local_path": "downloads/2601.20241.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Adequately Tailoring Age Verification Regulations"
   },
   "2601.20858": {
     "type": "arxiv",
     "id": "2601.20858",
     "url": "https://arxiv.org/pdf/2601.20858.pdf",
     "title": "ArXiv 2601.20858",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.817760"
+    "ts": "2026-01-30 04:46:19.817760",
+    "local_path": "downloads/2601.20858.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation Evaluation**"
   },
   "2601.20330": {
     "type": "arxiv",
     "id": "2601.20330",
     "url": "https://arxiv.org/pdf/2601.20330.pdf",
     "title": "ArXiv 2601.20330",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.827454"
+    "ts": "2026-01-30 04:46:19.827454",
+    "local_path": "downloads/2601.20330.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments"
   },
   "2601.20341": {
     "type": "arxiv",
     "id": "2601.20341",
     "url": "https://arxiv.org/pdf/2601.20341.pdf",
     "title": "ArXiv 2601.20341",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.836951"
+    "ts": "2026-01-30 04:46:19.836951",
+    "local_path": "downloads/2601.20341.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Partial heteroscedastic deconvolution estimation in nonparametric regression"
   },
   "2601.20725": {
     "type": "arxiv",
     "id": "2601.20725",
     "url": "https://arxiv.org/pdf/2601.20725.pdf",
     "title": "ArXiv 2601.20725",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.846509"
+    "ts": "2026-01-30 04:46:19.846509",
+    "local_path": "downloads/2601.20725.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Comparing causal estimates from sequential nested versus single point target trials: A simulation study"
   },
   "2601.20476": {
     "type": "arxiv",
     "id": "2601.20476",
     "url": "https://arxiv.org/pdf/2601.20476.pdf",
     "title": "ArXiv 2601.20476",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.856406"
+    "ts": "2026-01-30 04:46:19.856406",
+    "local_path": "downloads/2601.20476.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Can We Improve Educational Diagram Generation with In-Context Examples? Not if a Hallucination Spoils the Bunch"
   },
   "2601.20546": {
     "type": "arxiv",
