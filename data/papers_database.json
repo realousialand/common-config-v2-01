@@ -10819,116 +10819,167 @@
     "id": "2601.21768",
     "url": "https://arxiv.org/pdf/2601.21768.pdf",
     "title": "ArXiv 2601.21768",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.838786"
+    "ts": "2026-01-31 04:39:57.838786",
+    "local_path": "downloads/2601.21768.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Zonkey: A Hierarchical Diffusion Language Model with Differentiable Tokenization and Probabilistic Attention**"
   },
   "2601.21647": {
     "type": "arxiv",
     "id": "2601.21647",
     "url": "https://arxiv.org/pdf/2601.21647.pdf",
     "title": "ArXiv 2601.21647",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.849437"
+    "ts": "2026-01-31 04:39:57.849437",
+    "local_path": "downloads/2601.21647.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ILRR: Inference-Time Steering Method for Masked Diffusion Language Models**"
   },
   "2601.21839": {
     "type": "arxiv",
     "id": "2601.21839",
     "url": "https://arxiv.org/pdf/2601.21839.pdf",
     "title": "ArXiv 2601.21839",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.860068"
+    "ts": "2026-01-31 04:39:57.860068",
+    "local_path": "downloads/2601.21839.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Test-Time Compute Games"
   },
   "2601.21732": {
     "type": "arxiv",
     "id": "2601.21732",
     "url": "https://arxiv.org/pdf/2601.21732.pdf",
     "title": "ArXiv 2601.21732",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.870829"
+    "ts": "2026-01-31 04:39:57.870829",
+    "local_path": "downloads/2601.21732.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21732"
   },
   "2601.22079": {
     "type": "arxiv",
     "id": "2601.22079",
     "url": "https://arxiv.org/pdf/2601.22079.pdf",
     "title": "ArXiv 2601.22079",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.881679"
+    "ts": "2026-01-31 04:39:57.881679",
+    "local_path": "downloads/2601.22079.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Economics of No-Regret Learning Algorithms"
   },
   "2601.21205": {
     "type": "arxiv",
     "id": "2601.21205",
     "url": "https://arxiv.org/pdf/2601.21205.pdf",
     "title": "ArXiv 2601.21205",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.892508"
+    "ts": "2026-01-31 04:39:57.892508",
+    "local_path": "downloads/2601.21205.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Multilingual Dysarthric Speech Assessment Using Universal Phone Recognition and Language-Specific Phonemic Contrast Modeling"
   },
   "2601.21587": {
     "type": "arxiv",
     "id": "2601.21587",
     "url": "https://arxiv.org/pdf/2601.21587.pdf",
     "title": "ArXiv 2601.21587",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.903328"
+    "ts": "2026-01-31 04:39:57.903328",
+    "local_path": "downloads/2601.21587.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Language Models as Artificial Learners: Investigating Crosslinguistic Influence**"
   },
   "2601.21678": {
     "type": "arxiv",
     "id": "2601.21678",
     "url": "https://arxiv.org/pdf/2601.21678.pdf",
     "title": "ArXiv 2601.21678",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.914091"
+    "ts": "2026-01-31 04:39:57.914091",
+    "local_path": "downloads/2601.21678.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Scale-Dependent Semantic Dynamics Revealed by Allan Deviation"
   },
   "2601.22093": {
     "type": "arxiv",
     "id": "2601.22093",
     "url": "https://arxiv.org/pdf/2601.22093.pdf",
     "title": "ArXiv 2601.22093",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.924918"
+    "ts": "2026-01-31 04:39:57.924918",
+    "local_path": "downloads/2601.22093.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Investigating Associational Biases in Inter-Model Communication of Large Generative Models**"
   },
   "10.1093/jmammal/gyaf067": {
     "type": "doi",
     "id": "10.1093/jmammal/gyaf067",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:58.814595"
+    "ts": "2026-01-31 04:39:58.814595",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Biodiversity conservation depends on the expansion of taxonomy and systematics research\n\nABSTRACT: Abstract\n                  Despite mammals constituting fewer than 0.3% of all described species, their conservation is compelling for a number of reasons. They contribute to biodiversity and are important in maintaining and regulating ecological communities. Many mammals have significant cultural and economic value, serving as sources of food, medicine, and tourism revenue. Furthermore, the conservation of mammals often leads to the protection of entire habitats, benefiting numerous other species and preserving ecosystem services that are critical for human well-­being. Humans share a unique evolutionary history with other mammal species, making their preservation important for scientific research, education, and understanding of our own biology and evolution. In spite of this, mammalian biodiversity is at severe risk, with 26% of all mammal species threatened with extinction. Here, we propose to use a 4-step framework with which to approach conservation strategy for mammalian biodiversity. The framework is structured and based on a protocol initially established from the standpoint of parasites by Daniel R. Brooks and collaborators in 2014. The 4 key phases are documentation (species discovery and specimen collection); assessment (species relationships, genetic diversity, and climate change vulnerability); monitoring (tracking populations and habitats over time); and action (addressing the taxonomic impediment—the lack of human and financial resources to undertake taxonomy, as well as the discrepancy between real number of existing species and human knowledge of biodiversity—and expanding protected areas). The successful integration of politics, politicians, and stakeholders into the process of conservation is critical to the success of the protocol because of the requirement to enact policy. And the urgency is now, because nothing is more vital to the human condition than preservation of biodiversity.",
+    "real_title": "Biodiversity conservation depends on the expansion of taxonomy and systematics research"
   },
   "10.1108/medar-10-2025-3345": {
     "type": "doi",
     "id": "10.1108/medar-10-2025-3345",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 16:39:05.937497"
+    "ts": "2026-01-31 16:39:05.937497",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Climate-related financial disclosures: a meta-theoretical synthesis for accounting research and practice\n\nABSTRACT: \n                    Purpose\n                    This study aims to examine how the academic literature on climate-related financial risk disclosures, arising from the physical impacts of climate change and the transition to a low-carbon economy, has evolved following the Task Force on Climate-related Financial Disclosures (TCFD) and assess the extent to which this literature engages with core accounting constructs. It also aims to identify sources of conceptual fragmentation and to inform future accounting research on climate-related disclosures.\n                  \n                  \n                    Design/methodology/approach\n                    The authors conduct a systematic review of 108 academic articles published between 2010 and 2025, supplemented by the TCFD recommendations. Using qualitative thematic analysis, the review classifies studies into five research domains and examines their theoretical foundations under evolving regulatory frameworks, including IFRS S2 and the European Sustainability Reporting Standards.\n                  \n                  \n                    Findings\n                    The literature clusters into five domains: reporting and disclosure; risk and resilience; TCFD implementation; financial implications of climate-related reporting; and quantification of climate risk. Even with rapid growth, the literature remains fragmented across disciplines, with limited engagement with accounting issues such as materiality determination, assurance, measurement and convergence across reporting regimes. Climate-related disclosures are predominantly analysed as external communication mechanisms rather than as inputs into recognised and audited financial statement items.\n                  \n                  \n                    Originality/value\n                    This study provides an accounting-centred synthesis of climate-related financial disclosure research by explicitly linking existing work to foundational accounting debates on materiality, assurance, measurement and standard convergence. It extends prior reviews by offering a coherent framework to guide future empirical and conceptual research.\n                  ",
+    "real_title": "Climate-related financial disclosures: a meta-theoretical synthesis for accounting research and practice"
   },
   "link_355bdd4faf": {
     "type": "pdf_link",
     "id": "link_355bdd4faf",
     "url": "https://www.researchgate.net/profile/Ibrahim-Ekyamba-2/publication/400070021_De-dollarization_and_the_rise_of_alternative_currency_alliances_in_BRICS_Prospects_and_challenges/links/6976aa8d58b9985baa8ac2b9/De-dollarization-and-the-rise-of-alternative-currency-alliances-in-BRICS-Prospects-and-challenges.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
-    "ts": "2026-01-31 16:39:06.632269"
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-01-31 16:39:06.632269",
+    "local_path": "downloads/link_355bdd4faf.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   },
   "link_4087ee09d8": {
     "type": "pdf_link",
     "id": "link_4087ee09d8",
     "url": "https://www.theigc.org/sites/default/files/2026-01/Beyond-the-comfort-zone.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 16:39:06.643789"
+    "ts": "2026-01-31 16:39:06.643789",
+    "local_path": "downloads/link_4087ee09d8.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
   }
 }
