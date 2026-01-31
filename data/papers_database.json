@@ -10039,170 +10039,709 @@
     "id": "2601.20546",
     "url": "https://arxiv.org/pdf/2601.20546.pdf",
     "title": "ArXiv 2601.20546",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.866068"
+    "ts": "2026-01-30 04:46:19.866068",
+    "local_path": "downloads/2601.20546.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Beyond Divergent Creativity: A Human-Based Evaluation of Creativity in Large Language Models**"
   },
   "2601.20300": {
     "type": "arxiv",
     "id": "2601.20300",
     "url": "https://arxiv.org/pdf/2601.20300.pdf",
     "title": "ArXiv 2601.20300",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.875680"
+    "ts": "2026-01-30 04:46:19.875680",
+    "local_path": "downloads/2601.20300.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.20300"
   },
   "2601.20016": {
     "type": "arxiv",
     "id": "2601.20016",
     "url": "https://arxiv.org/pdf/2601.20016.pdf",
     "title": "ArXiv 2601.20016",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.885321"
+    "ts": "2026-01-30 04:46:19.885321",
+    "local_path": "downloads/2601.20016.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.20016"
   },
   "2601.20805": {
     "type": "arxiv",
     "id": "2601.20805",
     "url": "https://arxiv.org/pdf/2601.20805.pdf",
     "title": "ArXiv 2601.20805",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.895288"
+    "ts": "2026-01-30 04:46:19.895288",
+    "local_path": "downloads/2601.20805.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Plotting correlated data"
   },
   "2601.20320": {
     "type": "arxiv",
     "id": "2601.20320",
     "url": "https://arxiv.org/pdf/2601.20320.pdf",
     "title": "ArXiv 2601.20320",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.905170"
+    "ts": "2026-01-30 04:46:19.905170",
+    "local_path": "downloads/2601.20320.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Confidence intervals for maximum unseen probabilities, with application to sequential sampling design**"
   },
   "2601.20789": {
     "type": "arxiv",
     "id": "2601.20789",
     "url": "https://arxiv.org/pdf/2601.20789.pdf",
     "title": "ArXiv 2601.20789",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.914904"
+    "ts": "2026-01-30 04:46:19.914904",
+    "local_path": "downloads/2601.20789.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "SERA: Soft-Verified Efficient Repository Agents"
   },
   "2601.20339": {
     "type": "arxiv",
     "id": "2601.20339",
     "url": "https://arxiv.org/pdf/2601.20339.pdf",
     "title": "ArXiv 2601.20339",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.924601"
+    "ts": "2026-01-30 04:46:19.924601",
+    "local_path": "downloads/2601.20339.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.20339"
   },
   "2601.19927": {
     "type": "arxiv",
     "id": "2601.19927",
     "url": "https://arxiv.org/pdf/2601.19927.pdf",
     "title": "ArXiv 2601.19927",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.934207"
+    "ts": "2026-01-30 04:46:19.934207",
+    "local_path": "downloads/2601.19927.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey"
   },
   "2601.20276": {
     "type": "arxiv",
     "id": "2601.20276",
     "url": "https://arxiv.org/pdf/2601.20276.pdf",
     "title": "ArXiv 2601.20276",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.943813"
+    "ts": "2026-01-30 04:46:19.943813",
+    "local_path": "downloads/2601.20276.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond the Needle’s Illusion: Decoupled Evaluation of Evidence Access and Use under Semantic Interference at 326M-Token Scale"
   },
   "2601.20129": {
     "type": "arxiv",
     "id": "2601.20129",
     "url": "https://arxiv.org/pdf/2601.20129.pdf",
     "title": "ArXiv 2601.20129",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.953285"
+    "ts": "2026-01-30 04:46:19.953285",
+    "local_path": "downloads/2601.20129.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "BengaliSent140: A Large-Scale Bengali Binary Sentiment Dataset for Hate and Non-Hate Speech Classification"
   },
   "2601.20674": {
     "type": "arxiv",
     "id": "2601.20674",
     "url": "https://arxiv.org/pdf/2601.20674.pdf",
     "title": "ArXiv 2601.20674",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.962828"
+    "ts": "2026-01-30 04:46:19.962828",
+    "local_path": "downloads/2601.20674.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Harnessing Large Language Models for Precision Querying and Retrieval-Augmented Knowledge Extraction in Clinical Data Science"
   },
   "2601.20026": {
     "type": "arxiv",
     "id": "2601.20026",
     "url": "https://arxiv.org/pdf/2601.20026.pdf",
     "title": "ArXiv 2601.20026",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.972563"
+    "ts": "2026-01-30 04:46:19.972563",
+    "local_path": "downloads/2601.20026.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method"
   },
   "2601.20853": {
     "type": "arxiv",
     "id": "2601.20853",
     "url": "https://arxiv.org/pdf/2601.20853.pdf",
     "title": "ArXiv 2601.20853",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.982201"
+    "ts": "2026-01-30 04:46:19.982201",
+    "local_path": "downloads/2601.20853.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Smoothed GMM for Dynamic Quantile Preferences Estimation"
   },
   "2601.20724": {
     "type": "arxiv",
     "id": "2601.20724",
     "url": "https://arxiv.org/pdf/2601.20724.pdf",
     "title": "ArXiv 2601.20724",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:19.991739"
+    "ts": "2026-01-30 04:46:19.991739",
+    "local_path": "downloads/2601.20724.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Effect of Extreme Political Shocks on Sovereign Risk Premia, Expectations, and Macroeconomic Dynamics: Evidence from the October 7, 2023 Attack on Israel"
   },
   "2601.20757": {
     "type": "arxiv",
     "id": "2601.20757",
     "url": "https://arxiv.org/pdf/2601.20757.pdf",
     "title": "ArXiv 2601.20757",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:20.001449"
+    "ts": "2026-01-30 04:46:20.001449",
+    "local_path": "downloads/2601.20757.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Persona Prompting as a Lens on LLM Social Reasoning"
   },
   "2601.20482": {
     "type": "arxiv",
     "id": "2601.20482",
     "url": "https://arxiv.org/pdf/2601.20482.pdf",
     "title": "ArXiv 2601.20482",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:20.011156"
+    "ts": "2026-01-30 04:46:20.011156",
+    "local_path": "downloads/2601.20482.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ConStruM: A Structure-Guided LLM Framework for Context-Aware Schema Matching"
   },
   "2601.20312": {
     "type": "arxiv",
     "id": "2601.20312",
     "url": "https://arxiv.org/pdf/2601.20312.pdf",
     "title": "ArXiv 2601.20312",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:20.020959"
+    "ts": "2026-01-30 04:46:20.020959",
+    "local_path": "downloads/2601.20312.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "SAPO: Self-Adaptive Process Optimization Makes Small Reasoners Stronger"
   },
   "10.1007/s11135-026-02584-6": {
     "type": "doi",
     "id": "10.1007/s11135-026-02584-6",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-30 04:46:53.030620"
+    "ts": "2026-01-30 04:46:53.030620",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Use of proceeds disclosures and initial public offerings: a systematic literature review and future research agenda\n\nABSTRACT: 无摘要",
+    "real_title": "Use of proceeds disclosures and initial public offerings: a systematic literature review and future research agenda"
   },
   "10.1515/9780887559433-005": {
     "type": "doi",
     "id": "10.1515/9780887559433-005",
     "url": null,
     "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-30 04:47:17.644626",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Stories and Staying Power: Artmaking as (Re)Source of Cultural Resilience and Well-Being for Panniqtumiut\n\nABSTRACT: 无摘要",
+    "real_title": "Stories and Staying Power: Artmaking as (Re)Source of Cultural Resilience and Well-Being for Panniqtumiut"
+  },
+  "2601.21796": {
+    "type": "arxiv",
+    "id": "2601.21796",
+    "url": "https://arxiv.org/pdf/2601.21796.pdf",
+    "title": "ArXiv 2601.21796",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.405770",
+    "local_path": "downloads/2601.21796.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** KID: Knowledge-Injected Dual-Head Learning for Knowledge-Grounded Harmful Meme Detection"
+  },
+  "2601.21722": {
+    "type": "arxiv",
+    "id": "2601.21722",
+    "url": "https://arxiv.org/pdf/2601.21722.pdf",
+    "title": "ArXiv 2601.21722",
     "status": "NEW",
     "retry": 0,
-    "ts": "2026-01-30 04:47:17.644626"
+    "ts": "2026-01-31 04:39:57.416180"
+  },
+  "2601.20880": {
+    "type": "arxiv",
+    "id": "2601.20880",
+    "url": "https://arxiv.org/pdf/2601.20880.pdf",
+    "title": "ArXiv 2601.20880",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.426698"
+  },
+  "2601.21138": {
+    "type": "arxiv",
+    "id": "2601.21138",
+    "url": "https://arxiv.org/pdf/2601.21138.pdf",
+    "title": "ArXiv 2601.21138",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.437081"
+  },
+  "2601.22104": {
+    "type": "arxiv",
+    "id": "2601.22104",
+    "url": "https://arxiv.org/pdf/2601.22104.pdf",
+    "title": "ArXiv 2601.22104",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.447127"
+  },
+  "2601.21815": {
+    "type": "arxiv",
+    "id": "2601.21815",
+    "url": "https://arxiv.org/pdf/2601.21815.pdf",
+    "title": "ArXiv 2601.21815",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.457408"
+  },
+  "2601.21493": {
+    "type": "arxiv",
+    "id": "2601.21493",
+    "url": "https://arxiv.org/pdf/2601.21493.pdf",
+    "title": "ArXiv 2601.21493",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.467368"
+  },
+  "2601.21749": {
+    "type": "arxiv",
+    "id": "2601.21749",
+    "url": "https://arxiv.org/pdf/2601.21749.pdf",
+    "title": "ArXiv 2601.21749",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.477617"
+  },
+  "2601.21495": {
+    "type": "arxiv",
+    "id": "2601.21495",
+    "url": "https://arxiv.org/pdf/2601.21495.pdf",
+    "title": "ArXiv 2601.21495",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.487917"
+  },
+  "2601.22050": {
+    "type": "arxiv",
+    "id": "2601.22050",
+    "url": "https://arxiv.org/pdf/2601.22050.pdf",
+    "title": "ArXiv 2601.22050",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.498322"
+  },
+  "2601.21483": {
+    "type": "arxiv",
+    "id": "2601.21483",
+    "url": "https://arxiv.org/pdf/2601.21483.pdf",
+    "title": "ArXiv 2601.21483",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.508794"
+  },
+  "2601.21235": {
+    "type": "arxiv",
+    "id": "2601.21235",
+    "url": "https://arxiv.org/pdf/2601.21235.pdf",
+    "title": "ArXiv 2601.21235",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.519217"
+  },
+  "2601.21613": {
+    "type": "arxiv",
+    "id": "2601.21613",
+    "url": "https://arxiv.org/pdf/2601.21613.pdf",
+    "title": "ArXiv 2601.21613",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.529340"
+  },
+  "2601.21733": {
+    "type": "arxiv",
+    "id": "2601.21733",
+    "url": "https://arxiv.org/pdf/2601.21733.pdf",
+    "title": "ArXiv 2601.21733",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.539817"
+  },
+  "2601.20912": {
+    "type": "arxiv",
+    "id": "2601.20912",
+    "url": "https://arxiv.org/pdf/2601.20912.pdf",
+    "title": "ArXiv 2601.20912",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.549925"
+  },
+  "2601.21387": {
+    "type": "arxiv",
+    "id": "2601.21387",
+    "url": "https://arxiv.org/pdf/2601.21387.pdf",
+    "title": "ArXiv 2601.21387",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.560452"
+  },
+  "2601.20875": {
+    "type": "arxiv",
+    "id": "2601.20875",
+    "url": "https://arxiv.org/pdf/2601.20875.pdf",
+    "title": "ArXiv 2601.20875",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.570717"
+  },
+  "2601.21028": {
+    "type": "arxiv",
+    "id": "2601.21028",
+    "url": "https://arxiv.org/pdf/2601.21028.pdf",
+    "title": "ArXiv 2601.21028",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.581420"
+  },
+  "2601.21272": {
+    "type": "arxiv",
+    "id": "2601.21272",
+    "url": "https://arxiv.org/pdf/2601.21272.pdf",
+    "title": "ArXiv 2601.21272",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.591765"
+  },
+  "2601.22147": {
+    "type": "arxiv",
+    "id": "2601.22147",
+    "url": "https://arxiv.org/pdf/2601.22147.pdf",
+    "title": "ArXiv 2601.22147",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.602343"
+  },
+  "2601.21700": {
+    "type": "arxiv",
+    "id": "2601.21700",
+    "url": "https://arxiv.org/pdf/2601.21700.pdf",
+    "title": "ArXiv 2601.21700",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.612849"
+  },
+  "2601.22116": {
+    "type": "arxiv",
+    "id": "2601.22116",
+    "url": "https://arxiv.org/pdf/2601.22116.pdf",
+    "title": "ArXiv 2601.22116",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.623453"
+  },
+  "2601.20976": {
+    "type": "arxiv",
+    "id": "2601.20976",
+    "url": "https://arxiv.org/pdf/2601.20976.pdf",
+    "title": "ArXiv 2601.20976",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.633796"
+  },
+  "2601.21153": {
+    "type": "arxiv",
+    "id": "2601.21153",
+    "url": "https://arxiv.org/pdf/2601.21153.pdf",
+    "title": "ArXiv 2601.21153",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.646188"
+  },
+  "2601.21696": {
+    "type": "arxiv",
+    "id": "2601.21696",
+    "url": "https://arxiv.org/pdf/2601.21696.pdf",
+    "title": "ArXiv 2601.21696",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.657131"
+  },
+  "2601.21132": {
+    "type": "arxiv",
+    "id": "2601.21132",
+    "url": "https://arxiv.org/pdf/2601.21132.pdf",
+    "title": "ArXiv 2601.21132",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.667878"
+  },
+  "2601.20874": {
+    "type": "arxiv",
+    "id": "2601.20874",
+    "url": "https://arxiv.org/pdf/2601.20874.pdf",
+    "title": "ArXiv 2601.20874",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.678453"
+  },
+  "2601.21551": {
+    "type": "arxiv",
+    "id": "2601.21551",
+    "url": "https://arxiv.org/pdf/2601.21551.pdf",
+    "title": "ArXiv 2601.21551",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.688792"
+  },
+  "2601.21963": {
+    "type": "arxiv",
+    "id": "2601.21963",
+    "url": "https://arxiv.org/pdf/2601.21963.pdf",
+    "title": "ArXiv 2601.21963",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.699425"
+  },
+  "2601.21895": {
+    "type": "arxiv",
+    "id": "2601.21895",
+    "url": "https://arxiv.org/pdf/2601.21895.pdf",
+    "title": "ArXiv 2601.21895",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.710015"
+  },
+  "2601.22103": {
+    "type": "arxiv",
+    "id": "2601.22103",
+    "url": "https://arxiv.org/pdf/2601.22103.pdf",
+    "title": "ArXiv 2601.22103",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.720841"
+  },
+  "2601.21512": {
+    "type": "arxiv",
+    "id": "2601.21512",
+    "url": "https://arxiv.org/pdf/2601.21512.pdf",
+    "title": "ArXiv 2601.21512",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.731546"
+  },
+  "2601.21767": {
+    "type": "arxiv",
+    "id": "2601.21767",
+    "url": "https://arxiv.org/pdf/2601.21767.pdf",
+    "title": "ArXiv 2601.21767",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.741941"
+  },
+  "2601.21218": {
+    "type": "arxiv",
+    "id": "2601.21218",
+    "url": "https://arxiv.org/pdf/2601.21218.pdf",
+    "title": "ArXiv 2601.21218",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.752996"
+  },
+  "2601.21534": {
+    "type": "arxiv",
+    "id": "2601.21534",
+    "url": "https://arxiv.org/pdf/2601.21534.pdf",
+    "title": "ArXiv 2601.21534",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.763790"
+  },
+  "2601.21191": {
+    "type": "arxiv",
+    "id": "2601.21191",
+    "url": "https://arxiv.org/pdf/2601.21191.pdf",
+    "title": "ArXiv 2601.21191",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.774474"
+  },
+  "2601.21969": {
+    "type": "arxiv",
+    "id": "2601.21969",
+    "url": "https://arxiv.org/pdf/2601.21969.pdf",
+    "title": "ArXiv 2601.21969",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.785290"
+  },
+  "2601.21996": {
+    "type": "arxiv",
+    "id": "2601.21996",
+    "url": "https://arxiv.org/pdf/2601.21996.pdf",
+    "title": "ArXiv 2601.21996",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.795903"
+  },
+  "2601.21931": {
+    "type": "arxiv",
+    "id": "2601.21931",
+    "url": "https://arxiv.org/pdf/2601.21931.pdf",
+    "title": "ArXiv 2601.21931",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.806634"
+  },
+  "2601.21476": {
+    "type": "arxiv",
+    "id": "2601.21476",
+    "url": "https://arxiv.org/pdf/2601.21476.pdf",
+    "title": "ArXiv 2601.21476",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.817307"
+  },
+  "2601.21803": {
+    "type": "arxiv",
+    "id": "2601.21803",
+    "url": "https://arxiv.org/pdf/2601.21803.pdf",
+    "title": "ArXiv 2601.21803",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.828005"
+  },
+  "2601.21768": {
+    "type": "arxiv",
+    "id": "2601.21768",
+    "url": "https://arxiv.org/pdf/2601.21768.pdf",
+    "title": "ArXiv 2601.21768",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.838786"
+  },
+  "2601.21647": {
+    "type": "arxiv",
+    "id": "2601.21647",
+    "url": "https://arxiv.org/pdf/2601.21647.pdf",
+    "title": "ArXiv 2601.21647",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.849437"
+  },
+  "2601.21839": {
+    "type": "arxiv",
+    "id": "2601.21839",
+    "url": "https://arxiv.org/pdf/2601.21839.pdf",
+    "title": "ArXiv 2601.21839",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.860068"
+  },
+  "2601.21732": {
+    "type": "arxiv",
+    "id": "2601.21732",
+    "url": "https://arxiv.org/pdf/2601.21732.pdf",
+    "title": "ArXiv 2601.21732",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.870829"
+  },
+  "2601.22079": {
+    "type": "arxiv",
+    "id": "2601.22079",
+    "url": "https://arxiv.org/pdf/2601.22079.pdf",
+    "title": "ArXiv 2601.22079",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.881679"
+  },
+  "2601.21205": {
+    "type": "arxiv",
+    "id": "2601.21205",
+    "url": "https://arxiv.org/pdf/2601.21205.pdf",
+    "title": "ArXiv 2601.21205",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.892508"
+  },
+  "2601.21587": {
+    "type": "arxiv",
+    "id": "2601.21587",
+    "url": "https://arxiv.org/pdf/2601.21587.pdf",
+    "title": "ArXiv 2601.21587",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.903328"
+  },
+  "2601.21678": {
+    "type": "arxiv",
+    "id": "2601.21678",
+    "url": "https://arxiv.org/pdf/2601.21678.pdf",
+    "title": "ArXiv 2601.21678",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.914091"
+  },
+  "2601.22093": {
+    "type": "arxiv",
+    "id": "2601.22093",
+    "url": "https://arxiv.org/pdf/2601.22093.pdf",
+    "title": "ArXiv 2601.22093",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:57.924918"
+  },
+  "10.1093/jmammal/gyaf067": {
+    "type": "doi",
+    "id": "10.1093/jmammal/gyaf067",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-01-31 04:39:58.814595"
   }
 }
