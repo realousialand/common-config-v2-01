@@ -10299,180 +10299,260 @@
     "id": "2601.21722",
     "url": "https://arxiv.org/pdf/2601.21722.pdf",
     "title": "ArXiv 2601.21722",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.416180"
+    "ts": "2026-01-31 04:39:57.416180",
+    "local_path": "downloads/2601.21722.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Enhancing Language Models for Robust Greenwashing Detection"
   },
   "2601.20880": {
     "type": "arxiv",
     "id": "2601.20880",
     "url": "https://arxiv.org/pdf/2601.20880.pdf",
     "title": "ArXiv 2601.20880",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.426698"
+    "ts": "2026-01-31 04:39:57.426698",
+    "local_path": "downloads/2601.20880.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Spatial Heterogeneity in Climate Risk and Human Flourishing: An Exploration with Generative AI"
   },
   "2601.21138": {
     "type": "arxiv",
     "id": "2601.21138",
     "url": "https://arxiv.org/pdf/2601.21138.pdf",
     "title": "ArXiv 2601.21138",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.437081"
+    "ts": "2026-01-31 04:39:57.437081",
+    "local_path": "downloads/2601.21138.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "EnsembleLink: Accurate Record Linkage Without Training Data"
   },
   "2601.22104": {
     "type": "arxiv",
     "id": "2601.22104",
     "url": "https://arxiv.org/pdf/2601.22104.pdf",
     "title": "ArXiv 2601.22104",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.447127"
+    "ts": "2026-01-31 04:39:57.447127",
+    "local_path": "downloads/2601.22104.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Social Media Data for Population Mapping: A Bayesian Approach to Address Representativeness and Privacy Challenges"
   },
   "2601.21815": {
     "type": "arxiv",
     "id": "2601.21815",
     "url": "https://arxiv.org/pdf/2601.21815.pdf",
     "title": "ArXiv 2601.21815",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.457408"
+    "ts": "2026-01-31 04:39:57.457408",
+    "local_path": "downloads/2601.21815.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emotions on YouTube in Korea and the US"
   },
   "2601.21493": {
     "type": "arxiv",
     "id": "2601.21493",
     "url": "https://arxiv.org/pdf/2601.21493.pdf",
     "title": "ArXiv 2601.21493",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.467368"
+    "ts": "2026-01-31 04:39:57.467368",
+    "local_path": "downloads/2601.21493.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Poisson Factor Mixture Model for the Analysis of Linguistic Competence in Italian University Students’ Writing"
   },
   "2601.21749": {
     "type": "arxiv",
     "id": "2601.21749",
     "url": "https://arxiv.org/pdf/2601.21749.pdf",
     "title": "ArXiv 2601.21749",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.477617"
+    "ts": "2026-01-31 04:39:57.477617",
+    "local_path": "downloads/2601.21749.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Fast and user-friendly econometrics estimations: The R package fixest**"
   },
   "2601.21495": {
     "type": "arxiv",
     "id": "2601.21495",
     "url": "https://arxiv.org/pdf/2601.21495.pdf",
     "title": "ArXiv 2601.21495",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.487917"
+    "ts": "2026-01-31 04:39:57.487917",
+    "local_path": "downloads/2601.21495.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Clustering Methods for Identifying and Modelling Areas with Similar Temperature Variations"
   },
   "2601.22050": {
     "type": "arxiv",
     "id": "2601.22050",
     "url": "https://arxiv.org/pdf/2601.22050.pdf",
     "title": "ArXiv 2601.22050",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.498322"
+    "ts": "2026-01-31 04:39:57.498322",
+    "local_path": "downloads/2601.22050.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MasalBench: A Benchmark for Contextual and Cross-Cultural Understanding of Persian Proverbs in LLMs"
   },
   "2601.21483": {
     "type": "arxiv",
     "id": "2601.21483",
     "url": "https://arxiv.org/pdf/2601.21483.pdf",
     "title": "ArXiv 2601.21483",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.508794"
+    "ts": "2026-01-31 04:39:57.508794",
+    "local_path": "downloads/2601.21483.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** DimStance: Multilingual Datasets for Dimensional Stance Analysis"
   },
   "2601.21235": {
     "type": "arxiv",
     "id": "2601.21235",
     "url": "https://arxiv.org/pdf/2601.21235.pdf",
     "title": "ArXiv 2601.21235",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.519217"
+    "ts": "2026-01-31 04:39:57.519217",
+    "local_path": "downloads/2601.21235.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "SHARP: Social Harm Analysis via Risk Profiles for Measuring Inequities in Large Language Models**"
   },
   "2601.21613": {
     "type": "arxiv",
     "id": "2601.21613",
     "url": "https://arxiv.org/pdf/2601.21613.pdf",
     "title": "ArXiv 2601.21613",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.529340"
+    "ts": "2026-01-31 04:39:57.529340",
+    "local_path": "downloads/2601.21613.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21613"
   },
   "2601.21733": {
     "type": "arxiv",
     "id": "2601.21733",
     "url": "https://arxiv.org/pdf/2601.21733.pdf",
     "title": "ArXiv 2601.21733",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.539817"
+    "ts": "2026-01-31 04:39:57.539817",
+    "local_path": "downloads/2601.21733.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CE-GOCD: CENTRAL ENTITY-GUIDED GRAPH OPTIMIZATION FOR COMMUNITY DETECTION TO AUGMENT LLM SCIENTIFIC QUESTION ANSWERING**"
   },
   "2601.20912": {
     "type": "arxiv",
     "id": "2601.20912",
     "url": "https://arxiv.org/pdf/2601.20912.pdf",
     "title": "ArXiv 2601.20912",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.549925"
+    "ts": "2026-01-31 04:39:57.549925",
+    "local_path": "downloads/2601.20912.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Clear Messages, Ambiguous Audiences: Measuring Interpretability in Political Communication"
   },
   "2601.21387": {
     "type": "arxiv",
     "id": "2601.21387",
     "url": "https://arxiv.org/pdf/2601.21387.pdf",
     "title": "ArXiv 2601.21387",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.560452"
+    "ts": "2026-01-31 04:39:57.560452",
+    "local_path": "downloads/2601.21387.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "User-Centric Evidence Ranking for Attribution and Fact Verification**"
   },
   "2601.20875": {
     "type": "arxiv",
     "id": "2601.20875",
     "url": "https://arxiv.org/pdf/2601.20875.pdf",
     "title": "ArXiv 2601.20875",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.570717"
+    "ts": "2026-01-31 04:39:57.570717",
+    "local_path": "downloads/2601.20875.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Distributed Causality in the SDG Network: Evidence from Panel VAR and Conditional Independence Analysis**"
   },
   "2601.21028": {
     "type": "arxiv",
     "id": "2601.21028",
     "url": "https://arxiv.org/pdf/2601.21028.pdf",
     "title": "ArXiv 2601.21028",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.581420"
+    "ts": "2026-01-31 04:39:57.581420",
+    "local_path": "downloads/2601.21028.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** “Unlimited Realm of Exploration and Experimentation”: Methods and Motivations of AI-Generated Sexual Content Creators"
   },
   "2601.21272": {
     "type": "arxiv",
     "id": "2601.21272",
     "url": "https://arxiv.org/pdf/2601.21272.pdf",
     "title": "ArXiv 2601.21272",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.591765"
+    "ts": "2026-01-31 04:39:57.591765",
+    "local_path": "downloads/2601.21272.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2601.21272"
   },
   "2601.22147": {
     "type": "arxiv",
     "id": "2601.22147",
     "url": "https://arxiv.org/pdf/2601.22147.pdf",
     "title": "ArXiv 2601.22147",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.602343"
+    "ts": "2026-01-31 04:39:57.602343",
+    "local_path": "downloads/2601.22147.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Variance component score test for multivariate change point detection with applications to mobile health"
   },
   "2601.21700": {
     "type": "arxiv",
     "id": "2601.21700",
     "url": "https://arxiv.org/pdf/2601.21700.pdf",
     "title": "ArXiv 2601.21700",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-01-31 04:39:57.612849"
+    "ts": "2026-01-31 04:39:57.612849",
+    "local_path": "downloads/2601.21700.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
   },
   "2601.22116": {
     "type": "arxiv",
