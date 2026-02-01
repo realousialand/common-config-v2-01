@@ -10963,7 +10963,7 @@
     "url": "https://www.researchgate.net/profile/Ibrahim-Ekyamba-2/publication/400070021_De-dollarization_and_the_rise_of_alternative_currency_alliances_in_BRICS_Prospects_and_challenges/links/6976aa8d58b9985baa8ac2b9/De-dollarization-and-the-rise-of-alternative-currency-alliances-in-BRICS-Prospects-and-challenges.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-01-31 16:39:06.632269",
     "local_path": "downloads/link_355bdd4faf.pdf",
     "content_type": "PDF",
@@ -10981,5 +10981,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Unknown Title"
+  },
+  "10.1016/j.appet.2026.108486": {
+    "type": "doi",
+    "id": "10.1016/j.appet.2026.108486",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-01 05:07:01.653220",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Understanding consumption of animal- and plant-based protein sources in the Netherlands: a stakeholder-driven causal loop diagram\n\nABSTRACT: 无摘要",
+    "real_title": "Understanding consumption of animal- and plant-based protein sources in the Netherlands: a stakeholder-driven causal loop diagram"
+  },
+  "10.1080/13691058.2026.2619587": {
+    "type": "doi",
+    "id": "10.1080/13691058.2026.2619587",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-01 05:07:01.664805",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Relational autonomy and the politics of reproduction: infertility and kinship demands in African and diasporic contexts\n\nABSTRACT: 无摘要",
+    "real_title": "Relational autonomy and the politics of reproduction: infertility and kinship demands in African and diasporic contexts"
   }
 }
