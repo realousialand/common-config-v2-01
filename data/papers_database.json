@@ -11040,7 +11040,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-03 10:51:49.472103"
   },
   "link_92b0d5cf3e": {
@@ -11049,7 +11049,7 @@
     "url": "https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-03 10:51:49.483345"
   },
   "link_d49d12c60b": {
@@ -11058,7 +11058,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-03 10:51:49.494467"
   },
   "link_9a50d7183a": {
@@ -11080,7 +11080,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-03 10:51:49.517162"
   }
 }
