@@ -11007,5 +11007,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Relational autonomy and the politics of reproduction: infertility and kinship demands in African and diasporic contexts\n\nABSTRACT: 无摘要",
     "real_title": "Relational autonomy and the politics of reproduction: infertility and kinship demands in African and diasporic contexts"
+  },
+  "10.1177/00221465251412290": {
+    "type": "doi",
+    "id": "10.1177/00221465251412290",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-03 04:53:18.644659",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: State Politics and Policies and Racialized Disability Patterns among Midlife Adults in the United States, 2008–2019\n\nABSTRACT: Although extensive research examines the individual- and household-level determinants of racialized disability patterns, the roles of state political and policy contexts have received less attention. Merging more than a decade of data from the American Community Survey (N = 7,928,386) to data on state politics and economic and social welfare policies, we use two-way fixed-effects models to investigate the links between state political and policy contexts and disability risks, considering whether these links vary across race and race-sex groups. Results show that (1) state contexts diverged dramatically over the period, (2) more liberal political contexts and generous economic and social safety net policies were generally associated with reduced disability risks, and (3) state contexts were strongly associated with the disability of White people, but results were more mixed for Black people, especially Black women. This study highlights the salience of state politics and policy for understanding and redressing racialized disability patterns.",
+    "real_title": "State Politics and Policies and Racialized Disability Patterns among Midlife Adults in the United States, 2008–2019"
   }
 }
