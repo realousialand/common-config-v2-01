@@ -11020,5 +11020,67 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: State Politics and Policies and Racialized Disability Patterns among Midlife Adults in the United States, 2008–2019\n\nABSTRACT: Although extensive research examines the individual- and household-level determinants of racialized disability patterns, the roles of state political and policy contexts have received less attention. Merging more than a decade of data from the American Community Survey (N = 7,928,386) to data on state politics and economic and social welfare policies, we use two-way fixed-effects models to investigate the links between state political and policy contexts and disability risks, considering whether these links vary across race and race-sex groups. Results show that (1) state contexts diverged dramatically over the period, (2) more liberal political contexts and generous economic and social safety net policies were generally associated with reduced disability risks, and (3) state contexts were strongly associated with the disability of White people, but results were more mixed for Black people, especially Black women. This study highlights the salience of state politics and policy for understanding and redressing racialized disability patterns.",
     "real_title": "State Politics and Policies and Racialized Disability Patterns among Midlife Adults in the United States, 2008–2019"
+  },
+  "link_c794fa2af4": {
+    "type": "pdf_link",
+    "id": "link_c794fa2af4",
+    "url": "https://link.springer.com/content/pdf/10.1007/s43621-025-02518-6_reference.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-03 10:51:49.045754",
+    "local_path": "downloads/link_c794fa2af4.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Mapping ESG disclosure and reporting standards in sustainability reports using bibliometric analysis"
+  },
+  "link_5aaf3b8ecf": {
+    "type": "pdf_link",
+    "id": "link_5aaf3b8ecf",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-03 10:51:49.472103"
+  },
+  "link_92b0d5cf3e": {
+    "type": "pdf_link",
+    "id": "link_92b0d5cf3e",
+    "url": "https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-03 10:51:49.483345"
+  },
+  "link_d49d12c60b": {
+    "type": "pdf_link",
+    "id": "link_d49d12c60b",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-03 10:51:49.494467"
+  },
+  "link_9a50d7183a": {
+    "type": "pdf_link",
+    "id": "link_9a50d7183a",
+    "url": "https://bclawreview.bc.edu/articles/3250/files/697b9d59914d7.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-03 10:51:49.505575",
+    "local_path": "downloads/link_9a50d7183a.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "link_95a34517f8": {
+    "type": "pdf_link",
+    "id": "link_95a34517f8",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.law.buffalo.edu/cgi/viewcontent.cgi?article=5078&context=buffalolawreview&amp;rt=Private+Equity+and+The+Public+Good&amp;scisig=AHkA5jQAJysAhXJeSUr1sptPmcqc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-03 10:51:49.517162"
   }
 }
