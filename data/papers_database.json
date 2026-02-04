@@ -11348,180 +11348,260 @@
     "id": "2602.02440",
     "url": "https://arxiv.org/pdf/2602.02440.pdf",
     "title": "ArXiv 2602.02440",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.855706"
+    "ts": "2026-02-04 04:46:23.855706",
+    "local_path": "downloads/2602.02440.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Large Language Models for Mental Health: A Multilingual Evaluation"
   },
   "2602.00319": {
     "type": "arxiv",
     "id": "2602.00319",
     "url": "https://arxiv.org/pdf/2602.00319.pdf",
     "title": "ArXiv 2602.00319",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.866793"
+    "ts": "2026-02-04 04:46:23.866793",
+    "local_path": "downloads/2602.00319.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Detecting AI-Generated Content in Academic Peer Reviews"
   },
   "2602.02479": {
     "type": "arxiv",
     "id": "2602.02479",
     "url": "https://arxiv.org/pdf/2602.02479.pdf",
     "title": "ArXiv 2602.02479",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.877796"
+    "ts": "2026-02-04 04:46:23.877796",
+    "local_path": "downloads/2602.02479.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Motivation, Attention, and Visual Platform Design: How Moral Contagions Spread on TikTok and Instagram in the 2024 United States Presidential Election"
   },
   "2602.00044": {
     "type": "arxiv",
     "id": "2602.00044",
     "url": "https://arxiv.org/pdf/2602.00044.pdf",
     "title": "ArXiv 2602.00044",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.888787"
+    "ts": "2026-02-04 04:46:23.888787",
+    "local_path": "downloads/2602.00044.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications"
   },
   "2602.01631": {
     "type": "arxiv",
     "id": "2602.01631",
     "url": "https://arxiv.org/pdf/2602.01631.pdf",
     "title": "ArXiv 2602.01631",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.899819"
+    "ts": "2026-02-04 04:46:23.899819",
+    "local_path": "downloads/2602.01631.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Difference-in-Differences under Local Dependence on Networks"
   },
   "2602.02100": {
     "type": "arxiv",
     "id": "2602.02100",
     "url": "https://arxiv.org/pdf/2602.02100.pdf",
     "title": "ArXiv 2602.02100",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.911105"
+    "ts": "2026-02-04 04:46:23.911105",
+    "local_path": "downloads/2602.02100.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance"
   },
   "2602.01648": {
     "type": "arxiv",
     "id": "2602.01648",
     "url": "https://arxiv.org/pdf/2602.01648.pdf",
     "title": "ArXiv 2602.01648",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.922391"
+    "ts": "2026-02-04 04:46:23.922391",
+    "local_path": "downloads/2602.01648.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Demystify Doubly-Robust Estimation: The Role of Overlap"
   },
   "2602.02266": {
     "type": "arxiv",
     "id": "2602.02266",
     "url": "https://arxiv.org/pdf/2602.02266.pdf",
     "title": "ArXiv 2602.02266",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.933361"
+    "ts": "2026-02-04 04:46:23.933361",
+    "local_path": "downloads/2602.02266.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** OPEN SEAL: Good, Fast, and Cheap Construction of an Open-Source Southeast Asian LLM via Parallel Data"
   },
   "2602.00291": {
     "type": "arxiv",
     "id": "2602.00291",
     "url": "https://arxiv.org/pdf/2602.00291.pdf",
     "title": "ArXiv 2602.00291",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.944703"
+    "ts": "2026-02-04 04:46:23.944703",
+    "local_path": "downloads/2602.00291.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Bayesian Prevalence Incidence Cure model for estimating survival using Electronic Health Records with incomplete baseline diagnoses"
   },
   "2602.00355": {
     "type": "arxiv",
     "id": "2602.00355",
     "url": "https://arxiv.org/pdf/2602.00355.pdf",
     "title": "ArXiv 2602.00355",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.956131"
+    "ts": "2026-02-04 04:46:23.956131",
+    "local_path": "downloads/2602.00355.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** COPING WITH INDUCTIVE RISK WHEN THEORIES ARE UNDERDETERMINED: DECISION MAKING WITH PARTIAL IDENTIFICATION"
   },
   "2602.02216": {
     "type": "arxiv",
     "id": "2602.02216",
     "url": "https://arxiv.org/pdf/2602.02216.pdf",
     "title": "ArXiv 2602.02216",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.967023"
+    "ts": "2026-02-04 04:46:23.967023",
+    "local_path": "downloads/2602.02216.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** POSTERIOR UNCERTAINTY FOR TARGETED PARAMETERS IN BAYESIAN BOOTSTRAP PROCEDURES"
   },
   "2602.01999": {
     "type": "arxiv",
     "id": "2602.01999",
     "url": "https://arxiv.org/pdf/2602.01999.pdf",
     "title": "ArXiv 2602.01999",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.978473"
+    "ts": "2026-02-04 04:46:23.978473",
+    "local_path": "downloads/2602.01999.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Latent Signals to Reflection Behavior: Tracing Meta-Cognitive Activation Trajectory in R1-Style LLMs"
   },
   "2602.01116": {
     "type": "arxiv",
     "id": "2602.01116",
     "url": "https://arxiv.org/pdf/2602.01116.pdf",
     "title": "ArXiv 2602.01116",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:23.989658"
+    "ts": "2026-02-04 04:46:23.989658",
+    "local_path": "downloads/2602.01116.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "LOGIC-ORIENTED RETRIEVER ENHANCEMENT VIA CONTRASTIVE LEARNING"
   },
   "2602.00934": {
     "type": "arxiv",
     "id": "2602.00934",
     "url": "https://arxiv.org/pdf/2602.00934.pdf",
     "title": "ArXiv 2602.00934",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.001051"
+    "ts": "2026-02-04 04:46:24.001051",
+    "local_path": "downloads/2602.00934.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Social Learning with Endogenous Information and the Countervailing Effects of Homophily"
   },
   "2602.00033": {
     "type": "arxiv",
     "id": "2602.00033",
     "url": "https://arxiv.org/pdf/2602.00033.pdf",
     "title": "ArXiv 2602.00033",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.012234"
+    "ts": "2026-02-04 04:46:24.012234",
+    "local_path": "downloads/2602.00033.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.00033"
   },
   "2602.00733": {
     "type": "arxiv",
     "id": "2602.00733",
     "url": "https://arxiv.org/pdf/2602.00733.pdf",
     "title": "ArXiv 2602.00733",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.023423"
+    "ts": "2026-02-04 04:46:24.023423",
+    "local_path": "downloads/2602.00733.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "EchoReview: Learning Peer Review from the Echoes of Scientific Citations"
   },
   "2602.02182": {
     "type": "arxiv",
     "id": "2602.02182",
     "url": "https://arxiv.org/pdf/2602.02182.pdf",
     "title": "ArXiv 2602.02182",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.034373"
+    "ts": "2026-02-04 04:46:24.034373",
+    "local_path": "downloads/2602.02182.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating Metalinguistic Knowledge in Large Language Models across the World’s Languages**"
   },
   "2602.02290": {
     "type": "arxiv",
     "id": "2602.02290",
     "url": "https://arxiv.org/pdf/2602.02290.pdf",
     "title": "ArXiv 2602.02290",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.045459"
+    "ts": "2026-02-04 04:46:24.045459",
+    "local_path": "downloads/2602.02290.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.02290"
   },
   "2602.02053": {
     "type": "arxiv",
     "id": "2602.02053",
     "url": "https://arxiv.org/pdf/2602.02053.pdf",
     "title": "ArXiv 2602.02053",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.056536"
+    "ts": "2026-02-04 04:46:24.056536",
+    "local_path": "downloads/2602.02053.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** WildGraphBench: Benchmarking GraphRAG with Wild-Source Corpora"
   },
   "2602.02403": {
     "type": "arxiv",
     "id": "2602.02403",
     "url": "https://arxiv.org/pdf/2602.02403.pdf",
     "title": "ArXiv 2602.02403",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.067574"
+    "ts": "2026-02-04 04:46:24.067574",
+    "local_path": "downloads/2602.02403.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Strategic Interactions in Science and Technology Networks: Substitutes or Complements?"
   },
   "2602.00055": {
     "type": "arxiv",
