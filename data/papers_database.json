@@ -11608,89 +11608,129 @@
     "id": "2602.00055",
     "url": "https://arxiv.org/pdf/2602.00055.pdf",
     "title": "ArXiv 2602.00055",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.079106"
+    "ts": "2026-02-04 04:46:24.079106",
+    "local_path": "downloads/2602.00055.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.00055"
   },
   "2602.01378": {
     "type": "arxiv",
     "id": "2602.01378",
     "url": "https://arxiv.org/pdf/2602.01378.pdf",
     "title": "ArXiv 2602.01378",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.091371"
+    "ts": "2026-02-04 04:46:24.091371",
+    "local_path": "downloads/2602.01378.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Context Dependence and Reliability in Autoregressive Language Models."
   },
   "2602.01531": {
     "type": "arxiv",
     "id": "2602.01531",
     "url": "https://arxiv.org/pdf/2602.01531.pdf",
     "title": "ArXiv 2602.01531",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.102584"
+    "ts": "2026-02-04 04:46:24.102584",
+    "local_path": "downloads/2602.01531.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Hype Has Worth: Attention, Sentiment, and NFT Valuation in Major Ethereum Collections"
   },
   "2602.00078": {
     "type": "arxiv",
     "id": "2602.00078",
     "url": "https://arxiv.org/pdf/2602.00078.pdf",
     "title": "ArXiv 2602.00078",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.113956"
+    "ts": "2026-02-04 04:46:24.113956",
+    "local_path": "downloads/2602.00078.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Standards for trustworthy AI in the European Union: technical rationale, structural challenges, and an implementation path"
   },
   "2602.01717": {
     "type": "arxiv",
     "id": "2602.01717",
     "url": "https://arxiv.org/pdf/2602.01717.pdf",
     "title": "ArXiv 2602.01717",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.125453"
+    "ts": "2026-02-04 04:46:24.125453",
+    "local_path": "downloads/2602.01717.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "BBPE16: UTF-16-BASED BYTE-LEVEL BYTE-PAIR ENCODING FOR IMPROVED MULTILINGUAL SPEECH RECOGNITION"
   },
   "2602.01969": {
     "type": "arxiv",
     "id": "2602.01969",
     "url": "https://arxiv.org/pdf/2602.01969.pdf",
     "title": "ArXiv 2602.01969",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.136823"
+    "ts": "2026-02-04 04:46:24.136823",
+    "local_path": "downloads/2602.01969.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Orthogonal Hierarchical Decomposition for Structure-Aware Table Understanding with Large Language Models**"
   },
   "2602.00890": {
     "type": "arxiv",
     "id": "2602.00890",
     "url": "https://arxiv.org/pdf/2602.00890.pdf",
     "title": "ArXiv 2602.00890",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.147936"
+    "ts": "2026-02-04 04:46:24.147936",
+    "local_path": "downloads/2602.00890.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.00890"
   },
   "2602.01817": {
     "type": "arxiv",
     "id": "2602.01817",
     "url": "https://arxiv.org/pdf/2602.01817.pdf",
     "title": "ArXiv 2602.01817",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.159123"
+    "ts": "2026-02-04 04:46:24.159123",
+    "local_path": "downloads/2602.01817.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Do designated market makers provide liquidity during downward extreme price movements?"
   },
   "2602.00009": {
     "type": "arxiv",
     "id": "2602.00009",
     "url": "https://arxiv.org/pdf/2602.00009.pdf",
     "title": "ArXiv 2602.00009",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.170507"
+    "ts": "2026-02-04 04:46:24.170507",
+    "local_path": "downloads/2602.00009.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unlocking Electronic Health Records: A Hybrid Graph RAG Approach to Safe Clinical AI for Patient QA"
   },
   "2602.00836": {
     "type": "arxiv",
     "id": "2602.00836",
     "url": "https://arxiv.org/pdf/2602.00836.pdf",
     "title": "ArXiv 2602.00836",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-04 04:46:24.181721"
+    "ts": "2026-02-04 04:46:24.181721",
+    "local_path": "downloads/2602.00836.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Dynamic causal inference with time series data"
   }
 }
