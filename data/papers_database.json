@@ -11998,180 +11998,260 @@
     "id": "2602.03483",
     "url": "https://arxiv.org/pdf/2602.03483.pdf",
     "title": "ArXiv 2602.03483",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.478803"
+    "ts": "2026-02-05 04:54:56.478803",
+    "local_path": "downloads/2602.03483.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Kriging for large datasets via penalized neighbor selection"
   },
   "2602.02875": {
     "type": "arxiv",
     "id": "2602.02875",
     "url": "https://arxiv.org/pdf/2602.02875.pdf",
     "title": "ArXiv 2602.02875",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.490450"
+    "ts": "2026-02-05 04:54:56.490450",
+    "local_path": "downloads/2602.02875.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Shiha Distribution: Statistical Properties and Applications to Reliability Engineering and Environmental Data"
   },
   "2602.02520": {
     "type": "arxiv",
     "id": "2602.02520",
     "url": "https://arxiv.org/pdf/2602.02520.pdf",
     "title": "ArXiv 2602.02520",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.502315"
+    "ts": "2026-02-05 04:54:56.502315",
+    "local_path": "downloads/2602.02520.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Artificial Intelligence for Inclusive Engineering Education: Advancing Equality, Diversity, and Ethical Leadership"
   },
   "2602.02825": {
     "type": "arxiv",
     "id": "2602.02825",
     "url": "https://arxiv.org/pdf/2602.02825.pdf",
     "title": "ArXiv 2602.02825",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.514079"
+    "ts": "2026-02-05 04:54:56.514079",
+    "local_path": "downloads/2602.02825.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "On the consistent and scalable detection of spatial patterns**"
   },
   "2602.02821": {
     "type": "arxiv",
     "id": "2602.02821",
     "url": "https://arxiv.org/pdf/2602.02821.pdf",
     "title": "ArXiv 2602.02821",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.526081"
+    "ts": "2026-02-05 04:54:56.526081",
+    "local_path": "downloads/2602.02821.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** When Efficient Communication Explains Convexity"
   },
   "2602.03652": {
     "type": "arxiv",
     "id": "2602.03652",
     "url": "https://arxiv.org/pdf/2602.03652.pdf",
     "title": "ArXiv 2602.03652",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.537804"
+    "ts": "2026-02-05 04:54:56.537804",
+    "local_path": "downloads/2602.03652.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** RAGTurk: Best Practices for Retrieval Augmented Generation in Turkish"
   },
   "2602.02496": {
     "type": "arxiv",
     "id": "2602.02496",
     "url": "https://arxiv.org/pdf/2602.02496.pdf",
     "title": "ArXiv 2602.02496",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.550097"
+    "ts": "2026-02-05 04:54:56.550097",
+    "local_path": "downloads/2602.02496.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders"
   },
   "2602.02774": {
     "type": "arxiv",
     "id": "2602.02774",
     "url": "https://arxiv.org/pdf/2602.02774.pdf",
     "title": "ArXiv 2602.02774",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.561880"
+    "ts": "2026-02-05 04:54:56.561880",
+    "local_path": "downloads/2602.02774.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic"
   },
   "2602.03231": {
     "type": "arxiv",
     "id": "2602.03231",
     "url": "https://arxiv.org/pdf/2602.03231.pdf",
     "title": "ArXiv 2602.03231",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.573943"
+    "ts": "2026-02-05 04:54:56.573943",
+    "local_path": "downloads/2602.03231.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Long-Run Economic and Institutional Consequences of Iran’s Confrontation with the West"
   },
   "2602.03368": {
     "type": "arxiv",
     "id": "2602.03368",
     "url": "https://arxiv.org/pdf/2602.03368.pdf",
     "title": "ArXiv 2602.03368",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.589455"
+    "ts": "2026-02-05 04:54:56.589455",
+    "local_path": "downloads/2602.03368.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Pursuing Best Industrial Practices for Retrieval-Augmented Generation in the Medical Domain"
   },
   "2602.02809": {
     "type": "arxiv",
     "id": "2602.02809",
     "url": "https://arxiv.org/pdf/2602.02809.pdf",
     "title": "ArXiv 2602.02809",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.601619"
+    "ts": "2026-02-05 04:54:56.601619",
+    "local_path": "downloads/2602.02809.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Model-Robust G-Computation Method for Analyzing Hybrid Control Studies Without Assuming Exchangeability"
   },
   "2602.02635": {
     "type": "arxiv",
     "id": "2602.02635",
     "url": "https://arxiv.org/pdf/2602.02635.pdf",
     "title": "ArXiv 2602.02635",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.613822"
+    "ts": "2026-02-05 04:54:56.613822",
+    "local_path": "downloads/2602.02635.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.02635"
   },
   "2602.02805": {
     "type": "arxiv",
     "id": "2602.02805",
     "url": "https://arxiv.org/pdf/2602.02805.pdf",
     "title": "ArXiv 2602.02805",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.627124"
+    "ts": "2026-02-05 04:54:56.627124",
+    "local_path": "downloads/2602.02805.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.02805"
   },
   "2602.03563": {
     "type": "arxiv",
     "id": "2602.03563",
     "url": "https://arxiv.org/pdf/2602.03563.pdf",
     "title": "ArXiv 2602.03563",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.638938"
+    "ts": "2026-02-05 04:54:56.638938",
+    "local_path": "downloads/2602.03563.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ACL: A ligned C ontrastive L earning Improves BERT and Multi-exit BERT Fine-tuning"
   },
   "2602.02771": {
     "type": "arxiv",
     "id": "2602.02771",
     "url": "https://arxiv.org/pdf/2602.02771.pdf",
     "title": "ArXiv 2602.02771",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.650820"
+    "ts": "2026-02-05 04:54:56.650820",
+    "local_path": "downloads/2602.02771.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Markov Random Fields: Structural Properties, Phase Transition, and Response Function Analysis**"
   },
   "2602.02607": {
     "type": "arxiv",
     "id": "2602.02607",
     "url": "https://arxiv.org/pdf/2602.02607.pdf",
     "title": "ArXiv 2602.02607",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.662593"
+    "ts": "2026-02-05 04:54:56.662593",
+    "local_path": "downloads/2602.02607.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Innovation Tax: Generative AI Adoption, Productivity Paradox, and Systemic Risk in the U.S. Banking Sector"
   },
   "2602.03751": {
     "type": "arxiv",
     "id": "2602.03751",
     "url": "https://arxiv.org/pdf/2602.03751.pdf",
     "title": "ArXiv 2602.03751",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.674685"
+    "ts": "2026-02-05 04:54:56.674685",
+    "local_path": "downloads/2602.03751.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Tracing the Genetic Footprints of the UK National Health Service"
   },
   "2602.03218": {
     "type": "arxiv",
     "id": "2602.03218",
     "url": "https://arxiv.org/pdf/2602.03218.pdf",
     "title": "ArXiv 2602.03218",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.686742"
+    "ts": "2026-02-05 04:54:56.686742",
+    "local_path": "downloads/2602.03218.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Blinded sample size re-estimation accounting for uncertainty in mid-trial estimation"
   },
   "2602.03633": {
     "type": "arxiv",
     "id": "2602.03633",
     "url": "https://arxiv.org/pdf/2602.03633.pdf",
     "title": "ArXiv 2602.03633",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.698942"
+    "ts": "2026-02-05 04:54:56.698942",
+    "local_path": "downloads/2602.03633.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** BIRDTurk: Adaptation of the BIRD Text-to-SQL Dataset to Turkish"
   },
   "2602.03352": {
     "type": "arxiv",
     "id": "2602.03352",
     "url": "https://arxiv.org/pdf/2602.03352.pdf",
     "title": "ArXiv 2602.03352",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-05 04:54:56.710816"
+    "ts": "2026-02-05 04:54:56.710816",
+    "local_path": "downloads/2602.03352.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.03352"
   },
   "2602.02874": {
     "type": "arxiv",
