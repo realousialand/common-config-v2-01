@@ -12401,9 +12401,13 @@
     "id": "10.25122/jml-2025-0123",
     "url": null,
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
+    "status": "ANALYZED",
     "retry": 1,
-    "ts": "2026-02-05 04:54:57.526443"
+    "ts": "2026-02-05 04:54:57.526443",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Building health system resilience in Romania: a consensus on policy priorities\n\nABSTRACT: 无摘要",
+    "real_title": "Building health system resilience in Romania: a consensus on policy priorities"
   },
   "10.1038/d41586-026-00308-2": {
     "type": "doi",
@@ -12514,171 +12518,247 @@
     "id": "2602.11442",
     "url": "https://arxiv.org/pdf/2602.11442.pdf",
     "title": "ArXiv 2602.11442",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.100493"
+    "ts": "2026-02-16 11:18:08.100493",
+    "local_path": "downloads/2602.11442.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Ecosystem service demand relationship and trade-off patterns in urban parks across China"
   },
   "2602.11795": {
     "type": "arxiv",
     "id": "2602.11795",
     "url": "https://arxiv.org/pdf/2602.11795.pdf",
     "title": "ArXiv 2602.11795",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.112776"
+    "ts": "2026-02-16 11:18:08.112776",
+    "local_path": "downloads/2602.11795.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Subword Embedding Approach for Variation Detection in Luxembourgish User Comments"
   },
   "2602.11939": {
     "type": "arxiv",
     "id": "2602.11939",
     "url": "https://arxiv.org/pdf/2602.11939.pdf",
     "title": "ArXiv 2602.11939",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.124959"
+    "ts": "2026-02-16 11:18:08.124959",
+    "local_path": "downloads/2602.11939.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Do Large Language Models Adapt to Language Variation across Socioeconomic Status?"
   },
   "2602.11886": {
     "type": "arxiv",
     "id": "2602.11886",
     "url": "https://arxiv.org/pdf/2602.11886.pdf",
     "title": "ArXiv 2602.11886",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.137261"
+    "ts": "2026-02-16 11:18:08.137261",
+    "local_path": "downloads/2602.11886.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11886"
   },
   "2602.11982": {
     "type": "arxiv",
     "id": "2602.11982",
     "url": "https://arxiv.org/pdf/2602.11982.pdf",
     "title": "ArXiv 2602.11982",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.149391"
+    "ts": "2026-02-16 11:18:08.149391",
+    "local_path": "downloads/2602.11982.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A UTOMATIC S IMPLIFICATION OF C OMMON V ULNERABILITIES AND E XPOSURES D ESCRIPTIONS"
   },
   "2602.11168": {
     "type": "arxiv",
     "id": "2602.11168",
     "url": "https://arxiv.org/pdf/2602.11168.pdf",
     "title": "ArXiv 2602.11168",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.161572"
+    "ts": "2026-02-16 11:18:08.161572",
+    "local_path": "downloads/2602.11168.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Enhancing SDG-Text Classification with Combinatorial Fusion Analysis and Generative AI"
   },
   "2602.11167": {
     "type": "arxiv",
     "id": "2602.11167",
     "url": "https://arxiv.org/pdf/2602.11167.pdf",
     "title": "ArXiv 2602.11167",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.173699"
+    "ts": "2026-02-16 11:18:08.173699",
+    "local_path": "downloads/2602.11167.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Visualizing and Benchmarking LLM Factual Hallucination Tendencies via Internal State Analysis and Clustering"
   },
   "2602.11898": {
     "type": "arxiv",
     "id": "2602.11898",
     "url": "https://arxiv.org/pdf/2602.11898.pdf",
     "title": "ArXiv 2602.11898",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.185978"
+    "ts": "2026-02-16 11:18:08.185978",
+    "local_path": "downloads/2602.11898.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Benchmark Illusion: Disagreement among LLMs and Its Scientific Consequences"
   },
   "2602.12132": {
     "type": "arxiv",
     "id": "2602.12132",
     "url": "https://arxiv.org/pdf/2602.12132.pdf",
     "title": "ArXiv 2602.12132",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.198114"
+    "ts": "2026-02-16 11:18:08.198114",
+    "local_path": "downloads/2602.12132.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Rule-based Computational Model for Gaidhlig Morphology"
   },
   "2602.11157": {
     "type": "arxiv",
     "id": "2602.11157",
     "url": "https://arxiv.org/pdf/2602.11157.pdf",
     "title": "ArXiv 2602.11157",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.210455"
+    "ts": "2026-02-16 11:18:08.210455",
+    "local_path": "downloads/2602.11157.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Response-Based Knowledge Distillation for Multilingual Jailbreak Prevention Unwittingly Compromises Safety"
   },
   "2602.11460": {
     "type": "arxiv",
     "id": "2602.11460",
     "url": "https://arxiv.org/pdf/2602.11460.pdf",
     "title": "ArXiv 2602.11460",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.222638"
+    "ts": "2026-02-16 11:18:08.222638",
+    "local_path": "downloads/2602.11460.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11460"
   },
   "2602.11871": {
     "type": "arxiv",
     "id": "2602.11871",
     "url": "https://arxiv.org/pdf/2602.11871.pdf",
     "title": "ArXiv 2602.11871",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.238664"
+    "ts": "2026-02-16 11:18:08.238664",
+    "local_path": "downloads/2602.11871.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "DMAP: A DISTRIBUTION MAP FOR TEXT"
   },
   "2602.12023": {
     "type": "arxiv",
     "id": "2602.12023",
     "url": "https://arxiv.org/pdf/2602.12023.pdf",
     "title": "ArXiv 2602.12023",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.256574"
+    "ts": "2026-02-16 11:18:08.256574",
+    "local_path": "downloads/2602.12023.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Decomposition of Spillover Effects Under Misspecification: Pseudo-True Estimands and a Local–Global Extension"
   },
   "2602.11403": {
     "type": "arxiv",
     "id": "2602.11403",
     "url": "https://arxiv.org/pdf/2602.11403.pdf",
     "title": "ArXiv 2602.11403",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.268866"
+    "ts": "2026-02-16 11:18:08.268866",
+    "local_path": "downloads/2602.11403.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Who’s Winning? Clarifying Estimands Based on Win Statistics in Cluster Randomized Trials"
   },
   "2602.11496": {
     "type": "arxiv",
     "id": "2602.11496",
     "url": "https://arxiv.org/pdf/2602.11496.pdf",
     "title": "ArXiv 2602.11496",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.281144"
+    "ts": "2026-02-16 11:18:08.281144",
+    "local_path": "downloads/2602.11496.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** High-Dimensional Mediation Analysis for Generalized Linear Models Using Bayesian Variable Selection Guided by Mediator Correlation"
   },
   "2602.11201": {
     "type": "arxiv",
     "id": "2602.11201",
     "url": "https://arxiv.org/pdf/2602.11201.pdf",
     "title": "ArXiv 2602.11201",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.293699"
+    "ts": "2026-02-16 11:18:08.293699",
+    "local_path": "downloads/2602.11201.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11201"
   },
   "2602.11333": {
     "type": "arxiv",
     "id": "2602.11333",
     "url": "https://arxiv.org/pdf/2602.11333.pdf",
     "title": "ArXiv 2602.11333",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.306380"
+    "ts": "2026-02-16 11:18:08.306380",
+    "local_path": "downloads/2602.11333.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CROSS-FITTING-FREE DEBIASED MACHINE LEARNING WITH MULTIWAY DEPENDENCE"
   },
   "2602.11180": {
     "type": "arxiv",
     "id": "2602.11180",
     "url": "https://arxiv.org/pdf/2602.11180.pdf",
     "title": "ArXiv 2602.11180",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.319596"
+    "ts": "2026-02-16 11:18:08.319596",
+    "local_path": "downloads/2602.11180.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11180"
   },
   "2602.12270": {
     "type": "arxiv",
     "id": "2602.12270",
     "url": "https://arxiv.org/pdf/2602.12270.pdf",
     "title": "ArXiv 2602.12270",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.331770"
+    "ts": "2026-02-16 11:18:08.331770",
+    "local_path": "downloads/2602.12270.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Creative Ownership in the Age of AI**"
   },
   "2602.11163": {
     "type": "arxiv",
