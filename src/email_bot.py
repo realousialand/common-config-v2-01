@@ -315,14 +315,30 @@ def sniff_real_pdf_link(initial_url, html_content):
         logger.warning(f"    ⚠️ 嗅探失败: {e}")
     return None
 
-def fetch_content(item):
-    url = clean_google_url(item.get('url'))
-    if not url:
-        if item.get("type") == "doi": return fetch_abstract(item)
-        return None, "No URL", None
-    
-    logger.info(f"    🔍 [下载] {url[:40]}...")
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
+def fetch_abstract(item):
     try:
+        w = cr.works(ids=item["id"])
+        t = w['message'].get('title', [''])[0]
+        a = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
+        return f"TITLE: {t}\n\nABSTRACT: {a}", "ABSTRACT_ONLY", None
+    except requests.exceptions.HTTPError as e:
+        # ✅ 核心修复：直接拦截404，不让它无限重试导致崩溃
+        if e.response is not None and e.response.status_code == 404:
+            logger.warning(f"    ⚠️ [Crossref] DOI 暂未收录(404)，跳过: {item['id']}")
+            return None, "DOI_NOT_FOUND", None
+        raise e
+
+def fetch_content(item):
+    try: # ✅ 添加最外层保护，防止未知报错溢出
+        url = clean_google_url(item.get('url'))
+        if not url:
+            if item.get("type") == "doi":
+                try: return fetch_abstract(item)
+                except Exception as ex: return None, str(ex), None
+            return None, "No URL", None
+        
+        logger.info(f"    🔍 [下载] {url[:40]}...")
         r = session.get(url, timeout=30, stream=True, allow_redirects=True)
         if r.status_code == 429: return None, "Rate Limit", None
         
@@ -354,19 +370,16 @@ def fetch_content(item):
                         return pymupdf4llm.to_markdown(fp), "PDF", fp
             
             logger.info("    ⚠️ 无法下载 PDF，转为摘要分析")
-            if item.get("type") == "doi": return fetch_abstract(item)
+            if item.get("type") == "doi":
+                try: return fetch_abstract(item)
+                except Exception as ex: return None, str(ex), None
             return None, "Not PDF", None
 
     except Exception as e:
-        if item.get("type") == "doi": return fetch_abstract(item)
+        if item.get("type") == "doi":
+            try: return fetch_abstract(item)
+            except Exception as ex: return None, str(ex), None
         return None, str(e), None
-
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
-def fetch_abstract(item):
-    w = cr.works(ids=item["id"])
-    t = w['message'].get('title', [''])[0]
-    a = re.sub(r'<[^>]+>', '', w['message'].get('abstract', '无摘要'))
-    return f"TITLE: {t}\n\nABSTRACT: {a}", "ABSTRACT_ONLY", None
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=5, max=30))
 def analyze(txt, ctype):
@@ -501,7 +514,7 @@ def run():
     logger.info(f"📚 数据库: {type(db.data)}, {len(db.data)} 条")
 
     # 🟢 失败链接收集器
-    failed_items = [] # 格式: {'title': str, 'url': str, 'reason': str}
+    failed_items = []
 
     # 1. 扫描
     try:
@@ -555,18 +568,27 @@ def run():
     pend_dl = db.get_pending_downloads(BATCH_SIZE)
     logger.info(f"📥 待下载: {len(pend_dl)}")
     for item in pend_dl:
-        res, type_, path = fetch_content(item)
-        if type_ in ["PDF", "ABSTRACT_ONLY"]:
-            db.update_status(item['id'], "DOWNLOADED" if type_=="PDF" else "ABSTRACT_ONLY", 
-                           {"local_path": path, "content_type": type_, "abstract_content": res if type_=="ABSTRACT_ONLY" else ""})
-        else:
-            db.inc_retry(item['id'])
-            db.update_status(item['id'], "DOWNLOAD_FAILED")
-            # 🟢 记录下载失败
+        try: # ✅ 添加循环层保护：死掉一个也不影响下一个
+            res, type_, path = fetch_content(item)
+            if type_ in ["PDF", "ABSTRACT_ONLY"]:
+                db.update_status(item['id'], "DOWNLOADED" if type_=="PDF" else "ABSTRACT_ONLY", 
+                               {"local_path": path, "content_type": type_, "abstract_content": res if type_=="ABSTRACT_ONLY" else ""})
+            else:
+                db.inc_retry(item['id'])
+                db.update_status(item['id'], "DOWNLOAD_FAILED")
+                failed_items.append({
+                    'title': item.get('title', 'Unknown Title'),
+                    'url': item.get('url', '#'),
+                    'reason': f'获取失败 ({type_})'
+                })
+        except Exception as e:
+            logger.error(f"    ❌ 处理文献 {item.get('id')} 严重崩溃: {e}")
+            db.inc_retry(item.get('id', 'unknown'))
+            db.update_status(item.get('id', 'unknown'), "DOWNLOAD_FAILED")
             failed_items.append({
                 'title': item.get('title', 'Unknown Title'),
                 'url': item.get('url', '#'),
-                'reason': '完全失败 (Download Failed)'
+                'reason': f'程序异常跳过: {str(e)[:50]}'
             })
 
     # 3. 分析
@@ -576,41 +598,39 @@ def run():
     first_sent = False
 
     for item in pend_an:
-        pid = item['id']
-        txt, ctype = "", item.get("content_type", "Unknown")
-        
-        # 🟢 如果是仅摘要，也算作“未成功下载PDF”，记录下来
-        if item["status"] == "ABSTRACT_ONLY":
-            failed_items.append({
-                'title': item.get('title', 'Unknown Title'),
-                'url': item.get('url', '#'),
-                'reason': '仅摘要 (PDF Failed)'
-            })
+        try: # ✅ 分析层循环保护
+            pid = item['id']
+            txt, ctype = "", item.get("content_type", "Unknown")
+            
+            if item["status"] == "ABSTRACT_ONLY":
+                failed_items.append({
+                    'title': item.get('title', 'Unknown Title'),
+                    'url': item.get('url', '#'),
+                    'reason': '仅摘要 (PDF Failed)'
+                })
 
-        if item["status"] == "DOWNLOADED":
-            fp = get_path(pid)
-            if not os.path.exists(fp):
-                _, ctype, fp = fetch_content(item)
-                if not fp: 
-                    db.update_status(pid, "DOWNLOAD_FAILED")
-                    continue
-            try: txt = pymupdf4llm.to_markdown(fp)
-            except: db.update_status(pid, "ANALYSIS_FAILED"); continue
-            atts.append(fp)
-        elif item["status"] == "ABSTRACT_ONLY":
-            txt = item.get("abstract_content", "")
-            if not txt:
-                try: txt, _, _ = fetch_abstract(item)
-                except: db.inc_retry(pid); continue
-        
-        try:
+            if item["status"] == "DOWNLOADED":
+                fp = get_path(pid)
+                if not os.path.exists(fp):
+                    _, ctype, fp = fetch_content(item)
+                    if not fp: 
+                        db.update_status(pid, "DOWNLOAD_FAILED")
+                        continue
+                try: txt = pymupdf4llm.to_markdown(fp)
+                except: db.update_status(pid, "ANALYSIS_FAILED"); continue
+                atts.append(fp)
+            elif item["status"] == "ABSTRACT_ONLY":
+                txt = item.get("abstract_content", "")
+                if not txt:
+                    try: txt, _, _ = fetch_abstract(item)
+                    except: db.inc_retry(pid); continue
+            
             logger.info(f"分析: {pid}")
             rt, ans = analyze(txt, ctype)
             disp = rt if ("Unknown" not in rt and rt) else item.get('title', 'Unknown')
             tt = translate_title(disp)
             badge = " (仅摘要)" if ctype == "ABSTRACT_ONLY" else ""
             
-            # 🟢 也在卡片内提供原始链接
             origin_link = item.get('url', '#')
             link_html = f"🔗 [原始链接]({origin_link})"
             
@@ -632,13 +652,12 @@ def run():
                 first_sent = True
 
         except Exception as e:
-            logger.error(f"分析失败: {e}")
-            db.inc_retry(pid)
-            db.update_status(pid, "ANALYSIS_FAILED")
+            logger.error(f"文献分析阶段崩溃 {item.get('id', 'unknown')}: {e}")
+            db.inc_retry(item.get('id', 'unknown'))
+            db.update_status(item.get('id', 'unknown'), "ANALYSIS_FAILED")
 
     # 4. 发送
     if reports or failed_items:
-        # 🟢 构建失败列表 HTML
         failed_section = ""
         if failed_items:
             failed_section = "### ⚠️ 需要手动关注的链接 (下载失败/仅摘要)\n"
@@ -656,7 +675,6 @@ def run():
                 else: cz.append(f); csz += s
             if cz: zips.append(cz)
             
-            # 🟢 将失败列表拼接到正文最前面
             full_md = failed_section + "\n\n---\n\n".join(reports)
             
             if not zips: send_mail(f"🤖 AI 日报 ({len(reports)})", full_md)
