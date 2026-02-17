@@ -12765,180 +12765,260 @@
     "id": "2602.11163",
     "url": "https://arxiv.org/pdf/2602.11163.pdf",
     "title": "ArXiv 2602.11163",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.344719"
+    "ts": "2026-02-16 11:18:08.344719",
+    "local_path": "downloads/2602.11163.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Nested Named Entity Recognition in Plasma Physics Research Articles**"
   },
   "2602.11305": {
     "type": "arxiv",
     "id": "2602.11305",
     "url": "https://arxiv.org/pdf/2602.11305.pdf",
     "title": "ArXiv 2602.11305",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.357302"
+    "ts": "2026-02-16 11:18:08.357302",
+    "local_path": "downloads/2602.11305.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Are Aligned Large Language Models Still Misaligned?"
   },
   "2602.12027": {
     "type": "arxiv",
     "id": "2602.12027",
     "url": "https://arxiv.org/pdf/2602.12027.pdf",
     "title": "ArXiv 2602.12027",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.369921"
+    "ts": "2026-02-16 11:18:08.369921",
+    "local_path": "downloads/2602.12027.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "General-purpose post-sampling reweighting method for multimodal target measures"
   },
   "2602.11334": {
     "type": "arxiv",
     "id": "2602.11334",
     "url": "https://arxiv.org/pdf/2602.11334.pdf",
     "title": "ArXiv 2602.11334",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.382188"
+    "ts": "2026-02-16 11:18:08.382188",
+    "local_path": "downloads/2602.11334.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Interpolation and Prewar-Postwar Output Volatility Debate: A Closer Look and New Results"
   },
   "2602.11221": {
     "type": "arxiv",
     "id": "2602.11221",
     "url": "https://arxiv.org/pdf/2602.11221.pdf",
     "title": "ArXiv 2602.11221",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.394567"
+    "ts": "2026-02-16 11:18:08.394567",
+    "local_path": "downloads/2602.11221.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Automatic Verification of Image-Text Claims (AVerImaTeC) Shared Task**"
   },
   "2602.11509": {
     "type": "arxiv",
     "id": "2602.11509",
     "url": "https://arxiv.org/pdf/2602.11509.pdf",
     "title": "ArXiv 2602.11509",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.406983"
+    "ts": "2026-02-16 11:18:08.406983",
+    "local_path": "downloads/2602.11509.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Multimodal Fact-Level Attribution for Verifiable Reasoning"
   },
   "2602.11368": {
     "type": "arxiv",
     "id": "2602.11368",
     "url": "https://arxiv.org/pdf/2602.11368.pdf",
     "title": "ArXiv 2602.11368",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.419737"
+    "ts": "2026-02-16 11:18:08.419737",
+    "local_path": "downloads/2602.11368.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Manifold of the Absolute: Religious Perennialism as Generative Inference"
   },
   "2602.11488": {
     "type": "arxiv",
     "id": "2602.11488",
     "url": "https://arxiv.org/pdf/2602.11488.pdf",
     "title": "ArXiv 2602.11488",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.432692"
+    "ts": "2026-02-16 11:18:08.432692",
+    "local_path": "downloads/2602.11488.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** When Audio-LLMs Don’t Listen: A Cross-Linguistic Study of Modality Arbitration"
   },
   "2602.11938": {
     "type": "arxiv",
     "id": "2602.11938",
     "url": "https://arxiv.org/pdf/2602.11938.pdf",
     "title": "ArXiv 2602.11938",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.445047"
+    "ts": "2026-02-16 11:18:08.445047",
+    "local_path": "downloads/2602.11938.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Who is the richest club in the championship? Detecting and Rewriting Underspecified Questions Improve QA Performance"
   },
   "2602.11610": {
     "type": "arxiv",
     "id": "2602.11610",
     "url": "https://arxiv.org/pdf/2602.11610.pdf",
     "title": "ArXiv 2602.11610",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.457251"
+    "ts": "2026-02-16 11:18:08.457251",
+    "local_path": "downloads/2602.11610.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11610"
   },
   "2602.11165": {
     "type": "arxiv",
     "id": "2602.11165",
     "url": "https://arxiv.org/pdf/2602.11165.pdf",
     "title": "ArXiv 2602.11165",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.469837"
+    "ts": "2026-02-16 11:18:08.469837",
+    "local_path": "downloads/2602.11165.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11165"
   },
   "2602.11412": {
     "type": "arxiv",
     "id": "2602.11412",
     "url": "https://arxiv.org/pdf/2602.11412.pdf",
     "title": "ArXiv 2602.11412",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.482411"
+    "ts": "2026-02-16 11:18:08.482411",
+    "local_path": "downloads/2602.11412.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When Visibility Outpaces Verification: Delayed Verification and Narrative Lock-in in Agentic AI Discourse**"
   },
   "2602.11172": {
     "type": "arxiv",
     "id": "2602.11172",
     "url": "https://arxiv.org/pdf/2602.11172.pdf",
     "title": "ArXiv 2602.11172",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.495026"
+    "ts": "2026-02-16 11:18:08.495026",
+    "local_path": "downloads/2602.11172.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Synthesizing the Virtual Advocate: A Multi-Persona Speech Generation Framework for Diverse Linguistic Jurisdictions in Indic Languages**"
   },
   "2602.11181": {
     "type": "arxiv",
     "id": "2602.11181",
     "url": "https://arxiv.org/pdf/2602.11181.pdf",
     "title": "ArXiv 2602.11181",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.507341"
+    "ts": "2026-02-16 11:18:08.507341",
+    "local_path": "downloads/2602.11181.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Code Mixologist: A Practitioner’s Guide to Building Code-Mixed LLMs**"
   },
   "2602.11520": {
     "type": "arxiv",
     "id": "2602.11520",
     "url": "https://arxiv.org/pdf/2602.11520.pdf",
     "title": "ArXiv 2602.11520",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.520149"
+    "ts": "2026-02-16 11:18:08.520149",
+    "local_path": "downloads/2602.11520.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Locally Interpretable Individualized Treatment Rules for Black-Box Decision Models**"
   },
   "2602.11166": {
     "type": "arxiv",
     "id": "2602.11166",
     "url": "https://arxiv.org/pdf/2602.11166.pdf",
     "title": "ArXiv 2602.11166",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.532951"
+    "ts": "2026-02-16 11:18:08.532951",
+    "local_path": "downloads/2602.11166.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection?"
   },
   "2602.12064": {
     "type": "arxiv",
     "id": "2602.12064",
     "url": "https://arxiv.org/pdf/2602.12064.pdf",
     "title": "ArXiv 2602.12064",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.545585"
+    "ts": "2026-02-16 11:18:08.545585",
+    "local_path": "downloads/2602.12064.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning"
   },
   "2602.12262": {
     "type": "arxiv",
     "id": "2602.12262",
     "url": "https://arxiv.org/pdf/2602.12262.pdf",
     "title": "ArXiv 2602.12262",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.558225"
+    "ts": "2026-02-16 11:18:08.558225",
+    "local_path": "downloads/2602.12262.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.12262"
   },
   "2602.12015": {
     "type": "arxiv",
     "id": "2602.12015",
     "url": "https://arxiv.org/pdf/2602.12015.pdf",
     "title": "ArXiv 2602.12015",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.572020"
+    "ts": "2026-02-16 11:18:08.572020",
+    "local_path": "downloads/2602.12015.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Disentangling Ambiguity from Instability in Large Language Models: A Clinical Text-to-SQL Case Study"
   },
   "2602.11162": {
     "type": "arxiv",
     "id": "2602.11162",
     "url": "https://arxiv.org/pdf/2602.11162.pdf",
     "title": "ArXiv 2602.11162",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.584707"
+    "ts": "2026-02-16 11:18:08.584707",
+    "local_path": "downloads/2602.11162.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Retrieval Heads are Dynamic**"
   },
   "2602.11290": {
     "type": "arxiv",
