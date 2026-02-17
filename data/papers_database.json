@@ -13025,71 +13025,99 @@
     "id": "2602.11290",
     "url": "https://arxiv.org/pdf/2602.11290.pdf",
     "title": "ArXiv 2602.11290",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.597582"
+    "ts": "2026-02-16 11:18:08.597582",
+    "local_path": "downloads/2602.11290.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11290"
   },
   "2602.11699": {
     "type": "arxiv",
     "id": "2602.11699",
     "url": "https://arxiv.org/pdf/2602.11699.pdf",
     "title": "ArXiv 2602.11699",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.609964"
+    "ts": "2026-02-16 11:18:08.609964",
+    "local_path": "downloads/2602.11699.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Finding Sense in Nonsense with Generated Contexts: Perspectives from Humans and Language Models"
   },
   "2602.11328": {
     "type": "arxiv",
     "id": "2602.11328",
     "url": "https://arxiv.org/pdf/2602.11328.pdf",
     "title": "ArXiv 2602.11328",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.622693"
+    "ts": "2026-02-16 11:18:08.622693",
+    "local_path": "downloads/2602.11328.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Evaluating Alignment of Behavioral Dispositions in LLMs"
   },
   "2602.11707": {
     "type": "arxiv",
     "id": "2602.11707",
     "url": "https://arxiv.org/pdf/2602.11707.pdf",
     "title": "ArXiv 2602.11707",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:08.635120"
+    "ts": "2026-02-16 11:18:08.635120",
+    "local_path": "downloads/2602.11707.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.11707"
   },
   "10.1016/j.acap.2026.103240": {
     "type": "doi",
     "id": "10.1016/j.acap.2026.103240",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:10.539323"
+    "ts": "2026-02-16 11:18:10.539323",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Politics and Pediatrics: State political policies’ impact on pediatrics residency application and future practice decisions\n\nABSTRACT: 无摘要",
+    "real_title": "Politics and Pediatrics: State political policies’ impact on pediatrics residency application and future practice decisions"
   },
   "10.3390/ani16030472": {
     "type": "doi",
     "id": "10.3390/ani16030472",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:10.552758"
+    "ts": "2026-02-16 11:18:10.552758",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Tradeoffs Among Predator Control, Moose Harvests, and Trophy Antlers: Principles Pertinent to Managing Alaska’s Wildlife\n\nABSTRACT: The State of Alaska, USA, has a long and controversial history of controlling predators to enhance ungulate populations, including moose (Alces alces). Moose management is complicated by a dual system in which the Federal and State governments prioritize harvesting moose for human consumption over other considerations, such as trophy or sport hunting, but have conflicting regulations regarding who is eligible to harvest moose. Wildlife management for the State is overseen by the Alaska Board of Game (BOG), with advice from the Alaska Department of Fish and Game (ADFG). In accordance with its Intensive Management Policy, the BOG establishes regulations promoting the harvest of moose and other ungulates for human consumption. This typically occurs by controlling bears (Ursus americanus and U. arctos) and gray wolves (Canis lupus) in anticipation of increasing ungulate harvests, often without adequate information on the status and ecology of predator or ungulate populations. We provide a narrative and integrative review of moose population dynamics to help resolve those issues. We argue that the current management of moose and their predators in Alaska does not encompass a full range of management options and fails to consider or implement important aspects of their population dynamics. Predators maintain some moose populations at a low density, reducing the harvest of moose but promoting large-antlered individuals, which are of value to Alaska’s professional guide and tourism industries. Using modern models of population dynamics of moose and other ungulates, we argue that if the proximity of the moose population to K (the ecological carrying capacity) is known, management strategies that increase the human harvest of moose and also promote large-antlered trophies are not mutually exclusive. We list life history and population characteristics to help determine the nutritional status of moose populations in relation to K, thereby guiding wise management of that valuable resource. We also recommend an adaptive management approach to assessing the effects of such activities. We caution, however, that to wisely manage these important wildlife resources, more information on the dynamics of moose and their predators is necessary. A system that embraces more biology and fewer politics would provide greater opportunities to employ the best science in the management of moose and their predators.",
+    "real_title": "Tradeoffs Among Predator Control, Moose Harvests, and Trophy Antlers: Principles Pertinent to Managing Alaska’s Wildlife"
   },
   "10.1038/d41586-026-00455-6": {
     "type": "doi",
     "id": "10.1038/d41586-026-00455-6",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-16 11:18:10.565866"
+    "ts": "2026-02-16 11:18:10.565866",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: US repeals key ‘endangerment finding’ that climate change is a public threat\n\nABSTRACT: 无摘要",
+    "real_title": "US repeals key ‘endangerment finding’ that climate change is a public threat"
   },
   "link_2d92bf2ffa": {
     "type": "pdf_link",
     "id": "link_2d92bf2ffa",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-76422-6_186.pdf",
     "title": "Unknown Title",
-    "status": "NEW",
-    "retry": 0,
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
     "ts": "2026-02-16 11:19:27.531417"
   },
   "link_fb36c1deff": {
@@ -13097,8 +13125,502 @@
     "id": "link_fb36c1deff",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-76422-6_826.pdf",
     "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-16 11:19:27.544787"
+  },
+  "2602.12639": {
+    "type": "arxiv",
+    "id": "2602.12639",
+    "url": "https://arxiv.org/pdf/2602.12639.pdf",
+    "title": "ArXiv 2602.12639",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.442265",
+    "local_path": "downloads/2602.12639.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CLASE: A Hybrid Method for Chinese Legalese Stylistic Evaluation**"
+  },
+  "2602.12878": {
+    "type": "arxiv",
+    "id": "2602.12878",
+    "url": "https://arxiv.org/pdf/2602.12878.pdf",
+    "title": "ArXiv 2602.12878",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.455740",
+    "local_path": "downloads/2602.12878.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Understanding Cultural Alignment in Multilingual LLMs via Natural Debate Statements"
+  },
+  "2602.12504": {
+    "type": "arxiv",
+    "id": "2602.12504",
+    "url": "https://arxiv.org/pdf/2602.12504.pdf",
+    "title": "ArXiv 2602.12504",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.468911",
+    "local_path": "downloads/2602.12504.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Toggling the Defiers to Relax Monotonicity: The Difference-in-Instrumental-Variables Estimand"
+  },
+  "2602.12845": {
+    "type": "arxiv",
+    "id": "2602.12845",
+    "url": "https://arxiv.org/pdf/2602.12845.pdf",
+    "title": "ArXiv 2602.12845",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.481624",
+    "local_path": "downloads/2602.12845.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Small area estimation using incomplete auxiliary information"
+  },
+  "2602.12392": {
+    "type": "arxiv",
+    "id": "2602.12392",
+    "url": "https://arxiv.org/pdf/2602.12392.pdf",
+    "title": "ArXiv 2602.12392",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.494270",
+    "local_path": "downloads/2602.12392.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Scale and Capacity Limits in Decentralized FDA Food-Safety Enforcement"
+  },
+  "2602.13123": {
+    "type": "arxiv",
+    "id": "2602.13123",
+    "url": "https://arxiv.org/pdf/2602.13123.pdf",
+    "title": "ArXiv 2602.13123",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.506927",
+    "local_path": "downloads/2602.13123.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "From sunblock to softblock: Analyzing the correlates of neology in published writing and on social media"
+  },
+  "2602.12575": {
+    "type": "arxiv",
+    "id": "2602.12575",
+    "url": "https://arxiv.org/pdf/2602.12575.pdf",
+    "title": "ArXiv 2602.12575",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.519638",
+    "local_path": "downloads/2602.12575.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A RESPONSE-FREE PATHWAY TO EFFICIENT SCALE SIMPLIFICATION"
+  },
+  "2602.12535": {
+    "type": "arxiv",
+    "id": "2602.12535",
+    "url": "https://arxiv.org/pdf/2602.12535.pdf",
+    "title": "ArXiv 2602.12535",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.532275",
+    "local_path": "downloads/2602.12535.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Governing Social Media as a Public Utility"
+  },
+  "2602.12921": {
+    "type": "arxiv",
+    "id": "2602.12921",
+    "url": "https://arxiv.org/pdf/2602.12921.pdf",
+    "title": "ArXiv 2602.12921",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.545521",
+    "local_path": "downloads/2602.12921.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "When Words Don’t Mean What They Say: Figurative Understanding in Bengali Idioms**"
+  },
+  "2602.12871": {
+    "type": "arxiv",
+    "id": "2602.12871",
+    "url": "https://arxiv.org/pdf/2602.12871.pdf",
+    "title": "ArXiv 2602.12871",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.558344",
+    "local_path": "downloads/2602.12871.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MENTAL BENCH: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models**"
+  },
+  "2602.12414": {
+    "type": "arxiv",
+    "id": "2602.12414",
+    "url": "https://arxiv.org/pdf/2602.12414.pdf",
+    "title": "ArXiv 2602.12414",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.571103",
+    "local_path": "downloads/2602.12414.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PROPELLA-1: MULTI-PROPERTY DOCUMENT ANNOTATION FOR LLM DATA CURATION AT SCALE"
+  },
+  "2602.12911": {
+    "type": "arxiv",
+    "id": "2602.12911",
+    "url": "https://arxiv.org/pdf/2602.12911.pdf",
+    "title": "ArXiv 2602.12911",
     "status": "NEW",
     "retry": 0,
-    "ts": "2026-02-16 11:19:27.544787"
+    "ts": "2026-02-17 04:59:18.583870"
+  },
+  "2602.13033": {
+    "type": "arxiv",
+    "id": "2602.13033",
+    "url": "https://arxiv.org/pdf/2602.13033.pdf",
+    "title": "ArXiv 2602.13033",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.597350"
+  },
+  "2602.12818": {
+    "type": "arxiv",
+    "id": "2602.12818",
+    "url": "https://arxiv.org/pdf/2602.12818.pdf",
+    "title": "ArXiv 2602.12818",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.610505"
+  },
+  "2602.12741": {
+    "type": "arxiv",
+    "id": "2602.12741",
+    "url": "https://arxiv.org/pdf/2602.12741.pdf",
+    "title": "ArXiv 2602.12741",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.623541"
+  },
+  "2602.12710": {
+    "type": "arxiv",
+    "id": "2602.12710",
+    "url": "https://arxiv.org/pdf/2602.12710.pdf",
+    "title": "ArXiv 2602.12710",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.636238"
+  },
+  "2602.12992": {
+    "type": "arxiv",
+    "id": "2602.12992",
+    "url": "https://arxiv.org/pdf/2602.12992.pdf",
+    "title": "ArXiv 2602.12992",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.649027"
+  },
+  "2602.12702": {
+    "type": "arxiv",
+    "id": "2602.12702",
+    "url": "https://arxiv.org/pdf/2602.12702.pdf",
+    "title": "ArXiv 2602.12702",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.661839"
+  },
+  "2602.12900": {
+    "type": "arxiv",
+    "id": "2602.12900",
+    "url": "https://arxiv.org/pdf/2602.12900.pdf",
+    "title": "ArXiv 2602.12900",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.675620"
+  },
+  "2602.12450": {
+    "type": "arxiv",
+    "id": "2602.12450",
+    "url": "https://arxiv.org/pdf/2602.12450.pdf",
+    "title": "ArXiv 2602.12450",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.688897"
+  },
+  "2602.12604": {
+    "type": "arxiv",
+    "id": "2602.12604",
+    "url": "https://arxiv.org/pdf/2602.12604.pdf",
+    "title": "ArXiv 2602.12604",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.701963"
+  },
+  "2602.12806": {
+    "type": "arxiv",
+    "id": "2602.12806",
+    "url": "https://arxiv.org/pdf/2602.12806.pdf",
+    "title": "ArXiv 2602.12806",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.714697"
+  },
+  "2602.13088": {
+    "type": "arxiv",
+    "id": "2602.13088",
+    "url": "https://arxiv.org/pdf/2602.13088.pdf",
+    "title": "ArXiv 2602.13088",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.727541"
+  },
+  "2602.13047": {
+    "type": "arxiv",
+    "id": "2602.13047",
+    "url": "https://arxiv.org/pdf/2602.13047.pdf",
+    "title": "ArXiv 2602.13047",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.740413"
+  },
+  "2602.12682": {
+    "type": "arxiv",
+    "id": "2602.12682",
+    "url": "https://arxiv.org/pdf/2602.12682.pdf",
+    "title": "ArXiv 2602.12682",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.753795"
+  },
+  "2602.13084": {
+    "type": "arxiv",
+    "id": "2602.13084",
+    "url": "https://arxiv.org/pdf/2602.13084.pdf",
+    "title": "ArXiv 2602.13084",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.766467"
+  },
+  "2602.13194": {
+    "type": "arxiv",
+    "id": "2602.13194",
+    "url": "https://arxiv.org/pdf/2602.13194.pdf",
+    "title": "ArXiv 2602.13194",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.779574"
+  },
+  "2602.13059": {
+    "type": "arxiv",
+    "id": "2602.13059",
+    "url": "https://arxiv.org/pdf/2602.13059.pdf",
+    "title": "ArXiv 2602.13059",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.792505"
+  },
+  "2602.12568": {
+    "type": "arxiv",
+    "id": "2602.12568",
+    "url": "https://arxiv.org/pdf/2602.12568.pdf",
+    "title": "ArXiv 2602.12568",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.805557"
+  },
+  "2602.12635": {
+    "type": "arxiv",
+    "id": "2602.12635",
+    "url": "https://arxiv.org/pdf/2602.12635.pdf",
+    "title": "ArXiv 2602.12635",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.818822"
+  },
+  "2602.12574": {
+    "type": "arxiv",
+    "id": "2602.12574",
+    "url": "https://arxiv.org/pdf/2602.12574.pdf",
+    "title": "ArXiv 2602.12574",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.831810"
+  },
+  "2602.13154": {
+    "type": "arxiv",
+    "id": "2602.13154",
+    "url": "https://arxiv.org/pdf/2602.13154.pdf",
+    "title": "ArXiv 2602.13154",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.844844"
+  },
+  "2602.12811": {
+    "type": "arxiv",
+    "id": "2602.12811",
+    "url": "https://arxiv.org/pdf/2602.12811.pdf",
+    "title": "ArXiv 2602.12811",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.858161"
+  },
+  "2602.12435": {
+    "type": "arxiv",
+    "id": "2602.12435",
+    "url": "https://arxiv.org/pdf/2602.12435.pdf",
+    "title": "ArXiv 2602.12435",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.871119"
+  },
+  "2602.13102": {
+    "type": "arxiv",
+    "id": "2602.13102",
+    "url": "https://arxiv.org/pdf/2602.13102.pdf",
+    "title": "ArXiv 2602.13102",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.884450"
+  },
+  "2602.12653": {
+    "type": "arxiv",
+    "id": "2602.12653",
+    "url": "https://arxiv.org/pdf/2602.12653.pdf",
+    "title": "ArXiv 2602.12653",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.897983"
+  },
+  "2602.12695": {
+    "type": "arxiv",
+    "id": "2602.12695",
+    "url": "https://arxiv.org/pdf/2602.12695.pdf",
+    "title": "ArXiv 2602.12695",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.910975"
+  },
+  "2602.12674": {
+    "type": "arxiv",
+    "id": "2602.12674",
+    "url": "https://arxiv.org/pdf/2602.12674.pdf",
+    "title": "ArXiv 2602.12674",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.923980"
+  },
+  "2602.12709": {
+    "type": "arxiv",
+    "id": "2602.12709",
+    "url": "https://arxiv.org/pdf/2602.12709.pdf",
+    "title": "ArXiv 2602.12709",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.936991"
+  },
+  "2602.12302": {
+    "type": "arxiv",
+    "id": "2602.12302",
+    "url": "https://arxiv.org/pdf/2602.12302.pdf",
+    "title": "ArXiv 2602.12302",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.949940"
+  },
+  "2602.12856": {
+    "type": "arxiv",
+    "id": "2602.12856",
+    "url": "https://arxiv.org/pdf/2602.12856.pdf",
+    "title": "ArXiv 2602.12856",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.963247"
+  },
+  "2602.12634": {
+    "type": "arxiv",
+    "id": "2602.12634",
+    "url": "https://arxiv.org/pdf/2602.12634.pdf",
+    "title": "ArXiv 2602.12634",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.976478"
+  },
+  "2602.12810": {
+    "type": "arxiv",
+    "id": "2602.12810",
+    "url": "https://arxiv.org/pdf/2602.12810.pdf",
+    "title": "ArXiv 2602.12810",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:18.989900"
+  },
+  "2602.12476": {
+    "type": "arxiv",
+    "id": "2602.12476",
+    "url": "https://arxiv.org/pdf/2602.12476.pdf",
+    "title": "ArXiv 2602.12476",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.003418"
+  },
+  "2602.12490": {
+    "type": "arxiv",
+    "id": "2602.12490",
+    "url": "https://arxiv.org/pdf/2602.12490.pdf",
+    "title": "ArXiv 2602.12490",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.016475"
+  },
+  "2602.12974": {
+    "type": "arxiv",
+    "id": "2602.12974",
+    "url": "https://arxiv.org/pdf/2602.12974.pdf",
+    "title": "ArXiv 2602.12974",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.029608"
+  },
+  "2602.12889": {
+    "type": "arxiv",
+    "id": "2602.12889",
+    "url": "https://arxiv.org/pdf/2602.12889.pdf",
+    "title": "ArXiv 2602.12889",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.043022"
+  },
+  "2602.13152": {
+    "type": "arxiv",
+    "id": "2602.13152",
+    "url": "https://arxiv.org/pdf/2602.13152.pdf",
+    "title": "ArXiv 2602.13152",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.056280"
+  },
+  "2602.12874": {
+    "type": "arxiv",
+    "id": "2602.12874",
+    "url": "https://arxiv.org/pdf/2602.12874.pdf",
+    "title": "ArXiv 2602.12874",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.069485"
+  },
+  "2602.13139": {
+    "type": "arxiv",
+    "id": "2602.13139",
+    "url": "https://arxiv.org/pdf/2602.13139.pdf",
+    "title": "ArXiv 2602.13139",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-17 04:59:19.082648"
   }
 }
