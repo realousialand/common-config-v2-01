@@ -13798,7 +13798,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.681521"
   },
   "link_3f03718d69": {
@@ -13807,7 +13807,7 @@
     "url": "https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.695414"
   },
   "link_1834b06455": {
@@ -13816,7 +13816,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.708422"
   },
   "link_cfdd8dace2": {
@@ -13838,7 +13838,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.734084"
   },
   "link_63a6e854b3": {
@@ -13847,7 +13847,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.746735"
   },
   "link_0036ace8c6": {
@@ -13856,7 +13856,7 @@
     "url": "https://publications.iadb.org/publications/english/document/Can-Informational-Interventions-Improve-SME-Environmental-Performance-Experimental-Evidence-from-Latin-America.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.759147",
     "local_path": "downloads/link_0036ace8c6.pdf",
     "content_type": "PDF",
@@ -13868,7 +13868,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.771610"
   },
   "link_b18e6360db": {
@@ -13877,7 +13877,7 @@
     "url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.784157"
   },
   "link_a7ebf44267": {
@@ -13886,7 +13886,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-17 10:55:05.796666"
   },
   "10.2139/ssrn.3563500": {
@@ -13972,108 +13972,156 @@
     "id": "2602.14081",
     "url": "https://arxiv.org/pdf/2602.14081.pdf",
     "title": "ArXiv 2602.14081",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.334071"
+    "ts": "2026-02-18 05:00:22.334071",
+    "local_path": "downloads/2602.14081.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CCiV: A Benchmark for Structure, Rhythm and Quality in LLM-Generated Chinese Ci Poetry"
   },
   "2602.14835": {
     "type": "arxiv",
     "id": "2602.14835",
     "url": "https://arxiv.org/pdf/2602.14835.pdf",
     "title": "ArXiv 2602.14835",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.347924"
+    "ts": "2026-02-18 05:00:22.347924",
+    "local_path": "downloads/2602.14835.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Global Representativeness Index: A Total Variation Distance Framework for Measuring Demographic Fidelity in Survey Research"
   },
   "2602.13964": {
     "type": "arxiv",
     "id": "2602.13964",
     "url": "https://arxiv.org/pdf/2602.13964.pdf",
     "title": "ArXiv 2602.13964",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.362021"
+    "ts": "2026-02-18 05:00:22.362021",
+    "local_path": "downloads/2602.13964.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** HLE-Verified: A Systematic Verification and Structured Revision of Humanity’s Last Exam"
   },
   "2602.14198": {
     "type": "arxiv",
     "id": "2602.14198",
     "url": "https://arxiv.org/pdf/2602.14198.pdf",
     "title": "ArXiv 2602.14198",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.376047"
+    "ts": "2026-02-18 05:00:22.376047",
+    "local_path": "downloads/2602.14198.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.14198"
   },
   "2602.14414": {
     "type": "arxiv",
     "id": "2602.14414",
     "url": "https://arxiv.org/pdf/2602.14414.pdf",
     "title": "ArXiv 2602.14414",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.389659"
+    "ts": "2026-02-18 05:00:22.389659",
+    "local_path": "downloads/2602.14414.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Role of Measured Covariates in Assessing Sensitivity to Unmeasured Confounding"
   },
   "2602.13504": {
     "type": "arxiv",
     "id": "2602.13504",
     "url": "https://arxiv.org/pdf/2602.13504.pdf",
     "title": "ArXiv 2602.13504",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.403591"
+    "ts": "2026-02-18 05:00:22.403591",
+    "local_path": "downloads/2602.13504.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "FROM PERCEPTIONS TO EVIDENCE: DETECTING AI-GENERATED CONTENT IN TURKISH NEWS MEDIA WITH A FINE-TUNED BERT CLASSIFIER"
   },
   "2602.13455": {
     "type": "arxiv",
     "id": "2602.13455",
     "url": "https://arxiv.org/pdf/2602.13455.pdf",
     "title": "ArXiv 2602.13455",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.417454"
+    "ts": "2026-02-18 05:00:22.417454",
+    "local_path": "downloads/2602.13455.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Using Machine Learning to Enhance the Detection of Obfuscated Abusive Words in Swahili: A Focus on Child Safety"
   },
   "2602.13867": {
     "type": "arxiv",
     "id": "2602.13867",
     "url": "https://arxiv.org/pdf/2602.13867.pdf",
     "title": "ArXiv 2602.13867",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.431770"
+    "ts": "2026-02-18 05:00:22.431770",
+    "local_path": "downloads/2602.13867.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Bridging the Multilingual Safety Divide: Efficient, Culturally-Aware Alignment for Global South Languages"
   },
   "2602.14216": {
     "type": "arxiv",
     "id": "2602.14216",
     "url": "https://arxiv.org/pdf/2602.14216.pdf",
     "title": "ArXiv 2602.14216",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.445820"
+    "ts": "2026-02-18 05:00:22.445820",
+    "local_path": "downloads/2602.14216.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Reasoning Language Models for complex assessments tasks: Evaluating parental cooperation from child protection case reports"
   },
   "2602.14349": {
     "type": "arxiv",
     "id": "2602.14349",
     "url": "https://arxiv.org/pdf/2602.14349.pdf",
     "title": "ArXiv 2602.14349",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.460005"
+    "ts": "2026-02-18 05:00:22.460005",
+    "local_path": "downloads/2602.14349.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Same Prompt, Different Outcomes: Evaluating the Reproducibility of Data Analysis by LLMs"
   },
   "2602.13537": {
     "type": "arxiv",
     "id": "2602.13537",
     "url": "https://arxiv.org/pdf/2602.13537.pdf",
     "title": "ArXiv 2602.13537",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.473505"
+    "ts": "2026-02-18 05:00:22.473505",
+    "local_path": "downloads/2602.13537.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Cluster-Robust Inference for Quadratic Forms"
   },
   "2602.14981": {
     "type": "arxiv",
     "id": "2602.14981",
     "url": "https://arxiv.org/pdf/2602.14981.pdf",
     "title": "ArXiv 2602.14981",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.488591"
+    "ts": "2026-02-18 05:00:22.488591",
+    "local_path": "downloads/2602.14981.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Block Empirical Likelihood Inference for Longitudinal Generalized Partially Linear Single-Index Models"
   },
   "2602.14861": {
     "type": "arxiv",
