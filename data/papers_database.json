@@ -13117,7 +13117,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-76422-6_186.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-16 11:19:27.531417"
   },
   "link_fb36c1deff": {
@@ -13126,7 +13126,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-76422-6_826.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-16 11:19:27.544787"
   },
   "2602.12639": {
@@ -13511,162 +13511,234 @@
     "id": "2602.12635",
     "url": "https://arxiv.org/pdf/2602.12635.pdf",
     "title": "ArXiv 2602.12635",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.818822"
+    "ts": "2026-02-17 04:59:18.818822",
+    "local_path": "downloads/2602.12635.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unleashing Low-Bit Inference on Ascend NPUs: A Comprehensive Evaluation of HiFloat Formats"
   },
   "2602.12574": {
     "type": "arxiv",
     "id": "2602.12574",
     "url": "https://arxiv.org/pdf/2602.12574.pdf",
     "title": "ArXiv 2602.12574",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.831810"
+    "ts": "2026-02-17 04:59:18.831810",
+    "local_path": "downloads/2602.12574.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Monte Carlo Tree Search with Reasoning Path Refinement for Small Language Models in Conversational Text-to-NoSQL**"
   },
   "2602.13154": {
     "type": "arxiv",
     "id": "2602.13154",
     "url": "https://arxiv.org/pdf/2602.13154.pdf",
     "title": "ArXiv 2602.13154",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.844844"
+    "ts": "2026-02-17 04:59:18.844844",
+    "local_path": "downloads/2602.13154.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Peaceful Anarcho-Accelerationism: Decentralized Full Automation for a Society of Universal Care"
   },
   "2602.12811": {
     "type": "arxiv",
     "id": "2602.12811",
     "url": "https://arxiv.org/pdf/2602.12811.pdf",
     "title": "ArXiv 2602.12811",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.858161"
+    "ts": "2026-02-17 04:59:18.858161",
+    "local_path": "downloads/2602.12811.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Left-right asymmetry in predicting brain activity from LLMs’ representations emerges with their formal linguistic competence"
   },
   "2602.12435": {
     "type": "arxiv",
     "id": "2602.12435",
     "url": "https://arxiv.org/pdf/2602.12435.pdf",
     "title": "ArXiv 2602.12435",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.871119"
+    "ts": "2026-02-17 04:59:18.871119",
+    "local_path": "downloads/2602.12435.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "S CALABLE C HANGEPOINT D ETECTION FOR L ARGE S PATIOTEMPORAL D ATA ON THE S PHERE"
   },
   "2602.13102": {
     "type": "arxiv",
     "id": "2602.13102",
     "url": "https://arxiv.org/pdf/2602.13102.pdf",
     "title": "ArXiv 2602.13102",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.884450"
+    "ts": "2026-02-17 04:59:18.884450",
+    "local_path": "downloads/2602.13102.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Towards interpretable models for language proficiency assessment: Predicting the CEFR level of Estonian learner texts"
   },
   "2602.12653": {
     "type": "arxiv",
     "id": "2602.12653",
     "url": "https://arxiv.org/pdf/2602.12653.pdf",
     "title": "ArXiv 2602.12653",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.897983"
+    "ts": "2026-02-17 04:59:18.897983",
+    "local_path": "downloads/2602.12653.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Many-sample tests for the dimensionality hypothesis for large covariance matrices among groups"
   },
   "2602.12695": {
     "type": "arxiv",
     "id": "2602.12695",
     "url": "https://arxiv.org/pdf/2602.12695.pdf",
     "title": "ArXiv 2602.12695",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.910975"
+    "ts": "2026-02-17 04:59:18.910975",
+    "local_path": "downloads/2602.12695.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generative AI and the Reallocation of Time:** Productivity, Leisure, and Fulfilling Work [∗]"
   },
   "2602.12674": {
     "type": "arxiv",
     "id": "2602.12674",
     "url": "https://arxiv.org/pdf/2602.12674.pdf",
     "title": "ArXiv 2602.12674",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.923980"
+    "ts": "2026-02-17 04:59:18.923980",
+    "local_path": "downloads/2602.12674.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "X-KD: General Experiential Knowledge Distillation for Large Language Models"
   },
   "2602.12709": {
     "type": "arxiv",
     "id": "2602.12709",
     "url": "https://arxiv.org/pdf/2602.12709.pdf",
     "title": "ArXiv 2602.12709",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.936991"
+    "ts": "2026-02-17 04:59:18.936991",
+    "local_path": "downloads/2602.12709.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** ReFilter: Improving Robustness of Retrieval-Augmented Generation via Gated Filter"
   },
   "2602.12302": {
     "type": "arxiv",
     "id": "2602.12302",
     "url": "https://arxiv.org/pdf/2602.12302.pdf",
     "title": "ArXiv 2602.12302",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.949940"
+    "ts": "2026-02-17 04:59:18.949940",
+    "local_path": "downloads/2602.12302.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Grandes Modelos de Linguagem Multimodais (MLLMs): Da Teoria à Prática"
   },
   "2602.12856": {
     "type": "arxiv",
     "id": "2602.12856",
     "url": "https://arxiv.org/pdf/2602.12856.pdf",
     "title": "ArXiv 2602.12856",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.963247"
+    "ts": "2026-02-17 04:59:18.963247",
+    "local_path": "downloads/2602.12856.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.12856"
   },
   "2602.12634": {
     "type": "arxiv",
     "id": "2602.12634",
     "url": "https://arxiv.org/pdf/2602.12634.pdf",
     "title": "ArXiv 2602.12634",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.976478"
+    "ts": "2026-02-17 04:59:18.976478",
+    "local_path": "downloads/2602.12634.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.12634"
   },
   "2602.12810": {
     "type": "arxiv",
     "id": "2602.12810",
     "url": "https://arxiv.org/pdf/2602.12810.pdf",
     "title": "ArXiv 2602.12810",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:18.989900"
+    "ts": "2026-02-17 04:59:18.989900",
+    "local_path": "downloads/2602.12810.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Paid to Look Like Truth: The Prevalence and Dark Patterns of Advertorials in News Outlets"
   },
   "2602.12476": {
     "type": "arxiv",
     "id": "2602.12476",
     "url": "https://arxiv.org/pdf/2602.12476.pdf",
     "title": "ArXiv 2602.12476",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:19.003418"
+    "ts": "2026-02-17 04:59:19.003418",
+    "local_path": "downloads/2602.12476.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Not a Silver Bullet for Loneliness: How Attachment and Age Shape Intimacy with AI Companions**"
   },
   "2602.12490": {
     "type": "arxiv",
     "id": "2602.12490",
     "url": "https://arxiv.org/pdf/2602.12490.pdf",
     "title": "ArXiv 2602.12490",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:19.016475"
+    "ts": "2026-02-17 04:59:19.016475",
+    "local_path": "downloads/2602.12490.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Transformer-based CoVaR: Systemic Risk in Textual Information"
   },
   "2602.12974": {
     "type": "arxiv",
     "id": "2602.12974",
     "url": "https://arxiv.org/pdf/2602.12974.pdf",
     "title": "ArXiv 2602.12974",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:19.029608"
+    "ts": "2026-02-17 04:59:19.029608",
+    "local_path": "downloads/2602.12974.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Statistical Opportunities in Neuroimaging"
   },
   "2602.12889": {
     "type": "arxiv",
     "id": "2602.12889",
     "url": "https://arxiv.org/pdf/2602.12889.pdf",
     "title": "ArXiv 2602.12889",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-17 04:59:19.043022"
+    "ts": "2026-02-17 04:59:19.043022",
+    "local_path": "downloads/2602.12889.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** BaziQA-Benchmark: Evaluating Symbolic and Temporally Compositional Reasoning in Large Language Models"
   },
   "2602.13152": {
     "type": "arxiv",
