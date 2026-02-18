@@ -13798,7 +13798,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.681521"
   },
   "link_3f03718d69": {
@@ -13807,7 +13807,7 @@
     "url": "https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.695414"
   },
   "link_1834b06455": {
@@ -13816,7 +13816,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.708422"
   },
   "link_cfdd8dace2": {
@@ -13838,7 +13838,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.734084"
   },
   "link_63a6e854b3": {
@@ -13847,7 +13847,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.746735"
   },
   "link_0036ace8c6": {
@@ -13856,7 +13856,7 @@
     "url": "https://publications.iadb.org/publications/english/document/Can-Informational-Interventions-Improve-SME-Environmental-Performance-Experimental-Evidence-from-Latin-America.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.759147",
     "local_path": "downloads/link_0036ace8c6.pdf",
     "content_type": "PDF",
@@ -13868,7 +13868,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.law.ou.edu/cgi/viewcontent.cgi?article=1798&context=ailr&amp;rt=Unethical+Business+Practices+Plague+Native+American+Cultures+and+Economies–Solutions+to+the+Ineffectiveness+of+the+Indian+Arts+and+Crafts+Act&amp;scisig=AFtJQiwJb0wNY4X4M54O60RMtyvj",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.771610"
   },
   "link_b18e6360db": {
@@ -13877,7 +13877,7 @@
     "url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.784157"
   },
   "link_a7ebf44267": {
@@ -13886,7 +13886,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=8991&context=doctoral&amp;rt=The+Vulnerabilities+of+Smart+Technology&amp;scisig=AFtJQizm-fuGEw1rg7TezrlHfaA7",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-17 10:55:05.796666"
   },
   "10.2139/ssrn.3563500": {
@@ -14128,108 +14128,156 @@
     "id": "2602.14861",
     "url": "https://arxiv.org/pdf/2602.14861.pdf",
     "title": "ArXiv 2602.14861",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.502061"
+    "ts": "2026-02-18 05:00:22.502061",
+    "local_path": "downloads/2602.14861.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bias analysis of a linear order-statistic inequality index estimator: Unbiasedness under gamma populations"
   },
   "2602.13452": {
     "type": "arxiv",
     "id": "2602.13452",
     "url": "https://arxiv.org/pdf/2602.13452.pdf",
     "title": "ArXiv 2602.13452",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.515844"
+    "ts": "2026-02-18 05:00:22.515844",
+    "local_path": "downloads/2602.13452.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** LLMs, Translation, and Urgency"
   },
   "2602.13453": {
     "type": "arxiv",
     "id": "2602.13453",
     "url": "https://arxiv.org/pdf/2602.13453.pdf",
     "title": "ArXiv 2602.13453",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.530182"
+    "ts": "2026-02-18 05:00:22.530182",
+    "local_path": "downloads/2602.13453.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Post-Matching Two-Way Fixed Effects Estimation"
   },
   "2602.14062": {
     "type": "arxiv",
     "id": "2602.14062",
     "url": "https://arxiv.org/pdf/2602.14062.pdf",
     "title": "ArXiv 2602.14062",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.543937"
+    "ts": "2026-02-18 05:00:22.543937",
+    "local_path": "downloads/2602.14062.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Scarcity to Scale: A Release-Level Analysis of the Pashto Common Voice Dataset"
   },
   "2602.14940": {
     "type": "arxiv",
     "id": "2602.14940",
     "url": "https://arxiv.org/pdf/2602.14940.pdf",
     "title": "ArXiv 2602.14940",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.557820"
+    "ts": "2026-02-18 05:00:22.557820",
+    "local_path": "downloads/2602.14940.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Kami of the Commons: Towards Designing Agentic AI to Steward the Commons**"
   },
   "2602.14028": {
     "type": "arxiv",
     "id": "2602.14028",
     "url": "https://arxiv.org/pdf/2602.14028.pdf",
     "title": "ArXiv 2602.14028",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.571902"
+    "ts": "2026-02-18 05:00:22.571902",
+    "local_path": "downloads/2602.14028.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** GRRM: Group Relative Reward Modeling for Machine Translation"
   },
   "2602.14080": {
     "type": "arxiv",
     "id": "2602.14080",
     "url": "https://arxiv.org/pdf/2602.14080.pdf",
     "title": "ArXiv 2602.14080",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.585389"
+    "ts": "2026-02-18 05:00:22.585389",
+    "local_path": "downloads/2602.14080.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality**"
   },
   "2602.14466": {
     "type": "arxiv",
     "id": "2602.14466",
     "url": "https://arxiv.org/pdf/2602.14466.pdf",
     "title": "ArXiv 2602.14466",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.599522"
+    "ts": "2026-02-18 05:00:22.599522",
+    "local_path": "downloads/2602.14466.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Robust Bias Evaluation with FilBBQ: A Filipino Bias Benchmark for Question-Answering Language Models"
   },
   "2602.14594": {
     "type": "arxiv",
     "id": "2602.14594",
     "url": "https://arxiv.org/pdf/2602.14594.pdf",
     "title": "ArXiv 2602.14594",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.613509"
+    "ts": "2026-02-18 05:00:22.613509",
+    "local_path": "downloads/2602.14594.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Wikidata Query Logs Dataset"
   },
   "2602.13701": {
     "type": "arxiv",
     "id": "2602.13701",
     "url": "https://arxiv.org/pdf/2602.13701.pdf",
     "title": "ArXiv 2602.13701",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.627623"
+    "ts": "2026-02-18 05:00:22.627623",
+    "local_path": "downloads/2602.13701.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Metaphors’ journeys across time and genre: tracking the evolution of literary metaphors with temporal embeddings"
   },
   "2602.14653": {
     "type": "arxiv",
     "id": "2602.14653",
     "url": "https://arxiv.org/pdf/2602.14653.pdf",
     "title": "ArXiv 2602.14653",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.643889"
+    "ts": "2026-02-18 05:00:22.643889",
+    "local_path": "downloads/2602.14653.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Is Information Density Uniform when Utterances are Grounded on Perception and Discourse?"
   },
   "2602.13268": {
     "type": "arxiv",
     "id": "2602.13268",
     "url": "https://arxiv.org/pdf/2602.13268.pdf",
     "title": "ArXiv 2602.13268",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.658114"
+    "ts": "2026-02-18 05:00:22.658114",
+    "local_path": "downloads/2602.13268.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Expected Moral Shortfall for Ethical Competence in Decision-making Models**"
   },
   "2602.13533": {
     "type": "arxiv",
