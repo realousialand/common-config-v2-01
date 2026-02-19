@@ -14804,180 +14804,260 @@
     "id": "2602.15769",
     "url": "https://arxiv.org/pdf/2602.15769.pdf",
     "title": "ArXiv 2602.15769",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.387566"
+    "ts": "2026-02-19 04:59:28.387566",
+    "local_path": "downloads/2602.15769.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "VITAB-A: EVALUATING MULTIMODAL LARGE LANGUAGE MODELS ON VISUAL TABLE ATTRIBUTION"
   },
   "2602.15697": {
     "type": "arxiv",
     "id": "2602.15697",
     "url": "https://arxiv.org/pdf/2602.15697.pdf",
     "title": "ArXiv 2602.15697",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.402034"
+    "ts": "2026-02-19 04:59:28.402034",
+    "local_path": "downloads/2602.15697.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Reproducibility and Statistical Methodology"
   },
   "2602.15385": {
     "type": "arxiv",
     "id": "2602.15385",
     "url": "https://arxiv.org/pdf/2602.15385.pdf",
     "title": "ArXiv 2602.15385",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.416477"
+    "ts": "2026-02-19 04:59:28.416477",
+    "local_path": "downloads/2602.15385.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Chain-Ladder to Individual Claims Reserving"
   },
   "2602.15034": {
     "type": "arxiv",
     "id": "2602.15034",
     "url": "https://arxiv.org/pdf/2602.15034.pdf",
     "title": "ArXiv 2602.15034",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.431012"
+    "ts": "2026-02-19 04:59:28.431012",
+    "local_path": "downloads/2602.15034.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** EduResearchBench: A Hierarchical Atomic Task Decomposition Benchmark for Full-Lifecycle Educational Research"
   },
   "2602.15312": {
     "type": "arxiv",
     "id": "2602.15312",
     "url": "https://arxiv.org/pdf/2602.15312.pdf",
     "title": "ArXiv 2602.15312",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.445749"
+    "ts": "2026-02-19 04:59:28.445749",
+    "local_path": "downloads/2602.15312.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15312"
   },
   "2602.15506": {
     "type": "arxiv",
     "id": "2602.15506",
     "url": "https://arxiv.org/pdf/2602.15506.pdf",
     "title": "ArXiv 2602.15506",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.460178"
+    "ts": "2026-02-19 04:59:28.460178",
+    "local_path": "downloads/2602.15506.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "LUX MT: A Machine Translation System for Luxembourgish to French and English Using GEMMA 3"
   },
   "2602.15374": {
     "type": "arxiv",
     "id": "2602.15374",
     "url": "https://arxiv.org/pdf/2602.15374.pdf",
     "title": "ArXiv 2602.15374",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.474665"
+    "ts": "2026-02-19 04:59:28.474665",
+    "local_path": "downloads/2602.15374.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Joint Modeling of Longitudinal EHR Data with Shared Random Effects for Informative Visiting and Observation Processes"
   },
   "2602.15387": {
     "type": "arxiv",
     "id": "2602.15387",
     "url": "https://arxiv.org/pdf/2602.15387.pdf",
     "title": "ArXiv 2602.15387",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.489231"
+    "ts": "2026-02-19 04:59:28.489231",
+    "local_path": "downloads/2602.15387.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15387"
   },
   "2602.15809": {
     "type": "arxiv",
     "id": "2602.15809",
     "url": "https://arxiv.org/pdf/2602.15809.pdf",
     "title": "ArXiv 2602.15809",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.503814"
+    "ts": "2026-02-19 04:59:28.503814",
+    "local_path": "downloads/2602.15809.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Decision Quality Evaluation Framework at Pinterest"
   },
   "2602.15547": {
     "type": "arxiv",
     "id": "2602.15547",
     "url": "https://arxiv.org/pdf/2602.15547.pdf",
     "title": "ArXiv 2602.15547",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.518356"
+    "ts": "2026-02-19 04:59:28.518356",
+    "local_path": "downloads/2602.15547.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** jina-embeddings-v5-text: Task-Targeted Embedding Distillation"
   },
   "2602.15509": {
     "type": "arxiv",
     "id": "2602.15509",
     "url": "https://arxiv.org/pdf/2602.15509.pdf",
     "title": "ArXiv 2602.15509",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.533014"
+    "ts": "2026-02-19 04:59:28.533014",
+    "local_path": "downloads/2602.15509.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Fine-Refine: Iterative Fine-grained Refinement for Mitigating Dialogue Hallucination"
   },
   "2602.15190": {
     "type": "arxiv",
     "id": "2602.15190",
     "url": "https://arxiv.org/pdf/2602.15190.pdf",
     "title": "ArXiv 2602.15190",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.550649"
+    "ts": "2026-02-19 04:59:28.550649",
+    "local_path": "downloads/2602.15190.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** AIC CTU@AVerImaTeC: dual-retriever RAG for image-text fact checking"
   },
   "2602.15757": {
     "type": "arxiv",
     "id": "2602.15757",
     "url": "https://arxiv.org/pdf/2602.15757.pdf",
     "title": "ArXiv 2602.15757",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.565515"
+    "ts": "2026-02-19 04:59:28.565515",
+    "local_path": "downloads/2602.15757.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos**"
   },
   "2602.15514": {
     "type": "arxiv",
     "id": "2602.15514",
     "url": "https://arxiv.org/pdf/2602.15514.pdf",
     "title": "ArXiv 2602.15514",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.579892"
+    "ts": "2026-02-19 04:59:28.579892",
+    "local_path": "downloads/2602.15514.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "DependencyAI: Detecting AI Generated Text through Dependency Parsing"
   },
   "2602.15690": {
     "type": "arxiv",
     "id": "2602.15690",
     "url": "https://arxiv.org/pdf/2602.15690.pdf",
     "title": "ArXiv 2602.15690",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.594423"
+    "ts": "2026-02-19 04:59:28.594423",
+    "local_path": "downloads/2602.15690.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15690"
   },
   "2602.15562": {
     "type": "arxiv",
     "id": "2602.15562",
     "url": "https://arxiv.org/pdf/2602.15562.pdf",
     "title": "ArXiv 2602.15562",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.608920"
+    "ts": "2026-02-19 04:59:28.608920",
+    "local_path": "downloads/2602.15562.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15562"
   },
   "2602.15674": {
     "type": "arxiv",
     "id": "2602.15674",
     "url": "https://arxiv.org/pdf/2602.15674.pdf",
     "title": "ArXiv 2602.15674",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.623437"
+    "ts": "2026-02-19 04:59:28.623437",
+    "local_path": "downloads/2602.15674.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Complexity and Misspecification**"
   },
   "2602.15373": {
     "type": "arxiv",
     "id": "2602.15373",
     "url": "https://arxiv.org/pdf/2602.15373.pdf",
     "title": "ArXiv 2602.15373",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.637919"
+    "ts": "2026-02-19 04:59:28.637919",
+    "local_path": "downloads/2602.15373.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Far Out: Evaluating Language Models on Slang in Australian and Indian English**"
   },
   "2602.15773": {
     "type": "arxiv",
     "id": "2602.15773",
     "url": "https://arxiv.org/pdf/2602.15773.pdf",
     "title": "ArXiv 2602.15773",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.652633"
+    "ts": "2026-02-19 04:59:28.652633",
+    "local_path": "downloads/2602.15773.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Efficient Densest Flow Queries in Transaction Flow Networks (Complete Version)"
   },
   "2602.15581": {
     "type": "arxiv",
     "id": "2602.15581",
     "url": "https://arxiv.org/pdf/2602.15581.pdf",
     "title": "ArXiv 2602.15581",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.667191"
+    "ts": "2026-02-19 04:59:28.667191",
+    "local_path": "downloads/2602.15581.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15581"
   },
   "2602.15390": {
     "type": "arxiv",
