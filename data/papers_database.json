@@ -14284,180 +14284,260 @@
     "id": "2602.13533",
     "url": "https://arxiv.org/pdf/2602.13533.pdf",
     "title": "ArXiv 2602.13533",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.672216"
+    "ts": "2026-02-18 05:00:22.672216",
+    "local_path": "downloads/2602.13533.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Estimation and Inference of the Win Ratio for Two Hierarchical Endpoints Subject to Censoring and Missing Data"
   },
   "2602.14419": {
     "type": "arxiv",
     "id": "2602.14419",
     "url": "https://arxiv.org/pdf/2602.14419.pdf",
     "title": "ArXiv 2602.14419",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.685667"
+    "ts": "2026-02-18 05:00:22.685667",
+    "local_path": "downloads/2602.14419.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** WavePhaseNet: A DFT-Based Method for Constructing Semantic Conceptual Hierarchy Structures (SCHS)"
   },
   "2602.14991": {
     "type": "arxiv",
     "id": "2602.14991",
     "url": "https://arxiv.org/pdf/2602.14991.pdf",
     "title": "ArXiv 2602.14991",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.699422"
+    "ts": "2026-02-18 05:00:22.699422",
+    "local_path": "downloads/2602.14991.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Joint analysis for multivariate longitudinal and event time data with a change point anchored at interval-censored event time"
   },
   "2602.13894": {
     "type": "arxiv",
     "id": "2602.13894",
     "url": "https://arxiv.org/pdf/2602.13894.pdf",
     "title": "ArXiv 2602.13894",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.713577"
+    "ts": "2026-02-18 05:00:22.713577",
+    "local_path": "downloads/2602.13894.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Existence of Fair Resolute Voting Rules**"
   },
   "2602.13790": {
     "type": "arxiv",
     "id": "2602.13790",
     "url": "https://arxiv.org/pdf/2602.13790.pdf",
     "title": "ArXiv 2602.13790",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.727599"
+    "ts": "2026-02-18 05:00:22.727599",
+    "local_path": "downloads/2602.13790.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.13790"
   },
   "2602.13538": {
     "type": "arxiv",
     "id": "2602.13538",
     "url": "https://arxiv.org/pdf/2602.13538.pdf",
     "title": "ArXiv 2602.13538",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.741608"
+    "ts": "2026-02-18 05:00:22.741608",
+    "local_path": "downloads/2602.13538.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Empirical Bayes data integration for multi-response regression"
   },
   "2602.14942": {
     "type": "arxiv",
     "id": "2602.14942",
     "url": "https://arxiv.org/pdf/2602.14942.pdf",
     "title": "ArXiv 2602.14942",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.755183"
+    "ts": "2026-02-18 05:00:22.755183",
+    "local_path": "downloads/2602.14942.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Balanced Stochastic Block Model for Community Detection in Signed Networks"
   },
   "2602.14406": {
     "type": "arxiv",
     "id": "2602.14406",
     "url": "https://arxiv.org/pdf/2602.14406.pdf",
     "title": "ArXiv 2602.14406",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.769312"
+    "ts": "2026-02-18 05:00:22.769312",
+    "local_path": "downloads/2602.14406.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "TruthStance: An Annotated Dataset of Conversations on Truth Social"
   },
   "2602.14488": {
     "type": "arxiv",
     "id": "2602.14488",
     "url": "https://arxiv.org/pdf/2602.14488.pdf",
     "title": "ArXiv 2602.14488",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.783749"
+    "ts": "2026-02-18 05:00:22.783749",
+    "local_path": "downloads/2602.14488.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** BETA-Labeling for Multilingual Dataset Construction in Low-Resource IR"
   },
   "2602.14367": {
     "type": "arxiv",
     "id": "2602.14367",
     "url": "https://arxiv.org/pdf/2602.14367.pdf",
     "title": "ArXiv 2602.14367",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.797988"
+    "ts": "2026-02-18 05:00:22.797988",
+    "local_path": "downloads/2602.14367.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.14367"
   },
   "2602.13860": {
     "type": "arxiv",
     "id": "2602.13860",
     "url": "https://arxiv.org/pdf/2602.13860.pdf",
     "title": "ArXiv 2602.13860",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.812182"
+    "ts": "2026-02-18 05:00:22.812182",
+    "local_path": "downloads/2602.13860.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tutoring Large Language Models to be Domain-adaptive, Precise, and Safe"
   },
   "2602.14812": {
     "type": "arxiv",
     "id": "2602.14812",
     "url": "https://arxiv.org/pdf/2602.14812.pdf",
     "title": "ArXiv 2602.14812",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.826284"
+    "ts": "2026-02-18 05:00:22.826284",
+    "local_path": "downloads/2602.14812.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Physical Commonsense Reasoning for Lower-Resourced Languages and Dialects: a Study on Basque"
   },
   "2602.14564": {
     "type": "arxiv",
     "id": "2602.14564",
     "url": "https://arxiv.org/pdf/2602.14564.pdf",
     "title": "ArXiv 2602.14564",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.840542"
+    "ts": "2026-02-18 05:00:22.840542",
+    "local_path": "downloads/2602.14564.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Assessing Large Language Models for Medical QA: Zero-Shot and LLM-as-a-Judge Evaluation"
   },
   "2602.14749": {
     "type": "arxiv",
     "id": "2602.14749",
     "url": "https://arxiv.org/pdf/2602.14749.pdf",
     "title": "ArXiv 2602.14749",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.854679"
+    "ts": "2026-02-18 05:00:22.854679",
+    "local_path": "downloads/2602.14749.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Cognitive networks reconstruct mindsets about STEM subjects and educational contexts in almost 1000 high-schoolers, University students and LLM-based digital twins"
   },
   "2602.14517": {
     "type": "arxiv",
     "id": "2602.14517",
     "url": "https://arxiv.org/pdf/2602.14517.pdf",
     "title": "ArXiv 2602.14517",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.868589"
+    "ts": "2026-02-18 05:00:22.868589",
+    "local_path": "downloads/2602.14517.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond Translation: Evaluating Mathematical Reasoning Capabilities of LLMs in Sinhala and Tamil"
   },
   "2602.13793": {
     "type": "arxiv",
     "id": "2602.13793",
     "url": "https://arxiv.org/pdf/2602.13793.pdf",
     "title": "ArXiv 2602.13793",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.882593"
+    "ts": "2026-02-18 05:00:22.882593",
+    "local_path": "downloads/2602.13793.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "OMGs: A multi-agent system supporting MDT decision-making across the ovarian tumour care continuum"
   },
   "2602.14777": {
     "type": "arxiv",
     "id": "2602.14777",
     "url": "https://arxiv.org/pdf/2602.14777.pdf",
     "title": "ArXiv 2602.14777",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.896781"
+    "ts": "2026-02-18 05:00:22.896781",
+    "local_path": "downloads/2602.14777.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.14777"
   },
   "2602.13757": {
     "type": "arxiv",
     "id": "2602.13757",
     "url": "https://arxiv.org/pdf/2602.13757.pdf",
     "title": "ArXiv 2602.13757",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.910942"
+    "ts": "2026-02-18 05:00:22.910942",
+    "local_path": "downloads/2602.13757.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Assessing the Case for Africa-Centric AI Safety Evaluations"
   },
   "2602.15013": {
     "type": "arxiv",
     "id": "2602.15013",
     "url": "https://arxiv.org/pdf/2602.15013.pdf",
     "title": "ArXiv 2602.15013",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.925070"
+    "ts": "2026-02-18 05:00:22.925070",
+    "local_path": "downloads/2602.15013.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Text Style Transfer with Parameter-efficient LLM Finetuning and Round-trip Translation"
   },
   "2602.13905": {
     "type": "arxiv",
     "id": "2602.13905",
     "url": "https://arxiv.org/pdf/2602.13905.pdf",
     "title": "ArXiv 2602.13905",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.939614"
+    "ts": "2026-02-18 05:00:22.939614",
+    "local_path": "downloads/2602.13905.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Pre-Editorial Normalization for Automatically Transcribed Medieval Manuscripts in Old French and Latin**"
   },
   "2602.14299": {
     "type": "arxiv",
