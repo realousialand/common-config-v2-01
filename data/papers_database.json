@@ -14544,44 +14544,583 @@
     "id": "2602.14299",
     "url": "https://arxiv.org/pdf/2602.14299.pdf",
     "title": "ArXiv 2602.14299",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:22.953456"
+    "ts": "2026-02-18 05:00:22.953456",
+    "local_path": "downloads/2602.14299.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook"
   },
   "10.1177/13634615261418372": {
     "type": "doi",
     "id": "10.1177/13634615261418372",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:25.046668"
+    "ts": "2026-02-18 05:00:25.046668",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Promise of Peace of Mind and “\n                    <i>Convivencia Social”</i>\n                    : Psycho-Politics in Times of COVID-19 in Colombia\n\nABSTRACT: COVID-19 highlighted the significance of mental health worldwide, with warnings of a “tsunami” of psychological issues across virtually all parts of the globe. This situation intensified longstanding debates in transcultural psychiatry regarding the sociocultural dimensions of mental health. This article examines narratives of social anxiety and psychological distress that emerged during the pandemic in Colombia and explores how they interacted with local mental health discourses and political processes. The analysis draws on ethnographic fieldwork conducted between October 2022 and March 2023, including semi-structured interviews with public health managers in four municipalities and representatives of the Ministry of Health. A qualitative data analysis framework for applied policy research and a retrospective document analysis was used to contextualize local mental health policies and their conceptual foundations. The findings trace the development of local mental health policies and situate them within the peace-building context. Public responses to COVID-19 in the four municipalities revealed a marked increase in mental health initiatives and the prominence of mental health discourses on political agendas at both local and national levels. While narratives of isolation, fear, and bereavement echoed global concerns, their framing within Colombia's peace-building project gave them distinctive meanings and trajectories. The recalibration of existing infrastructures—such as helplines and community-based programmes—illustrates how global crises intersect with long-standing national agendas, underscoring that mental health policies are embedded in cultural and political projects.",
+    "real_title": "The Promise of Peace of Mind and “\n                    <i>Convivencia Social”</i>\n                    : Psycho-Politics in Times of COVID-19 in Colombia"
   },
   "10.1177/00221465261416495": {
     "type": "doi",
     "id": "10.1177/00221465261416495",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:25.061710"
+    "ts": "2026-02-18 05:00:25.061710",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Political Economy of Health Care: State Policy Liberalism and the Distribution and Diversity of the U.S. Health Care Workforce, 1960–2019\n\nABSTRACT: A burgeoning literature links state policies to health care access/use, yet little research has explored whether state policies relate to the distribution of health care itself. Drawing on census microdata and state policy data from 1960 to 2019, I investigate whether state policy liberalism shapes workforce availability and diversity. First, I find that states in New England and the Middle Atlantic have persistently benefited from larger workforces compared to those in the East South Central and Pacific, with Black and foreign-born workers disproportionately represented in “workforce disadvantaged” states. Second, I show that an increase in policy liberalism is associated with reductions in states’ total health care, physician, and nursing workforces; Black and foreign-born physician and nursing workforces; and foreign-born medical assistant/health aide workforces. Taking a political economy approach toward understanding the (mal)distribution of U.S. health care sheds light on a “two-tiered” system that both reflects and reifies existing geographic inequities in population health.",
+    "real_title": "The Political Economy of Health Care: State Policy Liberalism and the Distribution and Diversity of the U.S. Health Care Workforce, 1960–2019"
   },
   "10.1038/d41586-026-00435-w": {
     "type": "doi",
     "id": "10.1038/d41586-026-00435-w",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-18 05:00:25.076782"
+    "ts": "2026-02-18 05:00:25.076782",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Why Europe barred China from flagship Horizon research programmes\n\nABSTRACT: 无摘要",
+    "real_title": "Why Europe barred China from flagship Horizon research programmes"
   },
   "10.37531/amar.v6i1.3624": {
     "type": "doi",
     "id": "10.37531/amar.v6i1.3624",
     "url": null,
     "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-18 05:01:07.889559",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Determinants of Tax Avoidance Practices: Fundamental Analysis Approach and Company Size in LQ 45 Companies for the Period 2020-2024\n\nABSTRACT: This study aims to examine and analyze the influence of Return on Assets, Debt to Equity Ratio, Price to Book Value, and Company Size on Tax Avoidance. The data used in this study are secondary, sourced from company fact sheets from the Indonesia Stock Exchange (IDX) and company financial reports. The population in this study uses companies included in the LQ45 index during the 2020-2024 period. The research sample used was obtained through purposive sampling. The data analysis technique used was panel data regression in EViews 12. The study's results indicate that Return on Assets, Debt to Equity Ratio, Price to Book Value, and Company Size do not significantly affect Tax Avoidance.",
+    "real_title": "Determinants of Tax Avoidance Practices: Fundamental Analysis Approach and Company Size in LQ 45 Companies for the Period 2020-2024"
+  },
+  "2602.15436": {
+    "type": "arxiv",
+    "id": "2602.15436",
+    "url": "https://arxiv.org/pdf/2602.15436.pdf",
+    "title": "ArXiv 2602.15436",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.168445",
+    "local_path": "downloads/2602.15436.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Measuring Social Integration Through Participation: Categorizing Organizations and Leisure Activities in the Displaced Karelians Interview Archive using LLMs"
+  },
+  "2602.15429": {
+    "type": "arxiv",
+    "id": "2602.15429",
+    "url": "https://arxiv.org/pdf/2602.15429.pdf",
+    "title": "ArXiv 2602.15429",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.183413",
+    "local_path": "downloads/2602.15429.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Deep description of static and dynamic network ties in Honduran villages"
+  },
+  "2602.15716": {
+    "type": "arxiv",
+    "id": "2602.15716",
+    "url": "https://arxiv.org/pdf/2602.15716.pdf",
+    "title": "ArXiv 2602.15716",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.198055",
+    "local_path": "downloads/2602.15716.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Rethinking Metrics for Lexical Semantic Change Detection**"
+  },
+  "2602.15289": {
+    "type": "arxiv",
+    "id": "2602.15289",
+    "url": "https://arxiv.org/pdf/2602.15289.pdf",
+    "title": "ArXiv 2602.15289",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.212622",
+    "local_path": "downloads/2602.15289.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A Projection Approach to Nonparametric Significance and Conditional Independence Testing"
+  },
+  "2602.15504": {
+    "type": "arxiv",
+    "id": "2602.15504",
+    "url": "https://arxiv.org/pdf/2602.15504.pdf",
+    "title": "ArXiv 2602.15504",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.227079",
+    "local_path": "downloads/2602.15504.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Towards Expectation Detection in Language: A Case Study on Treatment Expectations in Reddit"
+  },
+  "2602.15476": {
+    "type": "arxiv",
+    "id": "2602.15476",
+    "url": "https://arxiv.org/pdf/2602.15476.pdf",
+    "title": "ArXiv 2602.15476",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.242084",
+    "local_path": "downloads/2602.15476.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** How to Detect Information Voids Using Longitudinal Data from Social Media and Web Searches"
+  },
+  "2602.15731": {
+    "type": "arxiv",
+    "id": "2602.15731",
+    "url": "https://arxiv.org/pdf/2602.15731.pdf",
+    "title": "ArXiv 2602.15731",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.256412",
+    "local_path": "downloads/2602.15731.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Generalised Exponential Kernels for Nonparametric Density Estimation"
+  },
+  "2602.15679": {
+    "type": "arxiv",
+    "id": "2602.15679",
+    "url": "https://arxiv.org/pdf/2602.15679.pdf",
+    "title": "ArXiv 2602.15679",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.270678",
+    "local_path": "downloads/2602.15679.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Safe Hypotheses Testing with Application to Order Restricted Inference"
+  },
+  "2602.15273": {
+    "type": "arxiv",
+    "id": "2602.15273",
+    "url": "https://arxiv.org/pdf/2602.15273.pdf",
+    "title": "ArXiv 2602.15273",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.285315",
+    "local_path": "downloads/2602.15273.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15273"
+  },
+  "2602.15139": {
+    "type": "arxiv",
+    "id": "2602.15139",
+    "url": "https://arxiv.org/pdf/2602.15139.pdf",
+    "title": "ArXiv 2602.15139",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.299670",
+    "local_path": "downloads/2602.15139.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** CGRA-DeBERTa: Concept-Guided Residual Augmentation Transformer for Theologically Islamic Understanding"
+  },
+  "2602.15496": {
+    "type": "arxiv",
+    "id": "2602.15496",
+    "url": "https://arxiv.org/pdf/2602.15496.pdf",
+    "title": "ArXiv 2602.15496",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.313957",
+    "local_path": "downloads/2602.15496.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15496"
+  },
+  "2602.15540": {
+    "type": "arxiv",
+    "id": "2602.15540",
+    "url": "https://arxiv.org/pdf/2602.15540.pdf",
+    "title": "ArXiv 2602.15540",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.328254",
+    "local_path": "downloads/2602.15540.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15540"
+  },
+  "2602.15699": {
+    "type": "arxiv",
+    "id": "2602.15699",
+    "url": "https://arxiv.org/pdf/2602.15699.pdf",
+    "title": "ArXiv 2602.15699",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.342658",
+    "local_path": "downloads/2602.15699.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Understanding Classical Decomposability of Inequality Measures: A Graphical Analysis"
+  },
+  "2602.15150": {
+    "type": "arxiv",
+    "id": "2602.15150",
+    "url": "https://arxiv.org/pdf/2602.15150.pdf",
+    "title": "ArXiv 2602.15150",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.357113",
+    "local_path": "downloads/2602.15150.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** bayesics: Core Statistical Methods via Bayesian Inference in R"
+  },
+  "2602.15730": {
+    "type": "arxiv",
+    "id": "2602.15730",
+    "url": "https://arxiv.org/pdf/2602.15730.pdf",
+    "title": "ArXiv 2602.15730",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.371672",
+    "local_path": "downloads/2602.15730.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Causal Effect Estimation with Latent Textual Treatments"
+  },
+  "2602.15769": {
+    "type": "arxiv",
+    "id": "2602.15769",
+    "url": "https://arxiv.org/pdf/2602.15769.pdf",
+    "title": "ArXiv 2602.15769",
     "status": "NEW",
     "retry": 0,
-    "ts": "2026-02-18 05:01:07.889559"
+    "ts": "2026-02-19 04:59:28.387566"
+  },
+  "2602.15697": {
+    "type": "arxiv",
+    "id": "2602.15697",
+    "url": "https://arxiv.org/pdf/2602.15697.pdf",
+    "title": "ArXiv 2602.15697",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.402034"
+  },
+  "2602.15385": {
+    "type": "arxiv",
+    "id": "2602.15385",
+    "url": "https://arxiv.org/pdf/2602.15385.pdf",
+    "title": "ArXiv 2602.15385",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.416477"
+  },
+  "2602.15034": {
+    "type": "arxiv",
+    "id": "2602.15034",
+    "url": "https://arxiv.org/pdf/2602.15034.pdf",
+    "title": "ArXiv 2602.15034",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.431012"
+  },
+  "2602.15312": {
+    "type": "arxiv",
+    "id": "2602.15312",
+    "url": "https://arxiv.org/pdf/2602.15312.pdf",
+    "title": "ArXiv 2602.15312",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.445749"
+  },
+  "2602.15506": {
+    "type": "arxiv",
+    "id": "2602.15506",
+    "url": "https://arxiv.org/pdf/2602.15506.pdf",
+    "title": "ArXiv 2602.15506",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.460178"
+  },
+  "2602.15374": {
+    "type": "arxiv",
+    "id": "2602.15374",
+    "url": "https://arxiv.org/pdf/2602.15374.pdf",
+    "title": "ArXiv 2602.15374",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.474665"
+  },
+  "2602.15387": {
+    "type": "arxiv",
+    "id": "2602.15387",
+    "url": "https://arxiv.org/pdf/2602.15387.pdf",
+    "title": "ArXiv 2602.15387",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.489231"
+  },
+  "2602.15809": {
+    "type": "arxiv",
+    "id": "2602.15809",
+    "url": "https://arxiv.org/pdf/2602.15809.pdf",
+    "title": "ArXiv 2602.15809",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.503814"
+  },
+  "2602.15547": {
+    "type": "arxiv",
+    "id": "2602.15547",
+    "url": "https://arxiv.org/pdf/2602.15547.pdf",
+    "title": "ArXiv 2602.15547",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.518356"
+  },
+  "2602.15509": {
+    "type": "arxiv",
+    "id": "2602.15509",
+    "url": "https://arxiv.org/pdf/2602.15509.pdf",
+    "title": "ArXiv 2602.15509",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.533014"
+  },
+  "2602.15190": {
+    "type": "arxiv",
+    "id": "2602.15190",
+    "url": "https://arxiv.org/pdf/2602.15190.pdf",
+    "title": "ArXiv 2602.15190",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.550649"
+  },
+  "2602.15757": {
+    "type": "arxiv",
+    "id": "2602.15757",
+    "url": "https://arxiv.org/pdf/2602.15757.pdf",
+    "title": "ArXiv 2602.15757",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.565515"
+  },
+  "2602.15514": {
+    "type": "arxiv",
+    "id": "2602.15514",
+    "url": "https://arxiv.org/pdf/2602.15514.pdf",
+    "title": "ArXiv 2602.15514",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.579892"
+  },
+  "2602.15690": {
+    "type": "arxiv",
+    "id": "2602.15690",
+    "url": "https://arxiv.org/pdf/2602.15690.pdf",
+    "title": "ArXiv 2602.15690",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.594423"
+  },
+  "2602.15562": {
+    "type": "arxiv",
+    "id": "2602.15562",
+    "url": "https://arxiv.org/pdf/2602.15562.pdf",
+    "title": "ArXiv 2602.15562",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.608920"
+  },
+  "2602.15674": {
+    "type": "arxiv",
+    "id": "2602.15674",
+    "url": "https://arxiv.org/pdf/2602.15674.pdf",
+    "title": "ArXiv 2602.15674",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.623437"
+  },
+  "2602.15373": {
+    "type": "arxiv",
+    "id": "2602.15373",
+    "url": "https://arxiv.org/pdf/2602.15373.pdf",
+    "title": "ArXiv 2602.15373",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.637919"
+  },
+  "2602.15773": {
+    "type": "arxiv",
+    "id": "2602.15773",
+    "url": "https://arxiv.org/pdf/2602.15773.pdf",
+    "title": "ArXiv 2602.15773",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.652633"
+  },
+  "2602.15581": {
+    "type": "arxiv",
+    "id": "2602.15581",
+    "url": "https://arxiv.org/pdf/2602.15581.pdf",
+    "title": "ArXiv 2602.15581",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.667191"
+  },
+  "2602.15390": {
+    "type": "arxiv",
+    "id": "2602.15390",
+    "url": "https://arxiv.org/pdf/2602.15390.pdf",
+    "title": "ArXiv 2602.15390",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.681927"
+  },
+  "2602.15689": {
+    "type": "arxiv",
+    "id": "2602.15689",
+    "url": "https://arxiv.org/pdf/2602.15689.pdf",
+    "title": "ArXiv 2602.15689",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.696629"
+  },
+  "2602.15371": {
+    "type": "arxiv",
+    "id": "2602.15371",
+    "url": "https://arxiv.org/pdf/2602.15371.pdf",
+    "title": "ArXiv 2602.15371",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.713916"
+  },
+  "2602.15038": {
+    "type": "arxiv",
+    "id": "2602.15038",
+    "url": "https://arxiv.org/pdf/2602.15038.pdf",
+    "title": "ArXiv 2602.15038",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.728492"
+  },
+  "2602.15313": {
+    "type": "arxiv",
+    "id": "2602.15313",
+    "url": "https://arxiv.org/pdf/2602.15313.pdf",
+    "title": "ArXiv 2602.15313",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.743286"
+  },
+  "2602.15439": {
+    "type": "arxiv",
+    "id": "2602.15439",
+    "url": "https://arxiv.org/pdf/2602.15439.pdf",
+    "title": "ArXiv 2602.15439",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.758014"
+  },
+  "2602.15638": {
+    "type": "arxiv",
+    "id": "2602.15638",
+    "url": "https://arxiv.org/pdf/2602.15638.pdf",
+    "title": "ArXiv 2602.15638",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.772672"
+  },
+  "2602.15456": {
+    "type": "arxiv",
+    "id": "2602.15456",
+    "url": "https://arxiv.org/pdf/2602.15456.pdf",
+    "title": "ArXiv 2602.15456",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.787644"
+  },
+  "2602.15607": {
+    "type": "arxiv",
+    "id": "2602.15607",
+    "url": "https://arxiv.org/pdf/2602.15607.pdf",
+    "title": "ArXiv 2602.15607",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.802774"
+  },
+  "2602.15678": {
+    "type": "arxiv",
+    "id": "2602.15678",
+    "url": "https://arxiv.org/pdf/2602.15678.pdf",
+    "title": "ArXiv 2602.15678",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.817419"
+  },
+  "2602.15095": {
+    "type": "arxiv",
+    "id": "2602.15095",
+    "url": "https://arxiv.org/pdf/2602.15095.pdf",
+    "title": "ArXiv 2602.15095",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.832122"
+  },
+  "2602.15291": {
+    "type": "arxiv",
+    "id": "2602.15291",
+    "url": "https://arxiv.org/pdf/2602.15291.pdf",
+    "title": "ArXiv 2602.15291",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.847080"
+  },
+  "2602.15559": {
+    "type": "arxiv",
+    "id": "2602.15559",
+    "url": "https://arxiv.org/pdf/2602.15559.pdf",
+    "title": "ArXiv 2602.15559",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.861727"
+  },
+  "2602.15319": {
+    "type": "arxiv",
+    "id": "2602.15319",
+    "url": "https://arxiv.org/pdf/2602.15319.pdf",
+    "title": "ArXiv 2602.15319",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.876562"
+  },
+  "2602.15432": {
+    "type": "arxiv",
+    "id": "2602.15432",
+    "url": "https://arxiv.org/pdf/2602.15432.pdf",
+    "title": "ArXiv 2602.15432",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:28.891235"
+  },
+  "10.1371/journal.pone.0343211": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0343211",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-19 04:59:29.513413"
   }
 }
