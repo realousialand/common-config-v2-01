@@ -15064,143 +15064,207 @@
     "id": "2602.15390",
     "url": "https://arxiv.org/pdf/2602.15390.pdf",
     "title": "ArXiv 2602.15390",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.681927"
+    "ts": "2026-02-19 04:59:28.681927",
+    "local_path": "downloads/2602.15390.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "SPACE-FILLING LATTICE DESIGNS FOR COMPUTER EXPERIMENTS"
   },
   "2602.15689": {
     "type": "arxiv",
     "id": "2602.15689",
     "url": "https://arxiv.org/pdf/2602.15689.pdf",
     "title": "ArXiv 2602.15689",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.696629"
+    "ts": "2026-02-19 04:59:28.696629",
+    "local_path": "downloads/2602.15689.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A CONTENT-BASED FRAMEWORK FOR CYBERSECURITY REFUSAL DECISIONS IN LARGE LANGUAGE MODELS"
   },
   "2602.15371": {
     "type": "arxiv",
     "id": "2602.15371",
     "url": "https://arxiv.org/pdf/2602.15371.pdf",
     "title": "ArXiv 2602.15371",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.713916"
+    "ts": "2026-02-19 04:59:28.713916",
+    "local_path": "downloads/2602.15371.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From PhysioNet to Foundation Models - A history and potential futures"
   },
   "2602.15038": {
     "type": "arxiv",
     "id": "2602.15038",
     "url": "https://arxiv.org/pdf/2602.15038.pdf",
     "title": "ArXiv 2602.15038",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.728492"
+    "ts": "2026-02-19 04:59:28.728492",
+    "local_path": "downloads/2602.15038.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15038"
   },
   "2602.15313": {
     "type": "arxiv",
     "id": "2602.15313",
     "url": "https://arxiv.org/pdf/2602.15313.pdf",
     "title": "ArXiv 2602.15313",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.743286"
+    "ts": "2026-02-19 04:59:28.743286",
+    "local_path": "downloads/2602.15313.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Mnemis: Dual-Route Retrieval on Hierarchical Graphs for Long-Term LLM Memory"
   },
   "2602.15439": {
     "type": "arxiv",
     "id": "2602.15439",
     "url": "https://arxiv.org/pdf/2602.15439.pdf",
     "title": "ArXiv 2602.15439",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.758014"
+    "ts": "2026-02-19 04:59:28.758014",
+    "local_path": "downloads/2602.15439.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15439"
   },
   "2602.15638": {
     "type": "arxiv",
     "id": "2602.15638",
     "url": "https://arxiv.org/pdf/2602.15638.pdf",
     "title": "ArXiv 2602.15638",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.772672"
+    "ts": "2026-02-19 04:59:28.772672",
+    "local_path": "downloads/2602.15638.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Who Is Doing the Thinking? AI as a Dynamic Cognitive Partner: A Learner-Informed Framework**"
   },
   "2602.15456": {
     "type": "arxiv",
     "id": "2602.15456",
     "url": "https://arxiv.org/pdf/2602.15456.pdf",
     "title": "ArXiv 2602.15456",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.787644"
+    "ts": "2026-02-19 04:59:28.787644",
+    "local_path": "downloads/2602.15456.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** I N AGENTS WE TRUST, BUT WHO DO AGENTS TRUST? - L ATENT SOURCE PREFERENCES STEER LLM GENERATIONS"
   },
   "2602.15607": {
     "type": "arxiv",
     "id": "2602.15607",
     "url": "https://arxiv.org/pdf/2602.15607.pdf",
     "title": "ArXiv 2602.15607",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.802774"
+    "ts": "2026-02-19 04:59:28.802774",
+    "local_path": "downloads/2602.15607.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A GENT BASED MACROECONOMICS FOR THE UK’S S EVENTH C ARBON B UDGET"
   },
   "2602.15678": {
     "type": "arxiv",
     "id": "2602.15678",
     "url": "https://arxiv.org/pdf/2602.15678.pdf",
     "title": "ArXiv 2602.15678",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.817419"
+    "ts": "2026-02-19 04:59:28.817419",
+    "local_path": "downloads/2602.15678.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** REVISITING NORTHROP FRYE’S FOUR MYTHS THEORY WITH LARGE LANGUAGE MODELS"
   },
   "2602.15095": {
     "type": "arxiv",
     "id": "2602.15095",
     "url": "https://arxiv.org/pdf/2602.15095.pdf",
     "title": "ArXiv 2602.15095",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.832122"
+    "ts": "2026-02-19 04:59:28.832122",
+    "local_path": "downloads/2602.15095.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Natural direct effects of vaccines and post-vaccination behaviour"
   },
   "2602.15291": {
     "type": "arxiv",
     "id": "2602.15291",
     "url": "https://arxiv.org/pdf/2602.15291.pdf",
     "title": "ArXiv 2602.15291",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.847080"
+    "ts": "2026-02-19 04:59:28.847080",
+    "local_path": "downloads/2602.15291.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Structural grouping of extreme value models via graph fused lasso"
   },
   "2602.15559": {
     "type": "arxiv",
     "id": "2602.15559",
     "url": "https://arxiv.org/pdf/2602.15559.pdf",
     "title": "ArXiv 2602.15559",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.861727"
+    "ts": "2026-02-19 04:59:28.861727",
+    "local_path": "downloads/2602.15559.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Fixed-Horizon Self-Normalized Inference for Adaptive Experiments via Martingale AIPW/DML with Logged Propensities"
   },
   "2602.15319": {
     "type": "arxiv",
     "id": "2602.15319",
     "url": "https://arxiv.org/pdf/2602.15319.pdf",
     "title": "ArXiv 2602.15319",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.876562"
+    "ts": "2026-02-19 04:59:28.876562",
+    "local_path": "downloads/2602.15319.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Bayesian Inference for Joint Tail Risk in Paired Biomarkers via Archimedean Copulas with Restricted Jeffreys Priors"
   },
   "2602.15432": {
     "type": "arxiv",
     "id": "2602.15432",
     "url": "https://arxiv.org/pdf/2602.15432.pdf",
     "title": "ArXiv 2602.15432",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:28.891235"
+    "ts": "2026-02-19 04:59:28.891235",
+    "local_path": "downloads/2602.15432.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** From Earthquake Solidarity to Educational Equity: Conceptualizing a Sustainable, Volunteer-Driven P2P Learning Ecosystem at Scale"
   },
   "10.1371/journal.pone.0343211": {
     "type": "doi",
     "id": "10.1371/journal.pone.0343211",
     "url": null,
     "title": "Unknown Title",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-19 04:59:29.513413"
+    "ts": "2026-02-19 04:59:29.513413",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Prayer, politics, and policy related to age-adjusted cancer, heart disease, infant mortality, and COVID-19 death Rates, U.S. states 2018–2021\n\nABSTRACT: The role of religion and politics in the responses to the coronavirus pandemic raises the question of their influence on the risk of other diseases. This study focuses on age-adjusted death rates of cancer, heart disease, and infant mortality per 1000 live births before the pandemic (2018−2019) and COVID-19 in 2020−2021. Eight hypothesized predictors of health effects were considered by examining their correlation to age-adjusted death rates and indicators of health behavior among U.S. states, percentage who pray once or more daily, Republican attitudes and influence on state health policies as indicated by the percentage vote for Trump in 2016, percent of household incomes below poverty, median family income divided by a cost-of-living index, the Gini income inequality index, urban concentration of the population, physicians per capita, and public health expenditures per capita. Since prayer for divine intervention is common to otherwise diverse religious beliefs and practices, the percentage of people claiming to pray daily in each state was used to indicate potential religious influence. Based on collinearity, inequality was chosen for inclusion over poverty, and the prayer and political variables were analyzed separately. All of the death rates were higher in states where more people claimed to pray daily. Only cancer and COVID-19 were correlated significantly with Trump’s percentage of the vote. Lower death rates from cancer and heart disease are associated with more public health expenditures, but not for infant mortality or COVID-19 deaths. COVID-19 death rates were lower in states with more physicians per capita, but that variable was not significantly associated with the other death rates. Heart disease, infant mortality, and COVID-19 death rates were higher in states with more income inequality. All rates except infant mortality were lower in states where a greater percentage of the population resides in urban areas. The correlation between daily prayer and smoking cigarettes, as well as the neglect of public health recommendations for fruit and vegetable consumption and COVID-19 vaccination, suggests that reliance on prayer is a factor in neglect of preventive practices.",
+    "real_title": "Prayer, politics, and policy related to age-adjusted cancer, heart disease, infant mortality, and COVID-19 death Rates, U.S. states 2018–2021"
   }
 }
