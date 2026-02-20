@@ -15932,35 +15932,64 @@
     "id": "2602.15852",
     "url": "https://arxiv.org/pdf/2602.15852.pdf",
     "title": "ArXiv 2602.15852",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.083343"
+    "ts": "2026-02-20 04:52:58.083343",
+    "local_path": "downloads/2602.15852.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Building Safe and Deployable Clinical Natural Language Processing under Temporal Leakage Constraints"
   },
   "2602.15858": {
     "type": "arxiv",
     "id": "2602.15858",
     "url": "https://arxiv.org/pdf/2602.15858.pdf",
     "title": "ArXiv 2602.15858",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.098924"
+    "ts": "2026-02-20 04:52:58.098924",
+    "local_path": "downloads/2602.15858.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "State Design Matters: How Representations Shape Dynamic Reasoning in Large Language Models**"
   },
   "2602.15870": {
     "type": "arxiv",
     "id": "2602.15870",
     "url": "https://arxiv.org/pdf/2602.15870.pdf",
     "title": "ArXiv 2602.15870",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.114661"
+    "ts": "2026-02-20 04:52:58.114661",
+    "local_path": "downloads/2602.15870.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15870"
   },
   "2602.16093": {
     "type": "arxiv",
     "id": "2602.16093",
     "url": "https://arxiv.org/pdf/2602.16093.pdf",
     "title": "ArXiv 2602.16093",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.130392"
+    "ts": "2026-02-20 04:52:58.130392",
+    "local_path": "downloads/2602.16093.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Updating Parametric Knowledge with Context Distillation Retains Post-Training Capabilities"
+  },
+  "10.1163/2468-1733_shafr_sim140150126": {
+    "type": "doi",
+    "id": "10.1163/2468-1733_shafr_sim140150126",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 23:36:28.073480",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Anticolonial Front: The African American Freedom Struggle and Global Decolonization, 1945-1960\n\nABSTRACT: 无摘要",
+    "real_title": "The Anticolonial Front: The African American Freedom Struggle and Global Decolonization, 1945-1960"
   }
 }
