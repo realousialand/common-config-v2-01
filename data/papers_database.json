@@ -15266,5 +15266,573 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Prayer, politics, and policy related to age-adjusted cancer, heart disease, infant mortality, and COVID-19 death Rates, U.S. states 2018–2021\n\nABSTRACT: The role of religion and politics in the responses to the coronavirus pandemic raises the question of their influence on the risk of other diseases. This study focuses on age-adjusted death rates of cancer, heart disease, and infant mortality per 1000 live births before the pandemic (2018−2019) and COVID-19 in 2020−2021. Eight hypothesized predictors of health effects were considered by examining their correlation to age-adjusted death rates and indicators of health behavior among U.S. states, percentage who pray once or more daily, Republican attitudes and influence on state health policies as indicated by the percentage vote for Trump in 2016, percent of household incomes below poverty, median family income divided by a cost-of-living index, the Gini income inequality index, urban concentration of the population, physicians per capita, and public health expenditures per capita. Since prayer for divine intervention is common to otherwise diverse religious beliefs and practices, the percentage of people claiming to pray daily in each state was used to indicate potential religious influence. Based on collinearity, inequality was chosen for inclusion over poverty, and the prayer and political variables were analyzed separately. All of the death rates were higher in states where more people claimed to pray daily. Only cancer and COVID-19 were correlated significantly with Trump’s percentage of the vote. Lower death rates from cancer and heart disease are associated with more public health expenditures, but not for infant mortality or COVID-19 deaths. COVID-19 death rates were lower in states with more physicians per capita, but that variable was not significantly associated with the other death rates. Heart disease, infant mortality, and COVID-19 death rates were higher in states with more income inequality. All rates except infant mortality were lower in states where a greater percentage of the population resides in urban areas. The correlation between daily prayer and smoking cigarettes, as well as the neglect of public health recommendations for fruit and vegetable consumption and COVID-19 vaccination, suggests that reliance on prayer is a factor in neglect of preventive practices.",
     "real_title": "Prayer, politics, and policy related to age-adjusted cancer, heart disease, infant mortality, and COVID-19 death Rates, U.S. states 2018–2021"
+  },
+  "link_e06d0d266f": {
+    "type": "pdf_link",
+    "id": "link_e06d0d266f",
+    "url": "http://www.stemmpress.com/uploadfile/202511/599c7ec534b3645.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:55.639547",
+    "local_path": "downloads/link_e06d0d266f.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "link_75b7a02b30": {
+    "type": "pdf_link",
+    "id": "link_75b7a02b30",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-20 04:52:56.356625"
+  },
+  "link_799125f9fb": {
+    "type": "pdf_link",
+    "id": "link_799125f9fb",
+    "url": "https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-20 04:52:56.371896"
+  },
+  "link_70fed677c1": {
+    "type": "pdf_link",
+    "id": "link_70fed677c1",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-20 04:52:56.386417"
+  },
+  "link_bbc9389402": {
+    "type": "pdf_link",
+    "id": "link_bbc9389402",
+    "url": "https://www.academia.edu/download/129127849/Abstract-Book-LHE-2025.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:56.401441",
+    "local_path": "downloads/link_bbc9389402.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Mobility, Illegality and Imperial legalism"
+  },
+  "link_76d3d42f6e": {
+    "type": "pdf_link",
+    "id": "link_76d3d42f6e",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-20 04:52:56.416187"
+  },
+  "2602.16497": {
+    "type": "arxiv",
+    "id": "2602.16497",
+    "url": "https://arxiv.org/pdf/2602.16497.pdf",
+    "title": "ArXiv 2602.16497",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.366826",
+    "local_path": "downloads/2602.16497.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Factor-Adjusted Multiple Testing for High-Dimensional Individual Mediation Effects"
+  },
+  "2602.16023": {
+    "type": "arxiv",
+    "id": "2602.16023",
+    "url": "https://arxiv.org/pdf/2602.16023.pdf",
+    "title": "ArXiv 2602.16023",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.382181",
+    "local_path": "downloads/2602.16023.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A Curious Class of Adpositional Multiword Expressions in Korean"
+  },
+  "2602.16298": {
+    "type": "arxiv",
+    "id": "2602.16298",
+    "url": "https://arxiv.org/pdf/2602.16298.pdf",
+    "title": "ArXiv 2602.16298",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.397233",
+    "local_path": "downloads/2602.16298.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** MultiCW: A Large-Scale Balanced Benchmark Dataset for Training Robust Check-Worthiness Detection Models"
+  },
+  "2602.16328": {
+    "type": "arxiv",
+    "id": "2602.16328",
+    "url": "https://arxiv.org/pdf/2602.16328.pdf",
+    "title": "ArXiv 2602.16328",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.412733",
+    "local_path": "downloads/2602.16328.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A General Framework For Modeling Gaussian Process with Qualitative and Quantitative Factors"
+  },
+  "2602.15869": {
+    "type": "arxiv",
+    "id": "2602.15869",
+    "url": "https://arxiv.org/pdf/2602.15869.pdf",
+    "title": "ArXiv 2602.15869",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.428243",
+    "local_path": "downloads/2602.15869.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Towards Fair and Efficient De-identification: Quantifying the Efficiency and Generalizability of De-identification Approaches"
+  },
+  "2602.15845": {
+    "type": "arxiv",
+    "id": "2602.15845",
+    "url": "https://arxiv.org/pdf/2602.15845.pdf",
+    "title": "ArXiv 2602.15845",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.444689",
+    "local_path": "downloads/2602.15845.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15845"
+  },
+  "2602.16201": {
+    "type": "arxiv",
+    "id": "2602.16201",
+    "url": "https://arxiv.org/pdf/2602.16201.pdf",
+    "title": "ArXiv 2602.16201",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.459751",
+    "local_path": "downloads/2602.16201.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.16201"
+  },
+  "2602.16607": {
+    "type": "arxiv",
+    "id": "2602.16607",
+    "url": "https://arxiv.org/pdf/2602.16607.pdf",
+    "title": "ArXiv 2602.16607",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.475202",
+    "local_path": "downloads/2602.16607.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CitiLink-Summ: A Dataset of Discussion Subjects Summaries in European Portuguese Municipal Meeting Minutes"
+  },
+  "2602.15881": {
+    "type": "arxiv",
+    "id": "2602.15881",
+    "url": "https://arxiv.org/pdf/2602.15881.pdf",
+    "title": "ArXiv 2602.15881",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.490683",
+    "local_path": "downloads/2602.15881.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Pluralism in AI Governance: Toward Sociotechnical Alignment and Normative Coherence**"
+  },
+  "2602.15871": {
+    "type": "arxiv",
+    "id": "2602.15871",
+    "url": "https://arxiv.org/pdf/2602.15871.pdf",
+    "title": "ArXiv 2602.15871",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.506186",
+    "local_path": "downloads/2602.15871.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "CheckIfExist: Detecting Citation Hallucinations in the Era of AI-Generated Content"
+  },
+  "2602.15916": {
+    "type": "arxiv",
+    "id": "2602.15916",
+    "url": "https://arxiv.org/pdf/2602.15916.pdf",
+    "title": "ArXiv 2602.15916",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.521812",
+    "local_path": "downloads/2602.15916.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Nonparametric Identification and Inference for Counterfactual Distributions with Confounding"
+  },
+  "2602.16516": {
+    "type": "arxiv",
+    "id": "2602.16516",
+    "url": "https://arxiv.org/pdf/2602.16516.pdf",
+    "title": "ArXiv 2602.16516",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.537454",
+    "local_path": "downloads/2602.16516.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Supercharging Agenda Setting Research: The ParlaCAP Dataset of 28 European Parliaments and a Scalable Multilingual LLM-Based Classification"
+  },
+  "2602.16040": {
+    "type": "arxiv",
+    "id": "2602.16040",
+    "url": "https://arxiv.org/pdf/2602.16040.pdf",
+    "title": "ArXiv 2602.16040",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.552897",
+    "local_path": "downloads/2602.16040.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Covariate Adjustment for Wilcoxon Two Sample Statistic and Test"
+  },
+  "2602.15866": {
+    "type": "arxiv",
+    "id": "2602.15866",
+    "url": "https://arxiv.org/pdf/2602.15866.pdf",
+    "title": "ArXiv 2602.15866",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.568235",
+    "local_path": "downloads/2602.15866.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** NLP Privacy Risk Identification in Social Media (NLP-PRISM): A Survey"
+  },
+  "2602.15857": {
+    "type": "arxiv",
+    "id": "2602.15857",
+    "url": "https://arxiv.org/pdf/2602.15857.pdf",
+    "title": "ArXiv 2602.15857",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.583594"
+  },
+  "2602.16640": {
+    "type": "arxiv",
+    "id": "2602.16640",
+    "url": "https://arxiv.org/pdf/2602.16640.pdf",
+    "title": "ArXiv 2602.16640",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.599037"
+  },
+  "2602.16467": {
+    "type": "arxiv",
+    "id": "2602.16467",
+    "url": "https://arxiv.org/pdf/2602.16467.pdf",
+    "title": "ArXiv 2602.16467",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.614587"
+  },
+  "2602.16307": {
+    "type": "arxiv",
+    "id": "2602.16307",
+    "url": "https://arxiv.org/pdf/2602.16307.pdf",
+    "title": "ArXiv 2602.16307",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.629706"
+  },
+  "2602.16540": {
+    "type": "arxiv",
+    "id": "2602.16540",
+    "url": "https://arxiv.org/pdf/2602.16540.pdf",
+    "title": "ArXiv 2602.16540",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.645173"
+  },
+  "2602.15898": {
+    "type": "arxiv",
+    "id": "2602.15898",
+    "url": "https://arxiv.org/pdf/2602.15898.pdf",
+    "title": "ArXiv 2602.15898",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.660651"
+  },
+  "2602.16151": {
+    "type": "arxiv",
+    "id": "2602.16151",
+    "url": "https://arxiv.org/pdf/2602.16151.pdf",
+    "title": "ArXiv 2602.16151",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.676399"
+  },
+  "2602.15895": {
+    "type": "arxiv",
+    "id": "2602.15895",
+    "url": "https://arxiv.org/pdf/2602.15895.pdf",
+    "title": "ArXiv 2602.15895",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.691940"
+  },
+  "2602.16463": {
+    "type": "arxiv",
+    "id": "2602.16463",
+    "url": "https://arxiv.org/pdf/2602.16463.pdf",
+    "title": "ArXiv 2602.16463",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.706724"
+  },
+  "2602.16561": {
+    "type": "arxiv",
+    "id": "2602.16561",
+    "url": "https://arxiv.org/pdf/2602.16561.pdf",
+    "title": "ArXiv 2602.16561",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.722414"
+  },
+  "2602.15848": {
+    "type": "arxiv",
+    "id": "2602.15848",
+    "url": "https://arxiv.org/pdf/2602.15848.pdf",
+    "title": "ArXiv 2602.15848",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.737387"
+  },
+  "2602.16283": {
+    "type": "arxiv",
+    "id": "2602.16283",
+    "url": "https://arxiv.org/pdf/2602.16283.pdf",
+    "title": "ArXiv 2602.16283",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.752906"
+  },
+  "2602.16031": {
+    "type": "arxiv",
+    "id": "2602.16031",
+    "url": "https://arxiv.org/pdf/2602.16031.pdf",
+    "title": "ArXiv 2602.16031",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.768749"
+  },
+  "2602.16111": {
+    "type": "arxiv",
+    "id": "2602.16111",
+    "url": "https://arxiv.org/pdf/2602.16111.pdf",
+    "title": "ArXiv 2602.16111",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.783898"
+  },
+  "2602.16469": {
+    "type": "arxiv",
+    "id": "2602.16469",
+    "url": "https://arxiv.org/pdf/2602.16469.pdf",
+    "title": "ArXiv 2602.16469",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.798913"
+  },
+  "2602.16551": {
+    "type": "arxiv",
+    "id": "2602.16551",
+    "url": "https://arxiv.org/pdf/2602.16551.pdf",
+    "title": "ArXiv 2602.16551",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.814263"
+  },
+  "2602.16639": {
+    "type": "arxiv",
+    "id": "2602.16639",
+    "url": "https://arxiv.org/pdf/2602.16639.pdf",
+    "title": "ArXiv 2602.16639",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.829943"
+  },
+  "2602.15874": {
+    "type": "arxiv",
+    "id": "2602.15874",
+    "url": "https://arxiv.org/pdf/2602.15874.pdf",
+    "title": "ArXiv 2602.15874",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.845167"
+  },
+  "2602.15980": {
+    "type": "arxiv",
+    "id": "2602.15980",
+    "url": "https://arxiv.org/pdf/2602.15980.pdf",
+    "title": "ArXiv 2602.15980",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.860763"
+  },
+  "2602.16041": {
+    "type": "arxiv",
+    "id": "2602.16041",
+    "url": "https://arxiv.org/pdf/2602.16041.pdf",
+    "title": "ArXiv 2602.16041",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.877907"
+  },
+  "2602.15889": {
+    "type": "arxiv",
+    "id": "2602.15889",
+    "url": "https://arxiv.org/pdf/2602.15889.pdf",
+    "title": "ArXiv 2602.15889",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.893353"
+  },
+  "2602.15894": {
+    "type": "arxiv",
+    "id": "2602.15894",
+    "url": "https://arxiv.org/pdf/2602.15894.pdf",
+    "title": "ArXiv 2602.15894",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.909045"
+  },
+  "2602.16085": {
+    "type": "arxiv",
+    "id": "2602.16085",
+    "url": "https://arxiv.org/pdf/2602.16085.pdf",
+    "title": "ArXiv 2602.16085",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.924508"
+  },
+  "2602.16660": {
+    "type": "arxiv",
+    "id": "2602.16660",
+    "url": "https://arxiv.org/pdf/2602.16660.pdf",
+    "title": "ArXiv 2602.16660",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.939578"
+  },
+  "2602.16609": {
+    "type": "arxiv",
+    "id": "2602.16609",
+    "url": "https://arxiv.org/pdf/2602.16609.pdf",
+    "title": "ArXiv 2602.16609",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.954477"
+  },
+  "2602.15856": {
+    "type": "arxiv",
+    "id": "2602.15856",
+    "url": "https://arxiv.org/pdf/2602.15856.pdf",
+    "title": "ArXiv 2602.15856",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.974460"
+  },
+  "2602.16144": {
+    "type": "arxiv",
+    "id": "2602.16144",
+    "url": "https://arxiv.org/pdf/2602.16144.pdf",
+    "title": "ArXiv 2602.16144",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:57.989881"
+  },
+  "2602.16376": {
+    "type": "arxiv",
+    "id": "2602.16376",
+    "url": "https://arxiv.org/pdf/2602.16376.pdf",
+    "title": "ArXiv 2602.16376",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.005469"
+  },
+  "2602.16690": {
+    "type": "arxiv",
+    "id": "2602.16690",
+    "url": "https://arxiv.org/pdf/2602.16690.pdf",
+    "title": "ArXiv 2602.16690",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.021202"
+  },
+  "2602.16080": {
+    "type": "arxiv",
+    "id": "2602.16080",
+    "url": "https://arxiv.org/pdf/2602.16080.pdf",
+    "title": "ArXiv 2602.16080",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.036539"
+  },
+  "2602.16195": {
+    "type": "arxiv",
+    "id": "2602.16195",
+    "url": "https://arxiv.org/pdf/2602.16195.pdf",
+    "title": "ArXiv 2602.16195",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.051468"
+  },
+  "2602.16571": {
+    "type": "arxiv",
+    "id": "2602.16571",
+    "url": "https://arxiv.org/pdf/2602.16571.pdf",
+    "title": "ArXiv 2602.16571",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.066555"
+  },
+  "2602.15852": {
+    "type": "arxiv",
+    "id": "2602.15852",
+    "url": "https://arxiv.org/pdf/2602.15852.pdf",
+    "title": "ArXiv 2602.15852",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.083343"
+  },
+  "2602.15858": {
+    "type": "arxiv",
+    "id": "2602.15858",
+    "url": "https://arxiv.org/pdf/2602.15858.pdf",
+    "title": "ArXiv 2602.15858",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.098924"
+  },
+  "2602.15870": {
+    "type": "arxiv",
+    "id": "2602.15870",
+    "url": "https://arxiv.org/pdf/2602.15870.pdf",
+    "title": "ArXiv 2602.15870",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.114661"
+  },
+  "2602.16093": {
+    "type": "arxiv",
+    "id": "2602.16093",
+    "url": "https://arxiv.org/pdf/2602.16093.pdf",
+    "title": "ArXiv 2602.16093",
+    "status": "NEW",
+    "retry": 0,
+    "ts": "2026-02-20 04:52:58.130392"
   }
 }
