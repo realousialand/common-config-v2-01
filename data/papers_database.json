@@ -15286,7 +15286,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-20 04:52:56.356625"
   },
   "link_799125f9fb": {
@@ -15295,7 +15295,7 @@
     "url": "https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-20 04:52:56.371896"
   },
   "link_70fed677c1": {
@@ -15304,7 +15304,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-20 04:52:56.386417"
   },
   "link_bbc9389402": {
@@ -15326,7 +15326,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-20 04:52:56.416187"
   },
   "2602.16497": {
@@ -15516,144 +15516,208 @@
     "id": "2602.15857",
     "url": "https://arxiv.org/pdf/2602.15857.pdf",
     "title": "ArXiv 2602.15857",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.583594"
+    "ts": "2026-02-20 04:52:57.583594",
+    "local_path": "downloads/2602.15857.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Multi-source Heterogeneous Public Opinion Analysis via Collaborative Reasoning and Adaptive Fusion: A Systematically Integrated Approach"
   },
   "2602.16640": {
     "type": "arxiv",
     "id": "2602.16640",
     "url": "https://arxiv.org/pdf/2602.16640.pdf",
     "title": "ArXiv 2602.16640",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.599037"
+    "ts": "2026-02-20 04:52:57.599037",
+    "local_path": "downloads/2602.16640.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Quecto-V1: Empirical Analysis of 8-bit Quantized Small Language Models for On-Device Legal Retrieval"
   },
   "2602.16467": {
     "type": "arxiv",
     "id": "2602.16467",
     "url": "https://arxiv.org/pdf/2602.16467.pdf",
     "title": "ArXiv 2602.16467",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.614587"
+    "ts": "2026-02-20 04:52:57.614587",
+    "local_path": "downloads/2602.16467.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.16467"
   },
   "2602.16307": {
     "type": "arxiv",
     "id": "2602.16307",
     "url": "https://arxiv.org/pdf/2602.16307.pdf",
     "title": "ArXiv 2602.16307",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.629706"
+    "ts": "2026-02-20 04:52:57.629706",
+    "local_path": "downloads/2602.16307.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generative AI Usage of University Students: Navigating Between Education and Business"
   },
   "2602.16540": {
     "type": "arxiv",
     "id": "2602.16540",
     "url": "https://arxiv.org/pdf/2602.16540.pdf",
     "title": "ArXiv 2602.16540",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.645173"
+    "ts": "2026-02-20 04:52:57.645173",
+    "local_path": "downloads/2602.16540.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generalised Linear Models Driven by Latent Processes: Asymptotic Theory and Applications**"
   },
   "2602.15898": {
     "type": "arxiv",
     "id": "2602.15898",
     "url": "https://arxiv.org/pdf/2602.15898.pdf",
     "title": "ArXiv 2602.15898",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.660651"
+    "ts": "2026-02-20 04:52:57.660651",
+    "local_path": "downloads/2602.15898.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "MultiCube-RAG for Multi-hop Question Answering**"
   },
   "2602.16151": {
     "type": "arxiv",
     "id": "2602.16151",
     "url": "https://arxiv.org/pdf/2602.16151.pdf",
     "title": "ArXiv 2602.16151",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.676399"
+    "ts": "2026-02-20 04:52:57.676399",
+    "local_path": "downloads/2602.16151.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Queer NLP: A Critical Survey on Literature Gaps, Biases and Trends**"
   },
   "2602.15895": {
     "type": "arxiv",
     "id": "2602.15895",
     "url": "https://arxiv.org/pdf/2602.15895.pdf",
     "title": "ArXiv 2602.15895",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.691940"
+    "ts": "2026-02-20 04:52:57.691940",
+    "local_path": "downloads/2602.15895.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Understand Then Memory: A Cognitive Gist-Driven RAG Framework with Global Semantic Diffusion**"
   },
   "2602.16463": {
     "type": "arxiv",
     "id": "2602.16463",
     "url": "https://arxiv.org/pdf/2602.16463.pdf",
     "title": "ArXiv 2602.16463",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.706724"
+    "ts": "2026-02-20 04:52:57.706724",
+    "local_path": "downloads/2602.16463.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Focused Relative Risk Information Criterion for Variable Selection in Linear Regression"
   },
   "2602.16561": {
     "type": "arxiv",
     "id": "2602.16561",
     "url": "https://arxiv.org/pdf/2602.16561.pdf",
     "title": "ArXiv 2602.16561",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.722414"
+    "ts": "2026-02-20 04:52:57.722414",
+    "local_path": "downloads/2602.16561.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.16561"
   },
   "2602.15848": {
     "type": "arxiv",
     "id": "2602.15848",
     "url": "https://arxiv.org/pdf/2602.15848.pdf",
     "title": "ArXiv 2602.15848",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.737387"
+    "ts": "2026-02-20 04:52:57.737387",
+    "local_path": "downloads/2602.15848.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Can LLMs Assess Personality? Validating Conversational AI for Trait Profiling**"
   },
   "2602.16283": {
     "type": "arxiv",
     "id": "2602.16283",
     "url": "https://arxiv.org/pdf/2602.16283.pdf",
     "title": "ArXiv 2602.16283",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.752906"
+    "ts": "2026-02-20 04:52:57.752906",
+    "local_path": "downloads/2602.16283.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Orthogonal parametrisations of Extreme-Value distributions"
   },
   "2602.16031": {
     "type": "arxiv",
     "id": "2602.16031",
     "url": "https://arxiv.org/pdf/2602.16031.pdf",
     "title": "ArXiv 2602.16031",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.768749"
+    "ts": "2026-02-20 04:52:57.768749",
+    "local_path": "downloads/2602.16031.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Competing Risk Analysis in Cardiovascular Outcome Trials: A Simulation Comparison of Cox and Fine-Gray Models**"
   },
   "2602.16111": {
     "type": "arxiv",
     "id": "2602.16111",
     "url": "https://arxiv.org/pdf/2602.16111.pdf",
     "title": "ArXiv 2602.16111",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.783898"
+    "ts": "2026-02-20 04:52:57.783898",
+    "local_path": "downloads/2602.16111.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Surrogate-Based Prevalence Measurement for Large-Scale A/B Testing**"
   },
   "2602.16469": {
     "type": "arxiv",
     "id": "2602.16469",
     "url": "https://arxiv.org/pdf/2602.16469.pdf",
     "title": "ArXiv 2602.16469",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.798913"
+    "ts": "2026-02-20 04:52:57.798913",
+    "local_path": "downloads/2602.16469.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Training Models on Dialects of Translationese Shows How Lexical Diversity and Source-Target Syntactic Similarity Shape Learning"
   },
   "2602.16551": {
     "type": "arxiv",
     "id": "2602.16551",
     "url": "https://arxiv.org/pdf/2602.16551.pdf",
     "title": "ArXiv 2602.16551",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.814263"
+    "ts": "2026-02-20 04:52:57.814263",
+    "local_path": "downloads/2602.16551.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Automated Extraction of Mechanical Constitutive Models from Scientific Literature using Large Language Models: Applications in Cultural Heritage Conservation"
   },
   "2602.16639": {
     "type": "arxiv",
