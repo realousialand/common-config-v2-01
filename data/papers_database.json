@@ -15286,7 +15286,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-20 04:52:56.356625"
   },
   "link_799125f9fb": {
@@ -15295,7 +15295,7 @@
     "url": "https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-20 04:52:56.371896"
   },
   "link_70fed677c1": {
@@ -15304,7 +15304,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-20 04:52:56.386417"
   },
   "link_bbc9389402": {
@@ -15326,7 +15326,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://larc.cardozo.yu.edu/cgi/viewcontent.cgi?article=1110&context=de-novo&amp;rt=How+the+Supreme+Court’s+Inconsistent+Approach+to+Granting+Emergency+Relief+Will+Exacerbate,+Rather+Than+Mitigate+the+Disruption+Its+Emergency+Stay+Policy+Is+Supposed+to+Address&amp;scisig=AFtJQizFYAFhRv_20VR9hg4xepKP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-20 04:52:56.416187"
   },
   "2602.16497": {
@@ -15724,144 +15724,208 @@
     "id": "2602.16639",
     "url": "https://arxiv.org/pdf/2602.16639.pdf",
     "title": "ArXiv 2602.16639",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.829943"
+    "ts": "2026-02-20 04:52:57.829943",
+    "local_path": "downloads/2602.16639.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** AREG: Adversarial Resource Extraction Game for Evaluating Persuasion and Resistance in Large Language Models"
   },
   "2602.15874": {
     "type": "arxiv",
     "id": "2602.15874",
     "url": "https://arxiv.org/pdf/2602.15874.pdf",
     "title": "ArXiv 2602.15874",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.845167"
+    "ts": "2026-02-20 04:52:57.845167",
+    "local_path": "downloads/2602.15874.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** P-RAG: Prompt-Enhanced Parametric RAG with LoRA and Selective CoT for Biomedical and Multi-Hop QA"
   },
   "2602.15980": {
     "type": "arxiv",
     "id": "2602.15980",
     "url": "https://arxiv.org/pdf/2602.15980.pdf",
     "title": "ArXiv 2602.15980",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.860763"
+    "ts": "2026-02-20 04:52:57.860763",
+    "local_path": "downloads/2602.15980.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Dutch Disease and the Resource Curse: The Progression of Views from Exchange Rates to Women’s Agency and Well-Being"
   },
   "2602.16041": {
     "type": "arxiv",
     "id": "2602.16041",
     "url": "https://arxiv.org/pdf/2602.16041.pdf",
     "title": "ArXiv 2602.16041",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.877907"
+    "ts": "2026-02-20 04:52:57.877907",
+    "local_path": "downloads/2602.16041.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Predictive Subsampling for Scalable Inference in Networks"
   },
   "2602.15889": {
     "type": "arxiv",
     "id": "2602.15889",
     "url": "https://arxiv.org/pdf/2602.15889.pdf",
     "title": "ArXiv 2602.15889",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.893353"
+    "ts": "2026-02-20 04:52:57.893353",
+    "local_path": "downloads/2602.15889.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.15889"
   },
   "2602.15894": {
     "type": "arxiv",
     "id": "2602.15894",
     "url": "https://arxiv.org/pdf/2602.15894.pdf",
     "title": "ArXiv 2602.15894",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.909045"
+    "ts": "2026-02-20 04:52:57.909045",
+    "local_path": "downloads/2602.15894.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "QUALITY CONSTRAINED E NTROPY M AXIMIZATION P OLICY O PTIMIZATION FOR LLM DIVERSITY"
   },
   "2602.16085": {
     "type": "arxiv",
     "id": "2602.16085",
     "url": "https://arxiv.org/pdf/2602.16085.pdf",
     "title": "ArXiv 2602.16085",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.924508"
+    "ts": "2026-02-20 04:52:57.924508",
+    "local_path": "downloads/2602.16085.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Language Statistics and False Belief Reasoning: Evidence from 41 Open-Weight LMs"
   },
   "2602.16660": {
     "type": "arxiv",
     "id": "2602.16660",
     "url": "https://arxiv.org/pdf/2602.16660.pdf",
     "title": "ArXiv 2602.16660",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.939578"
+    "ts": "2026-02-20 04:52:57.939578",
+    "local_path": "downloads/2602.16660.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A LALIGN ONCE, BENEFIT MULTILINGUALLY: ENFORCING MULTILINGUAL CONSISTENCY FOR LLM SAFETY ALIGNMENT**"
   },
   "2602.16609": {
     "type": "arxiv",
     "id": "2602.16609",
     "url": "https://arxiv.org/pdf/2602.16609.pdf",
     "title": "ArXiv 2602.16609",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.954477"
+    "ts": "2026-02-20 04:52:57.954477",
+    "local_path": "downloads/2602.16609.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.16609"
   },
   "2602.15856": {
     "type": "arxiv",
     "id": "2602.15856",
     "url": "https://arxiv.org/pdf/2602.15856.pdf",
     "title": "ArXiv 2602.15856",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.974460"
+    "ts": "2026-02-20 04:52:57.974460",
+    "local_path": "downloads/2602.15856.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Rethinking Soft Compression in Retrieval-Augmented Generation: A Query-Conditioned Selector Perspective"
   },
   "2602.16144": {
     "type": "arxiv",
     "id": "2602.16144",
     "url": "https://arxiv.org/pdf/2602.16144.pdf",
     "title": "ArXiv 2602.16144",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:57.989881"
+    "ts": "2026-02-20 04:52:57.989881",
+    "local_path": "downloads/2602.16144.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Missing-by-Design: Certifiable Modality Deletion for Revocable Multimodal Sentiment Analysis"
   },
   "2602.16376": {
     "type": "arxiv",
     "id": "2602.16376",
     "url": "https://arxiv.org/pdf/2602.16376.pdf",
     "title": "ArXiv 2602.16376",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.005469"
+    "ts": "2026-02-20 04:52:58.005469",
+    "local_path": "downloads/2602.16376.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Two-way Clustering Robust Variance Estimator in Quantile Regression Models"
   },
   "2602.16690": {
     "type": "arxiv",
     "id": "2602.16690",
     "url": "https://arxiv.org/pdf/2602.16690.pdf",
     "title": "ArXiv 2602.16690",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.021202"
+    "ts": "2026-02-20 04:52:58.021202",
+    "local_path": "downloads/2602.16690.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Synthetic-Powered Multiple Testing with FDR Control"
   },
   "2602.16080": {
     "type": "arxiv",
     "id": "2602.16080",
     "url": "https://arxiv.org/pdf/2602.16080.pdf",
     "title": "ArXiv 2602.16080",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.036539"
+    "ts": "2026-02-20 04:52:58.036539",
+    "local_path": "downloads/2602.16080.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Surgical Activation Steering via Generative Causal Mediation"
   },
   "2602.16195": {
     "type": "arxiv",
     "id": "2602.16195",
     "url": "https://arxiv.org/pdf/2602.16195.pdf",
     "title": "ArXiv 2602.16195",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.051468"
+    "ts": "2026-02-20 04:52:58.051468",
+    "local_path": "downloads/2602.16195.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Phase Transitions in Collective Damage of Civil Structures under Natural Hazards"
   },
   "2602.16571": {
     "type": "arxiv",
     "id": "2602.16571",
     "url": "https://arxiv.org/pdf/2602.16571.pdf",
     "title": "ArXiv 2602.16571",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-20 04:52:58.066555"
+    "ts": "2026-02-20 04:52:58.066555",
+    "local_path": "downloads/2602.16571.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Utility-Preserving De-Identification for Math Tutoring: Investigating Numeric Ambiguity in the MathEd-PII Benchmark Dataset"
   },
   "2602.15852": {
     "type": "arxiv",
