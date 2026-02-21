@@ -16517,89 +16517,129 @@
     "id": "2602.16921",
     "url": "https://arxiv.org/pdf/2602.16921.pdf",
     "title": "ArXiv 2602.16921",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.313654"
+    "ts": "2026-02-21 04:42:51.313654",
+    "local_path": "downloads/2602.16921.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Beyond the Flag: A Framework for Integrating Cybersecurity Competitions into K-12 Education for Cognitive Apprenticeship and Ethical Skill Development"
   },
   "2602.17293": {
     "type": "arxiv",
     "id": "2602.17293",
     "url": "https://arxiv.org/pdf/2602.17293.pdf",
     "title": "ArXiv 2602.17293",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.329388"
+    "ts": "2026-02-21 04:42:51.329388",
+    "local_path": "downloads/2602.17293.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.17293"
   },
   "2602.16811": {
     "type": "arxiv",
     "id": "2602.16811",
     "url": "https://arxiv.org/pdf/2602.16811.pdf",
     "title": "ArXiv 2602.16811",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.344895"
+    "ts": "2026-02-21 04:42:51.344895",
+    "local_path": "downloads/2602.16811.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Evaluating Monolingual and Multilingual Large Language Models for Greek Question Answering: The DemosQA Benchmark"
   },
   "2602.17108": {
     "type": "arxiv",
     "id": "2602.17108",
     "url": "https://arxiv.org/pdf/2602.17108.pdf",
     "title": "ArXiv 2602.17108",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.360367"
+    "ts": "2026-02-21 04:42:51.360367",
+    "local_path": "downloads/2602.17108.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Projective Psychological Assessment of Large Multimodal Models Using Thematic Apperception Tests"
   },
   "2602.16914": {
     "type": "arxiv",
     "id": "2602.16914",
     "url": "https://arxiv.org/pdf/2602.16914.pdf",
     "title": "ArXiv 2602.16914",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.375967"
+    "ts": "2026-02-21 04:42:51.375967",
+    "local_path": "downloads/2602.16914.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A STATISTICAL PERSPECTIVE ON TRANSFORMERS FOR SMALL LONGITUDINAL COHORT DATA"
   },
   "2602.17272": {
     "type": "arxiv",
     "id": "2602.17272",
     "url": "https://arxiv.org/pdf/2602.17272.pdf",
     "title": "ArXiv 2602.17272",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.391535"
+    "ts": "2026-02-21 04:42:51.391535",
+    "local_path": "downloads/2602.17272.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Estimating Zero-inflated Negative Binomial GAMLSS via a Balanced Gradient Boosting Approach with an Application to Antenatal Care Data from Nigeria"
   },
   "2602.17655": {
     "type": "arxiv",
     "id": "2602.17655",
     "url": "https://arxiv.org/pdf/2602.17655.pdf",
     "title": "ArXiv 2602.17655",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.407137"
+    "ts": "2026-02-21 04:42:51.407137",
+    "local_path": "downloads/2602.17655.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "What Language is This? Ask Your Tokenizer."
   },
   "2602.17052": {
     "type": "arxiv",
     "id": "2602.17052",
     "url": "https://arxiv.org/pdf/2602.17052.pdf",
     "title": "ArXiv 2602.17052",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.422570"
+    "ts": "2026-02-21 04:42:51.422570",
+    "local_path": "downloads/2602.17052.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Generative modeling for the bootstrap"
   },
   "2602.17475": {
     "type": "arxiv",
     "id": "2602.17475",
     "url": "https://arxiv.org/pdf/2602.17475.pdf",
     "title": "ArXiv 2602.17475",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.438022"
+    "ts": "2026-02-21 04:42:51.438022",
+    "local_path": "downloads/2602.17475.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Small LLMs for Medical NLP: a Systematic Analysis of Few-Shot, Constraint Decoding, Fine-Tuning and Continual Pre-Training in Italian"
   },
   "2602.17653": {
     "type": "arxiv",
     "id": "2602.17653",
     "url": "https://arxiv.org/pdf/2602.17653.pdf",
     "title": "ArXiv 2602.17653",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.453640"
+    "ts": "2026-02-21 04:42:51.453640",
+    "local_path": "downloads/2602.17653.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Differences in Typological Alignment in Language Models’ Treatment of Differential Argument Marking**"
   }
 }
