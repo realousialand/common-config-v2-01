@@ -16257,180 +16257,260 @@
     "id": "2602.17070",
     "url": "https://arxiv.org/pdf/2602.17070.pdf",
     "title": "ArXiv 2602.17070",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.000372"
+    "ts": "2026-02-21 04:42:51.000372",
+    "local_path": "downloads/2602.17070.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "General sample size analysis for probabilities of causation: a delta method approach"
   },
   "2602.17041": {
     "type": "arxiv",
     "id": "2602.17041",
     "url": "https://arxiv.org/pdf/2602.17041.pdf",
     "title": "ArXiv 2602.17041",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.015869"
+    "ts": "2026-02-21 04:42:51.015869",
+    "local_path": "downloads/2602.17041.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Reframing Population-Adjusted Indirect Comparisons as a Transportability Problem: An Estimand-Based Perspective and Implications for Health Technology Assessment**"
   },
   "2602.17194": {
     "type": "arxiv",
     "id": "2602.17194",
     "url": "https://arxiv.org/pdf/2602.17194.pdf",
     "title": "ArXiv 2602.17194",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.031197"
+    "ts": "2026-02-21 04:42:51.031197",
+    "local_path": "downloads/2602.17194.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "What Makes a Good Doctor Response? An Analysis on a Romanian Telemedicine Platform"
   },
   "2602.17467": {
     "type": "arxiv",
     "id": "2602.17467",
     "url": "https://arxiv.org/pdf/2602.17467.pdf",
     "title": "ArXiv 2602.17467",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.046522"
+    "ts": "2026-02-21 04:42:51.046522",
+    "local_path": "downloads/2602.17467.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "PEACE 2.0: Grounded Explanations and Counter-Speech for Combating Hate Expressions"
   },
   "2602.16733": {
     "type": "arxiv",
     "id": "2602.16733",
     "url": "https://arxiv.org/pdf/2602.16733.pdf",
     "title": "ArXiv 2602.16733",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.061854"
+    "ts": "2026-02-21 04:42:51.061854",
+    "local_path": "downloads/2602.16733.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.16733"
   },
   "2602.17255": {
     "type": "arxiv",
     "id": "2602.17255",
     "url": "https://arxiv.org/pdf/2602.17255.pdf",
     "title": "ArXiv 2602.17255",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.077821"
+    "ts": "2026-02-21 04:42:51.077821",
+    "local_path": "downloads/2602.17255.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Selection and Collider Restriction Bias Due to Predictor Availability in Prognostic Models"
   },
   "2602.17414": {
     "type": "arxiv",
     "id": "2602.17414",
     "url": "https://arxiv.org/pdf/2602.17414.pdf",
     "title": "ArXiv 2602.17414",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.093561"
+    "ts": "2026-02-21 04:42:51.093561",
+    "local_path": "downloads/2602.17414.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Nested Sampling with Slice-within-Gibbs: Efficient Evidence Calculation for Hierarchical Bayesian Models"
   },
   "2602.17290": {
     "type": "arxiv",
     "id": "2602.17290",
     "url": "https://arxiv.org/pdf/2602.17290.pdf",
     "title": "ArXiv 2602.17290",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.109291"
+    "ts": "2026-02-21 04:42:51.109291",
+    "local_path": "downloads/2602.17290.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Non-Invasive Anemia Detection: A Multichannel PPG-Based Hemoglobin Estimation with Explainable Artificial Intelligence**"
   },
   "2602.17314": {
     "type": "arxiv",
     "id": "2602.17314",
     "url": "https://arxiv.org/pdf/2602.17314.pdf",
     "title": "ArXiv 2602.17314",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.125195"
+    "ts": "2026-02-21 04:42:51.125195",
+    "local_path": "downloads/2602.17314.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Open Datasets in Learning Analytics: Trends, Challenges, and Best PRACTICE**"
   },
   "2602.17261": {
     "type": "arxiv",
     "id": "2602.17261",
     "url": "https://arxiv.org/pdf/2602.17261.pdf",
     "title": "ArXiv 2602.17261",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.140591"
+    "ts": "2026-02-21 04:42:51.140591",
+    "local_path": "downloads/2602.17261.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** PARAMETRIC OR NONPARAMETRIC: THE FIC APPROACH FOR STATIONARY TIME SERIES"
   },
   "2602.17443": {
     "type": "arxiv",
     "id": "2602.17443",
     "url": "https://arxiv.org/pdf/2602.17443.pdf",
     "title": "ArXiv 2602.17443",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.156546"
+    "ts": "2026-02-21 04:42:51.156546",
+    "local_path": "downloads/2602.17443.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** AIDG: Evaluating Asymmetry Between Information Extraction and Containment in Multi-Turn Dialogue"
   },
   "2602.17431": {
     "type": "arxiv",
     "id": "2602.17431",
     "url": "https://arxiv.org/pdf/2602.17431.pdf",
     "title": "ArXiv 2602.17431",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.172369"
+    "ts": "2026-02-21 04:42:51.172369",
+    "local_path": "downloads/2602.17431.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Fine-Grained Uncertainty Quantification for Long-Form Language Model Outputs: A Comparative Study**"
   },
   "2602.16992": {
     "type": "arxiv",
     "id": "2602.16992",
     "url": "https://arxiv.org/pdf/2602.16992.pdf",
     "title": "ArXiv 2602.16992",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.188206"
+    "ts": "2026-02-21 04:42:51.188206",
+    "local_path": "downloads/2602.16992.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** MODELING MULTIVARIATE MISSINGNESS WITH TREE GRAPHS AND CONJUGATE ODDS"
   },
   "2602.17469": {
     "type": "arxiv",
     "id": "2602.17469",
     "url": "https://arxiv.org/pdf/2602.17469.pdf",
     "title": "ArXiv 2602.17469",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.203718"
+    "ts": "2026-02-21 04:42:51.203718",
+    "local_path": "downloads/2602.17469.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2602.17469"
   },
   "2602.16973": {
     "type": "arxiv",
     "id": "2602.16973",
     "url": "https://arxiv.org/pdf/2602.16973.pdf",
     "title": "ArXiv 2602.16973",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.219426"
+    "ts": "2026-02-21 04:42:51.219426",
+    "local_path": "downloads/2602.16973.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Lies, Labels, and Mechanisms"
   },
   "2602.16852": {
     "type": "arxiv",
     "id": "2602.16852",
     "url": "https://arxiv.org/pdf/2602.16852.pdf",
     "title": "ArXiv 2602.16852",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.234973"
+    "ts": "2026-02-21 04:42:51.234973",
+    "local_path": "downloads/2602.16852.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Meenz bleibt Meenz, but Large Language Models Do Not Speak Its Dialect"
   },
   "2602.17513": {
     "type": "arxiv",
     "id": "2602.17513",
     "url": "https://arxiv.org/pdf/2602.17513.pdf",
     "title": "ArXiv 2602.17513",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.251043"
+    "ts": "2026-02-21 04:42:51.251043",
+    "local_path": "downloads/2602.17513.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Bridging the Domain Divide: Supervised vs. Zero-Shot Clinical Section Segmentation from MIMIC-III to Obstetrics"
   },
   "2602.17425": {
     "type": "arxiv",
     "id": "2602.17425",
     "url": "https://arxiv.org/pdf/2602.17425.pdf",
     "title": "ArXiv 2602.17425",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.266713"
+    "ts": "2026-02-21 04:42:51.266713",
+    "local_path": "downloads/2602.17425.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Evaluating Extremely Low-Resource Machine Translation: A Comparative Study of ChrF++ and BLEU Metrics"
   },
   "2602.17377": {
     "type": "arxiv",
     "id": "2602.17377",
     "url": "https://arxiv.org/pdf/2602.17377.pdf",
     "title": "ArXiv 2602.17377",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.282357"
+    "ts": "2026-02-21 04:42:51.282357",
+    "local_path": "downloads/2602.17377.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Role of the Availability Heuristic in Multiple-Choice Answering Behaviour"
   },
   "2602.16949": {
     "type": "arxiv",
     "id": "2602.16949",
     "url": "https://arxiv.org/pdf/2602.16949.pdf",
     "title": "ArXiv 2602.16949",
-    "status": "NEW",
+    "status": "ANALYZED",
     "retry": 0,
-    "ts": "2026-02-21 04:42:51.297941"
+    "ts": "2026-02-21 04:42:51.297941",
+    "local_path": "downloads/2602.16949.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "How should AI knowledge be governed? Epistemic authority, structural transparency, and the case for open cognitive graphs**"
   },
   "2602.16921": {
     "type": "arxiv",
