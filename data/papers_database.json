@@ -16641,5 +16641,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Differences in Typological Alignment in Language Models’ Treatment of Differential Argument Marking**"
+  },
+  "10.1016/j.ijnurstu.2026.105372": {
+    "type": "doi",
+    "id": "10.1016/j.ijnurstu.2026.105372",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-22 04:56:01.556296",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Neoliberalism and mental health nursing: Workforce sustainability, professional identity, and the politics of care in the UK\n\nABSTRACT: 无摘要",
+    "real_title": "Neoliberalism and mental health nursing: Workforce sustainability, professional identity, and the politics of care in the UK"
+  },
+  "10.1016/j.socscimed.2026.119107": {
+    "type": "doi",
+    "id": "10.1016/j.socscimed.2026.119107",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-22 04:56:01.574492",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Hustlers and tricksters: Colonialism, the war on drugs, and survival strategies of people who inject drugs\n\nABSTRACT: 无摘要",
+    "real_title": "Hustlers and tricksters: Colonialism, the war on drugs, and survival strategies of people who inject drugs"
   }
 }
