@@ -16667,5 +16667,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Hustlers and tricksters: Colonialism, the war on drugs, and survival strategies of people who inject drugs\n\nABSTRACT: 无摘要",
     "real_title": "Hustlers and tricksters: Colonialism, the war on drugs, and survival strategies of people who inject drugs"
+  },
+  "10.3390/jrfm19020157": {
+    "type": "doi",
+    "id": "10.3390/jrfm19020157",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-22 10:34:18.808903",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Structured Framework for Dealing with Types of Financial Statement Fraud, Integrating Common Modalities, Variables, Strategies, and Patterns\n\nABSTRACT: This article proposes a structured framework for financial statement fraud in five dimensions, nature of fraud, execution, participation, organizational impact, and environment, which are broken down into variables and subvariables to describe and analyze this phenomenon systematically. Based on a conceptual review and systematization, a structure is proposed that encompasses the diversity of intentions, motivations, methods, and actors involved, considering human and automated factors in current organizational contexts marked by digitization and increasing regulatory complexity. The framework also highlights the relevance of variables such as the persistence of fraud, technical capacity of fraudsters, and the level of internal/external collusion, integrating elements of internal control, corporate culture, and early warning signs. This framework provides a methodological basis that facilitates the design of more robust prevention, detection, and monitoring strategies, contributing to auditing practices, corporate governance, and strengthening control systems. Limitations to the need for empirical validation are identified, and future lines of research are suggested, aimed at applying data analysis, and artificial intelligence to address increasingly sophisticated fraud schemes.",
+    "real_title": "Structured Framework for Dealing with Types of Financial Statement Fraud, Integrating Common Modalities, Variables, Strategies, and Patterns"
   }
 }
