@@ -16700,7 +16700,7 @@
     "url": "https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1906",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-23 10:58:22.080546"
   },
   "link_2dc11732ea": {
@@ -16709,7 +16709,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1906&context=elr&amp;rt=The+US+Critical+Minerals+List:+Between+a+Rock+and+a+Hard+Place&amp;scisig=AFtJQixgsv6C6Hw2cSv-Zowsrrin",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-23 10:58:22.097908"
   },
   "link_6ce532ce15": {
@@ -16718,7 +16718,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1906&context=elr&amp;rt=The+US+Critical+Minerals+List:+Between+a+Rock+and+a+Hard+Place&amp;scisig=AFtJQixgsv6C6Hw2cSv-Zowsrrin",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-23 10:58:22.114680"
   },
   "link_d95c1c0688": {
@@ -16727,7 +16727,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1906&context=elr&amp;rt=The+US+Critical+Minerals+List:+Between+a+Rock+and+a+Hard+Place&amp;scisig=AFtJQixgsv6C6Hw2cSv-Zowsrrin",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-02-23 10:58:22.130502"
   }
 }
