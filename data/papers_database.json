@@ -16729,5 +16729,18 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-02-23 10:58:22.130502"
+  },
+  "10.1038/s44284-025-00367-y": {
+    "type": "doi",
+    "id": "10.1038/s44284-025-00367-y",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-24 04:58:29.409438",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The status and politics of bicycling in the cities of low- and middle-income countries\n\nABSTRACT: Abstract\n                  Bicycling is promoted in low- and middle-income countries to reduce emissions and improve public health. However, transportation policies often replicate built infrastructure logics from high-income countries, with limited attention to local bicyclists’ experiences and contextual realities. Here, drawing on intercept surveys, semi-structured interviews and ethnographic observations in cities of four low- and middle-income countries, we examine the current state of bicycling and user-perceived barriers. We find that bicycling is largely undertaken by low-income adult men, while women and children cycle mainly within neighborhood enclaves. We identify impediments beyond physical infrastructure, including financial systems, maintenance networks, manufacturing and design capacities, and social supports that shape everyday cycling. Using a mobility justice lens, we examine how these bicycling cultures have persisted within automobile-centric urban geographies. We highlight the importance of addressing these evidence, policy and implementation gaps through an ‘ethics of care’ approach, supported by regional health and environmental agencies and grounded in context-sensitive research.",
+    "real_title": "The status and politics of bicycling in the cities of low- and middle-income countries"
   }
 }
