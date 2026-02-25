@@ -16742,5 +16742,44 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: The status and politics of bicycling in the cities of low- and middle-income countries\n\nABSTRACT: Abstract\n                  Bicycling is promoted in low- and middle-income countries to reduce emissions and improve public health. However, transportation policies often replicate built infrastructure logics from high-income countries, with limited attention to local bicyclists’ experiences and contextual realities. Here, drawing on intercept surveys, semi-structured interviews and ethnographic observations in cities of four low- and middle-income countries, we examine the current state of bicycling and user-perceived barriers. We find that bicycling is largely undertaken by low-income adult men, while women and children cycle mainly within neighborhood enclaves. We identify impediments beyond physical infrastructure, including financial systems, maintenance networks, manufacturing and design capacities, and social supports that shape everyday cycling. Using a mobility justice lens, we examine how these bicycling cultures have persisted within automobile-centric urban geographies. We highlight the importance of addressing these evidence, policy and implementation gaps through an ‘ethics of care’ approach, supported by regional health and environmental agencies and grounded in context-sensitive research.",
     "real_title": "The status and politics of bicycling in the cities of low- and middle-income countries"
+  },
+  "10.1073/pnas.2524463123": {
+    "type": "doi",
+    "id": "10.1073/pnas.2524463123",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-25 04:59:35.321675",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Transmission lowers US generation costs, but generator incentives are not aligned\n\nABSTRACT: The US electricity grid is rapidly evolving with the entry of low-cost renewable electricity. As a result, new supply is not spatially matched to demand, and the transmission network has become more strained. Better market integration could thus lower US generation costs. We document that eliminating interregional constraints would have reduced electricity generation costs across the lower US 48 states by $5.8 to 7.1 billion in 2022 and $3.4 to 5.0 billion in 2023. But market integration creates winners and losers among generation companies, and we show that producers in some regions have incentives to delay or block grid integration despite the overall system benefits.",
+    "real_title": "Transmission lowers US generation costs, but generator incentives are not aligned"
+  },
+  "10.1016/j.onehlt.2026.101350": {
+    "type": "doi",
+    "id": "10.1016/j.onehlt.2026.101350",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-25 04:59:35.339138",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: From governance scores to governance impact: Closing the know–do gap in AMR policy evaluation\n\nABSTRACT: 无摘要",
+    "real_title": "From governance scores to governance impact: Closing the know–do gap in AMR policy evaluation"
+  },
+  "10.1371/journal.pone.0342899": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0342899",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-25 04:59:35.356403",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Gender favoritism in derogatory and non-derogatory political discourse\n\nABSTRACT: This study investigates the interplay between Role Congruity Theory and Social Identity Theory in the context of gender perceptions among political speakers. Role Congruity Theory posits that male political speakers are perceived as more competent and likable, regardless of the recipient’s gender. Conversely, Social Identity Theory suggests that individuals may exhibit a preference for speakers of the same gender due to in-group identification. We hypothesized that male participants would demonstrate a consistent preference for male speakers, driven by the synergistic effects of Role Congruity Theory and Social Identity Theory, while female participants would exhibit no such bias, resulting from the cancellation of these effects. To test this hypothesis, participants assessed German words for their offensiveness and political connotation. We employed generalized linear mixed effects models to analyze the data for two response variables – pejorative weight and political connotation – across four distinct word clusters: politically left &amp; less derogatory, politically right &amp; less derogatory, politically left &amp; derogatory, and politically right &amp; derogatory. Our findings indicate that, in terms of pejorative weight, derogatory language elicited a tendency towards in-group favoritism, which we interpret as a protective mechanism for social identity. This effect contrasts with the broader trend of male favoritism identified in other contexts. These results contribute to a deeper understanding of how gender dynamics shape the interpretation of political language, highlighting the complex interactions between social identity and speech perception in political discourse.",
+    "real_title": "Gender favoritism in derogatory and non-derogatory political discourse"
   }
 }
