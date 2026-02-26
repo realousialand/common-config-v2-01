@@ -16807,5 +16807,66 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Nuclear weapons testing is harmful — there’s no case for a restart\n\nABSTRACT: 无摘要",
     "real_title": "Nuclear weapons testing is harmful — there’s no case for a restart"
+  },
+  "link_02901b3ee8": {
+    "type": "pdf_link",
+    "id": "link_02901b3ee8",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.ndu.edu/cgi/viewcontent.cgi?article=1020&context=ndupress-books&amp;rt=Strategic+Assessment+2025:+Evolving+Great+Power+Competition+at+Mid-Decade&amp;scisig=AFtJQiwuo0VxHd01-H32eg_3QEMc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-26 17:06:35.449681"
+  },
+  "link_bdb858ba61": {
+    "type": "pdf_link",
+    "id": "link_bdb858ba61",
+    "url": "https://openscholar.uga.edu/record/27945/files/Martin_uga_0077E_17201.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-02-26 17:06:35.466737",
+    "local_path": "downloads/link_bdb858ba61.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_0bdd1b8425": {
+    "type": "pdf_link",
+    "id": "link_0bdd1b8425",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.ndu.edu/cgi/viewcontent.cgi?article=1020&context=ndupress-books&amp;rt=Strategic+Assessment+2025:+Evolving+Great+Power+Competition+at+Mid-Decade&amp;scisig=AFtJQiwuo0VxHd01-H32eg_3QEMc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-26 17:06:35.482904"
+  },
+  "link_99d35fd0e5": {
+    "type": "pdf_link",
+    "id": "link_99d35fd0e5",
+    "url": "https://digitalcommons.ndu.edu/cgi/viewcontent.cgi?article=1020",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-26 17:06:35.499436"
+  },
+  "link_c393defdad": {
+    "type": "pdf_link",
+    "id": "link_c393defdad",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.ndu.edu/cgi/viewcontent.cgi?article=1020&context=ndupress-books&amp;rt=Strategic+Assessment+2025:+Evolving+Great+Power+Competition+at+Mid-Decade&amp;scisig=AFtJQiwuo0VxHd01-H32eg_3QEMc",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-26 17:06:35.516092"
+  },
+  "10.1002/wmh3.70066": {
+    "type": "doi",
+    "id": "10.1002/wmh3.70066",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-26 17:06:55.440510",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Financial Management of Traditional and Complementary Medicine in Türkiye Public Hospitals: A Policy Analysis of Pricing, Accounting, and Performance Incentives\n\nABSTRACT: ABSTRACT\n                  This article presents a policy analysis of the financial management of Traditional and Complementary Medicine (T&amp;CM) practices in public hospitals in Türkiye, with a focus on the intersection of pricing, accounting, and performance‐based supplementary payment systems. While integrating T&amp;CM into the modern healthcare system expands treatment options, it introduces significant administrative challenges. In recent years, the presentation of T&amp;CM applications in public hospitals in Türkiye has become widespread. However, this expansion has raised critical questions, such as how these services will be charged and how the revenue generated will be accounted for. In this context, the extent to which current pricing policies support the sustainability of T&amp;CM services is discussed. Adopting a descriptive policy analysis approach supported by analytical simulations, this study assesses the adequacy of current pricing policies. The findings reveal a systemic “performance paradox”: although time‐intensive, T&amp;CM procedures yield significantly lower performance scores per hour than standard outpatient services, creating a structural disincentive for physicians. Furthermore, the lack of transparency in cost‐center accounting complicates the financial sustainability of these units. The study concludes by offering tiered policy recommendations—ranging from low‐effort coefficient adjustments to high‐effort payment model reforms—to align financial incentives with the strategic goal of integrating T&amp;CM into the public health system.",
+    "real_title": "Financial Management of Traditional and Complementary Medicine in Türkiye Public Hospitals: A Policy Analysis of Pricing, Accounting, and Performance Incentives"
   }
 }
