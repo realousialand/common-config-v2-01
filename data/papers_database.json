@@ -16781,5 +16781,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Gender favoritism in derogatory and non-derogatory political discourse\n\nABSTRACT: This study investigates the interplay between Role Congruity Theory and Social Identity Theory in the context of gender perceptions among political speakers. Role Congruity Theory posits that male political speakers are perceived as more competent and likable, regardless of the recipient’s gender. Conversely, Social Identity Theory suggests that individuals may exhibit a preference for speakers of the same gender due to in-group identification. We hypothesized that male participants would demonstrate a consistent preference for male speakers, driven by the synergistic effects of Role Congruity Theory and Social Identity Theory, while female participants would exhibit no such bias, resulting from the cancellation of these effects. To test this hypothesis, participants assessed German words for their offensiveness and political connotation. We employed generalized linear mixed effects models to analyze the data for two response variables – pejorative weight and political connotation – across four distinct word clusters: politically left &amp; less derogatory, politically right &amp; less derogatory, politically left &amp; derogatory, and politically right &amp; derogatory. Our findings indicate that, in terms of pejorative weight, derogatory language elicited a tendency towards in-group favoritism, which we interpret as a protective mechanism for social identity. This effect contrasts with the broader trend of male favoritism identified in other contexts. These results contribute to a deeper understanding of how gender dynamics shape the interpretation of political language, highlighting the complex interactions between social identity and speech perception in political discourse.",
     "real_title": "Gender favoritism in derogatory and non-derogatory political discourse"
+  },
+  "10.1002/aet2.70143": {
+    "type": "doi",
+    "id": "10.1002/aet2.70143",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-26 04:57:03.987618",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Benefits and Pitfalls of Non‐Work Attending‐Resident Socializing: A Literature Review\n\nABSTRACT: ABSTRACT\n                  \n                    Background and Objectives\n                    There is currently limited research in unstructured trainee‐supervisor relationships within graduate medical education despite extensive literature on formal mentor/mentee relationships. These informal interactions and socializing are relatively common, but their prevalence and social costs and benefits remain poorly characterized. We performed a review of the existing literature to understand the breadth and depth of both online and in‐person informal interactions, and their effects on the learner‐supervisor experience within the clinical learning environment.\n                  \n                  \n                    Methods\n                    We searched PubMed in December 2024 for articles discussing informal or out‐of‐work socializing between medical trainees and supervisors both in‐person and online environments.\n                  \n                  \n                    Results\n                    A total of seven studies were found addressing our research question out of the 745 studies returned. These studies took multiple formats including semi‐structured interviews, surveys of current residents and attendings, and social media analysis. Several studies described benefits of informal/unstructured socializing such as resident wellness and a positive impact on the work environment, while multiple studies raised concerns about the blurring of professional boundaries. There was minimal discussion of how socializing between trainees and supervisors may influence evaluations or may lead to favoritism that may harm the clinical learning environment.\n                  \n                  \n                    Conclusion\n                    Informal/unstructured friendships and social relationships between trainees and supervisors have the potential to promote wellness for trainees and supervisors but also risk blurring of professional boundaries. More research is needed on these types of informal and out‐of‐office relationships to develop best practices and better understand their impact.\n                  ",
+    "real_title": "Benefits and Pitfalls of Non‐Work Attending‐Resident Socializing: A Literature Review"
+  },
+  "10.1038/d41586-026-00561-5": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00561-5",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-26 04:57:04.005071",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Nuclear weapons testing is harmful — there’s no case for a restart\n\nABSTRACT: 无摘要",
+    "real_title": "Nuclear weapons testing is harmful — there’s no case for a restart"
   }
 }
