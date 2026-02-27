@@ -16882,5 +16882,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Ozempic and Wegovy Meet Congress: Political Economy Without Critique and Sociology Without Society\n\nABSTRACT: In the fall of 2024, a U.S. Senate Hearing on the high price of Novo Nordisk's prescription drugs Ozempic and Wegovy underlined some of the deepest challenges in the U.S. health care system. This article utilizes critical approaches to both political economy and sociological discussions of medicalization as a means to address these challenges. Market-led organization and medicalization underlie not only these products’ pricing, but also wider issues of cost control and health care organization. Congressional debate tends to either attribute blame on individual corporate actors, largely sidestepping larger structural issues, or defend industry and profit-oriented care, deflecting blame for high costs on the lifestyle choices of individual Americans. The article reestablishes an interrelation between critical political economy and medicalization, calling for a reorientation of health purchasing in the United States, along the lines of a single payer system that would, by necessity, interrogate the value of evolving drug (and other medical) provision for American society. This argument has strong practical political implications, potentially enabling policymakers to approach the emergence of ‘wonder’ drugs like Ozempic/Wegovy on terms that matter to both patients and U.S. society—price, medical necessity, access, and overall health care costs.",
     "real_title": "Ozempic and Wegovy Meet Congress: Political Economy Without Critique and Sociology Without Society"
+  },
+  "link_6af0bc9f8e": {
+    "type": "pdf_link",
+    "id": "link_6af0bc9f8e",
+    "url": "https://www.arcadiaimpact.org/s/Pathways-for-Advancing-AI-Safety-in-Congress-mly8.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-27 10:49:26.766828",
+    "local_path": "downloads/link_6af0bc9f8e.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Pathways for Advancing AI Safety in Congress**"
   }
 }
