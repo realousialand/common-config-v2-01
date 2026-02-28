@@ -16895,5 +16895,53 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Pathways for Advancing AI Safety in Congress**"
+  },
+  "10.1080/10376178.2026.2636256": {
+    "type": "doi",
+    "id": "10.1080/10376178.2026.2636256",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-02-28 04:19:59.832148"
+  },
+  "10.1136/bmjgh-2025-020634": {
+    "type": "doi",
+    "id": "10.1136/bmjgh-2025-020634",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-28 04:19:59.849738",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The WHO pandemic agreement—securing Africa’s leadership in a fragmenting global order\n\nABSTRACT: In May 2025, the World Health Assembly adopted the historic WHO Pandemic Agreement, aimed at strengthening global pandemic preparedness and equity. This legally binding treaty emerged from years of negotiation shaped by the COVID-19 pandemic’s stark inequities—particularly those experienced by African nations. While the treaty introduces important innovations, notably the Pathogen Access and Benefit-Sharing system, significant challenges remain. Ambiguities in equity commitments, geopolitical fragmentation and rising nationalism threaten effective implementation. For Africa, realising the treaty’s promise requires robust legal frameworks, enhanced manufacturing and regulatory capacities and sustainable financing mechanisms that reduce donor dependency. This analysis critically examines the treaty’s provisions and political economy, emphasising the need for enforceable obligations, continental leadership and multi-sectoral accountability. We propose the establishment of a Pandemic Peer Review Mechanism to embed political accountability at national and regional levels. Only through coordinated African leadership, institutional investment and global solidarity can the Pandemic Agreement deliver equitable health outcomes in a fracturing global order.",
+    "real_title": "The WHO pandemic agreement—securing Africa’s leadership in a fragmenting global order"
+  },
+  "10.1093/chidev/aacaf005": {
+    "type": "doi",
+    "id": "10.1093/chidev/aacaf005",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-28 04:19:59.866269",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Three- to 8-year old children do not favor male power when allocating resources\n\nABSTRACT: Abstract\n                  From an early age, children perceive power imbalances between genders, but their attitudes toward gendered power remain largely unexplored. We studied this issue using a resource allocation task with 653 French children aged 3–8 (50.15% girls) recruited between 2022 and 2023. Participants were exposed to a dyadic power interaction and had to distribute more resources to either the dominant or the subordinate character. We tested three hypotheses: H1 predicted a male dominance bias; H2 predicted own-gender favoritism; and H3 predicted sensitivity to hierarchical status only. Contrary to H1, no pro-male bias was found. Results supported H3: younger children favored dominant characters, while older children favored subordinates. H2 was partially supported, showing own-gender bias, stronger in girls, without overriding sensitivity to status.",
+    "real_title": "Three- to 8-year old children do not favor male power when allocating resources"
+  },
+  "10.1186/s12992-026-01201-3": {
+    "type": "doi",
+    "id": "10.1186/s12992-026-01201-3",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-28 04:19:59.883473",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Back home, beyond borders: a bioecological study of returnee public health scholars in a globalized health system\n\nABSTRACT: Abstract\n                  \n                    Background\n                    Cross-border postgraduate education is reshaping the public health workforce, yet little is known about what “return” looks like in aid-reliant health systems where authority, resources, and evidence are co-produced across government, research institutes, and international organizations. In Nepal, internationally trained public health scholars re-enter a mixed institutional landscape shaped by global higher-education markets, donor accountability regimes, and transnational procurement and supply chains. This study examines how Nepali returnees translate overseas training into system-facing work upon returning home, and how the timing of key milestones shapes what becomes actionable.\n                  \n                  \n                    Methods\n                    Semi-structured interviews were conducted with 12 Nepali public health scholars who returned after postgraduate study abroad (five doctoral graduates; seven master’s graduates) and were working in Nepal at two research institutes and two international non-governmental organizations. Positive deviance purposive sampling targeted returnees with identifiable system impact. Data were analyzed using applied thematic analysis, guided by Bronfenbrenner’s bioecological model (micro-, meso-, exo-, and macrosystems), with the chronosystem examined as a cross-cutting influence.\n                  \n                  \n                    Results\n                    \n                      Four interconnected themes described patterned engagement across ecological levels. (1)\n                      Microsystem—reconstituting role and voice at home\n                      : return decisions were anchored in close relationships and early workplace recognition, with a time-sensitive shift from “credentialed outsider” to trusted colleague. (2)\n                      Mesosystem—boundary navigation\n                      : participants described convening and translating across institutions, with coordination accelerating after early probation and crystallizing around budget cycles, grant windows, and emergencies. (3)\n                      Exosystem—rules\n                      ,\n                      resources\n                      ,\n                      and distant decision-makers\n                      : procurement timelines, ethics review procedures, donor reporting templates, and customs/banking processes frequently determined the feasibility and tempo of reforms. (4)\n                      Macrosystem—national imaginaries\n                      ,\n                      credential politics\n                      ,\n                      and moral horizons of work\n                      : participants described credentials as opening initial doors, but sustained legitimacy depended on visible delivery amid shifting political and administrative cycles; some trained in regional Asian hubs emphasized the practical transferability of methods and policy argumentation. Across themes, timing mattered: family events, contract endings, fiscal quarters, monsoon disruptions, and crisis periods re-shaped constraints and opportunities.\n                    \n                  \n                  \n                    Conclusions\n                    In this cohort, returnee contribution was bioecological and time-sensitive: agency was not simply “brought home,” but assembled through relationships, cross-organizational brokerage, arm’s-length governance, and national legitimacy contests, all modulated by temporal milestones. Treating return as a time-sequenced ecology of action—rather than skill transfer—can better inform how governments, funders, and academic institutions design re-entry supports, procurement and reporting architectures, and evidence-use processes so that international learning more reliably translates into public value.\n                  \n                  \n                    Clinical trial number\n                    Not applicable.\n                  ",
+    "real_title": "Back home, beyond borders: a bioecological study of returnee public health scholars in a globalized health system"
   }
 }
