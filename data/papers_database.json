@@ -16902,7 +16902,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-02-28 04:19:59.832148"
   },
   "10.1136/bmjgh-2025-020634": {
@@ -16943,5 +16943,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Back home, beyond borders: a bioecological study of returnee public health scholars in a globalized health system\n\nABSTRACT: Abstract\n                  \n                    Background\n                    Cross-border postgraduate education is reshaping the public health workforce, yet little is known about what “return” looks like in aid-reliant health systems where authority, resources, and evidence are co-produced across government, research institutes, and international organizations. In Nepal, internationally trained public health scholars re-enter a mixed institutional landscape shaped by global higher-education markets, donor accountability regimes, and transnational procurement and supply chains. This study examines how Nepali returnees translate overseas training into system-facing work upon returning home, and how the timing of key milestones shapes what becomes actionable.\n                  \n                  \n                    Methods\n                    Semi-structured interviews were conducted with 12 Nepali public health scholars who returned after postgraduate study abroad (five doctoral graduates; seven master’s graduates) and were working in Nepal at two research institutes and two international non-governmental organizations. Positive deviance purposive sampling targeted returnees with identifiable system impact. Data were analyzed using applied thematic analysis, guided by Bronfenbrenner’s bioecological model (micro-, meso-, exo-, and macrosystems), with the chronosystem examined as a cross-cutting influence.\n                  \n                  \n                    Results\n                    \n                      Four interconnected themes described patterned engagement across ecological levels. (1)\n                      Microsystem—reconstituting role and voice at home\n                      : return decisions were anchored in close relationships and early workplace recognition, with a time-sensitive shift from “credentialed outsider” to trusted colleague. (2)\n                      Mesosystem—boundary navigation\n                      : participants described convening and translating across institutions, with coordination accelerating after early probation and crystallizing around budget cycles, grant windows, and emergencies. (3)\n                      Exosystem—rules\n                      ,\n                      resources\n                      ,\n                      and distant decision-makers\n                      : procurement timelines, ethics review procedures, donor reporting templates, and customs/banking processes frequently determined the feasibility and tempo of reforms. (4)\n                      Macrosystem—national imaginaries\n                      ,\n                      credential politics\n                      ,\n                      and moral horizons of work\n                      : participants described credentials as opening initial doors, but sustained legitimacy depended on visible delivery amid shifting political and administrative cycles; some trained in regional Asian hubs emphasized the practical transferability of methods and policy argumentation. Across themes, timing mattered: family events, contract endings, fiscal quarters, monsoon disruptions, and crisis periods re-shaped constraints and opportunities.\n                    \n                  \n                  \n                    Conclusions\n                    In this cohort, returnee contribution was bioecological and time-sensitive: agency was not simply “brought home,” but assembled through relationships, cross-organizational brokerage, arm’s-length governance, and national legitimacy contests, all modulated by temporal milestones. Treating return as a time-sequenced ecology of action—rather than skill transfer—can better inform how governments, funders, and academic institutions design re-entry supports, procurement and reporting architectures, and evidence-use processes so that international learning more reliably translates into public value.\n                  \n                  \n                    Clinical trial number\n                    Not applicable.\n                  ",
     "real_title": "Back home, beyond borders: a bioecological study of returnee public health scholars in a globalized health system"
+  },
+  "10.18623/rvd.v23.n4.3719": {
+    "type": "doi",
+    "id": "10.18623/rvd.v23.n4.3719",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-28 16:35:44.913879",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A REVIEW OF DIVERSE RELEASES ON PROFESSIONAL SKEPTICISM IN AUDITING\n\nABSTRACT: Professional skepticism is a distinctive qualification of auditors that is required by the International Standard on Auditing (ISA) to be maintained throughout the audit (ISA 240). Thus, the latter has been continuously subjected to various scrutiny by scholars in the field of accounting and auditing. This review of literature thoroughly assesses the approaches, findings, and other essential aspects of 30 empirical articles published apropos professional skepticism from 2012 to 2023 in renowned journals in accounting, auditing, and business ethics. By the very essence of this review, professional skepticism is conferred on the basis of its framework from divergent point of views. Moreover, the author contemplated on geographical settings, samples selected, sources of data, and the applied statistical techniques. As proposed, this piece of work progresses the frameworks and structures that are expected to expand and concur the diverse scholarly findings relative to professional skepticism.",
+    "real_title": "A REVIEW OF DIVERSE RELEASES ON PROFESSIONAL SKEPTICISM IN AUDITING"
+  },
+  "link_c82c1e5f5e": {
+    "type": "pdf_link",
+    "id": "link_c82c1e5f5e",
+    "url": "https://regionetdeveloppement.univ-tln.fr/wp-content/uploads/4-Carre.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-02-28 16:35:45.343856",
+    "local_path": "downloads/link_c82c1e5f5e.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Quo Vadis regional monetary integration? Major trends in the optimum currency area literature over the last 60 years: A bibliometric approach"
   }
 }
