@@ -16969,5 +16969,18 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** Quo Vadis regional monetary integration? Major trends in the optimum currency area literature over the last 60 years: A bibliometric approach"
+  },
+  "10.1038/d41586-026-00601-0": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00601-0",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-01 05:00:30.389992",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: White House stalls release of approved US science budgets\n\nABSTRACT: 无摘要",
+    "real_title": "White House stalls release of approved US science budgets"
   }
 }
