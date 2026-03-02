@@ -16982,5 +16982,27 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: White House stalls release of approved US science budgets\n\nABSTRACT: 无摘要",
     "real_title": "White House stalls release of approved US science budgets"
+  },
+  "10.1108/mbr-02-2025-0052": {
+    "type": "doi",
+    "id": "10.1108/mbr-02-2025-0052",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-02 04:54:48.503501",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Special purpose entities in the organisational structures of multinational enterprises: a systematic literature review and discussion of future research directions\n\nABSTRACT: \n                    Purpose\n                    This study aims to synthesise fragmented research on Special Purpose Entities (SPEs), defined as entities that have minimal employment, physical presence or operations in host economies yet provide critical services to parent firms. Typically owned by non-residents, SPEs influence firm-level financial flows and complicate foreign direct investment (FDI) statistics. Despite extensive studies across disciplines, the extent of their role and impact remain unclear. This review consolidates existing knowledge, develops an integrative framework based on the antecedents–phenomenon–outcomes structure, highlights research gaps and proposes a future research agenda.\n                  \n                  \n                    Design/methodology/approach\n                    This study adopts a systematic literature review methodology to critically assess the theoretical, methodological and empirical aspects of the literature on SPEs. An exhaustive search of scholarly papers, covering an open-ended period from the inception of relevant research up to August 2024, yields a total of 64 papers published in 37 multi-disciplinary journals for the review.\n                  \n                  \n                    Findings\n                    The SPE literature draws on diverse theoretical perspectives. Methodologically, studies use large-scale, firm- and country-level panel data sets analysed using statistical methods. Empirically, the extant research examines three core components of SPE use: antecedents, the phenomenon and outcomes. Antecedents: studies identify firm-level characteristics and country-level institutional factors as key determinants of SPE use. Phenomenon: SPEs serve critical functions, including holding strategic intangible assets, facilitating financing and securitisation and enabling tax planning, risk isolation and complex financial structuring. Outcomes: these SPE functions significantly influence the dynamics of global financial flows, often leading to pass-through and round-tripping FDI by MNEs, which can distort the accuracy of country-level FDI statistics. Overall, the review highlights the significant implications of SPEs for international tax and FDI policies.\n                  \n                  \n                    Originality/value\n                    This review provides the first comprehensive and systematic synthesis of the theoretical, methodological and empirical knowledge base of the extant SPE research, using an antecedents–phenomenon–outcomes framework. The study offers a nuanced understanding of a complex and cross-disciplinary topic and establishes a foundation for advancing future SPE research.\n                  ",
+    "real_title": "Special purpose entities in the organisational structures of multinational enterprises: a systematic literature review and discussion of future research directions"
+  },
+  "10.1111/1468-0009.70073": {
+    "type": "doi",
+    "id": "10.1111/1468-0009.70073",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-02 04:55:31.812823"
   }
 }
