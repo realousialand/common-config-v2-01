@@ -17004,5 +17004,57 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-03-02 04:55:31.812823"
+  },
+  "10.1177/03091325251380698": {
+    "type": "doi",
+    "id": "10.1177/03091325251380698",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-03 04:53:19.752350",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Moving ideas: An agenda for expanding the political scope of the policy mobilities approach\n\nABSTRACT: This paper addresses the policy mobilities approach’s relative inattention to counter-hegemonic activism and contentious politics. It outlines one way to expand the literature’s engagement with the political. By introducing the notion of “moving ideas”—ideas that circulate among places and also move people to political action—it outlines five avenues for policy mobilities scholars to advance the approach: situated knowledge on-the-move; persuasive storytelling; encounters in physical “truth-spots”; the temporalities of activism; and the role of “futuring” in policy change. It ends with notes on the framework’s possible applicability to numerous social movements and its challenges and limitations.",
+    "real_title": "Moving ideas: An agenda for expanding the political scope of the policy mobilities approach"
+  },
+  "10.1097/ICU.0000000000001212": {
+    "type": "doi",
+    "id": "10.1097/ICU.0000000000001212",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-03 04:53:19.769954",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Impact of United States federal funding on equity and vision research: lessons from history, justice, and politics, 1968–2025\n\nABSTRACT: \n                    Purpose of review\n                    Federal policy has long shaped the scope and inclusivity of vision research in the United States. This narrative review and opinion article evaluates the evolution of equity in vision research over time, from the landmark National Institutes of Health Revitalization Act of 1993 to the direct impact of federal policies in today's political landscape.\n                  \n                  \n                    Recent findings\n                    Equity in vision research originated from early epidemiologic studies identifying social and behavioral determinants of health in the 1970s. The post-2020 period accelerated attention to structural disparities in healthcare, catalyzed by the COVID-19 pandemic and a national conversation on race. However, recent executive orders have reversed equity oriented federal policies, restricted terminology and data access, and changed research funding operations. These ongoing developments pose risks to progress in all areas of research.\n                  \n                  \n                    Summary\n                    Equity in vision research in the United States remains vulnerable to federal priorities that serve to support or destabilize. The current political environment underscores the need for the ophthalmologic research community to safeguard data integrity, sustain diverse participation, and continue methodologically rigorous protocols to ensure continued progress toward equitable vision health.\n                  ",
+    "real_title": "Impact of United States federal funding on equity and vision research: lessons from history, justice, and politics, 1968–2025"
+  },
+  "10.5271/sjweh.4280": {
+    "type": "doi",
+    "id": "10.5271/sjweh.4280",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-03 04:53:19.787003",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Occupational exposure limits for psychosocial hazards: A promising concept or a premature\n                    leap?\n\nABSTRACT: 无摘要",
+    "real_title": "Occupational exposure limits for psychosocial hazards: A promising concept or a premature\n                    leap?"
+  },
+  "10.1038/s44168-026-00347-5": {
+    "type": "doi",
+    "id": "10.1038/s44168-026-00347-5",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-03 04:53:19.803471",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Assessing claims of counterproductivity of Just Stop Oil’s civil disobedience\n\nABSTRACT: Abstract\n                  A key development in the post-pandemic climate movement has been the rise of small-scale civil disobedience groups, who prioritise high-profile disruptions to gain media attention. The British group Just Stop Oil (JSO) have been one of the most publicised. In this paper we research the impact of JSO and ask if they have been counterproductive, as is often claimed. We make a significant contribution to the interdisciplinary literature on climate activism by proposing a two-dimensional framework for assessing counterproductivity. We conducted a rigorous mixed-methods study, analysing how JSO’s campaigning influenced media reporting and public opinion. This included media content analysis and public opinion surveys to evaluate how JSO’s protests shaped discourse on climate policy, public attitudes, and government responses. Our findings show that JSO achieved considerable media visibility, yet it has had limited success in broadening public awareness of climate change. However, they did contribute to increasing the salience of the issue of new oil and gas licences, compelling political actors to publicly address the matter. JSO have not been counterproductive in the sense that they have not turned public or policymakers against Net Zero policies. Their impact on support for the climate movement and state repression is more ambiguous.",
+    "real_title": "Assessing claims of counterproductivity of Just Stop Oil’s civil disobedience"
   }
 }
