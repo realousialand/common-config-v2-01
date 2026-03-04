@@ -1,12 +1,12 @@
-Run Time: 2026-03-03 23:34:39 UTC
+Run Time: 2026-03-04 04:46:50 UTC
 {
-  "ip": "172.172.87.83",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "64.236.215.52",
+  "city": "Chicago",
+  "region": "Illinois",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "41.8500,-87.6500",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "60602",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
