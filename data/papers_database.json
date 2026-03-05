@@ -17108,5 +17108,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Climate research is global — risks and responsibilities should also be distributed\n\nABSTRACT: 无摘要",
     "real_title": "Climate research is global — risks and responsibilities should also be distributed"
+  },
+  "2603.00807": {
+    "type": "arxiv",
+    "id": "2603.00807",
+    "url": "https://arxiv.org/pdf/2603.00807.pdf",
+    "title": "ArXiv 2603.00807",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-05 23:55:46.491348",
+    "local_path": "downloads/2603.00807.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2603.00807"
   }
 }
