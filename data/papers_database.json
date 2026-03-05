@@ -17082,5 +17082,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Editorial team announced for 'eLife', the new open access journal to be launched next year\n\nABSTRACT: The senior editorial team is today announced for 'eLife', the new top-tier, open access research journal to be launched next year with the support of the Howard Hughes Medical Institute, the Max Planck Society and the Wellcome Trust. Read the press release on the Wellcome Trust website.",
     "real_title": "Editorial team announced for 'eLife', the new open access journal to be launched next year"
+  },
+  "10.1016/j.gaceta.2026.102574": {
+    "type": "doi",
+    "id": "10.1016/j.gaceta.2026.102574",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-05 04:50:56.054459",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Abuse of power over medical residents and students: a qualitative study\n\nABSTRACT: 无摘要",
+    "real_title": "Abuse of power over medical residents and students: a qualitative study"
+  },
+  "10.1038/d41586-026-00680-z": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00680-z",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-05 04:50:56.076660",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Climate research is global — risks and responsibilities should also be distributed\n\nABSTRACT: 无摘要",
+    "real_title": "Climate research is global — risks and responsibilities should also be distributed"
   }
 }
