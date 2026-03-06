@@ -17121,5 +17121,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "ArXiv 2603.00807"
+  },
+  "link_738618d2e4": {
+    "type": "pdf_link",
+    "id": "link_738618d2e4",
+    "url": "https://arxiv.org/pdf/2603.00807.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-06 04:48:01.050357",
+    "local_path": "downloads/link_738618d2e4.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "10.1016/j.accpm.2026.101796": {
+    "type": "doi",
+    "id": "10.1016/j.accpm.2026.101796",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-06 04:48:01.898879",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Gender Bias: reality or perception? – proposed solutions to create equitable and inclusive workplaces\n\nABSTRACT: 无摘要",
+    "real_title": "Gender Bias: reality or perception? – proposed solutions to create equitable and inclusive workplaces"
   }
 }
