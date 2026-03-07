@@ -1,12 +1,12 @@
-Run Time: 2026-03-07 04:26:33 UTC
+Run Time: 2026-03-07 10:31:56 UTC
 {
-  "ip": "172.183.135.146",
-  "city": "Chicago",
-  "region": "Illinois",
+  "ip": "4.154.22.5",
+  "city": "Moses Lake",
+  "region": "Washington",
   "country": "US",
-  "loc": "41.8500,-87.6500",
+  "loc": "47.1301,-119.2781",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "60602",
-  "timezone": "America/Chicago",
+  "postal": "98837",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
