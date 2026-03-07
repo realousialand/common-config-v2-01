@@ -17153,8 +17153,34 @@
     "id": "10.2196/90652",
     "url": null,
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
+    "status": "ANALYZED",
     "retry": 2,
-    "ts": "2026-03-07 04:26:30.066647"
+    "ts": "2026-03-07 04:26:30.066647",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Correction: Ingroup Favoritism Surrounding COVID-19 Vaccinations in the Hispanic Communities: Experimental Study\n\nABSTRACT: ",
+    "real_title": "Correction: Ingroup Favoritism Surrounding COVID-19 Vaccinations in the Hispanic Communities: Experimental Study"
+  },
+  "link_44b0da479b": {
+    "type": "pdf_link",
+    "id": "link_44b0da479b",
+    "url": "https://dpii.morelia.tecnm.mx/book-search/xxsrM5/277046/kieso-intermediate-accounting_chapter-14-solutions.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-07 16:36:46.547050"
+  },
+  "link_2e18e27904": {
+    "type": "pdf_link",
+    "id": "link_2e18e27904",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1119129A899F3D0651C12DE839C64A7F/S0007680525101359a.pdf/accommodating-agriculture-within-us-capitalism-cotton-cooperatives-and-intermediate-credit-in-the-early-twentieth-century.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-07 16:36:46.900841",
+    "local_path": "downloads/link_2e18e27904.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Accommodating Agriculture within US Capitalism: Cotton, Cooperatives, and Intermediate Credit in the Early Twentieth Century"
   }
 }
