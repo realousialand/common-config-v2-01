@@ -17208,5 +17208,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Welcome to the 2025 ODID Report"
+  },
+  "10.1111/1467-9566.70170": {
+    "type": "doi",
+    "id": "10.1111/1467-9566.70170",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-09 04:58:40.689363",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Participation Beyond Compliance: Who Tried to Influence Other People's Vaccination Behaviour During the COVID‐19 Crisis?\n\nABSTRACT: ABSTRACT\n                  \n                    In this paper, we call for more attention to be paid to what we call ordinary contributions to public health policies: the propensity of ordinary citizens to actively influence others to follow or reject a health policy. Shifting the focus from personal compliance to active participation (i.e., ordinary contribution) raises distinct questions pertaining to self‐empowerment, personal network composition and the public denunciation of antivaccinationism. We draw on a survey conducted during the summer of 2022 among a representative sample of the French public (\n                    n\n                     = 4004) to understand what made some people try to bear on other people's behaviours regarding COVID‐19 vaccination. We asked respondents whether they tried to convince people in their various social circles to get vaccinated or to not get vaccinated. We found that a significant share of French people—especially the most vaccine‐hesitant—kept their opinions to themselves. Controlling for vaccine hesitancy and concern regarding COVID‐19, the propensity to engage in ordinary contributions was heavily influenced by relationship to politics. We discuss the overlapping between political competence and health literacy and the tensions that can arise in everyday discussions of issues at the interface of health and politics.\n                  ",
+    "real_title": "Participation Beyond Compliance: Who Tried to Influence Other People's Vaccination Behaviour During the COVID‐19 Crisis?"
+  },
+  "10.1007/s40615-026-02892-5": {
+    "type": "doi",
+    "id": "10.1007/s40615-026-02892-5",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-09 04:58:40.708285",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Medicaid Expansion for La Comunidad Latina in North Carolina: Community Health Workers’ Role in Outreach\n\nABSTRACT: Abstract\n                  \n                    Purpose\n                    \n                      The Fostering Insurance Enrollment among Latinos in North Carolina (FIEL-NC) Project evaluated the experiences of Latino/a/e/x or Hispanic individuals (herein referred to as\n                      la comunidad Latina\n                      , as preferred by the community) with Medicaid enrollment following expansion in North Carolina (NC) to identify successes and areas for improvement.\n                    \n                  \n                  \n                    Methods\n                    \n                      The study team recruited community members who self-identified as members of\n                      la comunidad Latina\n                      and have considered, attempted, or successfully enrolled in Medicaid post-expansion. We recruited community health workers (CHWs) who self-identified as members of\n                      la comunidad Latina\n                      and conducted insurance outreach post-expansion. Eligible participants completed a Spanish or English survey. Data was analyzed using chi-squared and Fisher’s exact tests in STATA.\n                    \n                  \n                  \n                    Results\n                    \n                      Results of this exploratory analysis demonstrate that among participating community members (\n                      n\n                       = 44), 30% enrolled in Medicaid post-expansion, 36% attempted but were unsuccessful, and 34% did not attempt. Spanish-speaking, female, and foreign-born community members were more likely to have lower health knowledge and remain uninsured if not enrolled in Medicaid, compared to English-speaking, male, or U.S.-born counterparts. Half of community members reported limited health insurance knowledge. Among CHWs (\n                      n\n                       = 57), 65% reported above average health knowledge, with more years of experience associated with increased health insurance knowledge. Almost all (98%) CHWs identified as Spanish-speaking, and 100% reported serving Spanish-speaking communities.\n                    \n                  \n                  \n                    Conclusion\n                    Most community members had limited health insurance knowledge, which is a known barrier to enrollment. CHWs increase language concordance, trust, and engagement with health systems and resources. Expanding CHW health insurance training and CHW-led outreach can improve Medicaid enrollment among all eligible individuals.\n                  ",
+    "real_title": "Medicaid Expansion for La Comunidad Latina in North Carolina: Community Health Workers’ Role in Outreach"
   }
 }
