@@ -1,12 +1,12 @@
-Run Time: 2026-03-09 23:35:37 UTC
+Run Time: 2026-03-10 04:53:23 UTC
 {
-  "ip": "40.76.117.242",
-  "city": "Washington",
-  "region": "Virginia",
+  "ip": "20.40.253.99",
+  "city": "Des Moines",
+  "region": "Iowa",
   "country": "US",
-  "loc": "38.7135,-78.1594",
+  "loc": "41.6005,-93.6091",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "22747",
-  "timezone": "America/New_York",
+  "postal": "50307",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
