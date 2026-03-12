@@ -17337,8 +17337,12 @@
     "id": "10.1177/01640275261432981",
     "url": null,
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
+    "status": "ANALYZED",
     "retry": 1,
-    "ts": "2026-03-12 04:53:23.556428"
+    "ts": "2026-03-12 04:53:23.556428",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Patterns and Consequences of Adult Grandchildren’s Perceptions of Grandmothers' Differential Treatment on Well-Being\n\nABSTRACT: This paper expands research on within-family differences in later-life families by examining patterns and consequences of adult children’s perceptions of their grandmothers’ differential treatment. Mixed-methods data were collected from 221 adult grandchildren nested within 81 families as part of the Within-Family Differences Study. Multilevel linear regression and qualitative analyses were used to examine patterns, consequences, and explanations of grandmothers’ differential treatment. Perceiving oneself as the grandchild to whom grandmothers were the most emotionally close was associated with higher depressive symptoms among granddaughters, but not grandsons. Qualitative analyses suggested that higher depressive symptoms among favored granddaughters resulted from serving as their grandmothers’ emotional caregivers, which heightened granddaughters’ sense of responsibility and exposure to age-related challenges their grandmothers faced. This paper contributes to the literature on intergenerational ties and well-being by demonstrating that perceptions of grandmothers’ differential treatment are common and identifying conditions under which such perceptions affect adult grandchildren’s depressive symptoms.",
+    "real_title": "Patterns and Consequences of Adult Grandchildren’s Perceptions of Grandmothers' Differential Treatment on Well-Being"
   }
 }
