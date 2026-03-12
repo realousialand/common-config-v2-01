@@ -17344,5 +17344,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Patterns and Consequences of Adult Grandchildren’s Perceptions of Grandmothers' Differential Treatment on Well-Being\n\nABSTRACT: This paper expands research on within-family differences in later-life families by examining patterns and consequences of adult children’s perceptions of their grandmothers’ differential treatment. Mixed-methods data were collected from 221 adult grandchildren nested within 81 families as part of the Within-Family Differences Study. Multilevel linear regression and qualitative analyses were used to examine patterns, consequences, and explanations of grandmothers’ differential treatment. Perceiving oneself as the grandchild to whom grandmothers were the most emotionally close was associated with higher depressive symptoms among granddaughters, but not grandsons. Qualitative analyses suggested that higher depressive symptoms among favored granddaughters resulted from serving as their grandmothers’ emotional caregivers, which heightened granddaughters’ sense of responsibility and exposure to age-related challenges their grandmothers faced. This paper contributes to the literature on intergenerational ties and well-being by demonstrating that perceptions of grandmothers’ differential treatment are common and identifying conditions under which such perceptions affect adult grandchildren’s depressive symptoms.",
     "real_title": "Patterns and Consequences of Adult Grandchildren’s Perceptions of Grandmothers' Differential Treatment on Well-Being"
+  },
+  "link_3a80618368": {
+    "type": "pdf_link",
+    "id": "link_3a80618368",
+    "url": "https://americanimpactreview.com/articles/e2026018.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-12 23:35:35.276743",
+    "local_path": "downloads/link_3a80618368.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Value Creation in the Algorithmic Age: A Systematic Review of How AI, Data Privacy, and Platform Ecosystems Are Reshaping Marketing Theory"
+  },
+  "10.1108/jal-07-2025-0327": {
+    "type": "doi",
+    "id": "10.1108/jal-07-2025-0327",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-12 23:35:46.457898",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Income smoothing: a review of the international literature\n\nABSTRACT: \n                    Purpose\n                    We provide a systematic literature review of the determinants and consequences of income smoothing in an international context. First, we offer a theoretical discussion of income smoothing, which is motivated either by opportunistic or by informative reasons, followed by an examination of its measurement. Next, we review the determinants of income smoothing, categorizing them into financial reporting standards, firm characteristics, corporate governance, managerial characteristics and macro environment determinants. We then review the empirical literature on the consequences of income smoothing from the perspective of capital market and credit market consequences. We also provide some suggestions for future research.\n                  \n                  \n                    Design/methodology/approach\n                    We perform a systematic literature review using the Preferred Reporting Items for a Systematic Review of Meta-Analysis (PRISMA) guidelines to examine archival studies investigating the determinants and consequences of income smoothing. Using a Boolean search strategy on Scopus and PRISMA selection criteria, we review 111 published archival research articles from 2004 to the first quarter of 2025.\n                  \n                  \n                    Findings\n                    The implementation of reporting standards reduces income smoothing practices. Firm characteristics have varied effects on income smoothing, while governance reforms and internal corporate governance mechanisms are generally found to constrain smoothing behavior. Our review further reveals that managerial characteristics are associated with income smoothing practices. Furthermore, exogenous shocks also shape managerial incentives to engage in income smoothing. The capital market consequences of income smoothing reveal that income smoothing improves earnings informativeness, lowers both equity and credit investors' perceived risk, but increases future stock price crash risk. The credit market effect shows that income smoothing lowers the cost of debt capital.\n                  \n                  \n                    Originality/value\n                    Although there remains a high-quality review on earnings quality (e.g. Dechow et al., 2010), we lack a thorough coverage of the evolution of income smoothing research for the last two decades. We fill that void in the literature, highlight some research gaps, draw researchers' attention to measurement problems associated with existing smoothing measures, and offer some suggestions for future research.\n                  ",
+    "real_title": "Income smoothing: a review of the international literature"
   }
 }
