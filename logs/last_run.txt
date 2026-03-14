@@ -1,12 +1,12 @@
-Run Time: 2026-03-13 23:36:00 UTC
+Run Time: 2026-03-14 04:49:07 UTC
 {
-  "ip": "20.109.86.227",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "13.66.174.88",
+  "city": "Moses Lake",
+  "region": "Washington",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "47.1301,-119.2781",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "98837",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
