@@ -17474,5 +17474,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: CHILD [AND] ACCOUNTING\n\nABSTRACT: children and love,&#x0D;\nthey have been on the fringes of the accounting discussion,&#x0D;\nthey are not logocentric accounting,a pitty.&#x0D;\nKeywords: child; accounting; solipsism",
     "real_title": "CHILD [AND] ACCOUNTING"
+  },
+  "10.1177/09721509261427983": {
+    "type": "doi",
+    "id": "10.1177/09721509261427983",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-15 16:41:04.312998",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Enhancing Intellectual Capital Disclosure Through Stakeholder Engagement: A Firm Life Cycle Perspective\n\nABSTRACT: \n                    This study examines the effect of stakeholder engagement (SE) on the quality of intellectual capital disclosure (ICD) in Indian firms and explores how this relationship varies across firm life cycle (FLC) stages. Using panel data from 100 non-financial firms listed on the Bombay Stock Exchange for 2018–2023, ICD quality is measured through content analysis based on a four-point scale covering six intellectual capital components. Firms are classified into growth, maturity and revival stages following Dickinson’s (2011,\n                    Accounting Review\n                    , 86, 6, 1969–1994) cash-flow-based approach. A two-step system generalized method of moments (GMM) estimator is employed to address endogeneity concerns. The results show that SE significantly enhances overall ICD quality, particularly disclosures related to human, structural, relational and process capital, while its influence on IT and R&amp;D disclosures is limited. The strength of the SE–ICD relationship varies across FLC stages and is most pronounced in revival-stage firms. Grounded in agency, stakeholder, legitimacy and resource-based theories, the study highlights SE as a strategic mechanism shaping ICD practices across stages of firm development in an emerging-market context.\n                  ",
+    "real_title": "Enhancing Intellectual Capital Disclosure Through Stakeholder Engagement: A Firm Life Cycle Perspective"
+  },
+  "10.2139/ssrn.5033979": {
+    "type": "doi",
+    "id": "10.2139/ssrn.5033979",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-15 16:41:17.149943",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Effect of Fintech Financing on Firm Performance: Evidence from Emerging Economies\n\nABSTRACT: 无摘要",
+    "real_title": "The Effect of Fintech Financing on Firm Performance: Evidence from Emerging Economies"
   }
 }
