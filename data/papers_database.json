@@ -17500,5 +17500,49 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: The Effect of Fintech Financing on Firm Performance: Evidence from Emerging Economies\n\nABSTRACT: 无摘要",
     "real_title": "The Effect of Fintech Financing on Firm Performance: Evidence from Emerging Economies"
+  },
+  "link_16bf1827c1": {
+    "type": "pdf_link",
+    "id": "link_16bf1827c1",
+    "url": "https://api.acjol.com/API/get_paper_pdf/ekwe_1772637336.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-16 17:11:23.395039",
+    "local_path": "downloads/link_16bf1827c1.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "POLITICS OF REVENUE ALLOCATION IN NIGERIA: ISSUES AND PROSPECTS**"
+  },
+  "link_34c45850f3": {
+    "type": "pdf_link",
+    "id": "link_34c45850f3",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-92524-5_133.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-16 17:11:23.946023"
+  },
+  "link_fb833ddc3a": {
+    "type": "pdf_link",
+    "id": "link_fb833ddc3a",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-68127-2_906-1.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-16 17:11:23.963995"
+  },
+  "link_6e762c7381": {
+    "type": "pdf_link",
+    "id": "link_6e762c7381",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-10374-1.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-16 17:11:23.981771",
+    "local_path": "downloads/link_6e762c7381.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Moses, Muhammad and Their Laws in Transatlantic Slave History"
   }
 }
