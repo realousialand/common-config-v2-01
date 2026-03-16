@@ -17520,7 +17520,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-92524-5_133.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-03-16 17:11:23.946023"
   },
   "link_fb833ddc3a": {
@@ -17529,7 +17529,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-68127-2_906-1.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-03-16 17:11:23.963995"
   },
   "link_6e762c7381": {
