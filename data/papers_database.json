@@ -17570,5 +17570,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Canadian copyright protections for neurodata: ethical and legal implications\n\nABSTRACT: Abstract\n                  This essay examines how Canadian copyright law treats neurodata generated for neuroprediction and further probes if copyright or similar protections would offer mechanisms to safeguard individuals who produce those data. Using a hypothetical fact pattern, we apply the conditions for subsistence of copyright to neurodata created by a research participant and processed by a researcher. The results of the analysis indicate that both parties can credibly argue that copyright subsists in the neurodata, although such an outcome is neither established nor guaranteed under current law. We then explore the policy significance of this legal analysis from a neuroethics perspective. Drawing together literatures on data justice, political economy, and neurotechnology governance, we argue that when people produce neurodata, legal systems should appropriately honor their contributions. This could be accomplished through protections of the integrity of neurodata from harmful misuse, akin to what moral rightsholders can accomplish under Canadian moral rights doctrine. We further highlight the need to protect individual autonomy over brain data, whether via copyright or another mechanism. We conclude that the Canadian approach to copyright law and moral rights offers a model for policy and governance as neurodata find their way into legally and socially consequential technologies.",
     "real_title": "Canadian copyright protections for neurodata: ethical and legal implications"
+  },
+  "10.1007/s10499-009-9295-x": {
+    "type": "doi",
+    "id": "10.1007/s10499-009-9295-x",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-17 23:39:43.419791",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Economic analysis of tiger grouper Epinephelus fuscoguttatus and humpback grouper Cromileptes altivelis commercial cage culture in Indonesia\n\nABSTRACT: 无摘要",
+    "real_title": "Economic analysis of tiger grouper Epinephelus fuscoguttatus and humpback grouper Cromileptes altivelis commercial cage culture in Indonesia"
   }
 }
