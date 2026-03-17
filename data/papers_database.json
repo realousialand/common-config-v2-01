@@ -17520,7 +17520,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-92524-5_133.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-03-16 17:11:23.946023"
   },
   "link_fb833ddc3a": {
@@ -17529,7 +17529,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-68127-2_906-1.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-03-16 17:11:23.963995"
   },
   "link_6e762c7381": {
@@ -17544,5 +17544,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Moses, Muhammad and Their Laws in Transatlantic Slave History"
+  },
+  "10.1038/s44458-025-00029-z": {
+    "type": "doi",
+    "id": "10.1038/s44458-025-00029-z",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-17 04:58:22.102501",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Large language model reveals an increase in climate contrarian speech in the United States Congress\n\nABSTRACT: Abstract\n                  Contrarian voices on climate change have reached the highest levels of government in the United States: the US Congress has been a focal point for climate obstruction, playing an important role in impeding US climate action and stymieing global negotiations. We take a closer look at these voices by examining Congressional speeches from 1994 to 2023, a period containing important moments in the history of climate (in)action in the US. We contribute to the literature by 1) developing a scalable large language model (LLM) to accurately classify climate contrarianism in Congressional speech and 2) offering a systematic analysis of the specific contrarian claims in Congress. We demonstrate that an increasing proportion of speeches are critiquing the costs of climate solutions and Republicans are roughly 12 times more likely than Democrats to make contrarian claims. Statistical analysis further suggests that demographic factors and district-level fossil fuel employment predict claims making in floor speeches.",
+    "real_title": "Large language model reveals an increase in climate contrarian speech in the United States Congress"
+  },
+  "10.1093/jlb/lsag008": {
+    "type": "doi",
+    "id": "10.1093/jlb/lsag008",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-17 04:58:22.121063",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Canadian copyright protections for neurodata: ethical and legal implications\n\nABSTRACT: Abstract\n                  This essay examines how Canadian copyright law treats neurodata generated for neuroprediction and further probes if copyright or similar protections would offer mechanisms to safeguard individuals who produce those data. Using a hypothetical fact pattern, we apply the conditions for subsistence of copyright to neurodata created by a research participant and processed by a researcher. The results of the analysis indicate that both parties can credibly argue that copyright subsists in the neurodata, although such an outcome is neither established nor guaranteed under current law. We then explore the policy significance of this legal analysis from a neuroethics perspective. Drawing together literatures on data justice, political economy, and neurotechnology governance, we argue that when people produce neurodata, legal systems should appropriately honor their contributions. This could be accomplished through protections of the integrity of neurodata from harmful misuse, akin to what moral rightsholders can accomplish under Canadian moral rights doctrine. We further highlight the need to protect individual autonomy over brain data, whether via copyright or another mechanism. We conclude that the Canadian approach to copyright law and moral rights offers a model for policy and governance as neurodata find their way into legally and socially consequential technologies.",
+    "real_title": "Canadian copyright protections for neurodata: ethical and legal implications"
   }
 }
