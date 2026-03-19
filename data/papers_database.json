@@ -17648,5 +17648,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Favoritism under Social Pressure\n\nABSTRACT: This chapter examines the effect of social forces as determinants of behavior, in particular the role of social pressure as a determinant of corruption, through the lens of professional soccer. First, it shows and quantifies the referee's bias. The premise is that the amount of extra time should not systematically depend on the identity of the team that is leading at the end of a game. Second, the hypothesis that referees show a bias for the home team because of social pressure means that the bias should be stronger when the crowd's rewards from winning are higher. Third, what is the specific mechanism that could plausibly underlie this behavior? The hypothesis underlying this chapter is that it is the actual crowd in the stadium that puts pressure on referees.",
     "real_title": "Favoritism under Social Pressure"
+  },
+  "10.1038/d41586-026-00823-2": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00823-2",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-19 05:00:55.143468",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: NIH pivots away from agency-directed science\n\nABSTRACT: 无摘要",
+    "real_title": "NIH pivots away from agency-directed science"
+  },
+  "link_c32c5157c6": {
+    "type": "pdf_link",
+    "id": "link_c32c5157c6",
+    "url": "https://www.researchgate.net/profile/Laszlo-Pokorny/publication/401991953_The_Economic_Toll_of_Grid_Fragility_Quantifying_the_Costs_and_National_Security_Implications_of_Converging_Physical_Cyber_Infrastructure_and_Demand-Side_Threats_to_the_US_Electrical_Grid/links/69b4e024a5bf176ab54fda1d/The-Economic-Toll-of-Grid-Fragility-Quantifying-the-Costs-and-National-Security-Implications-of-Converging-Physical-Cyber-Infrastructure-and-Demand-Side-Threats-to-the-US-Electrical-Grid.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-03-19 05:00:55.953871",
+    "local_path": "downloads/link_c32c5157c6.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
