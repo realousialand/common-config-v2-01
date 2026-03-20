@@ -17699,5 +17699,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: How intergroup context shapes children’s decision to compensate and punish unfairness.\n\nABSTRACT: 无摘要",
     "real_title": "How intergroup context shapes children’s decision to compensate and punish unfairness."
+  },
+  "link_98012ec499": {
+    "type": "pdf_link",
+    "id": "link_98012ec499",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-95-6465-1.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-20 23:36:58.438855",
+    "local_path": "downloads/link_98012ec499.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Machine Learning in Social Science Applications and Advances"
   }
 }
