@@ -17673,5 +17673,31 @@
     "local_path": "downloads/link_c32c5157c6.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1093/pnasnexus/pgag038": {
+    "type": "doi",
+    "id": "10.1093/pnasnexus/pgag038",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-20 04:53:30.403782",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Entrepreneurs of conflict: A descriptive analysis of when and how political elites use divisive rhetoric\n\nABSTRACT: Abstract\n                  The rise of divisive rhetoric in American politics reflects and reinforces broader system-level polarization, yet the incentives driving this behavior are not well understood. To investigate this puzzle, we conduct a large-scale descriptive analysis, linking 2.2 million public statements from the 118th US Congress to records of media coverage, campaign finance, and electoral outcomes. Using a large-language model, we identify “conflict entrepreneurs”—legislators who frequently use personal insults—and document their behavior and its correlates. Our descriptive findings reveal a stark but asymmetric pattern: personal attacks occur in both parties but are more frequent among Republicans and are strongly associated with greater media coverage but show no corresponding positive relationship with fundraising, vote margins, legislative success, or personal wealth. Furthermore, this rhetorical style does not simply reflect constituent sentiment; we find no correlation between a legislator’s use of insults and the partisan animosity in their district. These documented patterns suggest a political incentive structure where the pursuit of media visibility alone sustains a form of discourse that may be corrosive to democratic norms, even without apparent electoral or financial rewards.",
+    "real_title": "Entrepreneurs of conflict: A descriptive analysis of when and how political elites use divisive rhetoric"
+  },
+  "10.1037/xge0001899": {
+    "type": "doi",
+    "id": "10.1037/xge0001899",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-20 04:53:30.422320",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: How intergroup context shapes children’s decision to compensate and punish unfairness.\n\nABSTRACT: 无摘要",
+    "real_title": "How intergroup context shapes children’s decision to compensate and punish unfairness."
   }
 }
