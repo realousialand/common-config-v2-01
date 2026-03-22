@@ -1,12 +1,12 @@
-Run Time: 2026-03-22 16:39:45 UTC
+Run Time: 2026-03-22 23:35:34 UTC
 {
-  "ip": "20.109.38.113",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "172.215.218.16",
+  "city": "Cheyenne",
+  "region": "Wyoming",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "41.1400,-104.8203",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "82002",
+  "timezone": "America/Denver",
   "readme": "https://ipinfo.io/missingauth"
 }
