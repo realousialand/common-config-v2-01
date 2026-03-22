@@ -17803,5 +17803,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Poverty and access to health care: the political economy of redesigning user charges in the context of fiscal pressure\n\nABSTRACT: Abstract\n                  Global and regional commitments to universal health coverage emphasize reducing financial hardship due to out-of-pocket payments for health care. Despite this, many countries continue to rely on user charges—either to raise revenue or reduce demand—especially under fiscal pressure. We conducted a narrative review of academic literature on the theoretical basis for and empirical effects of user charges in health systems. This was complemented by recent case studies from Slovenia, Estonia, and Cyprus, selected to illustrate diverse approaches to user charge policy under fiscal constraints. Common arguments in favour of user charges are that they can mitigate excess health care consumption and generate revenues. However, evidence suggests they often deter necessary care and lead to financial hardship, especially for low-income groups. Country case studies reveal varied approaches towards user charges in the context of fiscal pressure: Estonia increased co-payments despite prior efforts to improve financial protection; Slovenia eliminated user charges by introducing a flat levy to generate additional revenue; and Cyprus dramatically reduced its reliance on out-of-pocket payments by increasing public spending on health. Growing fiscal pressure may tempt countries to implement or increase user charges. However, doing so without adequate protective mechanisms can increase financial hardship, poverty and unmet health needs. Policymakers should prioritize pre-payment mechanisms and equity-oriented safeguards to ensure sustainable, fair and affordable access to health care. Continuous monitoring of financial hardship remains essential to inform policy decisions.",
     "real_title": "Poverty and access to health care: the political economy of redesigning user charges in the context of fiscal pressure"
+  },
+  "10.1038/d41586-026-00822-3": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00822-3",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-22 04:58:47.618144",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: ‘Unaffordable’ visa price hike threatens Australia’s researcher pipeline\n\nABSTRACT: 无摘要",
+    "real_title": "‘Unaffordable’ visa price hike threatens Australia’s researcher pipeline"
   }
 }
