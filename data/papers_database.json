@@ -17816,5 +17816,27 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: ‘Unaffordable’ visa price hike threatens Australia’s researcher pipeline\n\nABSTRACT: 无摘要",
     "real_title": "‘Unaffordable’ visa price hike threatens Australia’s researcher pipeline"
+  },
+  "link_f5f8117459": {
+    "type": "pdf_link",
+    "id": "link_f5f8117459",
+    "url": "https://www.landecon.cam.ac.uk/sites/default/files/2026-03/2026-05_sw_cover_merge.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-22 10:36:27.407775",
+    "local_path": "downloads/link_f5f8117459.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Effects of Pay Inequality on Fairness and Effort: New Experimental Evidence"
+  },
+  "link_79c65982a3": {
+    "type": "pdf_link",
+    "id": "link_79c65982a3",
+    "url": "https://phd.lib.uni-corvinus.hu/1496/1/Csontos_Tamas_den.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-22 10:36:27.426877"
   }
 }
