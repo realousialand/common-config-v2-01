@@ -17838,5 +17838,67 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-03-22 10:36:27.426877"
+  },
+  "link_0f58ade036": {
+    "type": "pdf_link",
+    "id": "link_0f58ade036",
+    "url": "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1913",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-24 05:00:35.628535"
+  },
+  "link_eccef545a4": {
+    "type": "pdf_link",
+    "id": "link_eccef545a4",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1913&context=wmelpr&amp;rt=The+Path+to+Abundance:+The+Legal,+Policy,+and+Political+Challenges+of+an+Abundance+Agenda&amp;scisig=ADi0EEU1CgxxEy48PuJCXklVsDrN",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-24 05:00:35.647018"
+  },
+  "link_50a0d9396a": {
+    "type": "pdf_link",
+    "id": "link_50a0d9396a",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1913&context=wmelpr&amp;rt=The+Path+to+Abundance:+The+Legal,+Policy,+and+Political+Challenges+of+an+Abundance+Agenda&amp;scisig=ADi0EEU1CgxxEy48PuJCXklVsDrN",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-24 05:00:35.666101"
+  },
+  "link_0ea939ce05": {
+    "type": "pdf_link",
+    "id": "link_0ea939ce05",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1913&context=wmelpr&amp;rt=The+Path+to+Abundance:+The+Legal,+Policy,+and+Political+Challenges+of+an+Abundance+Agenda&amp;scisig=ADi0EEU1CgxxEy48PuJCXklVsDrN",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-03-24 05:00:35.684136"
+  },
+  "link_87736488e8": {
+    "type": "pdf_link",
+    "id": "link_87736488e8",
+    "url": "https://eprints.soton.ac.uk/510036/1/PhD_Thesis_Zeyu_Yang.3A.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-24 05:00:36.269144",
+    "local_path": "downloads/link_87736488e8.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The symbolic use of ESG assurance and its implications for corporate accountability: A Study of earnings management and tax avoidance."
+  },
+  "10.1177/03063127261422445": {
+    "type": "doi",
+    "id": "10.1177/03063127261422445",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-24 05:00:37.477179",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Nuclear Decommissioning and the Political Economy of Waste: Exploring Nuclear Attachments in Italy\n\nABSTRACT: Overshadowed by expert and public debates over reactor safety and waste disposal solutions, nuclear decommissioning is a variably long transitional phase during which host communities face numerous uncertainties regarding their future and nuclear sites’ cleanup results. What happens to nuclear facilities when they become obsolete and need to retire? How much does it cost to dismantle a nuclear plant, and what are the socioecological implications of decommissioning projects? Focusing on one case in Italy, this study adopts a longitudinal approach to nuclear site biographies, demonstrating how national regulations, decommissioning funding schemes, technical and environmental characteristics of the facilities, and the socioeconomic conditions of affected communities concur to shape decommissioning projects. My approach builds on recent works on nuclear attachments exploring local communities’ ambivalence toward nuclear installations. I argue that decommissioning processes should be analyzed considering larger management schemes, interests, and constraints that at multiple levels concur to form political economies of nuclear waste.",
+    "real_title": "Nuclear Decommissioning and the Political Economy of Waste: Exploring Nuclear Attachments in Italy"
   }
 }
