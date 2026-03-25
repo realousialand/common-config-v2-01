@@ -17926,5 +17926,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** Enhancing Tax Consultants' Performance and Productivity through Digital Literacy and Artificial Intelligence: A Systematic Literature Review"
+  },
+  "10.1136/bmjgh-2025-020101": {
+    "type": "doi",
+    "id": "10.1136/bmjgh-2025-020101",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-25 23:42:11.573742",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: State capacity and health system financing: a cross-country analysis\n\nABSTRACT: \n                    Introduction\n                    Achieving universal health coverage (UHC) requires not only financial resources but also strong and capable states that can mobilise, allocate and effectively manage those resources. Although fiscal capacity is widely acknowledged as a key determinant of health systems financing, state capacity is a broader, multidimensional construct that encompasses the administrative, legal and coercive functions of the state.\n                  \n                  \n                    Methods\n                    This study investigates how multiple dimensions of state capacity—bureaucratic quality, corruption, rule of law, military involvement in politics, government effectiveness, property rights and state fragility—are associated with key measures of health financing. We analyse an unbalanced global panel of 141 countries, including 49 low- and middle-income countries, over the period 2000–2020. Using data from established cross-country institutional and health financing sources, we estimate fixed-effects and random-effects panel regression models to assess the relationship between state capacity and the two health financing metrics: government health expenditure per capita and out-of-pocket health spending as a share of current health expenditure, used here as a proxy for financial protection.\n                  \n                  \n                    Results\n                    Our findings indicate that stronger state capacity is consistently associated with higher public health investment and reduced out-of-pocket spending by households. A 1 SD increase in bureaucratic quality is associated with a 2.6 percentage-point lower share of OOP health expenditure in current health spending. Similarly, 1 SD improvements in government effectiveness and property rights are associated with 1.6 and 2.8 percentage-point lower OOP shares, respectively. A 1 SD increase in rule of law, government effectiveness or property rights is associated with a 13%–31% higher level of government health expenditure (GHE) per capita, whereas a 1 SD increase in state fragility is associated with a 32% lower GHE per capita. The aggregate state capacity index is positively associated with GHE per capita, with a 1 SD increase corresponding to a 17.5% higher level of public health spending.\n                  \n                  \n                    Conclusion\n                    The results underscore the critical role of state institutions in achieving sustainable and equitable health financing and highlight the importance of governance reforms in accelerating progress toward UHC across diverse national contexts.\n                  ",
+    "real_title": "State capacity and health system financing: a cross-country analysis"
+  },
+  "10.1038/d41586-026-00883-4": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00883-4",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-25 23:42:11.590456",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Why AI hasn’t caused a job apocalypse — so far\n\nABSTRACT: 无摘要",
+    "real_title": "Why AI hasn’t caused a job apocalypse — so far"
   }
 }
