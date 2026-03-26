@@ -17952,5 +17952,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Why AI hasn’t caused a job apocalypse — so far\n\nABSTRACT: 无摘要",
     "real_title": "Why AI hasn’t caused a job apocalypse — so far"
+  },
+  "10.1108/jal-02-2025-0065": {
+    "type": "doi",
+    "id": "10.1108/jal-02-2025-0065",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-26 11:00:46.567652",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Changing priorities in financial archival research: Evidence from three decades of accounting publications\n\nABSTRACT: \n                    Purpose\n                    The primary objective of this study is to provide a comprehensive overview of the evolution of accounting literature and identify the research topics in financial archival research that have garnered the most interest and impact over the past three decades.\n                  \n                  \n                    Design/methodology/approach\n                    We categorize financial archival studies by analyzing various aspects, including research topics, research settings, author demographics (number and gender), title length, and publication journals. We further examine publication trends and citation patterns within each classification. Additionally, we introduce the Citations-to-Publications Sensitivity (CPS) Index to assess the impact of research topics over time.\n                  \n                  \n                    Findings\n                    Through a comprehensive analysis of financial archival studies published in 12 major accounting journals, our study reveals that while certain key accounting research themes have consistently attracted significant attention, there have been noticeable shifts in both research interests and impacts over time. Traditionally, topics such as financial reporting quality, accounting standards, and corporate governance have garnered substantial interest among accounting researchers. This sustained attention is largely due to the significant influence these areas have had on capital markets, particularly during the two decades from 1990 to 2010. However, in the past decade (2011–2020), there has been a marked increase in the interest and impact of research pertaining to non-financial reporting. Our study further identifies several factors, such as research settings and author demographics, that have the potential to influence the academic impact of financial archival research articles.\n                  \n                  \n                    Originality/value\n                    This study provides a comprehensive overview of the shifting priorities in financial archival research over the past 30 years. By analyzing the evolution of key research topics, it highlights how certain areas have gained prominence, particularly non-financial reporting such as ESG/CSR. This study offers valuable insights into the changing academic landscape, helping researchers identify emerging trends and influential research areas in accounting.\n                  ",
+    "real_title": "Changing priorities in financial archival research: Evidence from three decades of accounting publications"
+  },
+  "link_1902eada7f": {
+    "type": "pdf_link",
+    "id": "link_1902eada7f",
+    "url": "https://escholarship.org/content/qt7dc421fx/qt7dc421fx.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-26 11:00:47.199419",
+    "local_path": "downloads/link_1902eada7f.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** New Frontier: Architecture and Service, 1893-1966"
   }
 }
