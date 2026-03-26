@@ -17978,5 +17978,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** New Frontier: Architecture and Service, 1893-1966"
+  },
+  "10.1177/01461672241305656": {
+    "type": "doi",
+    "id": "10.1177/01461672241305656",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-26 23:39:35.633052",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Can a Single Cue Reduce Bias?\n\nABSTRACT: Many companies simplify information to ease human decision-making. They assume if the available information is less ambiguous, judgments will be less biased. Prior literature suggests when multiple decision-relevant cues are available, perceivers differentially weigh cues to justify biased decisions. Therefore, if a perceiver has access to only one cue, bias may be reduced. In three studies, participants made several selection decisions. We manipulated the number and ambiguity of the qualifications. In Study 1, participants were more accurate with one versus multiple qualifications. However, increasing accuracy did not significantly reduce bias (i.e., social favoritism when errors are made). In Study 2, changing the label and format of the single qualification increased accuracy but did not significantly reduce bias. In Study 3, reducing the ambiguity of the single qualification through instructions replicated Studies 1 and 2. We observe that reducing the number of cues increases accuracy, but does not necessarily reduce bias.",
+    "real_title": "Can a Single Cue Reduce Bias?"
+  },
+  "10.1186/s12939-025-02528-w": {
+    "type": "doi",
+    "id": "10.1186/s12939-025-02528-w",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-26 23:39:35.650003",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Framing health inequalities through the political economy: a case study of Ethiopia’s public policy landscape\n\nABSTRACT: 无摘要",
+    "real_title": "Framing health inequalities through the political economy: a case study of Ethiopia’s public policy landscape"
   }
 }
