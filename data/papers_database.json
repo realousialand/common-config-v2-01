@@ -18004,5 +18004,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Framing health inequalities through the political economy: a case study of Ethiopia’s public policy landscape\n\nABSTRACT: 无摘要",
     "real_title": "Framing health inequalities through the political economy: a case study of Ethiopia’s public policy landscape"
+  },
+  "10.3389/fgene.2026.1778236": {
+    "type": "doi",
+    "id": "10.3389/fgene.2026.1778236",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-27 23:40:01.224996",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: When genomics companies act as biobanks: governance challenges in an era of genomic assetization\n\nABSTRACT: \n                    Introduction\n                    Contemporary genomics companies increasingly perform core biobanking functions—collecting, storing, and sharing large volumes of genetic data and biospecimens—without being widely recognized or governed as biobanks. At the same time, these holdings are increasingly undergoing assetization: the treatment of genomic data and biospecimens as corporate assets subject to sale, acquisition, and valuation as indicators of company worth. This paper examines governance challenges arising from this transformation, particularly when companies experience restructuring, acquisition, or insolvency.\n                  \n                  \n                    Methods\n                    Using a comparative qualitative case study approach, the paper analyzes three examples: a Nigerian genomics company created to expand African representation in genomics, DNA marketplaces that aggregate and license genetic data, and recent events surrounding the attempted sale of 23andMe’s genomic holdings. The analysis draws on scholarship on biobanking governance, commercialization in biomedicine, and justice-oriented critiques of genomic research.\n                  \n                  \n                    Results\n                    The paper identifies governance issues that have emerged as biobanking technologies and organizational forms have evolved. Commercial genomics infrastructures expose gaps in existing biobanking governance, regarding the way data and samples are stewarded during organizational change, oversight of financial pressures in custodial decision-making, participation incentivizes, and public understandings of biobanking that are shaped by consumer and other commercial genomics infrastructures.\n                  \n                  \n                    Discussion\n                    \n                      These findings highlight the need for governance approaches that better reflect todays interconnected biobanking ecosystem, which includes public and nonprofit biobanks, government-academic-industry collaborations, and companies operating as\n                      de facto\n                      biobanks. Strengthening governance may require clearer planning for closure and transition, including limits on the transfer or sale of data and biospecimens during restructuring, possible roles for public stewardship, and a more explicit role for established biobanking institutions in developing shared governance standards across the genomics ecosystem.\n                    \n                  ",
+    "real_title": "When genomics companies act as biobanks: governance challenges in an era of genomic assetization"
+  },
+  "10.1038/d41586-026-00977-z": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-00977-z",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-27 23:40:01.244599",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Trump’s new science advisers include 12 technology chiefs — and one academic\n\nABSTRACT: 无摘要",
+    "real_title": "Trump’s new science advisers include 12 technology chiefs — and one academic"
   }
 }
