@@ -18043,5 +18043,44 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: A structured literature review of carbon assurance from a microfoundations perspective\n\nABSTRACT: \n                    Purpose\n                    Systematic reviews on sustainability and climate assurance-related constructs have focused on the macro and meso levels, overlooking the role of individuals in carbon assurance as well as the underlying mechanisms supporting its activities. This paper reviews the literature on carbon assurance, employing a microfoundations research framework to examine interactions among the macro, meso (organizational) and micro (individual) levels of analysis.\n                  \n                  \n                    Design/methodology/approach\n                    The literature review covered a sample of 67 peer-reviewed articles (qualitative, quantitative and conceptual) on carbon assurance, published between 2007 and 2025.\n                  \n                  \n                    Findings\n                    First, the macro and meso drivers of carbon assurance have been researched, but little attention has been given to how they interact with individual-level factors. Second, the collective contributions (behaviors and actions) of individuals to carbon assurance outcomes at the organizational and macro levels are poorly understood. Third, the role of formal institutions has been thoroughly researched, but that of informal institutions has largely been overlooked. The latter is a significant gap as informal institutions shape individuals’ behaviors and actions, especially when formal institutions are weak. Lastly, the microfoundations perspective provides insights into how the multiple levels of analysis are interrelated.\n                  \n                  \n                    Originality/value\n                    The review expands the literature on carbon accounting and climate-related assurance by focusing on the underexplored topic of carbon assurance. Furthermore, it adopts a microfoundations perspective to provide practitioners with a more balanced appreciation of the emerging field of carbon assurance. The microfoundations research approach can be applied to other types of assurance, thus promoting multilevel theorizing. The review findings were consolidated into a holistic future research framework that extends the scope of research on carbon assurance.\n                  ",
     "real_title": "A structured literature review of carbon assurance from a microfoundations perspective"
+  },
+  "10.3390/bs16030405": {
+    "type": "doi",
+    "id": "10.3390/bs16030405",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-28 23:38:08.240059",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A Nation Veering off Course: Implications for Efficacy and Well-Being\n\nABSTRACT: The United States has undergone rapid and, at times, unprecedented political changes in 2025. Recent national polling indicates that many Americans—across political parties—believe that the country is heading in the wrong direction. In a preregistered study with more than 7000 adults residing in the United States, we explored the implications of these widespread concerns for individuals’ psychological functioning. As theorized, individuals who believed that the political climate was worsening and viewed the United States as failing to live up to its core national values experienced lower efficacy, both in terms of their personal ability to influence politics (i.e., individual efficacy) and their confidence in the government to uphold its obligations to the nation and its residents (i.e., government efficacy). In turn, these individuals reported worse overall well-being and less effective coping in response to stressors related to the political climate. These relationships persisted after accounting for the participants’ 2024 presidential vote choice and political party affiliation. Together, these findings suggest that the political turbulence Americans are experiencing exerts a measurable, bipartisan toll on Americans’ psychological and social health.",
+    "real_title": "A Nation Veering off Course: Implications for Efficacy and Well-Being"
+  },
+  "10.3390/jcm15062215": {
+    "type": "doi",
+    "id": "10.3390/jcm15062215",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-28 23:38:08.257123",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Artificial Intelligence as a Safeguard for Clinical Scientific Integrity: A Human–AI Hybrid Model for Medical Peer Review\n\nABSTRACT: Peer review is the cornerstone of scholarly publishing and, in medicine, the ultimate guarantor of the reliability of clinical evidence that informs guidelines, therapeutic strategies, and patient care. However, the current peer review system is increasingly strained by bias, abuse, and reviewer overload. Favoritism toward prominent authors, editorial “nepotism,” coercive citation practices, superficial evaluations, and even documented cases of idea theft from confidential manuscripts undermine the trustworthiness of the scientific literature upon which clinical decisions depend. In this paper, we argue that artificial intelligence (AI) and large language models (LLMs) offer a transformative opportunity to strengthen the integrity and efficiency of medical peer review. AI-driven tools can perform rapid consistency checks, detect statistical errors or plagiarism, and enforce compliance with ethical and methodological standards across thousands of manuscripts. Early implementations of AI-guided review platforms, plagiarism detectors, and citation-anomaly algorithms demonstrate that machine assistance can make reviews more thorough, objective, and reproducible. At the same time, we acknowledge the limitations of AI, including hallucinations, a lack of human judgment, and risks to confidentiality if misused. To address these concerns, we propose a hybrid model in which AI handles routine screening and technical tasks under strict safeguards, while human experts retain final responsibility for scientific evaluation. This human–AI partnership may represent an essential step toward improving the quality, fairness, and reliability of the clinical evidence base.",
+    "real_title": "Artificial Intelligence as a Safeguard for Clinical Scientific Integrity: A Human–AI Hybrid Model for Medical Peer Review"
+  },
+  "10.3390/bs16030428": {
+    "type": "doi",
+    "id": "10.3390/bs16030428",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-28 23:38:08.274621",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Trusting the Voice? When an Attractive Voice Meets the “In-Group” Effect\n\nABSTRACT: Prior research has revealed the isolated effects of voice attractiveness and group identity on trust decisions. This study investigated how males’ voice attractiveness and group identity simultaneously influenced females’ trust decisions as trusters (Experiment 1) and trustees (Experiment 2). Experiment 1 showed that trustees with attractive voices were more likely to receive initial investments, and in-group trustees obtained greater investments when feedback was unknown. However, upon receiving feedback, these effects vanished. Experiment 2 showed that participants expected trusters with attractive voices to have higher investment amounts. Participants reciprocated more to in-group trusters than to out-group trusters. In summary, voice attractiveness and group identity influenced trust decisions independently, and the effects were context-dependent. Moreover, the effects of the “beauty premium” and “in-group favoritism” in trust-based decision-making varied depending on role, feedback, and stage of the decision-making process.",
+    "real_title": "Trusting the Voice? When an Attractive Voice Meets the “In-Group” Effect"
   }
 }
