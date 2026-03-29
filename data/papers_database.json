@@ -18082,5 +18082,31 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Trusting the Voice? When an Attractive Voice Meets the “In-Group” Effect\n\nABSTRACT: Prior research has revealed the isolated effects of voice attractiveness and group identity on trust decisions. This study investigated how males’ voice attractiveness and group identity simultaneously influenced females’ trust decisions as trusters (Experiment 1) and trustees (Experiment 2). Experiment 1 showed that trustees with attractive voices were more likely to receive initial investments, and in-group trustees obtained greater investments when feedback was unknown. However, upon receiving feedback, these effects vanished. Experiment 2 showed that participants expected trusters with attractive voices to have higher investment amounts. Participants reciprocated more to in-group trusters than to out-group trusters. In summary, voice attractiveness and group identity influenced trust decisions independently, and the effects were context-dependent. Moreover, the effects of the “beauty premium” and “in-group favoritism” in trust-based decision-making varied depending on role, feedback, and stage of the decision-making process.",
     "real_title": "Trusting the Voice? When an Attractive Voice Meets the “In-Group” Effect"
+  },
+  "link_cabd703ce3": {
+    "type": "pdf_link",
+    "id": "link_cabd703ce3",
+    "url": "https://www.cgdev.org/sites/default/files/strategic-not-transactional-using-development-cooperation-advance-economic-and-national.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-29 23:40:35.523116",
+    "local_path": "downloads/link_cabd703ce3.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Strategic Not Transactional: Using Development Cooperation to Advance Economic and National Security"
+  },
+  "link_6a78c74a34": {
+    "type": "pdf_link",
+    "id": "link_6a78c74a34",
+    "url": "https://ijcsrr.org/wp-content/uploads/2026/03/40-2603-2036.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-29 23:40:36.615400",
+    "local_path": "downloads/link_6a78c74a34.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Tax Risk Management: A Systematic Literature Review and Future Research Agenda**"
   }
 }
