@@ -18108,5 +18108,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Tax Risk Management: A Systematic Literature Review and Future Research Agenda**"
+  },
+  "10.20944/preprints202405.0677.v1": {
+    "type": "doi",
+    "id": "10.20944/preprints202405.0677.v1",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-30 23:43:38.816370",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A Bibliometric Review of the Trends of Construction Digitalization Research in the Last Decade\n\nABSTRACT: The integration of digital technologies into construction practices has emerged as a pivotal area of interest, reflecting its substantial influence on the future trajectory of the construction industry. This study undertakes a comprehensive bibliometric analysis of literature on construction digitalization spanning from 2013 to 2023, sourced from the Elsevier Scopus database. Employing key terms such as &amp;quot;construction digitalization,&amp;quot; &amp;quot;BIM,&amp;quot; &amp;quot;construction 4.0,&amp;quot; and &amp;quot;digital construction methodologies,&amp;quot; the research methodically extracts and scrutinizes relevant articles. Advanced tools like the VOS viewer were utilized to delve into the bibliometric networks, offering insights into prevailing research trends within the built environment sector. The findings reveal a pronounced emphasis on digital modeling, automation, blockchain technologies, and emerging paradigms such as smart contracts and modular construction. This investigation enriches the academic discourse by elucidating the varied subtleties, ongoing shifts, and prospective directions in the ever-evolving landscape of construction digitalization research.",
+    "real_title": "A Bibliometric Review of the Trends of Construction Digitalization Research in the Last Decade"
+  },
+  "10.1177/10398562261438774": {
+    "type": "doi",
+    "id": "10.1177/10398562261438774",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-03-30 23:43:39.553685",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Medical journalism and science in Australasian psychiatry:\n                    <i>Facts, truth, controversy, and free speech</i>\n\nABSTRACT: Medical journals are fundamental institutions that champion free speech and scientific enquiry, for the betterment of healthcare of patients, health professions, and society. Psychiatry draws upon and overlaps with a range of fields including ethics, the law, social science, philosophy, and politics, amongst others. Psychiatric science and the art of practice encompass many controversial domains that impact upon the health of the people the profession cares for. It is increasingly challenging to facilitate open spaces for free speech and enquiry in the context of ascendant authoritarianism in government, the academy, medical organisations, and broader society. Fortunately, there are important guideposts drawn from twentieth century and recent history that enable recognition of and democratic action to curtail authoritarianism and empower free speech and scientific enquiry.",
+    "real_title": "Medical journalism and science in Australasian psychiatry:\n                    <i>Facts, truth, controversy, and free speech</i>"
   }
 }
