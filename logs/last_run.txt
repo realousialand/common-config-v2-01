@@ -1,12 +1,12 @@
-Run Time: 2026-04-01 05:29:56 UTC
+Run Time: 2026-04-01 11:05:28 UTC
 {
-  "ip": "4.155.99.38",
-  "city": "Moses Lake",
-  "region": "Washington",
+  "ip": "128.24.163.82",
+  "city": "Cheyenne",
+  "region": "Wyoming",
   "country": "US",
-  "loc": "47.1301,-119.2781",
+  "loc": "41.1400,-104.8203",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "98837",
-  "timezone": "America/Los_Angeles",
+  "postal": "82002",
+  "timezone": "America/Denver",
   "readme": "https://ipinfo.io/missingauth"
 }
