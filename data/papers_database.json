@@ -18172,5 +18172,44 @@
     "local_path": "downloads/link_5fcc6090c0.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "link_2b8009387a": {
+    "type": "pdf_link",
+    "id": "link_2b8009387a",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/1/PDF/NAR-08-01-005.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-02 23:42:00.815576",
+    "local_path": "downloads/link_2b8009387a.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Employment dynamics in South Africa: an econometric analysis of the role of macro-economic impacts**"
+  },
+  "link_dafaa6f003": {
+    "type": "pdf_link",
+    "id": "link_dafaa6f003",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/1/PDF/NAR-08-01-006.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-02 23:42:00.834726",
+    "local_path": "downloads/link_dafaa6f003.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "FDI, trade interdependence, and functional integration: The role of EU membership and Asian investment"
+  },
+  "10.1016/j.actpsy.2026.106748": {
+    "type": "doi",
+    "id": "10.1016/j.actpsy.2026.106748",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-02 23:42:29.011335",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Deep learning ensemble strategies in Outcome-Based Education (OBE): The influence of ideology and politics on vocational training\n\nABSTRACT: 无摘要",
+    "real_title": "Deep learning ensemble strategies in Outcome-Based Education (OBE): The influence of ideology and politics on vocational training"
   }
 }
