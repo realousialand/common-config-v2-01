@@ -18211,5 +18211,44 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Deep learning ensemble strategies in Outcome-Based Education (OBE): The influence of ideology and politics on vocational training\n\nABSTRACT: 无摘要",
     "real_title": "Deep learning ensemble strategies in Outcome-Based Education (OBE): The influence of ideology and politics on vocational training"
+  },
+  "10.4016/12727.05": {
+    "type": "doi",
+    "id": "10.4016/12727.05",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-03 23:42:19.666385",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: title\n\nABSTRACT: 无摘要",
+    "real_title": "title"
+  },
+  "10.38024/arpe.562": {
+    "type": "doi",
+    "id": "10.38024/arpe.562",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-03 23:42:19.685874",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Title Pending 562\n\nABSTRACT: 无摘要",
+    "real_title": "Title Pending 562"
+  },
+  "10.16995/pp.24795": {
+    "type": "doi",
+    "id": "10.16995/pp.24795",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-03 23:42:19.704460",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Title Pending\n\nABSTRACT: 无摘要",
+    "real_title": "Title Pending"
   }
 }
