@@ -18257,7 +18257,7 @@
     "url": "https://uaustin.org/wp-content/uploads/2026/01/CV-of-Robert-E-Wright.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-04 10:41:37.659066",
     "local_path": "downloads/link_c764b7d4d0.pdf",
     "content_type": "PDF",
@@ -18275,5 +18275,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** A few things you always wanted to know about input-output multipliers, but were afraid to ask"
+  },
+  "10.1016/j.jagp.2026.03.003": {
+    "type": "doi",
+    "id": "10.1016/j.jagp.2026.03.003",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-04 23:38:54.609610",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Medicare’s 60th Anniversary: Policy, Politics and Payments\n\nABSTRACT: 无摘要",
+    "real_title": "Medicare’s 60th Anniversary: Policy, Politics and Payments"
+  },
+  "10.1016/j.contraception.2026.111455": {
+    "type": "doi",
+    "id": "10.1016/j.contraception.2026.111455",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-04 23:38:54.628972",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: OB-GYN Job Satisfaction in a Changing Landscape of Legal Restrictions on Their Practice\n\nABSTRACT: 无摘要",
+    "real_title": "OB-GYN Job Satisfaction in a Changing Landscape of Legal Restrictions on Their Practice"
   }
 }
