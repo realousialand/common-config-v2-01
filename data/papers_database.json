@@ -18250,5 +18250,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Title Pending\n\nABSTRACT: 无摘要",
     "real_title": "Title Pending"
+  },
+  "link_c764b7d4d0": {
+    "type": "pdf_link",
+    "id": "link_c764b7d4d0",
+    "url": "https://uaustin.org/wp-content/uploads/2026/01/CV-of-Robert-E-Wright.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-04 10:41:37.659066",
+    "local_path": "downloads/link_c764b7d4d0.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_add5b0a6fa": {
+    "type": "pdf_link",
+    "id": "link_add5b0a6fa",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/2/PDF/NAR-08-02-007.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-04 10:41:37.993110",
+    "local_path": "downloads/link_add5b0a6fa.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** A few things you always wanted to know about input-output multipliers, but were afraid to ask"
   }
 }
