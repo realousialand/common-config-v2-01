@@ -1,12 +1,12 @@
-Run Time: 2026-04-05 05:19:42 UTC
+Run Time: 2026-04-05 10:46:31 UTC
 {
-  "ip": "9.234.149.83",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "20.169.76.177",
+  "city": "Phoenix",
+  "region": "Arizona",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "33.4484,-112.0740",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "85001",
+  "timezone": "America/Phoenix",
   "readme": "https://ipinfo.io/missingauth"
 }

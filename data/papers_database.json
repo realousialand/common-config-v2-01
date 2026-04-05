@@ -18301,5 +18301,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: OB-GYN Job Satisfaction in a Changing Landscape of Legal Restrictions on Their Practice\n\nABSTRACT: 无摘要",
     "real_title": "OB-GYN Job Satisfaction in a Changing Landscape of Legal Restrictions on Their Practice"
+  },
+  "link_eae024af1c": {
+    "type": "pdf_link",
+    "id": "link_eae024af1c",
+    "url": "https://www.researchgate.net/profile/Jyoti-Madan/publication/403320454_Global_Trends_in_Chartered_Accountancy_Research_A_Bibliometric_and_Thematic_Analysis_2020-2025/links/69ce00dde8c973662963610d/Global-Trends-in-Chartered-Accountancy-Research-A-Bibliometric-and-Thematic-Analysis-2020-2025.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-05 10:42:50.459287",
+    "local_path": "downloads/link_eae024af1c.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_0a754c9de0": {
+    "type": "pdf_link",
+    "id": "link_0a754c9de0",
+    "url": "https://wrap.warwick.ac.uk/id/eprint/199397/3/WRAP-Stakeholder-populism-campaign-GM-economic-education-public-26.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-05 10:42:50.888760",
+    "local_path": "downloads/link_0a754c9de0.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Stakeholder Populism, Campaign GM, and the Economic Education of the Public**"
   }
 }
