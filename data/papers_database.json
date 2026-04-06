@@ -18326,5 +18326,30 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Stakeholder Populism, Campaign GM, and the Economic Education of the Public**"
+  },
+  "link_f76a31a9b8": {
+    "type": "pdf_link",
+    "id": "link_f76a31a9b8",
+    "url": "https://alexanderkustov.org/files/Brodeur_Nature2026_final.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-06 11:04:29.194994",
+    "local_path": "downloads/link_f76a31a9b8.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Reproducibility and Robustness of Economics and Political Science Research**"
+  },
+  "link_c7e083afc8": {
+    "type": "pdf_link",
+    "id": "link_c7e083afc8",
+    "url": "https://www.researchgate.net/profile/Marah-Ammar-2/publication/403437357_Environmental_Accounting_and_Corporate_Disclosure_Global_Research_Trends_and_Conceptual_Clusters/links/69ce22b53c6189430673028b/Environmental-Accounting-and-Corporate-Disclosure-Global-Research-Trends-and-Conceptual-Clusters.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-06 11:04:29.534388",
+    "local_path": "downloads/link_c7e083afc8.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
