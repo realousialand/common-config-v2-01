@@ -18346,10 +18346,49 @@
     "url": "https://www.researchgate.net/profile/Marah-Ammar-2/publication/403437357_Environmental_Accounting_and_Corporate_Disclosure_Global_Research_Trends_and_Conceptual_Clusters/links/69ce22b53c6189430673028b/Environmental-Accounting-and-Corporate-Disclosure-Global-Research-Trends-and-Conceptual-Clusters.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-06 11:04:29.534388",
     "local_path": "downloads/link_c7e083afc8.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1111/cars.70032": {
+    "type": "doi",
+    "id": "10.1111/cars.70032",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-06 23:42:32.937642",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Affective Climate and Political Polarization: Identity, Ideology, and Support for Climate Policy\n\nABSTRACT: ABSTRACT\n                  \n                    This paper examines affective climate polarization (ACP) and affective political polarization (APP) – emotional distance between supporters and opponents of decarbonization and political partisans, respectively. Analyzing original, representative Canadian survey data (\n                    n\n                    = 2503), we examine why people have differing levels of ACP and APP and the extent to which ACP and APP predict support for a carbon tax and beliefs about how decarbonization will affect jobs. The intensity of individuals’ support or opposition to decarbonization is the most important factor in predicting ACP. The strength of ideological alignment predicts APP among both liberals and conservatives, and, on the political right only, attitudes to decarbonization also explain variation in APP. Support for an industrial carbon tax and belief that decarbonization will increase jobs are related to political ideology and attitudes toward decarbonization more strongly than to either measure of affective polarization. These findings show that climate politics intensify partisan animosity, albeit in different ways on the political left and right.\n                  ",
+    "real_title": "Affective Climate and Political Polarization: Identity, Ideology, and Support for Climate Policy"
+  },
+  "10.1177/03324893251385227": {
+    "type": "doi",
+    "id": "10.1177/03324893251385227",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-06 23:42:32.957297",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A Sheepish Account of Ireland's Changing Role in an Imperial Age, 1780–1824\n\nABSTRACT: This essay addresses the question of why Ireland's sheep and wool diminished in economic importance during an era in which they seemed to count so much for other states. From 1780 to 1800, the Irish Government and Parliament enjoyed greater autonomy to shape what Julian Hoppit describes as a ‘political economy of wool' but used it to discount sheep and wool. After the Union, there was a belated effort by Irish political elites to promote sheep and wool in Ireland's improvement, but it proved a spectacular failure. Integrating political economy and economic history, the essay shows the importance of wool in Ireland’s political dynamics and the profound impact of these politics on the economic history of Irish sheep and wool.",
+    "real_title": "A Sheepish Account of Ireland's Changing Role in an Imperial Age, 1780–1824"
+  },
+  "10.1177/00307270251335671": {
+    "type": "doi",
+    "id": "10.1177/00307270251335671",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-06 23:42:32.976733",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Towards a theory of agrarian skilling (Or, why farmer knowledge does not stop at the edge of the field)\n\nABSTRACT: Recent contributions to the literature on agricultural deskilling argue that the increasing commercialisation of smallholder agriculture and a reliance on externally developed technologies has undermined the environmental basis of farmer learning. Despite many compelling attributes, the initial contributions to the deskilling thesis insufficiently analyse key social dimensions of smallholder agriculture. Farming is not merely a technical activity and agricultural knowledge does not begin and end at the boundary of the fields. Rather, the pursuit of agriculture is a deeply social process and we must broaden our understanding of farmer knowledge to better incorporate the social dimensions of agriculture. Accounts of agricultural learning must therein address the skills through which farmers manage a range of relationships that underpin agricultural livelihoods, including complex market transactions, credit/debt relations, labour sourcing, off-farm employment and networks for accessing government schemes. This form of knowledge practice is what we call ‘agrarian skilling’ and stands as a necessary extension of the more bounded and technical notion of agricultural knowledge. Focusing on agrarian skilling in this manner allows greater analytical purchase on the power relations inherent to knowledge creation and dissemination within and across smallholder populations.",
+    "real_title": "Towards a theory of agrarian skilling (Or, why farmer knowledge does not stop at the edge of the field)"
   }
 }
