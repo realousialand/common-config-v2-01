@@ -18403,5 +18403,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Title Pending 582\n\nABSTRACT: 无摘要",
     "real_title": "Title Pending 582"
+  },
+  "link_6454576370": {
+    "type": "pdf_link",
+    "id": "link_6454576370",
+    "url": "https://tylercowen.com/wp-content/uploads/2026/03/TheMarginalRevolution-Tyler_Cowen.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-08 11:06:04.285487",
+    "local_path": "downloads/link_6454576370.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Marginal Revolution: Rise and Decline, and the Pending AI Revolution"
   }
 }
