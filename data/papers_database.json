@@ -18416,5 +18416,31 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "** The Marginal Revolution: Rise and Decline, and the Pending AI Revolution"
+  },
+  "10.1371/journal.pone.0346572": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0346572",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-08 23:46:29.633405",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Perceptions of factors influencing Ebola vaccine acceptance among community members, healthcare workers, and response personnel in Eastern Democratic Republic of the Congo\n\nABSTRACT: \n                    Background\n                    The 2018–2020 Ebola Virus Disease (EVD) outbreak in Eastern Democratic Republic of the Congo (DRC) occurred amid armed conflict, institutional mistrust, and fragile health systems. The Ebola vaccine was deployed under emergency pre-licensure use, and concerns about it persisted. This study explored community and healthcare worker (HCW) perceptions of the Ebola vaccine to better understand the sociocultural and structural drivers of vaccine acceptance.\n                  \n                  \n                    Methods\n                    We conducted a qualitative study in three heavily affected health zones in North Kivu province (Beni, Butembo, and Mabalako) in 2021. Data were collected through thirty-three focus group discussions and 15 key informant interviews with EVD survivors, community members, HCWs, and local leaders, purposively sampled to capture diverse perspectives. Transcripts were analyzed using thematic and content analysis.\n                  \n                  \n                    Results\n                    Participants reported concerns about the safety of the vaccine, mistrust in the institutions delivering it, and confusion due to rumors and inconsistent communication from the Ebola response. HCWs reported feeling coerced into vaccination rather than making a voluntary choice. Misinformation, logistical barriers, and perceptions of favoritism and stigmatization linked to ring vaccination were cited as preventing acceptance. Religion played a dual role, both fostering skepticism and encouraging acceptance depending on the stance of local faith leaders. Participants emphasized the need for transparent and balanced communication, equitable access, and greater involvement of trusted and competent community figures in vaccination efforts.\n                  \n                  \n                    Conclusions\n                    Ebola vaccine decision-making in Eastern DRC was shaped by complex interactions between institutional mistrust, perceived risk, religion, and access constraints within a broader context of sociopolitical instability. This study provides a critical baseline of perceptions during the vaccine’s pre-licensure phase and highlights the importance of locally grounded engagement strategies. As vaccines become licensed, understanding local perceptions as well as leveraging the influence of trusted religious and community leaders will be essential for improving vaccine uptake.\n                  ",
+    "real_title": "Perceptions of factors influencing Ebola vaccine acceptance among community members, healthcare workers, and response personnel in Eastern Democratic Republic of the Congo"
+  },
+  "10.1038/d41586-026-01105-7": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01105-7",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-08 23:46:29.653249",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Massive budget cuts for US science proposed again by Trump administration\n\nABSTRACT: 无摘要",
+    "real_title": "Massive budget cuts for US science proposed again by Trump administration"
   }
 }
