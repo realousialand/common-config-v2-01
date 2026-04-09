@@ -18442,5 +18442,91 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Massive budget cuts for US science proposed again by Trump administration\n\nABSTRACT: 无摘要",
     "real_title": "Massive budget cuts for US science proposed again by Trump administration"
+  },
+  "link_087f637064": {
+    "type": "pdf_link",
+    "id": "link_087f637064",
+    "url": "https://www.researchgate.net/profile/Raja-Maraka/publication/403524439_AI-Driven_ERP_Testing_Automation_A_Modular_Framework_for_Intelligent_Validation_Predictive_Assurance_and_Continuous_Release_Readiness_in_SAP_S4HANA_Environments/links/69d2b22860c0371a60f634a8/AI-Driven-ERP-Testing-Automation-A-Modular-Framework-for-Intelligent-Validation-Predictive-Assurance-and-Continuous-Release-Readiness-in-SAP-S-4HANA-Environments.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-09 23:43:02.697002",
+    "local_path": "downloads/link_087f637064.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "2604.03338": {
+    "type": "arxiv",
+    "id": "2604.03338",
+    "url": "https://arxiv.org/pdf/2604.03338.pdf",
+    "title": "ArXiv 2604.03338",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-09 23:43:03.305328",
+    "local_path": "downloads/2604.03338.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Ideation Bottleneck: Decomposing the Quality Gap Between AI-Generated and Human Economics Research**"
+  },
+  "link_0c9ed8ceba": {
+    "type": "pdf_link",
+    "id": "link_0c9ed8ceba",
+    "url": "https://www.developmenteducationreview.com/sites/default/files/Issue 42 Full Word Formatted.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-09 23:43:03.327984",
+    "local_path": "downloads/link_0c9ed8ceba.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Pedagogical Responses to the Meta Crisis: The Role of Development Education"
+  },
+  "link_bfd2861d6a": {
+    "type": "pdf_link",
+    "id": "link_bfd2861d6a",
+    "url": "https://edworkingpapers.com/sites/default/files/ai26-1442.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-09 23:43:03.347689",
+    "local_path": "downloads/link_bfd2861d6a.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "link_056c656f90": {
+    "type": "pdf_link",
+    "id": "link_056c656f90",
+    "url": "https://rrs.scholasticahq.com/article/160105.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-09 23:43:03.367406",
+    "local_path": "downloads/link_056c656f90.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The Contribution of Micropolitan Areas to a State’s Economy: A Shift-Share Case Study for Kansas"
+  },
+  "10.2105/AJPH.2026.308485": {
+    "type": "doi",
+    "id": "10.2105/AJPH.2026.308485",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-09 23:43:04.285566"
+  },
+  "10.1016/j.envres.2026.124447": {
+    "type": "doi",
+    "id": "10.1016/j.envres.2026.124447",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-09 23:43:04.305352",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Toward a Just and Robust Energy Transition in Indonesia: A Multi-Scale, Multi-Dimensional Assessment of Coal Moratorium and Renewable Energy Integration\n\nABSTRACT: 无摘要",
+    "real_title": "Toward a Just and Robust Energy Transition in Indonesia: A Multi-Scale, Multi-Dimensional Assessment of Coal Moratorium and Renewable Energy Integration"
   }
 }
