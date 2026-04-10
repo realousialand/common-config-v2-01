@@ -18449,7 +18449,7 @@
     "url": "https://www.researchgate.net/profile/Raja-Maraka/publication/403524439_AI-Driven_ERP_Testing_Automation_A_Modular_Framework_for_Intelligent_Validation_Predictive_Assurance_and_Continuous_Release_Readiness_in_SAP_S4HANA_Environments/links/69d2b22860c0371a60f634a8/AI-Driven-ERP-Testing-Automation-A-Modular-Framework-for-Intelligent-Validation-Predictive-Assurance-and-Continuous-Release-Readiness-in-SAP-S-4HANA-Environments.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-09 23:43:02.697002",
     "local_path": "downloads/link_087f637064.pdf",
     "content_type": "PDF",
@@ -18513,7 +18513,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-09 23:43:04.285566"
   },
   "10.1016/j.envres.2026.124447": {
