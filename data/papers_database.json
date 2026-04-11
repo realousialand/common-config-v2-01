@@ -18548,7 +18548,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9195&context=doctoral&amp;rt=Transnational+Beings:+Corner+Store+Entrepreneurship+of+MENA+Immigrants+of+the+Third+Wave&amp;scisig=ADi0EEUi8pVUGxBqoVMV-eemuP66",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-11 16:47:37.989908"
   },
   "link_146c739060": {
@@ -18557,7 +18557,7 @@
     "url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9195",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-11 16:47:38.009937"
   },
   "link_791579aca3": {
@@ -18566,7 +18566,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9195&context=doctoral&amp;rt=Transnational+Beings:+Corner+Store+Entrepreneurship+of+MENA+Immigrants+of+the+Third+Wave&amp;scisig=ADi0EEUi8pVUGxBqoVMV-eemuP66",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-11 16:47:38.029925"
   },
   "link_9a8105ec9e": {
@@ -18575,7 +18575,20 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9195&context=doctoral&amp;rt=Transnational+Beings:+Corner+Store+Entrepreneurship+of+MENA+Immigrants+of+the+Third+Wave&amp;scisig=ADi0EEUi8pVUGxBqoVMV-eemuP66",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-11 16:47:38.049613"
+  },
+  "10.1177/00469580261441443": {
+    "type": "doi",
+    "id": "10.1177/00469580261441443",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-11 23:42:34.704770",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: School as Marketplace for Promoting Unhealthy Snack Consumption Among Children in Northern Thailand\n\nABSTRACT: Children’s snack consumption prevalence has increased, with generally known detrimental health consequences. This study critically examines how schools in northern Thailand contribute to promoting unhealthy snack consumption among children, using a political economy framework. A qualitative approach was employed, including 16 children aged 7 to 12 and 12 key informants related to children’s unhealthy snack intake in a rural northern Thai community. Data were gathered through participant observation, and in-depth interviews. Content analysis was performed using both deductive and inductive coding to identify patterns related to school-driven promotion of unhealthy snacks. Three themes were found: (1) unequal resource distribution, (2) profit motives, and (3) power dynamics and control. These highlight how inequalities and profit-driven agendas shape school food environments and unhealthy snack consumption among school children. Schools have succumbed to financial pressures by promoting unhealthy snacks to students for financial gain, despite this practice contradicting Thailand’s health-promoting school policy. To address this, nutrition-focused income alternatives should be promoted with empowering schools through budget subsidiarity. Stronger enforcement and community collaboration are essential also to creating healthier and more equitable school food environments.",
+    "real_title": "School as Marketplace for Promoting Unhealthy Snack Consumption Among Children in Northern Thailand"
   }
 }
