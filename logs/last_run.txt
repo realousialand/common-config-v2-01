@@ -1,12 +1,12 @@
-Run Time: 2026-04-10 23:43:07 UTC
+Run Time: 2026-04-11 05:01:52 UTC
 {
-  "ip": "13.66.174.87",
-  "city": "Moses Lake",
-  "region": "Washington",
+  "ip": "40.65.56.224",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "47.1301,-119.2781",
+  "loc": "37.3394,-121.8950",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "98837",
+  "postal": "95025",
   "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
