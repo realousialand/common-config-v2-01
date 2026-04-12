@@ -18623,10 +18623,49 @@
     "url": "https://www.researchgate.net/profile/Arno-Tausch/publication/403632569_III_POLITICAL_SCIENCE_IN_GLOBAL_PERSPECTIVE_4_International_Political_Science_as_a_Global_Centre-Periphery_System/links/69d6c535724c6256b3092079/III-POLITICAL-SCIENCE-IN-GLOBAL-PERSPECTIVE-4-International-Political-Science-as-a-Global-Centre-Periphery-System.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-12 16:50:29.793542",
     "local_path": "downloads/link_5a03a2336d.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.34172/ijhpm.9179": {
+    "type": "doi",
+    "id": "10.34172/ijhpm.9179",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-12 23:43:01.996092",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Religion, Politics, and Vaccines: Elaborating the Integrative Public Policy Acceptance (IPAC) Framework Through HPV Vaccine Program Acceptance Among Religious Leaders in Bangladesh\n\nABSTRACT: Background: In October 2023, Bangladesh introduced a free, single-dose human papillomavirus (HPV) vaccine for girls aged 9–14 through its national vaccination program to prevent cervical cancer, the second most common cancer among Bangladeshi females, caused by the HPV. Although vaccine hesitancy was not a significant issue before the COVID-19 pandemic, experiences from that pandemic and global literature suggest that the population’s uptake of this vaccine may face barriers due to concerns related to reproductive health, fertility, and cultural and religious beliefs. This is particularly relevant in a country where Islam is the state religion, 91% of the population is Muslim, and religious leaders hold significant influence over public opinion. Methods: Building upon the recently developed Integrative Public Policy Acceptance (IPAC) framework, this qualitative study explores the factors shaping religious leaders’ support for the HPV vaccine informing their potential role in promoting it. Semi-structured interviews with leaders from Bangladesh’s five main Islamic traditions were thematically analysed using NVivo 14 with inductive and deductive coding. Results: Islamic religious leaders’ varying support for HPV vaccinations in Bangladesh was influenced by their limited awareness of cervical cancer, as well as their religious and social concerns about ingredients, side effects and a fear of promoting promiscuity. Political ideologies also played a significant role, as leaders were less supportive of the program when they perceived the government as ideologically opposed to the beliefs or practices of their specific religious tradition. Conclusion: The study’s contribution to the IPAC framework highlights the importance of political consensus in policy acceptance, explaining how partisanship and ideological differences impact public policy compliance. The findings underscore the need for health systems in Muslim majority countries to engage with religious authorities, build political inclusivity and consensus, and align health policies with religious and cultural values.",
+    "real_title": "Religion, Politics, and Vaccines: Elaborating the Integrative Public Policy Acceptance (IPAC) Framework Through HPV Vaccine Program Acceptance Among Religious Leaders in Bangladesh"
+  },
+  "10.1093/heapol/czag048": {
+    "type": "doi",
+    "id": "10.1093/heapol/czag048",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-12 23:43:02.015939",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Understanding the formulation of non-communicable disease policies in Nepal: A qualitative study\n\nABSTRACT: Abstract\n                  Few policies have focused specifically on the growing burden of Non-Communicable Diseases (NCD) in Low- and Middle-Income Countries (LMIC). Health policy formulation plays a vital role in the allocation of resources to implement effective interventions and reforms; hence, a nuanced understanding of the health policy formulation process is essential. However, there is limited evidence about the process through which NCD policies were formulated in Nepal. This study used Kingdon’s multiple streams framework to explore how NCDs were recognized and prioritized, how policy alternatives were decided, how policy windows were opened, and which contextual factors influenced the policy formulation process.\n                  A qualitative case study approach was applied to gain a comprehensive understanding of the formulation of major NCD-related policies in Nepal. Semi-structured interviews were conducted with 12 key stakeholders, and policy documents were analyzed using framework analysis.\n                  The NCDs were gradually recognized and prioritized through the convergence of global and local evidence, sustained advocacy, and international commitments. Policymakers encountered several challenges, such as competing health priorities, the chronic nature of NCDs, donor preferences for communicable diseases, financial constraints, and multisectoral complexities of NCDs. The Package of Essential Non-communicable diseases (PEN) interventions were adopted as a policy alternative, informed by global evidence, World Health Organization (WHO) recommendations, and lessons from other countries.\n                  While coordinated efforts by stakeholders brought the problem, policy and politics streams together, the role of policy entrepreneurs was found to be less relevant in Nepal’s context. The findings highlight the need to consider external influences while conducting similar studies in LMICs. Further research is needed on strategies to address persistent structural and financial challenges in NCD policy formulation.",
+    "real_title": "Understanding the formulation of non-communicable disease policies in Nepal: A qualitative study"
+  },
+  "10.34172/ijhpm.9534": {
+    "type": "doi",
+    "id": "10.34172/ijhpm.9534",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-12 23:43:02.034971",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Rethinking Human Resources for Health Planning in Labour Markets Disrupted by Conflict-Affected and Fragile Settings Comment on \"Human Resources for Health in Conflict Affected Settings: A Scoping Review of Primary Peer Reviewed Publications 2016–2022\"\n\nABSTRACT: In a world still grappling with exploring the underlying dynamics of challenges confronting human resources for health (HRH), how must the HRH research and planning ensue in conflict-affected settings (CAS)? Onvlee and colleagues undertake a scoping review to respond to this important question, using the World Health Organization’s (WHO’s) Health Labour Market (HLM) framework, to leverage upon available evidence. This commentary appraises the conceptual and methodological contributions of the review, while questioning the suitability of HLM to analyse HRH challenges in disrupted health systems. It argues that CAS-specific HRH planning exacts frameworks and approaches more attuned to political economy, contextual fragility, and structural inequalities, which shape healthcare workers’ vulnerabilities and responses in CAS. The commentary identifies five gap questions for future scholarship, calling for intersectionality-driven, politically informed and context-specific research approaches for HRH evidence, transcending supply and demand framing of HRH, to inform HRH policies in conflict-affected and fragile settings.",
+    "real_title": "Rethinking Human Resources for Health Planning in Labour Markets Disrupted by Conflict-Affected and Fragile Settings Comment on \"Human Resources for Health in Conflict Affected Settings: A Scoping Review of Primary Peer Reviewed Publications 2016–2022\""
   }
 }
