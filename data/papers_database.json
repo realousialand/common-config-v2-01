@@ -18590,5 +18590,43 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: School as Marketplace for Promoting Unhealthy Snack Consumption Among Children in Northern Thailand\n\nABSTRACT: Children’s snack consumption prevalence has increased, with generally known detrimental health consequences. This study critically examines how schools in northern Thailand contribute to promoting unhealthy snack consumption among children, using a political economy framework. A qualitative approach was employed, including 16 children aged 7 to 12 and 12 key informants related to children’s unhealthy snack intake in a rural northern Thai community. Data were gathered through participant observation, and in-depth interviews. Content analysis was performed using both deductive and inductive coding to identify patterns related to school-driven promotion of unhealthy snacks. Three themes were found: (1) unequal resource distribution, (2) profit motives, and (3) power dynamics and control. These highlight how inequalities and profit-driven agendas shape school food environments and unhealthy snack consumption among school children. Schools have succumbed to financial pressures by promoting unhealthy snacks to students for financial gain, despite this practice contradicting Thailand’s health-promoting school policy. To address this, nutrition-focused income alternatives should be promoted with empowering schools through budget subsidiarity. Stronger enforcement and community collaboration are essential also to creating healthier and more equitable school food environments.",
     "real_title": "School as Marketplace for Promoting Unhealthy Snack Consumption Among Children in Northern Thailand"
+  },
+  "10.2139/ssrn.4864662": {
+    "type": "doi",
+    "id": "10.2139/ssrn.4864662",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-12 16:50:29.240104",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Accounting and Finance Education: An Analysis of Trends in the Literature\n\nABSTRACT: 无摘要",
+    "real_title": "Accounting and Finance Education: An Analysis of Trends in the Literature"
+  },
+  "link_ce412cd901": {
+    "type": "pdf_link",
+    "id": "link_ce412cd901",
+    "url": "https://econjwatch.org/file_download/1406/KaestnerMarch2026.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-12 16:50:29.773288",
+    "local_path": "downloads/link_ce412cd901.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Globalization and the China Shock: A Reassessment of Autor, Dorn, and Hanson**"
+  },
+  "link_5a03a2336d": {
+    "type": "pdf_link",
+    "id": "link_5a03a2336d",
+    "url": "https://www.researchgate.net/profile/Arno-Tausch/publication/403632569_III_POLITICAL_SCIENCE_IN_GLOBAL_PERSPECTIVE_4_International_Political_Science_as_a_Global_Centre-Periphery_System/links/69d6c535724c6256b3092079/III-POLITICAL-SCIENCE-IN-GLOBAL-PERSPECTIVE-4-International-Political-Science-as-a-Global-Centre-Periphery-System.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-12 16:50:29.793542",
+    "local_path": "downloads/link_5a03a2336d.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
