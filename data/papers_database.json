@@ -18705,5 +18705,18 @@
     "local_path": "downloads/link_3f64f70a6b.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "link_8a7099b730": {
+    "type": "pdf_link",
+    "id": "link_8a7099b730",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-14008-1.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-15 05:30:15.779324",
+    "local_path": "downloads/link_8a7099b730.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Transatlantic Fracture"
   }
 }
