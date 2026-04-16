@@ -1,6 +1,6 @@
-Run Time: 2026-04-16 11:11:56 UTC
+Run Time: 2026-04-16 17:25:59 UTC
 {
-  "ip": "172.182.201.166",
+  "ip": "20.163.32.230",
   "city": "Phoenix",
   "region": "Arizona",
   "country": "US",

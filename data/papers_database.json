@@ -18731,5 +18731,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Political economy of adolescent mental health and well-being globally\n\nABSTRACT: Abstract\n                  \n                    Background\n                    The current generation of 1.3 billion adolescents (10–19-year-olds), most of whom live in low- and middle-income countries, face large and growing mental health problems. Collective action that could lead to significant improvement in adolescent mental health and well-being (AMH) remains limited. We analyse the factors shaping the global prioritization of AMH for funding and action and reflect on a way forward.\n                  \n                  \n                    Methods\n                    We triangulate data from interviews with key informants knowledgeable in AMH; focus group discussions with youth representatives who are mental health advocates, some with lived experience of mental ill-health; and document review. We collected the qualitative data from 2021 to 2023, followed by thematic analysis and stakeholder consultations.\n                  \n                  \n                    Results\n                    We identify four themes which shape the global prioritization of AMH. First, prevailing interpersonal and institutional stigma and discrimination directed against adolescents with mental health problems hamper attention to AMH. Second, limited data on the burden of mental health problems and evidence of what works have led to the perception among decision-makers that AMH is an intractable problem. Third, diverse ways of framing AMH are often viewed as a sign of weak alignment rather than as opportunities for coalition-building. Fourth, a wide variety and increasing number of stakeholders are involved in AMH, while the stakeholder landscape remains fragmented, inhibiting coalition-building for AMH.\n                  \n                  \n                    Conclusions\n                    To overcome the barriers that currently impede the prioritization of AMH, we recommend that (1) stakeholders conduct an adolescent-led consultative process to develop an “umbrella framing”, supported by common metrics, (2) advocates use existing global platforms to shape the political priority for AMH, (3) decision-makers, funders and research partners invest in meaningful engagement of adolescents (with lived experience), researchers and implementing partners (4) identify a leadership, governance and accountability structure for a global coalition that could transform AMH and (5) conduct context-specific analyses to inform coalition-building nationally.\n                  ",
     "real_title": "Political economy of adolescent mental health and well-being globally"
+  },
+  "link_02eda05801": {
+    "type": "pdf_link",
+    "id": "link_02eda05801",
+    "url": "https://www.researchgate.net/profile/John-Bello-4/publication/403713888_The_Impact_of_Intellectual_Capital_on_Innovation_of_Listed_Firms_in_Nigeria/links/69d976976d9f9a760b97cedf/The-Impact-of-Intellectual-Capital-on-Innovation-of-Listed-Firms-in-Nigeria.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-16 17:23:12.504806",
+    "local_path": "downloads/link_02eda05801.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_a5fabdaeac": {
+    "type": "pdf_link",
+    "id": "link_a5fabdaeac",
+    "url": "https://americanimpactreview.com/articles/e2026033.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-16 17:23:12.523618",
+    "local_path": "downloads/link_a5fabdaeac.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "AI-Driven Proactive Customer Success in B2B SaaS: A Systematic Review and Conceptual Framework for Retention and Scalability**"
   }
 }
