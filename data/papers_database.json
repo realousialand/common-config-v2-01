@@ -18769,5 +18769,43 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Rethinking flood resilience: systemic risk, governance failures, and the social production of vulnerability in the Himalayan–Indus region\n\nABSTRACT: 无摘要",
     "real_title": "Rethinking flood resilience: systemic risk, governance failures, and the social production of vulnerability in the Himalayan–Indus region"
+  },
+  "10.1080/09638180.2026.2654454": {
+    "type": "doi",
+    "id": "10.1080/09638180.2026.2654454",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-17 23:49:48.509120",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Accounting and cultural translation: measuring the ‘good citizen’ in Iranian public management\n\nABSTRACT: 无摘要",
+    "real_title": "Accounting and cultural translation: measuring the ‘good citizen’ in Iranian public management"
+  },
+  "link_3b15608355": {
+    "type": "pdf_link",
+    "id": "link_3b15608355",
+    "url": "https://www.researchgate.net/profile/Jorge-Alberto-Rivera-Godoy/publication/403781217_Practice_and_Theory_in_the_Business_Environment_Editora_Contribuciones_2026/links/69dd471b5970dd1b05f882e7/Practice-and-Theory-in-the-Business-Environment-Editora-Contribuciones-2026.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-17 23:49:49.113821",
+    "local_path": "downloads/link_3b15608355.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "10.1038/d41586-026-01134-2": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01134-2",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-17 23:49:49.888905",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: ‘Science needs defending’: record number of researchers run for office in US mid-terms\n\nABSTRACT: 无摘要",
+    "real_title": "‘Science needs defending’: record number of researchers run for office in US mid-terms"
   }
 }
