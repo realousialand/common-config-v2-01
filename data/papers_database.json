@@ -18827,7 +18827,7 @@
     "url": "https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-19 10:50:04.151846"
   },
   "link_e9cb7ede47": {
@@ -18836,7 +18836,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-19 10:50:04.195587"
   },
   "link_acdee056d9": {
@@ -18845,7 +18845,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-19 10:50:04.263222"
   },
   "link_8cda6c3cc7": {
@@ -18854,7 +18854,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-19 10:50:04.425600"
   }
 }
