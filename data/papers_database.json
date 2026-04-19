@@ -18807,5 +18807,54 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: ‘Science needs defending’: record number of researchers run for office in US mid-terms\n\nABSTRACT: 无摘要",
     "real_title": "‘Science needs defending’: record number of researchers run for office in US mid-terms"
+  },
+  "10.2308/tar-2024-0800": {
+    "type": "doi",
+    "id": "10.2308/tar-2024-0800",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-19 10:50:03.879053",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Competing for Talent: Addressing the “Biggest is Best” Assumptions Through Small Accounting Firms’ Recruiting Practices\n\nABSTRACT: ABSTRACT\n                  Recruiting talent is a major issue for the accounting profession and is especially salient for small firms with limited resources and brand recognition. In this study, we examine the challenges small accounting firms face when recruiting from universities and the strategies they use to overcome them. Drawing on interviews with 34 stakeholders (primarily recruiting specialists and human resource managers), we develop a process model of small-firm recruiting and present evidence related to each phase: (1) targeting certain universities and students, (2) engaging in university recruiting activities, (3) extending offers, and (4) aiming to evaluate recruiting outcomes. Guided by theory, our findings reveal that small accounting firms develop organizational familiarity and image with students while navigating fatalism and balancing imitation and differentiation in their recruiting strategies. We conclude with a call to reconsider the “biggest is best” assumptions that dominate mainstream accounting research and provide suggestions for future research.\n                  Data Availability: Data were obtained from interviews.\n                  JEL Classifications: M41; M42; M51.",
+    "real_title": "Competing for Talent: Addressing the “Biggest is Best” Assumptions Through Small Accounting Firms’ Recruiting Practices"
+  },
+  "link_f0d3298550": {
+    "type": "pdf_link",
+    "id": "link_f0d3298550",
+    "url": "https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-19 10:50:04.151846"
+  },
+  "link_e9cb7ede47": {
+    "type": "pdf_link",
+    "id": "link_e9cb7ede47",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-19 10:50:04.195587"
+  },
+  "link_acdee056d9": {
+    "type": "pdf_link",
+    "id": "link_acdee056d9",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-19 10:50:04.263222"
+  },
+  "link_8cda6c3cc7": {
+    "type": "pdf_link",
+    "id": "link_8cda6c3cc7",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://red.library.usd.edu/cgi/viewcontent.cgi?article=1409&context=honors-thesis&amp;rt=DOES+DEMOGRAPHIC+AGING+AND+FINANCIAL+GLOBALIZATION+MODERATE+CROWDING+OUT?+FEDERAL+DEFICITS+AND+US+LONG-TERM+REAL+INTEREST+RATES.&amp;scisig=ADi0EEW3vCy_NffarRGrQbA_1-Yh",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-19 10:50:04.425600"
   }
 }
