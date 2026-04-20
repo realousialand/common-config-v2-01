@@ -18856,5 +18856,67 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-04-19 10:50:04.425600"
+  },
+  "link_1169fc3ec6": {
+    "type": "pdf_link",
+    "id": "link_1169fc3ec6",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-20 17:13:41.811042"
+  },
+  "link_0f9dfd5701": {
+    "type": "pdf_link",
+    "id": "link_0f9dfd5701",
+    "url": "https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-20 17:13:41.831442"
+  },
+  "link_5b39f98cdc": {
+    "type": "pdf_link",
+    "id": "link_5b39f98cdc",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-20 17:13:41.850576"
+  },
+  "link_2c309e7e13": {
+    "type": "pdf_link",
+    "id": "link_2c309e7e13",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-20 17:13:41.869332"
+  },
+  "link_7ca4ec9abc": {
+    "type": "pdf_link",
+    "id": "link_7ca4ec9abc",
+    "url": "https://www.tcollinslogan.com/resources/Progressive_Agenda-DRAFT-ALL.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 17:13:41.888346",
+    "local_path": "downloads/link_7ca4ec9abc.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "A PROGRESSIVE AGENDA FOR DEMOCRATIC RENEWAL"
+  },
+  "link_effb39cab1": {
+    "type": "pdf_link",
+    "id": "link_effb39cab1",
+    "url": "https://safebirthevenhere.org/sites/default/files/admin-resource/ICT_Information_Security_Identity_Access_Management.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 17:13:42.583094",
+    "local_path": "downloads/link_effb39cab1.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Policies and Procedures for Information Security Identity Access Management"
   }
 }
