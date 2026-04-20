@@ -18863,7 +18863,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-20 17:13:41.811042"
   },
   "link_0f9dfd5701": {
@@ -18872,7 +18872,7 @@
     "url": "https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-20 17:13:41.831442"
   },
   "link_5b39f98cdc": {
@@ -18881,7 +18881,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-20 17:13:41.850576"
   },
   "link_2c309e7e13": {
@@ -18890,7 +18890,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://mds.marshall.edu/cgi/viewcontent.cgi?article=3058&context=etd&amp;rt=A+study+of+apprenticeship+program+expansion+into+small+and+medium-sized+enterprises&amp;scisig=ADi0EEWqz0h7oOsgWqpyokp8g9dP",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-04-20 17:13:41.869332"
   },
   "link_7ca4ec9abc": {
@@ -18918,5 +18918,57 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Policies and Procedures for Information Security Identity Access Management"
+  },
+  "10.1177/27541258251384303": {
+    "type": "doi",
+    "id": "10.1177/27541258251384303",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 23:52:44.452109",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Locating crisis\n\nABSTRACT: In this short intervention, I reflect on how I have used the concept of crisis in my work over the past 15 years. I argue that a spatial and pluralised understanding of crisis is essential to make sense of the political, material, and discursive stakes of contemporary urbanisation, and offer a reading of crisis that sits between the eventful and everyday. I outline ways in which urban crisis can be understood apart from, yet constitutive of a concept of crisis ‘writ-large’, and demonstrate through brief empirical examples how locating crisis conjuncturally defines its relationship to the state and social reproduction of and in the city.",
+    "real_title": "Locating crisis"
+  },
+  "10.12688/openreseurope.22910.1": {
+    "type": "doi",
+    "id": "10.12688/openreseurope.22910.1",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 23:52:44.478746",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The futures of digital democracy\n\nABSTRACT: This paper investigates the potential impacts of digitalisation on society and democratic governance through the construction of four realist science fiction scenarios. The study aims to delineate desirable and undesirable digital futures to inform policy discourse and strategic planning. It begins with the outlining of the research basis and methodology, where it employs a methodological synthesis of the Scenario Development Technique from the UN Strategic Foresight Guide and STEEP Analysis. This approach integrates a macro environmental assessment of socio-cultural, technological, economic, environmental, and political dimensions to identify key drivers of change and differences. These are then mapped onto a two-by-two matrix defined by two primary axes. This combination enabled the development of four scenarios examining the impact of digital technologies across these dimensions. The scenarios diverge along two axes. The vertical axis represents the mode of societal organisation and political power (authoritarianism versus democracy). The horizontal axis represents the mode of governance and citizen engagement (representation versus participation). By contrasting these divergent paths, this paper provides a critical framework for analysing how digital technologies intersect with political will and socioeconomic structures.",
+    "real_title": "The futures of digital democracy"
+  },
+  "10.1177/27541258251388091": {
+    "type": "doi",
+    "id": "10.1177/27541258251388091",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 23:52:44.500227",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Working with/in crises: More questions than answers?\n\nABSTRACT: This essay is the outcome of a 2025 AAG panel on crises that raised issues such as: is crisis the norm, is crisis a useful analytical frame and are we living through exceptional times? Seeking to avoid prognostication, my response provides some answers while provoking additional questions. Political economy insights are summarized for their different views on analyzing crises (from polycrisis and longwave approaches to monocausal materialism) and early/mid-2025 political developments are engaged for what at this juncture may be promising avenues for urban and economic geography (on hegemony and legitimization, economic nationalism and left politics, and deep history).",
+    "real_title": "Working with/in crises: More questions than answers?"
+  },
+  "10.1186/s12961-026-01482-5": {
+    "type": "doi",
+    "id": "10.1186/s12961-026-01482-5",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-20 23:52:44.536130",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Reframing knowledge translation for health policy in Kenya: actors, practices and the constitutive role of context\n\nABSTRACT: Abstract\n                  \n                    Background\n                    Knowledge translation (KT) is regarded as important for supporting evidence-informed health policy-making. While KT models have moved beyond linear understandings of the evidence–policy relationship, they continue to underplay the politics that shape how evidence is produced, framed, interpreted, negotiated and used during policy-making. As a result, KT strategies are often designed for policy processes that bear little resemblance to real-life policy-making.\n                  \n                  \n                    Methods\n                    \n                      This study argues for a reframing of KT for policy as an embedded and politically situated process. To inform this reframing, we examined how KT happens during health policy-making in Kenya. We examined who engages in KT, how they do it, in which spaces and the outcomes of these practices. Data were collected through in-depth interviews with a range of policy actors (\n                      n\n                       = 35), nonparticipant observations (52 h) and document reviews (\n                      n\n                       = 34). Data analysis was informed by the study’s conceptual framework.\n                    \n                  \n                  \n                    Results\n                    The findings show that KT was enacted by a range of actors, including policy-makers themselves. These actors practised both so-called structured and fluid forms of KT and mobilized evidence to inform, advocate, justify or contest policy positions. In addition, KT happened in both formal and informal spaces. Strategic framing of evidence and other relational activities were central to mobilizing evidence. The outcomes of these practices were often relational and incremental. Importantly, context constituted KT by shaping what counts as evidence, whose voices were influential, and where action was possible.\n                  \n                  \n                    Conclusions\n                    This study offers a practise-based understanding of KT by reframing it as a contextually-constituted, situated practice that requires adaptive system-oriented approaches.\n                  ",
+    "real_title": "Reframing knowledge translation for health policy in Kenya: actors, practices and the constitutive role of context"
   }
 }
