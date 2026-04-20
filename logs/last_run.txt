@@ -1,12 +1,12 @@
-Run Time: 2026-04-20 05:46:33 UTC
+Run Time: 2026-04-20 11:24:10 UTC
 {
-  "ip": "52.161.177.70",
-  "city": "Cheyenne",
-  "region": "Wyoming",
+  "ip": "64.236.134.16",
+  "city": "Chicago",
+  "region": "Illinois",
   "country": "US",
-  "loc": "41.1400,-104.8203",
+  "loc": "41.8500,-87.6500",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "82002",
-  "timezone": "America/Denver",
+  "postal": "60602",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
