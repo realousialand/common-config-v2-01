@@ -18996,5 +18996,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Clarifying Structural Interpretation in South Korea's COVID-19 Response: A Brief Note on Common Misreadings\n\nABSTRACT: This brief note responds to recent critiques of the article, “The Predestined Failure of the Market Mechanism in Ensuring Health for All in Times of a Pandemic: The Case of the Republic of Korea.” The critiques primarily stem from interpreting structural arguments through a managerial and episodic lens. First, this response clarifies the theoretical application of state theory (drawing on Wright and Jessop) to distinguish the structural constraints of the state from the behavioral choices of the government, thereby rejecting claims of structural determinism. Second, it reiterates that South Korea's public health measures and medical-care capacity must be understood as inseparable components evolving within a single market-dependent configuration. The analytic focus is on institutional rigidity and path dependency, rather than a post-hoc evaluation of policy choices. Finally, it addresses concerns regarding expenditure estimates, arguing that the high costs incurred during the pandemic reflect the structural burden of purchasing critical-care capacity from a private market. Ultimately, this note underscores the necessity of analyzing public health responses within their broader political economy and institutional contexts.",
     "real_title": "Clarifying Structural Interpretation in South Korea's COVID-19 Response: A Brief Note on Common Misreadings"
+  },
+  "link_5e74f10e60": {
+    "type": "pdf_link",
+    "id": "link_5e74f10e60",
+    "url": "https://researchportal.port.ac.uk/files/119673008/up92320_AS_PhD_thesis_with_amendments_ethics_form.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-04-23 11:15:25.428319",
+    "local_path": "downloads/link_5e74f10e60.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "10.1177/09763996261439792": {
+    "type": "doi",
+    "id": "10.1177/09763996261439792",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-23 11:15:40.696487",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Assessing Trade Creation and Diversion Effects in India’s SAFTA Engagement: A Gravity Model Approach\n\nABSTRACT: \n                    To foster deeper economic integration across South Asia, the South Asian Free Trade Area (SAFTA) was instituted, with India assuming a central role in advancing trade relations among SAARC member states. This study examines the trade creation (TC) and trade diversion (TD) effects resulting from India’s participation in the SAARC nations under the SAFTA framework. Employing the gravity model framework developed by Anderson and van Wincoop (2003,\n                    American Economic Review\n                    , 93(1), 170–192), the analysis is conducted on a panel comprising 28 countries—including India, seven SAARC partners, and 20 India’s major trading counterparts during the 1988–2023 period. To overcome the limitations inherent in traditional gravity specifications, the model incorporates multilateral trade resistance terms and employs the Poisson Pseudo Maximum Likelihood (PPML) estimator to handle zero trade flows and ensure robust estimation effectively. Findings indicate the coexistence of TD and TC effects in terms of imports. These outcomes suggest that SAFTA’s destination-specific liberalization policies—particularly tariff concessions granted to Least Developed Countries (LDCs)—have positively influenced regional trade dynamics. However, gains from reciprocal liberalization appear uneven, diminishing with greater geographical distance among members. Thus, the findings contribute significantly to shaping informed trade policy frameworks across the region.\n                  ",
+    "real_title": "Assessing Trade Creation and Diversion Effects in India’s SAFTA Engagement: A Gravity Model Approach"
   }
 }
