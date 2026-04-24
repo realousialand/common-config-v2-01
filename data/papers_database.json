@@ -19034,5 +19034,70 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Improving menstrual and vaginal health for all (IMVAHA): protocol for a randomised cross-over trial assessing the impact of menstrual products on the vaginal microbiome of women aged 18–35 years in Cameroon, Peru and Switzerland\n\nABSTRACT: \n                    Introduction\n                    \n                      Menstrual health is critical to achieving gender equity and reaching the 2030 Sustainable Development Goals, yet evidence on the health impacts of menstrual products—particularly on the vaginal microbiota—is limited. The\n                      Improving Menstrual and Vaginal Health for All\n                      (IMVAHA) project aims to address this knowledge gap through qualitative exploration, a health survey and clinical trial embedded in three sister projects:\n                      Laura\n                      (Peru),\n                      Leke\n                      (Cameroon) and\n                      Marie\n                      (Switzerland). This paper outlines the protocol for the IMVAHA health survey and clinical trial studies, which aim to (1) assess menstrual hygiene practices, product preferences and vaginal health; and (2) evaluate longitudinal changes in vaginal microbiota associated with the use of pads, tampons and menstrual cups.\n                    \n                  \n                  \n                    Methods and analysis\n                    \n                      The IMVAHA project will take place in urban Cameroon, urban Peru, and in Switzerland. The baseline survey will explore vaginal and menstrual health behaviours and preferences, including vaginal complaints, menstrual products and menstrual stigma. Descriptive statistics will be calculated for a cross-sectional profile of vaginal and menstrual health within and between contexts, and mixed effects linear regression models will be run to identify associations between contextual factors and key vaginal and menstrual outcomes. From survey participants, 300 eligible, consenting women (100 per country) will be enrolled in a 7-month crossover clinical trial. As a self-controlled trial, a dedicated control group is not necessary. Each participant will use pads, tampons and menstrual cups for two menstrual cycles per product, providing vaginal swabs at baseline and post-menstruation. Swabs will undergo 16S rRNA sequencing, pH testing and screening for toxic shock syndrome-related bacteria. A short survey on health behaviours and symptoms, menstrual hygiene practices and participant experiences with different menstrual products will be administered during each menstrual period. The primary outcome of the clinical trial is the log ratio of\n                      Dialister\n                      to\n                      Lactobacillus crispatus\n                      abundance measured after the use of different menstrual products. Mixed-effects linear regression will assess differences in the primary outcome across product types. Secondary analyses will include per-protocol comparisons and ORs with 95% CIs.\n                    \n                  \n                  \n                    Ethics and dissemination\n                    The study complies with the Declaration of Helsinki, Council for the International Organizations of Medical Sciences guidelines and local regulations. Ethical approval has been obtained in all three countries (National Ethics Committee for Human Health Research in Cameroon (CE N° 2024/03/1649/CE/CNERSH/SP); the Institutional Review Board of the Universidad Peruana Cayetano Heredia and Universidad Nacional de la Amazonía Peruana in Peru (217572) and the Ethics Commission of Northwest and Central Switzerland (2024-02135)). Informed consent will be obtained from all participants after detailed explanation of study procedures and risks. Data will be securely stored, with participant anonymity maintained. A political economy analysis will explore regulatory environments for menstrual products, and findings will be disseminated through policy briefs, stakeholder networks, academic publications and conferences.\n                  \n                  \n                    Trial registration number\n                    \n                      NCT06646185\n                      .\n                    \n                  ",
     "real_title": "Improving menstrual and vaginal health for all (IMVAHA): protocol for a randomised cross-over trial assessing the impact of menstrual products on the vaginal microbiome of women aged 18–35 years in Cameroon, Peru and Switzerland"
+  },
+  "link_62a03f8010": {
+    "type": "pdf_link",
+    "id": "link_62a03f8010",
+    "url": "https://www.ben-faber.com/Data_Revolution_draft.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-24 23:49:09.540204",
+    "local_path": "downloads/link_62a03f8010.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "The Data Revolution, and Its Uses, in International Trade"
+  },
+  "10.1017/mdh.2026.10061": {
+    "type": "doi",
+    "id": "10.1017/mdh.2026.10061",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-24 23:49:41.283573",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Nursing the colonised: the politics of representation of the Western nurse in plague-stricken Bombay\n\nABSTRACT: Abstract\n                  The 1896 Bombay plague outbreak prompted the colonial government to recruit trained British nurses from England to serve the afflicted Indians of the Presidency. Studying this relatively under-explored aspect of British colonial nursing, this paper examines the politics of representation of the Western, non-military nurses serving the colonised Other through nineteenth-century periodical accounts and personal letters of a nurse stationed in Bombay. Owing to the popularity of British periodicals and the significant role they played in shaping public debates in the Metropole, periodical plague literature portrayed Western nurses as spokespersons for the Empire’s benevolent rule in Bombay. Contrarily, the intimacy and confidentiality of letter-writing allowed nurses to offer a more nuanced and critical account of life and work in Bombay. The paper contends that the non-military Western nurse’s medical career, mobility, and financial stability framed her multidimensional identity, which was further defined by the intersecting issues of race, class, gender and culture she encountered in Bombay. Comparing their varied portrayals in the periodicals and the letters, the paper argues that the politics of representation of women’s lives were influenced by both their sociopolitical subjectivities and the narrative forms through which they articulated their experiences.",
+    "real_title": "Nursing the colonised: the politics of representation of the Western nurse in plague-stricken Bombay"
+  },
+  "10.1016/j.clinme.2026.100588": {
+    "type": "doi",
+    "id": "10.1016/j.clinme.2026.100588",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-24 23:49:41.306031",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: ‘Don’t work more than three days straight’: working conditions as learning conditions in general practice\n\nABSTRACT: 无摘要",
+    "real_title": "‘Don’t work more than three days straight’: working conditions as learning conditions in general practice"
+  },
+  "10.1016/j.dib.2026.112755": {
+    "type": "doi",
+    "id": "10.1016/j.dib.2026.112755",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-24 23:49:41.326267",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Survey dataset on key drivers of tax evasion\n\nABSTRACT: 无摘要",
+    "real_title": "Survey dataset on key drivers of tax evasion"
+  },
+  "10.1038/d41586-026-01287-0": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01287-0",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-24 23:49:41.346936",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Delays have kept new NSF grants to a trickle — that could be about to change\n\nABSTRACT: 无摘要",
+    "real_title": "Delays have kept new NSF grants to a trickle — that could be about to change"
   }
 }
