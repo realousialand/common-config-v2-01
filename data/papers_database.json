@@ -19106,10 +19106,36 @@
     "url": "https://www.researchgate.net/profile/Mangal-Chhering/publication/404019502_Insurance_Resilience_and_Sustainable_Economic_Growth_A_Systematic_Literature_Review/links/69e6dcfad2ec9a706ec11f44/Insurance-Resilience-and-Sustainable-Economic-Growth-A-Systematic-Literature-Review.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-26 05:44:55.409190",
     "local_path": "downloads/link_920a20a348.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1111/1468-4446.70120": {
+    "type": "doi",
+    "id": "10.1111/1468-4446.70120",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-26 23:49:30.366189",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Cruel and Usual: Recursive Racial Cruelty at the US Immigration Courts\n\nABSTRACT: ABSTRACT\n                  In this paper, I advance a theorization of recursive racial cruelty by focusing on the suffering of racialized respondents in the US immigration courts and connecting it to the routine functioning of the US empire and colonial racial capitalism. Immigration courts operate within the US Department of Justice (DOJ), where immigration judges hear the government's removal (deportation) cases against non‐citizen residents and adjudicate their right to stay in the US. As the legal avenue for settling questions of deportation and asylum, these courts are often posed as humane and just alternatives to the spectacular public displays of cruelty involving militarized raids, abductions, and expedited deportations (sometimes to third‐country prisons) that have characterized Trump's two terms in office. Using ethnographic data from 42 cases in Boston from 2020–2022, which took place during both Trump and Biden's presidential terms, I argue that the immigration courts are in fact a parallel public‐facing vehicle and staging ground for racial cruelty for the US empire‐state. In the immigration courts, a combination of de jure and de facto practices work daily to reinforce a racialized politics of imperial membership. In the process, it also circulates money out of the hands of racialized respondents and their families, so that eventually profit can be made. Furthermore, the racial cruelty exercised in the immigration courts, is recursive in two ways. For each immigrant respondent, such cruelty recurs and builds in every stage of the court proceedings, from the initial hearing to the adjudication of bond to the final deportation order, and through their everyday experience in proximate institutions such as detention centers. As a result of the ongoing effects of US (and more broadly, Euro‐American) imperialism in much of the world, racial cruelty also recurs generationally and sometimes transnationally during immigrant respondents' lifetimes. By advancing a theory of recursive racial cruelty, this article contributes to decolonial theory building and bridges sociological literature on US immigration, race, organizations, empire, and political economy.",
+    "real_title": "Cruel and Usual: Recursive Racial Cruelty at the US Immigration Courts"
+  },
+  "10.1186/s12936-026-05922-z": {
+    "type": "doi",
+    "id": "10.1186/s12936-026-05922-z",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-26 23:49:30.382433",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Prioritising in a crisis: what next for malaria research?\n\nABSTRACT: Abstract\n                  Global malaria control is entering a period of profound uncertainty, with earlier gains now stalling or reversing amid a rapidly deepening shortfall in programme and research funding. At the same time, parasite and vector resistance, changing transmission patterns driven by climate and urbanisation, and growing conflict and displacement are reshaping malaria epidemiology and undermining the effectiveness of core tools. In this context, there is an urgent need to reconsider how malaria research is prioritised, funded and conducted. Drawing on a diverse group of stakeholders, this Perspective argues that malaria research must adopt a dual mandate: protecting lives now while preparing programmes for the next generation of biological and systemic threats. We highlight three interlinked priorities. First, pragmatic, equity‑focused implementation and health‑systems research should be prioritised to optimise the effectiveness, efficiency and coverage of existing interventions, including through integrated delivery models and closer collaboration with affected communities and implementers. Second, sustained investment in innovation—such as next‑generation chemoprevention strategies, vaccines and monoclonal antibodies, novel vector control approaches, and digital or AI‑enabled surveillance—is essential, accompanied by operational research that addresses feasibility, cost and pathways to scale in real‑world conditions. Third, we highlight a critical research stream on sustainable and diversified financing, and on how data, economic evidence and political economy analysis can more effectively inform national and global decision‑making. By re‑orienting towards an impact‑driven, context‑sensitive and value‑for‑money research agenda, the malaria community can help stabilise fragile programmes, reduce the risk of resurgence and preserve momentum towards long-term malaria elimination in an era of constraint.",
+    "real_title": "Prioritising in a crisis: what next for malaria research?"
   }
 }
