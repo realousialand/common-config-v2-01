@@ -1,12 +1,12 @@
-Run Time: 2026-04-26 23:51:56 UTC
+Run Time: 2026-04-27 06:07:35 UTC
 {
-  "ip": "52.161.180.225",
-  "city": "Cheyenne",
-  "region": "Wyoming",
+  "ip": "172.182.224.163",
+  "city": "Phoenix",
+  "region": "Arizona",
   "country": "US",
-  "loc": "41.1400,-104.8203",
+  "loc": "33.4484,-112.0740",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "82002",
-  "timezone": "America/Denver",
+  "postal": "85001",
+  "timezone": "America/Phoenix",
   "readme": "https://ipinfo.io/missingauth"
 }
