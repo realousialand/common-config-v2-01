@@ -19137,5 +19137,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Prioritising in a crisis: what next for malaria research?\n\nABSTRACT: Abstract\n                  Global malaria control is entering a period of profound uncertainty, with earlier gains now stalling or reversing amid a rapidly deepening shortfall in programme and research funding. At the same time, parasite and vector resistance, changing transmission patterns driven by climate and urbanisation, and growing conflict and displacement are reshaping malaria epidemiology and undermining the effectiveness of core tools. In this context, there is an urgent need to reconsider how malaria research is prioritised, funded and conducted. Drawing on a diverse group of stakeholders, this Perspective argues that malaria research must adopt a dual mandate: protecting lives now while preparing programmes for the next generation of biological and systemic threats. We highlight three interlinked priorities. First, pragmatic, equity‑focused implementation and health‑systems research should be prioritised to optimise the effectiveness, efficiency and coverage of existing interventions, including through integrated delivery models and closer collaboration with affected communities and implementers. Second, sustained investment in innovation—such as next‑generation chemoprevention strategies, vaccines and monoclonal antibodies, novel vector control approaches, and digital or AI‑enabled surveillance—is essential, accompanied by operational research that addresses feasibility, cost and pathways to scale in real‑world conditions. Third, we highlight a critical research stream on sustainable and diversified financing, and on how data, economic evidence and political economy analysis can more effectively inform national and global decision‑making. By re‑orienting towards an impact‑driven, context‑sensitive and value‑for‑money research agenda, the malaria community can help stabilise fragile programmes, reduce the risk of resurgence and preserve momentum towards long-term malaria elimination in an era of constraint.",
     "real_title": "Prioritising in a crisis: what next for malaria research?"
+  },
+  "link_d0333f4412": {
+    "type": "pdf_link",
+    "id": "link_d0333f4412",
+    "url": "https://edoc.ub.uni-muenchen.de/36861/1/Frauen_Dennis.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-27 11:50:34.635523",
+    "local_path": "downloads/link_d0333f4412.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Causal Machine Learning for Reliable Decision-Making"
   }
 }
