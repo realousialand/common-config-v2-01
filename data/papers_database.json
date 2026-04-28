@@ -19150,5 +19150,44 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Causal Machine Learning for Reliable Decision-Making"
+  },
+  "10.1111/1468-0009.70085": {
+    "type": "doi",
+    "id": "10.1111/1468-0009.70085",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-27 23:58:47.681562",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: US State Policy Index for Population Health Analyses\n\nABSTRACT: \n                    \n                    \n                      \n                        \n                          Policy Points\n                        \n                        \n                          \n                            \n                              Changes in states’ policy contexts since the 1980s may help explain why mortality rates among working‐age adults have risen and become more unequal across geographic areas. Investigating this pressing issue requires a new, industry‐standard measure of those contexts.\n                            \n                            \n                              During 1980‐2023, higher scores on the State Policies and Politics Database (SPPD) State Policy Index (reflecting an adoption of policies that strengthen economic security, expand safety nets, and discourage risky behaviors) were strongly associated with lower working‐age mortality rates.\n                            \n                            \n                              The SPPD State Policy Index is a valid, transparent, replicable, and easily updated measure that is useful for understanding how the general orientation of state policies predicts mortality.\n                            \n                          \n                        \n                      \n                    \n                  \n                  \n                    Context\n                    Recent studies have linked the rising rates and growing disparities in working‐age mortality partly to changes in US states’ policy contexts since the 1980s. Yet, such studies largely rely on measures of states’ policy contexts, or “policy indices,” that were created for other purposes, are not regularly updated, and use complex methods that can be difficult to interpret and replicate. Further elucidating the mortality trends and disparities would benefit from a policy index that is designed for population health analyses and a clearer understanding of the utility of such indices.\n                  \n                  \n                    Methods\n                    Drawing on the World Health Organization's Social Determinants of Health Framework and existing studies of the impact of specific state policies, we identified 11 policies to be included in an annual index from 1980‐2023. It ranges from 0 to 1 on a conservative‐to‐liberal continuum. We evaluated the index on multiple dimensions of validity.\n                  \n                  \n                    Findings\n                    The index demonstrates strong validity. Exhibiting convergent validity, the index has a 0.89 correlation with two existing validated and widely used holistic policy indices created for other purposes using more than 135 state policies and two different modeling approaches. Exhibiting predictive validity, the index is strongly associated with all‐cause and cause‐specific working‐age (ages 25‐64) mortality rates. The strength of the associations is similar to those using the two existing indices but have standard errors of about one‐third to one‐half the size. The index is also associated with mortality at younger and older ages.\n                  \n                  \n                    Conclusions\n                    The State Policies and Politics Database (SPPD) State Policy Index is valid for investigating the links between the general orientation of states’ policies and mortality rates. It provides researchers with a straightforward, transparent, annual, and timely index. We discuss the reasons for using policy indices, particularly in an era of policy co‐occurrence, and address two criticisms of indices.\n                  ",
+    "real_title": "US State Policy Index for Population Health Analyses"
+  },
+  "10.1097/JNC.0000000000000646": {
+    "type": "doi",
+    "id": "10.1097/JNC.0000000000000646",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-27 23:58:47.697966",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Our Common Humanity\n\nABSTRACT: 无摘要",
+    "real_title": "Our Common Humanity"
+  },
+  "10.1093/tcbh/hwag011": {
+    "type": "doi",
+    "id": "10.1093/tcbh/hwag011",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-27 23:58:47.719812",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Tom Nairn and Scottish Politics\n\nABSTRACT: Abstract\n                  This article examines a less familiar side of Tom Nairn’s career: his role as a commentator-participant in Scottish politics. It argues that Nairn was not only a radical critic of the UK but also an exponent of feasible strategies to advance Scottish self-government. The article draws on Nairn’s journalistic writings for Scottish political magazines and the Scottish press to show that he combined a maximalist critique of the UK state with a pragmatic orientation to Scottish electoral politics. Nairn abjured the commitment to extra-parliamentary action favoured by his erstwhile colleagues in the metropolitan New Left and instead supported what was, de facto, a constitutionalist popular front strategy for Scotland.",
+    "real_title": "Tom Nairn and Scottish Politics"
   }
 }
