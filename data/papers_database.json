@@ -19261,7 +19261,42 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-04-30 00:00:49.650211"
+  },
+  "2604.21965": {
+    "type": "arxiv",
+    "id": "2604.21965",
+    "url": "https://arxiv.org/pdf/2604.21965.pdf",
+    "title": "ArXiv 2604.21965",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-30 11:44:08.219950",
+    "local_path": "downloads/2604.21965.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Read the Paper, Write the Code: Agentic Reproduction of Social-Science Results"
+  },
+  "link_b50a795e58": {
+    "type": "pdf_link",
+    "id": "link_b50a795e58",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2728A0E44623D25DADA78600F06A1FA6/9781009652483bib_887-922.pdf/bibliography.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-04-30 11:44:08.238846"
+  },
+  "link_3abf0c93d8": {
+    "type": "pdf_link",
+    "id": "link_3abf0c93d8",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/2/PDF/NAR-08-02-008.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-04-30 11:44:09.368963",
+    "local_path": "downloads/link_3abf0c93d8.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Perceived financial freedom among older adults: Relationships with financial preparation for retirement and risky indebtedness"
   }
 }
