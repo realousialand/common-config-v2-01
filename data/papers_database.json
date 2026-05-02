@@ -19318,7 +19318,7 @@
     "url": "https://research.birmingham.ac.uk/files/292078287/1-s2.0-S0890838925001325-main.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-01 23:56:58.642696",
     "local_path": "downloads/link_af3a2ba2f5.pdf",
     "content_type": "PDF",
@@ -19330,7 +19330,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-01 23:56:59.755353"
   }
 }
