@@ -1,12 +1,12 @@
-Run Time: 2026-05-02 10:59:10 UTC
+Run Time: 2026-05-02 16:58:44 UTC
 {
-  "ip": "135.119.239.136",
-  "city": "Boydton",
-  "region": "Virginia",
+  "ip": "172.184.210.34",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "36.6676,-78.3875",
+  "loc": "37.3394,-121.8950",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "23917",
-  "timezone": "America/New_York",
+  "postal": "95025",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
