@@ -19298,5 +19298,39 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Perceived financial freedom among older adults: Relationships with financial preparation for retirement and risky indebtedness"
+  },
+  "link_a7338b1552": {
+    "type": "pdf_link",
+    "id": "link_a7338b1552",
+    "url": "https://www.diva-portal.org/smash/get/diva2:2047069/FULLTEXT01.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-01 23:56:58.315823",
+    "local_path": "downloads/link_a7338b1552.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Education Choices and Family Outcomes Effects of Economic and Policy Shocks**"
+  },
+  "link_af3a2ba2f5": {
+    "type": "pdf_link",
+    "id": "link_af3a2ba2f5",
+    "url": "https://research.birmingham.ac.uk/files/292078287/1-s2.0-S0890838925001325-main.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-01 23:56:58.642696",
+    "local_path": "downloads/link_af3a2ba2f5.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "10.1111/cars.70036": {
+    "type": "doi",
+    "id": "10.1111/cars.70036",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-01 23:56:59.755353"
   }
 }
