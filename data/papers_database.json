@@ -19332,5 +19332,62 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-01 23:56:59.755353"
+  },
+  "link_6930c80cd0": {
+    "type": "pdf_link",
+    "id": "link_6930c80cd0",
+    "url": "https://www.haas.berkeley.edu/wp-content/uploads/archive/WP350.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-02 23:54:22.954095",
+    "local_path": "downloads/link_6930c80cd0.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Unknown Title"
+  },
+  "link_7dcde8f3bd": {
+    "type": "pdf_link",
+    "id": "link_7dcde8f3bd",
+    "url": "https://www.shenzekai.com/assets/Research/eye-catching.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-02 23:54:22.974804",
+    "local_path": "downloads/link_7dcde8f3bd.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** Attention is All You Need? The Causal Effect of Eye-Catching Titles in Economics"
+  },
+  "10.4324/9781003667773-9": {
+    "type": "doi",
+    "id": "10.4324/9781003667773-9",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-02 23:54:42.011646",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Determinants of Big Data implementation in accounting after the COVID-19 pandemic in Poland\n\nABSTRACT: 无摘要",
+    "real_title": "Determinants of Big Data implementation in accounting after the COVID-19 pandemic in Poland"
+  },
+  "10.1111/1468-0009.70086": {
+    "type": "doi",
+    "id": "10.1111/1468-0009.70086",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-02 23:54:45.398939"
+  },
+  "10.1038/d41586-026-01427-6": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01427-6",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-02 23:54:45.420030"
   }
 }
