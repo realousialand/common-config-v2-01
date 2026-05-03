@@ -1,12 +1,12 @@
-Run Time: 2026-05-03 06:09:40 UTC
+Run Time: 2026-05-03 10:59:20 UTC
 {
-  "ip": "52.173.181.20",
-  "city": "Des Moines",
-  "region": "Iowa",
+  "ip": "20.171.123.133",
+  "city": "Phoenix",
+  "region": "Arizona",
   "country": "US",
-  "loc": "41.6005,-93.6091",
+  "loc": "33.4484,-112.0740",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "50307",
-  "timezone": "America/Chicago",
+  "postal": "85001",
+  "timezone": "America/Phoenix",
   "readme": "https://ipinfo.io/missingauth"
 }
