@@ -19378,7 +19378,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-02 23:54:45.398939"
   },
   "10.1038/d41586-026-01427-6": {
@@ -19387,7 +19387,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-02 23:54:45.420030"
   }
 }
