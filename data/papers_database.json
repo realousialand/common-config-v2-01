@@ -19435,7 +19435,7 @@
     "url": "https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-05 00:00:26.838182"
   },
   "link_815c888c2f": {
@@ -19444,7 +19444,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-05 00:00:26.857896"
   },
   "link_548de40859": {
@@ -19453,7 +19453,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-05 00:00:26.877566"
   },
   "link_5ebc1ec991": {
@@ -19462,7 +19462,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-05 00:00:26.897231"
   },
   "10.1111/1468-0009.70088": {
@@ -19470,9 +19470,13 @@
     "id": "10.1111/1468-0009.70088",
     "url": null,
     "title": "Unknown Title",
-    "status": "DOWNLOAD_FAILED",
+    "status": "ANALYZED",
     "retry": 1,
-    "ts": "2026-05-05 00:00:27.874487"
+    "ts": "2026-05-05 00:00:27.874487",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Political Economy of Wellness: Commercial Determinants of a Burgeoning Industry\n\nABSTRACT: \n                    \n                    \n                      \n                        \n                          Policy Points\n                        \n                        \n                          \n                            \n                              Wellness has grown into a multi‐trillion‐dollar industry encompassing a multitude of products and practices that affect health and well‐being.\n                            \n                            \n                              Applying a lens of commercial determinants of health to wellness is useful to examine its intersection with systems of capital production, corporate interests, and neoliberal norms of personal responsibility.\n                            \n                            \n                              The global digital revolution has fueled both the growth of the wellness industry and the spread of health misinformation, posing regulatory, social, and political challenges. As wellness movements gain prominence in American and global policymaking, attention to these intersections is crucial to understanding consequences for health policy.\n                            \n                          \n                        \n                      \n                    \n                  \n                  \n                    Context\n                    The global wellness industry has multifaceted impacts on health and well‐being, including through the sale and consumption of wellness products, the provision of health information to consumers, and the promotion of specific norms and values. Despite its growing prominence, the wellness industry and its impacts on health and policymaking remain understudied. This article examines how the wellness industry operates as a commercial, social, and political determinant of health.\n                  \n                  \n                    Methods\n                    We draw on commercial determinants of health and corporate political activity frameworks to analyze the strategies, structures, and discourses of the wellness industry. We examine existing academic literature, regulatory documents, industry data, and media and policy sources to map the wellness industry's characteristics, regulatory environment, and political dimensions, including its role in shaping US public health policy through the Make America Healthy Again (MAHA) movement.\n                  \n                  \n                    Findings\n                    The wellness industry deploys political strategies closely resembling those of other harmful commodities industries, including undermining scientists and policymakers, promoting personal empowerment, and lobbying against regulation. While wellness products and practices are often framed as responding to the erosion of institutional trust and health care systems’ failure to address persistent health inequities, their promotion may deepen, rather than alleviate, these crises. The MAHA movement illustrates how wellness logics have become embedded in policymaking, platforming individualized wellness while falling short of addressing the systemic drivers of ill health and inequity.\n                  \n                  \n                    Conclusions\n                    Applying a commercial determinants of health lens to wellness highlights the need for stronger regulatory oversight of health claims, demonetization of harmful online health misinformation, and structural investment in equitable health care systems. This is particularly urgent given the MAHA movement's alignment of wellness with populist politics. Further research is merited to systematically document wellness industry practices across diverse national contexts and investigate links between wellness discourse, health inequalities, and political polarization.\n                  ",
+    "real_title": "The Political Economy of Wellness: Commercial Determinants of a Burgeoning Industry"
   },
   "10.1016/j.puhip.2026.100791": {
     "type": "doi",
