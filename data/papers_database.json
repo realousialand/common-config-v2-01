@@ -19389,5 +19389,128 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-02 23:54:45.420030"
+  },
+  "link_a819ffce28": {
+    "type": "pdf_link",
+    "id": "link_a819ffce28",
+    "url": "https://www.aimspress.com/aimspress-data/nar/2026/2/PDF/NAR-08-02-011.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:26.500644",
+    "local_path": "downloads/link_a819ffce28.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "** The dynamics of budget deficit, macroeconomic instability and economic growth in developing Asian countries: Evidence from heterogeneous panel methods"
+  },
+  "link_d201b07e48": {
+    "type": "pdf_link",
+    "id": "link_d201b07e48",
+    "url": "https://techjacksolutions.com/wp-content/uploads/2026/04/scc-cam-2026-0225.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:26.521398",
+    "local_path": "downloads/link_d201b07e48.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Signal Phishing Campaign Targets Germany's Bundestag President Julia Klöckner"
+  },
+  "link_89957fbf41": {
+    "type": "pdf_link",
+    "id": "link_89957fbf41",
+    "url": "https://www.bakerinstitute.org/sites/default/files/2026-04/20260420CUSMX_Alcocer et al.-USMCA 2.0-Working Paper.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:26.816626",
+    "local_path": "downloads/link_89957fbf41.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Science, Technology, and Innovation in USMCA 2.0**"
+  },
+  "link_fa1cbe65ad": {
+    "type": "pdf_link",
+    "id": "link_fa1cbe65ad",
+    "url": "https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-05 00:00:26.838182"
+  },
+  "link_815c888c2f": {
+    "type": "pdf_link",
+    "id": "link_815c888c2f",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-05 00:00:26.857896"
+  },
+  "link_548de40859": {
+    "type": "pdf_link",
+    "id": "link_548de40859",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-05 00:00:26.877566"
+  },
+  "link_5ebc1ec991": {
+    "type": "pdf_link",
+    "id": "link_5ebc1ec991",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://via.library.depaul.edu/cgi/viewcontent.cgi?article=1053&context=theses-dissertations&amp;rt=A+Qualitative+Study:+How+Does+The+Underrepresentation+of+Black+American+Contributions+to+American+Society+In+K-12+Curricula+Affects+Black+Student’s+Self-Perception?&amp;scisig=AFyMTJUyzoDSPrJTXXnZ94hz5-8b",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-05 00:00:26.897231"
+  },
+  "10.1111/1468-0009.70088": {
+    "type": "doi",
+    "id": "10.1111/1468-0009.70088",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-05 00:00:27.874487"
+  },
+  "10.1016/j.puhip.2026.100791": {
+    "type": "doi",
+    "id": "10.1016/j.puhip.2026.100791",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:27.895733",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The ecological framework of population health – Adding public trust as a forcing factor for U.S. life expectancy and COVID-19 mortality\n\nABSTRACT: 无摘要",
+    "real_title": "The ecological framework of population health – Adding public trust as a forcing factor for U.S. life expectancy and COVID-19 mortality"
+  },
+  "10.3390/ijerph23040520": {
+    "type": "doi",
+    "id": "10.3390/ijerph23040520",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:27.915864",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Policy, Financing, and Regulatory Barriers to Adopting AI-Powered Electrocardiography Interpretation Clinical Decision Support System in Ethiopia: A Qualitative Study\n\nABSTRACT: Cardiovascular diseases are a growing public health challenge in Ethiopia, worsened by limited access to diagnostics, including ECG, and shortages of specialized expertise. AI-powered ECG offers potential to improve diagnostic accuracy, efficiency, and access in resource-limited settings, but its adoption is influenced by policy, regulatory, financing, and governance factors, which are not well understood in Ethiopia. This study explored these system-level determinants using qualitative methods from September to October 2025 across federal institutions, four regions, and five tertiary hospitals. Twenty-five stakeholders, including policymakers, regulators, digital health experts, and hospital leaders, were interviewed. Data were transcribed verbatim, coded inductively, and analyzed thematically. Six themes emerged: policy and governance, regulatory frameworks, financing and cost considerations, data governance and bias, integration barriers, and sustainability recommendations. Findings showed AI-powered ECG interpretation aligns with Ethiopia’s digital health and noncommunicable disease priorities, but the country lacks AI-specific health policies, clear regulations, and dedicated budgets. Financing is largely donor-dependent, data governance and algorithmic bias remain concerns, and infrastructure gaps and digital skill shortages limit readiness. Study participants recommended learning from prior digital health projects, coordinated scale-up, phased implementation, and continuous monitoring. Effective adoption will require context-specific policies, sustainable financing, robust regulation, strong data governance, and careful system integration to ensure equitable, responsible, and sustainable use.",
+    "real_title": "Policy, Financing, and Regulatory Barriers to Adopting AI-Powered Electrocardiography Interpretation Clinical Decision Support System in Ethiopia: A Qualitative Study"
+  },
+  "10.3389/fpsyg.2026.1768286": {
+    "type": "doi",
+    "id": "10.3389/fpsyg.2026.1768286",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-05 00:00:27.935985",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The hidden toll of colleague absenteeism: exploring its impact on emotional strain and burnout among frontline health workers in Nigeria\n\nABSTRACT: \n                    Background\n                    Absenteeism among health workers is a persistent challenge in resource-constrained health systems, increasing workloads for those who remain present and undermining service quality. While its operational consequences are well documented, the emotional and psychological impact on frontline workers remains underexplored. This study examines how unscheduled colleague absenteeism contributes to emotional strain and burnout among primary healthcare (PHC) workers in Nigeria.\n                  \n                  \n                    Methods\n                    The study was conducted in Enugu and Kano States, using 24 in-depth interviews with PHC workers purposively selected from urban, semi-urban, and rural facilities, based on their direct experience with colleague absenteeism. Participants included both women and men, reflecting variation in workforce composition across settings. A multi-stakeholder co-creation workshop provided contextual and institutional perspectives. Data were analyzed thematically using the job demands-resources (JDR) framework, with interview data as the primary basis for analysis.\n                  \n                  \n                    Findings\n                    Colleague absenteeism substantially increased job demands, with participants describing emotional exhaustion from repeatedly covering multiple clinical and non-clinical roles or managing facilities alone. These experiences generated significant emotional strain, manifesting as frustration, isolation, sadness, and moral distress. Effects were shaped by organizational conditions, including weak supervision, inconsistent shift management, and perceived unfairness linked to favoritism and limited accountability. Informal power structures, such as godfatherism, allowed some staff to be absent without consequence, while others assumed additional responsibilities, thereby intensifying perceptions of inequity. Gendered expectations further amplified emotional burden in settings where the PHC workforce was predominantly female.\n                  \n                  \n                    Conclusion\n                    Unscheduled colleague absenteeism has profound emotional and psychological consequences for frontline PHC workers, contributing to burnout and diminished morale. Addressing these impacts requires workforce strategies that extend beyond staffing numbers to include transparent scheduling, supportive supervision, recognition of emotional labor, equitable accountability mechanisms, and gender-sensitive policies that prioritize the well-being of those who consistently remain present.\n                  ",
+    "real_title": "The hidden toll of colleague absenteeism: exploring its impact on emotional strain and burnout among frontline health workers in Nigeria"
   }
 }

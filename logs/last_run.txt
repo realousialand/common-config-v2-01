@@ -1,12 +1,12 @@
-Run Time: 2026-05-04 17:47:05 UTC
+Run Time: 2026-05-05 00:07:50 UTC
 {
-  "ip": "52.154.20.53",
-  "city": "Des Moines",
-  "region": "Iowa",
+  "ip": "48.211.210.113",
+  "city": "Boydton",
+  "region": "Virginia",
   "country": "US",
-  "loc": "41.6005,-93.6091",
+  "loc": "36.6676,-78.3875",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "50307",
-  "timezone": "America/Chicago",
+  "postal": "23917",
+  "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
 }
