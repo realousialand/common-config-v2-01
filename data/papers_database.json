@@ -19549,10 +19549,36 @@
     "url": "https://www.researchgate.net/profile/Rakhi-Sharma-22/publication/404348265_Factors_Influencing_the_Adoption_of_Cloud-Based_Financial_Software_A_Systematic_Literature_Review/links/69f4b1fa751e8801513e649a/Factors-Influencing-the-Adoption-of-Cloud-Based-Financial-Software-A-Systematic-Literature-Review.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-06 11:54:46.664203",
     "local_path": "downloads/link_a755b59c28.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1016/j.jare.2026.05.010": {
+    "type": "doi",
+    "id": "10.1016/j.jare.2026.05.010",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-06 23:57:05.490545",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: When robots become one of us: Moral evaluation and neural processing of community norm violations by in-group robots\n\nABSTRACT: 无摘要",
+    "real_title": "When robots become one of us: Moral evaluation and neural processing of community norm violations by in-group robots"
+  },
+  "10.1038/d41586-026-01426-7": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01426-7",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-06 23:57:05.512991",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: NIH grant cuts disproportionately hit minority and female scientists\n\nABSTRACT: 无摘要",
+    "real_title": "NIH grant cuts disproportionately hit minority and female scientists"
   }
 }
