@@ -19580,5 +19580,18 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: NIH grant cuts disproportionately hit minority and female scientists\n\nABSTRACT: 无摘要",
     "real_title": "NIH grant cuts disproportionately hit minority and female scientists"
+  },
+  "10.1080/02701960.2026.2670594": {
+    "type": "doi",
+    "id": "10.1080/02701960.2026.2670594",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-07 23:59:42.260074",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Engaging graduate students &amp; lifelong learners with intergenerational justice issues\n\nABSTRACT: 无摘要",
+    "real_title": "Engaging graduate students &amp; lifelong learners with intergenerational justice issues"
   }
 }
