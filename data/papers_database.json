@@ -19593,5 +19593,80 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Engaging graduate students &amp; lifelong learners with intergenerational justice issues\n\nABSTRACT: 无摘要",
     "real_title": "Engaging graduate students &amp; lifelong learners with intergenerational justice issues"
+  },
+  "link_3b2fd50e20": {
+    "type": "pdf_link",
+    "id": "link_3b2fd50e20",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-08 17:26:20.603642"
+  },
+  "link_e4fa6bec8f": {
+    "type": "pdf_link",
+    "id": "link_e4fa6bec8f",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-08 17:26:20.624479"
+  },
+  "link_b4a5b8a2f2": {
+    "type": "pdf_link",
+    "id": "link_b4a5b8a2f2",
+    "url": "https://ijafssr.com/uploads2026/ijafssr_04_110.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-08 17:26:20.644818",
+    "local_path": "downloads/link_b4a5b8a2f2.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Dimensions of Mexico's International-Finance Profile: A Comparative Analysis with Latin America"
+  },
+  "link_4a61471f8c": {
+    "type": "pdf_link",
+    "id": "link_4a61471f8c",
+    "url": "https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-08 17:26:20.664882"
+  },
+  "link_3997120905": {
+    "type": "pdf_link",
+    "id": "link_3997120905",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-08 17:26:20.686272"
+  },
+  "link_5d397406b8": {
+    "type": "pdf_link",
+    "id": "link_5d397406b8",
+    "url": "https://www.brookings.edu/wp-content/uploads/2026/03/usmca-Forward-2026.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-08 17:26:20.707157",
+    "local_path": "downloads/link_5d397406b8.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "UNITED STATES MEXICO CANADA AGREEMENT 2026: REVIEW AND D E J A VU"
+  },
+  "2605.00205": {
+    "type": "arxiv",
+    "id": "2605.00205",
+    "url": "https://arxiv.org/pdf/2605.00205.pdf",
+    "title": "ArXiv 2605.00205",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-08 17:26:21.196345",
+    "local_path": "downloads/2605.00205.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "ArXiv 2605.00205"
   }
 }
