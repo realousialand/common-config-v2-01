@@ -19600,7 +19600,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-08 17:26:20.603642"
   },
   "link_e4fa6bec8f": {
@@ -19609,7 +19609,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-08 17:26:20.624479"
   },
   "link_b4a5b8a2f2": {
@@ -19631,7 +19631,7 @@
     "url": "https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-08 17:26:20.664882"
   },
   "link_3997120905": {
@@ -19640,7 +19640,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=4948&context=wlulr&amp;rt=Long+COVID,+Silent+Suffering,+and+Work&amp;scisig=AFyMTJWtLdP_cudlLD1Mmhst_Kyo",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-08 17:26:20.686272"
   },
   "link_5d397406b8": {
@@ -19668,5 +19668,18 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "ArXiv 2605.00205"
+  },
+  "10.12688/f1000research.172552.1": {
+    "type": "doi",
+    "id": "10.12688/f1000research.172552.1",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-09 00:01:35.250494",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Impact Of The Dynamics In The National Strategy Of The People's Republic Of China On Regional Security And Relations Between China And The West/Nato\n\nABSTRACT: Background The ambitions to gain national rejuvenation and global power in 2049 are evident in the national strategy of the People’s Republic of China (PRC), which was developed based on the vision of the Chinese dream and Chinese modernization. This approach combines economic growth, technological advancement, and military technology modernization in redefining the role of China in the international system. The dynamics are essential in assessing the emerging position of China in the global power systems and its effects on regional security, specifically in its association with the West and NATO. Methods The current research is a qualitative, theoretically-based study that relies on the power-transition theory, literature related to the security dilemma, and the notion of normative contestation. By tracing the process over four critical junctures (2008, 2013, 2017, 2019, and 2022) and comparatively systematizing information between current official PRC Defense White Papers and CCP policy documents, the role of NATO Strategic Concepts, and secondary academic literature, the study triangulates and analyzes information. Pattern matching and trend analysis are also supported by descriptive statistics of SIPRI (2023). Results The results indicate that the policy of China is a kind of selective revisionism that is aimed at attaining an influence on the world by integrating economically and institutionally, and confronting Western domination in governing rules. The combination of economic modernization, technological self-sufficiency, and military development in China changes the macro-level of power in the Indo-Pacific. The Taiwan issue comes out as the main security flash point, which increases the strategic competition between the West but also helps China to strengthen its deterrence posture. Empirical trends show that unequal interdependence remains at the moderating level of the risk of the direct clash between China and the states allied to NATO. Conclusions The multidimensional national strategy of China highlights the pragmatic strike between reform and revisionism. Its long-term prosperity requires that it can continue to be economically resilient, further its domestic reforms, and attain technological independence as it is able to cope with external threat perceptions. The changing politics surrounding the emergence of China also pose threats and opportunities to global stability, and cooperative mechanisms between China and the West can help alleviate security dilemmas and deliver a more inclusive global order.",
+    "real_title": "The Impact Of The Dynamics In The National Strategy Of The People's Republic Of China On Regional Security And Relations Between China And The West/Nato"
   }
 }
