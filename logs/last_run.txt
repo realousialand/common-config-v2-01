@@ -1,12 +1,12 @@
-Run Time: 2026-05-10 11:05:17 UTC
+Run Time: 2026-05-10 17:04:09 UTC
 {
-  "ip": "20.57.198.164",
-  "city": "San Jose",
-  "region": "California",
+  "ip": "52.161.59.101",
+  "city": "Cheyenne",
+  "region": "Wyoming",
   "country": "US",
-  "loc": "37.3394,-121.8950",
+  "loc": "41.1400,-104.8203",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "95025",
-  "timezone": "America/Los_Angeles",
+  "postal": "82002",
+  "timezone": "America/Denver",
   "readme": "https://ipinfo.io/missingauth"
 }
