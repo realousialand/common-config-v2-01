@@ -19688,7 +19688,7 @@
     "url": "https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1388",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-10 06:17:23.448580"
   },
   "link_4c9826c6af": {
@@ -19697,7 +19697,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1388&context=cilj&amp;rt=Artificial+Intelligence+in+the+Insurance+Industry+and+Bad+Faith+Risk&amp;scisig=AFyMTJWDlD54mA6k4r-BBR0tho6S",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-10 06:17:23.469794"
   },
   "link_a9ef66f898": {
@@ -19706,7 +19706,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1388&context=cilj&amp;rt=Artificial+Intelligence+in+the+Insurance+Industry+and+Bad+Faith+Risk&amp;scisig=AFyMTJWDlD54mA6k4r-BBR0tho6S",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-10 06:17:23.491042"
   },
   "link_748fdcb82c": {
@@ -19715,7 +19715,7 @@
     "url": "https://www.researchgate.net/profile/Hemlata-Manglani-2/publication/404422274_Advances_in_Consumer_Research_Unveiling_Research_Trends_on_Deglobalization_A_Systematic_Bibliometric_Review/links/69f964c5acd3d67d71010830/Advances-in-Consumer-Research-Unveiling-Research-Trends-on-Deglobalization-A-Systematic-Bibliometric-Review.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-10 06:17:23.513467",
     "local_path": "downloads/link_748fdcb82c.pdf",
     "content_type": "PDF",
@@ -19727,7 +19727,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1388&context=cilj&amp;rt=Artificial+Intelligence+in+the+Insurance+Industry+and+Bad+Faith+Risk&amp;scisig=AFyMTJWDlD54mA6k4r-BBR0tho6S",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-10 06:17:23.534660"
   },
   "10.1108/fdar-08-2025-0020": {
