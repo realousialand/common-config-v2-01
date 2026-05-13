@@ -19814,7 +19814,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.law.lsu.edu/cgi/viewcontent.cgi?article=7111&context=lalrev&amp;rt=Do+We+Trust+Big+Oil:+Evaluating+Antitrust+Concerns+in+Oil+and+Gas+Mergers+&+Acquisitions&amp;scisig=AFyMTJV9lRDZLBVTIDbdKP-EYkfg",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-12 06:19:00.786662"
   },
   "link_b1661ca7bf": {
@@ -19823,7 +19823,7 @@
     "url": "https://digitalcommons.law.lsu.edu/cgi/viewcontent.cgi?article=7111",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-12 06:19:00.808188"
   },
   "link_e80f8c7839": {
@@ -19832,7 +19832,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.law.lsu.edu/cgi/viewcontent.cgi?article=7111&context=lalrev&amp;rt=Do+We+Trust+Big+Oil:+Evaluating+Antitrust+Concerns+in+Oil+and+Gas+Mergers+&+Acquisitions&amp;scisig=AFyMTJV9lRDZLBVTIDbdKP-EYkfg",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-12 06:19:00.829328"
   },
   "link_2ae4728108": {
@@ -19841,7 +19841,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.law.lsu.edu/cgi/viewcontent.cgi?article=7111&context=lalrev&amp;rt=Do+We+Trust+Big+Oil:+Evaluating+Antitrust+Concerns+in+Oil+and+Gas+Mergers+&+Acquisitions&amp;scisig=AFyMTJV9lRDZLBVTIDbdKP-EYkfg",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-12 06:19:00.851567"
   },
   "10.7176/rjfa/13-10-06": {
@@ -19856,5 +19856,40 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Tunneling Incentive, Debt Covenant and Bonus Mechanism: Transfer Pricing Practices with Tax Minimization as Moderating Variables\n\nABSTRACT: 无摘要",
     "real_title": "Tunneling Incentive, Debt Covenant and Bonus Mechanism: Transfer Pricing Practices with Tax Minimization as Moderating Variables"
+  },
+  "10.7554/eLife.111487": {
+    "type": "doi",
+    "id": "10.7554/eLife.111487",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-13 00:06:45.296677",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Science under threat around the world\n\nABSTRACT: Politicians are reducing public funding for science and dismantling scientific institutions for ideological reasons in Argentina and the United States. It appeared as if something similar could happen in the Netherlands, but the collapse of a coalition government led to a reprieve. How should the scientific community respond to such crises?",
+    "real_title": "Science under threat around the world"
+  },
+  "10.1016/j.jogn.2026.04.003": {
+    "type": "doi",
+    "id": "10.1016/j.jogn.2026.04.003",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-13 00:06:45.318802"
+  },
+  "10.1038/d41586-026-01449-0": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01449-0",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-13 00:06:45.340647",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Three mental-health claims from RFK’s wellness movement: what scientists say\n\nABSTRACT: 无摘要",
+    "real_title": "Three mental-health claims from RFK’s wellness movement: what scientists say"
   }
 }
