@@ -19876,7 +19876,7 @@
     "url": null,
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-13 00:06:45.318802"
   },
   "10.1038/d41586-026-01449-0": {
@@ -19891,5 +19891,30 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Three mental-health claims from RFK’s wellness movement: what scientists say\n\nABSTRACT: 无摘要",
     "real_title": "Three mental-health claims from RFK’s wellness movement: what scientists say"
+  },
+  "link_9c1215b11a": {
+    "type": "pdf_link",
+    "id": "link_9c1215b11a",
+    "url": "https://www.researchgate.net/profile/Wisdom-Okere/publication/404657335_Sustainability_Reporting_Alignment_A_Systematic_Review_of_King_V_Code_IFRS_S1S2_Assurance_and_Combined-Assurance_Maturity_in_South_Africa/links/69fe089d0fc2cb5022848a0d/Sustainability-Reporting-Alignment-A-Systematic-Review-of-King-V-Code-IFRS-S1-S2-Assurance-and-Combined-Assurance-Maturity-in-South-Africa.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-13 12:10:36.629617",
+    "local_path": "downloads/link_9c1215b11a.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_02714dedbc": {
+    "type": "pdf_link",
+    "id": "link_02714dedbc",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-95-4731-9.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-13 12:10:37.023594",
+    "local_path": "downloads/link_02714dedbc.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Resources, Climate and Sustainable Development"
   }
 }
