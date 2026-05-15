@@ -19916,5 +19916,80 @@
     "content_type": "PDF",
     "abstract_content": "",
     "real_title": "Resources, Climate and Sustainable Development"
+  },
+  "link_dccdbca5ad": {
+    "type": "pdf_link",
+    "id": "link_dccdbca5ad",
+    "url": "https://www.ue.edu.ph/mla/wp-content/uploads/2026/04/8_Cabinian-et-al.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-15 00:02:09.255959",
+    "local_path": "downloads/link_dccdbca5ad.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Online CPA Review by Select NCR Review Schools: An Assessment"
+  },
+  "link_9451784b1d": {
+    "type": "pdf_link",
+    "id": "link_9451784b1d",
+    "url": "https://commons.emich.edu/cgi/viewcontent.cgi?article=1008",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-15 00:02:09.573607"
+  },
+  "link_bd4654bce7": {
+    "type": "pdf_link",
+    "id": "link_bd4654bce7",
+    "url": "https://s3.us-east-1.amazonaws.com/media.hudson.org/Seven Key Points on US Forces in Europe - Luke Coffey (1).pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-15 00:02:09.596600",
+    "local_path": "downloads/link_bd4654bce7.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Seven Key Points on US Forces in Europe"
+  },
+  "link_6a8e396837": {
+    "type": "pdf_link",
+    "id": "link_6a8e396837",
+    "url": "https://www.nber.org/system/files/working_papers/w35188/w35188.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-15 00:02:09.618959",
+    "local_path": "downloads/link_6a8e396837.pdf",
+    "content_type": "PDF",
+    "abstract_content": "",
+    "real_title": "Deep Research on a Loop: Using AI Agents to Construct Economic Datasets"
+  },
+  "link_bfcc301510": {
+    "type": "pdf_link",
+    "id": "link_bfcc301510",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-15 00:02:09.640217"
+  },
+  "link_8ac0ac77aa": {
+    "type": "pdf_link",
+    "id": "link_8ac0ac77aa",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-15 00:02:09.662650"
+  },
+  "link_68691b748b": {
+    "type": "pdf_link",
+    "id": "link_68691b748b",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-15 00:02:09.684770"
   }
 }
