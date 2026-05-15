@@ -19936,7 +19936,7 @@
     "url": "https://commons.emich.edu/cgi/viewcontent.cgi?article=1008",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-15 00:02:09.573607"
   },
   "link_bd4654bce7": {
@@ -19971,7 +19971,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-15 00:02:09.640217"
   },
   "link_8ac0ac77aa": {
@@ -19980,7 +19980,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-15 00:02:09.662650"
   },
   "link_68691b748b": {
@@ -19989,7 +19989,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://commons.emich.edu/cgi/viewcontent.cgi?article=1008&context=ugradsymposium&amp;rt=Imperialist+Implications+of+a+Military+Coup+in+Latin+America&amp;scisig=AFyMTJXtrr-UHjdhyIsuRrn93eub",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-15 00:02:09.684770"
   }
 }
