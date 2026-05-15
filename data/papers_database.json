@@ -19991,5 +19991,18 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-15 00:02:09.684770"
+  },
+  "10.1186/s12910-026-01482-8": {
+    "type": "doi",
+    "id": "10.1186/s12910-026-01482-8",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-15 23:59:25.767032",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Pinpointing the politics of passing away. An empirical ethics case study on legislating assisted dying\n\nABSTRACT: Abstract\n                  \n                    Background\n                    While the number of countries that have introduced or are trying to introduce statutory laws regulating the procedure of assisted dying is increasing, research has yet to address why some legislative attempts succeed and others fail. In Germany, which set out to regulate assisted suicide with an autonomy-based approach, two draft bills were unable to secure a parliamentary majority. This paper sets out to explain the underlying value disputes that contributed to the legislative failure.\n                  \n                  \n                    Methods\n                    We conducted an interpretative analysis of 108 speeches and 18 declarations to the votes delivered in four parliamentary debates and 44 contributions from parliamentarians in the expert hearing in the Committee on Legal Affairs in Germany. For analysis of the publicly available stenographic protocols of the debates, we used MAXQDA Analytics Pro. Using thematic analysis, we aimed to capture the underlying value disputes as the core ideas driving politicians’ statements to explain why the attempt at regulating assisted dying failed in Germany.\n                  \n                  \n                    Results\n                    Our analysis revealed that parliamentarians drew on beneficence-based reasoning when invoking the concept of autonomy. However, we identified two distinct camps that differ in how they interweave the concepts of autonomy and beneficence. Parliamentarians disagreed over which group is at greater risk of harm from inadequate assisted suicide legislation – eligible individuals denied access or ineligible individuals granted access. This determined whether they favoured a low-threshold or a more high-threshold approach toward regulating assisted suicide.\n                  \n                  \n                    Discussion\n                    By disagreeing over which group is at greater risk of harm from assisted dying legislation, German parliamentarians engaged in a discussion style characterized as a debate over false negatives and false positives. At present, scholarship offers no definitive basis for alleviating parliamentarians’ concerns about the risks of either false negatives or false positives. Our analysis underscores that scholarship should engage with ethical reasoning and guide assisted dying policy by offering empirical insights into regulatory options that need to operate with accepting certain risks.\n                  \n                  \n                    Trial registration\n                    Not applicable.\n                  ",
+    "real_title": "Pinpointing the politics of passing away. An empirical ethics case study on legislating assisted dying"
   }
 }
