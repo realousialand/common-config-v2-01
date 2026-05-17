@@ -20011,7 +20011,7 @@
     "url": "https://www.researchgate.net/profile/Joseph-Agyemang/publication/404714541_A_Systematic_Literature_Review_of_the_Effect_of_Audit_Quality_and_Internal_Control_Effectiveness_on_Financial_Statement_Fraud/links/6a0172380fc2cb502284b720/A-Systematic-Literature-Review-of-the-Effect-of-Audit-Quality-and-Internal-Control-Effectiveness-on-Financial-Statement-Fraud.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.125362",
     "local_path": "downloads/link_a0e71cffd0.pdf",
     "content_type": "PDF",
@@ -20023,7 +20023,7 @@
     "url": "https://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1029",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.793798"
   },
   "link_e00b1a1fac": {
@@ -20032,7 +20032,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-18696-6.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.815087",
     "local_path": "downloads/link_e00b1a1fac.pdf",
     "content_type": "PDF",
@@ -20044,7 +20044,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1029&context=etds&amp;rt=Navigating+the+Educational+Shift:+An+In-Depth+Analysis+of+the+Intersection+of+Male+Enrollments+and+Program+of+Study&amp;scisig=AFyMTJW_atTr2eTFT-uc-9wTn266",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.835592"
   },
   "link_dc234ab0e1": {
@@ -20053,7 +20053,7 @@
     "url": "https://assets.science.nasa.gov/content/dam/science/cds/about-us/ocsdo/reports/SMD_Data_Computing_Strategy_2025_2030.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.856294",
     "local_path": "downloads/link_dc234ab0e1.pdf",
     "content_type": "PDF",
@@ -20065,7 +20065,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1029&context=etds&amp;rt=Navigating+the+Educational+Shift:+An+In-Depth+Analysis+of+the+Intersection+of+Male+Enrollments+and+Program+of+Study&amp;scisig=AFyMTJW_atTr2eTFT-uc-9wTn266",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.876980"
   },
   "link_3614adea98": {
@@ -20074,7 +20074,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1029&context=etds&amp;rt=Navigating+the+Educational+Shift:+An+In-Depth+Analysis+of+the+Intersection+of+Male+Enrollments+and+Program+of+Study&amp;scisig=AFyMTJW_atTr2eTFT-uc-9wTn266",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-16 17:06:04.897837"
   },
   "10.1016/j.copsyc.2026.102318": {
