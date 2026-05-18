@@ -20122,7 +20122,7 @@
     "url": "https://arxiv.org/pdf/2605.12547.pdf",
     "title": "ArXiv 2605.12547",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.198062",
     "local_path": "downloads/2605.12547.pdf",
     "content_type": "PDF",
@@ -20134,7 +20134,7 @@
     "url": "https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1287",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.906151"
   },
   "link_aac0271d9e": {
@@ -20143,7 +20143,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1287&context=hastings_business_law_journal&amp;rt=Completely+Abandon+Complete+Auto:+Why+Modern+Tax+Policy+Challenges+Require+Removing+the+Commerce+Clause’s+Restrictions+on+State+Taxation&amp;scisig=AFyMTJWgswmWJQknzf-zTf0qw54A",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.930422"
   },
   "link_8deb0dd6df": {
@@ -20152,7 +20152,7 @@
     "url": "https://www.researchgate.net/profile/Ejuchegahi-Angwaomaodoko/publication/404890527_Recentring_Slavery_in_American_Historical_Discourse_An_Appraisal_of_The_1619_Project/links/6a0681b5e48e8125fa38df38/Recentring-Slavery-in-American-Historical-Discourse-An-Appraisal-of-The-1619-Project.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.952613",
     "local_path": "downloads/link_8deb0dd6df.pdf",
     "content_type": "PDF",
@@ -20164,7 +20164,7 @@
     "url": "https://knowledge.uchicago.edu/record/17015/files/adityabhandari_dissertation.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.974766",
     "local_path": "downloads/link_938a115ed4.pdf",
     "content_type": "PDF",
@@ -20176,7 +20176,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1287&context=hastings_business_law_journal&amp;rt=Completely+Abandon+Complete+Auto:+Why+Modern+Tax+Policy+Challenges+Require+Removing+the+Commerce+Clause’s+Restrictions+on+State+Taxation&amp;scisig=AFyMTJWgswmWJQknzf-zTf0qw54A",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:05.996433"
   },
   "link_3833b87f37": {
@@ -20185,7 +20185,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1287&context=hastings_business_law_journal&amp;rt=Completely+Abandon+Complete+Auto:+Why+Modern+Tax+Policy+Challenges+Require+Removing+the+Commerce+Clause’s+Restrictions+on+State+Taxation&amp;scisig=AFyMTJWgswmWJQknzf-zTf0qw54A",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-17 17:05:06.018508"
   }
 }
