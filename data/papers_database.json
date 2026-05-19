@@ -20207,7 +20207,7 @@
     "url": "https://repository.gyaanarth.com/pdfs/ijriss/vol10-iss2-pg5440-5469-202603_pdf.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.489690",
     "local_path": "downloads/link_2ad56bb040.pdf",
     "content_type": "PDF",
@@ -20219,7 +20219,7 @@
     "url": "https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1579",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.885912"
   },
   "link_c1eb813b3c": {
@@ -20228,7 +20228,7 @@
     "url": "https://ekonomista.pte.pl/pdf-221390-139980?filename=The-current-state-and-the.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.906088",
     "local_path": "downloads/link_c1eb813b3c.pdf",
     "content_type": "PDF",
@@ -20240,7 +20240,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1579&context=grad_portfolios&amp;rt=MSW+Portfolio&amp;scisig=AFyMTJUYlgDaUf9KRB0XaUL8oqXc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.926688"
   },
   "link_13a04ada18": {
@@ -20249,7 +20249,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1579&context=grad_portfolios&amp;rt=MSW+Portfolio&amp;scisig=AFyMTJUYlgDaUf9KRB0XaUL8oqXc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.947197"
   },
   "link_e735df5c76": {
@@ -20258,7 +20258,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1579&context=grad_portfolios&amp;rt=MSW+Portfolio&amp;scisig=AFyMTJUYlgDaUf9KRB0XaUL8oqXc",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-19 06:53:24.967717"
   }
 }
