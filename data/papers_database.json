@@ -20187,5 +20187,18 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-17 17:05:06.018508"
+  },
+  "10.1037/dev0002198": {
+    "type": "doi",
+    "id": "10.1037/dev0002198",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-19 00:14:26.263396",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Native speakers are more likeable and knowledgeable, but foreign speakers are not bad: Disentangling language-based social preferences in early childhood.\n\nABSTRACT: 无摘要",
+    "real_title": "Native speakers are more likeable and knowledgeable, but foreign speakers are not bad: Disentangling language-based social preferences in early childhood."
   }
 }
