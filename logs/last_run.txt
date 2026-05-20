@@ -1,12 +1,12 @@
-Run Time: 2026-05-20 12:30:21 UTC
+Run Time: 2026-05-20 18:24:40 UTC
 {
-  "ip": "48.217.251.131",
-  "city": "Washington",
-  "region": "Virginia",
+  "ip": "52.159.229.49",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "38.7135,-78.1594",
+  "loc": "37.3394,-121.8950",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "22747",
-  "timezone": "America/New_York",
+  "postal": "95025",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
