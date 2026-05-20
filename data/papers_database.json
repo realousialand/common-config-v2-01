@@ -20260,5 +20260,18 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-19 06:53:24.967717"
+  },
+  "10.1080/10401334.2026.2671901": {
+    "type": "doi",
+    "id": "10.1080/10401334.2026.2671901",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-20 00:13:38.282782",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: “Empty Places…People Could Not See”: Structural Barriers Faced by US-Based International Medical Graduates\n\nABSTRACT: 无摘要",
+    "real_title": "“Empty Places…People Could Not See”: Structural Barriers Faced by US-Based International Medical Graduates"
   }
 }
