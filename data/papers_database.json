@@ -20273,5 +20273,57 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: “Empty Places…People Could Not See”: Structural Barriers Faced by US-Based International Medical Graduates\n\nABSTRACT: 无摘要",
     "real_title": "“Empty Places…People Could Not See”: Structural Barriers Faced by US-Based International Medical Graduates"
+  },
+  "10.1371/journal.pgph.0006473": {
+    "type": "doi",
+    "id": "10.1371/journal.pgph.0006473",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-22 00:10:31.161820",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Building reparative futures demands a reckoning with the crisis form of global health\n\nABSTRACT: Recent cuts to global health funding and US withdrawal from the World Health Organization have generated claims that global health has entered a new crisis. This essay argues that such accounts misread the present moment. The better view is that global health operates through a ‘crisis form’, a modality of governance in which structural inequality is treated as ordinary, acute disruptions (Big Events) are framed as emergencies, and responses to Big Events restore institutional authority without transforming the historically continuous racialized political economy in which global health is embedded. Drawing on past Big Events we trace this pattern from colonial medicine, through Alma Ata, HIV/AIDS, Ebola to COVID-19, showing how each Big Event exposed the underlying structural problems in global health and generated promises of change while preserving structural inequality. We then analyze early 2025 commentaries on aid cuts and US withdrawal from the World Health Organization to show how crisis discourse, even at a moment ripe with decolonial talk, channels political energy into the language of rescue and renewal, leaving deeper systemic questions of redress and redistribution untouched. In response, the essay develops reparatory global health as a political and conceptual orientation that calls for a refusal of restoration by taking the structural problems exposed by Big Events as the object of action, and by treating reparations as transformative, tactical, and oriented towards structural change and non-recurrence.",
+    "real_title": "Building reparative futures demands a reckoning with the crisis form of global health"
+  },
+  "10.1186/s13561-026-00788-y": {
+    "type": "doi",
+    "id": "10.1186/s13561-026-00788-y",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-22 00:10:31.219335",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Sustainable financing in Iran’s health system: a policy analysis of agenda-setting through Kingdon’s multiple streams framework\n\nABSTRACT: 无摘要",
+    "real_title": "Sustainable financing in Iran’s health system: a policy analysis of agenda-setting through Kingdon’s multiple streams framework"
+  },
+  "10.1038/s41746-026-02765-5": {
+    "type": "doi",
+    "id": "10.1038/s41746-026-02765-5",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-22 00:10:31.266422",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A global call to action on the digital determinants of health\n\nABSTRACT: 无摘要",
+    "real_title": "A global call to action on the digital determinants of health"
+  },
+  "10.1186/s12992-026-01212-0": {
+    "type": "doi",
+    "id": "10.1186/s12992-026-01212-0",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-22 00:10:31.315613",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Ultra-processed foods: challenging corporate power and promoting local food systems to reclaim health\n\nABSTRACT: 无摘要",
+    "real_title": "Ultra-processed foods: challenging corporate power and promoting local food systems to reclaim health"
   }
 }
