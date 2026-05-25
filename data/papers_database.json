@@ -20410,5 +20410,110 @@
     "local_path": "downloads/link_41264cc8d0.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "link_5e0f6e0cb2": {
+    "type": "pdf_link",
+    "id": "link_5e0f6e0cb2",
+    "url": "https://www.indjcst.com/archiver/archives/customer_product_and_profitability_performance_analysis_in_supply_chain_operations_an_exploratory_data_analytics_framework_for_apl_logistics.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:50.600808",
+    "local_path": "downloads/link_5e0f6e0cb2.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_a5a9ba4d6c": {
+    "type": "pdf_link",
+    "id": "link_a5a9ba4d6c",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://aura.antioch.edu/cgi/viewcontent.cgi?article=2296&context=etds&amp;rt=A+Content+Analysis+of+Black+Women's+Race+and+Gender+Depiction+in+American+History+Textbooks&amp;scisig=AFyMTJWvuTfSVJVEcSLhu0fiAhck",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.276802"
+  },
+  "link_a81cb5ce8c": {
+    "type": "pdf_link",
+    "id": "link_a81cb5ce8c",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://aura.antioch.edu/cgi/viewcontent.cgi?article=2296&context=etds&amp;rt=A+Content+Analysis+of+Black+Women's+Race+and+Gender+Depiction+in+American+History+Textbooks&amp;scisig=AFyMTJWvuTfSVJVEcSLhu0fiAhck",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.298247"
+  },
+  "link_85ae10b7b3": {
+    "type": "pdf_link",
+    "id": "link_85ae10b7b3",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1309&context=masters_theses&amp;rt=Applied+Washington+Consensus:+Analyzing+Chile's+Success+and+Venezuela's+Failure—Institutional+Frameworks,+Policy+Sequencing,+and+Economic+Liberalization+in+Latin+America+(1980s–2010).&amp;scisig=AFyMTJWICMq9GzXMyazapX0pbFDT",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.320006"
+  },
+  "link_7abfc278a5": {
+    "type": "pdf_link",
+    "id": "link_7abfc278a5",
+    "url": "https://www.researchgate.net/profile/Diego-Ontaneda-Jimenez/publication/405027399_Labor_Income_Effects_of_External_Shock_in_Emerging_Markets_Factors_Explaining_the_Decline_During_the_COVID-19_Pandemic_in_Ecuador/links/6a0cdfcb0fc2cb50228584df/Labor-Income-Effects-of-External-Shock-in-Emerging-Markets-Factors-Explaining-the-Decline-During-the-COVID-19-Pandemic-in-Ecuador.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.341881",
+    "local_path": "downloads/link_7abfc278a5.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_ee4a700080": {
+    "type": "pdf_link",
+    "id": "link_ee4a700080",
+    "url": "https://www.ode.unipi.gr/images/stories/Faculty/timikos_tomos_pekka_c.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.363095"
+  },
+  "link_5fe9cec96f": {
+    "type": "pdf_link",
+    "id": "link_5fe9cec96f",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1309&context=masters_theses&amp;rt=Applied+Washington+Consensus:+Analyzing+Chile's+Success+and+Venezuela's+Failure—Institutional+Frameworks,+Policy+Sequencing,+and+Economic+Liberalization+in+Latin+America+(1980s–2010).&amp;scisig=AFyMTJWICMq9GzXMyazapX0pbFDT",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.384856"
+  },
+  "link_39520090f7": {
+    "type": "pdf_link",
+    "id": "link_39520090f7",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1309&context=masters_theses&amp;rt=Applied+Washington+Consensus:+Analyzing+Chile's+Success+and+Venezuela's+Failure—Institutional+Frameworks,+Policy+Sequencing,+and+Economic+Liberalization+in+Latin+America+(1980s–2010).&amp;scisig=AFyMTJWICMq9GzXMyazapX0pbFDT",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.406115"
+  },
+  "link_08280eacb4": {
+    "type": "pdf_link",
+    "id": "link_08280eacb4",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://aura.antioch.edu/cgi/viewcontent.cgi?article=2296&context=etds&amp;rt=A+Content+Analysis+of+Black+Women's+Race+and+Gender+Depiction+in+American+History+Textbooks&amp;scisig=AFyMTJWvuTfSVJVEcSLhu0fiAhck",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.427791"
+  },
+  "link_8b53d4bfa4": {
+    "type": "pdf_link",
+    "id": "link_8b53d4bfa4",
+    "url": "https://aura.antioch.edu/cgi/viewcontent.cgi?article=2296",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.449070"
+  },
+  "link_b53521b577": {
+    "type": "pdf_link",
+    "id": "link_b53521b577",
+    "url": "https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1309",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-25 00:06:51.470840"
   }
 }
