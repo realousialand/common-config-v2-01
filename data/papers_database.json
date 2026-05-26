@@ -20515,5 +20515,57 @@
     "status": "DOWNLOAD_FAILED",
     "retry": 3,
     "ts": "2026-05-25 00:06:51.470840"
+  },
+  "10.1093/heapol/czag074": {
+    "type": "doi",
+    "id": "10.1093/heapol/czag074",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-26 00:12:11.133221",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A qualitative study of stakeholders’ perceptions towards the implementation of the National Health Insurance Scheme in Zambia: Equity and financial sustainability in question\n\nABSTRACT: Abstract\n                  Low- and middle-income countries are expanding health insurance to enhance financial protection. However, there is scarcity of evidence on the stakeholder perceptions towards health insurance. This study explores stakeholders’ perceptions towards the implementation of the National Health Insurance Scheme in Zambia. This qualitative study is based on 21 in-depth interviews with key stakeholders involved in the NHIS implementation in Zambia. We used qualitative content analysis to describe and interpret the manifest and latent meaning of transcribed interviews. The analysis yielded three overarching themes: i) Politics can make or break the scheme, ii) Equity in question: winners and losers and iii) Pointing at the need for financial sustainability of the National Health Insurance Scheme. The themes are supported by six subthemes and 18 data categories. Participants perceived the scheme as having contributed to improved quality of care and offering a generous health benefit package. However, implementation is perceived to be hindered by political interference, limited use of empirical evidence, weak institutional coordination, and exclusion of key stakeholders from decision-making processes, low enrolment, operational inefficiencies, inequities and a benefit package misaligned with available resources. The Zambia National Health Insurance Scheme is perceived as a promising initiative for expanding access to health and enhancing financial protection. However, it faces numerous challenges ranging from limited enrolment among the poor, vulnerable and informal sector populations to concerns about financial sustainability. Addressing these issues is essential to realize the scheme’s potential benefits.",
+    "real_title": "A qualitative study of stakeholders’ perceptions towards the implementation of the National Health Insurance Scheme in Zambia: Equity and financial sustainability in question"
+  },
+  "10.1080/20523211.2026.2670703": {
+    "type": "doi",
+    "id": "10.1080/20523211.2026.2670703",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-26 00:12:11.155812",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Stakeholders’ views on the development and adoption of health policies related to pharmacist scope of practice and the pharmacy practice environment in Australia\n\nABSTRACT: 无摘要",
+    "real_title": "Stakeholders’ views on the development and adoption of health policies related to pharmacist scope of practice and the pharmacy practice environment in Australia"
+  },
+  "10.1177/03063127261442991": {
+    "type": "doi",
+    "id": "10.1177/03063127261442991",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-26 00:12:11.177521",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Money-Work: Science Funding as Relational Socioeconomics\n\nABSTRACT: Accounts of scientific work at the lab bench largely overlook or sideline the considerable time and effort that scientists devote to the acquisition, management, and dispersal of funding. While multiple studies explore the subject of scientific funding from the political economic, historical, and comparative policy perspectives, we develop an approach premised upon relational socioeconomics and grounded in ethnographic study at the bench. We focus our attention upon what we call ‘money-work’—scientists’ everyday practical work, action, and interaction about funding. To illuminate how scientists regularly engage in mundane activity that is simultaneously scientific and economic we apply Zelizerian concepts of earmarking, making good matches, and the development of valuation criteria. Our framework for contemporary laboratory ethnography investigates a political economy of science funding in which science and money do not occupy ‘separate spheres’ or ‘hostile worlds’, but rather lead intimately connected lives. Given the current crisis in science funding, such a perspective on relational work, currency fluctuation, and valuation in exchange is essential for the next generation of science studies scholarship.",
+    "real_title": "Money-Work: Science Funding as Relational Socioeconomics"
+  },
+  "10.1186/s13561-026-00789-x": {
+    "type": "doi",
+    "id": "10.1186/s13561-026-00789-x",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-26 00:12:11.199303",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Securing Somalia’s health: leveraging sin tax revenues to drive universal health coverage and financial protection for lifesaving care in Somalia’s health system-scoping review\n\nABSTRACT: 无摘要",
+    "real_title": "Securing Somalia’s health: leveraging sin tax revenues to drive universal health coverage and financial protection for lifesaving care in Somalia’s health system-scoping review"
   }
 }
