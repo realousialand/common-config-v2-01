@@ -20567,5 +20567,17 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Securing Somalia’s health: leveraging sin tax revenues to drive universal health coverage and financial protection for lifesaving care in Somalia’s health system-scoping review\n\nABSTRACT: 无摘要",
     "real_title": "Securing Somalia’s health: leveraging sin tax revenues to drive universal health coverage and financial protection for lifesaving care in Somalia’s health system-scoping review"
+  },
+  "link_166a962728": {
+    "type": "pdf_link",
+    "id": "link_166a962728",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-20738-8.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-26 18:32:46.646836",
+    "local_path": "downloads/link_166a962728.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
