@@ -20592,5 +20592,17 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: The widening partisan gap in legislative support for civil rights in the United States\n\nABSTRACT: Abstract\n                  The history of civil rights legislation offers a window into how American democracy codified social justice over time, and whether this process unfolded gradually or through punctuated shifts. Sixty years after the civil rights movement, we apply natural language processing to legislative archives to track how civil rights has evolved as a policy domain. We show that civil rights legislation has become more common, but also has diverged by party. Divergence accelerated during the early 1990s and mid-2010s—the latter coinciding with the rise of the Black Lives Matter movement and driven by a surge in sponsorship among racial minority Democrats in Congress. Topic modeling reveals that divergence is concentrated in legislation concerning racial minorities, women, and LGBTQ+ populations, while attention to older adults and people with disabilities has declined across both parties. Our findings offer potential insights into party divergence, race and ethnicity politics, and collective action tipping points.",
     "real_title": "The widening partisan gap in legislative support for civil rights in the United States"
+  },
+  "link_4979fd7130": {
+    "type": "pdf_link",
+    "id": "link_4979fd7130",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-27662-9.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-27 18:30:36.118039",
+    "local_path": "downloads/link_4979fd7130.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
