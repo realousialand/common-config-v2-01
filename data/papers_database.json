@@ -20599,10 +20599,62 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-27662-9.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-05-27 18:30:36.118039",
     "local_path": "downloads/link_4979fd7130.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.13081/kjmh.2026.35.217": {
+    "type": "doi",
+    "id": "10.13081/kjmh.2026.35.217",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-28 00:04:31.038764",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: A Critical Reconsideration of the Adoption of “German Medicine” in Early Meiji Japan: Sagara Chian’s Conception of Medical Authority and His Project for the Professionalization of Physicians\n\nABSTRACT: This article critically reconsiders existing explanations for the adoption of “German medicine” in early Meiji Japan and reconstructs the institutional and political context of that decision by focusing on Sagara Chian’s conception of medical authority (iken) and his project of medical professionalization. Previous studies have explained the shift largely in terms of the academic superiority of German medicine, the German provenance of Dutch-learning medical texts, the advice of foreign advisers such as Verbeck and Bauduin, political or ideological affinity between Japan and Prussia, or factional conflict surrounding William Willis. Yet these explanations do not sufficiently clarify why the final outcome took the form of a German-style institutional model combining university-based medical education, state examinations and licensure, a hierarchical professorial order, and state regulation of medical practice. This article first shows that, in the aftermath of the Boshin War, the British model represented by William Willis enjoyed strong political legitimacy within the new Meiji government. It then traces the appointments of Sagara Chian and Iwasa Jun, the proposal and collapse of the dual-employment proposal, and the subsequent politics of separation and compromise, arguing that the crucial issue was not a simple confrontation between pro-British and pro-German camps but a contest over who would control medical education, institutional design, and the authority to certify physicians. It further demonstrates that Sagara understood “Germany” not as a repository of superior medical techniques but as an institutional model linking the university, state licensure, hierarchical academic authority, military medicine, and hygienic administration. In this light, the adoption of “German medicine” in early Meiji Japan is best understood less as passive reception of a purportedly superior foreign medicine than as an institutional choice through which the modern Japanese state sought to reorganize physicians into a state-managed and state-certified profession. This reinterpretation sheds light not only on the formation of the Meiji state and its professional order but also on the broader genealogy of modern medical education in East Asia, including colonial Korea.",
+    "real_title": "A Critical Reconsideration of the Adoption of “German Medicine” in Early Meiji Japan: Sagara Chian’s Conception of Medical Authority and His Project for the Professionalization of Physicians"
+  },
+  "10.3389/fspor.2026.1774307": {
+    "type": "doi",
+    "id": "10.3389/fspor.2026.1774307",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-28 00:04:31.062186",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Public subsidies for professional football clubs: a conceptual political economy analysis\n\nABSTRACT: Despite the economic growth of professional football in Europe, clubs continue to receive substantial public subsidies, raising questions of legitimacy. While the relationship between public authorities and professional football has been studied from various disciplinary perspectives, an integrated theoretical framework remains absent. This conceptual study therefore adopts a political economy approach to systematize and integrate theories from sport economics and microeconomics, considering the political environment, aiming to setup a more coherent analytical model. For empirical and policy illustration, we draw specifically on the German Bundesliga, which exemplifies a balanced governance model combining corporate autonomy, democratic control by membership-based clubs, and public support. We advance two key propositions: First, the institutional relationship between clubs and local authorities can be conceptualized as a (local) bilateral monopoly with asymmetric market and bargaining power favoring the clubs. While local authorities hold a jurisdictional monopoly by law and through league restrictions on relocations, clubs may exert (economic) power due to effective barriers to entry for competing teams. Second, although market failures, externalities, and public-good characteristics can justify public support, subsidies may also serve political aims related to merit goods and distributional objectives. Public funding can thus either enhance overall welfare or sustain a monopoly operating at a loss. In conclusion, we argue for a strategic repositioning of the state as an active investor rather than a reactive financier. This approach may mitigate risks of government failure and prevent loss of control to investors with external – possibly geopolitical – interests.",
+    "real_title": "Public subsidies for professional football clubs: a conceptual political economy analysis"
+  },
+  "10.1371/journal.pone.0349710": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0349710",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-28 00:04:31.085342",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Organizing adult attachment in alternative ways: A qualitative assessment of schemas antithetical to the secure base script\n\nABSTRACT: How adults make meaning of their childhood experiences with caregivers plays a central role in how they anticipate support, manage distress, and interpret relationships. To understand how adults conceptualize these attachment relationships, the Adult Attachment Interview (AAI) probes for childhood memories of general relationships, day-to-day interactions, and instances of loss, threat, and separation. Across these narratives, the AAI captures expectations of whether caregivers are perceived as an available source of support in times of distress, and whether they serve as a secure base from which to seek comfort and explore the world. Developing a coding system for secure base script knowledge, based on the AAI (AAIsbs), Waters, and Facompré also identified alternative, schema-like representations that seemed to conflict with the secure base script. Before exploring empirical questions regarding these alternative schemas, the present study undertook a qualitative systematic examination of their content in a large, risk-diverse corpus of interviews from 14 studies. Conducting a thematic analysis, 1,592 AAIs were examined by seven trained coders. This resulted in the identification of three novel themes (Favoritism, Incompetent, and Restrictive), the amendment of three existing schemas (Caregiver Source of Distress, Harsh and Threatening Parenting, and Self-Involved), and the replication of evidence for existing schemas. Together, the diversity and thematic coherence of alternative schemas underscore how relational expectations may be organized around vigilance, distress, or self-reliance, rather than comfort and support. This study contributes to theory-building on relational representations by expanding our understanding of how caregiving relationships are cognitively structured under conditions of relational adversity.",
+    "real_title": "Organizing adult attachment in alternative ways: A qualitative assessment of schemas antithetical to the secure base script"
+  },
+  "10.1038/d41586-026-01666-7": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01666-7",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-05-28 00:04:31.108387",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Iran’s Internet blackout: a scholar’s month in the dark\n\nABSTRACT: 无摘要",
+    "real_title": "Iran’s Internet blackout: a scholar’s month in the dark"
   }
 }
