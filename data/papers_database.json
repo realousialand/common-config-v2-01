@@ -20599,7 +20599,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-27662-9.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-27 18:30:36.118039",
     "local_path": "downloads/link_4979fd7130.pdf",
     "content_type": "PDF",
