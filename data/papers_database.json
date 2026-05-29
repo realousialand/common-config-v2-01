@@ -20695,5 +20695,35 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: The Political Psychology of Economic Inequality\n\nABSTRACT: The high level of inequality of income and wealth across individuals, groups, and nations is widely regarded as among the most fundamental problems facing humanity. Yet democracies often elect and reelect politicians who deliver policies that exacerbate rather than reduce inequality. We argue that this disconnect arises from three basic features of human social cognition that evolved for interpersonal interactions in small groups rather than for navigating the vast political, economic, and technological systems that shape contemporary life: a focus on local notions of equality and equity between socially connected individuals rather than across society at large; group identification, which directs attention to inequality between groups rather than “pure” inequality across the broader population; and what we call the “i-frame bias”—a tendency to explain social outcomes, including inequality, as the product of individual behaviors, taking the system within which those individuals operate as a given. We extend our analysis to examine how economic elites exploit these features of social cognition to shape the political and policy landscape and examine the role psychology can play in reducing inequality.",
     "real_title": "The Political Psychology of Economic Inequality"
+  },
+  "link_7d2ef4d10d": {
+    "type": "pdf_link",
+    "id": "link_7d2ef4d10d",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B375BB104BA13FB4B8E4F566521180F5/S0023921626101054a.pdf/meanings-of-migrant-illegality-folk-durkheimian-beliefs-and-relational-morality-of-legal-categories.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-29 18:42:53.853040"
+  },
+  "link_8e0392ad41": {
+    "type": "pdf_link",
+    "id": "link_8e0392ad41",
+    "url": "https://faculty.washington.edu/vmenaldo/Books/Menaldo2026.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-29 18:42:53.875741",
+    "local_path": "downloads/link_8e0392ad41.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_3fe63cb3e4": {
+    "type": "pdf_link",
+    "id": "link_3fe63cb3e4",
+    "url": "https://mbs.journals.ekb.eg/article_503387_583f651f169cdd1e29890668f3e091fc.pdf",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-05-29 18:42:54.758685"
   }
 }
