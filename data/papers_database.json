@@ -20702,7 +20702,7 @@
     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B375BB104BA13FB4B8E4F566521180F5/S0023921626101054a.pdf/meanings-of-migrant-illegality-folk-durkheimian-beliefs-and-relational-morality-of-legal-categories.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-29 18:42:53.853040",
     "local_path": "downloads/link_7d2ef4d10d.pdf",
     "content_type": "PDF",
@@ -20714,7 +20714,7 @@
     "url": "https://faculty.washington.edu/vmenaldo/Books/Menaldo2026.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-29 18:42:53.875741",
     "local_path": "downloads/link_8e0392ad41.pdf",
     "content_type": "PDF",
@@ -20726,7 +20726,7 @@
     "url": "https://mbs.journals.ekb.eg/article_503387_583f651f169cdd1e29890668f3e091fc.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-05-29 18:42:54.758685"
   }
 }
