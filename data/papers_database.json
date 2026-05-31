@@ -20754,5 +20754,29 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Cannabis policy priorities and public health: a survey of elected officials in California\n\nABSTRACT: Abstract\n                  \n                    Background\n                    Cannabis legalization has substantial impacts on public health across the United States, yet the perspectives of local elected officials who oversee regulatory environments and make decisions about cannabis business retail licensing, taxation, and marketing restrictions remain largely unstudied. Understanding how these policymakers prioritize health considerations relative to economic and other concerns is essential for developing effective public health advocacy and anticipating barriers to implementing health-protective cannabis regulations.\n                  \n                  \n                    Methods\n                    From September 2023 to February 2024, we conducted an online survey of 2,681 elected officials in California local government, assessing cannabis policy positions, priorities, and engagement. Descriptive statistics were calculated for all measures. Likelihood ratio tests using logistic regression assessed differences across political party affiliations (Democrat, Republican, Independent), with analyses stratified by whether respondents’ jurisdictions allowed cannabis retail. One open-ended measure was analyzed using thematic coding.\n                  \n                  \n                    Results\n                    Among 250 respondents (9.3% response rate), who were primarily city council members, 40% reported direct cannabis policy experience and 75% expressed interest in regulatory involvement. Top priorities were tax revenue (41%), economic development (41%), and youth cannabis use (38%), reflecting tension between fiscal and health considerations. Support for licensing adult-use retailers was significantly higher among Democrats (72%) than Republicans (39%; OR = 0.25 [95% CI: 0.11, 0.56]) or Independents (38%; OR = 0.23 [0.10, 0.53]). Republicans were significantly more likely to prioritize adverse health effects (47% vs. 22% Democrats; OR = 3.10 [1.36, 7.07]). Social equity was prioritized by only 13% overall, with significant partisan variation (20% Democrats vs. 3% Republicans; OR = 0.11 [0.01, 0.85]). Cross-party agreement emerged on restricting youth-attractive packaging (84%), yet fewer than 4% of California jurisdictions that allow retail to operate have implemented such protections. Qualitative responses revealed diverse framings of cannabis—from prohibition-era moral concerns to wellness narratives—suggesting policy decisions are often not evidence-based.\n                  \n                  \n                    Conclusions\n                    This first systematic study of U.S. elected officials’ cannabis policy positions documents a political landscape in which economic considerations predominate over health concerns and significant gaps exist between policymakers’ support for health-protective measures and actual policy implementation. These findings identify actionable opportunities for evidence-based public health advocacy, particularly in support of bipartisan youth protection measures.\n                  ",
     "real_title": "Cannabis policy priorities and public health: a survey of elected officials in California"
+  },
+  "link_d22e028abf": {
+    "type": "pdf_link",
+    "id": "link_d22e028abf",
+    "url": "https://adpht.arkansas.gov/wp-content/uploads/Trailblazers-Academic-Paper-AOOR.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-31 07:02:09.947281",
+    "local_path": "downloads/link_d22e028abf.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_7321c55fdd": {
+    "type": "pdf_link",
+    "id": "link_7321c55fdd",
+    "url": "https://msipublishers.com/wp-content/uploads/2026/04/MSIJEBM1022025-GS.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-05-31 07:02:10.886992",
+    "local_path": "downloads/link_7321c55fdd.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
