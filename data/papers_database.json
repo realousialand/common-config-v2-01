@@ -20778,5 +20778,18 @@
     "local_path": "downloads/link_7321c55fdd.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1038/s41598-026-55115-6": {
+    "type": "doi",
+    "id": "10.1038/s41598-026-55115-6",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-01 00:11:29.368978",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Active conflict and national identity shape intergroup bias among Arabic and Hebrew speakers in Israel\n\nABSTRACT: 无摘要",
+    "real_title": "Active conflict and national identity shape intergroup bias among Arabic and Hebrew speakers in Israel"
   }
 }
