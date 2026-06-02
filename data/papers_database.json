@@ -20798,7 +20798,7 @@
     "url": "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=5531",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.818349"
   },
   "link_9e2493a5f3": {
@@ -20807,7 +20807,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=5531&context=cmc_theses&amp;rt=The+Tech-Nuclear+Renaissance:+A+New+Critical+Juncture+for+American+Nuclear+Energy+Policy&amp;scisig=AFyMTJU5_QS-xkFgbx3z1dTeZDTY",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.842140"
   },
   "link_6cc778a6d6": {
@@ -20816,7 +20816,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1587&context=elj&amp;rt=When+Machines+Collude:+Rebooting+Antitrust+Law+for+the+Age+of+Algorithmic+Markets&amp;scisig=AFyMTJW0LlOhdZKi0t9CTF5GTkUl",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.864739"
   },
   "link_b31c771b00": {
@@ -20825,7 +20825,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=5531&context=cmc_theses&amp;rt=The+Tech-Nuclear+Renaissance:+A+New+Critical+Juncture+for+American+Nuclear+Energy+Policy&amp;scisig=AFyMTJU5_QS-xkFgbx3z1dTeZDTY",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.887375"
   },
   "link_c41c17b8d6": {
@@ -20834,7 +20834,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1587&context=elj&amp;rt=When+Machines+Collude:+Rebooting+Antitrust+Law+for+the+Age+of+Algorithmic+Markets&amp;scisig=AFyMTJW0LlOhdZKi0t9CTF5GTkUl",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.910042"
   },
   "link_9c660f3afe": {
@@ -20843,7 +20843,7 @@
     "url": "https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1587",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.932955"
   },
   "link_33b83547a0": {
@@ -20852,7 +20852,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1587&context=elj&amp;rt=When+Machines+Collude:+Rebooting+Antitrust+Law+for+the+Age+of+Algorithmic+Markets&amp;scisig=AFyMTJW0LlOhdZKi0t9CTF5GTkUl",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.955984"
   },
   "link_c695e33744": {
@@ -20861,7 +20861,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=5531&context=cmc_theses&amp;rt=The+Tech-Nuclear+Renaissance:+A+New+Critical+Juncture+for+American+Nuclear+Energy+Policy&amp;scisig=AFyMTJU5_QS-xkFgbx3z1dTeZDTY",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:33.978809"
   },
   "link_a83dbc4f26": {
@@ -20870,7 +20870,7 @@
     "url": "https://www.academia.edu/download/132407751/19th_Conference_Proceedings.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:34.349757",
     "local_path": "downloads/link_a83dbc4f26.pdf",
     "content_type": "PDF",
@@ -20882,7 +20882,59 @@
     "url": "https://rosap.ntl.bts.gov/view/dot/91214/dot_91214_DS1.pdf",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-01 08:40:34.372593"
+  },
+  "10.1093/haschl/qxag055": {
+    "type": "doi",
+    "id": "10.1093/haschl/qxag055",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-02 00:19:23.182216",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The Rural Health Transformation Program: trends in projected scores and actual awards\n\nABSTRACT: Abstract\n                  \n                    Introduction\n                    Recent legislation will substantially reduce Medicaid spending and coverage but also created a temporary Rural Health Transformation Program (RHTP), which may partially offset cuts. The extent to which the RHTP will attenuate rural health care cuts depends both on how the federal government allocates RHTP funds and how states spend the money received.\n                  \n                  \n                    Methods\n                    We reviewed RHTP scoring criteria and collected relevant publicly available data for each state. We calculated the number of points likely to be allocated for each measurable scored factor, analyzed funding actually awarded for fiscal year 2026 (FY2026), and evaluated associations with anticipated rural Medicaid funding losses and partisanship.\n                  \n                  \n                    Results\n                    The association between RHTP point allocations and estimated cuts was statistically significant, both overall and when subsetting to the rural facility and population score factors, which include statutorily mandated criteria. However, the measurable state policy- and data-driven factors—which primarily reflect state policy choices—are not significantly associated with expected rural funding cuts. Estimated scores and actual awards for FY2026 favored Republican-leaning states, even after conditioning on anticipated Medicaid cuts or rural population size.\n                  \n                  \n                    Conclusion\n                    Key design choices in RHTP legislation and implementation had important consequences for the distribution of funds.\n                  ",
+    "real_title": "The Rural Health Transformation Program: trends in projected scores and actual awards"
+  },
+  "10.2147/IJWH.S607080": {
+    "type": "doi",
+    "id": "10.2147/IJWH.S607080",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-02 00:19:23.205396",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Beyond Continence: Long-Term Psychosocial Adaptation Following Mainz II Urinary Diversion for Incurable Obstetric Fistula in Rural Uganda\n\nABSTRACT: 无摘要",
+    "real_title": "Beyond Continence: Long-Term Psychosocial Adaptation Following Mainz II Urinary Diversion for Incurable Obstetric Fistula in Rural Uganda"
+  },
+  "10.1038/s41560-026-02021-w": {
+    "type": "doi",
+    "id": "10.1038/s41560-026-02021-w",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-02 00:19:23.227614",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Probabilistic projections of global wind and solar power growth based on historical national experience\n\nABSTRACT: Abstract\n                  Despite the recent surge of wind and solar power, both technologies need to accelerate to meet climate goals. Yet, there are no robust methods to assess the likelihood of such acceleration. Here we show that renewable energy deployment follows a recurring pattern across countries with prolonged periods of relatively steady growth punctuated by growth pulses. Based on this insight and on observed growth trajectories in early adopting countries, we develop a probabilistic model (PROLONG) for projecting global wind and solar power deployment. In our central projections, both wind and solar power grow similarly to Intergovernmental Panel on Climate Change 2 °C-compatible pathways and faster than in current policy scenarios. The COP28 pledge to triple renewables by 2030 is near the 95th percentile of our projections and requires that the growth of wind and solar photovoltaics in major economies accelerate by 1.4–3 times and 2–5 times, respectively. PROLONG can be adopted for data-driven projections of other policy-dependent energy technologies.",
+    "real_title": "Probabilistic projections of global wind and solar power growth based on historical national experience"
+  },
+  "10.1038/s44406-026-00024-w": {
+    "type": "doi",
+    "id": "10.1038/s44406-026-00024-w",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-02 00:19:23.249729",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The role of community energy in mediating sustainable energy transitions in East and Southern Eastern Africa\n\nABSTRACT: Abstract\n                  Community energy projects, actively governed and managed by community members, play an essential role in advancing just energy transitions, for example, by providing energy in remote areas, facilitating the adoption of renewable technologies, and building resilient electricity networks. However, their adoption remains limited. How does community energy work in practice, and how can it become more widespread? This article presents a study of community energy in three countries: Ethiopia, Malawi, and Mozambique. A multi-methods analysis (project inventories, qualitative interviewing, surveys) suggests that the political economy of development and material challenges, such as financing and supply chains, constrain the expansion of community energy. A survey of community energy beneficiaries demonstrates the tangible benefits these projects bring to disadvantaged communities. Concessional grants that recognise the social value of community energy can facilitate its development and support new energy models for a just energy transition.",
+    "real_title": "The role of community energy in mediating sustainable energy transitions in East and Southern Eastern Africa"
   }
 }
