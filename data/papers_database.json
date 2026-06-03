@@ -20943,7 +20943,7 @@
     "url": "https://beacon.ca.gov/wp-content/uploads/2026/05/BEACON-Agenda-Packet-05-22-26-REV1.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-02 19:48:47.757672",
     "local_path": "downloads/link_8b073daa30.pdf",
     "content_type": "PDF",
