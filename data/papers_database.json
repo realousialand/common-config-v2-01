@@ -20943,10 +20943,36 @@
     "url": "https://beacon.ca.gov/wp-content/uploads/2026/05/BEACON-Agenda-Packet-05-22-26-REV1.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 1,
+    "retry": 2,
     "ts": "2026-06-02 19:48:47.757672",
     "local_path": "downloads/link_8b073daa30.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.1371/journal.pone.0350271": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0350271",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-03 01:43:51.889181",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: The politics of processed foods: Consumer perceptions of policies targeting ultra-processed foods\n\nABSTRACT: This paper examined U.S. public support for six potential government policies designed to regulate ultra-processed foods (UPFs). Specifically, we consider support for two information-based policies (defining UPFs and providing dietary recommendations around UPFs); three restriction-based policies (UPF restrictions in grocery stores, schools, and food assistance programs); and one price-based policy (taxing UPFs). Survey results from 990 U.S. consumers showed the highest support for information-based policies, with the least support for UPF taxation. Additionally, there was considerable heterogeneity in policy support based on perceptions of UPFs, subjective knowledge, and demographics. These results may help policymakers gauge public sentiment around and appetite for regulating UPFs in the U.S.",
+    "real_title": "The politics of processed foods: Consumer perceptions of policies targeting ultra-processed foods"
+  },
+  "10.1038/s43016-026-01360-x": {
+    "type": "doi",
+    "id": "10.1038/s43016-026-01360-x",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-03 01:43:51.910880",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Principles for guiding and unlocking transformation of the European Union agrifood system\n\nABSTRACT: 无摘要",
+    "real_title": "Principles for guiding and unlocking transformation of the European Union agrifood system"
   }
 }
