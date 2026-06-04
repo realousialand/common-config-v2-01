@@ -21026,5 +21026,89 @@
     "content_type": "ABSTRACT_ONLY",
     "abstract_content": "TITLE: Who gets in, who gets cited, who gets promoted: informal networks in Kazakhstani academia\n\nABSTRACT: 无摘要",
     "real_title": "Who gets in, who gets cited, who gets promoted: informal networks in Kazakhstani academia"
+  },
+  "link_313724c0b4": {
+    "type": "pdf_link",
+    "id": "link_313724c0b4",
+    "url": "https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.238224"
+  },
+  "link_f7f2c91e7c": {
+    "type": "pdf_link",
+    "id": "link_f7f2c91e7c",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.250430"
+  },
+  "link_f1cb5bb10a": {
+    "type": "pdf_link",
+    "id": "link_f1cb5bb10a",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.262386"
+  },
+  "link_061733e85c": {
+    "type": "pdf_link",
+    "id": "link_061733e85c",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-22325-8.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.274296",
+    "local_path": "downloads/link_061733e85c.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_5ade1f8594": {
+    "type": "pdf_link",
+    "id": "link_5ade1f8594",
+    "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
+    "title": "Unknown Title",
+    "status": "DOWNLOAD_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.286214"
+  },
+  "link_a1ba85b096": {
+    "type": "pdf_link",
+    "id": "link_a1ba85b096",
+    "url": "https://ir.uitm.edu.my/id/eprint/136676/2/136676.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.709980",
+    "local_path": "downloads/link_a1ba85b096.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_e025ad93f5": {
+    "type": "pdf_link",
+    "id": "link_e025ad93f5",
+    "url": "https://www.aulaauditoriaycontabilidadasepuc.es/wp-content/uploads/2026/03/1-gender-diversity.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.722207",
+    "local_path": "downloads/link_e025ad93f5.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
+  },
+  "link_286dc33c49": {
+    "type": "pdf_link",
+    "id": "link_286dc33c49",
+    "url": "https://ir.uitm.edu.my/id/eprint/136502/2/136502.pdf",
+    "title": "Unknown Title",
+    "status": "ANALYSIS_FAILED",
+    "retry": 1,
+    "ts": "2026-06-04 12:47:57.733998",
+    "local_path": "downloads/link_286dc33c49.pdf",
+    "content_type": "PDF",
+    "abstract_content": ""
   }
 }
