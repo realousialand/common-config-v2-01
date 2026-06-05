@@ -21033,7 +21033,7 @@
     "url": "https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.238224"
   },
   "link_f7f2c91e7c": {
@@ -21042,7 +21042,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=in&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.250430"
   },
   "link_f1cb5bb10a": {
@@ -21051,7 +21051,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=fb&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.262386"
   },
   "link_061733e85c": {
@@ -21060,7 +21060,7 @@
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-22325-8.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.274296",
     "local_path": "downloads/link_061733e85c.pdf",
     "content_type": "PDF",
@@ -21072,7 +21072,7 @@
     "url": "https://scholar.google.com/scholar_share?hl=en&amp;oi=scholaralrt&amp;ss=tw&amp;url=https://digitalcommons.wcupa.edu/cgi/viewcontent.cgi?article=1108&context=all_capstones&amp;rt=Beyond+Interests+and+Ideas:+Institutions+and+the+Persistence+of+Trade+Protectionism+in+Brazil&amp;scisig=ANDmEU6YI9QGaMValO-WnAYjtJOz",
     "title": "Unknown Title",
     "status": "DOWNLOAD_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.286214"
   },
   "link_a1ba85b096": {
@@ -21081,7 +21081,7 @@
     "url": "https://ir.uitm.edu.my/id/eprint/136676/2/136676.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.709980",
     "local_path": "downloads/link_a1ba85b096.pdf",
     "content_type": "PDF",
@@ -21093,7 +21093,7 @@
     "url": "https://www.aulaauditoriaycontabilidadasepuc.es/wp-content/uploads/2026/03/1-gender-diversity.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.722207",
     "local_path": "downloads/link_e025ad93f5.pdf",
     "content_type": "PDF",
@@ -21105,10 +21105,75 @@
     "url": "https://ir.uitm.edu.my/id/eprint/136502/2/136502.pdf",
     "title": "Unknown Title",
     "status": "ANALYSIS_FAILED",
-    "retry": 2,
+    "retry": 3,
     "ts": "2026-06-04 12:47:57.733998",
     "local_path": "downloads/link_286dc33c49.pdf",
     "content_type": "PDF",
     "abstract_content": ""
+  },
+  "10.3389/fsoc.2026.1761036": {
+    "type": "doi",
+    "id": "10.3389/fsoc.2026.1761036",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-05 00:15:43.601609",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Cultural representation, soft power, and tourism futures in Vision 2030: Saudi Arabia's path toward the 2034 FIFA World Cup\n\nABSTRACT: This article provides one of the first systematic sociological analyses of Saudi women's representation and positioning within tourism and sports narratives linked to Vision 2030 and Saudi Arabia's preparations for hosting the FIFA World Cup 2034. Addressing a notable gap in scholarship, the study examines the relationship between gendered media discourse, public visibility, and state-led modernization. Grounded in cultural representation theory, feminist reconceptualizations of the public sphere, and gender performativity, the study employs critical discourse analysis to examine a curated corpus of national tourism advertisements, sports promotional campaigns, government communications, and institutional reports published between 2022 and 2025. The findings reveal a strategic transformation in the representation of Saudi women as public actors, entrepreneurs, athletes, and cultural ambassadors operating within tourism and international engagement spaces. These representations combine symbolic references to Saudi heritage, including the abaya, desert landscapes, and equestrian culture, with narratives emphasizing modernization, mobility, and global openness. However, the analysis also demonstrates that these transformations remain uneven, with women's visibility and participation appearing more pronounced in metropolitan and globally oriented spaces than in rural regions, where local cultural norms continue to shape the pace and form of social change. The study further suggests that while symbolic inclusion and public visibility have expanded considerably, deeper forms of structural empowerment remain dependent on institutional mechanisms capable of supporting leadership opportunities, public-private collaboration, and regionally responsive capacity-building strategies. By situating Saudi women at the intersection of gender politics, tourism development, nation branding, and global sports diplomacy, the article contributes to broader debates on symbolic power, visibility, and social transformation in the contemporary Middle East while offering insight into how the 2034 FIFA World Cup may further reshape gendered participation in Saudi Arabia's evolving global future.",
+    "real_title": "Cultural representation, soft power, and tourism futures in Vision 2030: Saudi Arabia's path toward the 2034 FIFA World Cup"
+  },
+  "10.1097/HP.0000000000002159": {
+    "type": "doi",
+    "id": "10.1097/HP.0000000000002159",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-05 00:15:43.625104",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: From Knowledge Gaps to Trust: Investigating Public Views on Low-dose Radiation\n\nABSTRACT: This study presents a qualitative analysis of eight focus groups conducted in November 2024 to examine public perceptions, misconceptions, and informational needs related to low-dose radiation (LDR). Participants from diverse backgrounds discussed trust in science, perceived risk, personal experience, media influence, and expert communication. Initial uncertainty and skepticism were common, with many conflating LDR with high-dose exposure and nuclear accidents. Conflicting media portrayals, limited educational resources, and distrust of industry-funded research compounded this uncertainty. Trust in scientific authority was conditional: participants valued academic and government-backed research but were cautious of findings influenced by politics or corporations. Canadian studies were generally perceived as more credible than US research due to differences in regulatory and accountability frameworks. Risk perception was not static; expert presentations clarified the natural presence of radiation and its medical and environmental applications, leading to shifts in understanding in some groups, though skepticism persisted in others. Personal experiences, such as undergoing radiation therapy, and media representations shaped interpretations of risk. Across all groups, participants emphasized the need for transparent, emotionally resonant, and audience-specific communication. Recommendations included using trained science communicators, leveraging multimedia tools and social media platforms, and providing public health resources such as radon test kits and more precise risk-benefit explanations. Findings suggest that knowledge, experience, media, and institutional trust influence the public’s understanding of LDR. Targeted, empathetic communication, combined with transparency in research, can foster a more informed public discourse. These insights have implications for public health communication, policymaking, and strategies to engage audiences on complex scientific topics (e.g., LDR) in a skeptical, media-saturated environment.",
+    "real_title": "From Knowledge Gaps to Trust: Investigating Public Views on Low-dose Radiation"
+  },
+  "10.1111/bjso.70099": {
+    "type": "doi",
+    "id": "10.1111/bjso.70099",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-05 00:15:43.648248",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Digitizing fear: Identity, threat and collective mobilization through social media posts during the 2021 election campaigns in West Bengal, India\n\nABSTRACT: Abstract\n                  Political campaigns widely use fear speech to appraise historically salient identity‐based differences and mobilize voters. Despite ample literature to support fear speech's effectiveness in mobilizing collective violence, empirical evidence exploring its nuances and mechanisms in electoral contexts is limited. The current study examines online fear speech used by competing political candidates in the pre‐electoral period during the 2021 State Assembly Elections in West Bengal, India. Using qualitative content analysis, we coded 391 publicly available Facebook posts on the group and personal accounts of the candidates, during the 3 weeks leading up to the elections. The analysis focused on the types and intensity of fear speech, its use across constituencies and party candidates, and how existing communal and partisan threats were appraised using fear speech. Findings highlight the strategic use of violent vs. non‐violent fear speech representing the socio‐political history of the context and the cultural values represented by each party, and the affordances of social media as a platform for political and electoral campaigning and collective mobilization.",
+    "real_title": "Digitizing fear: Identity, threat and collective mobilization through social media posts during the 2021 election campaigns in West Bengal, India"
+  },
+  "10.1371/journal.pone.0349342": {
+    "type": "doi",
+    "id": "10.1371/journal.pone.0349342",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-05 00:15:43.671500",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: Iran’s great scientific divergence: The Middle-Income trap and the Political Economy of Science Policy\n\nABSTRACT: \n                    This study examines how the 1979 Iranian Revolution altered Iran’s long-term scientific development using publication and citation data for 1960–2024. Combining longitudinal scientometric analysis with counterfactual modeling, we identify a major structural break in Iran’s research trajectory after 1979. Iran experienced a substantial post-2000 recovery in publication\n                    volume\n                    , but this recovery was accompanied by a persistent\n                    quality\n                    gap, with Field-Weighted Citation Impact (FWCI) and top-cited-paper shares remaining below those of several comparator systems. To assess the long-run opportunity cost of the disruption, we use two complementary counterfactual strategies: a comparison-based Synthetic Control Method (SCM) and a set of developmental-growth proxy scenarios. Across specifications, the qualitative conclusion is stable: the post-1979 interruption is associated with a durable loss of scientific compounding capacity. At the same time, the quantitative magnitude of the cumulative shortfall is sensitive to counterfactual specification, indicating that no single benchmark should be treated as a definitive historical forecast. We therefore interpret the SCM results as comparison-based benchmarks and the developmental-growth proxies as illustrative upper- and mid-range scenarios rather than literal one-to-one counterfactuals. We interpret these findings through the lens of the\n                    Middle-Income Trap\n                    (MIT) and the political economy of the\n                    Rentier State\n                    . We argue that Iran’s post-revolutionary science policy contributed to a quantity–quality paradox in which expansion in scientific output was not matched by comparable gains in global scientific influence, while also recognizing that observed citation-impact measures are shaped by international collaboration constraints and bibliometric coverage limitations. The findings highlight the long-run developmental cost of political disruption while emphasizing that sustained scientific catch-up depends not only on output growth, but also on institutional continuity, international integration, and incentive structures that reward impact rather than volume alone.\n                  ",
+    "real_title": "Iran’s great scientific divergence: The Middle-Income trap and the Political Economy of Science Policy"
+  },
+  "10.1038/d41586-026-01779-z": {
+    "type": "doi",
+    "id": "10.1038/d41586-026-01779-z",
+    "url": null,
+    "title": "Unknown Title",
+    "status": "ANALYZED",
+    "retry": 0,
+    "ts": "2026-06-05 00:15:43.694551",
+    "local_path": null,
+    "content_type": "ABSTRACT_ONLY",
+    "abstract_content": "TITLE: White House proposes vast overhaul of US science funding: what you need to know\n\nABSTRACT: 无摘要",
+    "real_title": "White House proposes vast overhaul of US science funding: what you need to know"
   }
 }
